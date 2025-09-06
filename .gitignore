@@ -1,2 +1,5 @@
 cache/
 *.mdl
+# Ignore Python cache
+__pycache__/
+*.py[cod]

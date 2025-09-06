@@ -18,10 +18,14 @@ Note that the blank entries means there is no such argument, we enforce such emp
 
 ## [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master)
 
+The following code assume your path at the repo's root ```./SciEvent```
+
+Setup virtual env: ```conda env create -f degree.yml```
+
 ### Data Preprocessing
+
 Please follow these code to preprocess SciEvent data for DEGREE format:
 
-The following code assume your path at the repo's root ```./SciEvent```
 ```bash
 python data_scripts/DEGREE/prepare_for_DEGREE.py
 # By default input path will be SciEvent_data/raw and output "all_data.json" will be save at SciEvent_data/DEGREE/processed
@@ -64,37 +68,37 @@ Very similar to above, but some input and output path are different on the confi
 ```bash
 # Ablate on ACL:
 # Generate data:
-python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_acl.json
+python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_acl.json
 # Train:
-python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_acl.json
+python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_acl.json
 ```
 ```bash
 # Ablate on BIOINFO:
 # Generate data:
-python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_bioinfo.json
+python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_bioinfo.json
 # Train:
-python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_bioinfo.json
+python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_bioinfo.json
 ```
 ```bash
 # Ablate on CSCW:
 # Generate data:
-python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_cscw.json
+python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_cscw.json
 # Train:
-python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_cscw.json
+python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_cscw.json
 ```
 ```bash
 # Ablate on DH:
 # Generate data:
-python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_dh.json
+python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_dh.json
 # Train:
-python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_dh.json
+python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_dh.json
 ```
 ```bash
 # Ablate on JMIR:
 # Generate data:
-python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_jmir.json
+python baselines/DEGREE/degree/generate_data_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_jmir.json
 # Train:
-python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_no_jmir.json
+python baselines/DEGREE/degree/train_degree_scievent.py -c baselines/DEGREE/config/config_degree_scievent_no_jmir.json
 ```
 
 ### Evaluation
@@ -106,12 +110,77 @@ Of course, you can use any ablation model you trained above as well:
 ```bash
 python baselines/DEGREE/degree/eval_scievent.py -c [path_to_your_ablation_config] -e [path_to_your_ablation_mdl]
 ```
+To compare with human performance, we use same model as fully trained (not ablation) model, but only evalute on a subset of data
+```bash
+python baselines/DEGREE/degree/eval_scievent.py -c baselines/DEGREE/config/config_degree_scievent_subset.json -e [same_mdl_for_full_data_trainig]
+```
 
 ## [OneIE](https://blender.cs.illinois.edu/software/oneie/)
 
+The following code assume your path at the repo's root ```./SciEvent```
+
+Setup virtual env: ```conda env create -f oneie.yml```
+
+### Data Preprocessing
+Please follow these code to preprocess SciEvent data for ONEIE format:
+
+
+
+OneIE and DEGREE share similar input structure, we only need to rename ```wnd_id``` into ```sent_id```. Following will prepare all split and ablated training data.
+```bash
+bash data_scripts/ONEIE/wnd_id_rename.sh
+```
+
+### Training
+Use following for training
+```bash
+python baselines/ONEIE/train.py -c baselines/ONEIE/config/config_oneie_scievent.json
+```
+Or if you want to train ablated model(s):
+```bash
+# ONLY TRAIN ONE AT A TIME!!!!
+python baselines/ONEIE/train.py -c baselines/ONEIE/config/config_oneie_scievent_no_acl.json
+python baselines/ONEIE/train.py -c baselines/ONEIE/config/config_oneie_scievent_no_bioinfo.json
+python baselines/ONEIE/train.py -c baselines/ONEIE/config/config_oneie_scievent_no_cscw.json
+python baselines/ONEIE/train.py -c baselines/ONEIE/config/config_oneie_scievent_no_dh.json
+python baselines/ONEIE/train.py -c baselines/ONEIE/config/config_oneie_scievent_no_jmir.json
+```
+
+### Evaluations
+Full data:
+```bash
+python baselines/ONEIE/json_to_txt_for_pred.py --input_jsonl baselines/ONEIE/output/scievent/full_data/20250421_140654/result.test.json --output_dir baselines/ONEIE/txt/full_data
+python baselines/ONEIE/predict.py -m baselines/ONEIE/output/scievent/full_data/20250421_140654/best.role.mdl -i baselines/ONEIE/txt/full_data -o baselines/ONEIE/output_json/full_data --format txt
+python baselines/ONEIE/convert_oneie_to_degree_json.py --pred_dir baselines/ONEIE/output_json/full_data --output_file baselines/ONEIE/eval_data/full_data/oneie_preds_degree_format.json
+python baselines/ONEIE/EM_overlap_eval.py --pred baselines/ONEIE/eval_data/full_data/oneie_preds_degree_format.json --gold SciEvent_data/ONEIE/all_splits/test.oneie.json
+```
+
+Ablation:
+```bash
+python baselines/ONEIE/json_to_txt_for_pred.py --input_jsonl [result.test.json_in_output_folder] --output_dir [txt_file_dir]
+python baselines/ONEIE/predict.py -m [Ablation_mdl] -i [txt_file_dir] -o [output_json_dir] --format txt
+python baselines/ONEIE/convert_oneie_to_degree_json.py --pred_dir [output_json_dir] --output_file [json_in_degree_format_output]
+python baselines/ONEIE/EM_overlap_eval.py --pred [json_in_degree_format_output] --gold [ground_truth]
+
+# use no ACL as example:
+python baselines/ONEIE/json_to_txt_for_pred.py --input_jsonl baselines/ONEIE/output/scievent/no_acl/20250426_231744/result.test.json --output_dir baselines/ONEIE/txt/no_acl
+python baselines/ONEIE/predict.py -m baselines/ONEIE/output/scievent/no_acl/20250426_231744/best.role.mdl -i baselines/ONEIE/txt/no_acl -o baselines/ONEIE/output_json/no_acl --format txt
+python baselines/ONEIE/convert_oneie_to_degree_json.py --pred_dir baselines/ONEIE/output_json/no_acl --output_file baselines/ONEIE/eval_data/no_acl/oneie_preds_degree_format.json
+python baselines/ONEIE/EM_overlap_eval.py --pred baselines/ONEIE/eval_data/no_acl/oneie_preds_degree_format.json --gold SciEvent_data/ONEIE/all_splits/test.oneie.json
+```
+
+Subset performance (to compare with human):
+```bash
+python data_scripts/ONEIE/filter.py -filter SciEvent_data/HUMAN/human_annotation.json -input baselines/ONEIE/txt/full_data -output baselines/ONEIE/txt/human_subset
+python baselines/ONEIE/predict.py -m baselines/ONEIE/output/scievent/full_data/20250421_140654/best.role.mdl -i baselines/ONEIE/txt/human_subset -o baselines/ONEIE/output_json/human_subset --format txt
+python baselines/ONEIE/convert_oneie_to_degree_json.py --pred_dir baselines/ONEIE/output_json/human_subset --output_file baselines/ONEIE/eval_data/human_subset/oneie_preds_degree_format.json
+python baselines/ONEIE/EM_overlap_eval.py --pred baselines/ONEIE/eval_data/human_subset/oneie_preds_degree_format.json --gold SciEvent_data/ONEIE/human_subset/test_subset.oneie.json
+```
 
 ## [EEQA](https://github.com/xinyadu/eeqa/tree/master)
+The following code assume your path at the repo's root ```./SciEvent```
 
+Setup virtual env: ```conda env create -f eeqa.yml```
 
 
 
@@ -119,6 +188,8 @@ python baselines/DEGREE/degree/eval_scievent.py -c [path_to_your_ablation_config
 
 
 
+
+## Human Evaluation 
 
 
 # Model Finetuning

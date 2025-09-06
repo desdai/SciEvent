@@ -3,18 +3,18 @@
     "gpu_device": 1,
     "seed": 0,
   
-    "train_file": "./SciEvent_data/DEGREE/all_splits/train.json",
-    "dev_file": "./SciEvent_data/DEGREE/all_splits/dev.json",
-    "test_file": "./SciEvent_data/DEGREE/all_splits/test.json",
+    "train_file": "SciEvent_data/DEGREE/all_splits/train.json",
+    "dev_file": "SciEvent_data/DEGREE/all_splits/dev.json",
+    "test_file": "SciEvent_data/DEGREE/all_splits/test.json",
     
-    "finetune_dir": "./SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data",
-    "train_finetune_file": "./SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/train_all.pkl",
-    "dev_finetune_file": "./SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/dev_all.pkl",
-    "test_finetune_file": "./SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/test_all.pkl",
-    "vocab_file": "./SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/vocab.json",
+    "finetune_dir": "SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data",
+    "train_finetune_file": "SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/train_all.pkl",
+    "dev_finetune_file": "SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/dev_all.pkl",
+    "test_finetune_file": "SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/test_all.pkl",
+    "vocab_file": "SciEvent_data/DEGREE/finetune_data/degree_e2e_scievent/full_data/vocab.json",
 
-    "output_dir": "./baselines/DEGREE/output/degree_e2e_scievent/full_data/",
-    "cache_dir": "./cache",
+    "output_dir": "baselines/DEGREE/output/degree_e2e_scievent/full_data/",
+    "cache_dir": "baselines/DEGREE/cache",
     "model_name": "facebook/bart-large",
 
     "input_style": ["event_type_sent", "keywords", "template"],

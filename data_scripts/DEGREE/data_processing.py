@@ -9,7 +9,7 @@ def load_annotated_data(input_path):
         data = json.load(f)
     return data["papers"]
 
-def init_tokenizer(model_name="facebook/bart-large", cache_dir="baselines/degree/cache"):
+def init_tokenizer(model_name="facebook/bart-large", cache_dir="baselines/DEGREE/cache"):
     tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
     special_tokens = ['<Trigger>', '<sep>']
     tokenizer.add_tokens(special_tokens)

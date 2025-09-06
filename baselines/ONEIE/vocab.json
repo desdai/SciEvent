@@ -1,0 +1,42 @@
+{
+  "event_type_itos": [
+    "Background/Introduction",
+    "Methods/Approach",
+    "Results/Findings",
+    "Conclusions/Implications"
+  ],
+  "event_type_stoi": {
+    "Background/Introduction": 0,
+    "Methods/Approach": 1,
+    "Results/Findings": 2,
+    "Conclusions/Implications": 3
+  },
+  "role_type_itos": [
+    "Agent",
+    "Analysis",
+    "Challenge",
+    "Context",
+    "Method",
+    "PrimaryObject",
+    "SecondaryObject",
+    "Results",
+    "Purpose",
+    "Ethical",
+    "Implications",
+    "Contradictions"
+  ],
+  "role_type_stoi": {
+    "Agent": 0,
+    "Analysis": 1,
+    "Challenge": 2,
+    "Context": 3,
+    "Method": 4,
+    "PrimaryObject": 5,
+    "SecondaryObject":6,
+    "Results": 7,
+    "Purpose": 8,
+    "Ethical": 9,
+    "Implications": 10,
+    "Contradictions": 11
+  }
+}

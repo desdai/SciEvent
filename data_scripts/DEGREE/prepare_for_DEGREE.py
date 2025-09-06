@@ -21,7 +21,7 @@ def main(input_dir: str, output_dir: str, merged_filename="all_data.json"):
     merged_path = os.path.join(output_dir, merged_filename)
     with open(merged_path, "w") as fout:
         for entry in all_entries:
-            fout.write(json.dumps(entry) + "\n")
+            fout.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     # Copy vocab.json
     # shutil.copy(vocab_path, os.path.join(output_dir, "vocab.json"))

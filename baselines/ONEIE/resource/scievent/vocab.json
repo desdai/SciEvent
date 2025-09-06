@@ -1,0 +1,26 @@
+{
+    "event_type": [
+      "Background_Introduction",
+      "Methods_Approach",
+      "Results_Findings",
+      "Conclusions_Implications"
+    ],
+    "role_type": [
+      "Agent",
+      "PrimaryObject",
+      "SecondaryObject",
+      "Context",
+      "Method",
+      "Results",
+      "Challenge",
+      "Analysis",
+      "Purpose",
+      "Ethical",
+      "Implications",
+      "Contradictions"
+    ],
+    "entity_type": [
+      "ScientificEntity"
+    ]
+}
+  

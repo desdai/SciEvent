@@ -1,0 +1,52 @@
+{
+    "bert_model_name": "bert-large-cased",
+    "bert_cache_dir": "baselines/ONEIE/bert",
+    "multi_piece_strategy": "average",
+    "bert_dropout": 0.5,
+    "use_extra_bert": true,
+    "extra_bert": -3,
+  
+    "use_global_features": true,
+    "global_features": [],
+    "global_warmup": 0,
+  
+    "linear_dropout": 0.4,
+    "linear_bias": true,
+    "entity_hidden_num": 150,
+    "mention_hidden_num": 150,
+    "event_hidden_num": 600,
+    "relation_hidden_num": 150,
+    "role_hidden_num": 600,
+    "use_entity_type": true,
+    "beam_size": 20,
+    "beta_v": 2,
+    "beta_e": 2,
+    "relation_mask_self": true,
+    "relation_directional": false,
+    "symmetric_relations": [],
+  
+    "train_file": "SciEvent_data/ONEIE/ablation/no_cscw/train_without_cscw.oneie.json",
+    "dev_file": "SciEvent_data/ONEIE/all_splits/dev.oneie.json",
+    "test_file": "SciEvent_data/ONEIE/all_splits/test.oneie.json",
+    "log_path": "baselines/ONEIE/output/scievent/no_cscw",
+    "valid_pattern_path": "baselines/ONEIE/resource/scievent",
+    "vocab_file": "baselines/ONEIE/resource/scievent/vocab.json",
+
+    "train_argument": true,
+    "ignore_title": false,
+    "ignore_first_header": false,
+  
+    "accumulate_step": 1,
+    "batch_size": 2,
+    "eval_batch_size": 2,
+    "max_epoch": 60,
+    "learning_rate": 1e-3,
+    "bert_learning_rate": 1e-5,
+    "weight_decay": 1e-3,
+    "bert_weight_decay": 1e-5,
+    "warmup_epoch": 5,
+    "grad_clipping": 5.0,
+  
+    "use_gpu": true,
+    "gpu_device": 0
+  }
