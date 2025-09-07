@@ -124,8 +124,6 @@ Setup virtual env: ```conda env create -f oneie.yml```
 ### Data Preprocessing
 Please follow these code to preprocess SciEvent data for ONEIE format:
 
-
-
 OneIE and DEGREE share similar input structure, we only need to rename ```wnd_id``` into ```sent_id```. Following will prepare all split and ablated training data.
 ```bash
 bash data_scripts/ONEIE/wnd_id_rename.sh
@@ -181,6 +179,87 @@ python baselines/ONEIE/EM_overlap_eval.py --pred baselines/ONEIE/eval_data/human
 The following code assume your path at the repo's root ```./SciEvent```
 
 Setup virtual env: ```conda env create -f eeqa.yml```
+
+
+
+
+### Data Preprocessing
+Please follow these code to preprocess SciEvent data for ONEIE format:
+
+We are also using DEGREE format and convert them into EEQA input format, splits and ablation data will be saved to ```SciEvent_data/EEQA``` in default
+
+```bash
+bash data_scripts/EEQA/convert_to_eeqa.sh
+```
+
+### Train and eval models
+
+**Trigger Detection**
+
+``` bash baselines/EEQA/code/script_trigger_qa.sh ```
+
+Default output path: ```baselines/EEQA/scievent_trigger_qa_output/full_data```
+
+Ablations:
+
+Using acl ablation as example: 
+``` bash baselines/EEQA/code/script_trigger_qa_no_acl.sh ```
+
+Default output path: ```baselines/EEQA/scievent_trigger_qa_output/no_acl```
+
+You can change acl to other venues to train other ablations.
+
+
+**Argument Extraction**
+SciEvent uses the best performing template and setting reported by EEQA and after preliminary experiment. 
+
+Full data With dynamic threshold:
+  
+```bash baselines/EEQA/code/script_args_qa_thresh.sh```
+
+Default output path: ```baselines/EEQA/scievent_args_qa_thresh_output/full_data```
+
+Ablations:
+
+```bash baselines/EEQA/code/script_args_qa_thresh_no_acl.sh```
+
+Default output path: ```baselines/EEQA/scievent_args_qa_thresh_output/no_acl```
+
+
+**Evaluations**
+
+Full data:
+
+```bash
+python baselines/EEQA/scievent_eval/prepare_for_eval.py \
+  -arg_raw baselines/EEQA/scievent_args_qa_thresh_output/full_data/best_args/arg_predictions.json \
+  -trig_pred baselines/EEQA/scievent_trigger_qa_output/full_data/best/trigger_predictions.json \
+  -gold SciEvent_data/EEQA/all_splits/test.eeqa.json \
+  -final_out baselines/EEQA/scievent_eval/full_data/arg_predictions_final.json
+
+python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/scievent_eval/full_data/arg_predictions_final.json --gold SciEvent_data/EEQA/all_splits/test.eeqa.json
+```
+
+Ablations (use no_acl as example, please change for no_[venu_name] for other ablations):
+
+```bash
+python baselines/EEQA/scievent_eval/prepare_for_eval.py \
+  -arg_raw baselines/EEQA/scievent_args_qa_thresh_output/no_acl/best_args/arg_predictions.json \
+  -trig_pred baselines/EEQA/scievent_trigger_qa_output/no_acl/best/trigger_predictions.json \
+  -gold SciEvent_data/EEQA/all_splits/test.eeqa.json \
+  -final_out baselines/EEQA/scievent_eval/no_acl/arg_predictions_final.json
+
+python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/scievent_eval/no_acl/arg_predictions_final.json --gold SciEvent_data/EEQA/all_splits/test.eeqa.json
+```
+
+Subset data to compare with human performance:
+
+```bash
+# AFTER running the full data evaluation:
+python baselines/EEQA/scievent_eval/prepare_for_subset.py
+
+python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/scievent_eval/human_subset/arg_predictions_subset.json --gold SciEvent_data/EEQA/human_subset/test_subset.eeqa.json
+```
 
 
 
