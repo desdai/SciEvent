@@ -1,0 +1,240 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_29",
+      "abstract": "This paper describes a collaborative project designed to meet the needs of communities interested in Gə'əz language texts - and other under-resourced manuscript traditions - by developing an easy-to-use open-source tool that converts images of manuscript pages into a transcription using optical character recognition (OCR). Our computational tool incorporates a custom data curation process to address the language-specific facets of Gə'əz coupled with a Convolutional Recurrent Neural Network to perform the transcription. An open-source OCR transcription tool for digitized Gə'əz manuscripts can be used by students and scholars of Ethiopian manuscripts to create a substantial and computer-searchable corpus of transcribed and digitized Gə'əz texts, opening access to vital resources for sustaining the history and living culture of Ethiopia and its people. With suitable ground-truth, our open-source OCR transcription tool can also be retrained to read other under-resourced scripts. The tool we developed can be run without a graphics processing unit (GPU), meaning that it requires much less computing power than most other modern AI systems. It can be run offline from a personal computer, or accessed via a web client and potentially in the web browser of a smartphone. The paper describes our team's collaborative development of this first open-source tool for Gə'əz manuscript transcription that is both highly accurate and accessible to communities interested in Gə'əz books and the texts they contain.",
+      "events": [
+        {
+          "Background/Introduction": "collbarative project",
+          "Text": "This paper describes a collaborative project designed to meet the needs of communities interested in Gə'əz language texts - and other under-resourced manuscript traditions - by developing an easy-to-use open-source tool that converts images of manuscript pages into a transcription using optical character recognition (OCR).",
+          "Main Action": "describes",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "collaborative project"
+              ],
+              "Primary Modifier": [
+                "designed to meet the needs of communities interested in Gə'əz language texts - and other under-resourced manuscript traditions"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "developing an easy-to-use open-source tool that converts images of manuscript pages into a transcription",
+              "using optical character recognition (OCR)."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "computational tool",
+          "Text": "Our computational tool incorporates a custom data curation process to address the language-specific facets of Gə'əz coupled with a Convolutional Recurrent Neural Network to perform the transcription. An open-source OCR transcription tool for digitized Gə'əz manuscripts can be used by students and scholars of Ethiopian manuscripts to create a substantial and computer-searchable corpus of transcribed and digitized Gə'əz texts, opening access to vital resources for sustaining the history and living culture of Ethiopia and its people.",
+          "Main Action": "incorporates",
+          "Arguments": {
+            "Agent": [
+              "Our computational tool"
+            ],
+            "Object": {
+              "Primary Object": [
+                "custom data curation process"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "to address the language-specific facets of Gə'əz coupled",
+              "to create a substantial and computer-searchable corpus of transcribed and digitized Gə'əz texts"
+            ],
+            "Method": [
+              "Convolutional Recurrent Neural Network to perform the transcription.",
+              "An open-source OCR transcription tool for digitized Gə'əz manuscripts can be used by students and scholars of Ethiopian manuscripts"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "opening access to vital resources for sustaining the history and living culture of Ethiopia and its people."
+            ],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "the tool developed",
+          "Text": "With suitable ground-truth, our open-source OCR transcription tool can also be retrained to read other under-resourced scripts. The tool we developed can be run without a graphics processing unit (GPU), meaning that it requires much less computing power than most other modern AI systems. It can be run offline from a personal computer, or accessed via a web client and potentially in the web browser of a smartphone.",
+          "Main Action": "can also be retrained",
+          "Arguments": {
+            "Agent": [
+              "open-source OCR transcription too"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "With suitable ground-truth"
+            ],
+            "Purpose": [
+              "to read other under-resourced scripts."
+            ],
+            "Method": [],
+            "Results": [
+              "It can be run offline from a personal computer",
+              "or accessed via a web client and potentially in the web browser of a smartphone.",
+              "The tool we developed can be run without a graphics processing unit (GPU)"
+            ],
+            "Analysis": [
+              "it requires much less computing power than most other modern AI systems."
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "open source tool",
+          "Text": "The paper describes our team's collaborative development of this first open-source tool for Gə'əz manuscript transcription that is both highly accurate and accessible to communities interested in Gə'əz books and the texts they contain.",
+          "Main Action": "describes",
+          "Arguments": {
+            "Agent": [
+              "The paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our team's"
+              ],
+              "Primary Modifier": [
+                "collaborative development of this first open-source tool for Gə'əz manuscript transcription"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "highly accurate and accessible to communities interested in Gə'əz books and the texts they contain."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_50",
+      "abstract": "The article sets up a critique of Sentiment Analysis (SA) tools in literary studies, both from a theoretical and a computational point of view. In the first section, a possible use of SA in narratology and reader response studies is discussed, highlighting the gaps between literary theories and computational models, and suggesting possible solutions to fill them. In the second section, a stratified taxonomy of SA tools is proposed, which distinguishes: (1) the emotion theory adopted by the tool; (2) the method used to build the emotion resources; (3) the technique adopted to accomplish the analysis. A critical survey of six representative SA tools for literary studies (Syuzhet, Vader, SentiArt, SEANCE, Stanford SA, and Transformers Pipelines) closes the article.",
+      "events": [
+        {
+          "Background/Introduction": "sentiment analysis tool",
+          "Text": "The article sets up a critique of Sentiment Analysis (SA) tools in literary studies, both from a theoretical and a computational point of view.",
+          "Main Action": "sets up",
+          "Arguments": {
+            "Agent": [
+              "The article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "critique"
+              ],
+              "Primary Modifier": [
+                "of Sentiment Analysis (SA) tools in literary studies"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "from a theoretical and a computational point of view."
+            ],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "use of SA in narratology",
+          "Text": "In the first section, a possible use of SA in narratology and reader response studies is discussed, highlighting the gaps between literary theories and computational models, and suggesting possible solutions to fill them. In the second section, a stratified taxonomy of SA tools is proposed, which distinguishes: (1) the emotion theory adopted by the tool; (2) the method used to build the emotion resources; (3) the technique adopted to accomplish the analysis.",
+          "Main Action": "is discussed",
+          "Arguments": {
+            "Agent": [
+              "a possible use of SA in narratology and reader response studies"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "highlighting the gaps between literary theories and computational models",
+              "and suggesting possible solutions to fill them."
+            ],
+            "Purpose": [],
+            "Method": [
+              "a stratified taxonomy of SA tools is proposed",
+              "the emotion theory adopted by the tool;",
+              "the method used to build the emotion resources;",
+              "the technique adopted to accomplish the analysis"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "criticial survey",
+          "Text": "A critical survey of six representative SA tools for literary studies (Syuzhet, Vader, SentiArt, SEANCE, Stanford SA, and Transformers Pipelines) closes the article.",
+          "Main Action": "closes",
+          "Arguments": {
+            "Agent": [
+              "A critical survey of six representative SA tools for literary studies (Syuzhet, Vader, SentiArt, SEANCE, Stanford SA, and Transformers Pipelines"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the article."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

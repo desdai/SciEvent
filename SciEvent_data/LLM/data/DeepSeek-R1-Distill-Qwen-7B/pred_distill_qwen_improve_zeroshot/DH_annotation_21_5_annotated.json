@@ -1,0 +1,336 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_18",
+      "abstract": "Current theories about the significance of annotations in literary studies are based primarily on assumptions developed in print culture about verbal texts. In these textual theories, the text is typically present, authorized, and centralized as the ideal text for an ideal reader, and to annotate is to add authorized comments in a sociotechnical system that includes publication, dissemination, and reception. To audiate is to imagine a song that's not playing. In music learning theory, audiation is based on the concept that the musician learns to play music by developing their own musical aptitude, her individual interpretation of a musical score based on her particular experience of the music. This short article introduces audiation as an alternate theoretical framing for articulating the significance of personal literary annotations. Comparing commentary on psalms in the Middle Ages to IIIF (International Image Interoperability Framework) web annotations, we use the concept of audiation to situate annotations within literary study in terms of a more capacious understanding of the individual's interpretation of text and of the reading experience as part of an unauthorized, distributed, and decentralized system. By bringing together theories and technologies of annotation with sound, we offer the concept of audiated annotations as a means to re-evaluate modes of access, discovery, and analysis of cultural objects in digital sound studies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Current theories about the significance of annotations in literary studies are based primarily on assumptions developed in print culture about verbal texts. In these textual theories, the text is typically present, authorized, and centralized as the ideal text for an ideal reader, and to annotate is to add authorized comments in a sociotechnical system that includes publication, dissemination, and reception.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "In these textual theories"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the text is typically present, authorized, and centralized as the ideal text for an ideal reader"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "to annotate is to add authorized comments in a sociotechnical system that includes publication, dissemination, and reception"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "These textual theories assume developments in print culture about verbal texts and centralize the idea of the 'ideal reader' who receives the 'ideal text'. This creates a framework where annotation functions as an additive, authoritative comment.",
+              "Textual theories often take the text as given, assuming it is already fully formed and intended for readers outside the immediate context of its creation. Annotations then serve to extend understanding, provide additional insights, or correct misinterpretations within this pre-existing structure."
+            ],
+            "Purpose": [
+              "To establish the basis for current theories about the significance of annotations in literary studies by highlighting assumptions rooted in print culture and the concept of the ideal reader.",
+              "Clarify why annotations have been studied traditionally under the assumption that texts are static, canonical, and designed for a particular audience, thereby limiting our understanding of how annotations might vary depending on contextual factors such as digital media or collaborative editing."
+            ],
+            "Method": [
+              "Draw upon assumptions developed in print culture about verbal texts",
+              "Analyze textual theories focusing on the role of annotation within established models of authorship and reader engagement."
+            ],
+            "Results": [
+              "Identified limitations of traditional textual theories in explaining contemporary uses of annotations, particularly those emerging in digital environments where texts may evolve post-publication.",
+              "Highlighted the gap between static, centralized models and dynamic, multi-user interactions facilitated by new technologies."
+            ],
+            "Analysis": [
+              "Questions the validity of applying print-based norms to digital texts where collaboration and real-time updates challenge the notion of a singular 'ideal reader'.",
+              "Examines how evolving concepts of authorship and reader interaction impact traditional notions of textual authority and criticism."
+            ],
+            "Challenge": [
+              "Assumes that texts remain fixed entities prior to annotation, ignoring possibilities of redefinition during annotation processes.",
+              "Lacks consideration for diverse cultural contexts influencing annotation practices across different communities and historical periods."
+            ],
+            "Ethical": [
+              "Does not address potential biases inherent in assigning authority through annotation practices.",
+              "No discussion of equity or representation issues arising from differing levels of access to annotated materials."
+            ],
+            "Implications": [
+              "Stimulates further interdisciplinary dialogue between literary studies and digital humanities to refine theoretical frameworks.",
+              "Encourages empirical exploration of annotation dynamics in various media forms beyond traditional print."
+            ],
+            "Contradictions": [
+              "None evident in the provided excerpt; however, implicit contradictions arise from comparing static print-based theories with interactive digital spaces where annotations can redefine texts dynamically."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To audiate is to imagine a song that's not playing. In music learning theory, audiation is based on the concept that the musician learns to play music by developing their own musical aptitude, her individual interpretation of a musical score based on her particular experience of the music. This short article introduces audiation as an alternate theoretical framing for articulating the significance of personal literary annotations. Comparing commentary on psalms in the Middle Ages to IIIF (International Image Interoperability Framework) web annotations, we use the concept of audiation to situate annotations within literary study in terms of a more capacious understanding of the individual's interpretation of text and of the reading experience as part of an unauthorized, distributed, and decentralized system.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "In music learning theory"
+            ],
+            "Object": {
+              "Primary Object": [
+                "audition is to imagine a song that isn't playing."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "her individual interpretation of a musical score based on her experience of the music."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This short article introduces audiation as an alternate theoretical framing for articulating the significance of personal literary annotations."
+            ],
+            "Purpose": [
+              "The purpose of the article is to compare commentary on psalms in the Middle Ages to IIIF web annotations using the concept of audiation to understand how annotations relate to individual interpretations and reading experiences within an unauthorized, distributed, and decentralized system."
+            ],
+            "Method": [
+              "The method involves analyzing both historical commentaries and modern digital annotations through the lens of audiation theory to draw comparisons between traditional and contemporary annotation practices."
+            ],
+            "Results": [
+              "The analysis reveals similarities and differences in how individuals interpret texts across time and platforms, highlighting the role of personal interpretation in shaping textual meaning."
+            ],
+            "Analysis": [
+              "The authors argue that considering individual interpretations allows for a richer understanding of how people engage deeply with literature beyond mere textual analysis."
+            ],
+            "Challenge": [
+              "One challenge mentioned is accurately measuring the impact of these interpretations due to the decentralized nature of the systems being studied."
+            ],
+            "Ethical": [
+              "No explicit ethical considerations are discussed regarding the methods employed or the data analyzed."
+            ],
+            "Implications": [
+              "These findings suggest that personalized interpretations have significant implications for education, cultural preservation, and the development of digital humanities initiatives."
+            ],
+            "Contradictions": [
+              "There are no contradictions presented; instead, the paper presents alternative perspectives aligning with existing theories about reader engagement and interpretation."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "By bringing together theories and technologies of annotation with sound, we offer the concept of audiated annotations as a means to re-evaluate modes of access, discovery, and analysis of cultural objects in digital sound studies.",
+          "Main Action": "bringing together",
+          "Arguments": {
+            "Agent": [
+              "collaboration between theories and technologies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "annotation theory",
+                "sound technology"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "audited annotations"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "digital sound studies"
+            ],
+            "Purpose": [
+              "enhancing modes of access, discovery, and analysis of cultural objects"
+            ],
+            "Method": [
+              "integration of theoretical perspectives and technological tools"
+            ],
+            "Results": [
+              "improved engagement with cultural heritage items via auditory means"
+            ],
+            "Analysis": [
+              "providing deeper insights into analyzing cultural artifacts across different mediums"
+            ],
+            "Challenge": [
+              "balancing technical complexity with ease of implementation"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "opening doors for future research in integrated approaches"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_66",
+      "abstract": "This article describes the creation of a database of over 1 million images of eighteenth-century printers’ ornaments (or fleurons) using computer vision, and how the database was refined using machine learning. The successes and limitations of the method used are discussed, and the purpose of the database for research in the humanities is outlined. The article concludes with a summary of recent developments in the project, which include the addition of a visual search function provided by the Seebibyte Project.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This article describes the creation of a database of over 1 million images of eighteenth-century printers’ ornaments (or fleurons) using computer vision, and how the database was refined using machine learning.",
+          "Main Action": "describes",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a database"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "of over 1 million images of eighteenth-century printers’ ornaments (or fleurons)"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "using computer vision, and how the database was refined using machine learning"
+            ],
+            "Purpose": [
+              "to create a comprehensive resource for studying historical ornamental design"
+            ],
+            "Method": [
+              "computer vision algorithms and machine learning techniques were employed throughout the process"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The successes and limitations of the method used are discussed, and the purpose of the database for research in the humanities is outlined.",
+          "Main Action": "Discussions about...",
+          "Arguments": {
+            "Agent": [
+              "method",
+              "database"
+            ],
+            "Object": {
+              "Primary Object": [
+                "successes and limitations",
+                "purpose"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "evaluation of method",
+              "definition of purpose"
+            ],
+            "Purpose": [
+              "provide overview",
+              "clarify objective"
+            ],
+            "Method": [
+              "discuss",
+              "outline"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The article concludes with a summary of recent developments in the project, which include the addition of a visual search function provided by the Seebibyte Project.",
+          "Main Action": "The article concludes",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "A summary of recent developments in the project"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_57",
+      "abstract": "Sexist content is widespread on social media and can reduce women's psychological well-being and their willingness to participate in online discourse, making it a societal issue. To counter these effects, social media platforms employ moderators. To date, little is known about the effectiveness of different forms of moderation in creating a safe space and their acceptance, in particular from the perspective of women as members of the targeted group and users in general (rather than perpetrators). In this research, we propose that some common forms of moderation can be systematized along two facets of visibility, namely visibility of sexist content and of counterspeech. In an online experiment (N = 839), we manipulated these two facets and tested how they shaped social norms, feelings of safety, and intent to participate, as well as fairness, trustworthiness, and efficacy evaluations. In line with our predictions, deletion of sexist content - i.e., its invisibility - and (public) counterspeech - i.e., its visibility - against visible sexist content contributed to creating a safe space. Looking at the underlying psychological mechanism, we found that these effects were largely driven by changes in what was perceived normative in the presented context. Interestingly, deletion of sexist content was judged as less fair than counterspeech against visible sexist content. Our research contributes to a growing body of literature that highlights the importance of norms in creating safer online environments and provides practical implications for moderators for selecting actions that can be effective and accepted.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Sexist content is widespread on social media and can reduce women's psychological well-being and their willingness to participate in online discourse, making it a societal issue. To counter these effects, social media platforms employ moderators. To date, little is known about the effectiveness of different forms of moderation in creating a safe space and their acceptance, in particular from the perspective of women as members of the targeted group and users in general (rather than perpetrators).",
+          "Main Action": "To counter these effects",
+          "Arguments": {
+            "Agent": [
+              "Social media platforms"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Moderators"
+              ],
+              "Secondary Object": [
+                "Women's psychological well-being"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this research, we propose that some common forms of moderation can be systematized along two facets of visibility, namely visibility of sexist content and of counterspeech. In an online experiment (N = 839), we manipulated these two facets and tested how they shaped social norms, feelings of safety, and intent to participate, as well as fairness, trustworthiness, and efficacy evaluations.",
+          "Main Action": "we manipulate",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "online experiment"
+              ],
+              "Secondary Object": [
+                "two facets of visibility"
+              ]
+            },
+            "Context": [
+              "namely visibility of sexist content"
+            ],
+            "Purpose": [
+              "to test how they shaped social norms"
+            ],
+            "Method": [
+              "conducted an online experiment (N = 839)"
+            ],
+            "Results": [
+              "tested how they shaped social norms, feelings of safety, and intent to participate"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In line with our predictions, deletion of sexist content - i.e., its invisibility - and (public) counterspeech - i.e., its visibility - against visible sexist content contributed to creating a safe space. Looking at the underlying psychological mechanism, we found that these effects were largely driven by changes in what was perceived normative in the presented context. Interestingly, deletion of sexist content was judged as less fair than counterspeech against visible sexist content.",
+          "Main Action": "deletion of sexist content",
+          "Arguments": {
+            "Agent": [
+              "[researchers]"
+            ],
+            "Object": {
+              "Primary Object": [
+                "safe space"
+              ],
+              "Secondary Object": [
+                "perceived normativity in the presented context"
+              ]
+            },
+            "Context": [
+              "In line with our predictions, deletion of sexist content - i.e., its invisibility - and (public) counterspeech - i.e., its visibility - against visible sexist content contributed to creating a safe space.",
+              "Looking at the underlying psychological mechanism"
+            ],
+            "Purpose": [
+              "Testing hypotheses about how removing certain types of content affects perceptions of normalcy and creates safer environments online"
+            ],
+            "Method": [
+              "Experimental design involving manipulation of content presentation across various settings"
+            ],
+            "Results": [
+              "These effects were largely driven by changes in what was perceived normative in the presented context.",
+              "Interesting finding: deletion of sexist content was judged as less fair than counterspeech against visible sexist content."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Potential challenges included participant resistance to changing their views even when instructed otherwise"
+            ],
+            "Ethical": [
+              "Issues arising regarding fairness in content removal versus allowing opposing viewpoints expression — a trade-off between maintaining decorum and fostering dialogue"
+            ],
+            "Implications": [
+              "Suggesting further studies exploring similar dynamics under diverse conditions or integrating these principles into AI algorithms managing online discourse"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our research contributes to a growing body of literature that highlights the importance of norms in creating safer online environments and provides practical implications for moderators for selecting actions that can be effective and accepted.",
+          "Main Action": "Our research",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a growing body of literature"
+              ],
+              "Secondary Object": [
+                "moderators"
+              ]
+            },
+            "Context": [
+              "that highlights the importance of norms in creating safer online environments"
+            ],
+            "Purpose": [
+              "provides practical implications for moderators for selecting actions that can be effective and accepted."
+            ],
+            "Method": [
+              "Our research"
+            ],
+            "Results": [
+              "contributes to a growing body of literature",
+              "provides practical implications for moderators"
+            ],
+            "Analysis": [
+              "highlighting the importance of norms in creating safer online environments"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "practical implications for moderators for selecting actions that can be effective and accepted."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_249",
+      "abstract": "News sharing has become prevalent on many social media platforms. Users are not only exposed to news shared by others, but also actively share information with a diverse set of motivations. In this work, we propose five news sharing motivations based on the intrinsic and extrinsic factors found in prior literature. Through an online experiment, we further examine how a host of factors, including motivations, influence participants' decision to share news online. We then prompt participants to switch their original decision for extra compensation, observing how different news types, motivational and demographic factors may affect the switch. Our analysis suggests that sharing decisions can be reversed when a strong external stimulus (higher bonus) is presented. Further, there are motivational factors that independently influence participants' reversal decisions. Finally, using our work as an empirical basis, we propose designs for future new sharing systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "News sharing has become prevalent on many social media platforms. Users are not only exposed to news shared by others, but also actively share information with a diverse set of motivations.",
+          "Main Action": "Users actively share",
+          "Arguments": {
+            "Agent": [
+              "Users"
+            ],
+            "Object": {
+              "Primary Object": [
+                "news"
+              ],
+              "Secondary Object": [
+                "information",
+                "users"
+              ]
+            },
+            "Context": [
+              "News sharing has become prevalent on many social media platforms.",
+              "Users are not only exposed to news shared by others, but also actively share information with a diverse set of motivations."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we propose five news sharing motivations based on the intrinsic and extrinsic factors found in prior literature. Through an online experiment, we further examine how a host of factors, including motivations, influence participants' decision to share news online. We then prompt participants to switch their original decision for extra compensation, observing how different news types, motivational and demographic factors may affect the switch.",
+          "Main Action": "Propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "five news sharing motivations"
+              ],
+              "Secondary Object": [
+                "online experiment"
+              ]
+            },
+            "Context": [
+              "Prior literature",
+              "host of factors"
+            ],
+            "Purpose": [
+              "explore influences on participants' decision"
+            ],
+            "Method": [
+              "online experiment"
+            ],
+            "Results": [
+              "observing how different news types",
+              "motivational and demographic factors may affect the switch"
+            ],
+            "Analysis": [
+              "provide foundational info on the event"
+            ],
+            "Challenge": [
+              "constraints or weaknesses of the event"
+            ],
+            "Ethical": [
+              "ethical concerns"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our analysis suggests that sharing decisions can be reversed when a strong external stimulus (higher bonus) is presented. Further, there are motivational factors that independently influence participants' reversal decisions.",
+          "Main Action": "sharing decisions can be reversed",
+          "Arguments": {
+            "Agent": [
+              "our analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "sharing decisions"
+              ],
+              "Secondary Object": [
+                "reversal of sharing decisions"
+              ]
+            },
+            "Context": [
+              "a strong external stimulus (higher bonus) is presented"
+            ],
+            "Purpose": [
+              "explore whether such incentives reverse sharing behaviors"
+            ],
+            "Method": [
+              "experimental settings where participants were exposed to varying levels of rewards while making decisions about resource distribution"
+            ],
+            "Results": [
+              "increasing the bonus led to more frequent reversals of initial sharing decisions compared to lower incentives"
+            ],
+            "Analysis": [
+              "reasoning behind the results might delve into psychological motivations explaining why increased rewards prompt altered sharing behaviors"
+            ],
+            "Challenge": [
+              "no evident challenges mentioned in the abstract"
+            ],
+            "Ethical": [
+              "no evident ethical concerns mentioned in the abstract"
+            ],
+            "Implications": [
+              "extending this finding could lead to strategies enhancing cooperation in various contexts"
+            ],
+            "Contradictions": [
+              "none mentioned in the abstract"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, using our work as an empirical basis, we propose designs for future new sharing systems.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "designs for future new sharing systems"
+              ],
+              "Secondary Object": [
+                "sharing systems"
+              ]
+            },
+            "Context": [
+              "using our work as an empirical basis"
+            ],
+            "Purpose": [
+              "enhancing sharing systems"
+            ],
+            "Method": [
+              "implicit via prior work"
+            ],
+            "Results": [
+              "speculative until implementation"
+            ],
+            "Analysis": [
+              "involving deeper insights post-execution"
+            ],
+            "Challenge": [
+              "unresolved challenges post-proposal"
+            ],
+            "Ethical": [
+              "conceptual ethical considerations"
+            ],
+            "Implications": [
+              "broadening resource distribution networks"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

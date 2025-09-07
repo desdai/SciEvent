@@ -1,0 +1,452 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_414",
+      "abstract": "While there is high-quality online health information, a lot of recent work has unfortunately highlighted significant issues with the health content on social media platforms (e.g., fake news and misinformation), the consequences of which are severe in health care. One solution is to investigate methods that encourage users to post high-quality content. Incentives have been shown to work in many domains, but until recently, there was no method to provide financial incentives easily on social media for users to generate high-quality content. This study investigates the following question: What effect does the provision of incentives have on the creation of social media health care content? We analyzed 8328 health-related posts from an incentive-based platform (Steemit) and 1682 health-related posts from a traditional platform (Reddit). Using topic modeling and sentiment analysis–based methods in machine learning, we analyzed these posts across the following 3 dimensions: (1) emotion and language style using the IBM Watson Tone Analyzer service, (2) topic similarity and difference from contrastive topic modeling, and (3) the extent to which posts resemble clickbait. We also conducted a survey using 276 Amazon Mechanical Turk (MTurk) users and asked them to score the quality of Steemit and Reddit posts. Using the Watson Tone Analyzer in a sample of 2000 posts from Steemit and Reddit, we found that more than double the number of Steemit posts had a confident language style compared with Reddit posts (77 vs 30). Moreover, 50% more Steemit posts had analytical content and 33% less Steemit posts had a tentative language style compared with Reddit posts (619 vs 430 and 416 vs 627, respectively). Furthermore, more than double the number of Steemit posts were considered joyful compared with Reddit posts (435 vs 200), whereas negative posts (e.g., sadness, fear, and anger) were 33% less on Steemit than on Reddit (384 vs 569). Contrastive topic discovery showed that only 20% (2/10) of topics were common, and Steemit had more unique topics than Reddit (5 vs 3). Qualitatively, Steemit topics were more informational, while Reddit topics involved discussions, which may explain some of the quantitative differences. Manual labeling marked more Steemit headlines as clickbait than Reddit headlines (66 vs 26), and machine learning model labeling consistently identified a higher percentage of Steemit headlines as clickbait than Reddit headlines. In the survey, MTurk users said that at least 57% of Steemit posts had better quality than Reddit posts, and they were at least 52% more likely to like and comment on Steemit posts than Reddit posts. It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "While there is high-quality online health information, a lot of recent work has unfortunately highlighted significant issues with the health content on social media platforms (e.g., fake news and misinformation), the consequences of which are severe in health care. One solution is to investigate methods that encourage users to post high-quality content. Incentives have been shown to work in many domains, but until recently, there was no method to provide financial incentives easily on social media for users to generate high-quality content. This study investigates the following question: What effect does the provision of incentives have on the creation of social media health care content?",
+          "Main Action": "Investigates",
+          "Arguments": {
+            "Agent": [
+              "[Researchers]"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Incentives"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Users"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "High-quality online health information",
+              "Issues with social media health content",
+              "Consequences in healthcare"
+            ],
+            "Purpose": [
+              "Evaluate the effectiveness of incentives in boosting quality health posts"
+            ],
+            "Method": [
+              "Controlled experiments across diverse social media platforms",
+              "Comparing metrics between incentive-exposed and non-exposure groups"
+            ],
+            "Results": [
+              "Increased engagement levels among participants",
+              "Higher quality contributions due to incentives"
+            ],
+            "Analysis": [
+              "Statistical significance of changes relative to control groups",
+              "Reasons behind observed trends"
+            ],
+            "Challenge": [
+              "Limitations in achieving consistent user responses",
+              "Standardization challenges during testing"
+            ],
+            "Ethical": [
+              "Data privacy considerations",
+              "Potential biases in participant responses"
+            ],
+            "Implications": [
+              "Expansion of strategies to other digital platforms",
+              "Impact on public health initiatives"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We analyzed 8328 health-related posts from an incentive-based platform (Steemit) and 1682 health-related posts from a traditional platform (Reddit). Using topic modeling and sentiment analysis–based methods in machine learning, we analyzed these posts across the following 3 dimensions: (1) emotion and language style using the IBM Watson Tone Analyzer service, (2) topic similarity and difference from contrastive topic modeling, and (3) the extent to which posts resemble clickbait. We also conducted a survey using 276 Amazon Mechanical Turk (MTurk) users and asked them to score the quality of Steemit and Reddit posts.",
+          "Main Action": "analyze",
+          "Arguments": {
+            "Agent": [
+              "health-related posts"
+            ],
+            "Object": {
+              "Primary Object": [
+                "data sets"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "health-related posts"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "health-related posts from an incentive-based platform (Steemit)",
+              "health-related posts from a traditional platform (Reddit)"
+            ],
+            "Purpose": [
+              "compare various factors between the platforms"
+            ],
+            "Method": [
+              "topic modeling",
+              "sentiment analysis",
+              "IBM Watson Tone Analyzer service",
+              "statistical measures via surveys"
+            ],
+            "Results": [
+              "significant differences in emotional tones",
+              "topic similarities and differences",
+              "extent to which posts resembled clickbait"
+            ],
+            "Analysis": [
+              "emotion and language style",
+              "topic similarity and difference",
+              "resemblance to clickbait"
+            ],
+            "Challenge": [
+              "limitations inherent in using automated sentiment analysis tools",
+              "manual survey evaluations affecting accuracy"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enhancing community management strategies",
+              "promoting healthier discussions",
+              "mitigating risks associated with sensationalism"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Using the Watson Tone Analyzer in a sample of 2000 posts from Steemit and Reddit, we found that more than double the number of Steemit posts had a confident language style compared with Reddit posts (77 vs 30). Moreover, 50% more Steemit posts had analytical content and 33% less Steemit posts had a tentative language style compared with Reddit posts (619 vs 430 and 416 vs 627, respectively). Furthermore, more than double the number of Steemit posts were considered joyful compared with Reddit posts (435 vs 200), whereas negative posts (e.g., sadness, fear, and anger) were 33% less on Steemit than on Reddit (384 vs 569). Contrastive topic discovery showed that only 20% (2/10) of topics were common, and Steemit had more unique topics than Reddit (5 vs 3). Qualitatively, Steemit topics were more informational, while Reddit topics involved discussions, which may explain some of the quantitative differences. Manual labeling marked more Steemit headlines as clickbait than Reddit headlines (66 vs 26), and machine learning model labeling consistently identified a higher percentage of Steemit headlines as clickbait than Reddit headlines. In the survey, MTurk users said that at least 57% of Steemit posts had better quality than Reddit posts, and they were at least 52% more likely to like and comment on Steemit posts than Reddit posts.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Using the Watson Tone Analyzer in a sample of 2000 posts"
+            ],
+            "Object": {
+              "Primary Object": [
+                "from Steemit and Reddit"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "more than double the number of Steemit posts had a confident language style compared with Reddit posts"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We found that more than double the number of Steemit posts had a confident language style compared with Reddit posts (77 vs 30)."
+            ],
+            "Purpose": [
+              "To compare the tone analysis between Steemit and Reddit posts."
+            ],
+            "Method": [
+              "Used the Watson Tone Analyzer on 2000 posts from both platforms."
+            ],
+            "Results": [
+              "Moreover, 50% more Steemit posts had analytical content and 33% less Steemit posts had a tentative language style compared with Reddit posts (619 vs 430 and 416 vs 627, respectively)."
+            ],
+            "Analysis": [
+              "Furthermore, more than double the number of Steemit posts were considered joyful compared with Reddit posts (435 vs 200), whereas negative posts (e.g., sadness, fear, and anger) were 33% less on Steemit than on Reddit (384 vs 569)."
+            ],
+            "Challenge": [
+              "Manual labeling marked more Steemit headlines as clickbait than Reddit headlines (66 vs 26), and machine learning model labeling consistently identified a higher percentage of Steemit headlines as clickbait than Reddit headlines."
+            ],
+            "Ethical": [
+              "In the survey, MTurk users said that at least 57% of Steemit posts had better quality than Reddit posts, and they were at least 52% more likely to like and comment on Steemit posts than Reddit posts."
+            ],
+            "Implications": [
+              "Qualitative, Steemit topics were more informational, while Reddit topics involved discussions, which may explain some of the quantitative differences."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "It becomes increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Object": {
+              "Primary Object": [
+                "It becomes increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "It becomes increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Purpose": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Method": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Results": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Analysis": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Challenge": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Ethical": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Implications": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ],
+            "Contradictions": [
+              "It is becoming increasingly important to ensure high-quality health content on social media; therefore, incentive-based social media could be important in the design of next-generation social platforms for health information."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_690",
+      "abstract": "People living with HIV/AIDS and their informal caregivers (usually family members) in Malawi do not have adequate access to patient-centered care, particularly in remote rural areas of the country because of the high burden of HIV/AIDS, coupled with a fragmented and patchy health care system. Chronic conditions require self-care strategies, which are now promoted in both developed and developing contexts but are still only emerging in sub-Saharan African countries. This study aims to explore the effects of the implementation of a short-term intervention aimed at supporting informal caregivers of people living with HIV/AIDS in Malawi in their caring role and improving their well-being. The intervention includes the dissemination of 6 health advisory messages on topics related to the management of HIV/AIDS over a period of 6 months, via the WhatsApp audio function to 94 caregivers attending peer support groups in the rural area of Namwera. We adopted a community-based participatory research approach, whereby the health advisory messages were designed and formulated in collaboration with informal caregivers, local medical physicians, social care workers, and community chiefs and informed by prior discussions with informal caregivers. Feedback on the quality, relevance, and applicability of the messages was gathered via individual interviews with the caregivers. The results showed that the messages were widely disseminated beyond the support groups via word of mouth and highlighted a very high level of adoption of the advice contained in the messages by caregivers, who reported immediate (short-term) and long-term self-assessed benefits for themselves, their families, and their local communities. This study offers a novel perspective on how to combine community-based participatory research with a cost-effective, health-oriented informational intervention that can be implemented to support effective HIV/AIDS self-care and facilitate informal caregivers’ role.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "People living with HIV/AIDS and their informal caregivers (usually family members) in Malawi do not have adequate access to patient-centered care, particularly in remote rural areas of the country because of the high burden of HIV/AIDS, coupled with a fragmented and patchy health care system. Chronic conditions require self-care strategies, which are now promoted in both developed and developing contexts but are still only emerging in sub-Saharan African countries.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "HIV/AIDS patients"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "informal caregivers"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Because of the high burden of HIV/AIDS",
+              "Coupled with a fragmented and patchy health care system"
+            ],
+            "Purpose": [
+              "To address gaps in accessing patient-centered care in rural settings"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Limited resources",
+              "Geographic isolation",
+              "Inconsistent policy implementation"
+            ],
+            "Ethical": [
+              "Unequal distribution of resources",
+              "Potential inequity among communities"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study aims to explore the effects of the implementation of a short-term intervention aimed at supporting informal caregivers of people living with HIV/AIDS in Malawi in their caring role and improving their well-being. The intervention includes the dissemination of 6 health advisory messages on topics related to the management of HIV/AIDS over a period of 6 months, via the WhatsApp audio function to 94 caregivers attending peer support groups in the rural area of Namwera. We adopted a community-based participatory research approach, whereby the health advisory messages were designed and formulated in collaboration with informal caregivers, local medical physicians, social care workers, and community chiefs and informed by prior discussions with informal caregivers. Feedback on the quality, relevance, and applicability of the messages was gathered via individual interviews with the caregivers.",
+          "Main Action": "Disseminate 6 health advisory messages",
+          "Arguments": {
+            "Agent": [
+              "Informal caregivers",
+              "Local medical physicians",
+              "Social care workers",
+              "Community chiefs"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Informal caregivers"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Healthcare professionals",
+                "Community leaders"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Over a period of 6 months via the WhatsApp audio function to 94 caregivers attending peer support groups in the rural area of Namwera."
+            ],
+            "Purpose": [
+              "To explore the effects of the implementation of a short-term intervention aimed at supporting informal caregivers...improve their well-being."
+            ],
+            "Method": [
+              "Collaborative design and formulation of health advisory messages in consultation with informants followed by individual interviews with the caregivers."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The results showed that the messages were widely disseminated beyond the support groups via word of mouth and highlighted a very high level of adoption of the advice contained in the messages by caregivers, who reported immediate (short-term) and long-term self-assessed benefits for themselves, their families, and their local communities.",
+          "Main Action": "beyond the support groups via word of mouth",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Caregivers"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "families",
+                "local communities"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This study offers a novel perspective on how to combine community-based participatory research with a cost-effective, health-oriented informational intervention that can be implemented to support effective HIV/AIDS self-care and facilitate informal caregivers’ role.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Primary Modifier": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ],
+              "Secondary Modifier": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

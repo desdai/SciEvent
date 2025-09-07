@@ -1,0 +1,322 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_52",
+      "abstract": "Key Point Analysis (KPA) has been recently proposed for deriving fine-grained insights from collections of textual comments. KPA extracts the main points in the data as a list of concise sentences or phrases, termed Key Points, and quantifies their prevalence. While key points are more expressive than word clouds and key phrases, making sense of a long, flat list of key points, which often express related ideas in varying levels of granularity, may still be challenging. To address this limitation of KPA, we introduce the task of organizing a given set of key points into a hierarchy, according to their specificity. Such hierarchies may be viewed as a novel type of Textual Entailment Graph. We develop ThinkP, a high-quality benchmark dataset of key point hierarchies for business and product reviews, obtained by consolidating multiple annotations. We compare different methods for predicting pairwise relations between key points, and for inferring a hierarchy from these pairwise predictions. In particular, for the task of computing pairwise key point relations, we achieve significant gains over existing strong baselines by applying directional distributional similarity methods to a novel distributional representation of key points, and further boost performance via weak supervision.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Key Point Analysis (KPA) has been recently proposed for deriving fine-grained insights from collections of textual comments. KPA extracts the main points in the data as a list of concise sentences or phrases, termed Key Points, and quantifies their prevalence. While key points are more expressive than word clouds and key phrases, making sense of a long, flat list of key points, which often express related ideas in varying levels of granularity, may still be challenging.",
+          "Main Action": "has been recently proposed",
+          "Arguments": {
+            "Agent": [
+              "Key Point Analysis (KPA)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "for deriving fine-grained insights from collections of textual comments."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "extracts the main points in the data as a list of concise sentences or phrases, termed Key Points, and quantifies their prevalence."
+            ],
+            "Analysis": [
+              "making sense of a long, flat list of key points, which often express related ideas in varying levels of granularity, may still be challenging."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To address this limitation of KPA, we introduce the task of organizing a given set of key points into a hierarchy, according to their specificity. Such hierarchies may be viewed as a novel type of Textual Entailment Graph. We develop ThinkP, a high-quality benchmark dataset of key point hierarchies for business and product reviews, obtained by consolidating multiple annotations. We compare different methods for predicting pairwise relations between key points, and for inferring a hierarchy from these pairwise predictions.",
+          "Main Action": "introduce the task of organizing a given set of key points into a hierarchy, according to their specificity.",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Such hierarchies may be viewed as a novel type of Textual Entailment Graph."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "ThinkP, a high-quality benchmark dataset of key point hierarchies for business and product reviews, obtained by consolidating multiple annotations."
+            ],
+            "Results": [
+              "We compare different methods for predicting pairwise relations between key points, and for inferring a hierarchy from these pairwise predictions."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In particular, for the task of computing pairwise key point relations, we achieve significant gains over existing strong baselines by applying directional distributional similarity methods to a novel distributional representation of key points, and further boost performance via weak supervision.",
+          "Main Action": "achieve significant gains over existing strong baselines",
+          "Arguments": {
+            "Agent": [
+              "applying directional distributional similarity methods to a novel distributional representation of key points"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "for the task of computing pairwise key point relations"
+            ],
+            "Purpose": [
+              "further boost performance via weak supervision"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_364",
+      "abstract": "Dialogue models are often enriched with extensive external knowledge to provide informative responses through a retrieval-augmented pipeline. Nevertheless, retrieval-augmented approaches rely on finely annotated retrieval training data and knowledge-grounded response generation data, making it costly to transfer. To tackle this challenge, this paper proposes a retrieval-free approach, KiDG, by automatically turning knowledge documents into simulated multi-turn dialogues through a Multi-Document Traversal algorithm. The simulated knowledge-intensive dialogues constructed by KiDG in one domain can be easily used to train and enhance pre-trained dialogue models’ knowledge w.r.t. this domain without costly annotation. We conduct extensive experiments comparing retrieval-augmented models and a variety of retrieval-free models. We found that dialogue models enhanced with data simulated with KiDG largely outperform state-of-the-art retrieval-free methods, and it achieves comparable performance compared to retrieval-augmented methods while being better, and cheaper at domain transfer.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Dialogue models are often enriched with extensive external knowledge to provide informative responses through a retrieval-augmented pipeline. Nevertheless, retrieval-augmented approaches rely on finely annotated retrieval training data and knowledge-grounded response generation data, making it costly to transfer.",
+          "Main Action": "are often enriched with extensive external knowledge",
+          "Arguments": {
+            "Agent": [
+              "dialogue models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to provide informative responses through a retrieval-augmented pipeline"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Nevertheless, retrieval-augmented approaches rely on finely annotated retrieval training data and knowledge-grounded response generation data, making it costly to transfer."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "making it costly to transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To tackle this challenge, this paper proposes a retrieval-free approach, KiDG, by automatically turning knowledge documents into simulated multi-turn dialogues through a Multi-Document Traversal algorithm. The simulated knowledge-intensive dialogues constructed by KiDG in one domain can be easily used to train and enhance pre-trained dialogue models’ knowledge w.r.t. this domain without costly annotation.",
+          "Main Action": "proposes a retrieval-free approach",
+          "Arguments": {
+            "Agent": [
+              "KiDG"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "by automatically turning knowledge documents into simulated multi-turn dialogues through a Multi-Document Traversal algorithm."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Multi-Document Traversal algorithm"
+            ],
+            "Results": [
+              "The simulated knowledge-intensive dialogues constructed by KiDG in one domain can be easily used to train and enhance pre-trained dialogue models' knowledge w.r.t. this domain without costly annotation."
+            ],
+            "Analysis": [
+              "without costing annotation"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "can be easily used to train and enhance pre-trained dialogue models' knowledge w.r.t. this domain without costly annotation"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We conduct extensive experiments comparing retrieval-augmented models and a variety of retrieval-free models. We found that dialogue models enhanced with data simulated with KiDG largely outperform state-of-the-art retrieval-free methods, and it achieves comparable performance compared to retrieval-augmented methods while being better, and cheaper at domain transfer.",
+          "Main Action": "conduct extensive experiments",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "comparing retrieval-augmented models and a variety of retrieval-free models"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "extensive experiments comparing retrieval-augmented models and a variety of retrieval-free models"
+            ],
+            "Results": [
+              "found that dialogue models enhanced with data simulated with KiDG largely outperform state-of-the-art retrieval-free methods, and it achieves comparable performance compared to retrieval-augmented methods while being better, and cheaper at domain transfer"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

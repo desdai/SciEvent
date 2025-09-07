@@ -1,0 +1,248 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_275",
+      "abstract": "Researchers usually conduct statistical analyses based on models built on raw data collected from individual participants (individual-level data). There is a growing interest in enhancing inference efficiency by incorporating aggregated summary information from other sources, such as summary statistics on genetic markers' marginal associations with a given trait generated from genome-wide association studies. However, combining high-dimensional summary data with individual-level data using existing integrative procedures can be challenging due to various numeric issues in optimizing an objective function over a large number of unknown parameters. We develop a procedure to improve the fitting of a targeted statistical model by leveraging external summary data for more efficient statistical inference (both effect estimation and hypothesis testing). To make this procedure scalable to high-dimensional summary data, we propose a divide-and-conquer strategy by breaking the task into easier parallel jobs, each fitting the targeted model by integrating the individual-level data with a small proportion of summary data. We obtain the final estimates of model parameters by pooling results from multiple fitted models through the minimum distance estimation procedure. We improve the procedure for a general class of additive models commonly encountered in genetic studies. We further expand these two approaches to integrate individual-level and high-dimensional summary data from different study populations. We demonstrate the advantage of the proposed methods through simulations and an application to the study of the effect on pancreatic cancer risk by the polygenic risk score defined by BMI-associated genetic markers.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Researchers usually conduct statistical analyses based on models built on raw data collected from individual participants (individual-level data). There is a growing interest in enhancing inference efficiency by incorporating aggregated summary information from other sources, such as summary statistics on genetic markers' marginal associations with a given trait generated from genome-wide association studies. However, combining high-dimensional summary data with individual-level data using existing integrative procedures can be challenging due to various numeric issues in optimizing an objective function over a large number of unknown parameters.",
+          "Main Action": "conduct",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "statistical analyses"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "based on models built on raw data collected from individual participants (individual-level data)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "There is a growing interest in enhancing inference efficiency by incorporating aggregated summary information from other sources, such as summary statistics on genetic markers' marginal associations with a given trait generated from genome-wide association studies"
+            ],
+            "Challenge": [
+              "combining high-dimensional summary data with individual-level data using existing integrative procedures can be challenging due to various numeric issues in optimizing an objective function over a large number of unknown parameters"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We develop a procedure to improve the fitting of a targeted statistical model by leveraging external summary data for more efficient statistical inference (both effect estimation and hypothesis testing). To make this procedure scalable to high-dimensional summary data, we propose a divide-and-conquer strategy by breaking the task into easier parallel jobs, each fitting the targeted model by integrating the individual-level data with a small proportion of summary data. We obtain the final estimates of model parameters by pooling results from multiple fitted models through the minimum distance estimation procedure. We improve the procedure for a general class of additive models commonly encountered in genetic studies. We further expand these two approaches to integrate individual-level and high-dimensional summary data from different study populations.",
+          "Main Action": "develop a procedure",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a procedure to improve the fitting of a targeted statistical model by leveraging external summary data for more efficient statistical inference (both effect estimation and hypothesis testing)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to improve the fitting of a targeted statistical model by leveraging external summary data for more efficient statistical inference (both effect estimation and hypothesis testing)"
+            ],
+            "Method": [
+              "we propose a divide-and-conquer strategy by breaking the task into easier parallel jobs, each fitting the targeted model by integrating the individual-level data with a small proportion of summary data",
+              "We obtain the final estimates of model parameters by pooling results from multiple fitted models through the minimum distance estimation procedure",
+              "We improve the procedure for a general class of additive models commonly encountered in genetic studies",
+              "We further expand these two approaches to integrate individual-level and high-dimensional summary data from different study populations"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate the advantage of the proposed methods through simulations and an application to the study of the effect on pancreatic cancer risk by the polygenic risk score defined by BMI-associated genetic markers.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the advantage of the proposed methods"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "through simulations",
+              "an application to the study of the effect on pancreatic cancer risk by the polygenic risk score defined by BMI-associated genetic markers"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_352",
+      "abstract": "We describe a compression scheme for BUS files and an implementation of the algorithm in the BUStools software. Our compression algorithm yields smaller file sizes than gzip, at significantly faster compression and decompression speeds. We evaluated our algorithm on 533 BUS files from scRNA-seq experiments with a total size of 1TB. Our compression is 2.2x faster than the fastest gzip option, 35% slower than the fastest zstd option, and results in 1.5x smaller files than both methods. This amounts to an 8.3x reduction in the file size, resulting in a compressed size of 122GB for the dataset.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "We describe a compression scheme for BUS files and an implementation of the algorithm in the BUStools software.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a compression scheme for BUS files"
+              ],
+              "Secondary Object": [
+                "an implementation of the algorithm in the BUStools software"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our compression algorithm yields smaller file sizes than gzip, at significantly faster compression and decompression speeds. We evaluated our algorithm on 533 BUS files from scRNA-seq experiments with a total size of 1TB. Our compression is 2.2x faster than the fastest gzip option, 35% slower than the fastest zstd option, and results in 1.5x smaller files than both methods. This amounts to an 8.3x reduction in the file size, resulting in a compressed size of 122GB for the dataset.",
+          "Main Action": "evaluated",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our algorithm"
+              ],
+              "Secondary Object": [
+                "533 BUS files from scRNA-seq experiments with a total size of 1TB"
+              ]
+            },
+            "Context": [
+              "Our compression algorithm yields smaller file sizes than gzip, at significantly faster compression and decompression speeds."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Our compression is 2.2x faster than the fastest gzip option",
+              "35% slower than the fastest zstd option",
+              "results in 1.5x smaller files than both methods",
+              "This amounts to an 8.3x reduction in the file size, resulting in a compressed size of 122GB for the dataset"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

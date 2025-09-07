@@ -1,0 +1,331 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_147",
+      "abstract": "Quality assessment (QA) of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques for generating highly confident tertiary structures for most proteins, it is important to explore corresponding QA strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods. We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently. Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2. It performs even better than the model QA scores provided by AlphaFold2 itself. The results illustrate that the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. Integrating AlphaFold2 features with other complementary sequence and structural features is important for improving protein model QA.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Quality assessment (QA) of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques for generating highly confident tertiary structures for most proteins, it is important to explore corresponding QA strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods.",
+          "Main Action": "plays",
+          "Arguments": {
+            "Agent": [
+              "quality assessment"
+            ],
+            "Object": {
+              "Primary Object": [
+                "predicted protein tertiary structure models"
+              ],
+              "Secondary Object": [
+                "them"
+              ]
+            },
+            "Context": [
+              "With the recent development of deep learning end-to-end protein structure prediction techniques for generating highly confident tertiary structures for most proteins,"
+            ],
+            "Purpose": [
+              "to evaluate and select the structural models predicted by them"
+            ],
+            "Method": [
+              "corresponding QA strategies"
+            ],
+            "Results": [
+              "since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently.",
+          "Main Action": "develop",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "EnQA, a novel graph-based 3D-equivariant neural network method"
+              ],
+              "Secondary Object": [
+                "to estimate the accuracy of protein structural models"
+              ]
+            },
+            "Context": [
+              "by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2"
+            ],
+            "Purpose": [
+              "estimating the accuracy of protein structural models"
+            ],
+            "Method": [
+              "leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2"
+            ],
+            "Results": [
+              "training and testing the method on both traditional model datasets and a new dataset of high-quality structural models"
+            ],
+            "Analysis": [
+              "using the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "predicting accurate protein structural models"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2. It performs even better than the model QA scores provided by AlphaFold2 itself.",
+          "Main Action": "achieves state-of-the-art performance",
+          "Arguments": {
+            "Agent": [
+              "our approach"
+            ],
+            "Object": {
+              "Primary Object": [
+                "state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2"
+              ],
+              "Secondary Object": [
+                "model QA scores provided by AlphaFold2 itself"
+              ]
+            },
+            "Context": [
+              "on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2"
+            ],
+            "Results": [
+              "performs even better than the model QA scores provided by AlphaFold2 itself"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The results illustrate that the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. Integrating AlphaFold2 features with other complementary sequence and structural features is important for improving protein model QA.",
+          "Main Action": "illustrate",
+          "Arguments": {
+            "Agent": [
+              "results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "evaluation of protein structural models"
+              ],
+              "Secondary Object": [
+                "AlphaFold2 features with other complementary sequence and structural features"
+              ]
+            },
+            "Context": [
+              "integrating AlphaFold2 features with other complementary sequence and structural features"
+            ],
+            "Purpose": [
+              "improving protein model QA"
+            ],
+            "Method": [
+              "integrating AlphaFold2 features with other complementary sequence and structural features"
+            ],
+            "Results": [
+              "promising approach to the evaluation of protein structural models"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_78",
+      "abstract": "Whole-exome and targeted sequencing are widely utilized both in translational cancer genomics and in the setting of precision medicine. The benchmarking of computational methods and tools that are in continuous development is fundamental for the correct interpretation of somatic genomic profiling results. To this aim we developed synggen, a tool for the fast generation of large-scale realistic and heterogeneous cancer whole-exome and targeted sequencing synthetic datasets, which enables the incorporation of phased germline single nucleotide polymorphisms and complex allele-specific somatic genomic events. Synggen performances and effectiveness in generating synthetic cancer data are shown across different scenarios and considering different platforms with distinct characteristics.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Whole-exome and targeted sequencing are widely utilized both in translational cancer genomics and in the setting of precision medicine. The benchmarking of computational methods and tools that are in continuous development is fundamental for the correct interpretation of somatic genomic profiling results.",
+          "Main Action": "benchmarking",
+          "Arguments": {
+            "Agent": [
+              "computational methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "somestic genomic profiling results"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The benchmarking of computational methods and tools that are in continuous development is fundamental for the correct interpretation of somatic genomic profiling results."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To this aim we developed synggen, a tool for the fast generation of large-scale realistic and heterogeneous cancer whole-exome and targeted sequencing synthetic datasets, which enables the incorporation of phased germline single nucleotide polymorphisms and complex allele-specific somatic genomic events.",
+          "Main Action": "developed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "synggen, a tool for the fast generation of large-scale realistic and heterogeneous cancer whole-exome and targeted sequencing synthetic datasets"
+              ],
+              "Secondary Object": [
+                "which enables the incorporation of phased germline single nucleotide polymorphisms and complex allele-specific somatic genomic events."
+              ]
+            },
+            "Context": [
+              "to this aim"
+            ],
+            "Purpose": [
+              "enables the incorporation of phased germline single nucleotide polymorphisms and complex allele-specific somatic genomic events."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Synggen performances and effectiveness in generating synthetic cancer data are shown across different scenarios and considering different platforms with distinct characteristics.",
+          "Main Action": "shown",
+          "Arguments": {
+            "Agent": [
+              "Synggen"
+            ],
+            "Object": {
+              "Primary Object": [
+                "performances and effectiveness in generating synthetic cancer data"
+              ],
+              "Secondary Object": [
+                "different scenarios and considering different platforms with distinct characteristics"
+              ]
+            },
+            "Context": [
+              "across different scenarios and considering different platforms with distinct characteristics."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "are shown"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

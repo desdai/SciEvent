@@ -1,0 +1,183 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_390",
+      "abstract": "Transcriptomic data can be used to describe the mechanism of action (MOA) of a chemical compound. However, omics data tend to be complex and prone to noise, making the comparison of different datasets challenging. Often, transcriptomic profiles are compared at the level of individual gene expression values, or sets of differentially expressed genes. Such approaches can suffer from underlying technical and biological variance, such as the biological system exposed on or the machine/method used to measure gene expression data, technical errors and further neglect the relationships between the genes. We propose a network mapping approach for knowledge-driven comparison of transcriptomic profiles (KNeMAP), which combines genes into similarity groups based on multiple levels of prior information, hence adding a higher-level view onto the individual gene view. When comparing KNeMAP with fold change (expression) based and deregulated gene set-based methods, KNeMAP was able to group compounds with higher accuracy with respect to prior information as well as is less prone to noise corrupted data. We applied KNeMAP to analyze the Connectivity Map dataset, where the gene expression changes of three cell lines were analyzed after treatment with 676 drugs as well as the Fortino et al. dataset where two cell lines with 31 nanomaterials were analyzed. Although the expression profiles across the biological systems are highly different, KNeMAP was able to identify sets of compounds that induce similar molecular responses when exposed on the same biological system.",
+      "events": [
+        {
+          "Background/Introduction": "Use of transcriptomic data to describe the mechanism of action (MOA) of a chemical compound",
+          "Text": "Transcriptomic data can be used to describe the mechanism of action (MOA) of a chemical compound. However, omics data tend to be complex and prone to noise, making the comparison of different datasets challenging. Often, transcriptomic profiles are compared at the level of individual gene expression values, or sets of differentially expressed genes. Such approaches can suffer from underlying technical and biological variance, such as the biological system exposed on or the machine/method used to measure gene expression data, technical errors and further neglect the relationships between the genes.",
+          "Main Action": "can be used to describe",
+          "Arguments": {
+            "Agent": [
+              "Transcriptomic data"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the mechanism of action (MOA)"
+              ],
+              "Primary Modifier": [
+                "of a chemical compound"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Transcriptomic data can be used to describe the mechanism of action (MOA) of a chemical compound",
+              "transcriptomic profiles are compared at the level of individual gene expression values, or sets of differentially expressed genes"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "omics data tend to be complex and prone to noise, making the comparison of different datasets challenging",
+              "Such approaches can suffer from underlying technical and biological variance, such as the biological system exposed on or the machine/method used to measure gene expression data, technical errors and further neglect the relationships between the genes"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Proposal of KNeMAP for knowledge driven comparison of transcriptomic profiles",
+          "Text": "We propose a network mapping approach for knowledge-driven comparison of transcriptomic profiles (KNeMAP), which combines genes into similarity groups based on multiple levels of prior information, hence adding a higher-level view onto the individual gene view. When comparing KNeMAP with fold change (expression) based and deregulated gene set-based methods, KNeMAP was able to group compounds with higher accuracy with respect to prior information as well as is less prone to noise corrupted data.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a network mapping approach"
+              ],
+              "Primary Modifier": [
+                "for knowledge-driven comparison of transcriptomic profiles (KNeMAP)"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "We propose a network mapping approach for knowledge-driven comparison of transcriptomic profiles (KNeMAP)"
+            ],
+            "Method": [
+              "combines genes into similarity groups based on multiple levels of prior information, hence adding a higher-level view onto the individual gene view"
+            ],
+            "Results": [
+              "When comparing KNeMAP with fold change (expression) based and deregulated gene set-based methods, KNeMAP was able to group compounds with higher accuracy with respect to prior information as well as is less prone to noise corrupted data"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Application of KNeMAP to analyze the connectivity map dataset",
+          "Text": "We applied KNeMAP to analyze the Connectivity Map dataset, where the gene expression changes of three cell lines were analyzed after treatment with 676 drugs as well as the Fortino et al. dataset where two cell lines with 31 nanomaterials were analyzed. Although the expression profiles across the biological systems are highly different, KNeMAP was able to identify sets of compounds that induce similar molecular responses when exposed on the same biological system.",
+          "Main Action": "applied",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "KNeMAP"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "We applied KNeMAP to analyze the Connectivity Map dataset",
+              "the expression profiles across the biological systems are highly different"
+            ],
+            "Purpose": [],
+            "Method": [
+              "the gene expression changes of three cell lines were analyzed after treatment with 676 drugs as well as the Fortino et al. dataset where two cell lines with 31 nanomaterials were analyzed"
+            ],
+            "Results": [
+              "KNeMAP was able to identify sets of compounds that induce similar molecular responses when exposed on the same biological system"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_420",
+      "abstract": "Extracellular particles (EPs) are the focus of a rapidly growing area of exploration due to the widespread interest in understanding their roles in health and disease. However, despite the general need for EP data sharing and established community standards for data reporting, no standard repository for EP flow cytometry data captures rigor and minimum reporting standards such as those defined by MIFlowCyt-EV (https://doi.org/10.1080/20013078.2020.1713526). We sought to address this unmet need by developing the NanoFlow Repository. We have developed The NanoFlow Repository to provide the first implementation of the MIFlowCyt-EV framework.",
+      "events": [
+        {
+          "Background/Introduction": "Extracellular particles and lack of standard repository for EP flow",
+          "Text": "Extracellular particles (EPs) are the focus of a rapidly growing area of exploration due to the widespread interest in understanding their roles in health and disease. However, despite the general need for EP data sharing and established community standards for data reporting, no standard repository for EP flow cytometry data captures rigor and minimum reporting standards such as those defined by MIFlowCyt-EV (https://doi.org/10.1080/20013078.2020.1713526).",
+          "Main Action": "are",
+          "Arguments": {
+            "Agent": [
+              "Extracellular particles (EPs)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the focus"
+              ],
+              "Primary Modifier": [
+                " of a rapidly growing area of exploration"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Extracellular particles (EPs) are the focus of a rapidly growing area of exploration due to the widespread interest in understanding their roles in health and disease"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "despite the general need for EP data sharing and established community standards for data reporting, no standard repository for EP flow cytometry data captures rigor and minimum reporting standards such as those defined by MIFlowCyt-EV"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Development of Nanoflow repository for implementation of MIFlowCyt-EV framework",
+          "Text": "We sought to address this unmet need by developing the NanoFlow Repository. We have developed The NanoFlow Repository to provide the first implementation of the MIFlowCyt-EV framework.",
+          "Main Action": "sought to address",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "this unmet need"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "We sought to address this unmet need by developing the NanoFlow Repository",
+              "We have developed The NanoFlow Repository to provide the first implementation of the MIFlowCyt-EV framework."
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

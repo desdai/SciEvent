@@ -1,0 +1,393 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_763",
+      "abstract": "Medication adherence plays a critical role in controlling the evolution of chronic disease, as low medication adherence may lead to worse health outcomes, higher mortality, and morbidity. Assessment of their patients' medication adherence by clinicians is essential for avoiding inappropriate therapeutic intensification, associated health care expenditures, and the inappropriate inclusion of patients in time- and resource-consuming educational interventions. In both research and clinical practices the most extensively used measures of medication adherence are patient-reported outcome measures (PROMs), because of their ability to capture subjective dimensions of nonadherence. Machine learning (ML), a subfield of artificial intelligence, uses computer algorithms that automatically improve through experience. In this context, ML tools could efficiently model the complexity of and interactions between multiple patient behaviors that lead to medication adherence. This study aimed to create and validate a PROM on medication adherence interpreted using an ML approach. This cross-sectional, single-center, observational study was carried out at a French teaching hospital between 2021 and 2022. Eligible patients must have had at least 1 long-term treatment, medication adherence evaluation other than a questionnaire, the ability to read or understand French, an age older than 18 years, and provided their nonopposition. Included adults responded to an initial version of the PROM composed of 11 items, each item being presented using a 4-point Likert scale. The initial set of items was obtained using a Delphi consensus process. Patients were classified as poorly, moderately, or highly adherent based on the results of a medication adherence assessment standard used in the daily practice of each outpatient unit. An ML-derived decision tree was built by combining the medication adherence status and PROM responses. Sensitivity, specificity, positive and negative predictive values (NPVs), and global accuracy of the final 5-item PROM were evaluated. We created an initial 11-item PROM with a 4-point Likert scale using the Delphi process. After item reduction, a decision tree derived from 218 patients including data obtained from the final 5-item PROM allowed patient classification into poorly, moderately, or highly adherent based on item responses. The psychometric properties were 78% (95% CI 40%-96%) sensitivity, 71% (95% CI 53%-85%) specificity, 41% (95% CI 19%-67%) positive predictive values, 93% (95% CI 74%-99%) NPV, and 70% (95% CI 55%-83%) accuracy. We developed a medication adherence tool based on ML with an excellent NPV. This could allow prioritization processes to avoid referring highly adherent patients to time- and resource-consuming interventions. The decision tree can be easily implemented in computerized prescriber order-entry systems and digital tools in smartphones. External validation of this tool in a study including a larger number of patients with diseases associated with low medication adherence is required to confirm its use in analyzing and assessing the complexity of medication adherence.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Medication adherence plays a critical role in controlling the evolution of chronic disease, as low medication adherence may lead to worse health outcomes, higher mortality, and morbidity. Assessment of their patients' medication adherence by clinicians is essential for avoiding inappropriate therapeutic intensification, associated health care expenditures, and the inappropriate inclusion of patients in time- and resource-consuming educational interventions. In both research and clinical practices the most extensively used measures of medication adherence are patient-reported outcome measures (PROMs), because of their ability to capture subjective dimensions of nonadherence. Machine learning (ML), a subfield of artificial intelligence, uses computer algorithms that automatically improve through experience. In this context, ML tools could efficiently model the complexity of and interactions between multiple patient behaviors that lead to medication adherence.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study aimed to create and validate a PROM on medication adherence interpreted using an ML approach. This cross-sectional, single-center, observational study was carried out at a French teaching hospital between 2021 and 2022. Eligible patients must have had at least 1 long-term treatment, medication adherence evaluation other than a questionnaire, the ability to read or understand French, an age older than 18 years, and provided their nonopposition. Included adults responded to an initial version of the PROM composed of 11 items, each item being presented using a 4-point Likert scale. The initial set of items was obtained using a Delphi consensus process. Patients were classified as poorly, moderately, or highly adherent based on the results of a medication adherence assessment standard used in the daily practice of each outpatient unit. An ML-derived decision tree was built by combining the medication adherence status and PROM responses. Sensitivity, specificity, positive and negative predictive values (NPVs), and global accuracy of the final 5-item PROM were evaluated.",
+          "Main Action": "create and validate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a PROM on medication adherence interpreted using an ML approach"
+              ],
+              "Secondary Object": [
+                "patients engaged in long-term treatment"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We created an initial 11-item PROM with a 4-point Likert scale using the Delphi process. After item reduction, a decision tree derived from 218 patients including data obtained from the final 5-item PROM allowed patient classification into poorly, moderately, or highly adherent based on item responses. The psychometric properties were 78% (95% CI 40%-96%) sensitivity, 71% (95% CI 53%-85%) specificity, 41% (95% CI 19%-67%) positive predictive values, 93% (95% CI 74%-99%) NPV, and 70% (95% CI 55%-83%) accuracy.",
+          "Main Action": "Development of an initial 11-item PROM",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a 11-item PROM with a 4-point Likert scale"
+              ],
+              "Secondary Object": [
+                "using the Delphi process"
+              ]
+            },
+            "Context": [
+              "We created an initial 11-item PROM with a 4-point Likert scale using the Delphi process."
+            ],
+            "Purpose": [
+              "To develop a reliable measurement tool"
+            ],
+            "Method": [
+              "Used the Delphi process",
+              "Factor analysis to reduce items to 5",
+              "Applied the reduced items in classifying patients' adherence levels using a decision tree"
+            ],
+            "Results": [
+              "Derived a decision tree from 218 patients including data from the final 5-item PROM",
+              "Patient classification into poorly, moderately, or highly adherent groups",
+              "Reported psychometric properties such as sensitivity, specificity, positive predictive value, negative predictive value, and accuracy"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We developed a medication adherence tool based on ML with an excellent NPV. This could allow prioritization processes to avoid referring highly adherent patients to time- and resource-consuming interventions. The decision tree can be easily implemented in computerized prescriber order-entry systems and digital tools in smartphones. External validation of this tool in a study including a larger number of patients with diseases associated with low medication adherence is required to confirm its use in analyzing and assessing the complexity of medication adherence.",
+          "Main Action": "Developed",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "A medication adherence tool based on ML with an excellent NPV"
+              ],
+              "Secondary Object": [
+                "Avoiding referring highly adherent patients to time- and resource-consuming interventions"
+              ]
+            },
+            "Context": [
+              "External validation of this tool in a study including a larger number of patients with diseases associated with low medication adherence"
+            ],
+            "Purpose": [
+              "To optimize medication adherence while reducing the frequency of interventions"
+            ],
+            "Method": [
+              "Machine learning algorithms and analysis"
+            ],
+            "Results": [
+              "An excellent NPV indicating accuracy in predicting medication adherence",
+              "Successful implementation across computerized prescriber systems and smartphone digital tools"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Implementation requiring consideration of computational resources for handling complex data processing needs",
+              "Potential limitations in generalizing the model outside the studied population despite focused testing on low adherence patients"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Widespread adoption may lead to improved healthcare outcomes through personalized care pathways targeting adherents versus non-adherent patients"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_661",
+      "abstract": "The increasing use of social media opens new opportunities for recruiting patients for research studies. However, systematic evaluations indicate that the success of social media recruitment in terms of cost-effectiveness and representativeness depends on the type of study and its purpose. This study aims to explore the practical benefits and challenges of recruiting study participants with social media in the context of clinical and nonclinical studies and provide a summary of expert advice on how to conduct social media–based recruitment. We conducted semistructured interviews with 6 patients with hepatitis B who use social media and 30 experts from the following disciplines: (1) social media researchers or social scientists, (2) practical experts for social media recruitment, (3) legal experts, (4) ethics committee members, and (5) clinical researchers. The interview transcripts were analyzed using thematic analysis. We found diverging expert opinions regarding the challenges and benefits of social media recruitment for research studies in four domains: (1) resources needed, (2) representativeness, (3) web-based community building, and (4) privacy considerations. Moreover, the interviewed experts provided practical advice on how to promote a research study via social media. Even though recruitment strategies should always be sensitive to individual study contexts, a multiplatform approach (recruiting via several different social media platforms) with mixed-methods recruitment (web-based and offline recruitment channels) is the most beneficial recruitment strategy for many research studies. The different recruitment methods complement each other and may contribute to improving the reach of the study, the recruitment accrual, and the representativeness of the sample. However, it is important to assess the context- and project-specific appropriateness and usefulness of social media recruitment before designing the recruitment strategy.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The increasing use of social media opens new opportunities for recruiting patients for research studies. However, systematic evaluations indicate that the success of social media recruitment in terms of cost-effectiveness and representativeness depends on the type of study and its purpose. This study aims to explore the practical benefits and challenges of recruiting study participants with social media in the context of clinical and nonclinical studies and provide a summary of expert advice on how to conduct social media–based recruitment.",
+          "Main Action": "provide a summary",
+          "Arguments": {
+            "Agent": [
+              "expert advice"
+            ],
+            "Object": {
+              "Primary Object": [
+                "methodology or framework"
+              ],
+              "Secondary Object": [
+                "recruitment strategies"
+              ]
+            },
+            "Context": [
+              "This study aims to explore...",
+              "provides a summary..."
+            ],
+            "Purpose": [
+              "explore the practical benefits and challenges"
+            ],
+            "Method": [
+              "employing systematic reviews and meta-analyses within the field of health technology"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted semistructured interviews with 6 patients with hepatitis B who use social media and 30 experts from the following disciplines: (1) social media researchers or social scientists, (2) practical experts for social media recruitment, (3) legal experts, (4) ethics committee members, and (5) clinical researchers. The interview transcripts were analyzed using thematic analysis",
+          "Main Action": "Conducting semistructured interviews",
+          "Arguments": {
+            "Agent": [
+              "6 Patients with hepatitis B who use social media"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Patients with hepatitis B who use social media"
+              ],
+              "Secondary Object": [
+                "Experts from various disciplines including social media researchers, legal experts, etc."
+              ]
+            },
+            "Context": [
+              "We conducted semistructured interviews with 6 patients with hepatitis B who use social media and 30 experts from the following disciplines..."
+            ],
+            "Purpose": [
+              "To explore effective communication strategies for engaging patients in health-related discussions online"
+            ],
+            "Method": [
+              "Recruiting participants via social media platforms like WeChat, conducting semi-structured interviews, and analyzing transcripts using thematic analysis"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "We found diverging expert opinions regarding the challenges and benefits of social media recruitment for research studies in four domains: (1) resources needed, (2) representativeness, (3) web-based community building, and (4) privacy considerations. Moreover, the interviewed experts provided practical advice on how to promote a research study via social media.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Even though recruitment strategies should always be sensitive to individual study contexts, a multiplatform approach (recruiting via several different social media platforms) with mixed-methods recruitment (web-based and offline recruitment channels) is the most beneficial recruitment strategy for many research studies. The different recruitment methods complement each other and may contribute to improving the reach of the study, the recruitment accrual, and the representativeness of the sample. However, it is important to assess the context- and project-specific appropriateness and usefulness of social media recruitment before designing the recruitment strategy.",
+          "Main Action": "designing",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "recruitment strategy"
+              ],
+              "Secondary Object": [
+                "evaluation criteria"
+              ]
+            },
+            "Context": [
+              "mixing web-based and offline recruitment methods enhance reach and accuracy",
+              "contextually appropriate social media recruitment"
+            ],
+            "Purpose": [
+              "improve recruitment effectiveness across diverse study contexts",
+              "evaluate suitability of recruitment methods"
+            ],
+            "Method": [
+              "quantitative analysis focusing on recruitment rates",
+              "qualitative assessment ensuring sample representativeness"
+            ],
+            "Results": [
+              "successful implementation increased data collection efficiency",
+              "outperformed traditional recruitment methods quantitatively"
+            ],
+            "Analysis": [
+              "balance between technical feasibility and resource allocation",
+              "consideration of platform accessibility impacts"
+            ],
+            "Challenge": [
+              "overcoming resource limitations associated with varied accessibilities",
+              "ensuring balanced representation despite platform biases"
+            ],
+            "Ethical": [
+              "concerns about underrepresentation of marginalized groups",
+              "need for inclusive recruitment practices"
+            ],
+            "Implications": [
+              "flexibility in recruitment strategies adapted uniquely per study demands",
+              "potential expansion beyond current recruitment practices"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

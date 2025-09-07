@@ -1,0 +1,381 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_31",
+      "abstract": "Fueled by Internet-of-Things technologies and spanning a wide range of sensors, speakers, and cameras, smart homes promise to make our lives easier and automate routine tasks. From speakers to security cameras, smart home devices (SHDs) answer our questions, monitor our home environment, and conserve energy. They also collect significant data, ranging from on/off commands to audio and video data, and they do this in some of our most private spaces. In this paper, we explore the privacy risks associated with SHDs by focusing on privacy-conscious smart home power users — those who spend significant time and money to research, install, and integrate devices throughout their homes and engage in advanced device and network management strategies to mitigate privacy concerns. Drawing on data from 10 focus groups with 32 privacy-conscious power users, we identify the key privacy risks they perceive from this technology, as well as how they mitigate those risks through increasingly complex strategies. Our findings reveal that navigating the technical landscape that makes up the smart home environment — including what data is collected, what options are available for managing or restricting data flows, and who has access to data collected by SHDs — is complex and often confusing, even for people who spend significant time researching devices and integration options. We use these findings to argue for further development of tools that are transparent, easy to use, and aligned with the privacy needs of a diverse userbase.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Fueled by Internet-of-Things technologies and spanning a wide range of sensors, speakers, and cameras, smart homes promise to make our lives easier and automate routine tasks. From speakers to security cameras, smart home devices (SHDs) answer our questions, monitor our home environment, and conserve energy. They also collect significant data, ranging from on/off commands to audio and video data, and they do this in some of our most private spaces.",
+          "Main Action": "Smart homes promise to make our lives easier and automate routine tasks.",
+          "Arguments": {
+            "Agent": [
+              "Smart homes"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our lives"
+              ],
+              "Secondary Object": [
+                "routine tasks"
+              ]
+            },
+            "Context": [
+              "Internet-of-Things technologies",
+              "sensors",
+              "speakers",
+              "cameras"
+            ],
+            "Purpose": [
+              "To improve daily living through technology integration"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "They also collect significant data, ranging from on/off commands to audio and video data"
+            ],
+            "Analysis": [
+              "The shift towards automated routines is analyzed as beneficial"
+            ],
+            "Challenge": [
+              "Potential privacy issues with data collection in personal spaces"
+            ],
+            "Ethical": [
+              "Privacy concerns are implied"
+            ],
+            "Implications": [
+              "Broad societal changes due to increased reliance on smart technology"
+            ],
+            "Contradictions": [
+              "None evident here"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we explore the privacy risks associated with SHDs by focusing on privacy-conscious smart home power users — those who spend significant time and money to research, install, and integrate devices throughout their homes and engage in advanced device and network management strategies to mitigate privacy concerns. Drawing on data from 10 focus groups with 32 privacy-conscious power users, we identify the key privacy risks they perceive from this technology, as well as how they mitigate those risks through increasingly complex strategies.",
+          "Main Action": "Explore",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "privacy-conscious smart home power users"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "drawing on data from 10 focus groups with 32 privacy-conscious power users"
+            ],
+            "Purpose": [
+              "to identify the key privacy risks they perceive from this technology"
+            ],
+            "Method": [
+              "focus group data"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "understanding the importance of user behavior in managing privacy concerns"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our findings reveal that navigating the technical landscape that makes up the smart home environment — including what data is collected, what options are available for managing or restricting data flows, and who has access to data collected by SHDs — is complex and often confusing, even for people who spend significant time researching devices and integration options.",
+          "Main Action": "Our findings reveal",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "navigating the technical landscape that makes up the smart home environment"
+              ],
+              "Secondary Object": [
+                "data collected",
+                "options for managing or restricting data flows",
+                "who has access to data collected by SHDs"
+              ]
+            },
+            "Context": [
+              "smart home environment"
+            ],
+            "Purpose": [
+              "to provide insights into the challenges faced by individuals"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "that navigating the technical landscape [...] is complex and often confusing"
+            ],
+            "Analysis": [
+              "suggesting issues with usability or design in smart homes"
+            ],
+            "Challenge": [
+              "complexity itself is a challenge"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "understanding these complexities can lead to better designs and policies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We use these findings to argue for further development of tools that are transparent, easy to use, and aligned with the privacy needs of a diverse userbase.",
+          "Main Action": "argue for further development of tools",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "tools"
+              ],
+              "Secondary Object": [
+                "privacy needs of a diverse userbase"
+              ]
+            },
+            "Context": [
+              "These findings"
+            ],
+            "Purpose": [
+              "To argue for further development of tools"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Importance of developing tools aligned with diverse user privacy needs"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_231",
+      "abstract": "Hurricanes can cause catastrophic damage; it is critical for those affected to access information about conditions, loved ones, and resources. Prior work in the HCI and CSCW communities has focused on how social media can be vital during natural disasters; non-social media technologies have been under-researched. To understand how technology other than social media can support or harm people during crises, we explore hurricane survivors' use and disuse of multiple kinds of technologies in online surveys with 138 US participants. We find substantial technology use supporting survivors' comfort and safety other than social media. We also observe that designing technologies for high-resource environments — as with many mainstream apps — causes users to decrease use of potentially critical technologies during utility outages, which are common during hurricanes. With themes of both (a) broad technology use and (b) conditions preventing technology use, we make recommendations for technical design, policy, and research to empower communities susceptible to hurricanes.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Hurricanes can cause catastrophic damage; it is critical for those affected to access information about conditions, loved ones, and resources. Prior work in the HCI and CSCW communities has focused on how social media can be vital during natural disasters; non-social media technologies have been under-researched.",
+          "Main Action": "Prior work in the HCI and CSCW communities has focused on how social media can be vital during natural disasters; non-social media technologies have been under-researched.",
+          "Arguments": {
+            "Agent": [
+              "HCI and CSCW communities"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Non-social media technologies"
+              ],
+              "Secondary Object": [
+                "Under-researched status"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To understand how technology other than social media can support or harm people during crises, we explore hurricane survivors' use and disuse of multiple kinds of technologies in online surveys with 138 US participants.",
+          "Main Action": "explore",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "hurricane survivors"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "understand how technology..."
+            ],
+            "Purpose": [
+              "examine how various technologies..."
+            ],
+            "Method": [
+              "online surveys with 138 US participants"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We find substantial technology use supporting survivors' comfort and safety other than social media. We also observe that designing technologies for high-resource environments — as with many mainstream apps — causes users to decrease use of potentially critical technologies during utility outages, which are common during hurricanes.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "With themes of both (a) broad technology use and (b) conditions preventing technology use, we make recommendations for technical design, policy, and research to empower communities susceptible to hurricanes.",
+          "Main Action": "make recommendations",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "technical design, policy, and research"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "empower communities susceptible to hurricanes"
+            ],
+            "Purpose": [
+              "provide solutions or guidance"
+            ],
+            "Method": [
+              "research"
+            ],
+            "Results": [
+              "making recommendations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "helping empower vulnerable communities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

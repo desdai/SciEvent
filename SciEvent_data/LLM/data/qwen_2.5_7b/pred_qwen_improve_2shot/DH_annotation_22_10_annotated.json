@@ -1,0 +1,331 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_24",
+      "abstract": "In this paper, I develop an online website that assists users in answering the question, 'What do you need to remove in order to erase [thing] from [your life or society]?' through network visualization methods. This project subverts the typical data visualization strategy of working with extant data by encouraging users to produce data, demonstrating how data visualization techniques can constitute a way of thinking and creating rather than just analyzing and representing. However, this tool and its affordances are primarily a case study for a sociological approach to critical design in the Digital Humanities: By critically examining the tool itself (as well as the process that created it), I am able to pose the broader questions of (1) how does the creation of digital tools and projects reflect a theoretical interpretation of the social world and its processes, and (2) how can these interpretations constitute the data of sociological studies? In resolving these questions, I suggest that critical design can be viewed as theory, experiment, and data: designs constitute a social theory, data can be experimentally produced within this social theory, and encouraging reflective design can turn the social theories of design themselves into data.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this paper, I develop an online website that assists users in answering the question, 'What do you need to remove in order to erase [thing] from [your life or society]?' through network visualization methods.",
+          "Main Action": "develop",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an online website"
+              ],
+              "Secondary Object": [
+                "users"
+              ]
+            },
+            "Context": [
+              "assists users in answering the question, 'What do you need to remove in order to erase [thing] from [your life or society]' through network visualization methods"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "through network visualization methods"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This project subverts the typical data visualization strategy of working with extant data by encouraging users to produce data, demonstrating how data visualization techniques can constitute a way of thinking and creating rather than just analyzing and representing.",
+          "Main Action": "subvert",
+          "Arguments": {
+            "Agent": [
+              "this project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the typical data visualization strategy of working with extant data"
+              ],
+              "Secondary Object": [
+                "users producing data"
+              ]
+            },
+            "Context": [
+              "demonstrating how data visualization techniques can constitute a way of thinking and creating rather than just analyzing and representing"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "However, this tool and its affordances are primarily a case study for a sociological approach to critical design in the Digital Humanities: By critically examining the tool itself (as well as the process that created it), I am able to pose the broader questions of (1) how does the creation of digital tools and projects reflect a theoretical interpretation of the social world and its processes, and (2) how can these interpretations constitute the data of sociological studies?",
+          "Main Action": "pose",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "broader questions"
+              ],
+              "Secondary Object": [
+                "of (1) how does the creation of digital tools and projects reflect a theoretical interpretation of the social world and its processes, and (2) how can these interpretations constitute the data of sociological studies"
+              ]
+            },
+            "Context": [
+              "By critically examining the tool itself (as well as the process that created it)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In resolving these questions, I suggest that critical design can be viewed as theory, experiment, and data: designs constitute a social theory, data can be experimentally produced within this social theory, and encouraging reflective design can turn the social theories of design themselves into data.",
+          "Main Action": "suggest",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "critical design can be viewed as theory, experiment, and data"
+              ],
+              "Secondary Object": [
+                "encouraging reflective design can turn the social theories of design themselves into data"
+              ]
+            },
+            "Context": [
+              "resolving these questions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "viewing critical design as theory, experiment, and data; producing experimental data through reflection"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "turning the social theories of design themselves into data"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_58",
+      "abstract": "While popular histories of the ebook start in the 1990s, inventors were working on the form since at least the 1940s. In this article, I offer a media archaeological analysis of digital publishing patents to develop the ebook imagination, or the desires of readers and inventors for the future of reading on screen. Through an analysis of a corpus of 98 patents relating to ebooks, I demonstrate how the ebook imagination focused on the aesthetics of the book over focusing on replicating paper via a screen, which would later lead to the success of Amazon's Kindle in 2007.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "While popular histories of the ebook start in the 1990s, inventors were working on the form since at least the 1940s.",
+          "Main Action": "start",
+          "Arguments": {
+            "Agent": [
+              "inventors"
+            ],
+            "Object": {
+              "Primary Object": [
+                "working on the form"
+              ],
+              "Secondary Object": [
+                "since at least the 1940s"
+              ]
+            },
+            "Context": [
+              "popular histories of the ebook start in the 1990s"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this article, I offer a media archaeological analysis of digital publishing patents to develop the ebook imagination, or the desires of readers and inventors for the future of reading on screen.",
+          "Main Action": "offer",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "media archaeological analysis of digital publishing patents"
+              ],
+              "Secondary Object": [
+                "develop the ebook imagination"
+              ]
+            },
+            "Context": [
+              "desires of readers and inventors for the future of reading on screen"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through an analysis of a corpus of 98 patents relating to ebooks, I demonstrate how the ebook imagination focused on the aesthetics of the book over focusing on replicating paper via a screen, which would later lead to the success of Amazon's Kindle in 2007.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how the ebook imagination focused on the aesthetics of the book over focusing on replicating paper via a screen"
+              ],
+              "Secondary Object": [
+                "which would later lead to the success of Amazon's Kindle in 2007"
+              ]
+            },
+            "Context": [
+              "through an analysis of a corpus of 98 patents relating to ebooks"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Amazon's Kindle in 2007 was successful"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

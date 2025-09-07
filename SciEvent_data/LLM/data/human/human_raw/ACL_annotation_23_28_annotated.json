@@ -1,0 +1,241 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_866",
+      "abstract": "The ability of commonsense reasoning (CR) decides whether a neural machine translation (NMT) model can move beyond pattern recognition. Despite the rapid advancement of NMT and the use of pretraining to enhance NMT models, research on CR in NMT is still in its infancy, leaving much to be explored in terms of effectively training NMT models with high CR abilities and devising accurate automatic evaluation metrics. This paper presents a comprehensive study aimed at expanding the understanding of CR in NMT. For the training, we confirm the effectiveness of incorporating pretrained knowledge into NMT models and subsequently utilizing these models as robust testbeds for investigating CR in NMT. For the evaluation, we propose a novel entity-aware evaluation method that takes into account both the NMT candidate and important entities in the candidate, which is more aligned with human judgement. Based on the strong testbed and evaluation methods, we identify challenges in training NMT models with high CR abilities and suggest directions for further unlabeled data utilization and model design. We hope that our methods and findings will contribute to advancing the research of CR in NMT.",
+      "events": [
+        {
+          "Background/Introduction": "Highlights research gaps in commonsense reasoning for neural machine translation",
+          "Text": "The ability of commonsense reasoning (CR) decides whether a neural machine translation (NMT) model can move beyond pattern recognition. Despite the rapid advancement of NMT and the use of pretraining to enhance NMT models, research on CR in NMT is still in its infancy, leaving much to be explored in terms of effectively training NMT models with high CR abilities and devising accurate automatic evaluation metrics.",
+          "Main Action": "decides",
+          "Arguments": {
+            "Agent": [
+              "The ability of commonsense reasoning (CR)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "whether a neural machine translation (NMT) model can move beyond pattern recognition."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Despite the rapid advancement of NMT and the use of pretraining to enhance NMT models"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "research on CR in NMT is still in its infancy, leaving much to be explored in terms of effectively training NMT models with high CR abilities and devising accurate automatic evaluation metrics."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Comprehensive study of reasoning in NMT with novel entity-aware evaluation",
+          "Text": "This paper presents a comprehensive study aimed at expanding the understanding of CR in NMT. For the training, we confirm the effectiveness of incorporating pretrained knowledge into NMT models and subsequently utilizing these models as robust testbeds for investigating CR in NMT. For the evaluation, we propose a novel entity-aware evaluation method that takes into account both the NMT candidate and important entities in the candidate, which is more aligned with human judgement.",
+          "Main Action": "presents",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a comprehensive study"
+              ],
+              "Primary Modifier": [
+                "aimed at expanding the understanding of CR in NMT"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "For the training, we confirm the effectiveness of incorporating pretrained knowledge into NMT models and subsequently utilizing these models as robust testbeds for investigating CR in NMT.",
+              "For the evaluation, we propose a novel entity-aware evaluation method that takes into account both the NMT candidate and important entities in the candidate,"
+            ],
+            "Results": [],
+            "Analysis": [
+              "which is more aligned with human judgement"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Identified challenges in NMT model reasoning and suggested future directions",
+          "Text": "Based on the strong testbed and evaluation methods, we identify challenges in training NMT models with high CR abilities and suggest directions for further unlabeled data utilization and model design.",
+          "Main Action": "identify",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "challenges"
+              ],
+              "Primary Modifier": [
+                "in training NMT models with high CR abilities"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Based on the strong testbed and evaluation methods,"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "suggest directions for further unlabeled data utilization and model design."
+            ],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Methods and findings will advance CR research in NMT",
+          "Text": "We hope that our methods and findings will contribute to advancing the research of CR in NMT.",
+          "Main Action": "hope",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that our methods and findings"
+              ],
+              "Primary Modifier": [
+                "will contribute to advancing the research of CR in NMT."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_377",
+      "abstract": "A series of datasets and models have been proposed for summaries generated for well-formatted documents such as news articles. Dialogue summaries, however, have been under explored. In this paper, we present the first dataset with fine-grained factual error annotations named DIASUMFACT. We define fine-grained factual error detection as a sentence-level multi-label classification problem, and weevaluate two state-of-the-art (SOTA) models on our dataset. Both models yield sub-optimal results, with a macro-averaged F1 score of around 0.25 over 6 error classes. We further propose an unsupervised model ENDERANKER via candidate ranking using pretrained encoder-decoder models. Our model performs on par with the SOTA models while requiring fewer resources. These observations confirm the challenges in detecting factual errors from dialogue summaries, which call for further studies, for which our dataset and results offer a solid foundation.",
+      "events": [
+        {
+          "Background/Introduction": "Research gap in dialogue summaries compared to document summaries",
+          "Text": "A series of datasets and models have been proposed for summaries generated for well-formatted documents such as news articles. Dialogue summaries, however, have been under explored.",
+          "Main Action": "have been proposed",
+          "Arguments": {
+            "Agent": [
+              "A series of datasets and models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "for summaries"
+              ],
+              "Primary Modifier": [
+                "generated for well-formatted documents such as news articles."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "Dialogue summaries, however, have been under explored"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Presenting DIASUMFACT dataset with factual error annotations and proposing ENDERANKER model",
+          "Text": "In this paper, we present the first dataset with fine-grained factual error annotations named DIASUMFACT. We define fine-grained factual error detection as a sentence-level multi-label classification problem, and weevaluate two state-of-the-art (SOTA) models on our dataset. Both models yield sub-optimal results, with a macro-averaged F1 score of around 0.25 over 6 error classes. We further propose an unsupervised model ENDERANKER via candidate ranking using pretrained encoder-decoder models.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the first dataset"
+              ],
+              "Primary Modifier": [
+                "with fine-grained factual error annotations named DIASUMFACT"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "We define fine-grained factual error detection as a sentence-level multi-label classification problem, and weevaluate two state-of-the-art (SOTA) models on our dataset",
+              "We further propose an unsupervised model ENDERANKER via candidate ranking using pretrained encoder-decoder models."
+            ],
+            "Results": [
+              "Both models yield sub-optimal results, with a macro-averaged F1 score of around 0.25 over 6 error classes"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "ENDERANKER performs comparably to SOTA models with fewer resources",
+          "Text": "Our model performs on par with the SOTA models while requiring fewer resources. These observations confirm the challenges in detecting factual errors from dialogue summaries, which call for further studies, for which our dataset and results offer a solid foundation.",
+          "Main Action": "performs",
+          "Arguments": {
+            "Agent": [
+              "Our model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "on par with the SOTA models"
+              ],
+              "Primary Modifier": [
+                "while requiring fewer resources"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "These observations confirm the challenges in detecting factual errors from dialogue summaries"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "which call for further studies, for which our dataset and results offer a solid foundation."
+            ],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

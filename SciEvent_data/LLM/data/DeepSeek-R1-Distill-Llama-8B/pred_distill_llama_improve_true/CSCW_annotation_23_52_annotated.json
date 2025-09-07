@@ -1,0 +1,392 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_167",
+      "abstract": "Learners' awareness of their own affective states (emotions) can improve their meta-cognition, which is a critical skill of being aware of and controlling one's cognitive, motivational, and affect, and adjusting their learning strategies and behaviors accordingly. To investigate the effect of peers' affects on learners' meta-cognition, we proposed two types of cues that aggregated peers' affects that were recognized via facial expression recognition: Locative cues (displaying the spikes of peers' emotions along a video timeline) and Temporal cues (showing the positivities of peers' emotions at different segments of a video). We conducted a between-subject experiment with 42 college students through the use of think-aloud protocols, interviews, and surveys. Our results showed that the two types of cues improved participants' meta-cognition differently. For example, interacting with the Temporal cues triggered the participants to compare their own affective responses with their peers and reflect more on why and how they had different emotions with the same video content. While the participants perceived the benefits of using AI-generated peers' cues to improve their awareness of their own learning affects, they also sought more explanations from their peers to understand the AI-generated results. Our findings not only provide novel design implications for promoting learners' meta-cognition with privacy-preserved social cues of peers' learning affects, but also suggest an expanded design framework for Explainable AI (XAI).",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Learners' awareness of their own affective states (emotions) can improve their meta-cognition, which is a critical skill of being aware of and controlling one's cognitive, motivational, and affect, and adjusting their learning strategies and behaviors accordingly. To investigate the effect of peers' affects on learners' meta-cognition, we proposed two types of cues that aggregated peers' affects that were recognized via facial expression recognition: Locative cues (displaying the spikes of peers' emotions along a video timeline) and Temporal cues (showing the positivities of peers' emotions at different segments of a video).",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the effect of peers' affects on learners' meta-cognition"
+              ],
+              "Secondary Object": [
+                "two types of cues"
+              ]
+            },
+            "Context": [
+              "learners' awareness of their own affective states (emotions)",
+              "meta-cognition"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "understanding these cues could enhance learning strategies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted a between-subject experiment with 42 college students through the use of think-aloud protocols, interviews, and surveys.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "42 college students"
+              ],
+              "Secondary Object": [
+                "think-aloud protocols",
+                "interviews",
+                "surveys"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "think-aloud protocols",
+              "interviews",
+              "surveys"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results showed that the two types of cues improved participants' meta-cognition differently. For example, interacting with the Temporal cues triggered the participants to compare their own affective responses with their peers and reflect more on why and how they had different emotions with the same video content. While the participants perceived the benefits of using AI-generated peers' cues to improve their awareness of their own learning affects, they also sought more explanations from their peers to understand the AI-generated results.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Our results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "two types of cues"
+              ],
+              "Secondary Object": [
+                "participants' meta-cognition"
+              ]
+            },
+            "Context": [
+              "For example, interacting with the Temporal cues"
+            ],
+            "Purpose": [
+              "triggered the participants to compare their own affective responses with their peers and reflect more on why and how they had different emotions with the same video content"
+            ],
+            "Method": [
+              "interacting with the Temporal cues"
+            ],
+            "Results": [
+              "improved participants' meta-cognition differently"
+            ],
+            "Analysis": [
+              "While the participants perceived the benefits..."
+            ],
+            "Challenge": [
+              "they also sought more explanations..."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "Our findings not only provide novel design implications for promoting learners' meta-cognition with privacy-preserved social cues of peers' learning affects, but also suggest an expanded design framework for Explainable AI (XAI).",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "RECONSTRUCTION_ERROR"
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_176",
+      "abstract": "This paper extends the literature on social media activism by foregrounding the invisible work of orchestrating it. We analyze the activities of a #MeToo group in a Northern European country and characterize the group's efforts to catalog incidents of gender-based harassment and discrimination as an activist, platform-mediated participatory writing project. Our analysis details the work of organizing this form of activism, particularly: 1) the editorial work that underlies publishing personal stories on social media, 2) the emotional labor that unfolds as part of this form of writing, and 3) the work of creating publics. By drawing attention to these efforts, the paper frames activism as effortfully driven, sometimes in tension with the platform or evolving value positions. We conclude with a discussion on the role of social networking sites in organizing activism where writing is central, and with a set of sensitivities that can support designers and activists alike in designing socio-technical practices concerned with social change.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper extends the literature on social media activism by foregrounding the invisible work of orchestrating it.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We analyze the activities of a #MeToo group in a Northern European country and characterize the group's efforts to catalog incidents of gender-based harassment and discrimination as an activist, platform-mediated participatory writing project.",
+          "Main Action": "We analyze",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a #MeToo group in a Northern European country"
+              ],
+              "Secondary Object": [
+                "incidents of gender-based harassment and discrimination"
+              ]
+            },
+            "Context": [
+              "an activist, platform-mediated participatory writing project"
+            ],
+            "Purpose": [
+              "to catalog incidents of gender-based harassment and discrimination"
+            ],
+            "Method": [
+              "platform-mediated participatory writing project"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our analysis details the work of organizing this form of activism, particularly: 1) the editorial work that underlies publishing personal stories on social media, 2) the emotional labor that unfolds as part of this form of writing, and 3) the work of creating publics. By drawing attention to these efforts, the paper frames activism as effortfully driven, sometimes in tension with the platform or evolving value positions.",
+          "Main Action": "Detailing",
+          "Arguments": {
+            "Agent": [
+              "Our analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Organizing this form of activism"
+              ],
+              "Secondary Object": [
+                "Publishing personal stories on social media",
+                "Creating publics"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We conclude with a discussion on the role of social networking sites in organizing activism where writing is central, and with a set of sensitivities that can support designers and activists alike in designing socio-technical practices concerned with social change.",
+          "Main Action": "supporting designers and activists alike in designing socio-technical practices concerned with social change",
+          "Arguments": {
+            "Agent": [
+              "researchers and analysts"
+            ],
+            "Object": {
+              "Primary Object": [
+                "socio-technological practices"
+              ],
+              "Secondary Object": [
+                "activists",
+                "social change"
+              ]
+            },
+            "Context": [
+              "role of social networking sites in organizing activism",
+              "writing is central"
+            ],
+            "Purpose": [
+              "exploring the importance of writing in activism",
+              "providing guidelines for designing socio-technical practices"
+            ],
+            "Method": [
+              "analytical methods",
+              "evaluation of existing discussions"
+            ],
+            "Results": [
+              "identifying the importance of writing in activism",
+              "criteria for designing effective practices"
+            ],
+            "Analysis": [
+              "interpreting the findings",
+              "connecting the role of writing to successful activism"
+            ],
+            "Challenge": [
+              "balancing the needs of designers and activists",
+              "lack of existing frameworks"
+            ],
+            "Ethical": [
+              "fairness in design",
+              "inclusivity and accessibility"
+            ],
+            "Implications": [
+              "contributing to future research and practice",
+              "bridging gaps between technology and social movements"
+            ],
+            "Contradictions": [
+              "none explicitly mentioned"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

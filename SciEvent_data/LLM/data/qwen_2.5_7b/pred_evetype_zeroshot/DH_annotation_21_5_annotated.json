@@ -1,0 +1,296 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_18",
+      "abstract": "Current theories about the significance of annotations in literary studies are based primarily on assumptions developed in print culture about verbal texts. In these textual theories, the text is typically present, authorized, and centralized as the ideal text for an ideal reader, and to annotate is to add authorized comments in a sociotechnical system that includes publication, dissemination, and reception. To audiate is to imagine a song that's not playing. In music learning theory, audiation is based on the concept that the musician learns to play music by developing their own musical aptitude, her individual interpretation of a musical score based on her particular experience of the music. This short article introduces audiation as an alternate theoretical framing for articulating the significance of personal literary annotations. Comparing commentary on psalms in the Middle Ages to IIIF (International Image Interoperability Framework) web annotations, we use the concept of audiation to situate annotations within literary study in terms of a more capacious understanding of the individual's interpretation of text and of the reading experience as part of an unauthorized, distributed, and decentralized system. By bringing together theories and technologies of annotation with sound, we offer the concept of audiated annotations as a means to re-evaluate modes of access, discovery, and analysis of cultural objects in digital sound studies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Current theories about the significance of annotations in literary studies are based primarily on assumptions developed in print culture about verbal texts. In these textual theories, the text is typically present, authorized, and centralized as the ideal text for an ideal reader, and to annotate is to add authorized comments in a sociotechnical system that includes publication, dissemination, and reception.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "current theories"
+            ],
+            "Object": {
+              "Primary Object": [
+                "annotations in literary studies"
+              ],
+              "Secondary Object": [
+                "verbal texts"
+              ]
+            },
+            "Context": [
+              "based primarily on assumptions developed in print culture",
+              "In these textual theories, the text is typically present, authorized, and centralized"
+            ],
+            "Purpose": [
+              "to annotate is to add authorized comments in a sociotechnical system that includes publication, dissemination, and reception"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To audiate is to imagine a song that's not playing. In music learning theory, audiation is based on the concept that the musician learns to play music by developing their own musical aptitude, her individual interpretation of a musical score based on her particular experience of the music. This short article introduces audiation as an alternate theoretical framing for articulating the significance of personal literary annotations. Comparing commentary on psalms in the Middle Ages to IIIF (International Image Interoperability Framework) web annotations, we use the concept of audiation to situate annotations within literary study in terms of a more capacious understanding of the individual's interpretation of text and of the reading experience as part of an unauthorized, distributed, and decentralized system.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "annotations",
+                "commentary on psalms in the Middle Ages",
+                "IIIF (International Image Interoperability Framework) web annotations"
+              ],
+              "Secondary Object": [
+                "literary study",
+                "reading experience",
+                "unauthorized, distributed, and decentralized system"
+              ]
+            },
+            "Context": [
+              "audiation as an alternate theoretical framing",
+              "comparing commentary on psalms in the Middle Ages to IIIF (International Image Interoperability Framework) web annotations"
+            ],
+            "Purpose": [
+              "to introduce audiation as a way to understand the significance of personal literary annotations"
+            ],
+            "Method": [
+              "using the concept of audiation"
+            ],
+            "Results": [
+              "situated annotations within literary study in terms of a more capacious understanding of the individual's interpretation of text and of the reading experience as part of an unauthorized, distributed, and decentralized system"
+            ],
+            "Analysis": [
+              "none explicit"
+            ],
+            "Challenge": [
+              "none explicit"
+            ],
+            "Ethical": [
+              "none explicit"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "none explicit"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "By bringing together theories and technologies of annotation with sound, we offer the concept of audiated annotations as a means to re-evaluate modes of access, discovery, and analysis of cultural objects in digital sound studies.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "concept of audiated annotations"
+              ],
+              "Secondary Object": [
+                "modes of access",
+                "discovery",
+                "analysis of cultural objects"
+              ]
+            },
+            "Context": [
+              "theories and technologies of annotation with sound"
+            ],
+            "Purpose": [
+              "re-evaluate...digital sound studies"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_66",
+      "abstract": "This article describes the creation of a database of over 1 million images of eighteenth-century printers’ ornaments (or fleurons) using computer vision, and how the database was refined using machine learning. The successes and limitations of the method used are discussed, and the purpose of the database for research in the humanities is outlined. The article concludes with a summary of recent developments in the project, which include the addition of a visual search function provided by the Seebibyte Project.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This article describes the creation of a database of over 1 million images of eighteenth-century printers’ ornaments (or fleurons) using computer vision, and how the database was refined using machine learning.",
+          "Main Action": "<CREATE>",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a database of over 1 million images of eighteenth-century printers' ornaments (or fleurons)"
+              ],
+              "Secondary Object": [
+                "using computer vision"
+              ]
+            },
+            "Context": [
+              "over 1 million images of eighteenth-century printers' ornaments (or fleurons)"
+            ],
+            "Purpose": [
+              "refining the database using machine learning"
+            ],
+            "Method": [
+              "computer vision",
+              "machine learning"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The successes and limitations of the method used are discussed, and the purpose of the database for research in the humanities is outlined.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "The authors"
+            ],
+            "Object": {
+              "Primary Object": [
+                "successes and limitations of the method used",
+                "purpose of the database for research in the humanities"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "discussed"
+            ],
+            "Purpose": [
+              "outlined"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The article concludes with a summary of recent developments in the project, which include the addition of a visual search function provided by the Seebibyte Project.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Seebibyte Project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "visual search function"
+              ],
+              "Secondary Object": [
+                "project"
+              ]
+            },
+            "Context": [
+              "recent developments in the project"
+            ],
+            "Purpose": [
+              "addition of a feature"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "summary of recent developments in the project"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

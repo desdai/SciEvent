@@ -1,0 +1,167 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_23",
+      "abstract": "Thanks to easy-to-use data analysis tools and digital infrastructures, even those humanities scholars who lack programming skills can work with large-scale empirical datasets in order to disclose patterns and correlations within them. Although empirical research trends have existed throughout the history of the humanities [Bod 2013], these recently emergent possibilities have revived an empiricist attitude among humanities scholars schooled in more critical and interpretive traditions. Replying to calls for a critical digital humanities [Berry and Fagerjord 2017] [Dobson 2019], this paper explores “tool criticism” [Van Es et al. 2018] - a critical attitude required of digital humanities scholars when working with computational tools and digital infrastructures. First, it explores tool criticism as a response to instrumentalism in the digital humanities and proposes it to be part of what a critical digital humanities does. Second, it analyses tool criticism as practice, in practice. Concretely, it discusses two critical making-inspired workshops in which participants explored the affordances of digital tools and infrastructures and their underlying assumptions and values. The first workshop focused on “games-as-tools” [Werning 2020]. Participants in the workshop engaged with the constraints, material and mechanical, of a card game by making modifications to it. In the second workshop, drawing on the concept of “digital infrapuncture” [Verhoeven 2016], participants examined digital infrastructure in terms of capacity and care. After first identifying “hurt” in a chat environment, they then designed bots to intervene in that hurt and offer relief.",
+      "events": [
+        {
+          "Background/Introduction": "Exploration of tool criticism in paper",
+          "Text": "Thanks to easy-to-use data analysis tools and digital infrastructures, even those humanities scholars who lack programming skills can work with large-scale empirical datasets in order to disclose patterns and correlations within them. Although empirical research trends have existed throughout the history of the humanities [Bod 2013], these recently emergent possibilities have revived an empiricist attitude among humanities scholars schooled in more critical and interpretive traditions. Replying to calls for a critical digital humanities [Berry and Fagerjord 2017] [Dobson 2019], this paper explores “tool criticism” [Van Es et al. 2018] - a critical attitude required of digital humanities scholars when working with computational tools and digital infrastructures.",
+          "Main Action": "can work",
+          "Arguments": {
+            "Agent": [
+              "humanities scholars who lack programming skills"
+            ],
+            "Object": {
+              "Primary Object": [
+                "with large-scale empirical datasets"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Thanks to easy-to-use data analysis tools and digital infrastructures, even those",
+              "Although empirical research trends have existed throughout the history of the humanities",
+              "schooled in more critical and interpretive traditions.",
+              "a critical attitude required of digital humanities scholars when working with computational tools and digital infrastructures.",
+              "Replying to calls for a critical digital humanities"
+            ],
+            "Purpose": [
+              "in order to disclose patterns and correlations within them.",
+              "this paper explores “tool criticism"
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "these recently emergent possibilities have revived an empiricist attitude among humanities scholars"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Exploration and analysis of tool criticism as a response to instrumentalism",
+          "Text": "First, it explores tool criticism as a response to instrumentalism in the digital humanities and proposes it to be part of what a critical digital humanities does. Second, it analyses tool criticism as practice, in practice. Concretely, it discusses two critical making-inspired workshops in which participants explored the affordances of digital tools and infrastructures and their underlying assumptions and values. The first workshop focused on “games-as-tools” [Werning 2020]. Participants in the workshop engaged with the constraints, material and mechanical, of a card game by making modifications to it. In the second workshop, drawing on the concept of “digital infrapuncture” [Verhoeven 2016], participants examined digital infrastructure in terms of capacity and care. After first identifying “hurt” in a chat environment, they then designed bots to intervene in that hurt and offer relief.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [],
+            "Object": {
+              "Primary Object": [
+                "it to be part of what a critical digital humanities does"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [
+                "it analyses tool criticism as practice"
+              ],
+              "Secondary Modifier": [
+                "in practice."
+              ]
+            },
+            "Context": [
+              "it explores tool criticism as a response to instrumentalism in the digital humanities",
+              "In the second workshop, drawing on the concept of “digital infrapuncture”",
+              "After first identifying “hurt” in a chat environment"
+            ],
+            "Purpose": [
+              "in which participants explored the affordances of digital tools and infrastructures and their underlying assumptions and values."
+            ],
+            "Method": [
+              "it discusses two critical making-inspired workshops",
+              "first workshop focused on “games-as-tools”",
+              "Participants in the workshop engaged with the constraints, material and mechanical, of a card game by",
+              "participants examined digital infrastructure in terms of capacity and care"
+            ],
+            "Results": [
+              "making modifications to it.",
+              "they then designed bots to intervene in that hurt and offer relief."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_62",
+      "abstract": "Esoteric programming languages (esolangs) break from the norms of language design by explicitly refusing practicality and clarity. While some go even further and make code impossible to write (e.g. Unnecessary), others (e.g. Malboge) retains the ability to express functional and reliable code, despite the seeming disorder of the language. To understand the conversation these languages are having, we must look at how they challenge or re-affirm wider ideas in programming culture and in how computer science is taught: specifically the sometimes-contradictory aesthetics of Humbleness and Computational Idealism.",
+      "events": [
+        {
+          "Background/Introduction": "Introduction to Esoteric programming languages",
+          "Text": "Esoteric programming languages (esolangs) break from the norms of language design by explicitly refusing practicality and clarity. While some go even further and make code impossible to write (e.g. Unnecessary), others (e.g. Malboge) retains the ability to express functional and reliable code, despite the seeming disorder of the language.",
+          "Main Action": "break",
+          "Arguments": {
+            "Agent": [
+              "Esoteric programming languages (esolangs)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "from the norms of language design"
+              ],
+              "Primary Modifier": [
+                "by explicitly refusing practicality and clarity."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "While some go even further and make code impossible to write (e.g. Unnecessary)"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "others (e.g. Malboge) retains the ability to express functional and reliable code,"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": [
+              "despite the seeming disorder of the language."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "Method to understand the conversation between esolang's",
+          "Text": "To understand the conversation these languages are having, we must look at how they challenge or re-affirm wider ideas in programming culture and in how computer science is taught: specifically the sometimes-contradictory aesthetics of Humbleness and Computational Idealism.",
+          "Main Action": "must look",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "at how they challenge or re-affirm wider ideas"
+              ],
+              "Primary Modifier": [
+                "n programming culture"
+              ],
+              "Secondary Object": [
+                "in how computer science is taught:"
+              ],
+              "Secondary Modifier": [
+                "specifically the sometimes-contradictory aesthetics of Humbleness and Computational Idealism."
+              ]
+            },
+            "Context": [],
+            "Purpose": [
+              "To understand the conversation these languages are having,"
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

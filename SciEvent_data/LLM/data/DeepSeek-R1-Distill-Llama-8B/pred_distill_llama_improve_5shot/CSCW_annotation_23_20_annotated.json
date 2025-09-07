@@ -1,0 +1,386 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_116",
+      "abstract": "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies. Less is known about the last mile of the computer-vision machine-learning pipeline: on-the-ground integration into the real world. In this paper, I analyze facial verification technology (FVT) through its use as account verification in ride-hail work. Using a sociotechnical framework combined with empirical qualitative research methods, including interviews and analysis of an online community of workers, this research is a deep dive into recognition technologies at the level of local practice. Findings reveal the high-stakes articulation labor demanded of workers to be recognized by these systems, including maintaining multiple mobile devices, repeatedly uploading requisite images, spending time and resources visiting customer-service centers, and making physical changes to their bodies and environments. These strategies constitute repairs to the failures of computer vision in dynamic environments and are required to successfully engage in the sociotechnical interaction protocols demanded by FVT. Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations 'face work.' Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable have significant implications for relations between identity and power in spaces of security and work, as well as for the integration of machine-learning systems into safety-critical infrastructures. Ultimately, this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies. Less is known about the last mile of the computer-vision machine-learning pipeline: on-the-ground integration into the real world. In this paper, I analyze facial verification technology (FVT) through its use as account verification in ride-hail work.",
+          "Main Action": "research",
+          "Arguments": {
+            "Agent": [
+              "datasets, benchmarks, and models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "intrinsic to these technologies"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "intensive research on datasets, benchmarks, and models",
+              "societal biases intrinsic to these technologies"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "less is known about the last mile of the computer vision machine learning pipeline: on-the-ground integration into the real world"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Using a sociotechnical framework combined with empirical qualitative research methods, including interviews and analysis of an online community of workers, this research is a deep dive into recognition technologies at the level of local practice.",
+          "Main Action": "combined",
+          "Arguments": {
+            "Agent": [
+              "Read-overlap-based graph data structures"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a central role"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "graph sparsification improves assembly contiguity by removing spurious and redundant connections"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Findings reveal the high-stakes articulation labor demanded of workers to be recognized by these systems, including maintaining multiple mobile devices, repeatedly uploading requisite images, spending time and resources visiting customer-service centers, and making physical changes to their bodies and environments. These strategies constitute repairs to the failures of computer vision in dynamic environments and are required to successfully engage in the sociotechnical interaction protocols demanded by FVT.",
+          "Main Action": "maintaining multiple mobile devices",
+          "Arguments": {
+            "Agent": [
+              "workers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "multiple mobile devices"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "including",
+              "spending time and resources visiting customer-service centers",
+              "making physical changes to their bodies and environments"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "required to successfully engage in the sociotechnical interaction protocols demanded by FVT"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations 'face work.' Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable have significant implications for relations between identity and power in spaces of security and work, as well as for the integration of machine-learning systems into safety-critical infrastructures. Ultimately, this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment.",
+          "Main Action": "have significantly impacted",
+          "Arguments": {
+            "Agent": [
+              "Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable"
+            ],
+            "Object": {
+              "Primary Object": [
+                "relations between identity and power in spaces of security and work"
+              ],
+              "Secondary Object": [
+                "introduction of machine-learning systems into safety-critical infrastructures"
+              ]
+            },
+            "Context": [
+              "Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "significant implications for relations between identity and power in spaces of security and work",
+              "integration of machine-learning systems into safety-critical infrastructures"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "ultimately this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_139",
+      "abstract": "How do Millennial and Gen-Z young adults decide between competing social media when choosing where to post? Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media. To evaluate this model, 19 participants were given different self-presentation scenarios and asked to choose between Twitter, Snapchat, Instagram, and TikTok. Participants also constructed a flowchart to represent their mental model of factors influencing their choices. Data suggest revisions to the model; rather than reflecting Affordances and Features, we found that Social Norms and Goals primarily drove participants' choices. Participants choose media based on a direct match between Goals and existing Social Norms. Only when they failed to detect such a match did participants consider Affordances and Features. We present a revised conceptual model based on these results and discuss social media design and theory implications.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "How do Millennial and Gen-Z young adults decide between competing social media when choosing where to post? Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media.",
+          "Main Action": "how do Millennial and Gen-Z young adults decide between competing social media when choosing where to post?",
+          "Arguments": {
+            "Agent": [
+              "Millennial and Gen-Z young adults"
+            ],
+            "Object": {
+              "Primary Object": [
+                "competing social media"
+              ],
+              "Secondary Object": [
+                "when choosing where to post"
+              ]
+            },
+            "Context": [
+              "Goals",
+              "Affordances, Features, and Social Norms"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media."
+            ],
+            "Challenge": [
+              "NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To evaluate this model, 19 participants were given different self-presentation scenarios and asked to choose between Twitter, Snapchat, Instagram, and TikTok. Participants also constructed a flowchart to represent their mental model of factors influencing their choices.",
+          "Main Action": "were given",
+          "Arguments": {
+            "Agent": [
+              "19 participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "different self-presentation scenarios"
+              ],
+              "Secondary Object": [
+                "Twitter, Snapchat, Instagram, and TikTok"
+              ]
+            },
+            "Context": [
+              "participants also constructed a flowchart to represent their mental model of factors influencing their choices"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "participating in the study involves evaluating social media platforms for self-presentation purposes"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Data suggest revisions to the model; rather than reflecting Affordances and Features, we found that Social Norms and Goals primarily drove participants' choices. Participants choose media based on a direct match between Goals and existing Social Norms. Only when they failed to detect such a match did participants consider Affordances and Features.",
+          "Main Action": "have extensive studied",
+          "Arguments": {
+            "Agent": [
+              "Read-overlap-based graph data structures"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a central role"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "graph sparsification improves assembly contiguity by removing spurious and redundant connections"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We present a revised conceptual model based on these results and discuss social media design and theory implications.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "We present a revised conceptual model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "based on these results"
+              ],
+              "Secondary Object": [
+                "and discuss social media design and theory implications"
+              ]
+            },
+            "Context": [
+              "Read-overlap-based graph data structures play a central role in computing de novo genome assembly.",
+              "Most long-read assemblers use Myers's string graph model to sparsify overlap graphs.",
+              "Graph sparsification improves assembly contiguity by removing spurious and redundant connections."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

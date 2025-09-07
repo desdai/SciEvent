@@ -1,0 +1,272 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_61",
+      "abstract": "This paper introduces and unpacks several challenges faced by stewards who work with audiovisual resources, departing from the premise that audiovisual resources are undervalued and underutilized as primary source materials for scholarship and therefore receive less attention in the sphere of digital humanities. It will then present original research from the Maryland Institute for Technology in the Humanities (MITH), in conjunction with the University of Wisconsin-Madison and the Wisconsin Historical Society, on a project entitled Unlocking the Airwaves: Revitalizing an Early Public Radio Collection. As a case study, Unlocking the Airwaves successfully meets these challenges by employing strategies such as virtual reunification, linked data, minimal computing, and synced transcripts, to provide integrated access to the collections of the National Association of Educational Broadcasters (NAEB), which are currently split between the University of Maryland (audio files) and the Wisconsin Historical Society (paper collections). The project demonstrates innovative approaches towards increasing the discoverability of audiovisual collections in ways that allow for better contextual description, and offers a flexible framework for connecting audiovisual collections to related archival collections.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper introduces and unpacks several challenges faced by stewards who work with audiovisual resources, departing from the premise that audiovisual resources are undervalued and underutilized as primary source materials for scholarship and therefore receive less attention in the sphere of digital humanities.",
+          "Main Action": "introduces",
+          "Arguments": {
+            "Agent": [
+              "stewards"
+            ],
+            "Object": {
+              "Primary Object": [
+                "several challenges"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "audiovisual resources"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "that audiovisual resources are undervalued and underutilized as primary source materials for scholarship and therefore receive less attention in the sphere of digital humanities."
+            ],
+            "Purpose": [
+              "to depart from the premise"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "challenges faced by stewards"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for scholarship and the sphere of digital humanities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "It will then present original research from the Maryland Institute for Technology in the Humanities (MITH), in conjunction with the University of Wisconsin-Madison and the Wisconsin Historical Society, on a project entitled Unlocking the Airwaves: Revitalizing an Early Public Radio Collection. As a case study, Unlocking the Airwaves successfully meets these challenges by employing strategies such as virtual reunification, linked data, minimal computing, and synced transcripts, to provide integrated access to the collections of the National Association of Educational Broadcasters (NAEB), which are currently split between the University of Maryland (audio files) and the Wisconsin Historical Society (paper collections).",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "original research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "project entitled Unlocking the Airwaves"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "from the Maryland Institute for Technology in the Humanities (MITH), in conjunction with the University of Wisconsin-Madison and the Wisconsin Historical Society"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "employing strategies such as virtual reunification, linked data, minimal computing, and synced transcripts"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "provide integrated access to the collections of the National Association of Educational Broadcasters (NAEB)"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The project demonstrates innovative approaches towards increasing the discoverability of audiovisual collections in ways that allow for better contextual description, and offers a flexible framework for connecting audiovisual collections to related archival collections.",
+          "Main Action": "demonstrates",
+          "Arguments": {
+            "Agent": [
+              "project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "innovative approaches towards increasing the discoverability of audiovisual collections"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "better contextual description",
+                "a flexible framework for connecting audiovisual collections to related archival collections"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in ways that allow"
+            ],
+            "Purpose": [
+              "allowing for better contextual description"
+            ],
+            "Method": [
+              "offers a flexible framework"
+            ],
+            "Results": [
+              "increasing the discoverability of audiovisual collections"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_14",
+      "abstract": "Hosted out of the University of Virginia and funded by the National Endowment for the Humanities, Digital Yoknapatawpha is an international and collaborative project composed of William Faulkner scholars and technologists. Its goal is to create a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions with the aim of visualizing the data through a series of 'deep atlases' and other displays. This paper traces the development cycle of a supplementary narrative structure analysis dashboard that allows users to explore the chronology, narrative status, and date range of all of the texts set in his mythic county. In doing so, it bridges some of the significant gaps between narratological theory and computational methods, opens up a conversation about representing narrative data, and suggests some possible avenues for research with the dashboard.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Hosted out of the University of Virginia and funded by the National Endowment for the Humanities, Digital Yoknapatawpha is an international and collaborative project composed of William Faulkner scholars and technologists. Its goal is to create a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions with the aim of visualizing the data through a series of 'deep atlases' and other displays.",
+          "Main Action": "create",
+          "Arguments": {
+            "Agent": [
+              "Digital Yoknapatawpha"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a comprehensive database"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "all the locations, characters, and events"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "out of the University of Virginia and funded by the National Endowment for the Humanities"
+            ],
+            "Purpose": [
+              "to visualize the data through a series of 'deep atlases' and other displays"
+            ],
+            "Method": [
+              "none mentioned"
+            ],
+            "Results": [
+              "none mentioned"
+            ],
+            "Analysis": [
+              "none mentioned"
+            ],
+            "Challenge": [
+              "none mentioned"
+            ],
+            "Ethical": [
+              "none mentioned"
+            ],
+            "Implications": [
+              "none mentioned"
+            ],
+            "Contradictions": [
+              "none mentioned"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper traces the development cycle of a supplementary narrative structure analysis dashboard that allows users to explore the chronology, narrative status, and date range of all of the texts set in his mythic county. In doing so, it bridges some of the significant gaps between narratological theory and computational methods, opens up a conversation about representing narrative data, and suggests some possible avenues for research with the dashboard.",
+          "Main Action": "traces",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "development cycle"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "supplementary narrative structure analysis dashboard"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "of a supplementary narrative structure analysis dashboard"
+            ],
+            "Purpose": [
+              "bridges some of the significant gaps between narratological theory and computational methods"
+            ],
+            "Method": [
+              "opens up a conversation about representing narrative data"
+            ],
+            "Results": [
+              "suggests some possible avenues for research with the dashboard"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "opens up a conversation about representing narrative data"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

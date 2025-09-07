@@ -1,0 +1,204 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_211",
+      "abstract": "Multilingual neural machine translation has witnessed remarkable progress in recent years. However, the long-tailed distribution of multilingual corpora poses a challenge of Pareto optimization, i.e., optimizing for some languages may come at the cost of degrading the performance of others. Existing balancing training strategies are equivalent to a series of Pareto optimal solutions, which trade off on a Pareto frontierIn Pareto optimization, Pareto optimal solutions refer to solutions in which none of the objectives can be improved without sacrificing at least one of the other objectives. The set of all Pareto optimal solutions forms a Pareto frontier. In this work, we propose a new training framework, Pareto Mutual Distillation (Pareto-MD), towards pushing the Pareto frontier outwards rather than making trade-offs. Specifically, Pareto-MD collaboratively trains two Pareto optimal solutions that favor different languages and allows them to learn from the strengths of each other via knowledge distillation. Furthermore, we introduce a novel strategy to enable stronger communication between Pareto optimal solutions and broaden the applicability of our approach. Experimental results on the widely-used WMT and TED datasets show that our method significantly pushes the Pareto frontier and outperforms baselines by up to +2.46 BLEU.",
+      "events": [
+        {
+          "Background/Introduction": "Progress of multilingual neural machine translation and existing balancing strategies",
+          "Text": "Multilingual neural machine translation has witnessed remarkable progress in recent years. However, the long-tailed distribution of multilingual corpora poses a challenge of Pareto optimization, i.e., optimizing for some languages may come at the cost of degrading the performance of others. Existing balancing training strategies are equivalent to a series of Pareto optimal solutions, which trade off on a Pareto frontierIn Pareto optimization, Pareto optimal solutions refer to solutions in which none of the objectives can be improved without sacrificing at least one of the other objectives. The set of all Pareto optimal solutions forms a Pareto frontier.",
+          "Main Action": "has witnessed",
+          "Arguments": {
+            "Agent": [
+              "Multilingual neural machine translation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "remarkable progress"
+              ],
+              "Primary Modifier": [
+                "in recent years"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "The set of all Pareto optimal solutions forms a Pareto frontier.",
+              "Existing balancing training strategies are equivalent to a series of Pareto optimal solutions, which trade off on a Pareto frontierIn Pareto optimization, Pareto optimal solutions refer to solutions in which none of the objectives can be improved without sacrificing at least one of the other objectives"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "the long-tailed distribution of multilingual corpora poses a challenge of Pareto optimization, i.e., optimizing for some languages may come at the cost of degrading the performance of others."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Proposal of a new training framework - Pareto Mutual Distillation",
+          "Text": "In this work, we propose a new training framework, Pareto Mutual Distillation (Pareto-MD), towards pushing the Pareto frontier outwards rather than making trade-offs. Specifically, Pareto-MD collaboratively trains two Pareto optimal solutions that favor different languages and allows them to learn from the strengths of each other via knowledge distillation. Furthermore, we introduce a novel strategy to enable stronger communication between Pareto optimal solutions and broaden the applicability of our approach.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new training framework"
+              ],
+              "Primary Modifier": [
+                "Pareto Mutual Distillation (Pareto-MD)"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "towards pushing the Pareto frontier outwards rather than making trade-offs.",
+              "we introduce a novel strategy to enable stronger communication between Pareto optimal solutions and broaden the applicability of our approach."
+            ],
+            "Method": [
+              "Pareto-MD collaboratively trains two Pareto optimal solutions that favor different languages and allows them to learn from the strengths of each other via knowledge distillation."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Results on experiments on the WMT and TED datasets",
+          "Text": "Experimental results on the widely-used WMT and TED datasets show that our method significantly pushes the Pareto frontier and outperforms baselines by up to +2.46 BLEU.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experimental results on the widely-used WMT and TED datasets"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "that our method significantly pushes the Pareto frontier and outperforms baselines by up to +2.46 BLEU."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_367",
+      "abstract": "Although pretrained language models (PLMs) can be prompted to perform a wide range of language tasks, it remains an open question how much this ability comes from generalizable linguistic understanding versus surface-level lexical patterns. To test this, we present a structured prompting approach for linguistic structured prediction tasks, allowing us to perform zero- and few-shot sequence tagging with autoregressive PLMs. We evaluate this approach on part-of-speech tagging, named entity recognition, and sentence chunking, demonstrating strong few-shot performance in all cases. We also find that while PLMs contain significant prior knowledge of task labels due to task leakage into the pretraining corpus, structured prompting can also retrieve linguistic structure with arbitrary labels. These findings indicate that the in-context learning ability and linguistic knowledge of PLMs generalizes beyond memorization of their training data.",
+      "events": [
+        {
+          "Background/Introduction": "Generalizable linguisitic understanding vs lexical patterns of PLM's",
+          "Text": "Although pretrained language models (PLMs) can be prompted to perform a wide range of language tasks, it remains an open question how much this ability comes from generalizable linguistic understanding versus surface-level lexical patterns.",
+          "Main Action": "can be prompted to perform",
+          "Arguments": {
+            "Agent": [
+              "pretrained language models (PLMs)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a wide range of language tasks"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "it remains an open question how much this ability comes from generalizable linguistic understanding versus surface-level lexical patterns."
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Structured prompting approach for linguistic prediction tasks",
+          "Text": "To test this, we present a structured prompting approach for linguistic structured prediction tasks, allowing us to perform zero- and few-shot sequence tagging with autoregressive PLMs. We evaluate this approach on part-of-speech tagging, named entity recognition, and sentence chunking, demonstrating strong few-shot performance in all cases.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a structured prompting approach"
+              ],
+              "Primary Modifier": [
+                "for linguistic structured prediction tasks"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "allowing us to perform zero- and few-shot sequence tagging with autoregressive PLMs",
+              "We evaluate this approach on part-of-speech tagging, named entity recognition, and sentence chunking,"
+            ],
+            "Results": [
+              "demonstrating strong few-shot performance in all cases."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "In context learning ability and linguistic knowledge of PLM's",
+          "Text": "We also find that while PLMs contain significant prior knowledge of task labels due to task leakage into the pretraining corpus, structured prompting can also retrieve linguistic structure with arbitrary labels. These findings indicate that the in-context learning ability and linguistic knowledge of PLMs generalizes beyond memorization of their training data.",
+          "Main Action": "find that",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "while PLMs contain significant prior knowledge of task labels due to task leakage into the pretraining corpus,"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "structured prompting can also retrieve linguistic structure with arbitrary labels.",
+              "These findings indicate that the in-context learning ability and linguistic knowledge of PLMs generalizes beyond memorization of their training data."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_111",
+      "abstract": "Families strengthen bonds by collectively constructing social identity through sharing stories, language, and culture. For immigrant families, language and culture barriers disrupt the mechanisms for maintaining intergenerational connection. Immigrant grandparents and grandchildren are particularly at risk of disconnect. In this paper, we investigate existing design guidelines using a tool (StoryTapestry) to explore the storytelling and crafting process of South-Asian immigrant grandparents and grandchildren. In this exploration, pairs used culturally-relevant images to create digital visual artifacts that tell their stories. Grandparent-grandchild pairs from 10 South-Asian immigrant families participated in this exploration of how the digital process fosters positive social connection, culture sharing, and co-construction. A thematic analysis revealed how collaborative digital crafting encourages the crossing of language and culture barriers, knowledge sharing, and creativity. We contribute an understanding of interaction dynamics and socio-technical implications of intergenerational and cross-cultural collaboration by demonstrating (1) that collaborative digital crafting can reverse traditional educator and learner roles to create culture sharing opportunities, (2) that grandparents play a central role in maintaining social interaction, (3) that structure can guide grandparent-grandchild pairs to a shared goal, and (4) that flexibility encourages engagement from children. We synthesize ideas from migration and collaboration research, and we discuss how the culture, language, and generational dynamics in our study extend what is known about each of these spaces. Together, our design implications offer insight into building digital tools that promote engagement, knowledge sharing, and collaboration between immigrant grandparents and grandchildren navigating social disconnect post-migration.",
+      "events": [
+        {
+          "Background/Introduction": "Immigrant families",
+          "Text": "Families strengthen bonds by collectively constructing social identity through sharing stories, language, and culture. For immigrant families, language and culture barriers disrupt the mechanisms for maintaining intergenerational connection. Immigrant grandparents and grandchildren are particularly at risk of disconnect.",
+          "Main Action": "strengthen",
+          "Arguments": {
+            "Agent": [
+              "Families"
+            ],
+            "Object": {
+              "Primary Object": [
+                "bonds by collectively constructing social identity through sharing stories, language, and culture."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "For immigrant families, language and culture barriers disrupt the mechanisms for maintaining intergenerational connection"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "Immigrant grandparents and grandchildren are particularly at risk of disconnect."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "StoryTapestry",
+          "Text": "In this paper, we investigate existing design guidelines using a tool (StoryTapestry) to explore the storytelling and crafting process of South-Asian immigrant grandparents and grandchildren. In this exploration, pairs used culturally-relevant images to create digital visual artifacts that tell their stories. Grandparent-grandchild pairs from 10 South-Asian immigrant families participated in this exploration of how the digital process fosters positive social connection, culture sharing, and co-construction.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "existing design guidelines using a tool (StoryTapestry)"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Grandparent-grandchild pairs from 10 South-Asian immigrant families participated in this exploration of how the digital process fosters positive social connection, culture sharing, and co-construction."
+            ],
+            "Purpose": [
+              "to explore the storytelling and crafting process of South-Asian immigrant grandparents and grandchildren."
+            ],
+            "Method": [
+              "In this exploration, pairs used culturally-relevant images to create digital visual artifacts that tell their stories."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "thematic analysis",
+          "Text": "A thematic analysis revealed how collaborative digital crafting encourages the crossing of language and culture barriers, knowledge sharing, and creativity. We contribute an understanding of interaction dynamics and socio-technical implications of intergenerational and cross-cultural collaboration by demonstrating (1) that collaborative digital crafting can reverse traditional educator and learner roles to create culture sharing opportunities, (2) that grandparents play a central role in maintaining social interaction, (3) that structure can guide grandparent-grandchild pairs to a shared goal, and (4) that flexibility encourages engagement from children.",
+          "Main Action": "revealed",
+          "Arguments": {
+            "Agent": [
+              "A thematic analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how collaborative digital crafting encourages the crossing of language and culture barriers, knowledge sharing, and creativity."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "We contribute an understanding of interaction dynamics and socio-technical implications of intergenerational and cross-cultural collaboration by demonstrating"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "(1) that collaborative digital crafting can reverse traditional educator and learner roles to create culture sharing opportunities,",
+              "(2) that grandparents play a central role in maintaining social interaction,",
+              "(3) that structure can guide grandparent-grandchild pairs to a shared goal, and (4) that flexibility encourages engagement from children."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "ideas from migration and collabration research",
+          "Text": "We synthesize ideas from migration and collaboration research, and we discuss how the culture, language, and generational dynamics in our study extend what is known about each of these spaces. Together, our design implications offer insight into building digital tools that promote engagement, knowledge sharing, and collaboration between immigrant grandparents and grandchildren navigating social disconnect post-migration.",
+          "Main Action": "synthesize",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ideas from migration and collaboration research"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [
+                "we discuss how the culture, language, and generational dynamics in our study extend what is known about each of these spaces."
+              ],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "that promote engagement, knowledge sharing, and collaboration between immigrant grandparents and grandchildren navigating social disconnect post-migration."
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "our design implications offer insight into building digital tools"
+            ],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_154",
+      "abstract": "Benefits of learning by teaching (LbT) have been highlighted by previous studies from a pedagogical lens, as well as through computer-supported systems. However, the challenges that university students face in technology-mediated LbT—whether it be teaching oneself, teaching a peer, or teaching an agent—are not well understood. Furthermore, there is a gap in knowledge on the challenges that students encounter throughout the process of teaching (content selection, preparation, teaching, receiving and giving feedback, and reflection) despite its importance to the design of LbT platforms. Thus, we conducted a study with 24 university students where they taught content they had not fully grasped, without guidance, and participated in a semi-structured interview. Results demonstrate that participants encountered the following challenges: psychological barriers relating to self and others, and lack of know-how. Furthermore, we illuminate design implications required to overcome these challenges and benefit from LbT without requiring prior training in pedagogy.",
+      "events": [
+        {
+          "Background/Introduction": "benifits of learning by teaching LbT",
+          "Text": "Benefits of learning by teaching (LbT) have been highlighted by previous studies from a pedagogical lens, as well as through computer-supported systems. However, the challenges that university students face in technology-mediated LbT—whether it be teaching oneself, teaching a peer, or teaching an agent—are not well understood. Furthermore, there is a gap in knowledge on the challenges that students encounter throughout the process of teaching (content selection, preparation, teaching, receiving and giving feedback, and reflection) despite its importance to the design of LbT platforms.",
+          "Main Action": "highlighted",
+          "Arguments": {
+            "Agent": [
+              "Benefits of learning by teaching (LbT)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "by previous studies from a pedagogical lens, as well as through computer-supported systems."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "there is a gap in knowledge on the challenges that students encounter throughout the process of teaching (content selection, preparation, teaching, receiving and giving feedback, and reflection) despite its importance to the design of LbT platforms.",
+              "there is a gap in knowledge on the challenges that students encounter throughout the process of teaching (content selection, preparation, teaching, receiving and giving feedback, and reflection) despite its importance to the design of LbT platforms."
+            ],
+            "Challenge": [
+              "the challenges that university students face in technology-mediated LbT—whether it be teaching oneself, teaching a peer, or teaching an agent—are not well understood."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "study with univeristy students",
+          "Text": "Thus, we conducted a study with 24 university students where they taught content they had not fully grasped, without guidance, and participated in a semi-structured interview.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "a study with 24 university students where they taught content they had not fully grasped, without guidance"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "results and the challenges",
+          "Text": "Results demonstrate that participants encountered the following challenges: psychological barriers relating to self and others, and lack of know-how.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "Results"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "that participants encountered the following challenges: psychological barriers relating to self and others, and lack of know-how."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "design implications",
+          "Text": "Furthermore, we illuminate design implications required to overcome these challenges and benefit from LbT without requiring prior training in pedagogy.",
+          "Main Action": "illuminate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design implications required to overcome these challenges and benefit from LbT without requiring prior training in pedagogy."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

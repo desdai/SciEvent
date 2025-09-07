@@ -1,0 +1,286 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_496",
+      "abstract": "Spoken language understanding (SLU) tasks have been studied for many decades in the speech research community, but have not received as much attention as lower-level tasks like speech and speaker recognition. In this work, we introduce several new annotated SLU benchmark tasks based on freely available speech data, which complement existing benchmarks and address gaps in the SLU evaluation landscape. We contribute four tasks: question answering and summarization involve inference over longer speech sequences; named entity localization addresses the speech-specific task of locating the targeted content in the signal; dialog act classification identifies the function of a given speech utterance. In order to facilitate the development of SLU models that leverage the success of pre-trained speech representations, we will release a new benchmark suite, including for each task (i) curated annotations for a relatively small fine-tuning set, (ii) reproducible pipeline (speech recognizer + text model) and end-to-end baseline models and evaluation metrics, (iii) baseline model performance in various types of systems for easy comparisons. We present the details of data collection and annotation and the performance of the baseline models. We also analyze the sensitivity of pipeline models’ performance to the speech recognition accuracy, using more than 20 publicly available speech recognition models.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Spoken language understanding (SLU) tasks have been studied for many decades in the speech research community, but have not received as much attention as lower-level tasks like speech and speaker recognition.",
+          "Main Action": "have been studied",
+          "Arguments": {
+            "Agent": [
+              "speech research community"
+            ],
+            "Object": {
+              "Primary Object": [
+                "many decades"
+              ],
+              "Secondary Object": [
+                "lower-level tasks like speech and speaker recognition"
+              ]
+            },
+            "Context": [
+              "in the speech research community"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "but have not received as much attention"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we introduce several new annotated SLU benchmark tasks based on freely available speech data, which complement existing benchmarks and address gaps in the SLU evaluation landscape. We contribute four tasks: question answering and summarization involve inference over longer speech sequences; named entity localization addresses the speech-specific task of locating the targeted content in the signal; dialog act classification identifies the function of a given speech utterance. In order to facilitate the development of SLU models that leverage the success of pre-trained speech representations, we will release a new benchmark suite, including for each task (i) curated annotations for a relatively small fine-tuning set, (ii) reproducible pipeline (speech recognizer + text model) and end-to-end baseline models and evaluation metrics, (iii) baseline model performance in various types of systems for easy comparisons.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new annotated SLU benchmark tasks"
+              ],
+              "Secondary Object": [
+                "freely available speech data"
+              ]
+            },
+            "Context": [
+              "SLU evaluation landscape"
+            ],
+            "Purpose": [
+              "complement existing benchmarks and address gaps"
+            ],
+            "Method": [
+              "release a new benchmark suite"
+            ],
+            "Results": [
+              "curated annotations for a relatively small fine-tuning set"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "facilitate the development of SLU models"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We present the details of data collection and annotation and the performance of the baseline models. We also analyze the sensitivity of pipeline models’ performance to the speech recognition accuracy, using more than 20 publicly available speech recognition models.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "details of data collection and annotation"
+              ],
+              "Secondary Object": [
+                "performance of the baseline models"
+              ]
+            },
+            "Context": [
+              "of the baseline models"
+            ],
+            "Purpose": [
+              "none"
+            ],
+            "Method": [
+              "using more than 20 publicly available speech recognition models"
+            ],
+            "Results": [
+              "none"
+            ],
+            "Analysis": [
+              "none"
+            ],
+            "Challenge": [
+              "none"
+            ],
+            "Ethical": [
+              "none"
+            ],
+            "Implications": [
+              "none"
+            ],
+            "Contradictions": [
+              "none"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_828",
+      "abstract": "Reasoning about time is of fundamental importance. Many facts are time-dependent. For example, athletes change teams from time to time, and different government officials are elected periodically. Previous time-dependent question answering (QA) datasets tend to be biased in either their coverage of time spans or question types. In this paper, we introduce a comprehensive probing dataset TempReason to evaluate the temporal reasoning capability of large language models. Our dataset includes questions of three temporal reasoning levels. In addition, we also propose a novel learning framework to improve the temporal reasoning capability of large language models, based on temporal span extraction and time-sensitive reinforcement learning. We conducted experiments in closed book QA, open book QA, and reasoning QA settings and demonstrated the effectiveness of our approach.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Reasoning about time is of fundamental importance. Many facts are time-dependent. For example, athletes change teams from time to time, and different government officials are elected periodically. Previous time-dependent question answering (QA) datasets tend to be biased in either their coverage of time spans or question types.",
+          "Main Action": "tend",
+          "Arguments": {
+            "Agent": [
+              "previous time-dependent QA datasets"
+            ],
+            "Object": {
+              "Primary Object": [
+                "their coverage of time spans"
+              ],
+              "Secondary Object": [
+                "question types"
+              ]
+            },
+            "Context": [
+              "Many facts are time-dependent"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we introduce a comprehensive probing dataset TempReason to evaluate the temporal reasoning capability of large language models. Our dataset includes questions of three temporal reasoning levels. In addition, we also propose a novel learning framework to improve the temporal reasoning capability of large language models, based on temporal span extraction and time-sensitive reinforcement learning.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a comprehensive probing dataset"
+              ],
+              "Secondary Object": [
+                "large language models"
+              ]
+            },
+            "Context": [
+              "to evaluate the temporal reasoning capability"
+            ],
+            "Purpose": [
+              "improve the temporal reasoning capability"
+            ],
+            "Method": [
+              "based on temporal span extraction and time-sensitive reinforcement learning"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We conducted experiments in closed book QA, open book QA, and reasoning QA settings and demonstrated the effectiveness of our approach.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "experiments"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "demonstrated the effectiveness"
+            ],
+            "Method": [
+              "in closed book QA, open book QA, and reasoning QA settings"
+            ],
+            "Results": [
+              "the effectiveness of our approach"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

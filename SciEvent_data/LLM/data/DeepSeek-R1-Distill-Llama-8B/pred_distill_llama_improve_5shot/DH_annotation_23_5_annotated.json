@@ -1,0 +1,295 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_08",
+      "abstract": "Charles Stewart Parnell was one of the most controversial and effective leaders in the United Kingdom in the second half of the nineteenth century. Almost single-handedly, he transformed the proposal of Home Rule for Ireland from a languishing irrelevance to a mass-supported cause. Though the historiography on Parnell is substantial, his speeches - the main primary sources for accessing both his thinking and strategies - have never been collected or edited. One of the core questions in working towards an edition of his speeches was whether it would be possible to use automated methods on these fragmentary sources to reconstruct what Parnell actually said in them. We were also interested in how the reports varied, and what that variation might tell us about the practices and biases of the journalists who wrote them and the newspapers which published them. This article discusses the use of two digital tools in our attempts to answer these research questions: CollateX, which was designed by Digital Humanities practitioners for the comparison of textual variants, and SBERT Sentence Transformers, which establishes levels of similarity between texts. In this article we talk about how the application of digital methods to the corpus led us away from the idea of producing definitive reconstructions of the speeches, and towards a deeper understanding of the corpus and the journalistic practices which went into its creation.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Charles Stewart Parnell was one of the most controversial and effective leaders in the United Kingdom in the second half of the nineteenth century. Almost single-handedly, he transformed the proposal of Home Rule for Ireland from a languishing irrelevance to a mass-supported cause. Though the historiography on Parnell is substantial, his speeches - the main primary sources for accessing both his thinking and strategies - have never been collected or edited.",
+          "Main Action": "transform",
+          "Arguments": {
+            "Agent": [
+              "Almost single-handedly"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the proposal of Home Rule for Ireland"
+              ],
+              "Secondary Object": [
+                "from a languishing irrelevance"
+              ]
+            },
+            "Context": [
+              "Though the historiography on Parnell is substantial",
+              "his speeches - the main primary sources for accessing both his thinking and strategies - have never been collected or edited"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "One of the core questions in working towards an edition of his speeches was whether it would be possible to use automated methods on these fragmentary sources to reconstruct what Parnell actually said in them. We were also interested in how the reports varied, and what that variation might tell us about the practices and biases of the journalists who wrote them and the newspapers which published them. This article discusses the use of two digital tools in our attempts to answer these research questions: CollateX, which was designed by Digital Humanities practitioners for the comparison of textual variants, and SBERT Sentence Transformers, which establishes levels of similarity between texts.",
+          "Main Action": "have been extensively studied",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "fragmentary sources"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "whether it would be possible to use automated methods on these fragmentary sources to reconstruct what Parnell actually said in them"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "CollateX",
+              "SBERT Sentence Transformers"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In this article we talk about how the application of digital methods to the corpus led us away from the idea of producing definitive reconstructions of the speeches, and towards a deeper understanding of the corpus and the journalistic practices which went into its creation.",
+          "Main Action": "have been considered",
+          "Arguments": {
+            "Agent": [
+              "digital methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "corpus"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "how the application of digital methods to the corpus led us away from the idea of producing definitive reconstructions of the speeches"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_01",
+      "abstract": "Biemann, Heyer, and Quasthoff's Wissensrohstoff Text is concerned with conveying a basic understanding of the models and techniques of text mining, as well as insight into which method is procedurally suitable for whichever problem in this area. The book imparts indispensable knowledge, and the new edition makes it possible to describe and discuss the most recent developments in text mining. The book also deals with linguistic fundamentals and with principles of human language processing, which is very noteworthy and a unique asset. The book shows in an exemplary way how complex knowledge can be conveyed by means of didactic reduction.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Biemann, Heyer, and Quasthoff's Wissensrohstoff Text is concerned with conveying a basic understanding of the models and techniques of text mining, as well as insight into which method is procedurally suitable for whichever problem in this area.",
+          "Main Action": "have extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Cross-linguistic transfer"
+            ],
+            "Object": {
+              "Primary Object": [
+                "models and techniques of text mining"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "language family distance predicts more negative transfer"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The book imparts indispensable knowledge, and the new edition makes it possible to describe and discuss the most recent developments in text mining. The book also deals with linguistic fundamentals and with principles of human language processing, which is very noteworthy and a unique asset.",
+          "Main Action": "imparts",
+          "Arguments": {
+            "Agent": [
+              "indispensable knowledge"
+            ],
+            "Object": {
+              "Primary Object": [
+                "knowledge"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "the most recent developments in text mining",
+              "linguistic fundamentals",
+              "human language processing"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "very noteworthy",
+              "unique asset"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The book shows in an exemplary way how complex knowledge can be conveyed by means of didactic reduction.",
+          "Main Action": "shows",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

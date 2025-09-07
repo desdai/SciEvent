@@ -1,0 +1,388 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_228",
+      "abstract": "Immersive virtual reality (VR) has seen growth in usage over the last few years and that growth is expected to accelerate. Correspondingly, many VR-based online communities have begun to emerge, and several social VR applications such as AltspaceVR have gained significant popularity. However, virtual reality can be isolating. Users can meet and connect with people in VR, but inevitably, when a user removes their headset, their friends are no longer there. In this paper, we look at how communities in AltspaceVR, a popular social VR application, handle this challenge. We conduct fourteen interviews and over 70 hours of participant observation and find that AltspaceVR users and communities have turned to Discord to solve many of their needs, such as facilitating more ubiquitous communication, planning community activities and AltspaceVR Events, and hosting casual social discussion. By using the communicative ecology model for our analysis, we find that AltspaceVR, Discord, and the communities that intersect the two have formed a tightly-coupled communicative ecology, which we call the 'stage' and 'theater'. Discord acts as the 'theater,' where actors and crew collaborate and communicate to prepare for the main event, all the while building important social bonds. AltspaceVR acts as the 'stage,' where those efforts manifest in ephemeral but high-value experiences that bring the community together. Finally, we compare the communities we studied with those found in massively-multiplayer online games (MMOGs) and provide insights regarding the design of social VR applications and online communities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Immersive virtual reality (VR) has seen growth in usage over the last few years and that growth is expected to accelerate. Correspondingly, many VR-based online communities have begun to emerge, and several social VR applications such as AltspaceVR have gained significant popularity. However, virtual reality can be isolating. Users can meet and connect with people in VR, but inevitably, when a user removes their headset, their friends are no longer there.",
+          "Main Action": "Users experience isolation upon removing headsets",
+          "Arguments": {
+            "Agent": [
+              "Users"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Isolation"
+              ],
+              "Secondary Object": [
+                "Upon removing headsets"
+              ]
+            },
+            "Context": [
+              "Immersive virtual reality (VR) allows users to meet and connect with people in VR, but inevitably, when a user removes their headset, their friends are no longer there.",
+              "Virtual reality can be isolating."
+            ],
+            "Purpose": [
+              "To highlight the issue of isolation experienced by users of immersive virtual reality when disconnecting from others.",
+              "To emphasize the importance of addressing isolation in VR technologies."
+            ],
+            "Method": [
+              "No specific methodologies were employed in exploring this phenomenon except for anecdotal reports from users."
+            ],
+            "Results": [
+              "Observations indicate that users often find it challenging to reconnect with individuals once their headsets are removed."
+            ],
+            "Analysis": [
+              "This finding underscores the need for improved VR designs that account for disconnection scenarios."
+            ],
+            "Challenge": [
+              "Lack of comprehensive empirical research focusing specifically on isolation caused by disconnection in VR."
+            ],
+            "Ethical": [
+              "Issues raised necessitate consideration of responsible tech usage in VR applications."
+            ],
+            "Implications": [
+              "Potential improvements in VR interface design aimed at mitigating isolation during disconnections."
+            ],
+            "Contradictions": [
+              "None reported regarding existing literature on VR isolation issues."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we look at how communities in AltspaceVR, a popular social VR application, handle this challenge. We conduct fourteen interviews and over 70 hours of participant observation and find that AltspaceVR users and communities have turned to Discord to solve many of their needs, such as facilitating more ubiquitous communication, planning community activities and AltspaceVR Events, and hosting casual social discussion.",
+          "Main Action": "They have turned",
+          "Arguments": {
+            "Agent": [
+              "AltspaceVR users and communities"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Discord"
+              ],
+              "Secondary Object": [
+                "facilitating more ubiquitous communication, planning community activities and AltspaceVR Events, hosting casual social discussion"
+              ]
+            },
+            "Context": [
+              "in this paper, we look at how communities in AltspaceVR...find that AltspaceVR users...",
+              "over 70 hours of participant observation"
+            ],
+            "Purpose": [
+              "to investigate how AltspaceVR users and communities utilize Discord"
+            ],
+            "Method": [
+              "conducted fourteen interviews and over 70 hours of participant observation"
+            ],
+            "Results": [
+              "we find that AltspaceVR users and communities have turned to Discord to facilitate more ubiquitous communication, plan community activities and AltspaceVR Events, and host casual social discussion"
+            ],
+            "Analysis": [
+              "this reflects a shift in problem-solving strategies within virtual social spaces"
+            ],
+            "Challenge": [
+              "no direct mention of challenges encountered during the process"
+            ],
+            "Ethical": [
+              "no explicit ethical considerations mentioned"
+            ],
+            "Implications": [
+              "suggesting the importance of online collaboration even in absence of physical co-presence"
+            ],
+            "Contradictions": [
+              "none identified"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "By using the communicative ecology model for our analysis, we find that AltspaceVR, Discord, and the communities that intersect the two have formed a tightly-coupled communicative ecology, which we call the 'stage' and 'theater'. Discord acts as the 'theater,' where actors and crew collaborate and communicate to prepare for the main event, all the while building important social bonds. AltspaceVR acts as the 'stage,' where those efforts manifest in ephemeral but high-value experiences that bring the community together.",
+          "Main Action": "Discord acts as the 'theater'",
+          "Arguments": {
+            "Agent": [
+              "Discord"
+            ],
+            "Object": {
+              "Primary Object": [
+                "They form a tightly-coupled communicative ecology"
+              ],
+              "Secondary Object": [
+                "AltspaceVR facilitates high-value experiences"
+              ]
+            },
+            "Context": [
+              "Using the communicative ecology model for analysis"
+            ],
+            "Purpose": [
+              "To investigate collaboration dynamics between AltspaceVR and Discord"
+            ],
+            "Method": [
+              "Employing the communicative ecology model"
+            ],
+            "Results": [
+              "Both platforms act as integral parts of the ecosystem",
+              [
+                "They show how AltspaceVR brings together communities through shared experiences"
+              ]
+            ],
+            "Analysis": [
+              "Interpreting the findings highlights the role of digital spaces in fostering connection"
+            ],
+            "Challenge": [
+              "Data limitations hindered comprehensive analysis",
+              "Balancing technology and human factors remains complex"
+            ],
+            "Ethical": [
+              "Generalizability of the model is uncertain",
+              "Privacy issues affect environment usability"
+            ],
+            "Implications": [
+              "Future research explores integrating similar systems for better community building",
+              "Designing optimal multi-platform collaborations could yield new insights"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, we compare the communities we studied with those found in massively-multiplayer online games (MMOGs) and provide insights regarding the design of social VR applications and online communities.",
+          "Main Action": "provide insights",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Communities",
+                "Massively-Multiplayer Online Games (MMOGs)",
+                "Social VR Applications"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Compare the communities we studied with those found in MMOGs"
+            ],
+            "Purpose": [
+              "Provide insights regarding the design of social VR applications and online communities"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_183",
+      "abstract": "Access to and understanding one's medical history is crucial to maintaining long-term care. As adolescents and young adults childhood cancer survivors age, they must transition and transfer their health care from their pediatric to an adult care institution. In this study, we provide empirical evidence reporting on the after-cancer treatment experiences of childhood cancer survivors through their transition. We report findings from 24 semi-structured interviews with adolescent and young adult cancer survivors participating in a childhood cancer survivorship program that prepares them for adult care. Our findings reveal three parts of their after-cancer treatment experience: the assumption of responsibility for their complex care needs and medical information and the overall transfer and maintenance of the continuity of their care to an adult clinician. Our findings suggest that survivors may play an essential yet unrecognized role in the patient hand-off. Thus, we introduce patient-mediate handoffs and suggest design opportunities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Access to and understanding one's medical history is crucial to maintaining long-term care. As adolescents and young adults childhood cancer survivors age, they must transition and transfer their health care from their pediatric to an adult care institution.",
+          "Main Action": "As adolescents",
+          "Arguments": {
+            "Agent": [
+              "young adults childhood cancer survivors age"
+            ],
+            "Object": {
+              "Primary Object": [
+                "must transition and transfer their health care from their pediatric to an adult care institution"
+              ],
+              "Secondary Object": [
+                "healthcare institutions"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we provide empirical evidence reporting on the after-cancer treatment experiences of childhood cancer survivors through their transition. We report findings from 24 semi-structured interviews with adolescent and young adult cancer survivors participating in a childhood cancer survivorship program that prepares them for adult care.",
+          "Main Action": "reporting",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "on the after-cancer treatment experiences"
+              ],
+              "Secondary Object": [
+                "of childhood cancer survivors through their transition"
+              ]
+            },
+            "Context": [
+              "adolescent and young adult cancer survivors participating in a childhood cancer survivorship program that prepares them for adult care"
+            ],
+            "Purpose": [
+              "understand the after-cancer treatment experiences of childhood cancer survivors through their transition"
+            ],
+            "Method": [
+              "conducted 24 semi-structured interviews"
+            ],
+            "Results": [
+              "findings from 24 semi-structured interviews"
+            ],
+            "Analysis": [
+              "supporting the design of childhood cancer survivorship programs and advancing relevant literature"
+            ],
+            "Challenge": [
+              "no identified challenges within the scope of this study"
+            ],
+            "Ethical": [
+              "no identified ethical issues raised during the study"
+            ],
+            "Implications": [
+              "contributing valuable insights for designing effective survivorship programs and advancing oncology education"
+            ],
+            "Contradictions": [
+              "none reported against current body of knowledge"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Our findings reveal three parts of their after-cancer treatment experience: the assumption of responsibility for their complex care needs and medical information and the overall transfer and maintenance of the continuity of their care to an adult clinician.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our findings suggest that survivors may play an essential yet unrecognized role in the patient hand-off. Thus, we introduce patient-mediate handoffs and suggest design opportunities.",
+          "Main Action": "Thus introduce patient-mediate handoffs and suggest design opportunities",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "patient-mediate handoffs"
+              ],
+              "Secondary Object": [
+                "design opportunities"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

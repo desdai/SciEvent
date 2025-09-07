@@ -1,0 +1,255 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_662",
+      "abstract": "Accurate prediction of drug-target binding affinity (DTA) is crucial for drug discovery. The increase in the publication of large-scale DTA datasets enables the development of various computational methods for DTA prediction. Numerous deep learning-based methods have been proposed to predict affinities, some of which only utilize original sequence information or complex structures, but the effective combination of various information and protein-binding pockets have not been fully mined. Therefore, a new method that integrates available key information is urgently needed to predict DTA and accelerate the drug discovery process. In this study, we propose a novel deep learning-based predictor termed DataDTA to estimate the affinities of drug-target pairs. DataDTA utilizes descriptors of predicted pockets and sequences of proteins, as well as low-dimensional molecular features and SMILES strings of compounds as inputs. Specifically, the pockets were predicted from the three-dimensional structure of proteins and their descriptors were extracted as the partial input features for DTA prediction. The molecular representation of compounds based on algebraic graph features was collected to supplement the input information of targets. Furthermore, to ensure effective learning of multiscale interaction features, a dual-interaction aggregation neural network strategy was developed. DataDTA was compared with state-of-the-art methods on different datasets, and the results showed that DataDTA is a reliable prediction tool for affinities estimation. Specifically, the concordance index (CI) of DataDTA is 0.806 and the Pearson correlation coefficient (R) value is 0.814 on the test dataset, which is higher than other methods.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Accurate prediction of drug-target binding affinity (DTA) is crucial for drug discovery. The increase in the publication of large-scale DTA datasets enables the development of various computational methods for DTA prediction. Numerous deep learning-based methods have been proposed to predict affinities, some of which only utilize original sequence information or complex structures, but the effective combination of various information and protein-binding pockets have not been fully mined. Therefore, a new method that integrates available key information is urgently needed to predict DTA and accelerate the drug discovery process.",
+          "Main Action": "is crucial for drug discovery",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Accurate prediction of drug-target binding affinity (DTA)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The increase in the publication of large-scale DTA datasets enables the development of various computational methods for DTA prediction."
+            ],
+            "Purpose": [
+              "a new method that integrates available key information is urgently needed to predict DTA and accelerate the drug discovery process."
+            ],
+            "Method": [
+              "Numerous deep learning-based methods have been proposed to predict affinities, some of which only utilize original sequence information or complex structures"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "the effective combination of various information and protein-binding pockets have not been fully mined"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we propose a novel deep learning-based predictor termed DataDTA to estimate the affinities of drug-target pairs. DataDTA utilizes descriptors of predicted pockets and sequences of proteins, as well as low-dimensional molecular features and SMILES strings of compounds as inputs. Specifically, the pockets were predicted from the three-dimensional structure of proteins and their descriptors were extracted as the partial input features for DTA prediction. The molecular representation of compounds based on algebraic graph features was collected to supplement the input information of targets. Furthermore, to ensure effective learning of multiscale interaction features, a dual-interaction aggregation neural network strategy was developed.",
+          "Main Action": "propose a novel deep learning-based predictor termed DataDTA to estimate the affinities of drug-target pairs",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel deep learning-based predictor termed DataDTA"
+              ],
+              "Secondary Object": [
+                "the affinities of drug-target pairs"
+              ]
+            },
+            "Context": [
+              "In this study"
+            ],
+            "Purpose": [
+              "to estimate the affinities of drug-target pairs"
+            ],
+            "Method": [
+              "DataDTA utilizes descriptors of predicted pockets and sequences of proteins, as well as low-dimensional molecular features and SMILES strings of compounds as inputs",
+              "the pockets were predicted from the three-dimensional structure of proteins and their descriptors were extracted as the partial input features for DTA prediction",
+              "The molecular representation of compounds based on algebraic graph features was collected to supplement the input information of targets",
+              "a dual-interaction aggregation neural network strategy was developed"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "DataDTA was compared with state-of-the-art methods on different datasets, and the results showed that DataDTA is a reliable prediction tool for affinities estimation. Specifically, the concordance index (CI) of DataDTA is 0.806 and the Pearson correlation coefficient (R) value is 0.814 on the test dataset, which is higher than other methods.",
+          "Main Action": "showed",
+          "Arguments": {
+            "Agent": [
+              "the results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that DataDTA is a reliable prediction tool for affinities estimation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "DataDTA was compared with state-of-the-art methods on different datasets"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "DataDTA was compared with state-of-the-art methods on different datasets"
+            ],
+            "Results": [
+              "the concordance index (CI) of DataDTA is 0.806",
+              "the Pearson correlation coefficient (R) value is 0.814 on the test dataset",
+              "which is higher than other methods"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_27",
+      "abstract": "VSTH is a user-friendly web server with the complete workflow for virtual screening. By self-customized visualization software, users can interactively prepare protein files, set docking sites as well as view binding conformers in a target protein in a few clicks. We provide serval purchasable ligand libraries for selection. And, we integrate six open-source docking programs as computing engine, or as conformational sampling tools for DLIGAND2. Users can select various docking methods simultaneously and personalize computing parameters. After docking processing, user can filter docking conformations by ranked scores, or cluster-based molecular similarity to find highly populated clusters of low-energy conformations.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "VSTH is a user-friendly web server with the complete workflow for virtual screening.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "VSTH"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a user-friendly web server"
+              ],
+              "Secondary Object": [
+                "the complete workflow for virtual screening"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "By self-customized visualization software, users can interactively prepare protein files, set docking sites as well as view binding conformers in a target protein in a few clicks. We provide serval purchasable ligand libraries for selection. And, we integrate six open-source docking programs as computing engine, or as conformational sampling tools for DLIGAND2. Users can select various docking methods simultaneously and personalize computing parameters. After docking processing, user can filter docking conformations by ranked scores, or cluster-based molecular similarity to find highly populated clusters of low-energy conformations.",
+          "Main Action": "integrate six open-source docking programs as computing engine, or as conformational sampling tools for DLIGAND2",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "six open-source docking programs"
+              ],
+              "Secondary Object": [
+                "computing engine",
+                "conformational sampling tools for DLIGAND2"
+              ]
+            },
+            "Context": [
+              "By self-customized visualization software, users can interactively prepare protein files, set docking sites as well as view binding conformers in a target protein in a few clicks.",
+              "We provide serval purchasable ligand libraries for selection.",
+              "Users can select various docking methods simultaneously and personalize computing parameters.",
+              "After docking processing, user can filter docking conformations by ranked scores, or cluster-based molecular similarity to find highly populated clusters of low-energy conformations."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "self-customized visualization software",
+              "six open-source docking programs",
+              "various docking methods",
+              "personalize computing parameters",
+              "filter docking conformations by ranked scores",
+              "cluster-based molecular similarity"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

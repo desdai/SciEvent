@@ -1,0 +1,290 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_520",
+      "abstract": "The 3D structures of RNA play a critical role in understanding their functionalities. There exist several computational methods to study RNA 3D structures by identifying structural motifs and categorizing them into several motif families based on their structures. Although the number of such motif families is not limited, a few of them are well-studied. Out of these structural motif families, there exist several families that are visually similar or very close in structure, even with different base interactions. Alternatively, some motif families share a set of base interactions but maintain variation in their 3D formations. These similarities among different motif families, if known, can provide a better insight into the RNA 3D structural motifs as well as their characteristic functions in cell biology. In this work, we proposed a method, RNAMotifComp, that analyzes the instances of well-known structural motif families and establishes a relational graph among them. We also have designed a method to visualize the relational graph where the families are shown as nodes and their similarity information is represented as edges. We validated our discovered correlations of the motif families using RNAMotifContrast. Additionally, we used a basic Naïve Bayes classifier to show the importance of RNAMotifComp. The relational analysis explains the functional analogies of divergent motif families and illustrates the situations where the motifs of disparate families are predicted to be of the same family.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The 3D structures of RNA play a critical role in understanding their functionalities. There exist several computational methods to study RNA 3D structures by identifying structural motifs and categorizing them into several motif families based on their structures. Although the number of such motif families is not limited, a few of them are well-studied. Out of these structural motif families, there exist several families that are visually similar or very close in structure, even with different base interactions. Alternatively, some motif families share a set of base interactions but maintain variation in their 3D formations. These similarities among different motif families, if known, can provide a better insight into the RNA 3D structural motifs as well as their characteristic functions in cell biology.",
+          "Main Action": "study",
+          "Arguments": {
+            "Agent": [
+              "computational methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "RNA 3D structures"
+              ],
+              "Secondary Object": [
+                "structural motifs"
+              ]
+            },
+            "Context": [
+              "understanding their functionalities"
+            ],
+            "Purpose": [
+              "provide a better insight"
+            ],
+            "Method": [
+              "identifying structural motifs and categorizing them into several motif families"
+            ],
+            "Results": [
+              "several families that are visually similar or very close in structure"
+            ],
+            "Analysis": [
+              "these similarities among different motif families"
+            ],
+            "Challenge": [
+              "not limited"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "characteristic functions in cell biology"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we proposed a method, RNAMotifComp, that analyzes the instances of well-known structural motif families and establishes a relational graph among them. We also have designed a method to visualize the relational graph where the families are shown as nodes and their similarity information is represented as edges.",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a method"
+              ],
+              "Secondary Object": [
+                "RNAMotifComp"
+              ]
+            },
+            "Context": [
+              "this work"
+            ],
+            "Purpose": [
+              "to analyze"
+            ],
+            "Method": [
+              "analyze instances of well-known structural motif families",
+              "establish a relational graph"
+            ],
+            "Results": [
+              "designed a method to visualize the relational graph"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We validated our discovered correlations of the motif families using RNAMotifContrast. Additionally, we used a basic Naïve Bayes classifier to show the importance of RNAMotifComp. The relational analysis explains the functional analogies of divergent motif families and illustrates the situations where the motifs of disparate families are predicted to be of the same family.",
+          "Main Action": "validated",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "using RNAMotifContrast",
+              "Additionally, we used a basic Naïve Bayes classifier"
+            ],
+            "Purpose": [
+              "show the importance of RNAMotifComp"
+            ],
+            "Method": [
+              "used a basic Naïve Bayes classifier"
+            ],
+            "Results": [
+              "explains the functional analogies of divergent motif families",
+              "illustrates the situations where the motifs of disparate families are predicted to be of the same family"
+            ],
+            "Analysis": [
+              "relational analysis"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "the situations where the motifs of disparate families are predicted to be of the same family"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_334",
+      "abstract": "Feature selection is a powerful dimension reduction technique which selects a subset of relevant features for model construction. Numerous feature selection methods have been proposed, but most of them fail under the high-dimensional and low-sample size (HDLSS) setting due to the challenge of overfitting. We present a deep learning-based method-GRAph Convolutional nEtwork feature Selector (GRACES) — to select important features for HDLSS data. GRACES exploits latent relations between samples with various overfitting — reducing techniques to iteratively find a set of optimal features which gives rise to the greatest decreases in the optimization loss. We demonstrate that GRACES significantly outperforms other feature selection methods on both synthetic and real-world datasets.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Feature selection is a powerful dimension reduction technique which selects a subset of relevant features for model construction. Numerous feature selection methods have been proposed, but most of them fail under the high-dimensional and low-sample size (HDLSS) setting due to the challenge of overfitting.",
+          "Main Action": "selects",
+          "Arguments": {
+            "Agent": [
+              "a subset of relevant features"
+            ],
+            "Object": {
+              "Primary Object": [
+                "relevant features"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "due to the challenge of overfitting"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "feature selection method"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "overfitting"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present a deep learning-based method-GRAph Convolutional nEtwork feature Selector (GRACES) — to select important features for HDLSS data. GRACES exploits latent relations between samples with various overfitting — reducing techniques to iteratively find a set of optimal features which gives rise to the greatest decreases in the optimization loss.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a deep learning-based method"
+              ],
+              "Secondary Object": [
+                "HDLSS data"
+              ]
+            },
+            "Context": [
+              "to select important features"
+            ],
+            "Purpose": [
+              "gives rise to the greatest decreases in the optimization loss"
+            ],
+            "Method": [
+              "exploits latent relations between samples with various overfitting-reducing techniques"
+            ],
+            "Results": [
+              "finds a set of optimal features"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "overfitting"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for HDLSS data"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate that GRACES significantly outperforms other feature selection methods on both synthetic and real-world datasets.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "GRACES"
+              ],
+              "Secondary Object": [
+                "other feature selection methods",
+                "synthetic and real-world datasets"
+              ]
+            },
+            "Context": [
+              "on both synthetic and real-world datasets"
+            ],
+            "Purpose": [
+              "significantly outperforming"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "GRACES significantly outperforms"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "outperforms"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

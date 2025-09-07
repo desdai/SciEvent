@@ -1,0 +1,233 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_554",
+      "abstract": "Reasoning has been a central topic in artificial intelligence from the beginning. The recent progress made on distributed representation and neural networks continues to improve the state-of-the-art performance of natural language inference. However, it remains an open question whether the models perform real reasoning to reach their conclusions or rely on spurious correlations. Adversarial attacks have proven to be an important tool to help evaluate the Achilles’ heel of the victim models. In this study, we explore the fundamental problem of developing attack models based on logic formalism. We propose NatLogAttack to perform systematic attacks centring around natural logic, a classical logic formalism that is traceable back to Aristotle’s syllogism and has been closely developed for natural language inference. The proposed framework renders both label-preserving and label-flipping attacks. We show that compared to the existing attack models, NatLogAttack generates better adversarial examples with fewer visits to the victim models. The victim models are found to be more vulnerable under the label-flipping setting. NatLogAttack provides a tool to probe the existing and future NLI models’ capacity from a key viewpoint and we hope more logic-based attacks will be further explored for understanding the desired property of reasoning.",
+      "events": [
+        {
+          "Background/Introduction": "Use of adversarial attacks to help evaluation of Achilles heel of victim models",
+          "Text": "Reasoning has been a central topic in artificial intelligence from the beginning. The recent progress made on distributed representation and neural networks continues to improve the state-of-the-art performance of natural language inference. However, it remains an open question whether the models perform real reasoning to reach their conclusions or rely on spurious correlations. Adversarial attacks have proven to be an important tool to help evaluate the Achilles’ heel of the victim models.",
+          "Main Action": "have proven to be",
+          "Arguments": {
+            "Agent": [
+              "Adversarial attacks"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an important tool"
+              ],
+              "Primary Modifier": [
+                "to help evaluate the Achilles’ heel of the victim models."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Reasoning has been a central topic in artificial intelligence from the beginning.",
+              "it remains an open question whether the models perform real reasoning to reach their conclusions or rely on spurious correlations",
+              "The recent progress made on distributed representation and neural networks continues to improve the state-of-the-art performance of natural language inference"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Exploration of developing models based on logic formalism and proposal of NatLogAttack",
+          "Text": "In this study, we explore the fundamental problem of developing attack models based on logic formalism. We propose NatLogAttack to perform systematic attacks centring around natural logic, a classical logic formalism that is traceable back to Aristotle’s syllogism and has been closely developed for natural language inference. The proposed framework renders both label-preserving and label-flipping attacks.",
+          "Main Action": "explore",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the fundamental problem"
+              ],
+              "Primary Modifier": [
+                "of developing attack models based on logic formalism"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "We propose NatLogAttack to perform systematic attacks centring around natural logic, a classical logic formalism that is traceable back to Aristotle’s syllogism and has been closely developed for natural language inference",
+              "The proposed framework renders both label-preserving and label-flipping attacks"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Comparison of NatLogAttack and existing attack models",
+          "Text": "We show that compared to the existing attack models, NatLogAttack generates better adversarial examples with fewer visits to the victim models. The victim models are found to be more vulnerable under the label-flipping setting.",
+          "Main Action": "show that",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "compared to the existing attack models, NatLogAttack generates better adversarial examples with fewer visits to the victim models",
+              "The victim models are found to be more vulnerable under the label-flipping setting."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Tool to probe existing and future NLI model's capacity from a key viewpoint",
+          "Text": "NatLogAttack provides a tool to probe the existing and future NLI models’ capacity from a key viewpoint and we hope more logic-based attacks will be further explored for understanding the desired property of reasoning.",
+          "Main Action": "provides",
+          "Arguments": {
+            "Agent": [
+              "NatLogAttack"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a tool"
+              ],
+              "Primary Modifier": [
+                "to probe the existing and future NLI models’ capacity from a key viewpoint"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "we hope more logic-based attacks will be further explored for understanding the desired property of reasoning."
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_606",
+      "abstract": "Extracting generalized and robust representations is a major challenge in emotion recognition in conversations (ERC). To address this, we propose a supervised adversarial contrastive learning (SACL) framework for learning class-spread structured representations in a supervised manner. SACL applies contrast-aware adversarial training to generate worst-case samples and uses joint class-spread contrastive learning to extract structured representations. It can effectively utilize label-level feature consistency and retain fine-grained intra-class features. To avoid the negative impact of adversarial perturbations on context-dependent data, we design a contextual adversarial training (CAT) strategy to learn more diverse features from context and enhance the model’s context robustness. Under the framework with CAT, we develop a sequence-based SACL-LSTM to learn label-consistent and context-robust features for ERC. Experiments on three datasets show that SACL-LSTM achieves state-of-the-art performance on ERC. Extended experiments prove the effectiveness of SACL and CAT.",
+      "events": [
+        {
+          "Background/Introduction": "Major challenges in ERC",
+          "Text": "Extracting generalized and robust representations is a major challenge in emotion recognition in conversations (ERC).",
+          "Main Action": "is a",
+          "Arguments": {
+            "Agent": [
+              "Extracting generalized and robust representations"
+            ],
+            "Object": {
+              "Primary Object": [
+                "major challenge"
+              ],
+              "Primary Modifier": [
+                "in emotion recognition in conversations (ERC)"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Proposal of a supervised adversarial contrastive learning framework",
+          "Text": "To address this, we propose a supervised adversarial contrastive learning (SACL) framework for learning class-spread structured representations in a supervised manner. SACL applies contrast-aware adversarial training to generate worst-case samples and uses joint class-spread contrastive learning to extract structured representations. It can effectively utilize label-level feature consistency and retain fine-grained intra-class features. To avoid the negative impact of adversarial perturbations on context-dependent data, we design a contextual adversarial training (CAT) strategy to learn more diverse features from context and enhance the model’s context robustness. Under the framework with CAT, we develop a sequence-based SACL-LSTM to learn label-consistent and context-robust features for ERC.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a supervised adversarial contrastive learning (SACL) framework"
+              ],
+              "Primary Modifier": [
+                "for learning class-spread structured representations in a supervised manner."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "To avoid the negative impact of adversarial perturbations on context-dependent data"
+            ],
+            "Method": [
+              "SACL applies contrast-aware adversarial training to generate worst-case samples and uses joint class-spread contrastive learning to extract structured representations.",
+              "It can effectively utilize label-level feature consistency and retain fine-grained intra-class features.",
+              "we design a contextual adversarial training (CAT) strategy to learn more diverse features from context and enhance the model’s context robustness.",
+              "Under the framework with CAT, we develop a sequence-based SACL-LSTM to learn label-consistent and context-robust features for ERC."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Performance of SACL-LSTM on ERC",
+          "Text": "Experiments on three datasets show that SACL-LSTM achieves state-of-the-art performance on ERC. Extended experiments prove the effectiveness of SACL and CAT.",
+          "Main Action": "show that",
+          "Arguments": {
+            "Agent": [
+              "Experiments on three datasets"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "SACL-LSTM achieves state-of-the-art performance on ERC.",
+              "Extended experiments prove the effectiveness of SACL and CAT."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_24",
+      "abstract": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way. From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge. As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "corpus exploration tasks"
+              ],
+              "Secondary Object": [
+                "text repository"
+              ]
+            },
+            "Context": [
+              "symmetric compacted directed acyclic word graphs (SCDAWGs), a refinement of suffix trees"
+            ],
+            "Purpose": [
+              "efficiently solve... without rescanning the text repository in an online manner"
+            ],
+            "Method": [
+              "SCDAWGs"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge.",
+          "Main Action": "helps to mine",
+          "Arguments": {
+            "Agent": [
+              "SCDAWGs"
+            ],
+            "Object": {
+              "Primary Object": [
+                "phrases",
+                "concept names"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "without using prior linguistic knowledge"
+            ],
+            "Purpose": [
+              "enable efficient and effective processing across languages"
+            ],
+            "Method": [
+              "linear computation time",
+              "structural regularities",
+              "Substring Concurrence Divided Aggregation With Weights"
+            ],
+            "Results": [
+              "joint view on the similarities (in terms of common substrings)",
+              "differences between all text",
+              "interesting portions of texts (such as phrases and concept names)"
+            ],
+            "Analysis": [
+              "allows for cross-language analysis without prior knowledge"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "opens new avenues for studying text data universally"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
+          "Main Action": "look at",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "text alignment",
+                "text reuse in distinct texts or between distinct authors",
+                "automated detection of concepts",
+                "temporal distribution of phrases in diachronic corpora"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "demonstration of the power of these principles"
+            ],
+            "Method": [
+              "automated detection of concepts",
+              "analysis of temporal distribution of phrases in diachronic corpora"
+            ],
+            "Results": [
+              "patterns in text reuse",
+              "alignment across authors and time"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications",
+              "new directions for research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_41",
+      "abstract": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation. It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results. The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution, and the dangers in assuming that such human entailments are native to digital computers.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results.",
+          "Main Action": "Continuing with a survey of another effort at computationally implementing Morelli’s method and then presenting our own computational techniques and results",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Our computational techniques and results"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "An explanation of the rationale behind choosing the Morellian practice of attribution and a survey of another effort at computationally implementing Morelli’s method"
+            ],
+            "Purpose": [
+              "To share our methods and findings"
+            ],
+            "Method": [
+              "Computational techniques"
+            ],
+            "Results": [
+              "Results of computations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Contribution to the field"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution. It discusses the dangers in assuming that such human entailments are native to digital computers.",
+          "Main Action": "concludes",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "It discusses the dangers in assuming that such human entailments are native to digital computers"
+            ],
+            "Purpose": [
+              "It discusses the dangers in assuming that such human entailments are native to digital computers"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "it has come to understand..."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "importance, impact, applications, or future work"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

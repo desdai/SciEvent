@@ -1,0 +1,241 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_525",
+      "abstract": "With the rapid advances of RNA sequencing and microarray technologies in non-coding RNA (ncRNA) research, functional tools that perform enrichment analysis for ncRNAs are needed. On the one hand, because of the rapidly growing interest in circRNAs, snoRNAs, and piRNAs, it is essential to develop tools for enrichment analysis for these newly emerged ncRNAs. On the other hand, due to the key role of ncRNAs' interacting targets in the determination of their function, the interactions between ncRNA and its corresponding target should be fully considered in functional enrichment. Based on the ncRNA-mRNA/protein-function strategy, some tools have been developed to functionally analyze a single type of ncRNA (the majority focuses on miRNA); in addition, some tools adopt predicted target data and lead to only low-confidence results. Herein, an online tool named RNAenrich was developed to enable the comprehensive and accurate enrichment analysis of ncRNAs. It is unique in (i) realizing the enrichment analysis for various RNA types in humans and mice, such as miRNA, lncRNA, circRNA, snoRNA, piRNA, and mRNA; (ii) extending the analysis by introducing millions of experimentally validated data of RNA-target interactions as a built-in database; and (iii) providing a comprehensive interacting network among various ncRNAs and targets to facilitate the mechanistic study of ncRNA function. Importantly, RNAenrich led to a more comprehensive and accurate enrichment analysis in a COVID-19-related miRNA case, which was largely attributed to its coverage of comprehensive ncRNA-target interactions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With the rapid advances of RNA sequencing and microarray technologies in non-coding RNA (ncRNA) research, functional tools that perform enrichment analysis for ncRNAs are needed. On the one hand, because of the rapidly growing interest in circRNAs, snoRNAs, and piRNAs, it is essential to develop tools for enrichment analysis for these newly emerged ncRNAs. On the other hand, due to the key role of ncRNAs' interacting targets in the determination of their function, the interactions between ncRNA and its corresponding target should be fully considered in functional enrichment.",
+          "Main Action": "develop tools",
+          "Arguments": {
+            "Agent": [
+              "functional tools"
+            ],
+            "Object": {
+              "Primary Object": [
+                "for ncRNAs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "because of the rapidly growing interest in circRNAs, snoRNAs, and piRNAs"
+            ],
+            "Purpose": [
+              "it is essential"
+            ],
+            "Method": [
+              "due to the key role of ncRNAs' interacting targets in the determination of their function"
+            ],
+            "Results": [
+              "the interactions between ncRNA and its corresponding target should be fully considered in functional enrichment"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "what is the broader significance or potential for future applications/research?"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Based on the ncRNA-mRNA/protein-function strategy, some tools have been developed to functionally analyze a single type of ncRNA (the majority focuses on miRNA); in addition, some tools adopt predicted target data and lead to only low-confidence results. Herein, an online tool named RNAenrich was developed to enable the comprehensive and accurate enrichment analysis of ncRNAs. It is unique in (i) realizing the enrichment analysis for various RNA types in humans and mice, such as miRNA, lncRNA, circRNA, snoRNA, piRNA, and mRNA; (ii) extending the analysis by introducing millions of experimentally validated data of RNA-target interactions as a built-in database; and (iii) providing a comprehensive interacting network among various ncRNAs and targets to facilitate the mechanistic study of ncRNA function.",
+          "Main Action": "developed to enable the comprehensive and accurate enrichment analysis of ncRNAs.",
+          "Arguments": {
+            "Agent": [
+              "an online tool named RNAenrich"
+            ],
+            "Object": {
+              "Primary Object": [
+                "comprehensive and accurate enrichment analysis of ncRNAs"
+              ],
+              "Secondary Object": [
+                "various RNA types in humans and mice"
+              ]
+            },
+            "Context": [
+              "some tools have been developed to functionally analyze a single type of ncRNA"
+            ],
+            "Purpose": [
+              "to enable the comprehensive and accurate enrichment analysis of ncRNAs"
+            ],
+            "Method": [
+              "realizing the enrichment analysis for various RNA types in humans and mice"
+            ],
+            "Results": [
+              "it is unique in (i) realizing the enrichment analysis for various RNA types in humans and mice"
+            ],
+            "Analysis": [
+              "introducing millions of experimentally validated data of RNA-target interactions as a built-in database"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "facilitate the mechanistic study of ncRNA function"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Importantly, RNAenrich led to a more comprehensive and accurate enrichment analysis in a COVID-19-related miRNA case, which was largely attributed to its coverage of comprehensive ncRNA-target interactions.",
+          "Main Action": "led",
+          "Arguments": {
+            "Agent": [
+              "RNAenrich"
+            ],
+            "Object": {
+              "Primary Object": [
+                "comprehensive and accurate enrichment analysis"
+              ],
+              "Secondary Object": [
+                "COVID-19-related miRNA case"
+              ]
+            },
+            "Context": [
+              "which was largely attributed to its coverage of comprehensive ncRNA-target interactions."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "its coverage of comprehensive ncRNA-target interactions"
+            ],
+            "Results": [
+              "more comprehensive and accurate enrichment analysis"
+            ],
+            "Analysis": [
+              "largely attributed to its coverage of comprehensive ncRNA-target interactions"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_428",
+      "abstract": "Native top-down proteomics (nTDP) integrates native mass spectrometry (nMS) with top-down proteomics (TDP) to provide comprehensive analysis of protein complexes together with proteoform identification and characterization. Despite significant advances in nMS and TDP software developments, a unified and user-friendly software package for analysis of nTDP data remains lacking. We have developed MASH Native to provide a unified solution for nTDP to process complex datasets with database searching capabilities in a user-friendly interface. MASH Native supports various data formats and incorporates multiple options for deconvolution, database searching, and spectral summing to provide a 'one-stop shop' for characterizing both native protein complexes and proteoforms.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Native top-down proteomics (nTDP) integrates native mass spectrometry (nMS) with top-down proteomics (TDP) to provide comprehensive analysis of protein complexes together with proteoform identification and characterization. Despite significant advances in nMS and TDP software developments, a unified and user-friendly software package for analysis of nTDP data remains lacking.",
+          "Main Action": "integrates",
+          "Arguments": {
+            "Agent": [
+              "native top-down proteomics"
+            ],
+            "Object": {
+              "Primary Object": [
+                "native mass spectrometry with top-down proteomics"
+              ],
+              "Secondary Object": [
+                "to provide comprehensive analysis of protein complexes together with proteoform identification and characterization."
+              ]
+            },
+            "Context": [
+              "Despite significant advances in nMS and TDP software developments,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a unified and user-friendly software package for analysis of nTDP data remains lacking."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We have developed MASH Native to provide a unified solution for nTDP to process complex datasets with database searching capabilities in a user-friendly interface. MASH Native supports various data formats and incorporates multiple options for deconvolution, database searching, and spectral summing to provide a 'one-stop shop' for characterizing both native protein complexes and proteoforms.",
+          "Main Action": "developed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "MASH Native"
+              ],
+              "Secondary Object": [
+                "complex datasets"
+              ]
+            },
+            "Context": [
+              "to process complex datasets with database searching capabilities in a user-friendly interface"
+            ],
+            "Purpose": [
+              "provide a unified solution for nTDP"
+            ],
+            "Method": [
+              "supports various data formats and incorporates multiple options for deconvolution, database searching, and spectral summing"
+            ],
+            "Results": [
+              "provide a 'one-stop shop' for characterizing both native protein complexes and proteoforms"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

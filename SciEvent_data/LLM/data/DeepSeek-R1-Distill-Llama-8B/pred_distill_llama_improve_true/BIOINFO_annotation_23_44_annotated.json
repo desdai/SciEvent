@@ -1,0 +1,204 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_697",
+      "abstract": "Detecting oscillations in time series remains a challenging problem even after decades of research. In chronobiology, rhythms (for instance in gene expression, eclosion, egg-laying, and feeding) tend to be low amplitude, display large variations amongst replicates, and often exhibit varying peak-to-peak distances (non-stationarity). Most currently available rhythm detection methods are not specifically designed to handle such datasets, and are also limited by their use of P-values in detecting oscillations. We introduce a new method, ODeGP (Oscillation Detection using Gaussian Processes), which combines Gaussian Process regression and Bayesian inference to incorporate measurement errors, non-uniformly sampled data, and a recently developed non-stationary kernel to improve detection of oscillations. By using Bayes factors, ODeGP models both the null (non-rhythmic) and the alternative (rhythmic) hypotheses, thus providing an advantage over P-values. Using synthetic datasets, we first demonstrate that ODeGP almost always outperforms eight commonly used methods in detecting stationary as well as non-stationary symmetric oscillations. Next, by analyzing existing qPCR datasets, we demonstrate that our method is more sensitive compared to the existing methods at detecting weak and noisy oscillations. Finally, we generate new qPCR data on mouse embryonic stem cells. Surprisingly, we discover using ODeGP that increasing cell-density results in rapid generation of oscillations in the Bmal1 gene, thus highlighting our method's ability to discover unexpected and new patterns. In its current implementation, ODeGP is meant only for analyzing single or a few time-trajectories, not genome-wide datasets.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Detecting oscillations in time series remains a challenging problem even after decades of research. In chronobiology, rhythms (for instance in gene expression, eclosion, egg-laying, and feeding) tend to be low amplitude, display large variations amongst replicates, and often exhibit varying peak-to-peak distances (non-stationarity). Most currently available rhythm detection methods are not specifically designed to handle such datasets, and are also limited by their use of P-values in detecting oscillations.",
+          "Main Action": "Detecting oscillations",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "time series data"
+              ],
+              "Secondary Object": [
+                "biological systems"
+              ]
+            },
+            "Context": [
+              "rhythms (for instance in gene expression, eclosion, egg-laying, and feeding)",
+              "display large variations amongst replicates, and often exhibit varying peak-to-peak distances (non-stationarity)"
+            ],
+            "Purpose": [
+              "improving rhythm detection methods"
+            ],
+            "Method": [
+              "use of P-values in detecting oscillations"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "most currently available rhythm detection methods...are limited by their use of P-values..."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We introduce a new method, ODeGP (Oscillation Detection using Gaussian Processes), which combines Gaussian Process regression and Bayesian inference to incorporate measurement errors, non-uniformly sampled data, and a recently developed non-stationary kernel to improve detection of oscillations. By using Bayes factors, ODeGP models both the null (non-rhythmic) and the alternative (rhythmic) hypotheses, thus providing an advantage over P-values.",
+          "Main Action": "Introduce",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new method, ODeGP"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Gaussian Process regression",
+              "Bayesian inference",
+              "measurement errors",
+              "non-uniformly sampled data",
+              "non-stationary kernel"
+            ],
+            "Results": [
+              "an advantage over P-values"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Using synthetic datasets, we first demonstrate that ODeGP almost always outperforms eight commonly used methods in detecting stationary as well as non-stationary symmetric oscillations. Next, by analyzing existing qPCR datasets, we demonstrate that our method is more sensitive compared to the existing methods at detecting weak and noisy oscillations. Finally, we generate new qPCR data on mouse embryonic stem cells. Surprisingly, we discover using ODeGP that increasing cell-density results in rapid generation of oscillations in the Bmal1 gene, thus highlighting our method's ability to discover unexpected and new patterns. In its current implementation, ODeGP is meant only for analyzing single or a few time-trajectories, not genome-wide datasets",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_687",
+      "abstract": "We present the phippery software suite for analyzing data from phage display methods that use immunoprecipitation and deep sequencing to capture antibody binding to peptides, often referred to as PhIP-Seq. It has three main components that can be used separately or in conjunction: (i) a Nextflow pipeline, phip-flow, to process raw sequencing data into a compact, multidimensional dataset format and allows for end-to-end automation of reproducible workflows. (ii) a Python API, phippery, which provides interfaces for tasks such as count normalization, enrichment calculation, multidimensional scaling, and more, and (iii) a Streamlit application, phip-viz, as an interactive interface for visualizing the data as a heatmap in a flexible manner.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "We present the phippery software suite for analyzing data from phage display methods that use immunoprecipitation and deep sequencing to capture antibody binding to peptides, often referred to as PhIP-Seq. It has three main components that can be used separately or in conjunction: (i) a Nextflow pipeline, phip-flow, to process raw sequencing data into a compact, multidimensional dataset format and allows for end-to-end automation of reproducible workflows. (ii) a Python API, phippery, which provides interfaces for tasks such as count normalization, enrichment calculation, multidimensional scaling, and more, and (iii) a Streamlit application, phip-viz, as an interactive interface for visualizing the data as a heatmap in a flexible manner.",
+          "Main Action": "Present",
+          "Arguments": {
+            "Agent": [
+              "WE"
+            ],
+            "Object": {
+              "Primary Object": [
+                "phippery software suite"
+              ],
+              "Secondary Object": [
+                "data from phage display methods that use immunoprecipitation and deep sequencing"
+              ]
+            },
+            "Context": [
+              "phage display methods using immunoprecipitation and deep sequencing"
+            ],
+            "Purpose": [
+              "To provide a toolset for analyzing data from phage display methods"
+            ],
+            "Method": [
+              "nextflow pipeline called phip-flow",
+              "Python API called phippery",
+              "Streamlit application called phip-viz"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

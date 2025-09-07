@@ -1,0 +1,342 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_95",
+      "abstract": "During interpersonal interactions, conversational moves can help people establish common ground —a shared frame of reference to support communication. Neurodiverse conversation dyads that include autistic and non-autistic members can experience challenges in creating and maintaining such a shared frame of reference due to differing communication and cognitive styles. We conducted a design study to understand conversational patterns among neurodiverse dyads and then used those patterns to co-design concepts for supporting the creation and maintenance of common ground by those conversation pairs. Our study involved two activities with participants: (1) a paired interview with autistic adults and a trusted conversation partner that used a novel swimlane visual elicitation activity, and (2) a remote design study during which the autistic participants designed a game intended to visualize and support neurodiverse conversation dynamics. We found that communication technology can scaffold neurodiverse dyads in locating common ground by supporting crucial individual and joint decision-making; clarification of language and emotions; and embodied sense-making of identity, relationships, and shared information. This project generated insights related to two distinct aspects of designing assistive Information and Communication Technology (ICT) to support autistic individuals: (1) the ability for visual elicitation activities to help autistic individuals recognize interaction patterns, gain a deeper understanding of other's perspectives, and imagine more desirable alternatives, and (2) the importance of recognizing and supporting multi-dimensional aspects of communication practices (i.e., social, emotional, sensory) in establishing and maintaining shared points of reference for neurodiverse conversation dyads.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "During interpersonal interactions, conversational moves can help people establish common ground —a shared frame of reference to support communication. Neurodiverse conversation dyads that include autistic and non-autistic members can experience challenges in creating and maintaining such a shared frame of reference due to differing communication and cognitive styles.",
+          "Main Action": "can experience challenges",
+          "Arguments": {
+            "Agent": [
+              "neurodiverse conversation dyads"
+            ],
+            "Object": {
+              "Primary Object": [
+                "shared frame of reference"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "interpersonal interactions between autistic and non-autistic members",
+              "communication and cognitive styles"
+            ],
+            "Purpose": [
+              "understand the issues faced in communication"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "existing studies show difficulties in creating shared frames of reference"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "challenges in creating and maintaining shared frame of reference"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "better communication strategies leading to inclusive interactions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted a design study to understand conversational patterns among neurodiverse dyads and then used those patterns to co-design concepts for supporting the creation and maintenance of common ground by those conversation pairs. Our study involved two activities with participants: (1) a paired interview with autistic adults and a trusted conversation partner that used a novel swimlane visual elicitation activity, and (2) a remote design study during which the autistic participants designed a game intended to visualize and support neurodiverse conversation dynamics.",
+          "Main Action": "Conduct",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design study"
+              ],
+              "Secondary Object": [
+                "participants"
+              ]
+            },
+            "Context": [
+              "understanding conversational patterns among neurodiverse dyads"
+            ],
+            "Purpose": [
+              "co-design concepts for supporting the creation and maintenance of common ground"
+            ],
+            "Method": [
+              "paired interview with autistic adults and a trusted conversation partner that used a novel swimlane visual elicitation activity",
+              "remote design study"
+            ],
+            "Results": [
+              "insights from interviews",
+              "development of a game prototype"
+            ],
+            "Analysis": [
+              "interpretations of findings about effective communication strategies"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancements in inclusive design and better support systems for neurodiverse individuals"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that communication technology can scaffold neurodiverse dyads in locating common ground by supporting crucial individual and joint decision-making; clarification of language and emotions; and embodied sense-making of identity, relationships, and shared information.",
+          "Main Action": "Communication technology can scaffold neurodiverse dyads",
+          "Arguments": {
+            "Agent": [
+              "Communication technology"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Neurodiverse dyads"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To support crucial individual and joint decision-making; clarification of language and emotions; and embodied sense-making of identity, relationships, and shared information"
+            ],
+            "Method": [
+              "Use of communication technology"
+            ],
+            "Results": [
+              "Finding that communication technology can scaffold neurodiverse dyads in locating common ground"
+            ],
+            "Analysis": [
+              "Suggesting that communication technologies can bridge gaps in social interaction skills for neurodiverse groups"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improving social functioning and quality of life for neurodiverse individuals through technological interventions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This project generated insights related to two distinct aspects of designing assistive Information and Communication Technology (ICT) to support autistic individuals: (1) the ability for visual elicitation activities to help autistic individuals recognize interaction patterns, gain a deeper understanding of other's perspectives, and imagine more desirable alternatives, and (2) the importance of recognizing and supporting multi-dimensional aspects of communication practices (i.e., social, emotional, sensory) in establishing and maintaining shared points of reference for neurodiverse conversation dyads.",
+          "Main Action": "generated insights",
+          "Arguments": {
+            "Agent": [
+              "The project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "designing assistive Information and Communication Technology (ICT) to support autistic individuals",
+                "visual elicitation activities",
+                "multi-dimensional aspects of communication practices"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "problem faced by autistic individuals regarding their communication and interaction challenges"
+            ],
+            "Purpose": [
+              "aim to enhance communication and interaction abilities"
+            ],
+            "Method": [
+              "using visual aids",
+              "analyzing communication dynamics"
+            ],
+            "Results": [
+              "highlighted new ways to design supportive systems",
+              "improved communication processes"
+            ],
+            "Analysis": [
+              "interpretation leading to better supports for autistic individuals"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader impacts such as enhancing quality of life",
+              "encouraging inclusive designs",
+              "future research directions focusing on scalability and diversity within autism communities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_223",
+      "abstract": "Digital data shape work practices as they travel through space, time, and social situations. In turn, workers shape the materiality of data through different data-oriented activities. In this paper, we draw on the theory of data journeys to develop and present a conceptual framework of four data-intensive activities: Producing, mobilising, processing, and re-purposing. Together, those activities capture entanglements of data transformations and data-intensive practices. We develop the framework through a qualitative study of digitisation in Environmental Assessment (EA) practice. EA practitioners reflect on their experiences working with digital environmental data through ten semi-structured and two interactive interviews. The paper offers two main contributions. First, we develop a data journey theoretical framework and show that it is useful as a unit of analysis for uncovering tensions in data-oriented activities. Second, we use these insights to outline a set of tensions for future design activities in the area of data work practices.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Digital data shape work practices as they travel through space, time, and social situations. In turn, workers shape the materiality of data through different data-oriented activities. In this paper, we draw on the theory of data journeys to develop and present a conceptual framework of four data-intensive activities: Producing, mobilising, processing, and re-purposing. Together, those activities capture entanglements of data transformations and data-intensive practices.",
+          "Main Action": "Developing",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Conceptual framework"
+              ],
+              "Secondary Object": [
+                "Theory of data journeys"
+              ]
+            },
+            "Context": [
+              "Digital data shape work practices..."
+            ],
+            "Purpose": [
+              "To present a conceptual framework..."
+            ],
+            "Method": [
+              "Drawing on the theory..."
+            ],
+            "Results": [
+              "Identifying four data-intensive activities..."
+            ],
+            "Analysis": [
+              "Entanglements of data transformations..."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Future applications and research..."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We develop the framework through a qualitative study of digitisation in Environmental Assessment (EA) practice. EA practitioners reflect on their experiences working with digital environmental data through ten semi-structured and two interactive interviews.",
+          "Main Action": "Develop",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Framework"
+              ],
+              "Secondary Object": [
+                "Qualitative study"
+              ]
+            },
+            "Context": [
+              "Digitisation in Environmental Assessment (EA) practice"
+            ],
+            "Purpose": [
+              "Explore how digitisation impacts Environmental Assessment (EA) practice"
+            ],
+            "Method": [
+              "Qualitative study",
+              "Interviews"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The paper offers two main contributions. First, we develop a data journey theoretical framework and show that it is useful as a unit of analysis for uncovering tensions in data-oriented activities. Second, we use these insights to outline a set of tensions for future design activities in the area of data work practices",
+          "Main Action": "Develop a data journey theoretical framework",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Data journey theoretical framework"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Area of data work practices"
+            ],
+            "Purpose": [
+              "To develop a data journey theoretical framework"
+            ],
+            "Method": [
+              "Analyzing using the framework"
+            ],
+            "Results": [
+              "Developing the data journey theoretical framework",
+              "Showing that it is useful as a unit of analysis for uncovering tensions"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Outlining tensions for future design activities in the area of data work practices"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

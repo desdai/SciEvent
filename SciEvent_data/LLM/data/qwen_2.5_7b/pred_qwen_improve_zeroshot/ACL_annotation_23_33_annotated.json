@@ -1,0 +1,259 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_829",
+      "abstract": "Adaptive inference is a simple method for reducing inference costs. The method works by maintaining multiple classifiers of different capacities, and allocating resources to each test instance according to its difficulty. In this work, we compare the two main approaches for adaptive inference, Early-Exit and Multi-Model, when training data is limited. First, we observe that for models with the same architecture and size, individual Multi-Model classifiers outperform their Early-Exit counterparts by an average of 2.3%. We show that this gap is caused by Early-Exit classifiers sharing model parameters during training, resulting in conflicting gradient updates of model weights. We find that despite this gap, Early-Exit still provides a better speed-accuracy trade-off due to the overhead of the Multi-Model approach. To address these issues, we propose SWEET (Separating Weights for Early-Exit Transformers) an Early-Exit fine-tuning method that assigns each classifier its own set of unique model weights, not updated by other classifiers. We compare SWEET’s speed-accuracy curve to standard Early-Exit and Multi-Model baselines and find that it outperforms both methods at fast speeds while maintaining comparable scores to Early- Exit at slow speeds. Moreover, SWEET individual classifiers outperform Early-Exit ones by 1.1% on average. SWEET enjoys the benefits of both methods, paving the way for further reduction of inference costs in NLP.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Adaptive inference is a simple method for reducing inference costs. The method works by maintaining multiple classifiers of different capacities, and allocating resources to each test instance according to its difficulty.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "adaptive inference"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a simple method for reducing inference costs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "maintaining multiple classifiers of different capacities, and allocating resources to each test instance according to its difficulty"
+            ],
+            "Purpose": [
+              "reducing inference costs"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we compare the two main approaches for adaptive inference, Early-Exit and Multi-Model, when training data is limited. First, we observe that for models with the same architecture and size, individual Multi-Model classifiers outperform their Early-Exit counterparts by an average of 2.3%. We show that this gap is caused by Early-Exit classifiers sharing model parameters during training, resulting in conflicting gradient updates of model weights. We find that despite this gap, Early-Exit still provides a better speed-accuracy trade-off due to the overhead of the Multi-Model approach. To address these issues, we propose SWEET (Separating Weights for Early-Exit Transformers) an Early-Exit fine-tuning method that assigns each classifier its own set of unique model weights, not updated by other classifiers.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Early-Exit classifiers",
+                "Multi-Model classifiers"
+              ],
+              "Secondary Object": [
+                "model parameters",
+                "gradient updates of model weights",
+                "speed-accuracy trade-off"
+              ]
+            },
+            "Context": [
+              "when training data is limited",
+              "for models with the same architecture and size"
+            ],
+            "Purpose": [
+              "to improve performance",
+              "to provide a better speed-accuracy trade-off"
+            ],
+            "Method": [
+              "comparing the two main approaches for adaptive inference",
+              "proposing SWEET (Separating Weights for Early-Exit Transformers) an Early-Exit fine-tuning method"
+            ],
+            "Results": [
+              "individual Multi-Model classifiers outperform their Early-Exit counterparts by an average of 2.3%",
+              "this gap is caused by Early-Exit classifiers sharing model parameters during training, resulting in conflicting gradient updates of model weights",
+              "despite this gap, Early-Exit still provides a better speed-accuracy trade-off due to the overhead of the Multi-Model approach"
+            ],
+            "Analysis": [
+              "We find that..."
+            ],
+            "Challenge": [
+              "The overhead of the Multi-Model approach"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "To address these issues, we propose SWEET (Separating Weights for Early-Exit Transformers)..."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We compare SWEET’s speed-accuracy curve to standard Early-Exit and Multi-Model baselines and find that it outperforms both methods at fast speeds while maintaining comparable scores to Early- Exit at slow speeds. Moreover, SWEET individual classifiers outperform Early-Exit ones by 1.1% on average. SWEET enjoys the benefits of both methods, paving the way for further reduction of inference costs in NLP.",
+          "Main Action": "find",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that it outperforms both methods at fast speeds while maintaining comparable scores to Early-Exit at slow speeds"
+              ],
+              "Secondary Object": [
+                "SWEET's speed-accuracy curve",
+                "standard Early-Exit and Multi-Model baselines"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "it outperforms both methods at fast speeds while maintaining comparable scores to Early-Exit at slow speeds",
+              "SWEET individual classifiers outperform Early-Exit ones by 1.1% on average"
+            ],
+            "Analysis": [
+              "paving the way for further reduction of inference costs in NLP"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_64",
+      "abstract": "Recent studies have proposed unified user modeling frameworks that leverage user behavior data from various applications. Many of them benefit from utilizing users’ behavior sequences as plain texts, representing rich information in any domain or system without losing generality. Hence, a question arises: Can language modeling for user history corpus help improve recommender systems? While its versatile usability has been widely investigated in many domains, its applications to recommender systems still remain underexplored. We show that language modeling applied directly to task-specific user histories achieves excellent results on diverse recommendation tasks. Also, leveraging additional task-agnostic user histories delivers significant performance benefits. We further demonstrate that our approach can provide promising transfer learning capabilities for a broad spectrum of real-world recommender systems, even on unseen domains and services.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Recent studies have proposed unified user modeling frameworks that leverage user behavior data from various applications. Many of them benefit from utilizing users’ behavior sequences as plain texts, representing rich information in any domain or system without losing generality. Hence, a question arises: Can language modeling for user history corpus help improve recommender systems? While its versatile usability has been widely investigated in many domains, its applications to recommender systems still remain underexplored.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Many recent studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "unified user modeling frameworks"
+              ],
+              "Secondary Object": [
+                "user behavior data from various applications"
+              ]
+            },
+            "Context": [
+              "leverage",
+              "representing rich information in any domain or system without losing generality"
+            ],
+            "Purpose": [
+              "Can language modeling for user history corpus help improve recommender systems?"
+            ],
+            "Method": [
+              "utilizing users' behavior sequences as plain texts"
+            ],
+            "Results": [
+              "versatile usability has been widely investigated in many domains"
+            ],
+            "Analysis": [
+              "applications to recommender systems still remain underexplored"
+            ],
+            "Challenge": [
+              "underexplored"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We show that language modeling applied directly to task-specific user histories achieves excellent results on diverse recommendation tasks. Also, leveraging additional task-agnostic user histories delivers significant performance benefits. We further demonstrate that our approach can provide promising transfer learning capabilities for a broad spectrum of real-world recommender systems, even on unseen domains and services.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that language modeling applied directly to task-specific user histories"
+              ],
+              "Secondary Object": [
+                "excellent results on diverse recommendation tasks",
+                "significant performance benefits",
+                "promising transfer learning capabilities for a broad spectrum of real-world recommender systems"
+              ]
+            },
+            "Context": [
+              "language modeling applied directly to task-specific user histories",
+              "leverage additional task-agnostic user histories",
+              "even on unseen domains and services"
+            ],
+            "Purpose": [
+              "achieves"
+            ],
+            "Method": [
+              "apply directly",
+              "leveraging additional"
+            ],
+            "Results": [
+              "achieves excellent results on diverse recommendation tasks",
+              "delivers significant performance benefits",
+              "can provide promising transfer learning capabilities for a broad spectrum of real-world recommender systems"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for a broad spectrum of real-world recommender systems, even on unseen domains and services"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

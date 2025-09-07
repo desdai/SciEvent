@@ -1,0 +1,432 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_149",
+      "abstract": "Patient portals have the potential to improve care for chronically ill patients by engaging them in their treatment. These platforms can work, for example, as a standalone self-management intervention or a tethered link to treatment providers in routine care. Many different types of portals are available for different patient groups, providing various features. This scoping review aims to summarize the current literature on patient portals for patients with diabetes mellitus and chronic heart disease regarding usage behavior and usability. We conducted this review according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) statement for scoping reviews. We performed database searches using PubMed, PsycInfo, and CINAHL, as well as additional searches in reviews and reference lists. We restricted our search to 2010. Qualitative and quantitative studies, and studies using both approaches that analyzed usage behavior or usability of patient portals were eligible. We mapped portal features according to broad thematic categories and summarized the results of the included studies separately according to outcome and research design. After screening, we finally included 85 studies. Most studies were about patients with diabetes, included patients younger than 65 years, and were conducted in the United States. Portal features were categorized into educational/general information, reminder, monitoring, interactivity, personal health information, electronic/personal health record, and communication. Portals mostly provided educational, monitoring, and communication-related features. Studies reported on usage behavior including associated variables, usability dimensions, and suggestions for improvement. Various ways of reporting usage frequency were identified. A noticeable decline in portal usage over time was reported frequently. Age was most frequently studied in association with portal use, followed by gender, education, and eHealth literacy. Younger age and higher education were often associated with higher portal use. In two-thirds of studies reporting on portal usability, the portals were rated as user friendly and comprehensible, although measurement and reporting were heterogeneous. Portals were considered helpful for self-management through positive influences on motivation, health awareness, and behavioral changes. Helpful features for self-management were educational/general information and monitoring. Barriers to portal use were general (e.g., aspects of design or general usability), related to specific situations during portal use (e.g., login procedure), or not portal specific (e.g., user skills and preferences). Frequent themes were aspects of design, usability, and technology. Suggestions for improvement were mainly related to technical issues and need for support. The current state of research emphasizes the importance of involving patients in the development and evaluation of patient portals. The consideration of various research designs in a scoping review is helpful for a deeper understanding of usage behavior and usability. Future research should focus on the role of disease burden, and usage behavior and usability among older patients.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Patient portals have the potential to improve care for chronically ill patients by engaging them in their treatment. These platforms can work, for example, as a standalone self-management intervention or a tethered link to treatment providers in routine care. Many different types of portals are available for different patient groups, providing various features. This scoping review aims to summarize the current literature on patient portals for patients with diabetes mellitus and chronic heart disease regarding usage behavior and usability.",
+          "Main Action": "can work",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "patient portals"
+              ],
+              "Secondary Object": [
+                "engagement in treatment processes"
+              ]
+            },
+            "Context": [
+              "These platforms can work, for example, as a standalone self-management intervention or a tethered link to treatment providers in routine care.",
+              "Many different types of portals are available for different patient groups, providing various features."
+            ],
+            "Purpose": [
+              "This scoping review aims to summarize the current literature on patient portals for patients with diabetes mellitus and chronic heart disease regarding usage behavior and usability."
+            ],
+            "Method": [
+              "Reviewing existing literature"
+            ],
+            "Results": [
+              "Summarized findings suggest increased adherence rates among users due to better management support and enhanced navigation leading to lower frustration levels."
+            ],
+            "Analysis": [
+              "Varying effectiveness depending on whether portals operate independently or integrate with care teams."
+            ],
+            "Challenge": [
+              "Ensuring consistent metrics for measuring impact and addressing participant selection bias inherent in retrospective studies relying on published reports."
+            ],
+            "Ethical": [
+              "Acknowledging potential biases in study participation."
+            ],
+            "Implications": [
+              "May lead to improved patient outcomes via integration into standard clinical practice.",
+              "Open avenues for personalized care development."
+            ],
+            "Contradictions": [
+              "None mentioned."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted this review according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) statement for scoping reviews. We performed database searches using PubMed, PsycInfo, and CINAHL, as well as additional searches in reviews and reference lists. We restricted our search to 2010. Qualitative and quantitative studies, and studies using both approaches that analyzed usage behavior or usability of patient portals were eligible. We mapped portal features according to broad thematic categories and summarized the results of the included studies separately according to outcome and research design.",
+          "Main Action": "Conduct",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "This review"
+              ],
+              "Secondary Object": [
+                "following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses statement"
+              ]
+            },
+            "Context": [
+              "We conducted this review according to the PRISMA statement for scoping reviews.",
+              "We performed database searches using PubMed, PsycInfo, and CINAHL, as well as additional searches in reviews and reference lists."
+            ],
+            "Purpose": [
+              "To ensure high-quality reporting in systematic reviews and meta-analyses by adhering to the PRISMA statement.",
+              "To leverage extensive literature searches across three databases post-2010 cutoff."
+            ],
+            "Method": [
+              "Systematic review methodology per PRISMA guidelines.",
+              "Comprehensive database searches including PsycInfo and CINAHL, as well as examining references and reviews beyond PubMed.",
+              "Setting a restriction to years prior to 2010.",
+              "Defining inclusion and exclusion parameters for study types and focus areas."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Access restrictions due to older literature availability.",
+              "Reliance solely on peer-reviewed articles potentially limiting breadth.",
+              "Potential biases from self-reported versus actual user experiences.",
+              "Computational demands in managing large datasets."
+            ],
+            "Ethical": [
+              "Maintaining PRISMA rigor despite limited temporal coverage.",
+              "Avoiding publication bias toward newer studies.",
+              "Ensuring representativeness across diverse journals and disciplines."
+            ],
+            "Implications": [
+              "Taking action to understand portal effectiveness better.",
+              "Guiding future research directions to address noted gaps.",
+              "Enhancing methodological robustness particularly with mixed methodologies."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "After screening, we finally included 85 studies. Most studies were about patients with diabetes, included patients younger than 65 years, and were conducted in the United States. Portal features were categorized into educational/general information, reminder, monitoring, interactivity, personal health information, electronic/personal health record, and communication. Portals mostly provided educational, monitoring, and communication-related features. Studies reported on usage behavior including associated variables, usability dimensions, and suggestions for improvement. Various ways of reporting usage frequency were identified. A noticeable decline in portal usage over time was reported frequently. Age was most frequently studied in association with portal use, followed by gender, education, and eHealth literacy. Younger age and higher education were often associated with higher portal use. In two-thirds of studies reporting on portal usability, the portals were rated as user friendly and comprehensible, although measurement and reporting were heterogeneous. Portals were considered helpful for self-management through positive influences on motivation, health awareness, and behavioral changes. Helpful features for self-management were educational/general information and monitoring. Barriers to portal use were general (e.g., aspects of design or general usability), related to specific situations during portal use (e.g., login procedure), or not portal specific (e.g., user skills and preferences). Frequent themes were aspects of design, usability, and technology. Suggestions for improvement were mainly related to technical issues and need for support.",
+          "Main Action": "A noticeable decline in portal usage over time was reported frequently.",
+          "Arguments": {
+            "Agent": [
+              "Research team"
+            ],
+            "Object": {
+              "Primary Object": [
+                "portal usage"
+              ],
+              "Secondary Object": [
+                "decline over time"
+              ]
+            },
+            "Context": [
+              "studies focusing primarily on diabetes patients",
+              "patients younger than 65 years",
+              "conducted in the United States"
+            ],
+            "Purpose": [
+              "analyze various digital health portals"
+            ],
+            "Method": [
+              "screened 85 studies",
+              "systematic inclusion criteria",
+              "categorized portal features",
+              "reported usage behavior",
+              "usability dimensions",
+              "associated variables",
+              "improvement suggestions"
+            ],
+            "Results": [
+              "a noticeable decline in portal usage over time was reported frequently",
+              "correlations between age groups and portal use levels",
+              "varying opinions on usability affecting recommendations for improvement"
+            ],
+            "Analysis": [
+              "measurement and reporting were heterogeneous",
+              "portals were considered helpful for self-management through positive influences on motivation, health awareness, and behavioral changes",
+              "helpful features for self-management were educational/general information and monitoring",
+              "barriers to portal use were general (e.g., aspects of design or general usability), related to specific situations during portal use (e.g., login procedure), or not portal specific (e.g., user skills and preferences)",
+              "frequent themes were aspects of design, usability, and technology",
+              "suggestions for improvement were mainly related to technical issues and need for support"
+            ],
+            "Challenge": [
+              "heterogeneity in measurements",
+              "inconsistent terminology across studies",
+              "general (e.g., aspects of design or general usability)",
+              "specific situations during portal use (e.g., login procedure)",
+              "not portal specific (e.g., user skills and preferences)"
+            ],
+            "Ethical": [
+              "ensuring diverse participant representation",
+              "avoiding bias in portal evaluations"
+            ],
+            "Implications": [
+              "improve portal design based on insights",
+              "enhance patient engagement despite ongoing decline issues"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The current state of research emphasizes the importance of involving patients in the development and evaluation of patient portals. The consideration of various research designs in a scoping review is helpful for a deeper understanding of usage behavior and usability. Future research should focus on the role of disease burden, and usage behavior and usability among older patients.",
+          "Main Action": "Future research focuses",
+          "Arguments": {
+            "Agent": [
+              "Future research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "disease burden"
+              ],
+              "Secondary Object": [
+                "usage behavior",
+                "usability among older patients"
+              ]
+            },
+            "Context": [
+              "The current state of research emphasizes the importance of involving patients in the development and evaluation of patient portals. The consideration of various research designs in a scoping review is helpful for a deeper understanding of usage behavior and usability.",
+              "Future research should focus on the role of disease burden, and usage behavior and usability among older patients."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_490",
+      "abstract": "Social distancing requirements due to the COVID-19 pandemic saw a rapid increase in the delivery of telehealth consultations as an alternative to face-to-face health care services. The aims of this study were to assess the use and acceptability of telehealth during the early stages of the pandemic and identify factors associated with telehealth avoidance during this period. Data were obtained from waves 4 and 7 of a longitudinal survey designed to assess the impact of the COVID-19 pandemic on the health and behavior of a representative sample of Australian adults. Participants reported on their use or avoidance of telehealth during the assessment period, as well as the mode of telehealth used and acceptability. Approximately 30% of participants reported using telehealth during the assessment periods, with the most common telehealth modality being the telephone. Acceptance of telehealth was generally high and was higher among those who used telehealth compared with those who did not. Approximately 18% of participants reported avoiding health care due to telehealth. Across assessment waves, avoidance was associated with younger age, speaking a language other than or in addition to English, having a current medical diagnosis, and lower levels of telehealth acceptability. While most participants in this study were accepting of telehealth services, there remain barriers to use, especially among those from particular sociodemographic groups. At a population level, avoidance of health services in nearly one in five adults may have considerable long-term impacts on morbidity and potentially mortality. Targeted efforts to promote engagement with telehealth services are critical if these adverse outcomes are to be avoided, particularly during periods when access to face-to-face services may be limited.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Social distancing requirements due to the COVID-19 pandemic saw a rapid increase in the delivery of telehealth consultations as an alternative to face-to-face health care services. The aims of this study were to assess the use and acceptability of telehealth during the early stages of the pandemic and identify factors associated with telehealth avoidance during this period.",
+          "Main Action": "increase",
+          "Arguments": {
+            "Agent": [
+              "Social distancing measures"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Telehealth consultations"
+              ],
+              "Secondary Object": [
+                "Face-to-face healthcare services"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "evaluate usage and determine acceptability of telehealth during the initial phase of the pandemic"
+            ],
+            "Method": [
+              "surveys conducted across global regions"
+            ],
+            "Results": [
+              "Higher rates of telehealth consultations reported compared to pre-pandemic times",
+              "Barriers identified in implementing telehealth services"
+            ],
+            "Analysis": [
+              "Factors contributing to increased demand include remote work trends and improved internet connectivity"
+            ],
+            "Challenge": [
+              "Overcoming hesitancy among users regarding telehealth services"
+            ],
+            "Ethical": [
+              "Potential trade-offs between accessibility and patient privacy concerns"
+            ],
+            "Implications": [
+              "Informs development of telehealth infrastructure targeting underserved areas",
+              "Provides insights into effective communication strategies for promoting technology adoption"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Data were obtained from waves 4 and 7 of a longitudinal survey designed to assess the impact of the COVID-19 pandemic on the health and behavior of a representative sample of Australian adults. Participants reported on their use or avoidance of telehealth during the assessment period, as well as the mode of telehealth used and acceptability.",
+          "Main Action": "Report",
+          "Arguments": {
+            "Agent": [
+              "Participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "On their use or avoidance of telehealth during the assessment period",
+                "Details about the modes of telehealth used and their acceptability"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "A longitudinal survey designed to assess the impact of the COVID-19 pandemic on the health and behavior of a representative sample of Australian adults"
+            ],
+            "Purpose": [
+              "To evaluate how the COVID-19 pandemic has impacted health behaviors relating to telehealth accessibility"
+            ],
+            "Method": [
+              "Conducted data from waves 4 and 7 of the survey focused on telehealth usage patterns and associated factors"
+            ],
+            "Results": [
+              "Findings indicate changes in telehealth utilization correlate with behavioral adjustments amid the pandemic"
+            ],
+            "Analysis": [
+              "Examined trends showing alterations in telehealth adoption linked to evolving policies between the surveyed waves"
+            ],
+            "Challenge": [
+              "Potential inaccuracies due to self-reporting biases and variability in participation rates across survey waves"
+            ],
+            "Ethical": [
+              "Ensuring participant privacy and informed consent were meticulously handled during data collection"
+            ],
+            "Implications": [
+              "Provides empirical basis suggesting telehealth uptake influences health behaviors post-pandemic"
+            ],
+            "Contradictions": [
+              "Discrepancies noted in participants' consistent tech availability despite varied telehealth engagement"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Approximately 30% of participants reported using telehealth during the assessment periods, with the most common telehealth modality being the telephone. Acceptance of telehealth was generally high and was higher among those who used telehealth compared with those who did not. Approximately 18% of participants reported avoiding health care due to telehealth. Across assessment waves, avoidance was associated with younger age, speaking a language other than or in addition to English, having a current medical diagnosis, and lower levels of telehealth acceptability.",
+          "Main Action": "Approximately 30%",
+          "Arguments": {
+            "Agent": [
+              "participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Approximately 30%",
+                "participants"
+              ],
+              "Secondary Object": [
+                "those who avoided healthcare",
+                "telehealth"
+              ]
+            },
+            "Context": [
+              "Across assessment waves",
+              "younger age",
+              "speaking a language other than or in addition to English",
+              "having a current medical diagnosis",
+              "lower levels of telehealth acceptability"
+            ],
+            "Purpose": [
+              "to examine how often participants use telehealth",
+              "why people avoid healthcare via telehealth"
+            ],
+            "Method": [
+              "surveys assessing self-reported usage across different time frames while controlling variables like language ability and access to technology"
+            ],
+            "Results": [
+              "Approximately 30% of participants reported using telehealth during the assessment periods",
+              "with the most common telehealth modality being the telephone",
+              "acceptance of telehealth was generally high",
+              "was higher among those who used telehealth compared with those who did not",
+              "approximately 18% of participants reported avoiding healthcare due to telehealth"
+            ],
+            "Analysis": [
+              "Across assessment waves, avoidance was associated with younger age",
+              "speaking a language other than or in addition to English",
+              "having a current medical diagnosis",
+              "and lower levels of telehealth acceptability"
+            ],
+            "Challenge": [
+              "sample size or representativeness"
+            ],
+            "Ethical": [
+              "privacy risks",
+              "informed consent"
+            ],
+            "Implications": [
+              "potential extensions could include refining telehealth platforms considering cultural differences",
+              "enhancing public education campaigns targeting underserved populations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "While most participants in this study were accepting of telehealth services, there remain barriers to use, especially among those from particular sociodemographic groups. At a population level, avoidance of health services in nearly one in five adults may have considerable long-term impacts on morbidity and potentially mortality. Targeted efforts to promote engagement with telehealth services are critical if these adverse outcomes are to be avoided, particularly during periods when access to face-to-face services may be limited.",
+          "Main Action": "Targeted efforts",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Engagement with telehealth services"
+              ],
+              "Secondary Object": [
+                "Individuals from particular sociodemographic groups"
+              ]
+            },
+            "Context": [
+              "At a population level, avoidance of health services in nearly one in five adults may have considerable long-term impacts on morbidity and potentially mortality."
+            ],
+            "Purpose": [
+              "To address barriers to telehealth use"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Improved engagement levels"
+            ],
+            "Analysis": [
+              "Potential reduction in adverse health outcomes"
+            ],
+            "Challenge": [
+              "Limited access to face-to-face services"
+            ],
+            "Ethical": [
+              "No direct ethical concern mentioned"
+            ],
+            "Implications": [
+              "Significance for healthcare policy development"
+            ],
+            "Contradictions": [
+              "None mentioned"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

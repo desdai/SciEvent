@@ -1,0 +1,294 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_163",
+      "abstract": "The ingrained principles of fairness in a dialogue system’s decision-making process and generated responses are crucial for user engagement, satisfaction, and task achievement. Absence of equitable and inclusive principles can hinder the formation of common ground, which in turn negatively impacts the overall performance of the system. For example, misusing pronouns in a user interaction may cause ambiguity about the intended subject. Yet, there is no comprehensive study of equitable text generation in dialogue. Aptly, in this work, we use theories of computational learning to study this problem. We provide formal definitions of equity in text generation, and further, prove formal connections between learning human-likeness and learning equity: algorithms for improving equity ultimately reduce to algorithms for improving human-likeness (on augmented data). With this insight, we also formulate reasonable conditions under which text generation algorithms can learn to generate equitable text without any modifications to the biased training data on which they learn. To exemplify our theory in practice, we look at a group of algorithms for the GuessWhat?! visual dialogue game and, using this example, test our theory empirically. Our theory accurately predicts relative performance of multiple algorithms in generating equitable text as measured by both human and automated evaluation.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The ingrained principles of fairness in a dialogue system’s decision-making process and generated responses are crucial for user engagement, satisfaction, and task achievement. Absence of equitable and inclusive principles can hinder the formation of common ground, which in turn negatively impacts the overall performance of the system. For example, misusing pronouns in a user interaction may cause ambiguity about the intended subject. Yet, there is no comprehensive study of equitable text generation in dialogue.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "there is no comprehensive study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "equitable text generation in dialogue"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Absence of equitable and inclusive principles",
+              "user engagement, satisfaction, and task achievement",
+              "misuse of pronouns in a user interaction"
+            ],
+            "Purpose": [
+              "to explore equitable text generation in dialogue systems"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Aptly, in this work, we use theories of computational learning to study this problem. We provide formal definitions of equity in text generation, and further, prove formal connections between learning human-likeness and learning equity: algorithms for improving equity ultimately reduce to algorithms for improving human-likeness (on augmented data). With this insight, we also formulate reasonable conditions under which text generation algorithms can learn to generate equitable text without any modifications to the biased training data on which they learn.",
+          "Main Action": "use",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "theories of computational learning"
+              ],
+              "Secondary Object": [
+                "this problem"
+              ]
+            },
+            "Context": [
+              "in this work"
+            ],
+            "Purpose": [
+              "to study this problem"
+            ],
+            "Method": [
+              "provide formal definitions",
+              "prove formal connections",
+              "formulate reasonable conditions"
+            ],
+            "Results": [
+              "algorithms for improving equity ultimately reduce to algorithms for improving human-likeness (on augmented data)"
+            ],
+            "Analysis": [
+              "With this insight"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "text generation algorithms can learn to generate equitable text without any modifications to the biased training data on which they learn"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "To exemplify our theory in practice, we look at a group of algorithms for the GuessWhat?! visual dialogue game and, using this example, test our theory empirically. Our theory accurately predicts relative performance of multiple algorithms in generating equitable text as measured by both human and automated evaluation.",
+          "Main Action": "look at",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a group of algorithms for the GuessWhat?! visual dialogue game"
+              ],
+              "Secondary Object": [
+                "our theory"
+              ]
+            },
+            "Context": [
+              "to exemplify our theory in practice"
+            ],
+            "Purpose": [
+              "test our theory empirically"
+            ],
+            "Method": [
+              "using this example"
+            ],
+            "Results": [
+              "Our theory accurately predicts relative performance of multiple algorithms in generating equitable text as measured by both human and automated evaluation."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_811",
+      "abstract": "Two-Tower Vision-Language (VL) models have shown promising improvements on various downstream VL tasks. Although the most advanced work improves performance by building bridges between encoders, it suffers from ineffective layer-by-layer utilization of uni-modal representations and cannot flexibly exploit different levels of uni-modal semantic knowledge. In this work, we propose ManagerTower, a novel VL model architecture that gathers and combines the insights of pre-trained uni-modal experts at different levels. The managers introduced in each cross-modal layer can adaptively aggregate uni-modal semantic knowledge to facilitate more comprehensive cross-modal alignment and fusion. ManagerTower outperforms previous strong baselines both with and without Vision-Language Pre-training (VLP). With only 4M VLP data, ManagerTower achieves superior performances on various downstream VL tasks, especially 79.15% accuracy on VQAv2 Test-Std, 86.56% IR@1 and 95.64% TR@1 on Flickr30K.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Two-Tower Vision-Language (VL) models have shown promising improvements on various downstream VL tasks. Although the most advanced work improves performance by building bridges between encoders, it suffers from ineffective layer-by-layer utilization of uni-modal representations and cannot flexibly exploit different levels of uni-modal semantic knowledge.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Two-Tower Vision-Language (VL) models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "various downstream VL tasks"
+              ],
+              "Secondary Object": [
+                "uni-modal representations"
+              ]
+            },
+            "Context": [
+              "Although the most advanced work improves performance by building bridges between encoders",
+              "cannot flexibly exploit different levels of uni-modal semantic knowledge"
+            ],
+            "Purpose": [
+              "showing promising improvements"
+            ],
+            "Method": [
+              "building bridges between encoders"
+            ],
+            "Results": [
+              "improves performance"
+            ],
+            "Analysis": [
+              "suffers from ineffective layer-by-layer utilization of uni-modal representations"
+            ],
+            "Challenge": [
+              "cannot flexibly exploit different levels of uni-modal semantic knowledge"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "promising improvements on various downstream VL tasks"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we propose ManagerTower, a novel VL model architecture that gathers and combines the insights of pre-trained uni-modal experts at different levels. The managers introduced in each cross-modal layer can adaptively aggregate uni-modal semantic knowledge to facilitate more comprehensive cross-modal alignment and fusion.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ManagerTower"
+              ],
+              "Secondary Object": [
+                "a novel VL model architecture"
+              ]
+            },
+            "Context": [
+              "gathers and combines the insights of pre-trained uni-modal experts at different levels"
+            ],
+            "Purpose": [
+              "facilitate more comprehensive cross-modal alignment and fusion"
+            ],
+            "Method": [
+              "introduced in each cross-modal layer...can adaptively aggregate uni-modal semantic knowledge"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "ManagerTower outperforms previous strong baselines both with and without Vision-Language Pre-training (VLP). With only 4M VLP data, ManagerTower achieves superior performances on various downstream VL tasks, especially 79.15% accuracy on VQAv2 Test-Std, 86.56% IR@1 and 95.64% TR@1 on Flickr30K.",
+          "Main Action": "outperforms",
+          "Arguments": {
+            "Agent": [
+              "ManagerTower"
+            ],
+            "Object": {
+              "Primary Object": [
+                "previous strong baselines"
+              ],
+              "Secondary Object": [
+                "various downstream VL tasks"
+              ]
+            },
+            "Context": [
+              "With and without Vision-Language Pre-training (VLP)",
+              "only 4M VLP data"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Vision-Language Pre-training (VLP)"
+            ],
+            "Results": [
+              "achieves superior performances",
+              "79.15% accuracy on VQAv2 Test-Std",
+              "86.56% IR@1 and 95.64% TR@1 on Flickr30K"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

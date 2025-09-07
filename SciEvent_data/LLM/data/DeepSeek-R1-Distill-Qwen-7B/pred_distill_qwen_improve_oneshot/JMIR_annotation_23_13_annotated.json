@@ -1,0 +1,346 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_512",
+      "abstract": "Integrating telehealth in an obstetric care model is important to prepare for possible infection outbreaks that require social distancing and limit in-person consultations. To ensure the successful implementation of obstetric telehealth in Hong Kong, it is essential to understand and address pregnant women’s concerns. This study aimed to assess pregnant women’s attitudes, concerns, and perceptions regarding telehealth obstetric clinic services in Hong Kong. We conducted a prospective cross-sectional questionnaire study at Queen Mary Hospital between November 2021 and August 2022. Utilizing a 5-point rating scale, the questionnaire aimed to capture pregnant women’s preferences, expectations, feasibility perceptions, and privacy concerns related to telehealth clinic services. We used statistical analyses, including chi-square tests and multinomial logistic regression, to compare questionnaire responses and investigate the association between advancing gestation and attitudes toward telehealth clinics. The study included 664 participants distributed across different pregnancy stages: 269 (40.5%) before 18 gestational weeks, 198 (29.8%) between 24 and 31 weeks, and 197 (29.7%) after delivery. Among them, 49.8% (329/664) favored face-to-face consultations over telehealth clinics, and only 7.3% (48/664) believed the opposite. Additionally, 24.2% (161/664) agreed that telehealth clinics should be launched for obstetric services. However, the overall preference for telehealth clinics was <20% for routine prenatal checkups (81/664, 12.2%) and addressing pregnancy-related concerns, such as vaginal bleeding (76/664, 11.5%), vaginal discharge (128/664, 19.4%), reduced fetal movement (64/664, 9.7%), uterine contractions (62/664, 9.4%), and suspected leakage of amniotic fluid (54/664, 8.2%). Conversely, 76.4% (507/664) preferred telehealth clinics to in-person visits for prenatal education talks, prenatal and postpartum exercise, and addressing breastfeeding problems. Participants were more comfortable with telehealth clinic tasks for tasks like explaining pregnancy exam results (418/664, 63.1%), self-administering urinary dipsticks at home (373/664, 56.4%), medical history-taking (341/664, 51.5%), and self-monitoring blood pressure using an electronic machine (282/664, 42.8%). During the postpartum period, compared to before 18 weeks of gestation, significantly more participants agreed that telehealth clinics could be an option for assessing physical symptoms such as vaginal bleeding (aOR 2.105, 95% CI 1.448-3.059), reduced fetal movement (aOR 1.575, 95% CI 1.058-2.345), uterine contractions (aOR 2.906, 95% CI 1.945-4.342), suspected leakage of amniotic fluid (aOR 2.609, 95% CI 1.721-3.954), fever (aOR 1.526, 95% CI 1.109-2.100), and flu-like symptoms (aOR 1.412, 95% CI 1.030-1.936). They were also more confident with measuring the symphysis-fundal height, arranging further investigations, and making diagnoses with the doctor via the telehealth clinic. The main perceived public health advantage of telehealth clinics was the shorter traveling and waiting time (526/664, 79.2%), while the main concern was legal issues from wrong diagnosis and treatment (511/664, 77.4%). Face-to-face consultation remained the preferred mode of consultation among the participants. However, telehealth clinics could be an alternative for services that do not require physical examination or contact. An increased acceptance of and confidence in telehealth was found with advancing gestation and after delivery. Enforcing stricter laws and guidelines could facilitate the implementation of telehealth clinics and increase confidence in their use among pregnant women for obstetric care.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Integrating telehealth in an obstetric care model is important to prepare for possible infection outbreaks that require social distancing and limit in-person consultations. To ensure the successful implementation of obstetric telehealth in Hong Kong, it is essential to understand and address pregnant women’s concerns. This study aimed to assess pregnant women’s attitudes, concerns, and perceptions regarding telehealth obstetric clinic services in Hong Kong.",
+          "Main Action": "assessed",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "pregnant women’s attitudes, concerns, and perceptions regarding telehealth obstetric clinic services in Hong Kong"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Integrating telehealth in an obstetric care model is important to prepare for possible infection outbreaks that require social distancing and limit in-person consultations. To ensure the successful implementation of obstetric telehealth in Hong Kong, it is essential to understand and address pregnant women’s concerns. This study aimed to assess pregnant women’s attitudes, concerns, and perceptions regarding telehealth obstetric clinic services in Hong Kong."
+            ],
+            "Purpose": [
+              "To evaluate the effectiveness of telehealth services in addressing concerns among pregnant women in Hong Kong."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "This study assessed the attitudes, concerns, and perceptions of pregnant women in Hong Kong regarding telehealth obstetric clinic services and found that they were primarily concerned about the quality of service delivery and ease of access."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Understanding these perspectives will help healthcare providers tailor telehealth services to better meet the needs of pregnant women in Hong Kong."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted a prospective cross-sectional questionnaire study at Queen Mary Hospital between November 2021 and August 2022. Utilizing a 5-point rating scale, the questionnaire aimed to capture pregnant women’s preferences, expectations, feasibility perceptions, and privacy concerns related to telehealth clinic services. We used statistical analyses, including chi-square tests and multinomial logistic regression, to compare questionnaire responses and investigate the association between advancing gestation and attitudes toward telehealth clinics.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "capturing pregnant women’s preferences, expectations, feasibility perceptions, and privacy concerns related to telehealth clinic services"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We conducted a prospective cross-sectional questionnaire study between November 2021 and August 2022.",
+              "Utilizing a 5-point rating scale, the questionnaire aimed to capture pregnant women’s preferences, expectations, feasibility perceptions, and privacy concerns related to telehealth clinic services."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Statistical analyses, including chi-square tests and multinomial logistic regression were used to compare questionnaire responses and investigate the association between advancing gestation and attitudes toward telehealth clinics."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The study included 664 participants distributed across different pregnancy stages: 269 (40.5%) before 18 gestational weeks, 198 (29.8%) between 24 and 31 weeks, and 197 (29.7%) after delivery. Among them, 49.8% (329/664) favored face-to-face consultations over telehealth clinics, and only 7.3% (48/664) believed the opposite. Additionally, 24.2% (161/664) agreed that telehealth clinics should be launched for obstetric services. However, the overall preference for telehealth clinics was <20% for routine prenatal checkups (81/664, 12.2%) and addressing pregnancy-related concerns, such as vaginal bleeding (76/664, 11.5%), vaginal discharge (128/664, 19.4%), reduced fetal movement (64/664, 9.7%), uterine contractions (62/664, 9.4%), and suspected leakage of amniotic fluid (54/664, 8.2%). Conversely, 76.4% (507/664) preferred telehealth clinics to in-person visits for prenatal education talks, prenatal and postpartum exercise, and addressing breastfeeding problems. Participants were more comfortable with telehealth clinic tasks for tasks like explaining pregnancy exam results (418/664, 63.1%), self-administering urinary dipsticks at home (373/664, 56.4%), medical history-taking (341/664, 51.5%), and self-monitoring blood pressure using an electronic machine (282/664, 42.8%). During the postpartum period, compared to before 18 weeks of gestation, significantly more participants agreed that telehealth clinics could be an option for assessing physical symptoms such as vaginal bleeding (aOR 2.105, 95% CI 1.448-3.059), reduced fetal movement (aOR 1.575, 95% CI 1.058-2.345), uterine contractions (aOR 2.906, 95% CI 1.945-4.342), suspected leakage of amniotic fluid (aOR 2.609, 95% CI 1.721-3.954), fever (aOR 1.526, 95% CI 1.109-2.100), and flu-like symptoms (aOR 1.412, 95% CI 1.030-1.936). They were also more confident with measuring the symphysis-fundal height, arranging further investigations, and making diagnoses with the doctor via the telehealth clinic.",
+          "Main Action": "showed",
+          "Arguments": {
+            "Agent": [
+              "the effectiveness of telehealth Clinics"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a significant improvement in detection accuracy for the most severe hallucinations by a factor of 2"
+              ],
+              "Secondary Object": [
+                "a significant improvement in detection accuracy for the most severe hallucinations by a factor of 2"
+              ]
+            },
+            "Context": [
+              "Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative."
+            ],
+            "Purpose": [
+              "to compare preferences among pregnant women regarding healthcare consultation types"
+            ],
+            "Method": [
+              "we propose to use a method that evaluates the percentage of the source contribution to a generated translation."
+            ],
+            "Results": [
+              "This method improves detection accuracy for the most severe hallucinations by a factor of 2 and is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models.",
+              "Furthermore, our experiments indicate that script normalization is also beneficial to improve the performance of downstream tasks such as machine translation and language identification."
+            ],
+            "Analysis": [
+              "It means that internal characteristics of the model can give much more information than we expect",
+              "Moreover, hallwayptions are translations \"detached\" from the source, hence they can be identified by low source contribution."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "These findings suggest that incorporating script normalization as a preprocessing step can enhance multilingual NLP systems, particularly for languages with non-standardized orthography in digital spaces."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "The main perceived public health advantage of telehealth clinics was the shorter traveling and waiting time (526/664, 79.2%), while the main concern was legal issues from wrong diagnosis and treatment (511/664, 77.4%). Face-to-face consultation remained the preferred mode of consultation among the participants. However, telehealth clinics could be an alternative for services that do not require physical examination or contact. An increased acceptance of and confidence in telehealth was found with advancing gestation and after delivery. Enforcing stricter laws and guidelines could facilitate the implementation of telehealth clinics and increase confidence in their use among pregnant women for obstetric care.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_556",
+      "abstract": "Recent studies have analyzed the factors that contribute to variations in the success of crowdfunding campaigns for a specific cancer type; however, little is known about the influential factors among crowdfunding campaigns for multiple cancers. The purpose of this study was to examine the relationship between project features and the success of cancer crowdfunding campaigns and to determine whether text features affect campaign success for various cancers. Using cancer-related crowdfunding projects on the GoFundMe website, we transformed textual descriptions from the campaigns into structured data using natural language processing techniques. Next, we used penalized logistic regression and correlation analyses to examine the influence of project and text features on fundraising project outcomes. Finally, we examined the influence of campaign description sentiment on crowdfunding success using Linguistic Inquiry and Word Count software. Campaigns were significantly more likely to be successful if they featured a lower target amount (Goal amount, β=−1.949, z-score=−82.767, P<.001) for fundraising, a higher number of previous donations, agency (vs individual) organizers, project pages containing updates, and project pages containing comments from readers. The results revealed an inverted U-shaped relationship between the length of the text and the amount of funds raised. In addition, more spelling mistakes negatively affected the funds raised (Number of spelling errors, β=−1.068, z-score=−38.79, P<.001). Difficult-to-treat cancers and high-mortality cancers tend to trigger empathy from potential donors, which increases the funds raised. Gender differences were observed in the effects of emotional words in the text on the amount of funds raised. For cancers that typically occur in women, links between emotional words used and the amount of funds raised were weaker than for cancers typically occurring among men.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Recent studies have analyzed the factors that contribute to variations in the success of crowdfunding campaigns for a specific cancer type; however, little is known about the influential factors among crowdfunding campaigns for multiple cancers. The purpose of this study was to examine the relationship between project features and the success of cancer crowdfunding campaigns and to determine whether text features affect campaign success for various cancers.",
+          "Main Action": "examine",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "between project features and the success of cancer crowdfunding campaigns"
+              ],
+              "Secondary Object": [
+                "whether text features affect campaign success for various cancers"
+              ]
+            },
+            "Context": [
+              "Recent studies have analyzed the factors contributing to variations in the success of crowdfunding campaigns for a specific cancer type; however, little is known about influential factors among campaigns for multiple cancers."
+            ],
+            "Purpose": [
+              "The purpose of this study was to examine the relationship between project features and the success of cancer crowdfunding campaigns and to determine whether text features affect campaign success for various cancers."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Using cancer-related crowdfunding projects on the GoFundMe website, we transformed textual descriptions from the campaigns into structured data using natural language processing techniques. Next, we used penalized logistic regression and correlation analyses to examine the influence of project and text features on fundraising project outcomes. Finally, we examined the influence of campaign description sentiment on crowdfunding success using Linguistic Inquiry and Word Count software",
+          "Main Action": "using",
+          "Arguments": {
+            "Agent": [
+              "penalized logistic regression and correlation analyses"
+            ],
+            "Object": {
+              "Primary Object": [
+                "examine the influence of project and text features on fundraising project outcomes"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "using penalized logistic regression and correlation analyses"
+            ],
+            "Results": [
+              "Finally, we examined the influence of campaign description sentiment on crowdfunding success using Linguistic Inquiry and Word Count software"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Campaigns were significantly more likely to be successful if they featured a lower target amount (Goal amount, β=−1.949, z-score=−82.767, P<.001) for fundraising, a higher number of previous donations, agency (vs individual) organizers, project pages containing updates, and project pages containing comments from readers. The results revealed an inverted U-shaped relationship between the length of the text and the amount of funds raised. In addition, more spelling mistakes negatively affected the funds raised (Number of spelling errors, β=−1.068, z-score=−38.79, P<.001). Difficult-to-treat cancers and high-mortality cancers tend to trigger empathy from potential donors, which increases the funds raised. Gender differences were observed in the effects of emotional words in the text on the amount of funds raised. For cancers that typically occur in women, links between emotional words used and the amount of funds raised were weaker than for cancers typically occurring among men.",
+          "Main Action": "were significantly more likely",
+          "Arguments": {
+            "Agent": [
+              "_campaigns"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to be successful if they featured a lower target amount (Goal amount)",
+                "had a higher number of previous donations",
+                "organised by agencies instead of individuals",
+                "contained updates",
+                "contained comments from readers",
+                "contained spelling mistakes",
+                "focused on certain types of cancer",
+                "used emotional words differently",
+                "analyzed survival rates compared to treatment difficulty"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "The results revealed an inverted U-shaped relationship between the length of the text and the amount of funds raised.",
+              "More spelling mistakes negatively affected the funds raised."
+            ],
+            "Analysis": [
+              "Difficult-to-treat cancers and high-mortality cancers tend to trigger empathy from potential donors, which increases the funds raised.",
+              "Gender differences were observed in the effects of emotional words in the text on the amount of funds raised."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Gender differences were observed in the effects of emotional words in the text on the amount of funds raised.",
+              "For cancers that typically occur in women, links between emotional words used and the amount of funds raised were weaker than for cancers typically occurring among men."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

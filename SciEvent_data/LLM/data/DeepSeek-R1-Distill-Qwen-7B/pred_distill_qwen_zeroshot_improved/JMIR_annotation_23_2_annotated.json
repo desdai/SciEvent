@@ -1,0 +1,398 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_943",
+      "abstract": "Testicular sperm extraction (TESE) is an essential therapeutic tool for the management of male infertility. However, it is an invasive procedure with a success rate up to 50%. To date, no model based on clinical and laboratory parameters is sufficiently powerful to accurately predict the success of sperm retrieval in TESE. The aim of this study is to compare a wide range of predictive models under similar conditions for TESE outcomes in patients with nonobstructive azoospermia (NOA) to identify the correct mathematical approach to apply, most appropriate study size, and relevance of the input biomarkers. We analyzed 201 patients who underwent TESE at Tenon Hospital (Assistance Publique-Hôpitaux de Paris, Sorbonne University, Paris), distributed in a retrospective training cohort of 175 patients (January 2012 to April 2021) and a prospective testing cohort (May 2021 to December 2021) of 26 patients. Preoperative data (according to the French standard exploration of male infertility, 16 variables) including urogenital history, hormonal data, genetic data, and TESE outcomes (representing the target variable) were collected. A TESE was considered positive if we obtained sufficient spermatozoa for intracytoplasmic sperm injection. After preprocessing the raw data, 8 machine learning (ML) models were trained and optimized on the retrospective training cohort data set: The hyperparameter tuning was performed by random search. Finally, the prospective testing cohort data set was used for the model evaluation. The metrics used to evaluate and compare the models were the following: sensitivity, specificity, area under the receiver operating characteristic curve (AUC-ROC), and accuracy. The importance of each variable in the model was assessed using the permutation feature importance technique, and the optimal number of patients to include in the study was assessed using the learning curve. The ensemble models, based on decision trees, showed the best performance, especially the random forest model, which yielded the following results: AUC=0.90, sensitivity=100%, and specificity=69.2%. Furthermore, a study size of 120 patients seemed sufficient to properly exploit the preoperative data in the modeling process, since increasing the number of patients beyond 120 during model training did not bring any performance improvement. Furthermore, inhibin B and a history of varicoceles exhibited the highest predictive capacity. An ML algorithm based on an appropriate approach can predict successful sperm retrieval in men with NOA undergoing TESE, with promising performance. However, although this study is consistent with the first step of this process, a subsequent formal prospective multicentric validation study should be undertaken before any clinical applications. As future work, we consider the use of recent and clinically relevant data sets (including seminal plasma biomarkers, especially noncoding RNAs, as markers of residual spermatogenesis in NOA patients) to improve our results even more.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Testicular sperm extraction (TESE) is an essential therapeutic tool for the management of male infertility. However, it is an invasive procedure with a success rate up to 50%. To date, no model based on clinical and laboratory parameters is sufficiently powerful to accurately predict the success of sperm retrieval in TESE. The aim of this study is to compare a wide range of predictive models under similar conditions for TESE outcomes in patients with nonobstructive azoospermia (NOA) to identify the correct mathematical approach to apply, most appropriate study size, and relevance of the input biomarkers.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We analyzed 201 patients who underwent TESE at Tenon Hospital (Assistance Publique-Hôpitaux de Paris, Sorbonne University, Paris), distributed in a retrospective training cohort of 175 patients (January 2012 to April 2021) and a prospective testing cohort (May 2021 to December 2021) of 26 patients. Preoperative data (according to the French standard exploration of male infertility, 16 variables) including urogenital history, hormonal data, genetic data, and TESE outcomes (representing the target variable) were collected. A TESE was considered positive if we obtained sufficient spermatozoa for intracytoplasmic sperm injection. After preprocessing the raw data, 8 machine learning (ML) models were trained and optimized on the retrospective training cohort data set: The hyperparameter tuning was performed by random search. Finally, the prospective testing cohort data set was used for the model evaluation. The metrics used to evaluate and compare the models were the following: sensitivity, specificity, area under the receiver operating characteristic curve (AUC-ROC), and accuracy. The importance of each variable in the model was assessed using the permutation feature importance technique, and the optimal number of patients to include in the study was assessed using the learning curve.",
+          "Main Action": "Evaluating ML models",
+          "Arguments": {
+            "Agent": [
+              "Prospective testing cohort"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Model evaluation"
+              ],
+              "Secondary Object": [
+                "Metrics used (sensitivity, specificity, AUC-ROC, accuracy)"
+              ]
+            },
+            "Context": [
+              "Distributed in a retrospective training cohort ... January 2012 to April 2021",
+              "And a prospective testing cohort May 2021 to December 2021"
+            ],
+            "Purpose": [
+              "To assess the effectiveness of TESE procedures",
+              "Improving fertility treatments"
+            ],
+            "Method": [
+              "Data collection",
+              "Preprocessing",
+              "Training ML models",
+              "Optimizing parameters via random search"
+            ],
+            "Results": [
+              "Sensitivity",
+              "Specificity",
+              "Area under the receiver operating characteristic curve (AUC-ROC)",
+              "Accuracy"
+            ],
+            "Analysis": [
+              "Importance of each variable in the model",
+              "Optimal number of patients determined using learning curves"
+            ],
+            "Challenge": [
+              "Need for adequate patient identification due to low incidence rate",
+              "Sample size considerations"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Applying insights to enhance clinical practice",
+              "Improve IVF protocols"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "The ensemble models, based on decision trees, showed the best performance, especially the random forest model, which yielded the following results: AUC=0.90, sensitivity=100%, and specificity=69.2%. Furthermore, a study size of 120 patients seemed sufficient to properly exploit the preoperative data in the modeling process, since increasing the number of patients beyond 120 during model training did not bring any performance improvement. Furthermore, inhibin B and a history of varicoceles exhibited the highest predictive capacity.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "An ML algorithm based on an appropriate approach can predict successful sperm retrieval in men with NOA undergoing TESE, with promising performance. However, although this study is consistent with the first step of this process, a subsequent formal prospective multicentric validation study should be undertaken before any clinical applications. As future work, we consider the use of recent and clinically relevant data sets (including seminal plasma biomarkers, especially noncoding RNAs, as markers of residual spermatogenesis in NOA patients) to improve our results even more.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_487",
+      "abstract": "Vision loss from diabetic-related retinopathy (DR) is preventable through regular screening. The purpose of this study was to test different patient engagement approaches to expand a teleophthalmology program at a primary care clinic in the city of Toronto, Canada. A teleophthalmology program was set up in a large, urban, academic, team-based primary care practice. Patients older than 18 years with type 1 or type 2 diabetes were randomized to one of the following 4 engagement strategies: phone call, mail, mail plus phone call, or usual care. Outreach was conducted by administrative staff within the clinic. The primary outcome was booking an appointment for DR screening. A total of 23 patients in the phone, 28 in the mail, 32 in the mail plus phone call, and 27 in the control (usual care) group were included in the analysis. After the intervention and after excluding patients who said they were screened, 88% (15/17) of patients in the phone, 11% (2/18) in the mail, and 100% (21/21) in the mail and phone group booked an appointment with the teleophthalmology program compared to 0% (0/12) in the control group. Phoning patients positively predicted patients booking a teleophthalmology appointment (P<.001), whereas mailing a letter had no effect. Patient engagement to book DR screening via teleophthalmology in an urban, academic, team-based primary care practice using telephone calls was much more effective than patient engagement using letters or usual care. Practices that have access to a local DR screening program and have resources for such engagement strategies should consider using them as a means to improve their DR screening rates.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Vision loss from diabetic-related retinopathy (DR) is preventable through regular screening. The purpose of this study was to test different patient engagement approaches to expand a teleophthalmology program at a primary care clinic in the city of Toronto, Canada.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "A teleophthalmology program was set up in a large, urban, academic, team-based primary care practice. Patients older than 18 years with type 1 or type 2 diabetes were randomized to one of the following 4 engagement strategies: phone call, mail, mail plus phone call, or usual care. Outreach was conducted by administrative staff within the clinic. The primary outcome was booking an appointment for DR screening.",
+          "Main Action": "patients were randomized to one of the following 4 engagement strategies",
+          "Arguments": {
+            "Agent": [
+              "patients"
+            ],
+            "Object": {
+              "Primary Object": [
+                "DR screening appointment booking"
+              ],
+              "Secondary Object": [
+                "messages or materials sent via phone, mail, or combination thereof"
+              ]
+            },
+            "Context": [
+              "a teleophthalmology program was set up in a large, urban, academic, team-based primary care practice."
+            ],
+            "Purpose": [
+              "To determine the effectiveness of different engagement strategies compared to usual care in promoting appointment booking for DR screening."
+            ],
+            "Method": [
+              "Patients older than 18 years with type 1 or type 2 diabetes were randomized to one of the following 4 engagement strategies: phone call, mail, mail plus phone call, or usual care.",
+              "Outreach was conducted by administrative staff within the clinic."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Potential challenges included varying times spent contacting patients, non-compliance issues due to busy schedules, and differing literacy levels affecting message delivery efficiency."
+            ],
+            "Ethical": [
+              "Ensuring proper handling of patient data and obtaining informed consent prior to sharing sensitive information."
+            ],
+            "Implications": [
+              "This study suggests that selecting appropriate engagement strategies based on population characteristics could enhance the effectiveness of telephalpathology programs."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "A total of 23 patients in the phone, 28 in the mail, 32 in the mail plus phone call, and 27 in the control (usual care) group were included in the analysis. After the intervention and after excluding patients who said they were screened, 88% (15/17) of patients in the phone, 11% (2/18) in the mail, and 100% (21/21) in the mail and phone group booked an appointment with the teleophthalmology program compared to 0% (0/12) in the control group. Phoning patients positively predicted patients booking a teleophthalmology appointment (P<.001), whereas mailing a letter had no effect.",
+          "Main Action": "Booked an appointment",
+          "Arguments": {
+            "Agent": [
+              "Phone, Mail, Mail + Phone Call Groups"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Patients in the phone group",
+                "Patients in the mail group",
+                "Patients in the mail and phone call group"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Patient engagement to book DR screening via teleophthalmology in an urban, academic, team-based primary care practice using telephone calls was much more effective than patient engagement using letters or usual care. Practices that have access to a local DR screening program and have resources for such engagement strategies should consider using them as a means to improve their DR screening rates.",
+          "Main Action": "was much more effective",
+          "Arguments": {
+            "Agent": [
+              "patient engagement via teleophthalmology"
+            ],
+            "Object": {
+              "Primary Object": [
+                "telephone calls"
+              ],
+              "Secondary Object": [
+                "letter-based engagement",
+                "usual care"
+              ]
+            },
+            "Context": [
+              "urban, academic, team-based primary care practice",
+              "using telephone calls",
+              "compared to usual care"
+            ],
+            "Purpose": [
+              "improve their DR screening rates"
+            ],
+            "Method": [
+              "telephone calls vs. letters or usual care",
+              "control group setup"
+            ],
+            "Results": [
+              "higher success rate with telephonic engagement"
+            ],
+            "Analysis": [
+              "direct interaction facilitates participation despite challenges"
+            ],
+            "Challenge": [
+              "resource allocation or training requirements"
+            ],
+            "Ethical": [
+              "no explicit ethical concerns discussed"
+            ],
+            "Implications": [
+              "potential benefits for expanding telehealth initiatives"
+            ],
+            "Contradictions": [
+              "none identified"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

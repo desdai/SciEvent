@@ -1,0 +1,154 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_60",
+      "abstract": "The concepts embedded in humanities materials are unstructured and possess multifaceted attributes. New insights from these materials are derived through systematic qualitative study. However, for the purpose of quantitative analysis using digital humanities methods and tools, formalizing these concepts becomes imperative. The functionality of digital humanities relies on the deployment of formalized concepts and models. Formalization converts unstructured data into a more structured form. Concurrently, models function as representations created to closely examine the modeled subject, while metamodels define the structure and properties of these models. In this case, the absence of formalized concepts and models for studying the British India colonial corpus hampers the computational application to address humanities research questions quantitatively. The texts are intricate, and the format is non-standard, as colonial officials documented extensive information to govern and control the colonized people and land. In this scenario, the British India colonial corpus cannot be effectively utilized for topic-specific research questions employing advanced text mining without formalizing the concepts within it. This article addresses the questions of what the most effective approach is for identifying multifaceted concepts within the non-standard British colonial India corpus through models and how these concepts can be formalized using formal models. It also explores how metamodels can be developed based on this experiment for a similar corpus.",
+      "events": [
+        {
+          "Background/Introduction": "The concetpts embedded in humanities materials",
+          "Text": "The concepts embedded in humanities materials are unstructured and possess multifaceted attributes. New insights from these materials are derived through systematic qualitative study. However, for the purpose of quantitative analysis using digital humanities methods and tools, formalizing these concepts becomes imperative. The functionality of digital humanities relies on the deployment of formalized concepts and models. Formalization converts unstructured data into a more structured form. Concurrently, models function as representations created to closely examine the modeled subject, while metamodels define the structure and properties of these models. In this case, the absence of formalized concepts and models for studying the British India colonial corpus hampers the computational application to address humanities research questions quantitatively. The texts are intricate, and the format is non-standard, as colonial officials documented extensive information to govern and control the colonized people and land. In this scenario, the British India colonial corpus cannot be effectively utilized for topic-specific research questions employing advanced text mining without formalizing the concepts within it.",
+          "Main Action": "are",
+          "Arguments": {
+            "Agent": [
+              "The concepts embedded in humanities materials"
+            ],
+            "Object": {
+              "Primary Object": [
+                "unstructured and possess multifaceted attributes."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "New insights from these materials are derived",
+              "The functionality of digital humanities relies on the deployment of formalized concepts and models."
+            ],
+            "Purpose": [
+              "to address humanities research questions quantitatively."
+            ],
+            "Method": [
+              "Formalization converts unstructured data into a more structured form",
+              "models function as representations created to closely examine the modeled subject",
+              "systematic qualitative study",
+              "while metamodels define the structure and properties of these models"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "the absence of formalized concepts and models for studying the British India colonial corpus hampers the computational application",
+              "for the purpose of quantitative analysis using digital humanities methods and tools, formalizing these concepts becomes imperative",
+              "the British India colonial corpus cannot be effectively utilized for topic-specific research questions employing advanced text mining without formalizing the concepts within it."
+            ],
+            "Ethical": [],
+            "Implications": [
+              "The texts are intricate, and the format is non-standard, as colonial officials documented extensive information to govern and control the colonized people and land."
+            ],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "what is the most effective approach",
+          "Text": "This article addresses the questions of what the most effective approach is for identifying multifaceted concepts within the non-standard British colonial India corpus through models and how these concepts can be formalized using formal models. It also explores how metamodels can be developed based on this experiment for a similar corpus.",
+          "Main Action": "addresses",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the questions of what the most effective approach is for identifying multifaceted concepts within the non-standard British colonial India corpus through models"
+              ],
+              "Primary Modifier": [
+                "and how these concepts can be formalized using formal models."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "explores how metamodels can be developed based on this experiment for a similar corpus"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_34",
+      "abstract": "This introduction to the Project Resiliency issue argues that we have work to do in getting projects to the point of being done and archivable. The Endings Project, a collaboration between three developers, three humanities scholars, and three librarians, arose from the maintenance burden accrued by the Humanities Computing and Media Centre at the University of Victoria and our desire to design projects that, from their inception, are ready for long-term archiving. After describing the events leading up to the Endings Symposium and briefly summarizing the articles in this issue, we discuss the necessity of a culture of constraint if we wish to preserve digital humanities projects in the same way that libraries preserve books.",
+      "events": [
+        {
+          "Background/Introduction": "project resliency",
+          "Text": "This introduction to the Project Resiliency issue argues that we have work to do in getting projects to the point of being done and archivable. The Endings Project, a collaboration between three developers, three humanities scholars, and three librarians, arose from the maintenance burden accrued by the Humanities Computing and Media Centre at the University of Victoria and our desire to design projects that, from their inception, are ready for long-term archiving.",
+          "Main Action": "argues",
+          "Arguments": {
+            "Agent": [
+              "introduction to the Project Resiliency issue"
+            ],
+            "Object": {
+              "Primary Object": [
+                "we have work to do in getting projects to the point of being done and archivable."
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "The Endings Project, a collaboration between three developers, three humanities scholars, and three librarians, arose from the maintenance burden accrued by the Humanities Computing and Media Centre at the University of Victoria"
+            ],
+            "Purpose": [
+              "our desire to design projects that, from their inception, are ready for long-term archiving."
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "events leading up to the Endings Symposium",
+          "Text": "After describing the events leading up to the Endings Symposium and briefly summarizing the articles in this issue, we discuss the necessity of a culture of constraint if we wish to preserve digital humanities projects in the same way that libraries preserve books.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the necessity of a culture of constraint"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [
+                "preserve digital humanities projects"
+              ],
+              "Secondary Modifier": [
+                "the same way that libraries preserve books."
+              ]
+            },
+            "Context": [
+              "After describing the events leading up to the Endings Symposium and briefly summarizing the articles in this issue"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

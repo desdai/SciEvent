@@ -1,0 +1,290 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_619",
+      "abstract": "Most research on stylized image captioning aims to generate style-specific captions using unpaired text, and has achieved impressive performance for simple styles like positive and negative. However, unlike previous single-sentence captions whose style is mostly embodied in distinctive words or phrases, real-world styles are likely to be implied at the syntactic and discourse levels. In this work, we introduce a new task of Stylized Visual Storytelling (SVST), which aims to describe a photo stream with stylized stories that are more expressive and attractive. We propose a multitasking memory-augmented framework called StyleVSG, which is jointly trained on factual visual storytelling data and unpaired style corpus, achieving a trade-off between style accuracy and visual relevance. Particularly for unpaired stylized text, StyleVSG learns to reconstruct the stylistic story from roughly parallel visual inputs mined with the CLIP model, avoiding problems caused by random mapping in previous methods. Furthermore, a memory module is designed to preserve the consistency and coherence of generated stories. Experiments show that our method can generate attractive and coherent stories with different styles such as fairy tale, romance, and humor. The overall performance of our StyleVSG surpasses state-of-the-art methods on both automatic and human evaluation metrics.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Most research on stylized image captioning aims to generate style-specific captions using unpaired text, and has achieved impressive performance for simple styles like positive and negative. However, unlike previous single-sentence captions whose style is mostly embodied in distinctive words or phrases, real-world styles are likely to be implied at the syntactic and discourse levels.",
+          "Main Action": "Real-world styles are likely to be implied at the syntactic and discourse levels",
+          "Arguments": {
+            "Agent": [
+              "Real-world styles"
+            ],
+            "Object": {
+              "Primary Object": [
+                "syntactic and discourse levels"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "previous single-sentence captions whose style is mostly embodied in distinctive words or phrases"
+            ],
+            "Purpose": [
+              "To improve captioning systems and address the limitations of focusing solely on word-based styles"
+            ],
+            "Method": [
+              "comparing with previous methods"
+            ],
+            "Results": [
+              "Findings indicate that real-world styles require a different approach than those focusing on distinctive words or phrases"
+            ],
+            "Analysis": [
+              "This suggests that prior methods may have limitations due to their reliance on surface-level stylistic features"
+            ],
+            "Challenge": [
+              "Complexity of real-world data and the necessity for more nuanced stylistic analysis"
+            ],
+            "Ethical": [
+              "Not explicitly mentioned"
+            ],
+            "Implications": [
+              "Broader impact on AI models' ability to understand and replicate human-like language patterns"
+            ],
+            "Contradictions": [
+              "Disagreements with assumptions that simplistic styles are sufficient for generating captions"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we introduce a new task of Stylized Visual Storytelling (SVST), which aims to describe a photo stream with stylized stories that are more expressive and attractive. We propose a multitasking memory-augmented framework called StyleVSG, which is jointly trained on factual visual storytelling data and unpaired style corpus, achieving a trade-off between style accuracy and visual relevance. Particularly for unpaired stylized text, StyleVSG learns to reconstruct the stylistic story from roughly parallel visual inputs mined with the CLIP model, avoiding problems caused by random mapping in previous methods. Furthermore, a memory module is designed to preserve the consistency and coherence of generated stories.",
+          "Main Action": "Introduce a new task of Stylized Visual Storytelling (SVST)",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a photo stream with stylized stories"
+              ],
+              "Secondary Object": [
+                "more expressive and attractive"
+              ]
+            },
+            "Context": [
+              "which aims to describe a photo stream with stylized stories that are more expressive and attractive"
+            ],
+            "Purpose": [
+              "to create descriptions of photo streams with stylized stories that are more expressive and attractive"
+            ],
+            "Method": [
+              "propose a multitasking memory-augmented framework called StyleVSG",
+              "jointly trained on factual visual storytelling data and unpaired style corpus"
+            ],
+            "Results": [
+              "achieve a trade-off between style accuracy and visual relevance",
+              "reconstruct the stylistic story from roughly parallel visual inputs mined with the CLIP model"
+            ],
+            "Analysis": [
+              "avoiding problems caused by random mapping in previous methods"
+            ],
+            "Challenge": [
+              "memory module is designed to preserve the consistency and coherence of generated stories"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments show that our method can generate attractive and coherent stories with different styles such as fairy tale, romance, and humor. The overall performance of our StyleVSG surpasses state-of-the-art methods on both automatic and human evaluation metrics.",
+          "Main Action": "can generate",
+          "Arguments": {
+            "Agent": [
+              "our method"
+            ],
+            "Object": {
+              "Primary Object": [
+                "attractive and coherent stories"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Experiments show that our method can generate"
+            ],
+            "Purpose": [
+              "to evaluate performance"
+            ],
+            "Method": [
+              "StyleVSG"
+            ],
+            "Results": [
+              "surpasses state-of-the-art methods on both automatic and human evaluation metrics"
+            ],
+            "Analysis": [
+              "Overall performance comparisons highlight effectiveness"
+            ],
+            "Challenge": [
+              "Comparisons with previous methods demonstrate improvement"
+            ],
+            "Ethical": [
+              "No ethical concerns explicitly mentioned"
+            ],
+            "Implications": [
+              "Advances in story generation technology"
+            ],
+            "Contradictions": [
+              "None identified"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_380",
+      "abstract": "Grammatical error correction (GEC) can be divided into sequence-to-edit (Seq2Edit) and sequence-to-sequence (Seq2Seq) frameworks, both of which have their pros and cons. To utilize the strengths and make up for the shortcomings of these frameworks, this paper proposes a novel method, TemplateGEC, which capitalizes on the capabilities of both Seq2Edit and Seq2Seq frameworks in error detection and correction respectively. TemplateGEC utilizes the detection labels from a Seq2Edit model, to construct the template as the input. A Seq2Seq model is employed to enforce consistency between the predictions of different templates by utilizing consistency learning. Experimental results on the Chinese NLPCC18, English BEA19 and CoNLL14 benchmarks show the effectiveness and robustness of TemplateGEC. Further analysis reveals the potential of our method in performing human-in-the-loop GEC.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Grammatical error correction (GEC) can be divided into sequence-to-edit (Seq2Edit) and sequence-to-sequence (Seq2Seq) frameworks, both of which have their pros and cons. To utilize the strengths and make up for the shortcomings of these frameworks, this paper proposes a novel method, TemplateGEC, which capitalizes on the capabilities of both Seq2Edit and Seq2Seq frameworks in error detection and correction respectively.",
+          "Main Action": "proposing a novel method",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Seq2Edit",
+                "Seq2Seq"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "existing methods in grammatical error correction"
+            ],
+            "Purpose": [
+              "overcoming the limitations of existing frameworks"
+            ],
+            "Method": [
+              "template-based approach for error detection and correction"
+            ],
+            "Results": [
+              "improved performance compared to existing methods"
+            ],
+            "Analysis": [
+              "integration of both Seq2Edit and Seq2Seq frameworks leads to enhanced results"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications in natural language processing"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "TemplateGEC utilizes the detection labels from a Seq2Edit model, to construct the template as the input. A Seq2Seq model is employed to enforce consistency between the predictions of different templates by utilizing consistency learning.",
+          "Main Action": "To utilize the detection labels from a Seq2Edit model",
+          "Arguments": {
+            "Agent": [
+              "TemplateGEC"
+            ],
+            "Object": {
+              "Primary Object": [
+                "template"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Seq2Seq model",
+              "Seq2Edit model"
+            ],
+            "Results": [
+              "consistency between the predictions of different templates"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results on the Chinese NLPCC18, English BEA19 and CoNLL14 benchmarks show the effectiveness and robustness of TemplateGEC. Further analysis reveals the potential of our method in performing human-in-the-loop GEC.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "TemplateGEC"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Chinese NLPCC18, English BEA19 and CoNLL14 benchmarks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "previous studies or established criteria"
+            ],
+            "Purpose": [
+              "to assess the performance of TemplateGEC"
+            ],
+            "Method": [
+              "using the Chinese NLPCC18, English BEA19 and CoNLL14 benchmarks"
+            ],
+            "Results": [
+              "effectiveness and robustness of TemplateGEC"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broad applicability across diverse datasets"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

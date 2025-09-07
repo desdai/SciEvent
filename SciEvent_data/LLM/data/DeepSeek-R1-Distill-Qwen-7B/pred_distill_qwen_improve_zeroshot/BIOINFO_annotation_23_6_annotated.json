@@ -1,0 +1,280 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_193",
+      "abstract": "Sparse regularized regression methods are now widely used in genome-wide association studies (GWAS) to address the multiple testing burden that limits discovery of potentially important predictors. Linear mixed models (LMMs) have become an attractive alternative to principal components (PCs) adjustment to account for population structure and relatedness in high-dimensional penalized models. However, their use in binary trait GWAS relies on the invalid assumption that the residual variance does not depend on the estimated regression coefficients. Moreover, LMMs use a single spectral decomposition of the covariance matrix of the responses, which is no longer possible in generalized linear mixed models (GLMMs). We introduce a new method called pglmm, a penalized GLMM that allows to simultaneously select genetic markers and estimate their effects, accounting for between-individual correlations and binary nature of the trait. We develop a computationally efficient algorithm based on penalized quasi-likelihood estimation that allows scaling regularized mixed models on high-dimensional binary trait GWAS. We show through simulations that when the dimensionality of the relatedness matrix is high, penalized LMM and logistic regression with PC adjustment fail to select important predictors and have inferior prediction accuracy compared to pglmm. Further, we demonstrate through the analysis of two polygenic binary traits in a subset of 6731 related individuals from the UK Biobank data with 320K SNPs that our method can achieve higher predictive performance, while also selecting fewer predictors than a sparse regularized logistic lasso with PC adjustment.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Sparse regularized regression methods are now widely used in genome-wide association studies (GWAS) to address the multiple testing burden that limits discovery of potentially important predictors. Linear mixed models (LMMs) have become an attractive alternative to principal components (PCs) adjustment to account for population structure and relatedness in high-dimensional penalized models. However, their use in binary trait GWAS relies on the invalid assumption that the residual variance does not depend on the estimated regression coefficients. Moreover, LMMs use a single spectral decomposition of the covariance matrix of the responses, which is no longer possible in generalized linear mixed models (GLMMs).",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Sparse regularized regression methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "are now widely used in genome-wide association studies (GWAS)"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "to address the multiple testing burden that limits discovery of potentially important predictors"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Linear mixed models (LMMs) have become an attractive alternative",
+              "However, their use in binary trait GWAS relies on the invalid assumption"
+            ],
+            "Purpose": [
+              "To provide insights into the application limitations of sparse regularization methods in GWAS",
+              "To highlight challenges faced by traditional PCA-based adjustments versus more sophisticated modeling approaches"
+            ],
+            "Method": [
+              "Analyzing the assumptions underlying model applicability",
+              "Examining the statistical properties of LMMs compared to GLMM extensions"
+            ],
+            "Results": [
+              "It has been demonstrated that the reliance on fixed residual variances introduces bias",
+              "Moreover, computational limitations restrict generalizability beyond Gaussian traits"
+            ],
+            "Analysis": [
+              "This critique emphasizes the importance of flexible variance structures in predictive modeling",
+              "Highlighting gaps between theoretical advancements and practical implementation barriers"
+            ],
+            "Challenge": [
+              "Assumption violations leading to biased estimates",
+              "Computational inefficiencies limiting scalability"
+            ],
+            "Ethical": [
+              "Potential biases affecting fairness of genetic risk prediction models",
+              "Limitations constraining methodological innovation"
+            ],
+            "Implications": [
+              "Stimulates development of adaptive estimation procedures",
+              "Encourages exploration of novel statistical frameworks addressing heteroscedasticity"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We introduce a new method called pglmm, a penalized GLMM that allows to simultaneously select genetic markers and estimate their effects, accounting for between-individual correlations and binary nature of the trait. We develop a computationally efficient algorithm based on penalized quasi-likelihood estimation that allows scaling regularized mixed models on high-dimensional binary trait GWAS.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new method called pglmm"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "penalized GLMM"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "developing a computationally efficient algorithm"
+            ],
+            "Purpose": [
+              "aim to provide both a novel methodological framework and apply these methods effectively across various scenarios requiring handling correlated data structures typical in biological studies"
+            ],
+            "Method": [
+              "advanced optimization strategies such as coordinate descent along with penalty term selection via cross-validation procedures"
+            ],
+            "Results": [
+              "computational efficiency achieved through algorithms based on penalized quasi-likelihood estimation that allow scaling regularized mixed models on high-dimensional binary trait GWAS"
+            ],
+            "Analysis": [
+              "evaluation likely involves comparing performance metrics against existing methods using simulated and real-world datasets"
+            ],
+            "Challenge": [
+              "applying these methods may face limitations regarding scalability further increasing dimensionality or dealing with complex correlation patterns inherent in genetic traits"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "extending applicability beyond GWAS into areas like plant breeding or evolutionary biology"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We show through simulations that when the dimensionality of the relatedness matrix is high, penalized LMM and logistic regression with PC adjustment fail to select important predictors and have inferior prediction accuracy compared to pglmm. Further, we demonstrate through the analysis of two polygenic binary traits in a subset of 6731 related individuals from the UK Biobank data with 320K SNPs that our method can achieve higher predictive performance, while also selecting fewer predictors than a sparse regularized logistic lasso with PC adjustment.",
+          "Main Action": "Further, we demonstrate",
+          "Arguments": {
+            "Agent": [
+              "researchers conducted these analyses using specific statistical models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our method"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "sparse regularized logistic lasso with PC adjustment"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "polygenic binary traits in a subset of 6731 related individuals from the UK Biobank data with 320K SNPs"
+            ],
+            "Purpose": [
+              "aim to showcase improved performance over existing methods across various scenarios involving genetic data"
+            ],
+            "Method": [
+              "simulation studies comparing model performances on datasets with varying dimensions and real-world application within a specific dataset framework"
+            ],
+            "Results": [
+              "increased predictive performance, while also selecting fewer predictors than a sparse regularized logistic lasso with PC adjustment"
+            ],
+            "Analysis": [
+              "comparisons showing benefits against alternative methods"
+            ],
+            "Challenge": [
+              "no explicit contradictions mentioned"
+            ],
+            "Ethical": [
+              "no explicit ethical concerns mentioned"
+            ],
+            "Implications": [
+              "suggesting broader applicability of the methodology to similar genomic studies aiming to enhance prediction capabilities"
+            ],
+            "Contradictions": [
+              "none mentioned"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_30",
+      "abstract": "STRIKE-GOLDD is a toolbox that analyses the structural identifiability and observability of possibly non-linear, non-rational ODE models that may have known and unknown inputs. Its broad applicability comes at the expense of a lower computational efficiency than other tools. STRIKE-GOLDD 4.0 includes a new algorithm, ProbObsTest, specifically designed for the analysis of rational models. ProbObsTest is significantly faster than the previously available FISPO algorithm when applied to computationally expensive models. Providing both algorithms in the same toolbox allows combining generality and computational efficiency. STRIKE-GOLDD 4.0 is implemented as a Matlab toolbox with a user-friendly graphical interface.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "STRIKE-GOLDD is a toolbox that analyses the structural identifiability and observability of possibly non-linear, non-rational ODE models that may have known and unknown inputs. Its broad applicability comes at the expense of a lower computational efficiency than other tools.",
+          "Main Action": "analyses",
+          "Arguments": {
+            "Agent": [
+              "STRIKE-GOLDD"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "While it has broad applicability comes at the expense of a lower computational efficiency than other tools.",
+              "It may have known and unknown inputs."
+            ],
+            "Purpose": [
+              "to analyse the structural identifiability and observability"
+            ],
+            "Method": [
+              "symbolic computation techniques and sensitivity analysis methods"
+            ],
+            "Results": [
+              "its broad applicability comes at the expense of a lower computational efficiency than other tools."
+            ],
+            "Analysis": [
+              "This suggests areas needing improvement beyond current capabilities."
+            ],
+            "Challenge": [
+              "balancing two conflicting goals: ensuring comprehensive applicability against maintaining high computational efficiency."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "exploring new methodologies or hybrid approaches combining strengths of both computationally intensive tools and faster alternatives."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "STRIKE-GOLDD 4.0 includes a new algorithm, ProbObsTest, specifically designed for the analysis of rational models. ProbObsTest is significantly faster than the previously available FISPO algorithm when applied to computationally expensive models. Providing both algorithms in the same toolbox allows combining generality and computational efficiency. STRIKE-GOLDD 4.0 is implemented as a Matlab toolbox with a user-friendly graphical interface.",
+          "Main Action": "includes a new algorithm",
+          "Arguments": {
+            "Agent": [
+              "authors/staff developing the toolbox"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ProbObsTest"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "FISPO"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "addressing computational demands necessitated by advanced models"
+            ],
+            "Purpose": [
+              "enhancing computational efficiency while maintaining generality"
+            ],
+            "Method": [
+              "implemented as a MATLAB-based toolbox with a user-friendly GUI"
+            ],
+            "Results": [
+              "ProbObsTest is significantly faster than FISPO"
+            ],
+            "Analysis": [
+              "integrating both algorithms balances comprehensiveness vs efficiency"
+            ],
+            "Challenge": [
+              "none explicitly mentioned"
+            ],
+            "Ethical": [
+              "none explicitly mentioned"
+            ],
+            "Implications": [
+              "wider applicability in computational domains"
+            ],
+            "Contradictions": [
+              "none explicitly mentioned"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

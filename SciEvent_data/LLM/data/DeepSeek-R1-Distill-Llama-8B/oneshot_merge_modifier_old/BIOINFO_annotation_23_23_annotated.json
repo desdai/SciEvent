@@ -1,0 +1,243 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_536",
+      "abstract": "Alternative splicing (AS) of introns from pre-mRNA produces diverse sets of transcripts across cell types and tissues, but is also dysregulated in many diseases. Alignment-free computational methods have greatly accelerated the quantification of mRNA transcripts from short RNA-seq reads, but they inherently rely on a catalog of known transcripts and might miss novel, disease-specific splicing events. By contrast, alignment of reads to the genome can effectively identify novel exonic segments and introns. Event-based methods then count how many reads align to predefined features. However, an alignment is more expensive to compute and constitutes a bottleneck in many AS analysis methods. Here, we propose fortuna, a method that guesses novel combinations of annotated splice sites to create transcript fragments. It then pseudoaligns reads to fragments using kallisto and efficiently derives counts of the most elementary splicing units from kallisto's equivalence classes. These counts can be directly used for AS analysis or summarized to larger units as used by other widely applied methods. In experiments on synthetic and real data, fortuna was around 7x faster than traditional align and count approaches, and was able to analyze almost 300 million reads in just 15 min when using four threads. It mapped reads containing mismatches more accurately across novel junctions and found more reads supporting aberrant splicing events in patients with autism spectrum disorder than existing methods. We further used fortuna to identify novel, tissue-specific splicing events in Drosophila.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Alternative splicing (AS) of introns from pre-mRNA produces diverse sets of transcripts across cell types and tissues, but is also dysregulated in many diseases. Alignment-free computational methods have greatly accelerated the quantification of mRNA transcripts from short RNA-seq reads, but they inherently rely on a catalog of known transcripts and might miss novel, disease-specific splicing events. By contrast, alignment of reads to the genome can effectively identify novel exonic segments and introns. Event-based methods then count how many reads align to predefined features. However, an alignment is more expensive to compute and constitutes a bottleneck in many AS analysis methods.",
+          "Main Action": "Alignment of reads to the genome",
+          "Arguments": {
+            "Agent": [
+              "By contrast,"
+            ],
+            "Object": {
+              "Primary Object": [
+                "reads aligning to predefined features"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "an alignment is more expensive to compute and constitutes a bottleneck in many AS analysis methods"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we propose fortuna, a method that guesses novel combinations of annotated splice sites to create transcript fragments. It then pseudoaligns reads to fragments using kallisto and efficiently derives counts of the most elementary splicing units from kallisto's equivalence classes. These counts can be directly used for AS analysis or summarized to larger units as used by other widely applied methods.",
+          "Main Action": "guesses",
+          "Arguments": {
+            "Agent": [
+              "novel combinations of annotated splice sites"
+            ],
+            "Object": {
+              "Primary Object": [
+                "transcript fragments"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "kallisto"
+            ],
+            "Results": [
+              "counts of the most elementary splicing units from kallisto's equivalence classes"
+            ],
+            "Analysis": [
+              "AS analysis or summarized to larger units as used by other widely applied methods"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In experiments on synthetic and real data, fortuna was around 7x faster than traditional align and count approaches, and was able to analyze almost 300 million reads in just 15 min when using four threads. It mapped reads containing mismatches more accurately across novel junctions and found more reads supporting aberrant splicing events in patients with autism spectrum disorder than existing methods. We further used fortuna to identify novel, tissue-specific splicing events in Drosophila.",
+          "Main Action": "was around 7x faster than traditional align and count approaches",
+          "Arguments": {
+            "Agent": [
+              "Fortuna"
+            ],
+            "Object": {
+              "Primary Object": [
+                "synthetic and real data"
+              ],
+              "Secondary Object": [
+                "traditional align and count approaches"
+              ]
+            },
+            "Context": [
+              "in experiments on synthetic and real data"
+            ],
+            "Purpose": [
+              "to compare Fortuna's performance with traditional methods"
+            ],
+            "Method": [
+              "experiments on synthetic and real data using four threads"
+            ],
+            "Results": [
+              "analyzed almost 300 million reads in just 15 minutes",
+              "mapped reads containing mismatches more accurately across novel junctions",
+              "found more reads supporting aberrant splicing events in patients with autism spectrum disorder than existing methods"
+            ],
+            "Analysis": [
+              "these findings demonstrate Fortuna's superior performance in speed and accuracy"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Fortuna's increased efficiency enables rapid analysis of large datasets, benefiting genomic studies and computational biology"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_748",
+      "abstract": "Here, we present an expanded utility of the R package qgg for genetic analyses of complex traits and diseases. One of the major updates of the package is that it now includes Bayesian linear regression modeling procedures, which provide a unified framework for mapping of genetic variants, estimation of heritability, and genomic prediction from either individual level data or from genome-wide association study summary data. With this release, the qgg package now provides a wealth of the commonly used methods in analysis of complex traits and diseases, without the need to switch between software and data formats.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we present an expanded utility of the R package qgg for genetic analyses of complex traits and diseases. One of the major updates of the package is that it now includes Bayesian linear regression modeling procedures, which provide a unified framework for mapping of genetic variants, estimation of heritability, and genomic prediction from either individual level data or from genome-wide association study summary data.",
+          "Main Action": "expanded the utility of the R package qgg",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the R package qgg"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "for genetic analyses of complex traits and diseases"
+            ],
+            "Purpose": [
+              "to provide a unified framework for mapping of genetic variants, estimation of heritability, and genomic prediction from either individual level data or from genome-wide association study summary data"
+            ],
+            "Method": [
+              "including Bayesian linear regression modeling procedures"
+            ],
+            "Results": [
+              "enhanced functionality for genetic analyses"
+            ],
+            "Analysis": [
+              "integrated approach for comprehensive genetic studies"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancement in genetic research methodology"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "With this release, the qgg package now provides a wealth of the commonly used methods in analysis of complex traits and diseases, without the need to switch between software and data formats.",
+          "Main Action": "now provides",
+          "Arguments": {
+            "Agent": [
+              "the qgg package"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a wealth of the commonly used methods in analysis of complex traits and diseases"
+              ],
+              "Secondary Object": [
+                "without the need to switch between software and data formats"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

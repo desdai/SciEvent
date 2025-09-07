@@ -1,0 +1,387 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_810",
+      "abstract": "Genetic testing has become an integrated part of health care for patients with breast or ovarian cancer, and the increasing demand for genetic testing is accompanied by an increasing need for easy access to reliable genetic information for patients. Therefore, we developed a chatbot app (Rosa) that is able to perform humanlike digital conversations about genetic BRCA testing. Before implementing this new information service in daily clinical practice, we wanted to explore 2 aspects of chatbot use: the perceived utility and trust in chatbot technology among healthy patients at risk of hereditary cancer and how interaction with a chatbot regarding sensitive information about hereditary cancer influences patients. Overall, 175 healthy individuals at risk of hereditary breast and ovarian cancer were invited to test the chatbot, Rosa, before and after genetic counseling. To secure a varied sample, participants were recruited from all cancer genetic clinics in Norway, and the selection was based on age, gender, and risk of having a BRCA pathogenic variant. Among the 34.9% (61/175) of participants who consented for individual interview, a selected subgroup (16/61, 26%) shared their experience through in-depth interviews via video. The semistructured interviews covered the following topics: usability, perceived usefulness, trust in the information received via the chatbot, how Rosa influenced the user, and thoughts about future use of digital tools in health care. The transcripts were analyzed using the stepwise-deductive inductive approach. The overall finding was that the chatbot was very welcomed by the participants. They appreciated the 24/7 availability wherever they were and the possibility to use it to prepare for genetic counseling and to repeat and ask questions about what had been said afterward. As Rosa was created by health care professionals, they also valued the information they received as being medically correct. Rosa was referred to as being better than Google because it provided specific and reliable answers to their questions. The findings were summed up in 3 concepts: 'Anytime, anywhere'; 'In addition, not instead'; and 'Trustworthy and true.' All participants (16/16) denied increased worry after reading about genetic testing and hereditary breast and ovarian cancer in Rosa. Our results indicate that a genetic information chatbot has the potential to contribute to easy access to uniform information for patients at risk of hereditary breast and ovarian cancer, regardless of geographical location. The 24/7 availability of quality-assured information, tailored to the specific situation, had a reassuring effect on our participants. It was consistent across concepts that Rosa was a tool for preparation and repetition; however, none of the participants (0/16) supported that Rosa could replace genetic counseling if hereditary cancer was confirmed. This indicates that a chatbot can be a well-suited digital companion to genetic counseling.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Genetic testing has become an integrated part of health care for patients with breast or ovarian cancer, and the increasing demand for genetic testing is accompanied by an increasing need for easy access to reliable genetic information for patients. Therefore, we developed a chatbot app (Rosa) that is able to perform humanlike digital conversations about genetic BRCA testing. Before implementing this new information service in daily clinical practice, we wanted to explore 2 aspects of chatbot use: the perceived utility and trust in chatbot technology among healthy patients at risk of hereditary cancer and how interaction with a chatbot regarding sensitive information about hereditary cancer influences patients.",
+          "Main Action": "become",
+          "Arguments": {
+            "Agent": [
+              "an integrated part of health care for patients with breast or ovarian cancer"
+            ],
+            "Object": {
+              "Primary Object": [
+                "popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "increasing demand for genetic testing",
+              "easy access to reliable genetic information for patients"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Overall, 175 healthy individuals at risk of hereditary breast and ovarian cancer were invited to test the chatbot, Rosa, before and after genetic counseling. To secure a varied sample, participants were recruited from all cancer genetic clinics in Norway, and the selection was based on age, gender, and risk of having a BRCA pathogenic variant. Among the 34.9% (61/175) of participants who consented for individual interview, a selected subgroup (16/61, 26%) shared their experience through in-depth interviews via video. The semistructured interviews covered the following topics: usability, perceived usefulness, trust in the information received via the chatbot, how Rosa influenced the user, and thoughts about future use of digital tools in health care. The transcripts were analyzed using the stepwise-deductive inductive approach.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The overall finding was that the chatbot was very welcomed by the participants. They appreciated the 24/7 availability wherever they were and the possibility to use it to prepare for genetic counseling and to repeat and ask questions about what had been said afterward. As Rosa was created by health care professionals, they also valued the information they received as being medically correct. Rosa was referred to as being better than Google because it provided specific and reliable answers to their questions. The findings were summed up in 3 concepts: 'Anytime, anywhere'; 'In addition, not instead'; and 'Trustworthy and true.' All participants (16/16) denied increased worry after reading about genetic testing and hereditary breast and ovarian cancer in Rosa.",
+          "Main Action": "was very welcomed by the participants",
+          "Arguments": {
+            "Agent": [
+              "the chatbot"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the participants"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "They appreciated the 24/7 availability wherever they were",
+              "and the possibility to use it to prepare for genetic counseling and to repeat and ask questions about what had been said afterward",
+              "As Rosa was created by health care professionals, they also valued the information they received as being medically correct.",
+              "Rosa was referred to as being better than Google because it provided specific and reliable answers to their questions."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our results indicate that a genetic information chatbot has the potential to contribute to easy access to uniform information for patients at risk of hereditary breast and ovarian cancer, regardless of geographical location. The 24/7 availability of quality-assured information, tailored to the specific situation, had a reassuring effect on our participants. It was consistent across concepts that Rosa was a tool for preparation and repetition; however, none of the participants (0/16) supported that Rosa could replace genetic counseling if hereditary cancer was confirmed. This indicates that a chatbot can be a well-suited digital companion to genetic counseling.",
+          "Main Action": "indicate",
+          "Arguments": {
+            "Agent": [
+              "Our results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "easy access to uniform information for patients at risk of hereditary breast and ovarian cancer"
+              ],
+              "Secondary Object": [
+                "regardless of geographical location"
+              ]
+            },
+            "Context": [
+              "The 24/7 availability of quality-assured information, tailored to the specific situation, had a reassuring effect on our participants.",
+              "It was consistent across concepts that Rosa was a tool for preparation and repetition; however, none of the participants (0/16) supported that Rosa could replace genetic counseling if hereditary cancer was confirmed."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "none of the participants (0/16) supported that Rosa could replace genetic counseling if hereditary cancer was confirmed"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a chatbot can be a well-suited digital companion to genetic counseling"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_565",
+      "abstract": "Guidelines recommend using viscoelastic coagulation tests to guide coagulation management, but interpreting the results remains challenging. Visual Clot, a 3D animated blood clot, facilitates interpretation through a user-centered and situation awareness–oriented design. This study aims to compare the effects of Visual Clot versus conventional viscoelastic test results (rotational thrombelastometry [ROTEM] temograms) on the coagulation management performance of anesthesia teams in critical bleeding situations. We conducted a prospective, randomized, high-fidelity simulation study in which anesthesia teams (consisting of a senior anesthesiologist, a resident anesthesiologist, and an anesthesia nurse) managed perioperative bleeding scenarios. Teams had either Visual Clot or ROTEM temograms available to perform targeted coagulation management. We analyzed the 15-minute simulations with post hoc video analysis. The primary outcome was correct targeted coagulation therapy. Secondary outcomes were time to targeted coagulation therapy, confidence, and workload. In addition, we have conducted a qualitative survey on user acceptance of Visual Clot. We used Poisson regression, Cox regression, and mixed logistic regression models, adjusted for various potential confounders, to analyze the data. We analyzed 59 simulations. Teams using Visual Clot were more likely to deliver the overall targeted coagulation therapy correctly (rate ratio 1.56, 95% CI 1.00-2.47; P=.05) and administer the first targeted coagulation product faster (hazard ratio 2.58, 95% CI 1.37-4.85; P=.003). In addition, participants showed higher decision confidence with Visual Clot (odds ratio 3.60, 95% CI 1.49-8.71; P=.005). We found no difference in workload (coefficient –0.03, 95% CI –3.08 to 2.88; P=.99). Using Visual Clot led to a more accurate and faster-targeted coagulation therapy than using ROTEM temograms. We suggest that relevant viscoelastic test manufacturers consider augmenting their complex result presentation with intuitive, easy-to-understand visualization to ease users’ burden from unnecessary cognitive load and enhance patient care.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Guidelines recommend using viscoelastic coagulation tests to guide coagulation management, but interpreting the results remains challenging. Visual Clot, a 3D animated blood clot, facilitates interpretation through a user-centered and situation awareness–oriented design. This study aims to compare the effects of Visual Clot versus conventional viscoelastic test results (rotational thrombelastometry [ROTEM] temograms) on the coagulation management performance of anesthesia teams in critical bleeding situations.",
+          "Main Action": "recommend using",
+          "Arguments": {
+            "Agent": [
+              "guidelines"
+            ],
+            "Object": {
+              "Primary Object": [
+                "viscoelastic coagulation tests"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "interpretting the results remains challenging",
+              "Visual Clot, a 3D animated blood clot, facilitates interpretation through a user-centered and situation awareness–oriented design"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "interpreting the results remains challenging"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted a prospective, randomized, high-fidelity simulation study in which anesthesia teams (consisting of a senior anesthesiologist, a resident anesthesiologist, and an anesthesia nurse) managed perioperative bleeding scenarios. Teams had either Visual Clot or ROTEM temograms available to perform targeted coagulation management. We analyzed the 15-minute simulations with post hoc video analysis. The primary outcome was correct targeted coagulation therapy. Secondary outcomes were time to targeted coagulation therapy, confidence, and workload. In addition, we have conducted a qualitative survey on user acceptance of Visual Clot. We used Poisson regression, Cox regression, and mixed logistic regression models, adjusted for various potential confounders, to analyze the data.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "prospective, randomized, high-fidelity simulation study"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "anesthesia teams (consisting of a senior anesthesiologist, a resident anesthesiologist, and an anesthesia nurse)",
+              "perioperative bleeding scenarios",
+              "Visual Clot or ROTEM temograms available to perform targeted coagulation management"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Poisson regression, Cox regression, and mixed logistic regression models, adjusted for various potential confounders"
+            ],
+            "Results": [
+              "correct targeted coagulation therapy",
+              "time to targeted coagulation therapy, confidence, and workload"
+            ],
+            "Analysis": [
+              "post hoc video analysis"
+            ],
+            "Challenge": [
+              "user acceptance of Visual Clot"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We analyzed 59 simulations. Teams using Visual Clot were more likely to deliver the overall targeted coagulation therapy correctly (rate ratio 1.56, 95% CI 1.00-2.47; P=.05) and administer the first targeted coagulation product faster (hazard ratio 2.58, 95% CI 1.37-4.85; P=.003). In addition, participants showed higher decision confidence with Visual Clot (odds ratio 3.60, 95% CI 1.49-8.71; P=.005). We found no difference in workload (coefficient –0.03, 95% CI –3.08 to 2.88; P=.99).",
+          "Main Action": "analyzed",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "59 simulations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Teams using Visual Clot were more likely to deliver the overall targeted coagulation therapy correctly (rate ratio 1.56, 95% CI 1.00-2.47; P=.05)",
+              "administer the first targeted coagulation product faster (hazard ratio 2.58, 95% CI 1.37-4.85; P=.003)",
+              "participants showed higher decision confidence with Visual Clot (odds ratio 3.60, 95% CI 1.49-8.71; P=.005)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "no difference in workload (coefficient –0.03, 95% CI –3.08 to 2.88; P=0.99)"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Using Visual Clot led to a more accurate and faster-targeted coagulation therapy than using ROTEM temograms. We suggest that relevant viscoelastic test manufacturers consider augmenting their complex result presentation with intuitive, easy-to-understand visualization to ease users’ burden from unnecessary cognitive load and enhance patient care.",
+          "Main Action": "led to",
+          "Arguments": {
+            "Agent": [
+              "Visual Clot"
+            ],
+            "Object": {
+              "Primary Object": [
+                "more accurate and faster-targeted coagulation therapy"
+              ],
+              "Secondary Object": [
+                "than using ROTEM temograms"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "considering augmenting their complex result presentation with intuitive, easy-to-understand visualization to ease users’ burden from unnecessary cognitive load and enhance patient care."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

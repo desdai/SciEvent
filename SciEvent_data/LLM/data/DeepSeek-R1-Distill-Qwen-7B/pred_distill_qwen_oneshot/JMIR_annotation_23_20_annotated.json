@@ -1,0 +1,382 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_112",
+      "abstract": "Multimorbidity, the presence of more than one condition in a single individual, is a global health issue in primary care. Multimorbid patients tend to have a poor quality of life and suffer from a complicated care process. Clinical decision support systems (CDSSs) and telemedicine are the common information and communication technologies that have been used to reduce the complexity of patient management. However, each element of telemedicine and CDSSs is often examined separately and with great variability. Telemedicine has been used for simple patient education as well as more complex consultations and case management. For CDSSs, there is variability in data inputs, intended users, and outputs. Thus, there are several gaps in knowledge about how to integrate CDSSs into telemedicine and to what extent these integrated technological interventions can help improve patient outcomes for those with multimorbidity. Our aims were to (1) broadly review system designs for CDSSs that have been integrated into each function of telemedicine for multimorbid patients in primary care, (2) summarize the effectiveness of the interventions, and (3) identify gaps in the literature. An online search for literature was conducted up to November 2021 on PubMed, Embase, CINAHL, and Cochrane. Searching from the reference lists was done to find additional potential studies. The eligibility criterion was that the study focused on the use of CDSSs in telemedicine for patients with multimorbidity in primary care. The system design for the CDSS was extracted based on its software and hardware, source of input, input, tasks, output, and users. Each component was grouped by telemedicine functions: telemonitoring, teleconsultation, tele–case management, and tele-education. Seven experimental studies were included in this review: 3 randomized controlled trials (RCTs) and 4 non-RCTs. The interventions were designed to manage patients with diabetes mellitus, hypertension, polypharmacy, and gestational diabetes mellitus. CDSSs can be used for various telemedicine functions: telemonitoring (e.g., feedback), teleconsultation (e.g., guideline suggestions, advisory material provisions, and responses to simple queries), tele–case management (e.g., sharing information across facilities and teams), and tele-education (e.g., patient self-management). However, the structure of CDSSs, such as data input, tasks, output, and intended users or decision-makers, varied. With limited studies examining varying clinical outcomes, there was inconsistent evidence of the clinical effectiveness of the interventions. Telemedicine and CDSSs have a role in supporting patients with multimorbidity. CDSSs can likely be integrated into telehealth services to improve the quality and accessibility of care. However, issues surrounding such interventions need to be further explored. These issues include expanding the spectrum of medical conditions examined; examining tasks of CDSSs, particularly for screening and diagnosis of multiple conditions; and exploring the role of the patient as the direct user of the CDSS.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Multimorbidity, the presence of more than one condition in a single individual, is a global health issue in primary care. Multimorbid patients tend to have a poor quality of life and suffer from a complicated care process. Clinical decision support systems (CDSSs) and telemedicine are the common information and communication technologies that have been used to reduce the complexity of patient management. However, each element of telemedicine and CDSSs is often examined separately and with great variability. Telemedicine has been used for simple patient education as well as more complex consultations and case management. For CDSSs, there is variability in data inputs, intended users, and outputs. Thus, there are several gaps in knowledge about how to integrate CDSSs into telemedicine and to what extent these integrated technological interventions can help improve patient outcomes for those with multimorbidity.",
+          "Main Action": "have long been recognized",
+          "Arguments": {
+            "Agent": [
+              "The problem of hallucinations in neural machine translation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Indeed, recently it turned out that"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "It means that internal characteristics of the model can give much more information than we expect"
+            ],
+            "Analysis": [
+              "Before using external models and measures, we first need to ask: How far can we go if we use nothing but the translation model itself?"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Our aims were to (1) broadly review system designs for CDSSs that have been integrated into each function of telemedicine for multimorbid patients in primary care, (2) summarize the effectiveness of the interventions, and (3) identify gaps in the literature. An online search for literature was conducted up to November 2021 on PubMed, Embase, CINAHL, and Cochrane. Searching from the reference lists was done to find additional potential studies. The eligibility criterion was that the study focused on the use of CDSSs in telemedicine for patients with multimorbidity in primary care. The system design for the CDSS was extracted based on its software and hardware, source of input, input, tasks, output, and users. Each component was grouped by telemedicine functions: telemonitoring, teleconsultation, tele–case management, and tele-education.",
+          "Main Action": "Our aims were to",
+          "Arguments": {
+            "Agent": [
+              "(1) broadly review system designs for CDSSs that have been integrated into each function of telemedicine for multimorbid patients in primary care,",
+              "(2) summarize the effectiveness of the interventions,",
+              "(3) identify gaps in the literature."
+            ],
+            "Object": {
+              "Primary Object": [
+                "Analyze and compare various CDSS system designs across telemedicine functions including telemonitoring, teleconsultation, tele-case management, and tele-education."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Conduct comprehensive literature reviews focusing exclusively on CDSS utilization within telemedicine settings addressing patient multimorbidity in primary care environments."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "An online search for literature was conducted up to November 2021 on PubMed, Embase, CINAHL, and Cochrane. Searching from the reference lists was done to find additional potential studies.",
+              "The eligibility criterion was defined as studies centered on the application of CDSSs specifically in telemedicine for patients exhibiting multimorbidity within primary care settings."
+            ],
+            "Purpose": [
+              "To achieve three objectives outlined above through systematic analysis and evidence synthesis.",
+              "To provide a comprehensive understanding of current CDSS implementation strategies in telemedicine for multimorbid primary care patients.",
+              "To highlight unaddressed gaps in existing literature regarding CDSS usage in this specific medical context."
+            ],
+            "Method": [
+              "Systematic review methodology encompassing both database searches and manual extraction processes.",
+              "Data extraction procedures meticulously followed to ensure accurate representation of CDSS functionalities per telemedicine role.",
+              "In-depth analysis of retrieved articles employing standardized coding schemes tailored to assess CDSS efficacy and applicability in diverse clinical scenarios."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Seven experimental studies were included in this review: 3 randomized controlled trials (RCTs) and 4 non-RCTs. The interventions were designed to manage patients with diabetes mellitus, hypertension, polypharmacy, and gestational diabetes mellitus. CDSSs can be used for various telemedicine functions: telemonitoring (e.g., feedback), teleconsultation (e.g., guideline suggestions, advisory material provisions, and responses to simple queries), tele–case management (e.g., sharing information across facilities and teams), and tele-education (e.g., patient self-management). However, the structure of CDSSs, such as data input, tasks, output, and intended users or decision-makers, varied. With limited studies examining varying clinical outcomes, there was inconsistent evidence of the clinical effectiveness of the interventions.",
+          "Main Action": "included in this review: 3 randomized controlled trials (RCTs) and 4 non-RCTs.",
+          "Arguments": {
+            "Agent": [
+              "Seven experimental studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "The interventions were designed to manage patients with diabetes mellitus, hypertension, polypharmacy, and gestational diabetes mellitus."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "CDSSs can be used for various telemedicine functions: telemonitoring (e.g., feedback), teleconsultation (e.g., guideline suggestions, advisory material provisions, and responses to simple queries), tele–case management (e.g., sharing information across facilities and teams), and tele-education (e.g., patient self-management). However, the structure of CDSSs varies."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "With limited studies examining varying clinical outcomes, there was inconsistent evidence of the clinical effectiveness of the interventions."
+            ],
+            "Purpose": [
+              "To evaluate the efficacy of CDSSs in managing chronic conditions through telemedicine interventions."
+            ],
+            "Method": [
+              "Systematic review including seven studies; analysis focused on clinical effectiveness across different types of CDSS structures."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "There was no significant difference in clinical outcomes between RCTs and non-RCTs; CDSS structures showed variability which impacted their effectiveness."
+            ],
+            "Challenge": [
+              "Limited generalizability due to diverse study designs and settings."
+            ],
+            "Ethical": [
+              "No explicit ethical considerations mentioned regarding telemedicine usage."
+            ],
+            "Implications": [
+              "Telemedicine strategies may require standardized platforms to ensure consistent care quality despite technological advancements."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Telemedicine and CDSSs have a role in supporting patients with multimorbidity. CDSSs can likely be integrated into telehealth services to improve the quality and accessibility of care. However, issues surrounding such interventions need to be further explored. These issues include expanding the spectrum of medical conditions examined; examining tasks of CDSSs, particularly for screening and diagnosis of multiple conditions; and exploring the role of the patient as the direct user of the CDSS.",
+          "Main Action": "can likely be integrated",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Telemedicine and CDSSs have a role in supporting patients with multimorbidity.",
+              "CDSSs can likely be integrated into telehealth services to improve the quality and accessibility of care.",
+              "However, issues surrounding such interventions need to be further explored."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "These issues include expanding the spectrum of medical conditions examined; examining tasks of CDSSs, particularly for screening and diagnosis of multiple conditions; and exploring the role of the patient as the direct user of the CDSS."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_964",
+      "abstract": "Mentorship is vital for professional development in academic research and clinical practice, yet it faces challenges due to a limited number of experienced mentors and a lack of protected time for mentorship that may disproportionately affect women mentors in midcareer who are doing much of this 'invisible work.' The Push-Pull Mentoring Model offers a potential solution by emphasizing shared responsibility and active engagement between mentors and mentees; it fosters a flexible and collaborative approach that is mutually (though not necessarily equally) supportive of both individuals’ career goals, with mentees pushing mentors up and facilitating opportunities in their realm of influence, including but not limited to sponsorship, while mentors are simultaneously pulling them up. The Push-Pull Mentoring Model provides a promising alternative to traditional mentoring models and may help institutions address the challenges associated with limited mentorship resources.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Mentorship is vital for professional development in academic research and clinical practice, yet it faces challenges due to a limited number of experienced mentors and a lack of protected time for mentorship that may disproportionately affect women mentors in midcareer who are doing much of this 'invisible work.'",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Primary Modifier": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ],
+              "Secondary Modifier": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The Push-Pull Mentoring Model offers a potential solution by emphasizing shared responsibility and active engagement between mentors and mentees; it fosters a flexible and collaborative approach that is mutually (though not necessarily equally) supportive of both individuals’ career goals, with mentees pushing mentors up and facilitating opportunities in their realm of influence, including but not limited to sponsorship, while mentors are simultaneously pulling them up.",
+          "Main Action": "emphasize",
+          "Arguments": {
+            "Agent": [
+              "The Push-Pull Mentoring Model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "fosters a flexible and collaborative approach"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "mutually supportive of both individuals' career goals"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "offering a potential solution by emphasizing shared responsibility and active engagement between mentors and mentees"
+            ],
+            "Purpose": [
+              "to address issues where neither mentor nor mentee may feel equally supported despite mutual involvement"
+            ],
+            "Method": [
+              "; it fosters a flexible and collaborative approach that is mutually supportive of both individuals’ career goals, with mentees pushing mentors up and facilitating opportunities in their realm of influence, including but not limited to sponsorship, while mentors are simultaneously pulling them up."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The Push-Pull Mentoring Model provides a promising alternative to traditional mentoring models and may help institutions address the challenges associated with limited mentorship resources.",
+          "Main Action": "provides",
+          "Arguments": {
+            "Agent": [
+              "The Push-Pull Mentoring Model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a promising alternative to traditional mentoring models"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "may help institutions address the challenges associated with limited mentorship resources"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "and may help institutions address the challenges associated with limited mentorship resources."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

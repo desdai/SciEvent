@@ -1,0 +1,287 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_34",
+      "abstract": "Over the past decade, podcasting has grown into one of the most important media forms in the world. This article argues that podcasting’s unique technical affordances — particularly RSS feeds and user-entered metadata — open up productive methods for exploring the cultural practices and meanings of the medium. We share three different methods for studying RSS feeds and podcast metadata: 1) visualizing how topics and keywords trend over time; 2) visualizing networks of commonly associated keywords entered by podcasters; and 3) analyzing norms and common practices for the duration of podcasts (as a time-based media format, podcasting is unusual in that it is not bound by the programming schedules and technical limitations that provide strict parameters for most audiovisual forms). The methods and preliminary results reveal how metadata can function as a surrogate for studying large collections of time-based media objects. Yet our study also shows that, when it comes to born digital media, the metadata are never fully separate from the objects they describe. We argue that future work in AV in DH needs to delineate between methods best suited for digitized media collections compared to those most appropriate for born digital media collections.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Over the past decade, podcasting has grown into one of the most important media forms in the world. This article argues that podcasting’s unique technical affordances — particularly RSS feeds and user-entered metadata — open up productive methods for exploring the cultural practices and meanings of the medium.",
+          "Main Action": "argues",
+          "Arguments": {
+            "Agent": [
+              "this article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "podcasting’s unique technical affordances — particularly RSS feeds and user-entered metadata"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Over the past decade, podcasting has grown into one of the most important media forms in the world."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "This article argues that podcasting’s unique technical affordances ... open up productive methods for exploring the cultural practices and meanings of the medium."
+            ],
+            "Analysis": [
+              "The article implies that these technical features offer opportunities for deeper insight into cultural phenomena through data-driven analysis."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "The article suggests that podcasting’s distinctive features have broad applications across various disciplines studying media and culture."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We share three different methods for studying RSS feeds and podcast metadata: 1) visualizing how topics and keywords trend over time; 2) visualizing networks of commonly associated keywords entered by podcasters; and 3) analyzing norms and common practices for the duration of podcasts (as a time-based media format, podcasting is unusual in that it is not bound by the programming schedules and technical limitations that provide strict parameters for most audiovisual forms).",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "While the problem of hallucinations in neural machine translation has long been recognized, so far the progress on its alleviation is very little."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "The methods and preliminary results reveal how metadata can function as a surrogate for studying large collections of time-based media objects. Yet our study also shows that, when it comes to born digital media, the metadata are never fully separate from the objects they describe.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We argue that future work in AV in DH needs to delineate between methods best suited for digitized media collections compared to those most appropriate for born digital media collections.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "argument that future work in AV in DH needs to delineate between methods best suited for digitized media collections compared to those most appropriate for born digital media collections"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_36",
+      "abstract": "This paper introduces Coleto, an automatic collation tool for the comparison of variant texts in English, German, or French, which separates edits from variant texts so that textual changes can be classified and contextualized. Coleto’s proposed methodology for the classification of edits in variants includes: major/minor expansion, major/minor condensation, changes to numbers and whitespace, and common orthographic features. From this classification schema, Coleto generates: an aligned table of edits in the variants, visualizations of the frequency of classified edits, and a visualization of edit density across the progression of the texts. As a sample use case, we present mixed-method analyses of Andy Weir’s science fiction bestseller, The Martian, aided by Coleto’s functions and generated outputs.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper introduces Coleto, an automatic collation tool for the comparison of variant texts in English, German, or French, which separates edits from variant texts so that textual changes can be classified and contextualized.",
+          "Main Action": "introduces",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Coleto"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Coleto’s proposed methodology for the classification of edits in variants includes: major/minor expansion, major/minor condensation, changes to numbers and whitespace, and common orthographic features. From this classification schema, Coleto generates: an aligned table of edits in the variants, visualizations of the frequency of classified edits, and a visualization of edit density across the progression of the texts. As a sample use case, we present mixed-method analyses of Andy Weir’s science fiction bestseller, The Martian, aided by Coleto’s functions and generated outputs.",
+          "Main Action": "generates",
+          "Arguments": {
+            "Agent": [
+              "Coleto"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an aligned table of edits in the variants and visualizations of the frequency of classified edits and a visualization of edit density across the progression of the texts"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Coleto generates: an aligned table of edits in the variants, visualizations of the frequency of classified edits, and a visualization of edit density across the progression of the texts."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "As a sample use case, we present mixed-method analyses of Andy Weir’s science fiction bestseller, The Martian, aided by Coleto’s functions and generated outputs."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

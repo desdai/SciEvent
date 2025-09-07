@@ -1,0 +1,206 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_393",
+      "abstract": "The primary regulatory step for protein synthesis is translation initiation, which makes it one of the fundamental steps in the central dogma of molecular biology. In recent years, a number of approaches relying on deep neural networks (DNNs) have demonstrated superb results for predicting translation initiation sites. These state-of-the-art results indicate that DNNs are indeed capable of learning complex features that are relevant to the process of translation. Unfortunately, most of those research efforts that employ DNNs only provide shallow insights into the decision-making processes of the trained models and lack highly sought-after novel biologically relevant observations. By improving upon the state-of-the-art DNNs and large-scale human genomic datasets in the area of translation initiation, we propose an innovative computational methodology to get neural networks to explain what was learned from data. Our methodology, which relies on in silico point mutations, reveals that DNNs trained for translation initiation site detection correctly identify well-established biological signals relevant to translation, including (i) the importance of the Kozak sequence, (ii) the damaging consequences of ATG mutations in the 5'-untranslated region, (iii) the detrimental effect of premature stop codons in the coding region, and (iv) the relative insignificance of cytosine mutations for translation. Furthermore, we delve deeper into the Beta-globin gene and investigate various mutations that lead to the Beta thalassemia disorder. Finally, we conclude our work by laying out a number of novel observations regarding mutations and translation initiation.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The primary regulatory step for protein synthesis is translation initiation, which makes it one of the fundamental steps in the central dogma of molecular biology. In recent years, a number of approaches relying on deep neural networks (DNNs) have demonstrated superb results for predicting translation initiation sites. These state-of-the-art results indicate that DNNs are indeed capable of learning complex features that are relevant to the process of translation. Unfortunately, most of those research efforts that employ DNNs only provide shallow insights into the decision-making processes of the trained models and lack highly sought-after novel biologically relevant observations.",
+          "Main Action": "approaches relying on deep neural networks (DNNs) have demonstrated superb results for predicting translation initiation sites",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "translation initiation sites"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "By improving upon the state-of-the-art DNNs and large-scale human genomic datasets in the area of translation initiation, we propose an innovative computational methodology to get neural networks to explain what was learned from data. Our methodology, which relies on in silico point mutations, reveals that DNNs trained for translation initiation site detection correctly identify well-established biological signals relevant to translation, including (i) the importance of the Kozak sequence, (ii) the damaging consequences of ATG mutations in the 5'-untranslated region, (iii) the detrimental effect of premature stop codons in the coding region, and (iv) the relative insignificance of cytosine mutations for translation.",
+          "Main Action": "propose an innovative computational methodology",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an innovative computational methodology"
+              ],
+              "Secondary Object": [
+                "(i) the importance of the Kozak sequence",
+                "(ii) the damaging consequences of ATG mutations in the 5'-untranslated region",
+                "(iii) the detrimental effect of premature stop codons in the coding region",
+                "(iv) the relative insignificance of cytosine mutations"
+              ]
+            },
+            "Context": [
+              "by improving upon the state-of-the-art DNNs and large-scale human genomic datasets in the area of translation initiation"
+            ],
+            "Purpose": [
+              "to get neural networks to explain what was learned from data"
+            ],
+            "Method": [
+              "rely on in silico point mutations"
+            ],
+            "Results": [
+              "DNNs trained for translation initiation site detection correctly identify well-established biological signals relevant to translation",
+              "(i) the importance of the Kozak sequence",
+              "(ii) the damaging consequences of ATG mutations in the 5'-untranslated region",
+              "(iii) the detrimental effect of premature stop codons in the coding region",
+              "(iv) the relative insignificance of cytosine mutations for translation"
+            ],
+            "Analysis": [
+              "Our methodology, which relies on in silico point mutations, reveals that"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancements in translating computational methods into biology"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Furthermore, we delve deeper into the Beta-globin gene and investigate various mutations that lead to the Beta thalassemia disorder. Finally, we conclude our work by laying out a number of novel observations regarding mutations and translation initiation.",
+          "Main Action": "delve deeper",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Beta-globin gene"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Further, we delve deeper into the Beta-globin gene and investigate various mutations that lead to the Beta thalassemia disorder.",
+              "This work lays out a number of novel observations regarding mutations and translation initiation."
+            ],
+            "Purpose": [
+              "to lay out a number of novel observations regarding mutations and translation initiation"
+            ],
+            "Method": [
+              "investigating various mutations that lead to the Beta thalassemia disorder"
+            ],
+            "Results": [
+              "laying out a number of novel observations regarding mutations and translation initiation"
+            ],
+            "Analysis": [
+              "This work concludes by highlighting significant findings in the area of mutation impact on translation initiation."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "These observations provide valuable insights for future research directions in the treatment and prevention of Beta-thalassemia."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_94",
+      "abstract": "We present vembrane as a command line variant call format (VCF)/binary call format (BCF) filtering tool that consolidates and extends the filtering functionality of previous software to meet any imaginable filtering use case. vembrane exposes the VCF/BCF file type specification and its unofficial extensions by the annotation tools VEP and SnpEff as Python data structures. vembrane filter enables filtration by Python expressions, requiring only basic knowledge of the Python programming language. vembrane table allows users to generate tables from subsets of annotations or functions thereof. Finally, it is fast, by using pysam and relying on lazy evaluation.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "We present vembrane as a command line variant call format (VCF)/binary call format (BCF) filtering tool that consolidates and extends the filtering functionality of previous software to meet any imaginable filtering use case. vembrane exposes the VCF/BCF file type specification and its unofficial extensions by the annotation tools VEP and SnpEff as Python data structures. vembrane filter enables filtration by Python expressions, requiring only basic knowledge of the Python programming language. vembrane table allows users to generate tables from subsets of annotations or functions thereof. Finally, it is fast, by using pysam and relying on lazy evaluation.",
+          "Main Action": "Present",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "vembryo"
+              ],
+              "Secondary Object": [
+                "VCF/BCF files"
+              ]
+            },
+            "Context": [
+              "Need for comprehensive filtering capabilities"
+            ],
+            "Purpose": [
+              "Provide flexible filtering options for researchers"
+            ],
+            "Method": [
+              "Using Python expressions",
+              "Relying on pysam for efficiency",
+              "Integrating with VEP and Snpeff annotations"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Complexity of handling different annotation formats"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broad application in genomic research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

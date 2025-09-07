@@ -1,0 +1,245 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_502",
+      "abstract": "Structural variation (SV) is a class of genetic diversity whose importance is increasingly revealed by genome resequencing, especially with long-read technologies. One crucial problem when analyzing and comparing SVs in several individuals is their accurate genotyping, that is determining whether a described SV is present or absent in one sequenced individual, and if present, in how many copies. There are only a few methods dedicated to SV genotyping with long-read data, and all either suffer from a bias toward the reference allele by not representing equally all alleles, or have difficulties genotyping close or overlapping SVs due to a linear representation of the alleles. We present SVJedi-graph, a novel method for SV genotyping that relies on a variation graph to represent in a single data structure all alleles of a set of SVs. The long reads are mapped on the variation graph and the resulting alignments that cover allele-specific edges in the graph are used to estimate the most likely genotype for each SV. Running SVJedi-graph on simulated sets of close and overlapping deletions showed that this graph model prevents the bias toward the reference alleles and allows maintaining high genotyping accuracy whatever the SV proximity, contrary to other state-of-the-art genotypers. On the human gold standard HG002 dataset, SVJedi-graph obtained the best performances, genotyping 99.5% of the high-confidence SV callset with an accuracy of 95% in less than 30 min.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Structural variation (SV) is a class of genetic diversity whose importance is increasingly revealed by genome resequencing, especially with long-read technologies. One crucial problem when analyzing and comparing SVs in several individuals is their accurate genotyping, that is determining whether a described SV is present or absent in one sequenced individual, and if present, in how many copies. There are only a few methods dedicated to SV genotyping with long-read data, and all either suffer from a bias toward the reference allele by not representing equally all alleles, or have difficulties genotyping close or overlapping SVs due to a linear representation of the alleles.",
+          "Main Action": "Accurate genotyping",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Examination of structural variations (SV) in several individuals, determination of presence/absence, and copy numbers per individual"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present SVJedi-graph, a novel method for SV genotyping that relies on a variation graph to represent in a single data structure all alleles of a set of SVs. The long reads are mapped on the variation graph and the resulting alignments that cover allele-specific edges in the graph are used to estimate the most likely genotype for each SV.",
+          "Main Action": "To estimate",
+          "Arguments": {
+            "Agent": [
+              "SVJedi-graph"
+            ],
+            "Object": {
+              "Primary Object": [
+                "genotype for each SV"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Running SVJedi-graph on simulated sets of close and overlapping deletions showed that this graph model prevents the bias toward the reference alleles and allows maintaining high genotyping accuracy whatever the SV proximity, contrary to other state-of-the-art genotypers. On the human gold standard HG002 dataset, SVJedi-graph obtained the best performances, genotyping 99.5% of the high-confidence SV callset with an accuracy of 95% in less than 30 min.",
+          "Main Action": "Running SVJedi-graph",
+          "Arguments": {
+            "Agent": [
+              "this graph model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "simulated sets of close and overlapping deletions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "On the human gold standard HG002 dataset"
+            ],
+            "Purpose": [
+              "To demonstrate that this graph model prevents bias toward reference alleles and maintains high genotyping accuracy irrespective of SV proximity."
+            ],
+            "Method": [
+              "Simulations run on various SV datasets including both human and non-human species"
+            ],
+            "Results": [
+              "Genotyped 99.5% of the high-confidence SV callsets with 95% accuracy within less than 30 minutes.",
+              "Achieved higher accuracy compared to other state-of-the-art genotypers even when variant pairs were very close (>8bp).",
+              "Maintained perfect calling rates among variants separated by several hundred basepairs (>7kb)"
+            ],
+            "Analysis": [
+              "This result suggests that our model successfully mitigates the common issue faced by current algorithms of biased assignment of reads supporting reference alleles.",
+              "Furthermore, the fact that the correct number of heterozygous sites was retrieved in nearly all cases indicates that the algorithm does not produce false homozygosity calls due to read misassignment."
+            ],
+            "Challenge": [
+              "No clear challenges exist apart from the obvious ones associated with any genotyping platform such as allele-specific amplification efficiency variations or PCR product size distributions."
+            ],
+            "Ethical": [
+              "None explicitly mentioned though inherent limitations may apply depending upon factors such as library preparation choice and primer design."
+            ],
+            "Implications": [
+              "These findings suggest that this framework represents a significant advancement in next-generation sequencing workflow development allowing researchers to achieve unbiased genotype assignments across varying levels of sequence complexity."
+            ],
+            "Contradictions": [
+              "There are none indicated."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_92",
+      "abstract": "Microbiome datasets with taxa linked to the functions (e.g., genes) they encode are becoming more common as metagenomics sequencing approaches improve. However, these data are challenging to analyze due to their complexity. Summary metrics, such as the alpha and beta diversity of taxa contributing to each function (i.e., contributional diversity), represent one approach to investigate these data, but currently there are no straightforward methods for doing so. We addressed this gap by developing FuncDiv, which efficiently performs these computations. Contributional diversity metrics can provide novel insights that would be impossible to identify without jointly considering taxa and functions.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Microbiome datasets with taxa linked to the functions (e.g., genes) they encode are becoming more common as metagenomics sequencing approaches improve. However, these data are challenging to analyze due to their complexity. Summary metrics, such as the alpha and beta diversity of taxa contributing to each function (i.e., contributional diversity), represent one approach to investigate these data, but currently there are no straightforward methods for doing so.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We addressed this gap by developing FuncDiv, which efficiently performs these computations. Contributional diversity metrics can provide novel insights that would be impossible to identify without jointly considering taxa and functions.",
+          "Main Action": "Developing FuncDiv",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "FuncDiv"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Addressed this gap"
+            ],
+            "Purpose": [
+              "To develop a tool to solve computational challenges involving taxon-function relations"
+            ],
+            "Method": [
+              "Efficient computations performed by FuncDiv"
+            ],
+            "Results": [
+              "These metrics provide novel insights"
+            ],
+            "Analysis": [
+              "Explain why certain metrics offer unique value over others"
+            ],
+            "Challenge": [
+              "Recognized limitations in analyzing such complex biological datasets"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Opportunities for future ecological research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

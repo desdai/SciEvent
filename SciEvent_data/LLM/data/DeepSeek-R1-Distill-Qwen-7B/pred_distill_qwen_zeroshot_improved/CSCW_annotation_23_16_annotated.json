@@ -1,0 +1,352 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_190",
+      "abstract": "The collection, organization, and retrieval of data about queer individuals and their identities challenge the creators and curators of highly structured database systems. While prior research in archival studies and demographics has examined processes of collecting and storing queer identities, they do not examine the complexities of highly democratized platforms that lack top-down mandates that often structure archival schemas. To examine the representation of queer people on open-platform databases, we performed a trace ethnography and thematic analysis of Wikidata, an open collaboration, highly structured database. We specifically examined the creation of, changes to, discussions around, and impacts of properties that encode queer identities, such as sexual orientation and sex or gender. We found that changes often have unexpected impacts, that contributors struggled to determine vocabulary for queer identities which were accurate across the diverse cultural contexts of the Wikidata community, that the recording of queer identities could cause a stigmatizing effect for LGBTQ+ individuals, with further concerns of spreading rumors or outing closeted people, and that contributors proposing changes which would cause biased representations of queer people. Our analysis demonstrates inherent and unaddressed frictions when translating queer identities to the confines of a structured database. We conclude by discussing ways that the highly bottom-up, collaborative nature of platforms such as Wikidata, often seen as a major strength, can be vulnerable to individuals or small groups derailing and filibustering changes they disagree with on politically charged topics such as queer identities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The collection, organization, and retrieval of data about queer individuals and their identities challenge the creators and curators of highly structured database systems. While prior research in archival studies and demographics has examined processes of collecting and storing queer identities, they do not examine the complexities of highly democratized platforms that lack top-down mandates that often structure archival schemas.",
+          "Main Action": "Addressing the challenges in collecting, organizing, and retrieving data about queer individuals' identities within highly structured database systems using new methods across various contexts.",
+          "Arguments": {
+            "Agent": [
+              "Researchers",
+              "Historical records",
+              "Interviews and surveys conducted among community members"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Collection, organization, and retrieval of data about queer individuals' identities",
+                "Highly structured database systems"
+              ],
+              "Secondary Object": [
+                "Data obtained from historical records",
+                "Community member interactions via interviews and surveys"
+              ]
+            },
+            "Context": [
+              "Prior research in archival studies and demographics examines processes of collecting and storing queer identities.",
+              "They do not examine the complexities of highly democratized platforms."
+            ],
+            "Purpose": [
+              "To explore how these emerging platforms affect schema design and user engagement dynamics differently than established systems.",
+              "To address gaps in current research regarding modern, less controlled digital spaces."
+            ],
+            "Method": [
+              "Qualitative analysis",
+              "Quantitative approaches",
+              "Case studies"
+            ],
+            "Results": [
+              "Initial findings suggest significant variations in how users interact with these datasets depending on platform features.",
+              "Emphasize the complexity involved beyond simple categorization efforts typical in older systems."
+            ],
+            "Analysis": [
+              "Structural differences between old and new database designs highlight the necessity of flexible models.",
+              "Resistances from system administrators toward adopting more open-ended storage solutions complicate schema development."
+            ],
+            "Challenge": [
+              "Resistance from system administrators toward adopting more open-ended storage solutions.",
+              "Complexity in schema development and maintenance tasks"
+            ],
+            "Ethical": [
+              "Ensuring equitable access balances usability and privacy preservation.",
+              "Potential extensions to similar marginalized groups enhance broad applicability."
+            ],
+            "Implications": [
+              "Expanding research coverage increases generalizability.",
+              "BROADEN APPLICABILITY POTENTIAL"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To examine the representation of queer people on open-platform databases, we performed a trace ethnography and thematic analysis of Wikidata, an open collaboration, highly structured database. We specifically examined the creation of, changes to, discussions around, and impacts of properties that encode queer identities, such as sexual orientation and sex or gender.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "Wikidata project team"
+            ],
+            "Object": {
+              "Primary Object": [
+                "properties encoding queer identities such as sexual orientation and sex or gender"
+              ],
+              "Secondary Object": [
+                "dataset created during the analysis"
+              ]
+            },
+            "Context": [
+              "examination of the representation of queer people on open-platform databases",
+              "trace ethnography and thematic analysis of Wikidata",
+              "creation, changes, discussions, impacts of properties encoding queer identities"
+            ],
+            "Purpose": [
+              "understand how queer identities are represented across public datasets"
+            ],
+            "Method": [
+              "qualitative analyses including trace ethnography and thematic analysis"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "interpretation of findings relating to identity representations"
+            ],
+            "Challenge": [
+              "limitations in current methodologies potentially impacting accuracy"
+            ],
+            "Ethical": [
+              "privacy rights and accurate representation concerns"
+            ],
+            "Implications": [
+              "application in digital humanities",
+              "new perspectives on data curation practices",
+              "contributions to inclusive AI development"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "We found that changes often have unexpected impacts, that contributors struggled to determine vocabulary for queer identities which were accurate across the diverse cultural contexts of the Wikidata community, that the recording of queer identities could cause a stigmatizing effect for LGBTQ+ individuals, with further concerns of spreading rumors or outing closeted people, and that contributors proposing changes which would cause biased representations of queer people.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our analysis demonstrates inherent and unaddressed frictions when translating queer identities to the confines of a structured database. We conclude by discussing ways that the highly bottom-up, collaborative nature of platforms such as Wikidata, often seen as a major strength, can be vulnerable to individuals or small groups derailing and filibustering changes they disagree with on politically charged topics such as queer identities.",
+          "Main Action": "demonstrates",
+          "Arguments": {
+            "Agent": [
+              "Our analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "inherent and unaddressed frictions"
+              ],
+              "Secondary Object": [
+                "when translating queer identities to structured databases"
+              ]
+            },
+            "Context": [
+              "Our analysis demonstrates inherent and unaddressed frictions"
+            ],
+            "Purpose": [
+              "highlighting challenges in managing collaborative environments"
+            ],
+            "Method": [
+              "examining real-world examples and theoretical analysis"
+            ],
+            "Results": [
+              "increased awareness of systemic issues and insights for improvement"
+            ],
+            "Analysis": [
+              "acknowledging the necessity for deeper investigation"
+            ],
+            "Challenge": [
+              "balancing user contributions amidst differing opinions on politically charged topics"
+            ],
+            "Ethical": [
+              "ensuring responsible usage to prevent misuse"
+            ],
+            "Implications": [
+              "potential for significant reform impacting diverse communities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_34",
+      "abstract": "Ramadan is an important and blessed month for Muslims around the world. It is both a time of spiritual contemplation as well as an opportunity for reinvigorating communal bonds. The COVID-19 pandemic, however, disrupted many of the rituals and traditions of Ramadan. In this exploratory study, we present findings from 22 young Muslims' experiences with Ramadan and fasting during the pandemic. Our article sheds light on the techno-religious practices and information strategies used to mitigate isolation, share information, and celebrate Ramadan. We examine the sociotechnical configurations of religious rituals and highlight the resilience of these rituals even in the midst of a global pandemic. Our paper contributes to CSCW scholarship on technology appropriation and non-use as they relate to religious practices in the face of exogenous shocks such as the pandemic, and how design can better cater to the religious lives of individuals and communities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Ramadan is an important and blessed month for Muslims around the world. It is both a time of spiritual contemplation as well as an opportunity for reinvigorating communal bonds. The COVID-19 pandemic, however, disrupted many of the rituals and traditions of Ramadan.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Ramadan is an important and blessed month for Muslims around the world.",
+              "It is both a time of spiritual contemplation as well as an opportunity for reinvigorating communal bonds.",
+              "The COVID-19 pandemic, however, disrupted many of the rituals and traditions of Ramadan."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "In this exploratory study, we present findings from 22 young Muslims' experiences with Ramadan and fasting during the pandemic. Our article sheds light on the techno-religious practices and information strategies used to mitigate isolation, share information, and celebrate Ramadan. We examine the sociotechnical configurations of religious rituals and highlight the resilience of these rituals even in the midst of a global pandemic.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our paper contributes to CSCW scholarship on technology appropriation and non-use as they relate to religious practices in the face of exogenous shocks such as the pandemic, and how design can better cater to the religious lives of individuals and communities.",
+          "Main Action": "contributes",
+          "Arguments": {
+            "Agent": [
+              "Our paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to CSCW scholarship on technology appropriated and non-use as they relate to religious practices in the face of exogenous shocks such as the pandemic, and how design can better cater to the religious lives of individuals and communities."
+              ],
+              "Secondary Object": [
+                "These areas include examining mechanisms for tailoring designs according to religious life experiences under pressure due to such events."
+              ]
+            },
+            "Context": [
+              "in the face of exogenous shocks such as the pandemic"
+            ],
+            "Purpose": [
+              "to advance understanding about how technology interacts with religious practices amid unexpected challenges."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "providing insights that help design systems catering effectively to religious needs even in crisis situations."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

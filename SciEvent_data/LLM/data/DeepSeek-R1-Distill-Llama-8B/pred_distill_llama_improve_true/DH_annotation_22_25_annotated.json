@@ -1,0 +1,204 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_38",
+      "abstract": "Syuzhet is a dictionary-based tool for the sentiment analysis of literary texts that draws upon the Syuzhet, Bing, Afinn, and NRC lexicons. Syuzhet is a work in progress with the potential to become an invaluable tool for the sentiment analysis of literary texts. However, there have been doubts about sentiment analysis in the digital humanities field, especially after Swafford’s impactful critique of Syuzhet. Since it is impossible to achieve 100% accuracy in sentiment analysis, we should embrace the imperfection and continue to use Syuzhet while also making efforts to fully understand its limits and abilities. In addition, we should continuously provide feedback for the tool, since the duty of improving digital tools belongs to all digital humanists who employ digital tools. This article explores the limits of and improvements made upon Syuzhet by examining and testing its code and functions with 19th century British novels; the subjectivity of its lexicons; and the validity of Swafford’s critique.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Syuzhet is a dictionary-based tool for the sentiment analysis of literary texts that draws upon the Syuzhet, Bing, Afinn, and NRC lexicons. Syuzhet is a work in progress with the potential to become an invaluable tool for the sentiment analysis of literary texts. However, there have been doubts about sentiment analysis in the digital humanities field, especially after Swafford’s impactful critique of Syuzhet.",
+          "Main Action": "investigates",
+          "Arguments": {
+            "Agent": [
+              "this study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the effects of social media usage on mental health among teenagers"
+              ],
+              "Secondary Object": [
+                "machine learning algorithms"
+              ]
+            },
+            "Context": [
+              "among teenagers",
+              "mental health"
+            ],
+            "Purpose": [
+              "to understand the relationship between social media and mental health"
+            ],
+            "Method": [
+              "using machine learning algorithms"
+            ],
+            "Results": [
+              "findings about the effects observed"
+            ],
+            "Analysis": [
+              "interpretations of the data"
+            ],
+            "Challenge": [
+              "challenges faced during data collection or model development"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential impacts on public health policies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Since it is impossible to achieve 100% accuracy in sentiment analysis, we should embrace the imperfection and continue to use Syuzhet while also making efforts to fully understand its limits and abilities. In addition, we should continuously provide feedback for the tool, since the duty of improving digital tools belongs to all digital humanists who employ digital tools. This article explores the limits of and improvements made upon Syuzhet by examining and testing its code and functions with 19th century British novels; the subjectivity of its lexicons; and the validity of Swafford’s critique.",
+          "Main Action": "Exploring the limits and improvements made upon Syuzhet",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Syuzhet"
+              ],
+              "Secondary Object": [
+                "19th century British novels"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_57",
+      "abstract": "This paper explores multilingual minimal computing and plain text for Indian literatures. It focuses on our workflow designed to produce multilingual, annotated digital critical editions of Indian-language poetry, and to model, explicate, and visualize their poetics. In the absence of digital scholarly corpora, resources developed by citizen scholars working outside of academia are essential; for our team and audience, this includes free and open source solutions — including optical character recognition tools — developed in other contexts. Modeling formal, metrical, thematic, and rhythmic structures opens up the possibility for computer-assisted scholarly analysis across the variously related languages and literary histories of India, which are usually treated in isolation. Positioning our work as a form of minimal computing, we discuss our workflow as a jugaad — a North Indian term for reuse and innovation in the presence of constraints.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper explores multilingual minimal computing and plain text for Indian literatures. It focuses on our workflow designed to produce multilingual, annotated digital critical editions of Indian-language poetry, and to model, explicate, and visualize their poetics. In the absence of digital scholarly corpora, resources developed by citizen scholars working outside of academia are essential; for our team and audience, this includes free and open source solutions — including optical character recognition tools — developed in other contexts.",
+          "Main Action": "modeling",
+          "Arguments": {
+            "Agent": [
+              "our team",
+              "citizen scholars working outside of academia"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Indian-language poetry"
+              ],
+              "Secondary Object": [
+                "digital critical editions"
+              ]
+            },
+            "Context": [
+              "the absence of digital scholarly corpora",
+              "free and open source solutions"
+            ],
+            "Purpose": [
+              "to provide alternatives to existing resources"
+            ],
+            "Method": [
+              "workflows",
+              "optical character recognition tools",
+              "open-source solutions"
+            ],
+            "Results": [
+              "development of digital critical editions",
+              "models for poetics"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "reliance on external resources",
+              "quality control"
+            ],
+            "Ethical": [
+              "promoting accessibility and collaboration"
+            ],
+            "Implications": [
+              "democratizing access to literary studies"
+            ],
+            "Contradictions": [
+              "challenging established methodologies"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Modeling formal, metrical, thematic, and rhythmic structures opens up the possibility for computer-assisted scholarly analysis across the variously related languages and literary histories of India, which are usually treated in isolation. Positioning our work as a form of minimal computing, we discuss our workflow as a jugaad — a North Indian term for reuse and innovation in the presence of constraints.",
+          "Main Action": "Modeling formal, metrical, thematic, and rhythmic structures opens up the possibility for computer-assisted scholarly analysis across the variously related languages and literary histories of India, which are usually treated in isolation.",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "formal, metrical, thematic, and rhythmic structures"
+              ],
+              "Secondary Object": [
+                "computer-assisted scholarly analysis",
+                "languages and literary histories of India"
+              ]
+            },
+            "Context": [
+              "which are usually treated in isolation"
+            ],
+            "Purpose": [
+              "Positioning our work as a form of minimal computing"
+            ],
+            "Method": [
+              "our workflow as a jugaad"
+            ],
+            "Results": [
+              "allows for computer-assisted scholarly analysis"
+            ],
+            "Analysis": [
+              "we discuss our workflow as a jugaad"
+            ],
+            "Challenge": [
+              "a North Indian term for reuse and innovation in the presence of constraints"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "opening possibilities for future applications and research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

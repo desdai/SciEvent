@@ -1,0 +1,337 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_893",
+      "abstract": "Understanding Transformer-based models has attracted significant attention, as they lie at the heart of recent technological advances across machine learning. While most interpretability methods rely on running models over inputs, recent work has shown that a zero-pass approach, where parameters are interpreted directly without a forward/backward pass is feasible for some Transformer parameters, and for two-layer attention networks. In this work, we present a theoretical analysis where all parameters of a trained Transformer are interpreted by projecting them into the embedding space, that is, the space of vocabulary items they operate on. We derive a simple theoretical framework to support our arguments and provide ample evidence for its validity. First, an empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space. Second, we present two applications of our framework: (a) aligning the parameters of different models that share a vocabulary, and (b) constructing a classifier without training by “translating” the parameters of a fine-tuned classifier to parameters of a different model that was only pretrained. Overall, our findings open the door to interpretation methods that, at least in part, abstract away from model specifics and operate in the embedding space only.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Understanding Transformer-based models has attracted significant attention, as they lie at the heart of recent technological advances across machine learning. While most interpretability methods rely on running models over inputs, recent work has shown that a zero-pass approach, where parameters are interpreted directly without a forward/backward pass is feasible for some Transformer parameters, and for two-layer attention networks.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we present a theoretical analysis where all parameters of a trained Transformer are interpreted by projecting them into the embedding space, that is, the space of vocabulary items they operate on. We derive a simple theoretical framework to support our arguments and provide ample evidence for its validity.",
+          "Main Action": "Interpreted",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "parameters of a trained Transformer"
+              ],
+              "Secondary Object": [
+                "the space of vocabulary items they operate on"
+              ]
+            },
+            "Context": [
+              "trained Transformer"
+            ],
+            "Purpose": [
+              "to derive a simple theoretical framework to support our arguments"
+            ],
+            "Method": [
+              "projection into the embedding space"
+            ],
+            "Results": [
+              "provide ample evidence for its validity"
+            ],
+            "Analysis": [
+              "showing the validity and utility of the derived framework"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader understanding of model parameter interpretation and its consequences"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "First, an empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space. Second, we present two applications of our framework: (a) aligning the parameters of different models that share a vocabulary, and (b) constructing a classifier without training by “translating” the parameters of a fine-tuned classifier to parameters of a different model that was only pretrained.",
+          "Main Action": "Present",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Framework"
+              ],
+              "Secondary Object": [
+                "Different models sharing a vocabulary"
+              ]
+            },
+            "Context": [
+              "Empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space"
+            ],
+            "Purpose": [
+              "Filling gaps in aligning parameters of different models that share a vocabulary"
+            ],
+            "Method": [
+              "Aligning the parameters of different models",
+              "Constructing a classifier without training by 'translating' the parameters"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Interpreting how effective the translations are compared to traditional methods"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Building classifiers without retraining has broad applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Overall, our findings open the door to interpretation methods that, at least in part, abstract away from model specifics and operate in the embedding space only.",
+          "Main Action": "Opening the door to interpretation methods",
+          "Arguments": {
+            "Agent": [
+              "Our findings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Door"
+              ],
+              "Secondary Object": [
+                "Interpretation methods"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "Introducing novel interpretation methods"
+            ],
+            "Method": [
+              "Operating in the embedding space"
+            ],
+            "Results": [
+              "Better interpretation methods"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Generalization across models, reducing reliance on specific architectural details"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_431",
+      "abstract": "Coherence is an important aspect of text quality, and various approaches have been applied to coherence modeling. However, existing methods solely focus on a single document’s coherence patterns, ignoring the underlying correlation between documents. We investigate a GCN-based coherence model that is capable of capturing structural similarities between documents. Our model first creates a graph structure for each document, from where we mine different subgraph patterns. We then construct a heterogeneous graph for the training corpus, connecting documents based on their shared subgraphs. Finally, a GCN is applied to the heterogeneous graph to model the connectivity relationships. We evaluate our method on two tasks, assessing discourse coherence and automated essay scoring. Results show that our GCN-based model outperforms all baselines, achieving a new state-of-the-art on both tasks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Coherence is an important aspect of text quality, and various approaches have been applied to coherence modeling. However, existing methods solely focus on a single document’s coherence patterns, ignoring the underlying correlation between documents.",
+          "Main Action": "Various approaches have been applied",
+          "Arguments": {
+            "Agent": [
+              "Existing methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Coherence patterns"
+              ],
+              "Secondary Object": [
+                "Underlying correlation between documents"
+              ]
+            },
+            "Context": [
+              "Coherence is an important aspect of text quality"
+            ],
+            "Purpose": [
+              "Highlighting the limitation of existing methods"
+            ],
+            "Method": [
+              "Solely focus on a single document's coherence patterns"
+            ],
+            "Results": [
+              "Ignoring the underlying correlation between documents"
+            ],
+            "Analysis": [
+              "Models relying on single documents may fail in multi-document scenarios"
+            ],
+            "Challenge": [
+              "Complexity introduced by inter-document relationships"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improving models across documents and enhancing understanding"
+            ],
+            "Contradictions": [
+              "Assumptions that single document methods suffice"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We investigate a GCN-based coherence model that is capable of capturing structural similarities between documents. Our model first creates a graph structure for each document, from where we mine different subgraph patterns. We then construct a heterogeneous graph for the training corpus, connecting documents based on their shared subgraphs. Finally, a GCN is applied to the heterogeneous graph to model the connectivity relationships.",
+          "Main Action": "Constructing a GCN-based coherence model",
+          "Arguments": {
+            "Agent": [
+              "Our model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "Improving document coherence representation"
+            ],
+            "Method": [
+              "Creating graph structures for each document",
+              "Mining different subgraph patterns",
+              "Constructing a heterogeneous graph for the training corpus",
+              "Applying GCN to the heterogeneous graph"
+            ],
+            "Results": [
+              "Successfully capturing structural similarities between documents"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader applications in document understanding tasks"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We evaluate our method on two tasks, assessing discourse coherence and automated essay scoring. Results show that our GCN-based model outperforms all baselines, achieving a new state-of-the-art on both tasks.",
+          "Main Action": "Evaluating our method on two tasks",
+          "Arguments": {
+            "Agent": [
+              "Our team"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our method"
+              ],
+              "Secondary Object": [
+                "discourse coherence",
+                "automated essay scoring"
+              ]
+            },
+            "Context": [
+              "comparing against all baseline models"
+            ],
+            "Purpose": [
+              "To assess discourse coherence and automated essay scoring"
+            ],
+            "Method": [
+              "using a GCN-based model"
+            ],
+            "Results": [
+              "achieving a new state-of-the-art on both tasks"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

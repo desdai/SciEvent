@@ -1,0 +1,287 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_48",
+      "abstract": "In this article, I outline a method of combining ethnography and computational soundscape analysis in order to listen to processes of gentrification in Washington, DC. I utilize Kaleidoscope Pro, a software suite built to visualize and cluster bioacoustic recordings (typically birds and bats) to cluster points of tension in the soundscape of Shaw, a rapidly gentrifying neighborhood in DC. Clustering and visualizing these sounds (which include car horns, sirens, public transportation, and music) makes audible the sonic markers of gentrification in Shaw. Furthermore, listening to gentrification is a call to engage with the sonic right to the city, histories of legislating sound, and sonorities of memory and nostalgia. This work contributes to the burgeoning black digital humanities canon by thinking through how computational methods can help us to hear black life. Although the digital humanities have turned to embrace the sonic in recent years, there is still much to be done in considering how to embrace the aural in DH work. This project invites us to listen closely to a changing neighborhood and emphasizes sound as a valid mode of knowledge production, questioning how a sonic rendering of gentrifying space through the digital might move us toward more equitable soundscapes.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this article, I outline a method of combining ethnography and computational soundscape analysis in order to listen to processes of gentrification in Washington, DC.",
+          "Main Action": "outline",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "method of combining ethnography and computational soundscape analysis"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in order to listen to processes of gentrification in Washington, DC."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "combining ethnography and computational soundscape analysis"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "I utilize Kaleidoscope Pro, a software suite built to visualize and cluster bioacoustic recordings (typically birds and bats) to cluster points of tension in the soundscape of Shaw, a rapidly gentrifying neighborhood in DC. Clustering and visualizing these sounds (which include car horns, sirens, public transportation, and music) makes audible the sonic markers of gentrification in Shaw.",
+          "Main Action": "utilize",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Kaleidoscope Pro"
+              ],
+              "Secondary Object": [
+                "bioacoustic recordings"
+              ]
+            },
+            "Context": [
+              "Shaw, a rapidly gentrifying neighborhood in DC"
+            ],
+            "Purpose": [
+              "to cluster points of tension in the soundscape"
+            ],
+            "Method": [
+              "Clustering and visualizing these sounds"
+            ],
+            "Results": [
+              "makes audible the sonic markers of gentrification in Shaw"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Furthermore, listening to gentrification is a call to engage with the sonic right to the city, histories of legislating sound, and sonorities of memory and nostalgia. This work contributes to the burgeoning black digital humanities canon by thinking through how computational methods can help us to hear black life.",
+          "Main Action": "listening",
+          "Arguments": {
+            "Agent": [
+              "This work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to gentrification"
+              ],
+              "Secondary Object": [
+                "sonic right to the city"
+              ]
+            },
+            "Context": [
+              "histories of legislating sound, and sonorities of memory and nostalgia"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "computational methods"
+            ],
+            "Results": [
+              "how computational methods can help us to hear black life"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "contributing to the burgeoning black digital humanities canon"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Although the digital humanities have turned to embrace the sonic in recent years, there is still much to be done in considering how to embrace the aural in DH work. This project invites us to listen closely to a changing neighborhood and emphasizes sound as a valid mode of knowledge production, questioning how a sonic rendering of gentrifying space through the digital might move us toward more equitable soundscapes.",
+          "Main Action": "invites",
+          "Arguments": {
+            "Agent": [
+              "This project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "us to listen closely to a changing neighborhood"
+              ],
+              "Secondary Object": [
+                "sound"
+              ]
+            },
+            "Context": [
+              "There is still much to be done in considering how to embrace the aural in DH work"
+            ],
+            "Purpose": [
+              "questioning how a sonic rendering of gentrifying space through the digital might move us toward more equitable soundscapes"
+            ],
+            "Method": [
+              "emphasizes sound as a valid mode of knowledge production"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "there is still much to be done"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "move us toward more equitable soundscapes"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_29",
+      "abstract": "Studying collaboration in music is a prominent area of research in fields such as cultural studies, history, and musicology. For scholars interested in studying collaboration, network analysis has proven to be a viable methodological approach. Yet, a challenge is that heterogeneous data makes it difficult to study collaboration networks across music genres, which means that there are almost only studies on individual genres. To solve this problem, we propose a generalizable approach to studying the topological properties of music collaboration networks within and between genres that relies on data from the freely available Discogs database. To illustrate the approach, we provide a comparison of the genres Jazz and Hip Hop.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Studying collaboration in music is a prominent area of research in fields such as cultural studies, history, and musicology. For scholars interested in studying collaboration, network analysis has proven to be a viable methodological approach. Yet, a challenge is that heterogeneous data makes it difficult to study collaboration networks across music genres, which means that there are almost only studies on individual genres.",
+          "Main Action": "studying collaboration in music is a prominent area of research in fields such as cultural studies, history, and musicology.",
+          "Arguments": {
+            "Agent": [
+              "scholars"
+            ],
+            "Object": {
+              "Primary Object": [
+                "collaboration"
+              ],
+              "Secondary Object": [
+                "network analysis"
+              ]
+            },
+            "Context": [
+              "Yet, a challenge is that heterogeneous data makes it difficult to study collaboration networks across music genres,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "almost only studies on individual genres"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "heterogeneous data makes it difficult to study collaboration networks across music genres"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "To solve this problem, we propose a generalizable approach to studying the topological properties of music collaboration networks within and between genres that relies on data from the freely available Discogs database. To illustrate the approach, we provide a comparison of the genres Jazz and Hip Hop.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    }
+  ]
+}

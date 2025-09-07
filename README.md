@@ -192,7 +192,7 @@ We are also using DEGREE format and convert them into EEQA input format, splits 
 bash data_scripts/EEQA/convert_to_eeqa.sh
 ```
 
-### Train and eval models
+### Train and evaluate models
 
 **Trigger Detection**
 
@@ -263,15 +263,33 @@ python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/sci
 
 
 
-## LLMs (All LLMs share same input format and output format)
+## LLMs & Human performance 
+LLMs are given same input as human to ensure fair evaluation, and all LLMs share same input format and output format, 
 
+### Evaluation:
+Run these two files, to first preprocess the raw input:
 
+```bash 
+bash baselines/LLM/evaluation_code/prepare_for_eval.sh
 
+python baselines/LLM/evaluation_code/filter_subset.py \
+    --input SciEvent_data/LLM/data/human/human_eval/gold_event_level.json \
+    --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
+    --output SciEvent_data/LLM/data/human/human_eval/filtered_gold_event_level.json
 
-## Human Evaluation 
+python baselines/LLM/evaluation_code/filter_subset.py \
+    --input SciEvent_data/LLM/data/human/human_eval/pred_event_level.json \
+    --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
+    --output SciEvent_data/LLM/data/human/human_eval/filtered_pred_event_level.json
+```
 
+and then evaluate:
 
-# Model Finetuning
+```bash baselines/LLM/evaluation_code/EM_overlap_eval.sh```
+
+results will be saved to default ```baselines/LLM/LLM_results```
+
+```baselines/LLM/LLM_results/human.txt``` is the default path for human performance, this is compared to previous models' human_subset to demonstrate both finetuned and LLMs baselines's gap with human performance. LLMs' subset results are saved in ```baselines/LLM/LLM_results``` as well, ending with ```-subset.txt```
 
 # LLM Prompting
 

@@ -1,0 +1,306 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_25",
+      "abstract": "Previous studies indicate that the capacity of media to influence the salience of issues in the public realm is strongly dependent on specific attributes that characterize these issues. In this work, we investigate two internal aspects of issue types related to the attribute of duration. First, we address whether news stories belonging to different issue types can be identified and represented using a set of quantifiable temporal dimensions (i.e. lifespan, intensity, and burstiness). Second, we conduct a qualitative analysis to investigate whether news stories of different issue types have different narrative patterns, regardless of their specific topic. We use a corpus of 50,385 political news articles in Spanish from 2018 as a case study, and propose a novel system to aggregate the articles into stories. Our results show that stories belonging to different issue types do have distinguishing behaviours, especially along the intensity dimension. At the same time, the qualitative analysis indicates a tendency to associate narrative patterns to issue types. This analysis shows the potential of using news stories as research units to study framing strategies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Previous studies indicate that the capacity of media to influence the salience of issues in the public realm is strongly dependent on specific attributes that characterize these issues.",
+          "Main Action": "previous studies indicate",
+          "Arguments": {
+            "Agent": [
+              "media",
+              "issues"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "specific attributes that characterize these issues"
+              ]
+            },
+            "Context": [
+              "social science focus on communication effectiveness"
+            ],
+            "Purpose": [
+              "understanding causal relationships between media capacity and issue salience"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "the capacity of media to influence the salience of issues...strongly dependent on specific attributes"
+            ],
+            "Analysis": [
+              "interpretation of observed dependency relations"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "support relational understanding in comm theory"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we investigate two internal aspects of issue types related to the attribute of duration. First, we address whether news stories belonging to different issue types can be identified and represented using a set of quantifiable temporal dimensions (i.e. lifespan, intensity, and burstiness). Second, we conduct a qualitative analysis to investigate whether news stories of different issue types have different narrative patterns, regardless of their specific topic. We use a corpus of 50,385 political news articles in Spanish from 2018 as a case study, and propose a novel system to aggregate the articles into stories.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "researchers/teams"
+            ],
+            "Object": {
+              "Primary Object": [
+                "news stories"
+              ],
+              "Secondary Object": [
+                "issue types"
+              ]
+            },
+            "Context": [
+              "a corpus of 50,385 political news articles in Spanish from 2018"
+            ],
+            "Purpose": [
+              "address whether news stories belonging to different issue types can be identified and represented using a set of quantifiable temporal dimensions",
+              "conductor a qualitative analysis to investigate whether news stories of different issue types have different narrative patterns"
+            ],
+            "Method": [
+              "use statistical measures such as lifespan, intensity, and burstiness",
+              "qualitative analysis",
+              "application of natural language processing techniques"
+            ],
+            "Results": [
+              "successfully identify and represent news stories using quantifiable temporal dimensions",
+              "compare narrative patterns among different issue types"
+            ],
+            "Analysis": [
+              "interpret findings highlighting relationships between temporal characteristics and narrative structures",
+              "discuss challenges associated with temporal modeling and clustering algorithms"
+            ],
+            "Challenge": [
+              "high dimensionality complexity",
+              "computational demands processing extensive texts"
+            ],
+            "Ethical": [
+              "fairness considerations ensure diverse coverage avoid bias"
+            ],
+            "Implications": [
+              "create a framework applicable to similar studies advance understanding of media dynamics"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Our results show that stories belonging to different issue types do have distinguishing behaviours, especially along the intensity dimension. At the same time, the qualitative analysis indicates a tendency to associate narrative patterns to issue types.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This analysis shows the potential of using news stories as research units to study framing strategies.",
+          "Main Action": "This analysis",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Studying framing strategies"
+            ],
+            "Purpose": [
+              "Exploring how media coverage influences public perception regarding policy issues in mass communication contexts"
+            ],
+            "Method": [
+              "Using news stories as research units"
+            ],
+            "Results": [
+              "Shows the potential"
+            ],
+            "Analysis": [
+              "Interprets the findings"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_62",
+      "abstract": "This review synthesizes Sakari Taipale’s book Intergenerational Connections in Digital Families (Springer International Publishing, 2019), partially from an auto-ethnographic perspective. Borrowing from the book’s structure, the review is divided into three parts. The first section examines the definitions of digital families and the role of everyday communication technologies in connecting such families. The second section critiques the interconnected roles of family members and generations in maintaining digital connections, especially through Taipale’s revival of the notion of the “warm expert.” The final section assesses the book’s conclusions in the context of changing social policies. It also looks at the possibilities for future research in the domain of digital family studies (and, by extension, in digital humanities) that can germinate from Taipale’s concise study.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This review synthesizes Sakari Taipale’s book Intergenerational Connections in Digital Families (Springer International Publishing, 2019), partially from an auto-ethnographic perspective.",
+          "Main Action": "synthesizes",
+          "Arguments": {
+            "Agent": [
+              "Sakari Taipale"
+            ],
+            "Object": {
+              "Primary Object": [
+                "book"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "partially from an auto-ethnographic perspective"
+            ],
+            "Purpose": [
+              "scholarly critique or contribution to literature"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Borrowing from the book’s structure, the review is divided into three parts. The first section examines the definitions of digital families and the role of everyday communication technologies in connecting such families. The second section critiques the interconnected roles of family members and generations in maintaining digital connections, especially through Taipale’s revival of the notion of the “warm expert.” The final section assesses the book’s conclusions in the context of changing social policies. It also looks at the possibilities for future research in the domain of digital family studies (and, by extension, in digital humanities) that can germinate from Taipale’s concise study.",
+          "Main Action": "Assesses the book’s conclusions",
+          "Arguments": {
+            "Agent": [
+              "Authors who performed the assessment"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Digital family studies (and digital humanities)"
+              ],
+              "Secondary Object": [
+                "Taipale’s warm expert theory"
+              ]
+            },
+            "Context": [
+              "Examines the definitions of digital families",
+              "Role of everyday communication technologies",
+              "Intergenerational roles in maintaining digital connections",
+              "Changing social policies",
+              "Future research in digital family studies"
+            ],
+            "Purpose": [
+              "Validate Taipale’s contribution",
+              "Explore expansion opportunities",
+              "Inform future academic endeavors"
+            ],
+            "Method": [
+              "Literary reviews",
+              "Thematic analysis"
+            ],
+            "Results": [
+              "Strengths and gaps in previous works",
+              "Insights into areas needing further exploration"
+            ],
+            "Analysis": [
+              "Interpretation of findings",
+              "Explanation of influence and limitations of Taipale’s approach"
+            ],
+            "Challenge": [
+              "Limitations of sole reliance on historical case studies",
+              "Potential oversights in modern contexts"
+            ],
+            "Ethical": [
+              "Responsible consideration of biases",
+              "Avoidance of perspective misrepresentation"
+            ],
+            "Implications": [
+              "Broader significance of digital family studies",
+              "Application to digital humanity"
+            ],
+            "Contradictions": [
+              "No direct contradictions noted"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

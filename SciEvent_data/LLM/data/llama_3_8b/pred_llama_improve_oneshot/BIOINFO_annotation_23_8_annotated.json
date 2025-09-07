@@ -1,0 +1,243 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_315",
+      "abstract": "Mass spectrometry proteomics is a powerful tool in biomedical research but its usefulness is limited by the frequent occurrence of missing values in peptides that cannot be reliably quantified (detected) for particular samples. Many analysis strategies have been proposed for missing values where the discussion often focuses on distinguishing whether values are missing completely at random (MCAR), missing at random (MAR) or missing not at random (MNAR). Statistical models and algorithms are proposed for estimating the detection probabilities and for evaluating how much statistical information can or cannot be recovered from the missing value pattern. The probability that an intensity is detected is shown to be accurately modeled as a logit-linear function of the underlying intensity, showing that missing value process is intermediate between MAR and censoring. The detection probability asymptotes to 100% for high intensities, showing that missing values unrelated to intensity are rare. The rule applies globally to each dataset and is appropriate for both high and lowly expressed peptides. A probability model is developed that allows the distribution of unobserved intensities to be inferred from the observed values. The detection probability model is incorporated into a likelihood-based approach for assessing differential expression and successfully recovers statistical power compared to omitting the missing values from the analysis. In contrast, imputation methods are shown to perform poorly, either reducing statistical power or increasing the false discovery rate to unacceptable levels.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Mass spectrometry proteomics is a powerful tool in biomedical research but its usefulness is limited by the frequent occurrence of missing values in peptides that cannot be reliably quantified (detected) for particular samples. Many analysis strategies have been proposed for missing values where the discussion often focuses on distinguishing whether values are missing completely at random (MCAR), missing at random (MAR) or missing not at random (MNAR).",
+          "Main Action": "is limited by",
+          "Arguments": {
+            "Agent": [
+              "its usefulness"
+            ],
+            "Object": {
+              "Primary Object": [
+                "missing values in peptides that cannot be reliably quantified"
+              ],
+              "Secondary Object": [
+                "particular samples"
+              ]
+            },
+            "Context": [
+              "Many analysis strategies have been proposed for missing values where the discussion often focuses on distinguishing whether values are missing completely at random (MCAR), missing at random (MAR) or missing not at random (MNAR)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "where the discussion often focuses on distinguishing whether values are missing completely at random (MCAR), missing at random (MAR) or missing not at random (MNAR)"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Statistical models and algorithms are proposed for estimating the detection probabilities and for evaluating how much statistical information can or cannot be recovered from the missing value pattern. The probability that an intensity is detected is shown to be accurately modeled as a logit-linear function of the underlying intensity, showing that missing value process is intermediate between MAR and censoring. The detection probability asymptotes to 100% for high intensities, showing that missing values unrelated to intensity are rare. The rule applies globally to each dataset and is appropriate for both high and lowly expressed peptides.",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "statistical models and algorithms"
+            ],
+            "Object": {
+              "Primary Object": [
+                "estimating the detection probabilities"
+              ],
+              "Secondary Object": [
+                "evaluating how much statistical information can or cannot be recovered from the missing value pattern"
+              ]
+            },
+            "Context": [
+              "The probability that an intensity is detected is shown to be accurately modeled as a logit-linear function of the underlying intensity"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "statistical models and algorithms"
+            ],
+            "Results": [
+              "showing that missing value process is intermediate between MAR and censoring",
+              "detection probability asymptotes to 100% for high intensities"
+            ],
+            "Analysis": [
+              "missing values unrelated to intensity are rare"
+            ],
+            "Challenge": [
+              "rule applies globally to each dataset and is appropriate for both high and lowly expressed peptides"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "A probability model is developed that allows the distribution of unobserved intensities to be inferred from the observed values. The detection probability model is incorporated into a likelihood-based approach for assessing differential expression and successfully recovers statistical power compared to omitting the missing values from the analysis. In contrast, imputation methods are shown to perform poorly, either reducing statistical power or increasing the false discovery rate to unacceptable levels.",
+          "Main Action": "developed",
+          "Arguments": {
+            "Agent": [
+              "A probability model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that allows the distribution of unobserved intensities to be inferred from the observed values"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The detection probability model is incorporated into a likelihood-based approach for assessing differential expression and successfully recovers statistical power compared to omitting the missing values from the analysis."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "in a likelihood-based approach"
+            ],
+            "Results": [
+              "successfully recovers statistical power compared to omitting the missing values from the analysis"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "imputation methods are shown to perform poorly, either reducing statistical power or increasing the false discovery rate to unacceptable levels"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_174",
+      "abstract": "The regulation of genes by cis-regulatory elements (CREs) is complex and differs between cell types. Visual analysis of large collections of chromatin profiles across diverse cell types, integrated with computational methods, can reveal meaningful biological insights. We developed Cistrome Explorer, a web-based interactive visual analytics tool for exploring thousands of chromatin profiles in diverse cell types. Integrated with the Cistrome Data Browser database which contains thousands of ChIP-seq, DNase-seq and ATAC-seq samples, Cistrome Explorer enables the discovery of patterns of CREs across cell types and the identification of transcription factor binding underlying these patterns.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The regulation of genes by cis-regulatory elements (CREs) is complex and differs between cell types. Visual analysis of large collections of chromatin profiles across diverse cell types, integrated with computational methods, can reveal meaningful biological insights.",
+          "Main Action": "can reveal",
+          "Arguments": {
+            "Agent": [
+              "Visual analysis of large collections of chromatin profiles across diverse cell types"
+            ],
+            "Object": {
+              "Primary Object": [
+                "meaningful biological insights"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "integrated with computational methods"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "visual analysis",
+              "computational methods"
+            ],
+            "Results": [
+              "reveal meaningful biological insights"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We developed Cistrome Explorer, a web-based interactive visual analytics tool for exploring thousands of chromatin profiles in diverse cell types. Integrated with the Cistrome Data Browser database which contains thousands of ChIP-seq, DNase-seq and ATAC-seq samples, Cistrome Explorer enables the discovery of patterns of CREs across cell types and the identification of transcription factor binding underlying these patterns.",
+          "Main Action": "developed",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Cistrome Explorer"
+              ],
+              "Secondary Object": [
+                "thousands of chromatin profiles in diverse cell types"
+              ]
+            },
+            "Context": [
+              "Integrated with the Cistrome Data Browser database"
+            ],
+            "Purpose": [
+              "enables the discovery of patterns of CREs across cell types and the identification of transcription factor binding underlying these patterns"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

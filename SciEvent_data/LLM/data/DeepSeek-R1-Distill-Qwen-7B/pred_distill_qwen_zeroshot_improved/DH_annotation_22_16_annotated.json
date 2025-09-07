@@ -1,0 +1,203 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_61",
+      "abstract": "In late 11th century, a reform carried out by Wang Anshi (1021–1086) brought about controversies and initiated a series of political struggles between factionalized reformers and anti-reformers. The origin and nature of these factionalized struggles have been discussed for a long time among scholars. In this paper, we discuss the issue based on the literary and political relationships among people in the era of the reform. First, two matrices are respectively constructed of the literary and political relations among these people based on the data collected from CBDB (China Biographical Database). Then a Poisson-Gamma factorization model is adopted to obtain the key factors of the matrices, and the Louvain Modularity algorithm is used for community detection. The results show that people engaging in similar literary pursuits were more likely to share political interests and people belonging to the same literary groups were more likely to join in the same political groups. Ensuing discussions illustrate that people’s differing academic views indeed played a shaping role in the formation and exacerbation of factionalized struggle, for which the mechanism unfolded herein of 'literati politics' was highly responsible.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In late 11th century, a reform carried out by Wang Anshi (1021–1086) brought about controversies and initiated a series of political struggles between factionalized reformers and anti-reformers. The origin and nature of these factionalized struggles have been discussed for a long time among scholars.",
+          "Main Action": "carried out",
+          "Arguments": {
+            "Agent": [
+              "Wang Anshi"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a reform"
+              ],
+              "Secondary Object": [
+                "a series of political struggles between factionalized reformers and anti-reformers"
+              ]
+            },
+            "Context": [
+              "In late 11th century, a reform carried out by Wang Anshi..."
+            ],
+            "Purpose": [
+              "understand the origin and nature of these factionalized struggles"
+            ],
+            "Method": [
+              "no explicit methods mentioned"
+            ],
+            "Results": [
+              "discussions...have been discussed for a long time among scholars"
+            ],
+            "Analysis": [
+              "scholars discuss the origin and nature of these factionalized struggles"
+            ],
+            "Challenge": [
+              "contradictions with existing knowledge"
+            ],
+            "Ethical": [
+              "no explicit ethical issues mentioned"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "disagreements with existing knowledge"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we discuss the issue based on the literary and political relationships among people in the era of the reform. First, two matrices are respectively constructed of the literary and political relations among these people based on the data collected from CBDB (China Biographical Database). Then a Poisson-Gamma factorization model is adopted to obtain the key factors of the matrices, and the Louvain Modularity algorithm is used for community detection.",
+          "Main Action": "Constructing two matrices of literary and political relations",
+          "Arguments": {
+            "Agent": [
+              "Data collected from CBDB"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Literary and political relations among people in the era of reform"
+              ],
+              "Secondary Object": [
+                "Matrices constructed based on data collected from CBDB"
+              ]
+            },
+            "Context": [
+              "Era of the reform"
+            ],
+            "Purpose": [
+              "To explore the relationship between literary and political activities and understand the dynamics of people in the era of reform"
+            ],
+            "Method": [
+              "Poisson-Gamma factorization model and Louvain Modularity algorithm"
+            ],
+            "Results": [
+              "Key factors of the matrices and communities detected via modularity optimization"
+            ],
+            "Analysis": [
+              "Interpretation of results leading to understanding historical connections and societal influences"
+            ],
+            "Challenge": [
+              "Potential limitations including dataset size effects and computational complexities"
+            ],
+            "Ethical": [
+              "Considerations regarding data usage ethics and database integrity"
+            ],
+            "Implications": [
+              "Extension of methodology to other historical periods and datasets for comparative studies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The results show that people engaging in similar literary pursuits were more likely to share political interests and people belonging to the same literary groups were more likely to join in the same political groups. Ensuing discussions illustrate that people’s differing academic views indeed played a shaping role in the formation and exacerbation of factionalized struggle, for which the mechanism unfolded herein of 'literati politics' was highly responsible.",
+          "Main Action": "Established links",
+          "Arguments": {
+            "Agent": [
+              "People engaged in similar literary pursuits",
+              "Same literary groups"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Political interests",
+                "Political groups"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_55",
+      "abstract": "In this reflection, I discuss my path into digital humanities scholarship through Black studies. I share how I became involved in digital humanities in the 2000s as a graduate student who found that it offered answers to methodological problems I was encountering in my research. Then, I examine how early career colleagues and I banded together to create a space for Black studies and other ethnic studies fields within digital humanities in the early 2010s. Finally, I propose that addressing race — and its relationship to gender, sexuality, nation, disability, and colonialism, among others — is a matter of scholarly integrity that must be put at the center of digital humanities inquiry today.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "In this reflection, I discuss my path into digital humanities scholarship through Black studies. I share how I became involved in digital humanities in the 2000s as a graduate student who found that it offered answers to methodological problems I was encountering in my research. Then, I examine how early career colleagues and I banded together to create a space for Black studies and other ethnic studies fields within digital humanities in the early 2010s. Finally, I propose that addressing race — and its relationship to gender, sexuality, nation, disability, and colonialism, among others — is a matter of scholarly integrity that must be put at the center of digital humanities inquiry today.",
+          "Main Action": "I discuss",
+          "Arguments": {
+            "Agent": [
+              "my path into digital humanities scholarship through Black studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how I became involved in digital humanities in the 2000s as a graduate student"
+              ],
+              "Secondary Object": [
+                "finding that it offered answers to methodological problems I was encountering in my research"
+              ]
+            },
+            "Context": [
+              "in this reflection",
+              "through Black studies",
+              "as a graduate student",
+              "in the 2000s"
+            ],
+            "Purpose": [
+              "share how I became involved in digital humanities in the 2000s as a graduate student",
+              "examine how early career colleagues and I banded together to create a space for Black studies and other ethnic studies fields within digital humanities in the early 2010s",
+              "propose that addressing race [...] is a matter of scholarly integrity that must be put at the center of digital humanities inquiry today"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

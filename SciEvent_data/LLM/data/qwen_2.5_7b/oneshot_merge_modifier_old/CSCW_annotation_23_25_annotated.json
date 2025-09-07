@@ -1,0 +1,291 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_107",
+      "abstract": "In recent years, industry leaders and researchers have proposed to use technical provenance standards to address visual misinformation spread through digitally altered media. By adding immutable and secure provenance information such as authorship and edit date to media metadata, social media users could potentially better assess the validity of the media they encounter. However, it is unclear how end users would respond to provenance information, or how to best design provenance indicators to be understandable to laypeople. We conducted an online experiment with 595 participants from the US and UK to investigate how provenance information altered users' accuracy perceptions and trust in visual content shared on social media. We found that provenance information often lowered trust and caused users to doubt deceptive media, particularly when it revealed that the media was composited. We additionally tested conditions where the provenance information itself was shown to be incomplete or invalid, and found that these states have a significant impact on participants' accuracy perceptions and trust in media, leading them, in some cases, to disbelieve honest media. Our findings show that provenance, although enlightening, is still not a concept well-understood by users, who confuse media credibility with the orthogonal (albeit related) concept of provenance credibility. We discuss how design choices may contribute to provenance (mis)understanding, and conclude with implications for usable provenance systems, including clearer interfaces and user education.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In recent years, industry leaders and researchers have proposed to use technical provenance standards to address visual misinformation spread through digitally altered media. By adding immutable and secure provenance information such as authorship and edit date to media metadata, social media users could potentially better assess the validity of the media they encounter. However, it is unclear how end users would respond to provenance information, or how to best design provenance indicators to be understandable to laypeople.",
+          "Main Action": "have proposed",
+          "Arguments": {
+            "Agent": [
+              "industry leaders and researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to use technical provenance standards to address visual misinformation spread through digitally altered media"
+              ],
+              "Secondary Object": [
+                "adding immutable and secure provenance information such as authorship and edit date to media metadata"
+              ]
+            },
+            "Context": [
+              "in recent years"
+            ],
+            "Purpose": [
+              "social media users could potentially better assess the validity of the media they encounter"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "it is unclear how end users would respond to provenance information, or how to best design provenance indicators to be understandable to laypeople"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "how end users would respond to provenance information, or how to best design provenance indicators to be understandable to laypeople"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted an online experiment with 595 participants from the US and UK to investigate how provenance information altered users' accuracy perceptions and trust in visual content shared on social media.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an online experiment"
+              ],
+              "Secondary Object": [
+                [
+                  "with 595 participants from the us and uk"
+                ],
+                [
+                  "to investigate how provenance information altered users' accuracy perceptions and trust in visual content shared on social media"
+                ]
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "investigate how provenance information altered users' accuracy perceptions and trust in visual content shared on social media"
+            ],
+            "Method": [
+              "online experiment"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that provenance information often lowered trust and caused users to doubt deceptive media, particularly when it revealed that the media was composited. We additionally tested conditions where the provenance information itself was shown to be incomplete or invalid, and found that these states have a significant impact on participants' accuracy perceptions and trust in media, leading them, in some cases, to disbelieve honest media.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that provenance information often lowered trust and caused users to doubt deceptive media, particularly when it revealed that the media was composited"
+              ],
+              "Secondary Object": [
+                "conditions where the provenance information itself was shown to be incomplete or invalid"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "additional tests were conducted"
+            ],
+            "Results": [
+              "these states have a significant impact on participants' accuracy perceptions and trust in media, leading them, in some cases, to disbelieve honest media"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our findings show that provenance, although enlightening, is still not a concept well-understood by users, who confuse media credibility with the orthogonal (albeit related) concept of provenance credibility. We discuss how design choices may contribute to provenance (mis)understanding, and conclude with implications for usable provenance systems, including clearer interfaces and user education.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "our findings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that provenance, although enlightening, is still not a concept well-understood by users, who confuse media credibility with the orthogonal (albeit related) concept of provenance credibility"
+              ],
+              "Secondary Object": [
+                "design choices may contribute to provenance (mis)understanding"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "discuss how design choices may contribute to provenance (mis)understanding"
+            ],
+            "Method": [
+              "conclude with implications for usable provenance systems, including clearer interfaces and user education"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "including clearer interfaces and user education"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_15",
+      "abstract": "While commercial conversational agents (CA) (i.e. Google assistant, Siri, Alexa) are widely used, these systems have limitations in error-handling, flexibility, personalization, and overall dialogue management that are amplified in care coordination settings. In this paper, we synthesize and articulate these limitations through quantitative and qualitative analysis of 56 older adults interacting with a commercial CA deployed in their home for a 10-week period. We look at the CA as a compensatory technology in an older adult's care network. We argue that the CA limitations are rooted in the rigid cue-and-response style of task-oriented interactions common in CAs. We then propose a redesign for CA conversation flow to favor flexibility and personalization that is nonetheless viable within the limitations of current AI and machine learning technologies. We explore design tradeoffs to better support the usability needs of older adults compared to current design optimizations driven by efficiency and privacy goals.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "While commercial conversational agents (CA) (i.e. Google Assistant, Siri, Alexa) are widely used, these systems have limitations in error-handling, flexibility, personalization, and overall dialogue management that are amplified in care coordination settings.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "commercial conversational agents (CA)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "are widely used, these systems have limitations in error-handling, flexibility, personalization, and overall dialogue management"
+            ],
+            "Purpose": [
+              "amplified in care coordination settings"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we synthesize and articulate these limitations through quantitative and qualitative analysis of 56 older adults interacting with a commercial CA deployed in their home for a 10-week period. We look at the CA as a compensatory technology in an older adult's care network. We argue that the CA limitations are rooted in the rigid cue-and-response style of task-oriented interactions common in CAs. We then propose a redesign for CA conversation flow to favor flexibility and personalization that is nonetheless viable within the limitations of current AI and machine learning technologies. We explore design tradeoffs to better support the usability needs of older adults compared to current design optimizations driven by efficiency and privacy goals.",
+          "Main Action": "synthesize and articulate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these limitations"
+              ],
+              "Secondary Object": [
+                "through quantitative and qualitative analysis of 56 older adults interacting with a commercial CA deployed in their home for a 10-week period"
+              ]
+            },
+            "Context": [
+              "in this paper"
+            ],
+            "Purpose": [
+              "to look at the CA as a compensatory technology in an older adult's care network"
+            ],
+            "Method": [
+              "quantitative and qualitative analysis"
+            ],
+            "Results": [
+              "argue that the CA limitations are rooted in the rigid cue-and-response style of task-oriented interactions common in CAs"
+            ],
+            "Analysis": [
+              "then propose a redesign for CA conversation flow to favor flexibility and personalization that is nonetheless viable within the limitations of current AI and machine learning technologies"
+            ],
+            "Challenge": [
+              "explore design tradeoffs to better support the usability needs of older adults compared to current design optimizations driven by efficiency and privacy goals"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "better support the usability needs of older adults compared to current design optimizations driven by efficiency and privacy goals"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

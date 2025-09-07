@@ -1,0 +1,334 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_725",
+      "abstract": "Backdoor attacks have become an emerging threat to NLP systems. By providing poisoned training data, the adversary can embed a “backdoor” into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary’s choice. In this paper, we demonstrate that it is possible to design a backdoor attack that is both stealthy (i.e., hard to notice) and effective (i.e., has a high attack success rate). We propose BITE, a backdoor attack that poisons the training data to establish strong correlations between the target label and a set of “trigger words”. These trigger words are iteratively identified and injected into the target-label instances through natural word-level perturbations. The poisoned training data instruct the victim model to predict the target label on inputs containing trigger words, forming the backdoor. Experiments on four text classification datasets show that our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness, raising alarm on the usage of untrusted training data. We further propose a defense method named DeBITE based on potential trigger word removal, which outperforms existing methods in defending against BITE and generalizes well to handling other backdoor attacks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Backdoor attacks have become an emerging threat to NLP systems. By providing poisoned training data, the adversary can embed a “backdoor” into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary’s choice.",
+          "Main Action": "can",
+          "Arguments": {
+            "Agent": [
+              "The adversary"
+            ],
+            "Object": {
+              "Primary Object": [
+                "poisoned training data"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "\"Backdoor attacks represent an emerging threat to NLP systems.\""
+            ],
+            "Purpose": [
+              "\"By providing poisoned training data, the adversary can embed a \"backdoor\" into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary’s choice.\""
+            ],
+            "Method": [
+              "\"None specified in the text\""
+            ],
+            "Results": [
+              "\"None specified in the text\""
+            ],
+            "Analysis": [
+              "\"None specified in the text\""
+            ],
+            "Challenge": [
+              "\"None specified in the text\""
+            ],
+            "Ethical": [
+              "\"None specified in the text\""
+            ],
+            "Implications": [
+              "\"None specified in the text\""
+            ],
+            "Contradictions": [
+              "\"None specified in the text\""
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we demonstrate that it is possible to design a backdoor attack that is both stealthy (i.e., hard to notice) and effective (i.e., has a high attack success rate). We propose BITE, a backdoor attack that poisons the training data to establish strong correlations between the target label and a set of “trigger words”. These trigger words are iteratively identified and injected into the target-label instances through natural word-level perturbations. The poisoned training data instruct the victim model to predict the target label on inputs containing trigger words, forming the backdoor.",
+          "Main Action": "We propose to design",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "BITE, a backdoor attack that poisons the training data to establish strong correlations between the target label and a set of 'trigger words'."
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "There exists a growing interest in understanding and defending against adversarial examples, especially in deep learning-based systems across various domains.",
+              "Despite recent advances in detecting adversarial examples, developing robust defenses capable of countering sophisticated attacks remains challenging.",
+              "Backdoor attacks represent a potent form of evasion where attackers plant imperceptible modifications in legitimate inputs to influence a model's decision-making process."
+            ],
+            "Purpose": [
+              "To address the challenge of developing robust defenses against backdoor attacks by introducing a novel method that achieves both stealthiness and effectiveness."
+            ],
+            "Method": [
+              "Iterative injection of trigger words into target-label instances through natural word-level perturbations to poison the training data."
+            ],
+            "Results": [
+              "They successfully demonstrate that BITE enables the creation of highly effective backdoor attacks that are difficult to detect while maintaining high attack success rates despite minimal alterations to the training dataset."
+            ],
+            "Analysis": [
+              "The effectiveness stems from exploiting the model's ability to correlate certain features with class predictions while ensuring the modifications remain imperceptible to humans."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Their work highlights vulnerabilities in current deep learning systems and underscores the importance of developing adaptive defense mechanisms against evolving adversarial threats."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments on four text classification datasets show that our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness, raising alarm on the usage of untrusted training data.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experiments on four text classification datasets"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We further propose a defense method named DeBITE based on potential trigger word removal, which outperforms existing methods in defending against BITE and generalizes well to handling other backdoor attacks.",
+          "Main Action": "further propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a defense method named DeBITE based on potential trigger word removal"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "which outperforms existing methods in defending against BITE and generalizes well to handle other backdoor attacks"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "potential trigger word removal"
+            ],
+            "Results": [
+              "DeBITE outperforms existing methods in defending against BITE and generalizes well to handle other backdoor attacks"
+            ],
+            "Analysis": [
+              "The effectiveness stems from the removal of potential triggers which helps in mitigating vulnerability issues effectively"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "[No implication provided in the text]",
+              "[No implication provided in the text]"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_702",
+      "abstract": "Similes play an imperative role in creative writing such as story and dialogue generation. Proper evaluation metrics are like a beacon guiding the research of simile generation (SG). However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation. To address the issues, we establish HAUSER, a holistic and automatic evaluation system for the SG task, which consists of five criteria from three perspectives and automatic metrics for each criterion. Through extensive experiments, we verify that our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Similes play an imperative role in creative writing such as story and dialogue generation. Proper evaluation metrics are like a beacon guiding the research of simile generation (SG). However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation.",
+          "Main Action": "proper evaluation metrics",
+          "Arguments": {
+            "Agent": [
+              "researchers studying simile generation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "factors influencing proper evaluation metrics"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable sg evaluation."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Factors influencing proper evaluation metrics include comprehensiveness, efficiency, and reliability, but their quantification and applicability vary depending on the scenario."
+            ],
+            "Challenge": [
+              "Under-explored nature leads to challenges in selecting appropriate criteria and developing effective metrics across diverse contexts."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Understanding these challenges paves the way for better design of evaluation metrics tailored to specific scenarios within simile generation."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To address the issues, we establish HAUSER, a holistic and automatic evaluation system for the SG task, which consists of five criteria from three perspectives and automatic metrics for each criterion.",
+          "Main Action": "establish",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "HAUSER, a holistic and automatic evaluation system for the SG task"
+              ],
+              "Secondary Object": [
+                "five criteria from three perspectives and automatic metrics for each criterion"
+              ]
+            },
+            "Context": [
+              "to address the issues"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through extensive experiments, we verify that our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics.",
+          "Main Action": "are significantly more correlated",
+          "Arguments": {
+            "Agent": [
+              "our metrics"
+            ],
+            "Object": {
+              "Primary Object": [
+                "with human ratings from each perspective compared with prior automatic metrics"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "through extensive experiments"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

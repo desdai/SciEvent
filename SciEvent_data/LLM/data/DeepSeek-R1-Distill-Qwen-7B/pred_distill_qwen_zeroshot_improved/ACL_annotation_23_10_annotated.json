@@ -1,0 +1,290 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_312",
+      "abstract": "Event schemas are a form of world knowledge about the typical progression of events. Recent methods for event schema induction use information extraction systems to construct a large number of event graph instances from documents, and then learn to generalize the schema from such instances. In contrast, we propose to treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs). This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way. Since event schemas have complex graph structures, we design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification. Compared to directly using LLMs to generate a linearized graph, IncSchema can generate large and complex schemas with 7.2% F1 improvement in temporal relations and 31.0% F1 improvement in hierarchical relations. In addition, compared to the previous state-of-the-art closed-domain schema induction model, human assessors were able to cover ~10% more events when translating the schemas into coherent stories and rated our schemas 1.3 points higher (on a 5-point scale) in terms of readability.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Event schemas are a form of world knowledge about the typical progression of events. Recent methods for event schema induction use information extraction systems to construct a large number of event graph instances from documents, and then learn to generalize the schema from such instances.",
+          "Main Action": "use",
+          "Arguments": {
+            "Agent": [
+              "recent methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "information extraction systems"
+              ],
+              "Secondary Object": [
+                "event graph instances"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "information extraction systems"
+            ],
+            "Results": [
+              "then learn to generalize the schema from such instances."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In contrast, we propose to treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs). This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way. Since event schemas have complex graph structures, we design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way"
+            ],
+            "Purpose": [
+              "aimed towards improving relational reasoning via graph-based representations"
+            ],
+            "Method": [
+              "design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enables the development of advanced AI systems capable of understanding and manipulating complex relational structures effectively"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Compared to directly using LLMs to generate a linearized graph, IncSchema can generate large and complex schemas with 7.2% F1 improvement in temporal relations and 31.0% F1 improvement in hierarchical relations. In addition, compared to the previous state-of-the-art closed-domain schema induction model, human assessors were able to cover ~10% more events when translating the schemas into coherent stories and rated our schemas 1.3 points higher (on a 5-point scale) in terms of readability.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_550",
+      "abstract": "Large language models (LLMs) have been widely studied for their ability to store and utilize positive knowledge. However, negative knowledge, such as “lions don’t live in the ocean”, is also ubiquitous in the world but rarely mentioned explicitly in text. What do LLMs know about negative knowledge?This work examines the ability of LLMs on negative commonsense knowledge. We design a constrained keywords-to-sentence generation task (CG) and a Boolean question answering task (QA) to probe LLMs. Our experiments reveal that LLMs frequently fail to generate valid sentences grounded in negative commonsense knowledge, yet they can correctly answer polar yes-or-no questions. We term this phenomenon the belief conflict of LLMs. Our further analysis shows that statistical shortcuts and negation reporting bias from language modeling pre-training cause this conflict.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Large language models (LLMs) have been widely studied for their ability to store and utilize positive knowledge. However, negative knowledge, such as “lions don’t live in the ocean”, is also ubiquitous in the world but rarely mentioned explicitly in text. What do LLMs know about negative knowledge?This work examines the ability of LLMs on negative commonsense knowledge.",
+          "Main Action": "examinetheircapability",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "whether large language models can store and utilize negative knowledge"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Prior studies have focused mainly on positive knowledge, leaving negative knowledge less understood despite its ubiquity.",
+              "This work aims to address the gap in exploring LLMs' ability to handle negative common sense knowledge."
+            ],
+            "Purpose": [
+              "To investigate whether large language models can effectively process and store negative knowledge."
+            ],
+            "Method": [
+              "Experiments conducted to assess LLMs' capabilities in recognizing and utilizing negative knowledge."
+            ],
+            "Results": [
+              "Initial tests revealed mixed success rates depending on the complexity of the negative knowledge presented."
+            ],
+            "Analysis": [
+              "Discussions among experts highlighted the importance of improving LLMs' understanding of negative knowledge for real-world applications."
+            ],
+            "Challenge": [
+              "Identifying reliable metrics to evaluate LLMs' proficiency in handling nuanced negative knowledge."
+            ],
+            "Ethical": [
+              "No explicit ethical considerations were raised in the abstract."
+            ],
+            "Implications": [
+              "Understanding negative knowledge may lead to improvements in error correction mechanisms within AI systems."
+            ],
+            "Contradictions": [
+              "There is no mention of contradictions or differing opinions in the abstract."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We design a constrained keywords-to-sentence generation task (CG) and a Boolean question answering task (QA) to probe LLMs.",
+          "Main Action": "design",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "CG and QA tasks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "while exploring ways to better understand large language models (llms)",
+              "we create a constrained keywords-to-sentence generation task"
+            ],
+            "Purpose": [
+              "To investigate novel methods for assessing llm reasoning and comprehension capabilities"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our experiments reveal that LLMs frequently fail to generate valid sentences grounded in negative commonsense knowledge, yet they can correctly answer polar yes-or-no questions. We term this phenomenon the belief conflict of LLMs. Our further analysis shows that statistical shortcuts and negation reporting bias from language modeling pre-training cause this conflict.",
+          "Main Action": "reveal",
+          "Arguments": {
+            "Agent": [
+              "Our experiments"
+            ],
+            "Object": {
+              "Primary Object": [
+                "That LLMs frequently fail to generate valid sentences grounded in negative commonsense knowledge"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Yet they can correctly answer polar yes-or-no questions.",
+              "We term this phenomenon the belief conflict of LLMs."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Our further analysis shows that statistical shortcuts and negation reporting bias from language modeling pre-training cause this conflict."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

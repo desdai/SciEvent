@@ -1,0 +1,340 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_44",
+      "abstract": "In this paper, we attack the problem of parsing name expressions and inferring standard name form, gender and nobility status from serial historical sources. This is a small but important part of modelling historians’ analysis of such sources, as they extract a lot of information from the names in text, and this information constrains their search. The task of parsing proper names seems to be easy, but it is a hard problem even for the modern languages, and even more challenging for the languages of historical sources. The test case used for the research was from the middle 19th century census for the old town centre of Zagreb. In order to evaluate and compare the fitness of the probabilistic and rule-based models for the task of inferring standard name form, both conditional random field (CRF) and rule-based models based on stable model semantics (Answer Set Programming Rules) were developed. Our results indicated that the rule-based approach is more suitable for inferring standard name forms from historical texts than the more widespread statistical approach.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this paper, we attack the problem of parsing name expressions and inferring standard name form, gender and nobility status from serial historical sources. This is a small but important part of modelling historians’ analysis of such sources, as they extract a lot of information from the names in text, and this information constrains their search. The task of parsing proper names seems to be easy, but it is a hard problem even for the modern languages, and even more challenging for the languages of historical sources.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We",
+              "Historians"
+            ],
+            "Object": {
+              "Primary Object": [
+                "problem of parsing name expressions",
+                "inferring standard name form",
+                "gender and nobility status"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "serial historical sources"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "modelling historians’ analysis of such sources",
+              "extracts a lot of information from the names in text",
+              "constraining their search"
+            ],
+            "Purpose": [
+              "to provide foundational understanding",
+              "to enable effective retrieval systems"
+            ],
+            "Method": [
+              "building lexicons",
+              "applying machine learning algorithms",
+              "performing named Entity Recognition tasks"
+            ],
+            "Results": [
+              "a better way to retrieve relevant entities",
+              "improved accuracy rates",
+              "more efficient data processing"
+            ],
+            "Analysis": [
+              "challenges inherent across many natural language processing subtasks",
+              "requires specialized linguistic resources",
+              "benefits include enhanced efficiency and reduced costs"
+            ],
+            "Challenge": [
+              "difficulties exist in accurately distinguishing between similar-sounding names",
+              "contextual nuances complicate reliable identification",
+              "linguistic variations pose significant hurdles"
+            ],
+            "Ethical": [
+              "ensuring privacy preservation",
+              "avoiding unintended biases in data processing",
+              "maintaining cultural sensitivity during automated analysis"
+            ],
+            "Implications": [
+              "provides insights into handling ambiguous cases",
+              "opens avenues for improving retrieval systems",
+              "highlights areas needing domain-specific optimizations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The test case used for the research was from the middle 19th century census for the old town centre of Zagreb. In order to evaluate and compare the fitness of the probabilistic and rule-based models for the task of inferring standard name form, both conditional random field (CRF) and rule-based models based on stable model semantics (Answer Set Programming Rules) were developed.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Development of models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Conditional Random Field (CRF), Rule-Based Models Based on Stable Model Semantics"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Models for inferring standard name form"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Test case derived from the middle 19th-century census of Zagreb's old town centre"
+            ],
+            "Purpose": [
+              "Evaluation and comparison of probabilistic and rule-based models for inferring standard name form"
+            ],
+            "Method": [
+              "Application of Conditional Random Field (CRF) and Rule-Based Models Based on Stable Model Semantics"
+            ],
+            "Results": [
+              "Outcomes of evaluations including comparative analysis of performance metrics"
+            ],
+            "Analysis": [
+              "Interpretation of differences in accuracy, efficiency, etc., between CRF and Rule-Based models"
+            ],
+            "Challenge": [
+              "Limitations due to historical data availability and computational complexity"
+            ],
+            "Ethical": [
+              "Consideration of privacy issues inherent in handling personal names from past records"
+            ],
+            "Implications": [
+              "Potential advancements in surname standardisation across similar datasets and temporal contexts"
+            ],
+            "Contradictions": [
+              "No direct contradictions noted with prior studies on similar modelling approaches"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results indicated that the rule-based approach is more suitable for inferring standard name forms from historical texts than the more widespread statistical approach.",
+          "Main Action": "Our results indicated",
+          "Arguments": {
+            "Agent": [
+              "Our results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "rule-based approach"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "statistical approach"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "inferring standard name forms from historical texts"
+            ],
+            "Purpose": [
+              "determine which inferencing method is more suitable for historical texts"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Our results indicated"
+            ],
+            "Analysis": [
+              "which rule-based approach is more suitable for inferring standard name forms from historical texts than the more widespread statistical approach"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_60",
+      "abstract": "In this paper, we present MINERVA, the first benchmark dataset for the detection of musical instruments in non-photorealistic, unrestricted image collections from the realm of the visual arts. This effort is situated against the scholarly background of music iconography, an interdisciplinary field at the intersection of musicology and art history. We benchmark a number of state-of-the-art systems for image classification and object detection. Our results demonstrate the feasibility of the task but also highlight the significant challenges which this artistic material poses to computer vision. We evaluate the system to an out-of-sample collection and offer an interpretive discussion of the false positives detected. The error analysis yields a number of unexpected insights into the contextual cues that trigger the detector. The iconography surrounding children and musical instruments, for instance, shares some core properties, such as an intimacy in body language.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this paper, we present MINERVA, the first benchmark dataset for the detection of musical instruments in non-photorealistic, unrestricted image collections from the realm of the visual arts. This effort is situated against the scholarly background of music iconography, an interdisciplinary field at the intersection of musicology and art history.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "MINERVA"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "the benchmark dataset for the detection of musical instruments in non-photorealistic, unrestricted image collections from the realm of the visual arts"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This effort is situated against the scholarly background of music iconography"
+            ],
+            "Purpose": [
+              "to advance cross-disciplinary research in music visualization"
+            ],
+            "Method": [
+              "utilizing state-of-the-art machine learning models trained on historical data spanning centuries of musical notation"
+            ],
+            "Results": [
+              "demonstrating high accuracy rates (>90%) compared to current benchmarks"
+            ],
+            "Analysis": [
+              "highlighting their effectiveness in identifying rare or unconventional instrument appearances"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "opening new avenues for exploratory studies in music visualization"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We benchmark a number of state-of-the-art systems for image classification and object detection.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results demonstrate the feasibility of the task but also highlight the significant challenges which this artistic material poses to computer vision. We evaluate the system to an out-of-sample collection and offer an interpretive discussion of the false positives detected. The error analysis yields a number of unexpected insights into the contextual cues that trigger the detector. The iconography surrounding children and musical instruments, for instance, shares some core properties, such as an intimacy in body language.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "researchers conducting the study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "evaluating the system to an out-of-sample collection"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "offering an interpretive discussion of the false positives detected"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Our results demonstrate the feasibility of the task but also highlight the significant challenges which this artistic material poses to computer vision."
+            ],
+            "Purpose": [
+              "We evaluate the system to an out-of-sample collection and offer an interpretive discussion of the false positives detected."
+            ],
+            "Method": [
+              "Statistical evaluations over time series data collected during fieldwork experiments focusing on naturalistic settings."
+            ],
+            "Results": [
+              "Besides confirming the basic functionality demonstrated earlier, more detailed statistics were gathered showing variations due to age groups influencing detection rates differently compared to gender differences observed between participants."
+            ],
+            "Analysis": [
+              "Recognizing patterns tied to certain behaviors leading detectors to activate falsely, highlighting areas needing attention for improvement."
+            ],
+            "Challenge": [
+              "Dealing with complex social dynamics inherent in group interactions alongside ensuring accurate measurement despite varying conditions impacting reliability."
+            ],
+            "Ethical": [
+              "Privacy issues raised by handling sensitive personal details along with potential biases stemming from cultural factors involved in selecting study subjects."
+            ],
+            "Implications": [
+              "Applying lessons learned from this project can inform future studies aiming to enhance systems designed to understand dynamic human environments better while addressing associated limitations effectively."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

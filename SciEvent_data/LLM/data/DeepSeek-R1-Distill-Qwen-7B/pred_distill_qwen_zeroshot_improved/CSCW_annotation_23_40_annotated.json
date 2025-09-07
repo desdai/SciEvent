@@ -1,0 +1,337 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_187",
+      "abstract": "This paper combines design, machine learning and social computing to explore generative deep learning as both tool and probe for respiratory care. We first present GANspire, a deep learning tool that generates fine-grained breathing waveforms, which we crafted in collaboration with one respiratory physician, attending to joint materialities of human breathing data and deep generative models. We then relate a probe, produced with breathing waveforms generated with GANspire, and led with a group of ten respiratory care experts, responding to its material attributes. Qualitative annotations showed that respiratory care experts interpreted both realistic and ambiguous attributes of breathing waveforms generated with GANspire, according to subjective aspects of physiology, activity and emotion. Semi-structured interviews also revealed experts' broader perceptions, expectations and ethical concerns on AI technology, based on their clinical practice of respiratory care, and reflexive analysis of GANspire. These findings suggest design implications for technological aids in respiratory care, and show how ambiguity of deep generative models can be leveraged as a resource for qualitative inquiry, enabling socio-material research with generative deep learning. Our paper contributes to the CSCW community by broadening how generative deep learning may be approached not only as a tool to design human-computer interactions, but also as a probe to provoke open conversations with communities of practice about their current and speculative uses of AI technology.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper combines design, machine learning and social computing to explore generative deep learning as both tool and probe for respiratory care.",
+          "Main Action": "combines",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This paper combines design, machine learning and social computing"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Design theory",
+              "Machine learning algorithms",
+              "Social computing models"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We first present GANspire, a deep learning tool that generates fine-grained breathing waveforms, which we crafted in collaboration with one respiratory physician, attending to joint materialities of human breathing data and deep generative models. We then relate a probe, produced with breathing waveforms generated with GANspire, and led with a group of ten respiratory care experts, responding to its material attributes. Qualitative annotations showed that respiratory care experts interpreted both realistic and ambiguous attributes of breathing waveforms generated with GANspire, according to subjective aspects of physiology, activity and emotion. Semi-structured interviews also revealed experts' broader perceptions, expectations and ethical concerns on AI technology, based on their clinical practice of respiratory care, and reflexive analysis of GANspire.",
+          "Main Action": "GANspire",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Breathing waveforms generated with GANspire"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In collaboration with one respiratory physician and attended to joint materialities of human breathing data and deep generative models."
+            ],
+            "Purpose": [
+              "To generate fine-grained breathing waveforms"
+            ],
+            "Method": [
+              "Deep learning approach combining human breathing data and deep generative models"
+            ],
+            "Results": [
+              "Qualitative annotations indicated realistic and ambiguous attributes were interpreted according to subjective aspects of physiology, activity, and emotion."
+            ],
+            "Analysis": [
+              "Semi-structured interviews highlighted broader perceptions, expectations, and ethical concerns on AI technology."
+            ],
+            "Challenge": [
+              "Ensuring model generalizability across diverse patient populations and addressing ethical concerns regarding AI bias and informed consent."
+            ],
+            "Ethical": [
+              "Issues raised included ethical considerations and algorithmic bias affecting medical decisions."
+            ],
+            "Implications": [
+              "Potential for revolutionizing patient assessment and treatment plans in respiratory care."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "These findings suggest design implications for technological aids in respiratory care, and show how ambiguity of deep generative models can be leveraged as a resource for qualitative inquiry, enabling socio-material research with generative deep learning.",
+          "Main Action": "show how",
+          "Arguments": {
+            "Agent": [
+              "These findings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design implications for technological aids in respiratory care"
+              ],
+              "Secondary Object": [
+                "ambiguity of deep generative models",
+                "qualitative inquiry",
+                "socio-material research",
+                "generative deep learning"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our paper contributes to the CSCW community by broadening how generative deep learning may be approached not only as a tool to design human-computer interactions, but also as a probe to provoke open conversations with communities of practice about their current and speculative uses of AI technology.",
+          "Main Action": "approach",
+          "Arguments": {
+            "Agent": [
+              "our team"
+            ],
+            "Object": {
+              "Primary Object": [
+                "generative deep learning"
+              ],
+              "Secondary Object": [
+                "provoking open conversations"
+              ]
+            },
+            "Context": [
+              "Our paper contributes to the CSCW community"
+            ],
+            "Purpose": [
+              "to broaden how generative deep learning may be approached"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_65",
+      "abstract": "Explainable AI (XAI) systems are sociotechnical in nature; thus, they are subject to the sociotechnical gap — divide between the technical affordances and the social needs. However, charting this gap is challenging. In the context of XAI, we argue that charting the gap improves our problem understanding, which can reflexively provide actionable insights to improve explainability. Utilizing two case studies in distinct domains, we empirically derive a framework that facilitates systematic charting of the sociotechnical gap by connecting AI guidelines in the context of XAI and elucidating how to use them to address the gap. We apply the framework to a third case in a new domain, showcasing its affordances. Finally, we discuss conceptual implications of the framework, share practical considerations in its operationalization, and offer guidance on transferring it to new contexts. By making conceptual and practical contributions to understanding the sociotechnical gap in XAI, the framework expands the XAI design space.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Explainable AI (XAI) systems are sociotechnical in nature; thus, they are subject to the sociotechnical gap — divide between the technical affordances and the social needs. However, charting this gap is challenging. In the context of XAI, we argue that charting the gap improves our problem understanding, which can reflexively provide actionable insights to improve explainability.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Utilizing two case studies in distinct domains, we empirically derive a framework that facilitates systematic charting of the sociotechnical gap by connecting AI guidelines in the context of XAI and elucidating how to use them to address the gap. We apply the framework to a third case in a new domain, showcasing its affordances.",
+          "Main Action": "We empirically derive",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a framework"
+              ],
+              "Secondary Object": [
+                "the sociotechnical gap concerning XAI"
+              ]
+            },
+            "Context": [
+              "using two case studies in distinct domains"
+            ],
+            "Purpose": [
+              "systematically charting the sociotechnical gap by connecting AI guidelines in the context of XAI and elaborating how to use them to address the gap"
+            ],
+            "Method": [
+              "empirical derivation and application to a third case in a new domain"
+            ],
+            "Results": [
+              "demonstrates its effectiveness"
+            ],
+            "Analysis": [
+              "understanding why the framework works"
+            ],
+            "Challenge": [
+              "challenges faced during integration of diverse domains or balancing technical and societal aspects"
+            ],
+            "Ethical": [
+              "ethical considerations arising from the nature of explaining AI decision-making processes"
+            ],
+            "Implications": [
+              "broader impact on future research and practice in analyzing similar gaps"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, we discuss conceptual implications of the framework, share practical considerations in its operationalization, and offer guidance on transferring it to new contexts. By making conceptual and practical contributions to understanding the sociotechnical gap in XAI, the framework expands the XAI design space.",
+          "Main Action": "expanding",
+          "Arguments": {
+            "Agent": [
+              "the framework"
+            ],
+            "Object": {
+              "Primary Object": [
+                "XAI design space"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "understanding the sociotechnical gap in XAI"
+            ],
+            "Purpose": [
+              "advancing AI explainability methods"
+            ],
+            "Method": [
+              "theoretical analysis and case studies"
+            ],
+            "Results": [
+              "expanding the XAI design space"
+            ],
+            "Analysis": [
+              "interpretation of societal and technical impacts"
+            ],
+            "Challenge": [
+              "methodological limitations affecting applicability"
+            ],
+            "Ethical": [
+              "concerns over algorithmic bias and transparency"
+            ],
+            "Implications": [
+              "broader applications in various domains"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

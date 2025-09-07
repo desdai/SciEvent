@@ -1,0 +1,332 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_540",
+      "abstract": "Reusing off-the-shelf code snippets from online repositories is a common practice, which significantly enhances the productivity of software developers. To find desired code snippets, developers resort to code search engines through natural language queries. Neural code search models are hence behind many such engines. These models are based on deep learning and gain substantial attention due to their impressive performance. However, the security aspect of these models is rarely studied. Particularly, an adversary can inject a backdoor in neural code search models, which return buggy or even vulnerable code with security/privacy issues. This may impact the downstream software (e.g., stock trading systems and autonomous driving) and cause financial loss and/or life-threatening incidents. In this paper, we demonstrate such attacks are feasible and can be quite stealthy. By simply modifying one variable/function name, the attacker can make buggy/vulnerable code rank in the top 11%. Our attack BADCODE features a special trigger generation and injection procedure, making the attack more effective and stealthy. The evaluation is conducted on two neural code search models and the results show our attack outperforms baselines by 60%. Our user study demonstrates that our attack is more stealthy than the baseline by two times based on the F1 score.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Reusing off-the-shelf code snippets from online repositories is a common practice, which significantly enhances the productivity of software developers. To find desired code snippets, developers resort to code search engines through natural language queries. Neural code search models are hence behind many such engines. These models are based on deep learning and gain substantial attention due to their impressive performance. However, the security aspect of these models is rarely studied. Particularly, an adversary can inject a backdoor in neural code search models, which return buggy or even vulnerable code with security/privacy issues. This may impact the downstream software (e.g., stock trading systems and autonomous driving) and cause financial loss and/or life-threatening incidents.",
+          "Main Action": "resort",
+          "Arguments": {
+            "Agent": [
+              "developers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "code snippets"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "may impact the downstream software"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "an adversary can inject a backdoor"
+            ],
+            "Ethical": [
+              "security/privacy issues"
+            ],
+            "Implications": [
+              "financial loss and/or life-threatening incidents"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we demonstrate such attacks are feasible and can be quite stealthy. By simply modifying one variable/function name, the attacker can make buggy/vulnerable code rank in the top 11%. Our attack BADCODE features a special trigger generation and injection procedure, making the attack more effective and stealthy.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "such attacks"
+              ],
+              "Secondary Object": [
+                "are feasible"
+              ]
+            },
+            "Context": [
+              "in this paper"
+            ],
+            "Purpose": [
+              "to show feasibility"
+            ],
+            "Method": [
+              "by modifying one variable/function name"
+            ],
+            "Results": [
+              "can be quite stealthy"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "making the attack more effective and stealthy"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "BADCODE features a special trigger generation and injection procedure"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The evaluation is conducted on two neural code search models and the results show our attack outperforms baselines by 60%. Our user study demonstrates that our attack is more stealthy than the baseline by two times based on the F1 score.",
+          "Main Action": "conducts",
+          "Arguments": {
+            "Agent": [
+              "evaluation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "two neural code search models"
+              ],
+              "Secondary Object": [
+                "baselines"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "our attack outperforms baselines by 60%",
+              "our attack is more stealthy than the baseline by two times based on the F1 score"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_835",
+      "abstract": "To prevent the costly and inefficient use of resources on low-quality annotations, we want a method for creating a pool of dependable annotators who can effectively complete difficult tasks, such as evaluating automatic summarization. Thus, we investigate the recruitment of high-quality Amazon Mechanical Turk workers via a two-step pipeline. We show that we can successfully filter out subpar workers before they carry out the evaluations and obtain high-agreement annotations with similar constraints on resources. Although our workers demonstrate a strong consensus among themselves and CloudResearch workers, their alignment with expert judgments on a subset of the data is not as expected and needs further training in correctness. This paper still serves as a best practice for the recruitment of qualified annotators in other challenging annotation tasks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "To prevent the costly and inefficient use of resources on low-quality annotations, we want a method for creating a pool of dependable annotators who can effectively complete difficult tasks, such as evaluating automatic summarization.",
+          "Main Action": "want",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a method"
+              ],
+              "Secondary Object": [
+                "for creating a pool of dependable annotators"
+              ]
+            },
+            "Context": [
+              "to prevent the costly and inefficient use of resources on low-quality annotations"
+            ],
+            "Purpose": [
+              "evaluating automatic summarization"
+            ],
+            "Method": [
+              "creating a pool of dependable annotators"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "who can effectively complete difficult tasks"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Thus, we investigate the recruitment of high-quality Amazon Mechanical Turk workers via a two-step pipeline. We show that we can successfully filter out subpar workers before they carry out the evaluations and obtain high-agreement annotations with similar constraints on resources.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "recruitment of high-quality Amazon Mechanical Turk workers"
+              ],
+              "Secondary Object": [
+                "two-step pipeline"
+              ]
+            },
+            "Context": [
+              "via a two-step pipeline"
+            ],
+            "Purpose": [
+              "successfully filter out subpar workers before they carry out the evaluations and obtain high-agreement annotations with similar constraints on resources"
+            ],
+            "Method": [
+              "a two-step pipeline"
+            ],
+            "Results": [
+              "obtain high-agreement annotations with similar constraints on resources"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "similar constraints on resources"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "high-agreement annotations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Although our workers demonstrate a strong consensus among themselves and CloudResearch workers, their alignment with expert judgments on a subset of the data is not as expected and needs further training in correctness.",
+          "Main Action": "needs",
+          "Arguments": {
+            "Agent": [
+              "their alignment"
+            ],
+            "Object": {
+              "Primary Object": [
+                "further training in correctness"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "on a subset of the data"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "not as expected"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This paper still serves as a best practice for the recruitment of qualified annotators in other challenging annotation tasks.",
+          "Main Action": "serves",
+          "Arguments": {
+            "Agent": [
+              "annotators"
+            ],
+            "Object": {
+              "Primary Object": [
+                "other challenging annotation tasks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "best practice"
+            ],
+            "Purpose": [
+              "for the recruitment"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

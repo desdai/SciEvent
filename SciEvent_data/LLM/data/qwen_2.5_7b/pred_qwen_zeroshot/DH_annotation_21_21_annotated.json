@@ -1,0 +1,334 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_24",
+      "abstract": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way. From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge. As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way.",
+          "Main Action": "<SHOW THAT>",
+          "Arguments": {
+            "Agent": [
+              "WE"
+            ],
+            "Object": {
+              "Primary Object": [
+                "SYMMETRIC COMPACTED DIRECTED ACYCLIC WORD GRAPHS (SCDAWGS)",
+                "A REFINEMENT OF SUFFIX TREES"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "CORPUS EXPLORE TASKS",
+                "ANSWER MANY OF THE QUESTIONS RAISED IN DH RESEARCH"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "WITH SUITABLE INDEX STRUCTURES MANY CORPUS EXPLOSION TASK CAN BE SOLVED IN AN EFFICIENT WAY WITHOUT RESCANING THE TEXT REPOSITORY IN AN ONLINE MANNER"
+            ],
+            "Purpose": [
+              "HELPING TO ANSWER MANY OF THE QUESTIONS RAISED IN DH RESEARCH IN AN ELEGANT WAY"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "OFFER AN IDEAL BASIS FOR CORPUS EXPLORE"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "SCDAWGs"
+            ],
+            "Object": {
+              "Primary Object": [
+                "index"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "similarities",
+                "differences",
+                "texts",
+                "phrases and concept names",
+                "their relationships"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "simplified point of view"
+            ],
+            "Purpose": [
+              "offer a joint view on the similarities (in terms of common substrings) and differences between all text",
+              "mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge"
+            ],
+            "Method": [
+              "linear computation time",
+              "structural regularities of the index"
+            ],
+            "Results": [
+              "none explicitly mentioned"
+            ],
+            "Analysis": [
+              "none explicitly mentioned"
+            ],
+            "Challenge": [
+              "none explicitly mentioned"
+            ],
+            "Ethical": [
+              "none explicitly mentioned"
+            ],
+            "Implications": [
+              "none explicitly mentioned"
+            ],
+            "Contradictions": [
+              "none explicitly mentioned"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "text alignment",
+                "text reuse in distinct texts or between distinct authors",
+                "automated detection of concepts",
+                "temporal distribution of phrases in diachronic corpora",
+                "related problems"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "as a demonstration of the power of these principles"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_41",
+      "abstract": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation. It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results. The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution, and the dangers in assuming that such human entailments are native to digital computers.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation.",
+          "Main Action": "bring forward",
+          "Arguments": {
+            "Agent": [
+              "this article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "results from a collaborative research project"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "contemporary computing techniques to investigate Giovanni Morelli's nineteenth-century method for making stylistic attributions of old master paintings"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "using contemporary computing techniques to investigate Giovanni Morelli's nineteenth-century method for making stylistic attributions of old master paintings"
+            ],
+            "Purpose": [
+              "examine how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation"
+            ],
+            "Method": [
+              "collaborative research project using contemporary computing techniques"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "interpreting the results"
+            ],
+            "Challenge": [
+              "modellability or mechanizability of the process within the context of classical, deterministic, digital computation"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research on how humanist processes might interact with computational methods"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results.",
+          "Main Action": "presents",
+          "Arguments": {
+            "Agent": [
+              "our own computational techniques and results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "results"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "computational techniques"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "an explanation of the rationale behind choosing the Morellian practice of attribution, "
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "computationally implementing Morelli's method"
+            ],
+            "Results": [
+              "our own computational techniques and results"
+            ],
+            "Analysis": [
+              "explains the rationale behind choosing the Morellian practice of attribution"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution. It discusses the dangers in assuming that such human entailments are native to digital computers.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "What we have come to understand"
+            ],
+            "Object": {
+              "Primary Object": [
+                "roles of responsibility, trust, and expertise in the social practice of art attribution"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "dangers in assuming that such human entailments are native to digital computers"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "concludes with"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "discusses"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_67",
+      "abstract": "In late fall 1965, John Kemeny wrote a 239-line BASIC program called FTBALL. Along with his colleague Thomas Kurtz and a few work-study students at Dartmouth College, Kemeny had developed the BASIC programming language and Dartmouth Time-Sharing System (DTSS). BASIC and DTSS represented perhaps the earliest successful attempt at “computer programming for all,” combining English-language vocabulary, simple yet robust instructions, and near-realtime access to a mainframe computer. This article takes a closer look at FTBALL as a crucial program in the history of “programming for all” while gesturing to the tension between a conception of “all” and FTBALL's context in an elite, all-male college in the mid-1960s. I put FTBALL in a historical, cultural, gendered context of “programming for all” as well as the historical context of programming language development, timesharing technology, and the hardware and financial arrangements necessary to support this kind of playful, interactive program in 1965. I begin with a short history of BASIC's early development, compare FTBALL with other early games and sports games, then move into the hardware and technical details that enabled the code before finally reading FTBALL's code in detail. Using methods from critical code studies (Marino 2020), I point to specific innovations of BASIC at the time and outline the program flow of FTBALL. This history and code reading of BASIC FTBALL provides something of interest to computing historians, critical code studies practitioners, and games scholars and aficionados.",
+      "events": [
+        {
+          "Background/Introduction": "Closer look at FTBALL as an important program",
+          "Text": "In late fall 1965, John Kemeny wrote a 239-line BASIC program called FTBALL. Along with his colleague Thomas Kurtz and a few work-study students at Dartmouth College, Kemeny had developed the BASIC programming language and Dartmouth Time-Sharing System (DTSS). BASIC and DTSS represented perhaps the earliest successful attempt at “computer programming for all,” combining English-language vocabulary, simple yet robust instructions, and near-realtime access to a mainframe computer. This article takes a closer look at FTBALL as a crucial program in the history of “programming for all” while gesturing to the tension between a conception of “all” and FTBALL's context in an elite, all-male college in the mid-1960s.",
+          "Main Action": "had developed",
+          "Arguments": {
+            "Agent": [
+              "Kemeny"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the BASIC programming language"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [
+                "Dartmouth Time-Sharing System (DTSS)"
+              ],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Along with his colleague Thomas Kurtz and a few work-study students at Dartmouth College,",
+              "late fall 1965, John Kemeny wrote a 239-line BASIC program called FTBALL",
+              "BASIC and DTSS represented",
+              "This article takes a closer look at FTBALL"
+            ],
+            "Purpose": [],
+            "Method": [
+              "combining English-language vocabulary, simple yet robust instructions, and near-realtime access to a mainframe computer.",
+              "while gesturing to the tension between a conception of “all”",
+              "FTBALL's context in an elite, all-male college in the mid-1960s."
+            ],
+            "Results": [],
+            "Analysis": [
+              "perhaps the earliest successful attempt at “computer programming for all,",
+              "as a crucial program in the history of “programming for all”"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Innovations of BASIC and program flow of FTBALL",
+          "Text": "I put FTBALL in a historical, cultural, and gendered context of “programming for all” as well as the historical context of programming language development, timesharing technology, and the hardware and financial arrangements necessary to support this kind of playful, interactive program in 1965. I begin with a short history of BASIC's early development, compare FTBALL with other early games and sports games, then move into the hardware and technical details that enabled the code before finally reading FTBALL's code in detail. Using methods from critical code studies (Marino 2020), I point to specific innovations of BASIC at the time and outline the program flow of FTBALL.",
+          "Main Action": "put",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "FTBALL"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Using methods from critical code studies"
+            ],
+            "Purpose": [
+              "necessary to support this kind of playful, interactive program in 1965.",
+              "that enabled the code before finally reading FTBALL's code in detail."
+            ],
+            "Method": [
+              "in a historical, cultural, and gendered context of “programming for all”",
+              "the historical context of programming language development, timesharing technology, and the hardware and financial arrangements",
+              "I begin with a short history of BASIC's early development,",
+              "then move into the hardware and technical details"
+            ],
+            "Results": [
+              "I point to specific innovations of BASIC at the time",
+              "outline the program flow of FTBALL."
+            ],
+            "Analysis": [
+              "compare FTBALL with other early games and sports games,"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Result of history and code reading of BASIC FTBALL",
+          "Text": "This history and code reading of BASIC FTBALL provides something of interest to computing historians, critical code studies practitioners, and games scholars and aficionados.",
+          "Main Action": "provides",
+          "Arguments": {
+            "Agent": [],
+            "Object": {
+              "Primary Object": [
+                "something of interest"
+              ],
+              "Primary Modifier": [
+                "to computing historians"
+              ],
+              "Secondary Object": [
+                "critical code studies practitioners, and games scholars and aficionados."
+              ],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "history and code reading of BASIC FTBALL"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_49",
+      "abstract": "A consideration of the political meaning of software that tries to add greater philosophical precision to statements about the politics of tools and tool building in the humanities. Using Michael Oakeshott's formulations of the “politics of faith” and the “politics of skepticism,”[Oakeshott 1996] it suggests that while declaring our tools be morally or political neutral may be obvious fallacious, it is equally problematic to suppose that we can predict in advance the political formations that will arise from our tool building. For indeed (as Oakeshott suggests), the tools themselves give rise to what is politically possible.",
+      "events": [
+        {
+          "Background/Introduction": "Political meaning of software that attempts to add precision to statements",
+          "Text": "A consideration of the political meaning of software that tries to add greater philosophical precision to statements about the politics of tools and tool building in the humanities.",
+          "Main Action": "of the",
+          "Arguments": {
+            "Agent": [
+              "A consideration"
+            ],
+            "Object": {
+              "Primary Object": [
+                "political meaning"
+              ],
+              "Primary Modifier": [
+                "of software"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "tries to add greater philosophical precision to statements about the politics of tools",
+              "tool building in the humanities."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Suggestions from Micheal Oakeshott's formulations and politics of skepticism",
+          "Text": "Using Michael Oakeshott's formulations of the “politics of faith” and the “politics of skepticism,”[Oakeshott 1996] it suggests that while declaring our tools be morally or political neutral may be obvious fallacious, it is equally problematic to suppose that we can predict in advance the political formations that will arise from our tool building.",
+          "Main Action": "suggests",
+          "Arguments": {
+            "Agent": [
+              "it"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Using Michael Oakeshott's formulations of the “politics of faith”",
+              "and the “politics of skepticism,”[Oakeshott 1996]"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "it is equally problematic to suppose that we can predict in advance the political formations that will arise from our tool building."
+            ],
+            "Analysis": [
+              "that while declaring our tools be morally",
+              "political neutral may be obvious fallacious,"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Oakeshott's suggestion about the tools",
+          "Text": "For indeed (as Oakeshott suggests), the tools themselves give rise to what is politically possible.",
+          "Main Action": "give rise",
+          "Arguments": {
+            "Agent": [
+              "the tools"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to what is politically possible"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "For indeed (as Oakeshott suggests),"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

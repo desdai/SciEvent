@@ -1,0 +1,392 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_452",
+      "abstract": "Patients with cancer are increasingly using forums and social media platforms to access health information and share their experiences, particularly in the use of traditional, complementary, and integrative medicine (TCIM). Despite the popularity of TCIM among patients with cancer, few related studies have used data from these web-based sources to explore the use of TCIM among patients with cancer. This study leveraged multiple forums and social media platforms to explore patients’ use, interest, and perception of TCIM for cancer care. Posts (in English) related to TCIM were collected from Facebook, Twitter, Reddit, and 16 health forums from inception until February 2022. Both manual assessments and natural language processing were performed. Descriptive analyses were performed to explore the most commonly discussed TCIM modalities for each symptom and cancer type. Sentiment analyses were performed to measure the polarity of each post or comment, and themes were identified from posts with positive and negative sentiments. TCIM modalities that are emerging or recommended in the guidelines were identified a priori. Exploratory topic-modeling analyses with latent Dirichlet allocation were conducted to investigate the patients’ perceptions of these modalities. Among the 1,620,755 posts available, cancer-related symptoms, such as pain (10/10, 100% cancer types), anxiety and depression (9/10, 90%), and poor sleep (9/10, 90%), were commonly discussed. Cannabis was among the most frequently discussed TCIM modalities for pain in 7 (70%) out of 10 cancer types, as well as nausea and vomiting, loss of appetite, anxiety and depression, and poor sleep. A total of 7 positive and 7 negative themes were also identified. The positive themes included TCIM, making symptoms manageable, and reducing the need for medication and their side effects. The belief that TCIM and conventional treatments were not mutually exclusive and intolerance to conventional treatment may facilitate TCIM use. Conversely, TCIM was viewed as leading to patients’ refusal of conventional treatment or delays in diagnosis and treatment. Doctors’ ignorance regarding TCIM and the lack of information provided about TCIM may be barriers to its use. Exploratory analyses showed that TCIM recommendations were well discussed among patients; however, these modalities were also used for many other indications. Other notable topics included concerns about the legalization of cannabis, acupressure techniques, and positive experiences of meditation. Using machine learning techniques, social media and health forums provide a valuable resource for patient-generated data regarding the pattern of use and patients’ perceptions of TCIM. Such information will help clarify patients’ needs and concerns and provide directions for research on integrating TCIM into cancer care. Our results also suggest that effective communication about TCIM should be achieved and that doctors should be more open-minded to actively discuss TCIM use with their patients.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Patients with cancer are increasingly using forums and social media platforms to access health information and share their experiences, particularly in the use of traditional, complementary, and integrative medicine (TCIM). Despite the popularity of TCIM among patients with cancer, few related studies have used data from these web-based sources to explore the use of TCIM among patients with cancer.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Patients with cancer",
+              "are increasingly using forums and social media platforms"
+            ],
+            "Purpose": [
+              "Exploring the use of TCIM among patients with cancer using data from web-based sources"
+            ],
+            "Method": [
+              "Utilizing data collected from forums and social media sources"
+            ],
+            "Results": [
+              "Despite the popularity of TCIM among patients with cancer, few related studies have used data from these web-based sources to explore the use of TCIM among patients with cancer"
+            ],
+            "Analysis": [
+              "The authors highlight the gap between reported high usage of complementary treatments and the lack of empirical evidence supporting claims about their effectiveness or safety in oncology treatment plans"
+            ],
+            "Challenge": [
+              "Lack of sufficient studies examining the use of TCIM among patients with cancer"
+            ],
+            "Ethical": [
+              "Considerations about diverse user behaviors across platforms complicate efforts to design effective interventions"
+            ],
+            "Implications": [
+              "Further research could provide valuable insights into designing targeted interventions promoting safe and effective complementary therapy options for cancer patients"
+            ],
+            "Contradictions": [
+              "There is no mention of contradictions with existing literature, rather emphasis on highlighting discrepancies in available studies"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study leveraged multiple forums and social media platforms to explore patients’ use, interest, and perception of TCIM for cancer care. Posts (in English) related to TCIM were collected from Facebook, Twitter, Reddit, and 16 health forums from inception until February 2022. Both manual assessments and natural language processing were performed. Descriptive analyses were performed to explore the most commonly discussed TCIM modalities for each symptom and cancer type. Sentiment analyses were performed to measure the polarity of each post or comment, and themes were identified from posts with positive and negative sentiments. TCIM modalities that are emerging or recommended in the guidelines were identified a priori. Exploratory topic-modeling analyses with latent Dirichlet allocation were conducted to investigate the patients’ perceptions of these modalities.",
+          "Main Action": "Data collection via social media platforms",
+          "Arguments": {
+            "Agent": [
+              "researchers leveraged multiple forums and social media platforms"
+            ],
+            "Object": {
+              "Primary Object": [
+                "TCIM-related posts"
+              ],
+              "Secondary Object": [
+                "patient posts discussing TCIM use, interest, and perception"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Among the 1,620,755 posts available, cancer-related symptoms, such as pain (10/10, 100% cancer types), anxiety and depression (9/10, 90%), and poor sleep (9/10, 90%), were commonly discussed. Cannabis was among the most frequently discussed TCIM modalities for pain in 7 (70%) out of 10 cancer types, as well as nausea and vomiting, loss of appetite, anxiety and depression, and poor sleep. A total of 7 positive and 7 negative themes were also identified. The positive themes included TCIM, making symptoms manageable, and reducing the need for medication and their side effects. The belief that TCIM and conventional treatments were not mutually exclusive and intolerance to conventional treatment may facilitate TCIM use. Conversely, TCIM was viewed as leading to patients’ refusal of conventional treatment or delays in diagnosis and treatment. Doctors’ ignorance regarding TCIM and the lack of information provided about TCIM may be barriers to its use. Exploratory analyses showed that TCIM recommendations were well discussed among patients; however, these modalities were also used for many other indications. Other notable topics included concerns about the legalization of cannabis, acupressure techniques, and positive experiences of meditation.",
+          "Main Action": "cannabis was among the most frequently discussed",
+          "Arguments": {
+            "Agent": [
+              "THC-intoxicating modalities (TCIM) for pain in 7 (70%) out of 10 cancer types, as well as nausea and vomiting, loss of appetite, anxiety and depression, and poor sleep"
+            ],
+            "Object": {
+              "Primary Object": [
+                "patient discussions about symptom management"
+              ],
+              "Secondary Object": [
+                "symptoms associated with cancer such as pain, anxiety/depression, and poor sleep"
+              ]
+            },
+            "Context": [
+              "Among the 1,620,755 posts available, cancer-related symptoms...were commonly discussed."
+            ],
+            "Purpose": [
+              "To analyze how cannabis is recommended and used"
+            ],
+            "Method": [
+              "Exploratory analyses focused on patient discussions and oncology contexts."
+            ],
+            "Results": [
+              "Positive themes included TCIM, managing symptoms, reducing medication reliance and side effects.",
+              "Belief that TCIM and conventional treatments aren't mutually exclusive and that intolerance to conventional treatment facilitates TCIM use.",
+              "Conversely, TCIM is seen as leading to patients refusing conventional treatment or delaying diagnosis/treatment.",
+              "Doctors' ignorance about TCIM and lack of information may hinder its use."
+            ],
+            "Analysis": [
+              "Exploratory analyses showed that TCIM recommendations were well-discussed among patients, though these modalities were also used for many other indications."
+            ],
+            "Challenge": [
+              "Limited data collection due to self-reporting bias and small sample size restricting generalizability."
+            ],
+            "Ethical": [
+              "Concerns about unequal access to cannabis due to socioeconomic status differences resulting from legalize policies and misinformation impeding informed decision-making."
+            ],
+            "Implications": [
+              "Further studies are needed to explore whether changes in policy have caused increased misuse relative to alternative options.",
+              "Greater emphasis on educating healthcare providers and monitoring TCIM use patterns is warranted."
+            ],
+            "Contradictions": [
+              "Some view holds that no alternative exists whereas others highlight possibilities for better integration of complementary medicine."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Using machine learning techniques, social media and health forums provide a valuable resource for patient-generated data regarding the pattern of use and patients’ perceptions of TCIM. Such information will help clarify patients’ needs and concerns and provide directions for research on integrating TCIM into cancer care. Our results also suggest that effective communication about TCIM should be achieved and that doctors should be more open-minded to actively discuss TCIM use with their patients.",
+          "Main Action": "effective communication about TCIM",
+          "Arguments": {
+            "Agent": [
+              "researchers utilize machine learning techniques"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Telecare Medical Implant (TCIM)"
+              ],
+              "Secondary Object": [
+                "patient populations",
+                "healthcare system"
+              ]
+            },
+            "Context": [
+              "analyze patterns of use and patients’ perceptions of TCIM"
+            ],
+            "Purpose": [
+              "improve communication methods and influence doctor openness"
+            ],
+            "Method": [
+              "machine learning techniques applied to social media and health forums"
+            ],
+            "Results": [
+              "results suggest effective communication strategies improve relationship quality and increase awareness"
+            ],
+            "Analysis": [
+              "successful strategies aligned with patient values and trust-building mechanisms"
+            ],
+            "Challenge": [
+              "challenges include ensuring access to reliable patient data and maintaining confidentiality"
+            ],
+            "Ethical": [
+              "ethical considerations involve balancing privacy rights and informed consent"
+            ],
+            "Implications": [
+              "implications include enhanced telehealth accessibility and promotion of community-based support systems"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_378",
+      "abstract": "Personal health technologies, including wearable tracking devices and mobile apps, have great potential to equip the general population with the ability to monitor and manage their health. However, being designed for sighted people, much of their functionality is largely inaccessible to the blind and low-vision (BLV) population, threatening the equitable access to personal health data (PHD) and health care services. This study aims to understand why and how BLV people collect and use their PHD and the obstacles they face in doing so. Such knowledge can inform accessibility researchers and technology companies of the unique self-tracking needs and accessibility challenges that BLV people experience. We conducted a web-based and phone survey with 156 BLV people. We reported on quantitative and qualitative findings regarding their PHD tracking practices, needs, accessibility barriers, and work-arounds. BLV respondents had strong desires and needs to track PHD, and many of them were already tracking their data despite many hurdles. Popular tracking items (i.e., exercise, weight, sleep, and food) and the reasons for tracking were similar to those of sighted people. BLV people, however, face many accessibility challenges throughout all phases of self-tracking, from identifying tracking tools to reviewing data. The main barriers our respondents experienced included suboptimal tracking experiences and insufficient benefits against the extended burden for BLV people. We reported the findings that contribute to an in-depth understanding of BLV people’s motivations for PHD tracking, tracking practices, challenges, and work-arounds. Our findings suggest that various accessibility challenges hinder BLV individuals from effectively gaining the benefits of self-tracking technologies. On the basis of the findings, we discussed design opportunities and research areas to focus on making PHD tracking technologies accessible for all, including BLV people.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Personal health technologies, including wearable tracking devices and mobile apps, have great potential to equip the general population with the ability to monitor and manage their health. However, being designed for sighted people, much of their functionality is largely inaccessible to the blind and low-vision (BLV) population, threatening the equitable access to personal health data (PHD) and health care services.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Personal health technologies, including wearable tracking devices and mobile apps, have great potential to equip the general population with the ability to monitor and manage their health.",
+              "However, being designed for sighted people, much of their functionality is largely inaccessible to the blind and low-vision (BLV) population, threatening the equitable access to personal health data (PHD) and health care services."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study aims to understand why and how BLV people collect and use their PHD and the obstacles they face in doing so. Such knowledge can inform accessibility researchers and technology companies of the unique self-tracking needs and accessibility challenges that BLV people experience. We conducted a web-based and phone survey with 156 BLV people. We reported on quantitative and qualitative findings regarding their PHD tracking practices, needs, accessibility barriers, and work-arounds.",
+          "Main Action": "Conducting",
+          "Arguments": {
+            "Agent": [
+              "participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "156 BLV people"
+              ],
+              "Secondary Object": [
+                "web-based and phone survey",
+                "PHD tracking practices",
+                "accessibility challenges",
+                "workarounds"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "BLV respondents had strong desires and needs to track PHD, and many of them were already tracking their data despite many hurdles. Popular tracking items (i.e., exercise, weight, sleep, and food) and the reasons for tracking were similar to those of sighted people. BLV people, however, face many accessibility challenges throughout all phases of self-tracking, from identifying tracking tools to reviewing data. The main barriers our respondents experienced included suboptimal tracking experiences and insufficient benefits against the extended burden for BLV people.",
+          "Main Action": "track",
+          "Arguments": {
+            "Agent": [
+              "BLV respondents"
+            ],
+            "Object": {
+              "Primary Object": [
+                "PhD"
+              ],
+              "Secondary Object": [
+                "accessibility challenges"
+              ]
+            },
+            "Context": [
+              "BLV respondents had strong desires and needs",
+              "BLV people face many accessibility challenges"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Popular tracking items such as exercise, weight, sleep, and food",
+              "Similar reasons for tracking as sighted individuals",
+              "BLV people encounter suboptimal tracking experiences",
+              "Insufficient benefits outweighing the extended burden"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Suboptimal tracking experiences",
+              "Insufficient benefits against the extended burden"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Designing better support systems",
+              "Improving accessibility for BLV participants"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We reported the findings that contribute to an in-depth understanding of BLV people’s motivations for PHD tracking, tracking practices, challenges, and work-arounds. Our findings suggest that various accessibility challenges hinder BLV individuals from effectively gaining the benefits of self-tracking technologies. On the basis of the findings, we discussed design opportunities and research areas to focus on making PHD tracking technologies accessible for all, including BLV people.",
+          "Main Action": "We reported",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "They/our"
+              ],
+              "Secondary Object": [
+                "findings"
+              ]
+            },
+            "Context": [
+              "Our findings suggest"
+            ],
+            "Purpose": [
+              "To discuss"
+            ],
+            "Method": [
+              "Various accessibility challenges hindered"
+            ],
+            "Results": [
+              "On the basis of the findings"
+            ],
+            "Analysis": [
+              "discuss design opportunities and research areas"
+            ],
+            "Challenge": [
+              "accessibility issues"
+            ],
+            "Ethical": [
+              "ensure respect for participant privacy and cultural considerations"
+            ],
+            "Implications": [
+              "paving the way for expanding similar interventions to diverse groups using digital innovations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

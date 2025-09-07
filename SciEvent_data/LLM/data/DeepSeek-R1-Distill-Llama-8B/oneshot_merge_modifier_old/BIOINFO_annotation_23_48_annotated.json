@@ -1,0 +1,286 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_432",
+      "abstract": "Interpretable deep learning (DL) models that can provide biological insights, in addition to accurate predictions, are of great interest to the biomedical community. Recently, interpretable DL models that incorporate signaling pathways have been proposed for drug response prediction (DRP). While these models improve interpretability, it is unclear whether this comes at the cost of less accurate DRPs, or a prediction improvement can also be obtained. We comprehensively and systematically assessed four state-of-the-art interpretable DL models using three pathway collections to assess their ability in making accurate predictions on unseen samples from the same dataset, as well as their generalizability to an independent dataset. Our results showed that models that explicitly incorporate pathway information in the form of a latent layer perform worse compared to models that incorporate this information implicitly. However, in most evaluation setups, the best performance was achieved using a black-box multilayer perceptron, and the performance of a random forests baseline was comparable to those of the interpretable models. Replacing the signaling pathways with randomly generated pathways showed a comparable performance for the majority of the models. Finally, the performance of all models deteriorated when applied to an independent dataset. These results highlight the importance of systematic evaluation of newly proposed models using carefully selected baselines. We provide different evaluation setups and baseline models that can be used to achieve this goal.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Interpretable deep learning (DL) models that can provide biological insights, in addition to accurate predictions, are of great interest to the biomedical community. Recently, interpretable DL models that incorporate signaling pathways have been proposed for drug response prediction (DRP). While these models improve interpretability, it is unclear whether this comes at the cost of less accurate DRPs, or a prediction improvement can also be obtained.",
+          "Main Action": "have been proposed",
+          "Arguments": {
+            "Agent": [
+              "interpretable deep learning models that incorporate signaling pathways"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Recently, interpretable DL models that incorporate signaling pathways have been proposed for drug response prediction (DRP)."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "it is unclear whether this comes at the cost of less accurate DRPs, or a prediction improvement can also be obtained."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We comprehensively and systematically assessed four state-of-the-art interpretable DL models using three pathway collections to assess their ability in making accurate predictions on unseen samples from the same dataset, as well as their generalizability to an independent dataset.",
+          "Main Action": "assessed",
+          "Arguments": {
+            "Agent": [
+              "four state-of-the-art interprevable DL models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three pathway collections"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "using three pathway collections to assess their ability in making accurate predictions on unseen samples from the same dataset, as well as their generalizability to an independent dataset."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "as well as their generalizability to an independent dataset"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results showed that models that explicitly incorporate pathway information in the form of a latent layer perform worse compared to models that incorporate this information implicitly. However, in most evaluation setups, the best performance was achieved using a black-box multilayer perceptron, and the performance of a random forests baseline was comparable to those of the interpretable models. Replacing the signaling pathways with randomly generated pathways showed a comparable performance for the majority of the models. Finally, the performance of all models deteriorated when applied to an independent dataset.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "These results highlight the importance of systematic evaluation of newly proposed models using carefully selected baselines. We provide different evaluation setups and baseline models that can be used to achieve this goal.",
+          "Main Action": "highlight",
+          "Arguments": {
+            "Agent": [
+              "These results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the importance of systematic evaluation of newly proposed models"
+              ],
+              "Secondary Object": [
+                "using carefully selected baselines"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to emphasize the necessity of thorough testing procedures"
+            ],
+            "Method": [
+              "by offering various assessment configurations and reference models"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_838",
+      "abstract": "In whole genome sequencing data, polymerase chain reaction amplification results in duplicate DNA fragments coming from the same location in the genome. The process of preparing a whole genome bisulfite sequencing (WGBS) library, on the other hand, can create two DNA fragments from the same location that should not be considered duplicates. Currently, only one WGBS-aware duplicate marking tool exists. However, it only works with the output from a single tool, does not accept streaming input or output, and requires a substantial amount of memory relative to the input size. Dupsifter provides an aligner-agnostic duplicate marking tool that is lightweight, has streaming capabilities, and is memory efficient.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In whole genome sequencing data, polymerase chain reaction amplification results in duplicate DNA fragments coming from the same location in the genome. The process of preparing a whole genome bisulfite sequencing (WGBS) library, on the other hand, can create two DNA fragments from the same location that should not be considered duplicates. Currently, only one WGBS-aware duplicate marking tool exists. However, it only works with the output from a single tool, does not accept streaming input or output, and requires a substantial amount of memory relative to the input size.",
+          "Main Action": "currently only one WGBS-aware duplicate marking tool exists.",
+          "Arguments": {
+            "Agent": [
+              "Currently, only one WGBS-aware duplicate marking tool exists."
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "polymerase chain reaction amplification results in duplicate DNA fragments coming from the same location in the genome."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "it only works with the output from a single tool, does not accept streaming input or output, and requires a substantial amount of memory relative to the input size."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Dupsifter provides an aligner-agnostic duplicate marking tool that is lightweight, has streaming capabilities, and is memory efficient.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_126",
+      "abstract": "Normal voice production depends on the synchronized cooperation of multiple physiological systems, which makes the voice sensitive to changes. Any systematic, neurological, and aerodigestive distortion is prone to affect voice production through reduced cognitive, pulmonary, and muscular functionality. This sensitivity inspired using voice as a biomarker to examine disorders that affect the voice. Technological improvements and emerging machine learning (ML) technologies have enabled possibilities of extracting digital vocal features from the voice for automated diagnosis and monitoring systems. This study aims to summarize a comprehensive view of research on voice-affecting disorders that uses ML techniques for diagnosis and monitoring through voice samples where systematic conditions, nonlaryngeal aerodigestive disorders, and neurological disorders are specifically of interest. This systematic literature review (SLR) investigated the state of the art of voice-based diagnostic and monitoring systems with ML technologies, targeting voice-affecting disorders without direct relation to the voice box from the point of view of applied health technology. Through a comprehensive search string, studies published from 2012 to 2022 from the databases Scopus, PubMed, and Web of Science were scanned and collected for assessment. To minimize bias, retrieval of the relevant references in other studies in the field was ensured, and 2 authors assessed the collected studies. Low-quality studies were removed through a quality assessment and relevant data were extracted through summary tables for analysis. The articles were checked for similarities between author groups to prevent cumulative redundancy bias during the screening process, where only 1 article was included from the same author group. In the analysis of the 145 included studies, support vector machines were the most utilized ML technique (51/145, 35.2%), with the most studied disease being Parkinson disease (PD; reported in 87/145, 60%, studies). After 2017, 16 additional voice-affecting disorders were examined, in contrast to the 3 investigated previously. Furthermore, an upsurge in the use of artificial neural network–based architectures was observed after 2017. Almost half of the included studies were published in the last 2 years (2021 and 2022). A broad interest from many countries was observed. Notably, nearly one-half (n=75) of the studies relied on 10 distinct data sets, and 11/145 (7.6%) used demographic data as an input for ML models. This SLR revealed considerable interest across multiple countries in using ML techniques for diagnosing and monitoring voice-affecting disorders, with PD being the most studied disorder. However, the review identified several gaps, including limited and unbalanced data set usage in studies, and a focus on diagnostic tests rather than disorder-specific monitoring. Despite the limitations of being constrained by only peer-reviewed publications written in English, the SLR provides valuable insights into the current state of research on ML-based voice-affecting disorder diagnosis and monitoring and highlighting areas to address in future research.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Normal voice production depends on the synchronized cooperation of multiple physiological systems, which makes the voice sensitive to changes. Any systematic, neurological, and aerodigestive distortion is prone to affect voice production through reduced cognitive, pulmonary, and muscular functionality. This sensitivity inspired using voice as a biomarker to examine disorders that affect the voice. Technological improvements and emerging machine learning (ML) technologies have enabled possibilities of extracting digital vocal features from the voice for automated diagnosis and monitoring systems.",
+          "Main Action": "inspired",
+          "Arguments": {
+            "Agent": [
+              "This sensitivity"
+            ],
+            "Object": {
+              "Primary Object": [
+                "using voice as a biomarker"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Any systematic, neurological, and aerodigestive distortion is prone to affect voice production through reduced cognitive, pulmonary, and muscular functionality."
+            ],
+            "Purpose": [
+              "to examine disorders that affect the voice"
+            ],
+            "Method": [
+              "Technological improvements and emerging machine learning (ML) technologies have enabled possibilities of extracting digital vocal features from the voice for automated diagnosis and monitoring systems."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "What is the broader significance or potential for future applications/research?"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study aims to summarize a comprehensive view of research on voice-affecting disorders that uses ML techniques for diagnosis and monitoring through voice samples where systematic conditions, nonlaryngeal aerodigestive disorders, and neurological disorders are specifically of interest. This systematic literature review (SLR) investigated the state of the art of voice-based diagnostic and monitoring systems with ML technologies, targeting voice-affecting disorders without direct relation to the voice box from the point of view of applied health technology. Through a comprehensive search string, studies published from 2012 to 2022 from the databases Scopus, PubMed, and Web of Science were scanned and collected for assessment. To minimize bias, retrieval of the relevant references in other studies in the field was ensured, and 2 authors assessed the collected studies. Low-quality studies were removed through a quality assessment and relevant data were extracted through summary tables for analysis. The articles were checked for similarities between author groups to prevent cumulative redundancy bias during the screening process, where only 1 article was included from the same author group.",
+          "Main Action": "investigated",
+          "Arguments": {
+            "Agent": [
+              "This systematic literature review (SLR)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "state of the art of voice-based diagnostic and monitoring systems with ML technologies"
+              ],
+              "Secondary Object": [
+                "voice-affecting disorders without direct relation to the voice box"
+              ]
+            },
+            "Context": [
+              "through a comprehensive search string, studies published from 2012 to 2022 from the databases Scopus, PubMed, and Web of Science were scanned and collected for assessment"
+            ],
+            "Purpose": [
+              "to summarize a comprehensive view of research on voice-affecting disorders that uses ML techniques for diagnosis and monitoring through voice samples"
+            ],
+            "Method": [
+              "comprehensive search string, studies published from 2012 to 2022 from the databases Scopus, PubMed, and Web of Science were scanned and collected for assessment"
+            ],
+            "Results": [
+              "relevant data were extracted through summary tables for analysis"
+            ],
+            "Analysis": [
+              "quality assessment and relevant data were extracted through summary tables for analysis"
+            ],
+            "Challenge": [
+              "low-quality studies were removed"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "targeting voice-affecting disorders without direct relation to the voice box from the point of view of applied health technology"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In the analysis of the 145 included studies, support vector machines were the most utilized ML technique (51/145, 35.2%), with the most studied disease being Parkinson disease (PD; reported in 87/145, 60%, studies). After 2017, 16 additional voice-affecting disorders were examined, in contrast to the 3 investigated previously. Furthermore, an upsurge in the use of artificial neural network–based architectures was observed after 2017. Almost half of the included studies were published in the last 2 years (2021 and 2022). A broad interest from many countries was observed. Notably, nearly one-half (n=75) of the studies relied on 10 distinct data sets, and 11/145 (7.6%) used demographic data as an input for ML models.",
+          "Main Action": "were",
+          "Arguments": {
+            "Agent": [
+              "support vector machines"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ML technique"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "After 2017, 16 additional voice-affecting disorders were examined, in contrast to the 3 investigated previously."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Almost half of the included studies were published in the last 2 years (2021 and 2022)"
+            ],
+            "Analysis": [
+              "Notably, nearly one-half (n=75) of the studies relied on 10 distinct data sets,"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "A broad interest from many countries was observed."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This SLR revealed considerable interest across multiple countries in using ML techniques for diagnosing and monitoring voice-affecting disorders, with PD being the most studied disorder. However, the review identified several gaps, including limited and unbalanced data set usage in studies, and a focus on diagnostic tests rather than disorder-specific monitoring. Despite the limitations of being constrained by only peer-reviewed publications written in English, the SLR provides valuable insights into the current state of research on ML-based voice-affecting disorder diagnosis and monitoring and highlighting areas to address in future research.",
+          "Main Action": "considerable interest was revealed",
+          "Arguments": {
+            "Agent": [
+              "this SLR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "across multiple countries in using ML techniques for diagnosing and monitoring voice-affecting disorders"
+              ],
+              "Secondary Object": [
+                "with PD being the most studied disorder"
+              ]
+            },
+            "Context": [
+              "However, the review identified several gaps..."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "provides valuable insights into the current state of research..."
+            ],
+            "Analysis": [
+              "highlighting areas to address in future research"
+            ],
+            "Challenge": [
+              "despite the limitations of being constrained by only peer-reviewed publications written in English"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "and highlights areas to address in future research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_790",
+      "abstract": "Respiratory distress syndrome (RDS) is a disease that commonly affects premature infants whose lungs are not fully developed. RDS results from a lack of surfactant in the lungs. The more premature the infant is, the greater is the likelihood of having RDS. However, even though not all premature infants have RDS, preemptive treatment with artificial pulmonary surfactant is administered in most cases. We aimed to develop an artificial intelligence model to predict RDS in premature infants to avoid unnecessary treatment. In this study, 13,087 very low birth weight infants who were newborns weighing less than 1500 grams were assessed in 76 hospitals of the Korean Neonatal Network. To predict RDS in very low birth weight infants, we used basic infant information, maternity history, pregnancy/birth process, family history, resuscitation procedure, and test results at birth such as blood gas analysis and Apgar score. The prediction performances of 7 different machine learning models were compared, and a 5-layer deep neural network was proposed in order to enhance the prediction performance from the selected features. An ensemble approach combining multiple models from the 5-fold cross-validation was subsequently developed. Our proposed ensemble 5-layer deep neural network consisting of the top 20 features provided high sensitivity (83.03%), specificity (87.50%), accuracy (84.07%), balanced accuracy (85.26%), and area under the curve (0.9187). Based on the model that we developed, a public web application that enables easy access for the prediction of RDS in premature infants was deployed. Our artificial intelligence model may be useful for preparations for neonatal resuscitation, particularly in cases involving the delivery of very low birth weight infants, as it can aid in predicting the likelihood of RDS and inform decisions regarding the administration of surfactant.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Respiratory distress syndrome (RDS) is a disease that commonly affects premature infants whose lungs are not fully developed. RDS results from a lack of surfactant in the lungs. The more premature the infant is, the greater is the likelihood of having RDS. However, even though not all premature infants have RDS, preemptive treatment with artificial pulmonary surfactant is administered in most cases.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We aimed to develop an artificial intelligence model to predict RDS in premature infants to avoid unnecessary treatment. In this study, 13,087 very low birth weight infants who were newborns weighing less than 1500 grams were assessed in 76 hospitals of the Korean Neonatal Network. To predict RDS in very low birth weight infants, we used basic infant information, maternity history, pregnancy/birth process, family history, resuscitation procedure, and test results at birth such as blood gas analysis and Apgar score. The prediction performances of 7 different machine learning models were compared, and a 5-layer deep neural network was proposed in order to enhance the prediction performance from the selected features. An ensemble approach combining multiple models from the 5-fold cross-validation was subsequently developed",
+          "Main Action": "aimed to develop",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an artificial intelligence model"
+              ],
+              "Secondary Object": [
+                "to predict RDS in premature infants"
+              ]
+            },
+            "Context": [
+              "In this study, 13,087 very low birth weight infants who were newborns weighing less than 1500 grams were assessed in 76 hospitals of the Korean Neonatal Network."
+            ],
+            "Purpose": [
+              "avoid unnecessary treatment"
+            ],
+            "Method": [
+              "used basic infant information, maternity history, pregnancy/birth process, family history, resuscitation procedure, and test results at birth such as blood gas analysis and Apgar score"
+            ],
+            "Results": [
+              "The prediction performances of 7 different machine learning models were compared,"
+            ],
+            "Analysis": [
+              "An ensemble approach combining multiple models from the 5-fold cross-validation was subsequently developed"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our proposed ensemble 5-layer deep neural network consisting of the top 20 features provided high sensitivity (83.03%), specificity (87.50%), accuracy (84.07%), balanced accuracy (85.26%), and area under the curve (0.9187).",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "Our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ensemble 5-layer deep neural network"
+              ],
+              "Secondary Object": [
+                "consisting of the top 20 features"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "sensitivity (83.03%)",
+              "specificity (87.50%)",
+              "accuracy (84.07%)",
+              "balanced accuracy (85.26%)",
+              "area under the curve (0.9187)"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Based on the model that we developed, a public web application that enables easy access for the prediction of RDS in premature infants was deployed. Our artificial intelligence model may be useful for preparations for neonatal resuscitation, particularly in cases involving the delivery of very low birth weight infants, as it can aid in predicting the likelihood of RDS and inform decisions regarding the administration of surfactant.",
+          "Main Action": "deployed",
+          "Arguments": {
+            "Agent": [
+              "our artificial intelligence model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "public web application"
+              ],
+              "Secondary Object": [
+                "prediction of RDS in premature infants"
+              ]
+            },
+            "Context": [
+              "based on the model that we developed"
+            ],
+            "Purpose": [
+              "may be useful for preparations for neonatal resuscitation"
+            ],
+            "Method": [
+              "it can aid in predicting the likelihood of RDS and inform decisions regarding the administration of surfactant"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "particularly in cases involving the delivery of very low birth weight infants"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

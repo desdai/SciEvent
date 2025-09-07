@@ -1,0 +1,386 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_158",
+      "abstract": "As the shortage of skilled workers continues to be a pressing issue, exacerbated by demographic change, it is becoming a critical challenge for organizations to preserve the knowledge of retiring experts and pass it on to novices. While this knowledge transfer has traditionally occurred through personal interaction, it lacks scalability and requires significant resources and time. IT-based teaching systems have addressed this scalability issue, but their development is still tedious and time-consuming. In this work, we investigate the potential of machine learning (ML) models to facilitate knowledge transfer in an organizational context, leading to more cost-effective IT-based teaching systems. Through a systematic literature review, we examine key concepts, themes, and dimensions to understand better and design ML-based teaching systems. To do so, we capture and consolidate the capabilities of ML models in IT-based teaching systems, inductively analyze relevant concepts in this context, and determine their interrelationships. We present our findings in the form of a review of the key concepts, themes, and dimensions to understand and inform on ML-based teaching systems. Building on these results, our work contributes to research on computer-supported cooperative work by conceptualizing how ML-based teaching systems can preserve expert knowledge and facilitate its transfer from SMEs to human novices. In this way, we shed light on this emerging subfield of human-computer interaction and serve to build an interdisciplinary research agenda.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "As the shortage of skilled workers continues to be a pressing issue, exacerbated by demographic change, it is becoming a critical challenge for organizations to preserve the knowledge of retiring experts and pass it on to novices. While this knowledge transfer has traditionally occurred through personal interaction, it lacks scalability and requires significant resources and time. IT-based teaching systems have addressed this scalability issue, but their development is still tedious and time-consuming.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The shortage of skilled workers",
+              "demographic change"
+            ],
+            "Purpose": [
+              "preserve the knowledge of retiring experts",
+              "pass it on to novices"
+            ],
+            "Method": [
+              "IT-based teaching systems"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "scalability issue",
+              "requires significant resources and time"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we investigate the potential of machine learning (ML) models to facilitate knowledge transfer in an organizational context, leading to more cost-effective IT-based teaching systems. Through a systematic literature review, we examine key concepts, themes, and dimensions to understand better and design ML-based teaching systems. To do so, we capture and consolidate the capabilities of ML models in IT-based teaching systems, inductively analyze relevant concepts in this context, and determine their interrelationships.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "organizational context",
+              "IT-based teaching systems"
+            ],
+            "Purpose": [
+              "understand better and design ML-based teaching systems"
+            ],
+            "Method": [
+              "systematic literature review",
+              "capture and consolidate the capabilities of ML models",
+              "inductively analyze relevant concepts"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We present our findings in the form of a review of the key concepts, themes, and dimensions to understand and inform on ML-based teaching systems.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "findings"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to understand and inform on ML-based teaching systems."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "a review of the key concepts, themes, and dimensions"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Building on these results, our work contributes to research on computer-supported cooperative work by conceptualizing how ML-based teaching systems can preserve expert knowledge and facilitate its transfer from SMEs to human novices. In this way, we shed light on this emerging subfield of human-computer interaction and serve to build an interdisciplinary research agenda.",
+          "Main Action": "contributes",
+          "Arguments": {
+            "Agent": [
+              "our work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "research on computer-supported cooperative work",
+              "ML-based teaching systems",
+              "SMEs to human novices",
+              "emerging subfield of human-computer interaction"
+            ],
+            "Purpose": [
+              "shedding light",
+              "building an interdisciplinary research agenda"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "serve to build"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_134",
+      "abstract": "Human cognitive and decision-making abilities depreciate under pressure, motivating the emergence of artificial intelligence (AI) systems as decision support tools to assist people in performing tasks under stress. In this work, we study human decision-making behavior and task performance under time pressure — induced from limited initial observation time (time to perform the task before providing an initial response without AI input) and final decision time (time to weigh an AI's suggestion before reaching a collective human-AI team answer) — for spatial reasoning and count estimation tasks. Our results show that, while the impact of initial observation time on AI-assisted decision-making was dependent on task nature, participants were more likely to follow AI suggestions when they were provided with longer final decision time; moreover, although participants generally tended to adhere to their initial responses, they had more agency when they were more logically engaged in a task. Our results offer a nuanced understanding of human-AI collaboration under time pressure in different phases of the decision-making process.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Human cognitive and decision-making abilities depreciate under pressure, motivating the emergence of artificial intelligence (AI) systems as decision support tools to assist people in performing tasks under stress.",
+          "Main Action": "motivating",
+          "Arguments": {
+            "Agent": [
+              "human"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "cognitive and decision-making abilities depreciate under pressure,"
+            ],
+            "Purpose": [
+              "emergence of artificial intelligence (AI) systems as decision support tools"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "assist people in performing tasks under stress"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we study human decision-making behavior and task performance under time pressure — induced from limited initial observation time (time to perform the task before providing an initial response without AI input) and final decision time (time to weigh an AI's suggestion before reaching a collective human-AI team answer) — for spatial reasoning and count estimation tasks.",
+          "Main Action": "study",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "human decision-making behavior and task performance"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "under time pressure — induced from limited initial observation time and final decision time — for spatial reasoning and count estimation tasks."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results show that, while the impact of initial observation time on AI-assisted decision-making was dependent on task nature, participants were more likely to follow AI suggestions when they were provided with longer final decision time; moreover, although participants generally tended to adhere to their initial responses, they had more agency when they were more logically engaged in a task.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "while the impact of initial observation time on AI-assisted decision-making was dependent on task nature,"
+            ],
+            "Purpose": [
+              "participants were more likely to follow AI suggestions when they were provided with longer final decision time;"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "although participants generally tended to adhere to their initial responses,"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our results offer a nuanced understanding of human-AI collaboration under time pressure in different phases of the decision-making process.",
+          "Main Action": "offer",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a nuanced understanding of human-AI collaboration under time pressure in different phases of the decision-making process."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "results"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "implications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

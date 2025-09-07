@@ -1,0 +1,297 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_252",
+      "abstract": "Digital platforms, including online forums and helplines, have emerged as avenues of support for caregivers suffering from postpartum mental health distress. Understanding support seekers' experiences as shared on these platforms could provide crucial insight into caregivers' needs during this vulnerable time. In the current work, we provide a descriptive analysis of the concerns, psychological states, and motivations shared by healthy and distressed postpartum support seekers on two digital platforms, a one-on-one digital helpline and a publicly available online forum. Using a combination of human annotations, dictionary models and unsupervised techniques, we find stark differences between the experiences of distressed and healthy mothers. Distressed mothers described interpersonal problems and a lack of support, with 8.60% - 14.56% reporting severe symptoms including suicidal ideation. In contrast, the majority of healthy mothers described childcare issues, such as questions about breastfeeding or sleeping, and reported no severe mental health concerns. Across the two digital platforms, we found that distressed mothers shared similar content. However, the patterns of speech and affect shared by distressed mothers differed between the helpline vs. the online forum, suggesting the design of these platforms may shape meaningful measures of their support-seeking experiences. Our results provide new insight into the experiences of caregivers suffering from postpartum mental health distress. We conclude by discussing methodological considerations for understanding content shared by support seekers and design considerations for the next generation of support tools for postpartum parents.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Digital platforms, including online forums and helplines, have emerged as avenues of support for caregivers suffering from postpartum mental health distress. Understanding support seekers' experiences as shared on these platforms could provide crucial insight into caregivers' needs during this vulnerable time.",
+          "Main Action": "have emerged",
+          "Arguments": {
+            "Agent": [
+              "digital platforms"
+            ],
+            "Object": {
+              "Primary Object": [
+                "online forums and helplines"
+              ],
+              "Secondary Object": [
+                "support seekers"
+              ]
+            },
+            "Context": [
+              "including..."
+            ],
+            "Purpose": [
+              "Understanding support seekers' experiences"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "could provide crucial insight into caregivers' needs"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In the current work, we provide a descriptive analysis of the concerns, psychological states, and motivations shared by healthy and distressed postpartum support seekers on two digital platforms, a one-on-one digital helpline and a publicly available online forum. Using a combination of human annotations, dictionary models and unsupervised techniques, we find stark differences between the experiences of distressed and healthy mothers.",
+          "Main Action": "provide a descriptive analysis",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "concerns, psychological states, and motivations shared by healthy and distressed postpartum support seekers"
+              ],
+              "Secondary Object": [
+                "a one-on-one digital helpline and a publicly available online forum"
+              ]
+            },
+            "Context": [
+              "In the current work"
+            ],
+            "Purpose": [
+              "To understand the concerns, psychological states, and motivations shared by healthy and distressed postpartum support seekers"
+            ],
+            "Method": [
+              "Using a combination of human annotations, dictionary models, and unsupervised techniques"
+            ],
+            "Results": [
+              "We find stark differences between the experiences of distressed and healthy mothers"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Future applications or further studies based on these findings"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Distressed mothers described interpersonal problems and a lack of support, with 8.60% - 14.56% reporting severe symptoms including suicidal ideation. In contrast, the majority of healthy mothers described childcare issues, such as questions about breastfeeding or sleeping, and reported no severe mental health concerns. Across the two digital platforms, we found that distressed mothers shared similar content. However, the patterns of speech and affect shared by distressed mothers differed between the helpline vs. the online forum, suggesting the design of these platforms may shape meaningful measures of their support-seeking experiences.",
+          "Main Action": "Distressed mothers described interpersonal problems and a lack of support, with 8.60% - 14.56% reporting severe symptoms including suicidal ideation.",
+          "Arguments": {
+            "Agent": [
+              "Distressed mothers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "interpersonal problems",
+                "a lack of support"
+              ],
+              "Secondary Object": [
+                "severe symptoms including suicidal ideation"
+              ]
+            },
+            "Context": [
+              "Mothers contacting either the helpline or the online forum"
+            ],
+            "Purpose": [
+              "To explore how platform designs influence support-seeking experiences"
+            ],
+            "Method": [
+              "Comparative analysis of distress levels across platforms",
+              "Quantitative analysis of symptom reports",
+              "Qualitative assessment of content and emotions"
+            ],
+            "Results": [
+              "Higher rates of severe symptoms among distressed mothers",
+              "Similar content shared across platforms",
+              "Differences in speech and affect between helpline and online forum"
+            ],
+            "Analysis": [
+              "Platform design shapes meaningful measures of support-seeking experiences",
+              "Helpline vs. online forum show distinct patterns"
+            ],
+            "Challenge": [
+              "Potential limitations in sample size and generalizability"
+            ],
+            "Ethical": [
+              "Handling of sensitive mental health data"
+            ],
+            "Implications": [
+              "Platform design significantly impacts user support experiences",
+              "Future interventions may consider platform-specific needs"
+            ],
+            "Contradictions": [
+              "None explicitly stated"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "Our results provide new insight into the experiences of caregivers suffering from postpartum mental health distress. We conclude by discussing methodological considerations for understanding content shared by support seekers and design considerations for the next generation of support tools for postpartum parents.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "RECONSTRUCTION_ERROR"
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_186",
+      "abstract": "While aging adults frequently prefer to 'age in place', their children can worry about their well-being, especially when they live at a distance. Many in-home systems are designed to monitor the real-time status of seniors at home and provide information to their adult children. However, we observed that the needs and concerns of both sides in the information sharing process are often not aligned. In this research, we examined the design of a system that mitigates the privacy needs of aging adults in light of the information desires of adult children. We apply an iterative process to design and evaluate a visualization of indoor location data and compare its benefits to displaying raw video from cameras. We elaborate on the tradeoffs surrounding privacy and awareness made by older adults and their children, and synthesize design criteria for designing a visualization system to manage these tensions and tradeoffs.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "While aging adults frequently prefer to 'age in place', their children can worry about their well-being, especially when they live at a distance. Many in-home systems are designed to monitor the real-time status of seniors at home and provide information to their adult children. However, we observed that the needs and concerns of both sides in the information sharing process are often not aligned.",
+          "Main Action": "We observed that the needs and concerns of both sides in the information sharing process are often not aligned",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "needs and concerns of both sides in the information sharing process"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "aging adults frequently prefer to 'age in place', their children can worry about their well-being, especially when they live at a distance"
+            ],
+            "Purpose": [
+              "to understand the issues in information sharing between users"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "misalignment between the needs and concerns of both sides"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications involving improved system designs considering user perspectives"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this research, we examined the design of a system that mitigates the privacy needs of aging adults in light of the information desires of adult children. We apply an iterative process to design and evaluate a visualization of indoor location data and compare its benefits to displaying raw video from cameras. We elaborate on the tradeoffs surrounding privacy and awareness made by older adults and their children, and synthesize design criteria for designing a visualization system to manage these tensions and tradeoffs.",
+          "Main Action": "Designing and evaluating a visualization system",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Visualization system"
+              ],
+              "Secondary Object": [
+                "Raw video from cameras"
+              ]
+            },
+            "Context": [
+              "Privacy needs of aging adults",
+              "Information desires of adult children",
+              "Tensions and tradeoffs between older adults and their children"
+            ],
+            "Purpose": [
+              "Synthesizing design criteria for designing a visualization system to manage privacy and awareness"
+            ],
+            "Method": [
+              "Iterative process",
+              "Comparing visualization to raw video"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Trade-offs between privacy and awareness"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Supporting aging populations' privacy needs while aiding family communication"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

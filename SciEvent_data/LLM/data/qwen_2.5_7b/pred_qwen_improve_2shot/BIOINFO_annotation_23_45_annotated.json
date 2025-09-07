@@ -1,0 +1,288 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_712",
+      "abstract": "Numerous high-accuracy drug-target affinity (DTA) prediction models, whose performance is heavily reliant on the drug and target feature information, are developed at the expense of complexity and interpretability. Feature extraction and optimization constitute a critical step that significantly influences the enhancement of model performance, robustness, and interpretability. Many existing studies aim to comprehensively characterize drugs and targets by extracting features from multiple perspectives; however, this approach has drawbacks: (i) an abundance of redundant or noisy features; and (ii) the feature sets often suffer from high dimensionality. In this study, to obtain a model with high accuracy and strong interpretability, we utilize various traditional and cutting-edge feature selection and dimensionality reduction techniques to process self-associated features and adjacent associated features. These optimized features are then fed into learning to rank to achieve efficient DTA prediction. Extensive experimental results on two commonly used datasets indicate that, among various feature optimization methods, the regression tree-based feature selection method is most beneficial for constructing models with good performance and strong robustness. Then, by utilizing Shapley Additive Explanations values and the incremental feature selection approach, we obtain that the high-quality feature subset consists of the top 150D features and the top 20D features have a breakthrough impact on the DTA prediction. In conclusion, our study thoroughly validates the importance of feature optimization in DTA prediction and serves as inspiration for constructing high-performance and high-interpretable models.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Numerous high-accuracy drug-target affinity (DTA) prediction models, whose performance is heavily reliant on the drug and target feature information, are developed at the expense of complexity and interpretability. Feature extraction and optimization constitute a critical step that significantly influences the enhancement of model performance, robustness, and interpretability. Many existing studies aim to comprehensively characterize drugs and targets by extracting features from multiple perspectives; however, this approach has drawbacks: (i) an abundance of redundant or noisy features; and (ii) the feature sets often suffer from high dimensionality.",
+          "Main Action": "developed",
+          "Arguments": {
+            "Agent": [
+              "numerous high-accuracy DTA prediction models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "high-accuracy DTA prediction models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "whose performance is heavily reliant on the drug and target feature information, are developed at the expense of complexity and interpretability"
+            ],
+            "Purpose": [
+              "enhancement of model performance, robustness, and interpretability"
+            ],
+            "Method": [
+              "feature extraction and optimization"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "many existing studies aim to comprehensively characterize drugs and targets by extracting features from multiple perspectives"
+            ],
+            "Challenge": [
+              "abundance of redundant or noisy features; the feature sets often suffer from high dimensionality"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, to obtain a model with high accuracy and strong interpretability, we utilize various traditional and cutting-edge feature selection and dimensionality reduction techniques to process self-associated features and adjacent associated features. These optimized features are then fed into learning to rank to achieve efficient DTA prediction.",
+          "Main Action": "utilize",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "various traditional and cutting-edge feature selection and dimensionality reduction techniques"
+              ],
+              "Secondary Object": [
+                "self-associated features and adjacent associated features"
+              ]
+            },
+            "Context": [
+              "obtain a model with high accuracy and strong interpretability"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "learning to rank"
+            ],
+            "Results": [
+              "efficient DTA prediction"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Extensive experimental results on two commonly used datasets indicate that, among various feature optimization methods, the regression tree-based feature selection method is most beneficial for constructing models with good performance and strong robustness. Then, by utilizing Shapley Additive Explanations values and the incremental feature selection approach, we obtain that the high-quality feature subset consists of the top 150D features and the top 20D features have a breakthrough impact on the DTA prediction.",
+          "Main Action": "obtain",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "high-quality feature subset"
+              ],
+              "Secondary Object": [
+                "top 150D features",
+                "top 20D features"
+              ]
+            },
+            "Context": [
+              "by utilizing Shapley Additive Explanations values and the incremental feature selection approach"
+            ],
+            "Purpose": [
+              "predicting DTA"
+            ],
+            "Method": [
+              "utilizing Shapley Additive Explanations values and the incremental feature selection approach"
+            ],
+            "Results": [
+              "consists of the top 150D features and the top 20D features have a breakthrough impact on the DTA prediction"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In conclusion, our study thoroughly validates the importance of feature optimization in DTA prediction and serves as inspiration for constructing high-performance and high-interpretable models.",
+          "Main Action": "validates",
+          "Arguments": {
+            "Agent": [
+              "our study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "importance of feature optimization in DTA prediction"
+              ],
+              "Secondary Object": [
+                "high-performance and high-interpretable models"
+              ]
+            },
+            "Context": [
+              "thoroughly"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "serves as inspiration for constructing"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_835",
+      "abstract": "PDBImages is an innovative, open-source Node.js package that harnesses the power of the popular macromolecule structure visualization software Mol*. Designed for use by the scientific community, PDBImages provides a means to generate high-quality images for PDB and AlphaFold DB models. Its unique ability to render and save images directly to files in a browserless mode sets it apart, offering users a streamlined, automated process for macromolecular structure visualization. Here, we detail the implementation of PDBImages, enumerating its diverse image types, and elaborating on its user-friendly setup. This powerful tool opens a new gateway for researchers to visualize, analyse, and share their work, fostering a deeper understanding of bioinformatics.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "PDBImages is an innovative, open-source Node.js package that harnesses the power of the popular macromolecule structure visualization software Mol*. Designed for use by the scientific community, PDBImages provides a means to generate high-quality images for PDB and AlphaFold DB models. Its unique ability to render and save images directly to files in a browserless mode sets it apart, offering users a streamlined, automated process for macromolecular structure visualization. Here, we detail the implementation of PDBImages, enumerating its diverse image types, and elaborating on its user-friendly setup.",
+          "Main Action": "is designed",
+          "Arguments": {
+            "Agent": [
+              "PDBImages"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to provide a means to generate high-quality images for PDB and AlphaFold DB models"
+              ],
+              "Secondary Object": [
+                "for use by the scientific community"
+              ]
+            },
+            "Context": [
+              "harnesses the power of the popular macromolecule structure visualization software Mol*",
+              "its unique ability to render and save images directly to files in a browserless mode sets it apart"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "uses Node.js package"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This powerful tool opens a new gateway for researchers to visualize, analyse, and share their work, fostering a deeper understanding of bioinformatics.",
+          "Main Action": "opens",
+          "Arguments": {
+            "Agent": [
+              "this powerful tool"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new gateway for researchers to visualize, analyse, and share their work"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "fostering a deeper understanding of bioinformatics"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

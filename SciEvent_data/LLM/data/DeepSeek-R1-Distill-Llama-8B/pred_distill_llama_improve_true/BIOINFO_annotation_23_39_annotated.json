@@ -1,0 +1,336 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_271",
+      "abstract": "Pairwise sequence alignment is a very time-consuming step in common bioinformatics pipelines. Speeding up this step requires heuristics, efficient implementations, and/or hardware acceleration. A promising candidate for all of the above is the recently proposed GenASM algorithm. We identify and address three inefficiencies in the GenASM algorithm: it has a high amount of data movement, a large memory footprint, and does some unnecessary work. We propose Scrooge, a fast and memory-frugal genomic sequence aligner. Scrooge includes three novel algorithmic improvements which reduce the data movement, memory footprint, and the number of operations in the GenASM algorithm. We provide efficient open-source implementations of the Scrooge algorithm for CPUs and GPUs, which demonstrate the significant benefits of our algorithmic improvements. For long reads, the CPU version of Scrooge achieves a 20.1×, 1.7×, and 2.1× speedup over KSW2, Edlib, and a CPU implementation of GenASM, respectively. The GPU version of Scrooge achieves a 4.0×, 80.4×, 6.8×, 12.6×, and 5.9× speedup over the CPU version of Scrooge, KSW2, Edlib, Darwin-GPU, and a GPU implementation of GenASM, respectively. We estimate an ASIC implementation of Scrooge to use 3.6× less chip area and 2.1× less power than a GenASM ASIC while maintaining the same throughput. Further, we systematically analyze the throughput and accuracy behavior of GenASM and Scrooge under various configurations. As the best configuration of Scrooge depends on the computing platform, we make several observations that can help guide future implementations of Scrooge.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Pairwise sequence alignment is a very time-consuming step in common bioinformatics pipelines. Speeding up this step requires heuristics, efficient implementations, and/or hardware acceleration. A promising candidate for all of the above is the recently proposed GenASM algorithm. We identify and address three inefficiencies in the GenASM algorithm: it has a high amount of data movement, a large memory footprint, and does some unnecessary work.",
+          "Main Action": "We identify and address three inefficiencies in the GenASM algorithm",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "GenASM algorithm"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Pairwise sequence alignment is a very time-consuming step in common bioinformatics pipelines"
+            ],
+            "Purpose": [
+              "Speeding up this step requires heuristics, efficient implementations, and/or hardware acceleration"
+            ],
+            "Method": [
+              "implementation of the GenASM algorithm"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "it has a high amount of data movement, a large memory footprint, and does some unnecessary work"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improved efficiency"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose Scrooge, a fast and memory-frugal genomic sequence aligner. Scrooge includes three novel algorithmic improvements which reduce the data movement, memory footprint, and the number of operations in the GenASM algorithm. We provide efficient open-source implementations of the Scrooge algorithm for CPUs and GPUs, which demonstrate the significant benefits of our algorithmic improvements.",
+          "Main Action": "We propose Scrooge",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Scrooge"
+              ],
+              "Secondary Object": [
+                "CPUs and GPUs"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To improve genomic sequence alignment efficiency"
+            ],
+            "Method": [
+              "efficient open-source implementations of the Scrooge algorithm for CPUs and GPUs"
+            ],
+            "Results": [
+              "reduce the data movement, memory footprint, and the number of operations in the GenASM algorithm"
+            ],
+            "Analysis": [
+              "This demonstrates improved performance and efficiency in genomics sequencing."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improved genomic sequence alignment may facilitate advances in medical research and biological discovery"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "For long reads, the CPU version of Scrooge achieves a 20.1×, 1.7×, and 2.1× speedup over KSW2, Edlib, and a CPU implementation of GenASM, respectively. The GPU version of Scrooge achieves a 4.0×, 80.4×, 6.8×, 12.6×, and 5.9× speedup over the CPU version of Scrooge, KSW2, Edlib, Darwin-GPU, and a GPU implementation of GenASM, respectively. We estimate an ASIC implementation of Scrooge to use 3.6× less chip area and 2.1× less power than a GenASM ASIC while maintaining the same throughput. Further, we systematically analyze the throughput and accuracy behavior of GenASM and Scrooge under various configurations.",
+          "Main Action": "Achieves a 20.1×, 1.7×, and 2.1× speedup over KSW2, Edlib, and a CPU implementation of GenASM, respectively",
+          "Arguments": {
+            "Agent": [
+              "CPU version of Scrooge",
+              "GPU version of Scrooge"
+            ],
+            "Object": {
+              "Primary Object": [
+                "KSWSW2",
+                "Edlib",
+                "a CPU implementation of GenASM"
+              ],
+              "Secondary Object": [
+                "Darwin-GPU",
+                "a GPU implementation of GenASM"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "As the best configuration of Scrooge depends on the computing platform, we make several observations that can help guide future implementations of Scrooge.",
+          "Main Action": "make several observations",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Scrooge"
+              ],
+              "Secondary Object": [
+                "computing platform"
+              ]
+            },
+            "Context": [
+              "the best configuration of Scrooge depends on the computing platform"
+            ],
+            "Purpose": [
+              "help guide future implementations of Scrooge"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "several observations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "guide future implementations of Scrooge"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_709",
+      "abstract": "Peptides are ubiquitous throughout life and involved in a wide range of biological processes, ranging from neural signaling in higher organisms to antimicrobial peptides in bacteria. Many peptides are generated post-translationally by cleavage of precursor proteins and can thus not be detected directly from genomics data, as the specificities of the responsible proteases are often not completely understood. We present DeepPeptide, a deep learning model that predicts cleaved peptides directly from the amino acid sequence. DeepPeptide shows both improved precision and recall for peptide detection compared to previous methodology. We show that the model is capable of identifying peptides in underannotated proteomes.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Peptides are ubiquitous throughout life and involved in a wide range of biological processes, ranging from neural signaling in higher organisms to antimicrobial peptides in bacteria. Many peptides are generated post-translationally by cleavage of precursor proteins and can thus not be detected directly from genomics data, as the specificities of the responsible proteases are often not completely understood.",
+          "Main Action": "Highlighted the importance of understanding peptide generation through post-translational processing.",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Peptides"
+              ],
+              "Secondary Object": [
+                "Protease specificity"
+              ]
+            },
+            "Context": [
+              "Peptides play roles in diverse biological processes"
+            ],
+            "Purpose": [
+              "To address limitations in peptide detection due to unknown protease specifics"
+            ],
+            "Method": [
+              "Discussion of protease mechanisms and their impact on detection efforts"
+            ],
+            "Results": [
+              "Observation that protease specificity affects peptide detection"
+            ],
+            "Analysis": [
+              "Explanation of the consequences of limited protease understanding"
+            ],
+            "Challenge": [
+              "Lack of comprehensive understanding of protease specificity"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential improvements in diagnostic methods and basic science research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present DeepPeptide, a deep learning model that predicts cleaved peptides directly from the amino acid sequence.",
+          "Main Action": "We present DeepPeptide",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "DeepPeptide"
+              ],
+              "Secondary Object": [
+                "amino acid sequence"
+              ]
+            },
+            "Context": [
+              "peptide prediction",
+              "machine learning models"
+            ],
+            "Purpose": [
+              "To create a tool for predicting cleaved peptides"
+            ],
+            "Method": [
+              "deep learning model"
+            ],
+            "Results": [
+              "model successfully predicts cleaved peptides"
+            ],
+            "Analysis": [
+              "interpretation of how effective the model is compared to previous methods"
+            ],
+            "Challenge": [
+              "potential limitations such as computational cost or accuracy issues"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader applications in proteomics and drug discovery"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "DeepPeptide shows both improved precision and recall for peptide detection compared to previous methodology. We show that the model is capable of identifying peptides in underannotated proteomes.",
+          "Main Action": "Shows both improved precision and recall for peptide detection",
+          "Arguments": {
+            "Agent": [
+              "DeepPeptide"
+            ],
+            "Object": {
+              "Primary Object": [
+                "peptide detection"
+              ],
+              "Secondary Object": [
+                "underannotated proteomes"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Improved precision and recall for peptide detection"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This finding enhances our understanding of peptide identification in complex proteomes, particularly in regions with limited annotation."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

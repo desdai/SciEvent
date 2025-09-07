@@ -1,0 +1,244 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_646",
+      "abstract": "Automated extraction of participants, intervention, comparison/control, and outcome (PICO) from the randomized controlled trial (RCT) abstracts is important for evidence synthesis. Previous studies have demonstrated the feasibility of applying natural language processing (NLP) for PICO extraction. However, the performance is not optimal due to the complexity of PICO information in RCT abstracts and the challenges involved in their annotation. We propose a two-step NLP pipeline to extract PICO elements from RCT abstracts: (i) sentence classification using a prompt-based learning model and (ii) PICO extraction using a named entity recognition (NER) model. First, the sentences in abstracts were categorized into four sections namely background, methods, results, and conclusions. Next, the NER model was applied to extract the PICO elements from the sentences within the title and methods sections that include >96% of PICO information. We evaluated our proposed NLP pipeline on three datasets, the EBM-NLPmod dataset, a randomly selected and reannotated dataset of 500 RCT abstracts from the EBM-NLP corpus, a dataset of 150 COVID-19 RCT abstracts, and a dataset of 150 Alzheimer's disease (AD) RCT abstracts. The end-to-end evaluation reveals that our proposed approach achieved an overall micro F1 score of 0.833 on the EBM-NLPmod dataset, 0.928 on the COVID-19 dataset, and 0.899 on the AD dataset when measured at the token-level and an overall micro F1 score of 0.712 on EBM-NLPmod dataset, 0.850 on the COVID-19 dataset, and 0.805 on the AD dataset when measured at the entity-level.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Automated extraction of participants, intervention, comparison/control, and outcome (PICO) from the randomized controlled trial (RCT) abstracts is important for evidence synthesis. Previous studies have demonstrated the feasibility of applying natural language processing (NLP) for PICO extraction. However, the performance is not optimal due to the complexity of PICO information in RCT abstracts and the challenges involved in their annotation.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose a two-step NLP pipeline to extract PICO elements from RCT abstracts: (i) sentence classification using a prompt-based learning model and (ii) PICO extraction using a named entity recognition (NER) model. First, the sentences in abstracts were categorized into four sections namely background, methods, results, and conclusions. Next, the NER model was applied to extract the PICO elements from the sentences within the title and methods sections that include >96% of PICO information.",
+          "Main Action": "Sentences in abstracts were categorized into four sections namely background, methods, results, and conclusions.",
+          "Arguments": {
+            "Agent": [
+              "sentences in abstracts"
+            ],
+            "Object": {
+              "Primary Object": [
+                "background, methods, results, and conclusions."
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We propose a two-step NLP pipeline to extract PICO elements from RCT abstracts."
+            ],
+            "Purpose": [
+              "to extract PICO elements from RCT abstracts"
+            ],
+            "Method": [
+              "sentence classification using a prompt-based learning model and PICO extraction using a named entity recognition (NER) model"
+            ],
+            "Results": [
+              "the NER model was applied to extract the PICO elements from the sentences within the title and methods sections that include >96% of PICO information."
+            ],
+            "Analysis": [
+              "Next, the NER model was applied to extract the PICO elements from the sentences within the title and methods sections that include >96% of PICO information."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We evaluated our proposed NLP pipeline on three datasets, the EBM-NLPmod dataset, a randomly selected and reannotated dataset of 500 RCT abstracts from the EBM-NLP corpus, a dataset of 150 COVID-19 RCT abstracts, and a dataset of 150 Alzheimer's disease (AD) RCT abstracts. The end-to-end evaluation reveals that our proposed approach achieved an overall micro F1 score of 0.833 on the EBM-NLPmod dataset, 0.928 on the COVID-19 dataset, and 0.899 on the AD dataset when measured at the token-level and an overall micro F1 score of 0.712 on EBM-NLPmod dataset, 0.850 on the COVID-19 dataset, and 0.805 on the AD dataset when measured at the entity-level.",
+          "Main Action": "evaluated our proposed NLP pipeline",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three datasets, the EBM-NLPmod dataset, a randomly selected and reannotated dataset of 500 RCT abstracts from the EBM-NLP corpus, a dataset of 150 COVID-19 RCT abstracts, and a dataset of 150 Alzheimer's disease (AD) RCT abstracts"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "an overall micro F1 score of 0.833 on the EBM-NLPmod dataset, 0.928 on the COVID-19 dataset, and 0.899 on the AD dataset when measured at the token-level",
+              "an overall micro F1 score of 0.712 on EBM-NLPmod dataset, 0.850 on the COVID-19 dataset, and 0.805 on the AD dataset when measured at the entity-level"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_292",
+      "abstract": "We developed the eccDB database to integrate available resources for extrachromosomal circular DNA (eccDNA) data. eccDB is a comprehensive repository for storing, browsing, searching, and analyzing eccDNAs from multispecies. The database provides regulatory and epigenetic information on eccDNAs, with a focus on analyzing intrachromosomal and interchromosomal interactions to predict their transcriptional regulatory functions. Moreover, eccDB identifies eccDNAs from unknown DNA sequences and analyzes the functional and evolutionary relationships of eccDNAs among different species. Overall, eccDB offers web-based analytical tools and a comprehensive resource for biologists and clinicians to decipher the molecular regulatory mechanisms of eccDNAs.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "We developed the eccDB database to integrate available resources for extrachromosomal circular DNA (eccDNA) data. eccDB is a comprehensive repository for storing, browsing, searching, and analyzing eccDNAs from multispecies. The database provides regulatory and epigenetic information on eccDNAs, with a focus on analyzing intrachromosomal and interchromosomal interactions to predict their transcriptional regulatory functions. Moreover, eccDB identifies eccDNAs from unknown DNA sequences and analyzes the functional and evolutionary relationships of eccDNAs among different species.",
+          "Main Action": "developed the eccDB database",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the eccDB database"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to integrate available resources for extrachromosomal circular DNA (eccDNA) data"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "a comprehensive repository for storing, browsing, searching, and analyzing eccDNAs from multispecies.",
+              "provides regulatory and epigenetic information on eccDNAs, with a focus on analyzing intrachromosomal and interchromosomal interactions to predict their transcriptional regulatory functions.",
+              "identifies eccDNAs from unknown DNA sequences and analyzes the functional and evolutionary relationships of eccDNAs among different species."
+            ],
+            "Analysis": [
+              "The database provides regulatory and epigenetic information on eccDNAs..."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Having a standardized resource like eccDB aids in comparative studies and advances our understanding of gene regulation mechanisms influenced by eccentric DNA structures."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Overall, eccDB offers web-based analytical tools and a comprehensive resource for biologists and clinicians to decipher the molecular regulatory mechanisms of eccDNAs.",
+          "Main Action": "offers",
+          "Arguments": {
+            "Agent": [
+              "eccDB"
+            ],
+            "Object": {
+              "Primary Object": [
+                "web-based analytical tools and a comprehensive resource for biologists and clinicians to decipher the molecular regulatory mechanisms of eccDNAs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_365",
+      "abstract": "Dense retrieval has shown promise in the first-stage retrieval process when trained on in-domain labeled datasets. However, previous studies have found that dense retrieval is hard to generalize to unseen domains due to its weak modeling of domain-invariant and interpretable feature (i.e., matching signal between two texts, which is the essence of information retrieval). In this paper, we propose a novel method to improve the generalization of dense retrieval via capturing matching signal called BERM. Fully fine-grained expression and query-oriented saliency are two properties of the matching signal. Thus, in BERM, a single passage is segmented into multiple units and two unit-level requirements are proposed for representation as the constraint in training to obtain the effective matching signal. One is semantic unit balance and the other is essential matching unit extractability. Unit-level view and balanced semantics make representation express the text in a fine-grained manner. Essential matching unit extractability makes passage representation sensitive to the given query to extract the pure matching information from the passage containing complex context. Experiments on BEIR show that our method can be effectively combined with different dense retrieval training methods (vanilla, hard negatives mining and knowledge distillation) to improve its generalization ability without any additional inference overhead and target domain data.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Dense retrieval has shown promise in the first-stage retrieval process when trained on in-domain labeled datasets. However, previous studies have found that dense retrieval is hard to generalize to unseen domains due to its weak modeling of domain-invariant and interpretable feature (i.e., matching signal between two texts, which is the essence of information retrieval).",
+          "Main Action": "Previous studies have highlighted challenges",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "dense retrieval"
+              ],
+              "Secondary Object": [
+                "domain-invariant feature"
+              ]
+            },
+            "Context": [
+              "Dense retrieval has shown promise in the first-stage retrieval process when trained on in-domain labeled datasets"
+            ],
+            "Purpose": [
+              "Understanding the limitations of dense retrieval"
+            ],
+            "Method": [
+              "Analyzing the performance across different domains"
+            ],
+            "Results": [
+              "Difficulties in generalizing to unseen domains"
+            ],
+            "Analysis": [
+              "Weak modeling of domain-invariant features leads to poor performance"
+            ],
+            "Challenge": [
+              "Lack of generalizability across domains"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Future research directions to enhance generalization capabilities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we propose a novel method to improve the generalization of dense retrieval via capturing matching signal called BERM. Fully fine-grained expression and query-oriented saliency are two properties of the matching signal. Thus, in BERM, a single passage is segmented into multiple units and two unit-level requirements are proposed for representation as the constraint in training to obtain the effective matching signal. One is semantic unit balance and the other is essential matching unit extractability. Unit-level view and balanced semantics make representation express the text in a fine-grained manner. Essential matching unit extractability makes passage representation sensitive to the given query to extract the pure matching information from the passage containing complex context.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "generalization"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "dense retrieval"
+            ],
+            "Purpose": [
+              "improve the generalization of dense retrieval"
+            ],
+            "Method": [
+              "capturing matching signal called BERM",
+              "segmenting a single passage into multiple units",
+              "semantic unit balance",
+              "essential matching unit extractability"
+            ],
+            "Results": [
+              "a novel method to improve the generalization of dense retrieval"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "unit-level view and balanced semantics",
+              "passage representation sensitive to the given query"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enhancing search systems",
+              "understanding user intent"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments on BEIR show that our method can be effectively combined with different dense retrieval training methods (vanilla, hard negatives mining, and knowledge distillation) to improve its generalization ability without any additional inference overhead and target domain data.",
+          "Main Action": "our method can be effectively combined",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "different dense retrieval training methods"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "improving its generalization ability"
+            ],
+            "Purpose": [
+              "to enhance its generalization ability"
+            ],
+            "Method": [
+              "without any additional inference overhead and target domain data"
+            ],
+            "Results": [
+              "its generalization ability"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This combination improves its generalization ability"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_502",
+      "abstract": "Autoregressive language models are trained by minimizing the cross-entropy of the model distribution Q relative to the data distribution P – that is, minimizing the forward cross-entropy, which is equivalent to maximum likelihood estimation (MLE). We have observed that models trained in this way may “over-generalize”, in the sense that they produce non-human-like text. Moreover, we believe that reverse cross-entropy, i.e., the cross-entropy of P relative to Q, is a better reflection of how a human would evaluate text generated by a model. Hence, we propose learning with MixCE, an objective that mixes the forward and reverse cross-entropies. We evaluate models trained with this objective on synthetic data settings (where P is known) and real data, and show that the resulting models yield better generated text without complex decoding strategies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Autoregressive language models are trained by minimizing the cross-entropy of the model distribution Q relative to the data distribution P – that is, minimizing the forward cross-entropy, which is equivalent to maximum likelihood estimation (MLE).",
+          "Main Action": "Minimizing the forward cross-entropy",
+          "Arguments": {
+            "Agent": [
+              "Autoregressive language models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Cross-entropy of the model distribution Q relative to the data distribution P"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Minimizing the forward cross-entropy, which is equivalent to maximum likelihood estimation (MLE)"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": " We have observed that models trained in this way may “over-generalize”, in the sense that they produce non-human-like text. Moreover, we believe that reverse cross-entropy, i.e., the cross-entropy of P relative to Q, is a better reflection of how a human would evaluate text generated by a model. Hence, we propose learning with MixCE, an objective that mixes the forward and reverse cross-entropies.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "We evaluate models trained with this objective on synthetic data settings (where P is known) and real data, and show that the resulting models yield better generated text without complex decoding strategies.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    }
+  ]
+}

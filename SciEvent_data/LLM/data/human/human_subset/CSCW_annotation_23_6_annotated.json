@@ -1,0 +1,257 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_225",
+      "abstract": "Youth regularly use technology driven by artificial intelligence (AI). However, it is increasingly well-known that AI can cause harm on small and large scales, especially for those underrepresented in tech fields. Recently, users have played active roles in surfacing and mitigating harm from algorithmic bias. Despite being frequent users of AI, youth have been under-explored as potential contributors and stakeholders to the future of AI. We consider three notions that may be at the root of youth facing barriers to playing an active role in responsible AI, which are youth (1) cannot understand the technical aspects of AI, (2) cannot understand the ethical issues around AI, and (3) need protection from serious topics related to bias and injustice. In this study, we worked with youth (N = 30) in first through twelfth grade and parents (N = 6) to explore how youth can be part of identifying algorithmic bias and designing future systems to address problematic technology behavior. We found that youth are capable of identifying and articulating algorithmic bias, often in great detail. Participants suggested different ways users could give feedback for AI that reflects their values of diversity and inclusion. Youth who may have less experience with computing or exposure to societal structures can be supported by peers or adults with more of this knowledge, leading to critical conversations about fairer AI. This work illustrates youths' insights, suggesting that they should be integrated in building a future of responsible AI.",
+      "events": [
+        {
+          "Background/Introduction": "Use of technology by the youth driven by AI",
+          "Text": "Youth regularly use technology driven by artificial intelligence (AI). However, it is increasingly well-known that AI can cause harm on small and large scales, especially for those underrepresented in tech fields. Recently, users have played active roles in surfacing and mitigating harm from algorithmic bias. Despite being frequent users of AI, youth have been under-explored as potential contributors and stakeholders to the future of AI.",
+          "Main Action": "regularly use",
+          "Arguments": {
+            "Agent": [
+              "Youth"
+            ],
+            "Object": {
+              "Primary Object": [
+                "technology"
+              ],
+              "Primary Modifier": [
+                "driven by artificial intelligence (AI)."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "users have played active roles in surfacing and mitigating harm from algorithmic bias.",
+              "Despite being frequent users of AI, youth have been under-explored as potential contributors and stakeholders to the future of AI."
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "However, it is increasingly well-known that AI can cause harm on small and large scales, especially for those underrepresented in tech fields."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Three notions which may be reasons why youth face barriers to actively engaging with responsible AI",
+          "Text": "We consider three notions that may be at the root of youth facing barriers to playing an active role in responsible AI, which are youth (1) cannot understand the technical aspects of AI, (2) cannot understand the ethical issues around AI, and (3) need protection from serious topics related to bias and injustice. In this study, we worked with youth (N = 30) in first through twelfth grade and parents (N = 6) to explore how youth can be part of identifying algorithmic bias and designing future systems to address problematic technology behavior.",
+          "Main Action": "consider",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "three notions that may be at the root of youth facing barriers to playing an active role in responsible AI, which are youth",
+              "(1) cannot understand the technical aspects of AI, (2) cannot understand the ethical issues around AI, and (3) need protection from serious topics related to bias and injustice.",
+              "we worked with youth (N = 30) in first through twelfth grade and parents (N = 6) to explore how youth can be part of identifying algorithmic bias and designing future systems to address problematic technology behavior."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Identification and articulating algorithmic bias by the youth",
+          "Text": "We found that youth are capable of identifying and articulating algorithmic bias, often in great detail. Participants suggested different ways users could give feedback for AI that reflects their values of diversity and inclusion. Youth who may have less experience with computing or exposure to societal structures can be supported by peers or adults with more of this knowledge, leading to critical conversations about fairer AI.",
+          "Main Action": "found that",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Youth who may have less experience with computing or exposure to societal structures can be supported by peers or adults with more of this knowledge,"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "youth are capable of identifying and articulating algorithmic bias, often in great detail.",
+              "Participants suggested different ways users could give feedback for AI that reflects their values of diversity and inclusion.",
+              "leading to critical conversations about fairer AI."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Youths insights and integration in building a future of reponsible AI",
+          "Text": "This work illustrates youths' insights, suggesting that they should be integrated in building a future of responsible AI.",
+          "Main Action": "illustrates",
+          "Arguments": {
+            "Agent": [
+              "This work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "youths' insights"
+              ],
+              "Primary Modifier": [
+                "suggesting that they should be integrated in building a future of responsible AI."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_193",
+      "abstract": "The global population of refugees as recorded by UNHCR is at an all-time high of over 90 million people forced to find new homes in a foreign land. Starting a new life can be unsettling for refugees and asylum seekers during the resettling process in their host countries, particularly when it comes to gaining financial independence. This paper used an interview-based study to engage with fifteen refugees and asylum seekers to learn how they achieve entrepreneurial success as they navigate refugee specific barriers in a new economy. The insights showed refugee entrepreneur specific barriers that align with resettlement challenges and the technical and social resourcefulness of this under-resourced community. Our contributions to the CSCW research community are an understanding of how low-socioeconomic entrepreneurs such as refugees, function in their ecosystem and design implications for developing technology to further the efforts of refugee entrepreneurs.",
+      "events": [
+        {
+          "Background/Introduction": "Starting a new life for refugees and asylum seekers",
+          "Text": "The global population of refugees as recorded by UNHCR is at an all-time high of over 90 million people forced to find new homes in a foreign land. Starting a new life can be unsettling for refugees and asylum seekers during the resettling process in their host countries, particularly when it comes to gaining financial independence.",
+          "Main Action": "forced to find",
+          "Arguments": {
+            "Agent": [
+              "90 million people"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new homes"
+              ],
+              "Primary Modifier": [
+                "in a foreign land."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "The global population of refugees as recorded by UNHCR is at an all-time high of over"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "Starting a new life can be unsettling for refugees and asylum seekers during the resettling process in their host countries, particularly when it comes to gaining financial independence."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Interview based study to learn how refugees and asylum seekers achieve entrepreneurial success",
+          "Text": "This paper used an interview-based study to engage with fifteen refugees and asylum seekers to learn how they achieve entrepreneurial success as they navigate refugee specific barriers in a new economy.",
+          "Main Action": "used",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an interview-based study"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "to engage with fifteen refugees and asylum seekers to learn how they achieve entrepreneurial success as they navigate refugee specific barriers in a new economy."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Insights on refugee entrepreneur specific barriers",
+          "Text": "The insights showed refugee entrepreneur specific barriers that align with resettlement challenges and the technical and social resourcefulness of this under-resourced community.",
+          "Main Action": "showed",
+          "Arguments": {
+            "Agent": [
+              "The insights"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "refugee entrepreneur specific barriers that align with resettlement challenges and the technical and social resourcefulness of this under-resourced community."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Understanding of how low cosieo economic entrepreneurs function in their eco system",
+          "Text": "Our contributions to the CSCW research community are an understanding of how low-socioeconomic entrepreneurs such as refugees, function in their ecosystem and design implications for developing technology to further the efforts of refugee entrepreneurs.",
+          "Main Action": "are",
+          "Arguments": {
+            "Agent": [
+              "Our contributions to the CSCW research community"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an understanding of how low-socioeconomic entrepreneurs such as refugees"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "function in their ecosystem and design implications for developing technology to further the efforts of refugee entrepreneurs."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_101",
+      "abstract": "Live streaming has become a popular activity world-wide that has warranted research attention on its privacy related issues. For instance, bystanders' privacy, or the privacy of third-parties captured by streamers, has been increasingly studied as live streaming has become almost ubiquitous in both public and private spaces in many countries. While prior work has studied bystanders' privacy concerns, a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it. Understanding streamers' considerations towards bystanders' privacy is vital because streamers are the ones who have direct control over whether and how bystanders' information is disclosed. To address this gap, we conducted an interview study with 25 Chinese streamers to understand their considerations and practices regarding bystanders' privacy in live streaming. We found that streamers cared about bystanders' privacy and evaluated possible privacy violations to bystanders from several perspectives. To protect bystanders from privacy violations, streamers primarily relied on technical, behavioral, and collaborative strategies. Our results also indicated that current streaming platforms lacked features that helped streamers seamlessly manage bystanders' privacy and involved bystanders into their privacy decision-making. Applying the theoretical lens of collective privacy management, we discuss implications for the design of live streaming systems to support streamers in protecting bystanders' privacy.",
+      "events": [
+        {
+          "Background/Introduction": "Live streaming",
+          "Text": "Live streaming has become a popular activity world-wide that has warranted research attention on its privacy related issues. For instance, bystanders' privacy, or the privacy of third-parties captured by streamers, has been increasingly studied as live streaming has become almost ubiquitous in both public and private spaces in many countries. While prior work has studied bystanders' privacy concerns, a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it. Understanding streamers' considerations towards bystanders' privacy is vital because streamers are the ones who have direct control over whether and how bystanders' information is disclosed.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Primary Modifier": [
+                "that has warranted research attention on its privacy related issues"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "bystanders' privacy, or the privacy of third-parties captured by streamers, has been increasingly studied as live streaming has become almost ubiquitous in both public and private spaces in many countries",
+              "rior work has studied bystanders' privacy concerns",
+              "Understanding streamers' considerations towards bystanders' privacy is vital"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "an interview study with 25 chinese streamers",
+          "Text": "To address this gap, we conducted an interview study with 25 Chinese streamers to understand their considerations and practices regarding bystanders' privacy in live streaming.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an interview study"
+              ],
+              "Primary Modifier": [
+                "with 25 Chinese streamers"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "to understand their considerations and practices regarding bystanders' privacy in live streaming"
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "streamers care about the bystanders",
+          "Text": "We found that streamers cared about bystanders' privacy and evaluated possible privacy violations to bystanders from several perspectives. To protect bystanders from privacy violations, streamers primarily relied on technical, behavioral, and collaborative strategies. Our results also indicated that current streaming platforms lacked features that helped streamers seamlessly manage bystanders' privacy and involved bystanders into their privacy decision-making.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "streamers cared about bystanders' privacy"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "evaluated possible privacy violations to bystanders from several perspectives"
+            ],
+            "Results": [
+              "To protect bystanders from privacy violations, streamers primarily relied on technical, behavioral, and collaborative strategies",
+              "current streaming platforms lacked features that helped streamers seamlessly manage bystanders' privacy and involved bystanders into their privacy decision-making"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "implicatrions foe design of live streaming",
+          "Text": "Applying the theoretical lens of collective privacy management, we discuss implications for the design of live streaming systems to support streamers in protecting bystanders' privacy.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "implications"
+              ],
+              "Primary Modifier": [
+                "for the design of live streaming systems"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Applying the theoretical lens of collective privacy management"
+            ],
+            "Purpose": [
+              "to support streamers in protecting bystanders' privacy"
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_201",
+      "abstract": "Numerous toolkits have been developed to support ethical AI development. However, toolkits, like all tools, encode assumptions in their design about what work should be done and how. In this paper, we conduct a qualitative analysis of 27 AI ethics toolkits to critically examine how the work of ethics is imagined and how it is supported by these toolkits. Specifically, we examine the discourses toolkits rely on when talking about ethical issues, who they imagine should do the work of ethics, and how they envision the work practices involved in addressing ethics. Among the toolkits, we identify a mismatch between the imagined work of ethics and the support the toolkits provide for doing that work. In particular, we identify a lack of guidance around how to navigate labor, organizational, and institutional power dynamics as they relate to performing ethical work. We use these omissions to chart future work for researchers and designers of AI ethics toolkits.",
+      "events": [
+        {
+          "Background/Introduction": "toolkits to support ethical Ai development",
+          "Text": "Numerous toolkits have been developed to support ethical AI development. However, toolkits, like all tools, encode assumptions in their design about what work should be done and how.",
+          "Main Action": "have been developed to support",
+          "Arguments": {
+            "Agent": [
+              "Numerous toolkits"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ethical AI development"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "toolkits, like all tools, encode assumptions in their design about what work should be done and how"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "a qualitative analysis of 27 AI ethics toolkits",
+          "Text": "In this paper, we conduct a qualitative analysis of 27 AI ethics toolkits to critically examine how the work of ethics is imagined and how it is supported by these toolkits. Specifically, we examine the discourses toolkits rely on when talking about ethical issues, who they imagine should do the work of ethics, and how they envision the work practices involved in addressing ethics.",
+          "Main Action": "conduct",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a qualitative analysis"
+              ],
+              "Primary Modifier": [
+                "of 27 AI ethics toolkits"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "to critically examine how the work of ethics is imagined and how it is supported by these toolkits"
+            ],
+            "Method": [
+              "we examine the discourses toolkits rely on when talking about ethical issues, who they imagine should do the work of ethics, and how they envision the work practices involved in addressing ethics"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "imagined work and the actual work done by the toolkits",
+          "Text": "Among the toolkits, we identify a mismatch between the imagined work of ethics and the support the toolkits provide for doing that work. In particular, we identify a lack of guidance around how to navigate labor, organizational, and institutional power dynamics as they relate to performing ethical work.",
+          "Main Action": "identify",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a mismatch"
+              ],
+              "Primary Modifier": [
+                "between the imagined work of ethics and the support the toolkits provide for doing that work"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "a lack of guidance around how to navigate labor, organizational, and institutional power dynamics as they relate to performing ethical work"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "omissions to chart future work for researchers and designers of Ai ethichs toolkit",
+          "Text": "We use these omissions to chart future work for researchers and designers of AI ethics toolkits.",
+          "Main Action": "use",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these omissions"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "chart future work for researchers and designers of AI ethics toolkits"
+            ],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

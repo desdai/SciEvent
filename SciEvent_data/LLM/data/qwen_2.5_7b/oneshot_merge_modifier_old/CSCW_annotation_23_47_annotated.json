@@ -1,0 +1,331 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_47",
+      "abstract": "It was previously hypothesized that gender differences — and thus gender discrimination — would disappear if communication was no longer in person, and instead was transmitted and received in the same format for all. Yet, even online, researchers have identified gendered language styles in written communication that reveal gender cues and can lead to unequal treatment. In this work, we revisit these past findings and ask whether the same gendered patterns can be found on modern communication platforms, which present a new set of engagement features and mixed synchronous capabilities. We quantitatively analyze 335,000 Slack messages sent by 845 individuals as part of 46 teams, collected over six years of a product design capstone course. We found little evidence of traditionally gendered communication styles (characterized as elaborate, uncertain, and supportive) from the minority-gender participants. We did identify relationships between message author gender, communication style, and message engagement — women and minority genders were more likely to have their messages engaged with, but only when using certain communication styles — suggesting complex power dynamics exist on these platforms. We contribute the first study of gendered language styles on Enterprise Communication Platforms, adding to the community's understanding of how new settings and emerging technology relate to team collaborative dynamics, and motivating future tool development to support collaboration in diverse teams.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "It was previously hypothesized that gender differences — and thus gender discrimination — would disappear if communication was no longer in person, and instead was transmitted and received in the same format for all. Yet, even online, researchers have identified gendered language styles in written communication that reveal gender cues and can lead to unequal treatment.",
+          "Main Action": "have identified",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "gendered language styles in written communication"
+              ],
+              "Secondary Object": [
+                "gender cues and can lead to unequal treatment"
+              ]
+            },
+            "Context": [
+              "even online,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "revealing gender cues and leading to unequal treatment"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we revisit these past findings and ask whether the same gendered patterns can be found on modern communication platforms, which present a new set of engagement features and mixed synchronous capabilities. We quantitatively analyze 335,000 Slack messages sent by 845 individuals as part of 46 teams, collected over six years of a product design capstone course.",
+          "Main Action": "revisit",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these past findings"
+              ],
+              "Secondary Object": [
+                "modern communication platforms"
+              ]
+            },
+            "Context": [
+              "which present a new set of engagement features and mixed synchronous capabilities"
+            ],
+            "Purpose": [
+              "ask whether the same gendered patterns can be found"
+            ],
+            "Method": [
+              "quantitative analysis"
+            ],
+            "Results": [
+              "analyzed 335,000 Slack messages sent by 845 individuals as part of 46 teams, collected over six years of a product design capstone course"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found little evidence of traditionally gendered communication styles (characterized as elaborate, uncertain, and supportive) from the minority-gender participants. We did identify relationships between message author gender, communication style, and message engagement — women and minority genders were more likely to have their messages engaged with, but only when using certain communication styles — suggesting complex power dynamics exist on these platforms.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "little evidence of traditionally gendered communication styles"
+              ],
+              "Secondary Object": [
+                "from the minority-gender participants"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "we did identify relationships between message author gender, communication style, and message engagement — women and minority genders were more likely to have their messages engaged with, but only when using certain communication styles"
+            ],
+            "Analysis": [
+              "suggesting complex power dynamics exist on these platforms"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We contribute the first study of gendered language styles on Enterprise Communication Platforms, adding to the community's understanding of how new settings and emerging technology relate to team collaborative dynamics, and motivating future tool development to support collaboration in diverse teams.",
+          "Main Action": "contribute",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the first study of gendered language styles on Enterprise Communication Platforms"
+              ],
+              "Secondary Object": [
+                "adding to the community's understanding of how new settings and emerging technology relate to team collaborative dynamics, and motivating future tool development to support collaboration in diverse teams"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "motivating future tool development to support collaboration in diverse teams"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_180",
+      "abstract": "We investigate how robotic camera systems can offer new capabilities to computer-supported cooperative work through the design, development, and evaluation of a prototype system called Periscope. With Periscope, a local worker completes manipulation tasks with guidance from a remote helper who observes the workspace through a camera mounted on a semi-autonomous robotic arm that is co-located with the worker. Our key insight is that the helper, the worker, and the robot should all share responsibility of the camera view — an approach we call shared camera control. Using this approach, we present a set of modes that distribute the control of the camera between the human collaborators and the autonomous robot depending on task needs. We demonstrate the system's utility and the promise of shared camera control through a preliminary study where 12 dyads collaboratively worked on assembly tasks. Finally, we discuss design and research implications of our work for future robotic camera systems that facilitate remote collaboration.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "We investigate how robotic camera systems can offer new capabilities to computer-supported cooperative work through the design, development, and evaluation of a prototype system called Periscope. With Periscope, a local worker completes manipulation tasks with guidance from a remote helper who observes the workspace through a camera mounted on a semi-autonomous robotic arm that is co-located with the worker. Our key insight is that the helper, the worker, and the robot should all share responsibility of the camera view — an approach we call shared camera control. Using this approach, we present a set of modes that distribute the control of the camera between the human collaborators and the autonomous robot depending on task needs.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how robotic camera systems can offer new capabilities to computer-supported cooperative work"
+              ],
+              "Secondary Object": [
+                "through the design, development, and evaluation of a prototype system called Periscope"
+              ]
+            },
+            "Context": [
+              "With Periscope, a local worker completes manipulation tasks with guidance from a remote helper who observes the workspace through a camera mounted on a semi-autonomous robotic arm that is co-located with the worker."
+            ],
+            "Purpose": [
+              "our key insight is that the helper, the worker, and the robot should all share responsibility of the camera view — an approach we call shared camera control"
+            ],
+            "Method": [
+              "using this approach, we present a set of modes that distribute the control of the camera between the human collaborators and the autonomous robot depending on task needs"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate the system's utility and the promise of shared camera control through a preliminary study where 12 dyads collaboratively worked on assembly tasks.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "system's utility and the promise of shared camera control"
+              ],
+              "Secondary Object": [
+                "through a preliminary study"
+              ]
+            },
+            "Context": [
+              "where 12 dyads collaboratively worked on assembly tasks"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, we discuss design and research implications of our work for future robotic camera systems that facilitate remote collaboration.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design and research implications of our work for future robotic camera systems that facilitate remote collaboration"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Finaly,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for future robotic camera systems that facilitate remote collaboration"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

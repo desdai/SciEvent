@@ -1,0 +1,287 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_40",
+      "abstract": "Network representation is a crucial topic in historical social network analysis. The debate around their value and connotations, led by humanist scholars, is today more relevant than ever, seeing how common these representations are as support for historical analysis. Force-directed networks, in particular, are popular as they can be developed relatively quickly, and reveal patterns and structures in data. The underlying algorithms, although powerful in revealing hidden patterns, do not retain meaningful structure and existing hierarchies within historical social networks. In this article, we question the foreign aspect of this structure that force-directed layouts create in historical datasets. We explore the importance of hierarchy in social networks, and investigate whether hierarchies - strongly present within our models of social structure - affect our perception of social network data. Results from our user evaluation indicate that hierarchical network representations reduce cognitive load and lead to more frequent and deeper insights into historical social networks. We also find that users report a preference for the hierarchical graph representation. We analyse these findings in light of the broader discussion on the value of force-directed network representations within humanistic research, and introduce open questions for future work in this line of research.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Network representation is a crucial topic in historical social network analysis. The debate around their value and connotations, led by humanist scholars, is today more relevant than ever, seeing how common these representations are as support for historical analysis. Force-directed networks, in particular, are popular as they can be developed relatively quickly, and reveal patterns and structures in data. The underlying algorithms, although powerful in revealing hidden patterns, do not retain meaningful structure and existing hierarchies within historical social networks.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "humanist scholars"
+            ],
+            "Object": {
+              "Primary Object": [
+                "networks"
+              ],
+              "Secondary Object": [
+                "data"
+              ]
+            },
+            "Context": [
+              "The debate around their value and connotations"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "although powerful in revealing hidden patterns"
+            ],
+            "Results": [
+              "do not retain meaningful structure and existing hierarchies"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "seeing how common these representations are as support for historical analysis"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this article, we question the foreign aspect of this structure that force-directed layouts create in historical datasets. We explore the importance of hierarchy in social networks, and investigate whether hierarchies - strongly present within our models of social structure - affect our perception of social network data.",
+          "Main Action": "question",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "foreign aspect of this structure that force-directed layouts create in historical datasets"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We explore the importance of hierarchy in social networks, and investigate whether hierarchies - strongly present within our models of social structure - affect our perception of social network data."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Results from our user evaluation indicate that hierarchical network representations reduce cognitive load and lead to more frequent and deeper insights into historical social networks. We also find that users report a preference for the hierarchical graph representation.",
+          "Main Action": "indicate",
+          "Arguments": {
+            "Agent": [
+              "our user evaluation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "results from hierarchical network representations"
+              ],
+              "Secondary Object": [
+                "users' reports"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "reduce cognitive load and lead to more frequent and deeper insights into historical social networks"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "users report a preference for the hierarchical graph representation"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "We analyse these findings in light of the broader discussion on the value of force-directed network representations within humanistic research, and introduce open questions for future work in this line of research.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_51",
+      "abstract": "The annual, international Digital Humanities conference is what originally brought ADHO (the Alliance of Digital Humanities Organizations) together. Many see it as a cornerstone of our collective identity which enables collaboration, networking, and the international dissemination of scholarship in the field. This response to 'The circus we deserve? A front row look at the organization of the annual academic conference for the Digital Humanities' by Laura Estill, Jennifer Guiliano, Élika Ortega, Melissa Terras, Deb Verhoeven and Glen Layne-Worthey engages with its call for ADHO to improve its processes and practices surrounding the DH conference by describing the work that has been done to date, and initiatives ADHO is now undertaking.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The annual, international Digital Humanities conference is what originally brought ADHO (the Alliance of Digital Humanities Organizations) together. Many see it as a cornerstone of our collective identity which enables collaboration, networking, and the international dissemination of scholarship in the field.",
+          "Main Action": "brought",
+          "Arguments": {
+            "Agent": [
+              "ADHO"
+            ],
+            "Object": {
+              "Primary Object": [
+                "together"
+              ],
+              "Secondary Object": [
+                "many"
+              ]
+            },
+            "Context": [
+              "Many see it as a cornerstone of our collective identity which enables collaboration, networking, and the international dissemination of scholarship in the field."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "What is the SINGLE most representative trigger (verb or verb phrase) in the segment?"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "What is the broader significance or potential for future applications/research?"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This response to 'The circus we deserve? A front row look at the organization of the annual academic conference for the Digital Humanities' by Laura Estill, Jennifer Guiliano, Élika Ortega, Melissa Terras, Deb Verhoeven and Glen Layne-Worthey engages with its call for ADHO to improve its processes and practices surrounding the DH conference by describing the work that has been done to date, and initiatives ADHO is now undertaking.",
+          "Main Action": "engages with",
+          "Arguments": {
+            "Agent": [
+              "response to 'The circus we deserve?'"
+            ],
+            "Object": {
+              "Primary Object": [
+                "its call for ADHO to improve its processes and practices surrounding the DH conference"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "by describing the work that has been done to date, and initiatives ADHO is now undertaking."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

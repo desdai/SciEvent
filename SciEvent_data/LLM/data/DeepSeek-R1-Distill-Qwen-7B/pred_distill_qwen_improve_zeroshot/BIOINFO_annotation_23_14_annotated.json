@@ -1,0 +1,281 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_294",
+      "abstract": "Identifying and prioritizing disease-related proteins is an important scientific problem to develop proper treatments. Network science has become an important discipline to prioritize such proteins. Multiple sclerosis, an autoimmune disease for which there is still no cure, is characterized by a damaging process called demyelination. Demyelination is the destruction of myelin, a structure facilitating fast transmission of neuron impulses, and oligodendrocytes, the cells producing myelin, by immune cells. Identifying the proteins that have special features on the network formed by the proteins of oligodendrocyte and immune cells can reveal useful information about the disease. We investigated the most significant protein pairs that we define as bridges among the proteins providing the interaction between the two cells in demyelination, in the networks formed by the oligodendrocyte and each type of two immune cells (i.e. macrophage and T-cell) using network analysis techniques and integer programming. The reason we investigated these specialized hubs was that a problem related to these proteins might impose a bigger damage in the system. We showed that 61%-100% of the proteins our model detected, depending on parameterization, have already been associated with multiple sclerosis. We further observed the mRNA expression levels of several proteins we prioritized significantly decreased in human peripheral blood mononuclear cells of multiple sclerosis patients. We therefore present a model, BriFin, which can be used for analyzing processes where interactions of two cell types play an important role.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Identifying and prioritizing disease-related proteins is an important scientific problem to develop proper treatments. Network science has become an important discipline to prioritize such proteins. Multiple sclerosis, an autoimmune disease for which there is still no cure, is characterized by a damaging process called demyelination. Demyelination is the destruction of myelin, a structure facilitating fast transmission of neuron impulses, and oligodendrocytes, the cells producing myelin, by immune cells. Identifying the proteins that have special features on the network formed by the proteins of oligodendrocyte and immune cells can reveal useful information about the disease.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Primary Modifier": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ],
+              "Secondary Modifier": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We investigated the most significant protein pairs that we define as bridges among the proteins providing the interaction between the two cells in demyelination, in the networks formed by the oligodendrocyte and each type of two immune cells (i.e. macrophage and T-cell) using network analysis techniques and integer programming. The reason we investigated these specialized hubs was that a problem related to these proteins might impose a bigger damage in the system.",
+          "Main Action": "We investigated",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "We"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "investigated"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We investigated the most significant protein pairs"
+            ],
+            "Purpose": [
+              "to define as bridges among the proteins providing the interaction between the two cells in demyelination"
+            ],
+            "Method": [
+              "using network analysis techniques and integer programming"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We showed that 61%-100% of the proteins our model detected, depending on parameterization, have already been associated with multiple sclerosis. We further observed the mRNA expression levels of several proteins we prioritized significantly decreased in human peripheral blood mononuclear cells of multiple sclerosis patients. We therefore present a model, BriFin, which can be used for analyzing processes where interactions of two cell types play an important role.",
+          "Main Action": "Therefore present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "BriFin"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "a model"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We showed that 61%-100% of the proteins our model detected...",
+              "We further observed the mRNA expression levels..."
+            ],
+            "Purpose": [
+              "advance understanding of cellular interactions affecting disease states"
+            ],
+            "Method": [
+              "using computational models and statistical analysis methods"
+            ],
+            "Results": [
+              "We therefore present a model, BriFin, which can be used for analyzing processes where interactions of two cell types play an important role."
+            ],
+            "Analysis": [
+              "Analyzing aspects explaining why the model works"
+            ],
+            "Challenge": [
+              "challenges with accurately capturing complex biological systems with limited data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "implications extending beyond current scope, suggesting application across various cellular interaction studies and aiding precision medicine efforts"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_707",
+      "abstract": "The alevin-fry ecosystem provides a robust and growing suite of programs for single-cell data processing. However, as new single-cell technologies are introduced, as the community continues to adjust best practices for data processing, and as the alevin-fry ecosystem itself expands and grows, it is becoming increasingly important to manage the complexity of alevin-fry's single-cell preprocessing workflows while retaining the performance and flexibility that make these tools enticing. We introduce simpleaf, a program that simplifies the processing of single-cell data using tools from the alevin-fry ecosystem, and adds new functionality and capabilities, while retaining the flexibility and performance of the underlying tools.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The alevin-fry ecosystem provides a robust and growing suite of programs for single-cell data processing. However, as new single-cell technologies are introduced, as the community continues to adjust best practices for data processing, and as the alevin-fry ecosystem itself expands and grows, it is becoming increasingly important to manage the complexity of alevin-fry's single-cell preprocessing workflows while retaining the performance and flexibility that make these tools enticing.",
+          "Main Action": "manage",
+          "Arguments": {
+            "Agent": [
+              "users and developers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "increasing workflow complexities"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "maintain performance and flexibility"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "new single-cell technologies",
+              "adjusting best practices",
+              "alevin-fry ecosystem expansions"
+            ],
+            "Purpose": [
+              "address challenges in ecosystem management"
+            ],
+            "Method": [
+              "integrate new tools",
+              "adapt workflows",
+              "optimize resources"
+            ],
+            "Results": [
+              "rising operational costs",
+              "inefficiency relative to older solutions"
+            ],
+            "Analysis": [
+              "lack of scalability",
+              "human factor inconsistencies"
+            ],
+            "Challenge": [
+              "technical limitations",
+              "accessibility barriers"
+            ],
+            "Ethical": [
+              "balance between innovation and accessibility",
+              "specialized skill requirements hindering broad usability"
+            ],
+            "Implications": [
+              "significant impact on researcher approaches",
+              "collaborative efforts required"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We introduce simpleaf, a program that simplifies the processing of single-cell data using tools from the alevin-fry ecosystem, and adds new functionality and capabilities, while retaining the flexibility and performance of the underlying tools.",
+          "Main Action": "We introduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "simpleaf"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "alevin-fry ecosystem"
+            ],
+            "Purpose": [
+              "to develop a program that simplifies processing of single-cell data"
+            ],
+            "Method": [
+              "utilizing tools from the alevin-fry ecosystem and integrating them with existing tools"
+            ],
+            "Results": [
+              "simplified processing of single-cell data using tools from the alevin-fry ecosystem"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potentially facilitating more efficient single-cell data analysis across various biological studies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

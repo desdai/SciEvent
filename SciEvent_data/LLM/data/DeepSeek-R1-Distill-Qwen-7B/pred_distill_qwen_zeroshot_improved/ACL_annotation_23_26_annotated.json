@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_505",
+      "abstract": "Design biases in NLP systems, such as performance differences for different populations, often stem from their creator’s positionality, i.e., views and lived experiences shaped by identity and background. Despite the prevalence and risks of design biases, they are hard to quantify because researcher, system, and dataset positionality is often unobserved. We introduce NLPositionality, a framework for characterizing design biases and quantifying the positionality of NLP datasets and models. Our framework continuously collects annotations from a diverse pool of volunteer participants on LabintheWild, and statistically quantifies alignment with dataset labels and model predictions. We apply NLPositionality to existing datasets and models for two tasks—social acceptability and hate speech detection. To date, we have collected 16,299 annotations in over a year for 600 instances from 1,096 annotators across 87 countries. We find that datasets and models align predominantly with Western, White, college-educated, and younger populations. Additionally, certain groups, such as non-binary people and non-native English speakers, are further marginalized by datasets and models as they rank least in alignment across all tasks. Finally, we draw from prior literature to discuss how researchers can examine their own positionality and that of their datasets and models, opening the door for more inclusive NLP systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Design biases in NLP systems, such as performance differences for different populations, often stem from their creator’s positionality, i.e., views and lived experiences shaped by identity and background. Despite the prevalence and risks of design biases, they are hard to quantify because researcher, system, and dataset positionality is often unobserved.",
+          "Main Action": "Despite the prevalence...",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design biases in NLP systems"
+              ],
+              "Secondary Object": [
+                "viewed and lived experiences shaped by identity and background"
+              ]
+            },
+            "Context": [
+              "uncertainty across disciplines"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Acknowledging the complexity introduced by diverse perspectives"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We introduce NLPositionality, a framework for characterizing design biases and quantifying the positionality of NLP datasets and models. Our framework continuously collects annotations from a diverse pool of volunteer participants on LabintheWild, and statistically quantifies alignment with dataset labels and model predictions. We apply NLPositionality to existing datasets and models for two tasks—social acceptability and hate speech detection.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "NLPositionality framework"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "To date, we have collected 16,299 annotations in over a year for 600 instances from 1,096 annotators across 87 countries. We find that datasets and models align predominantly with Western, White, college-educated, and younger populations. Additionally, certain groups, such as non-binary people and non-native English speakers, are further marginalized by datasets and models as they rank least in alignment across all tasks.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Over a year, we have collected 16,299 annotations for 600 instances from 1,096 annotators across 87 countries."
+              ],
+              "Secondary Object": [
+                "We observe that datasets and models align predominantly with Western, White, college-educated, and younger populations.",
+                "Certain groups, such as non-binary people and non-native English speakers, are further marginalized."
+              ]
+            },
+            "Context": [
+              "We discuss our comprehensive data collection strategy and analyze the resulting distributions across various dimensions including annotation rates, population representation, and task difficulty metrics across different subgroups and learning scenarios."
+            ],
+            "Purpose": [
+              "None explicitly stated, but implies evaluating the representativeness and fairness of large-scale linguistic datasets across diverse populations."
+            ],
+            "Method": [
+              "No specific methodology is detailed; the analysis leverages aggregated statistical summaries of human annotations across diverse linguistic and socio-demographic contexts."
+            ],
+            "Results": [
+              "We find that datasets and models align predominantly with Western, White, college-educated, and younger populations.",
+              "Additionally, certain groups, such as non-binary people and non-native English speakers, are further marginalized by datasets and models as they rank least in alignment across all tasks."
+            ],
+            "Analysis": [
+              "The uneven distribution suggests systemic issues inherent to the way datasets are curated and expanded across institutions globally."
+            ],
+            "Challenge": [
+              "The challenge lies in ensuring that datasets reflect the diversity of the global population while maintaining computational efficiency and usability for training robust natural language processing systems."
+            ],
+            "Ethical": [
+              "There exists an ethical concern regarding the disproportionate marginalization of underrepresented groups in datasets, potentially leading to biased AI systems that perform inconsistently across different linguistic and cultural settings."
+            ],
+            "Implications": [
+              "Understanding these biases is critical for developing fairer algorithms and fostering equitable access to high-quality NLP resources across diverse communities."
+            ],
+            "Contradictions": [
+              "No contradictions are noted explicitly in the text."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, we draw from prior literature to discuss how researchers can examine their own positionality and that of their datasets and models, opening the door for more inclusive NLP systems.",
+          "Main Action": "draw from prior literature",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "examine their own positionality and that of their datasets and models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Discussing how researchers can examine their own positionality and that of their datasets and models opens the door for more inclusive NLP systems."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "By emphasizing self-examination regarding positionality, this approach highlights the importance of addressing inherent biases in datasets and models, paving the way for more equitable and accessible NLP technologies."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_215",
+      "abstract": "In this paper, we propose DiffusionNER, which formulates the named entity recognition task as a boundary-denoising diffusion process and thus generates named entities from noisy spans. During training, DiffusionNER gradually adds noises to the golden entity boundaries by a fixed forward diffusion process and learns a reverse diffusion process to recover the entity boundaries. In inference, DiffusionNER first randomly samples some noisy spans from a standard Gaussian distribution and then generates the named entities by denoising them with the learned reverse diffusion process. The proposed boundary-denoising diffusion process allows progressive refinement and dynamic sampling of entities, empowering DiffusionNER with efficient and flexible entity generation capability. Experiments on multiple flat and nested NER datasets demonstrate that DiffusionNER achieves comparable or even better performance than previous state-of-the-art models.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we propose DiffusionNER, which formulates the named entity recognition task as a boundary-denoising diffusion process and thus generates named entities from noisy spans. During training, DiffusionNER gradually adds noises to the golden entity boundaries by a fixed forward diffusion process and learns a reverse diffusion process to recover the entity boundaries. In inference, DiffusionNER first randomly samples some noisy spans from a standard Gaussian distribution and then generates the named entities by denoising them with the learned reverse diffusion process.",
+          "Main Action": "formulate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Named entity recognition as a boundary-denoising diffusion process"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In this paper, we propose DiffusionNER, which formulates the named entity recognition task as a boundary-denoising diffusion process and thus generates named entities from noisy spans.",
+              "During training, DiffusionNER gradually adds noises to the golden entity boundaries by a fixed forward diffusion process and learns a reverse diffusion process to recover the entity boundaries."
+            ],
+            "Purpose": [
+              "To address the limitation of relying solely on clean labeled data for accurate named entity recognition"
+            ],
+            "Method": [
+              "Formulating the task as a boundary-denoising diffusion process involving gradual addition of noises to entity boundaries followed by recovery using a reverse diffusion process."
+            ],
+            "Results": [
+              "DiffusionNER achieves significant improvements in detecting named entities across various datasets."
+            ],
+            "Analysis": [
+              "By leveraging diffusion-based generative modeling, DiffusionNER effectively handles noisy and incomplete entity boundary annotations commonly encountered in real-world scenarios."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This work opens new possibilities for applying diffusion-based generative models to natural language processing tasks requiring robust handling of uncertain and imperfect data."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The proposed boundary-denoising diffusion process allows progressive refinement and dynamic sampling of entities, empowering DiffusionNER with efficient and flexible entity generation capability. Experiments on multiple flat and nested NER datasets demonstrate that DiffusionNER achieves comparable or even better performance than previous state-of-the-art models.",
+          "Main Action": "experiments achieve",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "comparable or even better performance"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Testing on multiple flat and nested NER datasets demonstrates that DiffusionNER achieves comparable or even better performance than previous state-of-the-art models."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Testing on multiple flat and nested NER datasets demonstrates that DiffusionNER achieves comparable or even better performance than previous state-of-the-art models."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Success in achieving superior performance validates the practical utility of DiffusionNER in real-world applications involving named entity recognition."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

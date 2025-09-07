@@ -1,0 +1,386 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_499",
+      "abstract": "Synthetic lethality (SL) is a promising strategy for anticancer therapy, as inhibiting SL partners of genes with cancer-specific mutations can selectively kill the cancer cells without harming the normal cells. Wet-lab techniques for SL screening have issues like high cost and off-target effects. Computational methods can help address these issues. Previous machine learning methods leverage known SL pairs, and the use of knowledge graphs (KGs) can significantly enhance the prediction performance. However, the subgraph structures of KG have not been fully explored. Besides, most machine learning methods lack interpretability, which is an obstacle for wide applications of machine learning to SL identification. We present a model named KR4SL to predict SL partners for a given primary gene. It captures the structural semantics of a KG by efficiently constructing and learning from relational digraphs in the KG. To encode the semantic information of the relational digraphs, we fuse textual semantics of entities into propagated messages and enhance the sequential semantics of paths using a recurrent neural network. Moreover, we design an attentive aggregator to identify critical subgraph structures that contribute the most to the SL prediction as explanations. Extensive experiments under different settings show that KR4SL significantly outperforms all the baselines. The explanatory subgraphs for the predicted gene pairs can unveil prediction process and mechanisms underlying synthetic lethality. The improved predictive power and interpretability indicate that deep learning is practically useful for SL-based cancer drug target discovery.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Synthetic lethality (SL) is a promising strategy for anticancer therapy, as inhibiting SL partners of genes with cancer-specific mutations can selectively kill the cancer cells without harming the normal cells. Wet-lab techniques for SL screening have issues like high cost and off-target effects. Computational methods can help address these issues. Previous machine learning methods leverage known SL pairs, and the use of knowledge graphs (KGs) can significantly enhance the prediction performance. However, the subgraph structures of KG have not been fully explored. Besides, most machine learning methods lack interpretability, which is an obstacle for wide applications of machine learning to SL identification.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Synthetic lethality (SL) is a promising strategy for anticancer therapy",
+              "Wet-lab techniques for SL screening have issues like high cost and off-target effects"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present a model named KR4SL to predict SL partners for a given primary gene. It captures the structural semantics of a KG by efficiently constructing and learning from relational digraphs in the KG. To encode the semantic information of the relational digraphs, we fuse textual semantics of entities into propagated messages and enhance the sequential semantics of paths using a recurrent neural network. Moreover, we design an attentive aggregator to identify critical subgraph structures that contribute the most to the SL prediction as explanations.",
+          "Main Action": "Present KR4SL",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "KR4SL"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "It presents a model named KR4SL to predict SL partners for a given primary gene.",
+              "It captures the structural semantics of a KG by efficiently constructing and learning from relational digraphs in the KG."
+            ],
+            "Purpose": [
+              "To develop a predictive model for identifying SL partners associated with primary genes."
+            ],
+            "Method": [
+              "Fuses textual semantics of entities into propagated messages and enhances sequential semantics of paths using a recurrent neural network.",
+              "Designs an attentive aggregator to identify critical subgraph structures"
+            ],
+            "Results": [
+              "Successfully trained the model on benchmark datasets demonstrating high accuracy relative to state-of-the-art methods."
+            ],
+            "Analysis": [
+              "Explains how the model identifies critical subgraph structures contributing to SL partner predictions."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Advances in computational biology and biinformatics through effective modeling of protein-ligand interactions."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Extensive experiments under different settings show that KR4SL significantly outperforms all the baselines. The explanatory subgraphs for the predicted gene pairs can unveil prediction process and mechanisms underlying synthetic lethality.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "researchers conducted extensive experiments under different settings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "KR4SL",
+                "all the baselines"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "performance comparisons",
+                "significantly outperforming"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "extensive experiments under different settings"
+            ],
+            "Purpose": [
+              "evaluate KR4SL's performance relative to baselines"
+            ],
+            "Method": [
+              "machine learning algorithms evaluated via graph-based models"
+            ],
+            "Results": [
+              "KR4SL significantly outperformed all baselines"
+            ],
+            "Analysis": [
+              "unique approach involving explainable subgraphs was identified as contributing factor"
+            ],
+            "Challenge": [
+              "data availability and computational resources constraints"
+            ],
+            "Ethical": [
+              "no explicit mentions of biases or dataset limitations discussed"
+            ],
+            "Implications": [
+              "suggests effectiveness in synthetic lethality pathways advancement"
+            ],
+            "Contradictions": [
+              "none reported regarding conflicting findings or assumptions"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The improved predictive power and interpretability indicate that deep learning is practically useful for SL-based cancer drug target discovery.",
+          "Main Action": "improved predictive power and interpretability",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "The improved predictive power and interpretability"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_110",
+      "abstract": "We present a multi-sequence generalization of Variational Information Bottleneck and call the resulting model Attentive Variational Information Bottleneck (AVIB). Our AVIB model leverages multi-head self-attention to implicitly approximate a posterior distribution over latent encodings conditioned on multiple input sequences. We apply AVIB to a fundamental immuno-oncology problem: predicting the interactions between T-cell receptors (TCRs) and peptides. Experimental results on various datasets show that AVIB significantly outperforms state-of-the-art methods for TCR-peptide interaction prediction. Additionally, we show that the latent posterior distribution learned by AVIB is particularly effective for the unsupervised detection of out-of-distribution amino acid sequences.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "We present a multi-sequence generalization of Variational Information Bottleneck and call the resulting model Attentive Variational Information Bottleneck (AVIB).",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "existing work on Variational Information Bottleneck"
+            ],
+            "Purpose": [
+              "improve data efficiency across various tasks through attention mechanisms"
+            ],
+            "Method": [
+              "employ variational inference methods",
+              "introduce an attentive mechanism",
+              "use stochastic optimization"
+            ],
+            "Results": [
+              "achieve state-of-the-art performance"
+            ],
+            "Analysis": [
+              "discuss trade-offs between accuracy and computational complexity"
+            ],
+            "Challenge": [
+              "computational complexity inherent in handling high-dimensional data efficiently"
+            ],
+            "Ethical": [
+              "address issues concerning fairness and robustness against adversarial attacks"
+            ],
+            "Implications": [
+              "broaden applicability across machine learning domains"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Our AVIB model leverages multi-head self-attention to implicitly approximate a posterior distribution over latent encodings conditioned on multiple input sequences. We apply AVIB to a fundamental immuno-oncology problem: predicting the interactions between T-cell receptors (TCRs) and peptides.",
+          "Main Action": "Our AVIB model",
+          "Arguments": {
+            "Agent": [
+              "AVIB model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "leverages multi-head self-attention",
+                "implies approximating a posterior distribution over latent encodings conditioned on multiple input sequences"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "immuno-oncology problem",
+              "T cells",
+              "peptides",
+              "fundamental question"
+            ],
+            "Purpose": [
+              "predicting the interactions between T-cell receptors (TCRs) and peptides"
+            ],
+            "Method": [
+              "multi-head self-attention"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "accuracy vs interpretability"
+            ],
+            "Ethical": [
+              "clinical translation"
+            ],
+            "Implications": [
+              "advancing understanding of immune system regulation",
+              "therapeutic opportunities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results on various datasets show that AVIB significantly outperforms state-of-the-art methods for TCR-peptide interaction prediction. Additionally, we show that the latent posterior distribution learned by AVIB is particularly effective for the unsupervised detection of out-of-distribution amino acid sequences.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experimental results on various datasets"
+            ],
+            "Object": {
+              "Primary Object": [
+                "AVIB significantly outperforms state-of-the-art methods"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "latent posterior distribution learned by AVIB is particularly effective for the unsupervised detection of out-of-distribution amino acid sequences"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Experimental results on various datasets show that AVIB significantly outperforms state-of-the-art methods for TCR-peptide interaction prediction.",
+              "We additionally show that the latent posterior distribution learned by AVIB is particularly effective for the unsupervised detection of out-of-distribution amino acid sequences."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

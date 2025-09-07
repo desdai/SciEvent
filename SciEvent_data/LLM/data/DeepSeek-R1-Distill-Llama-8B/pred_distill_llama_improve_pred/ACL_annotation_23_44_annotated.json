@@ -1,0 +1,298 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_803",
+      "abstract": "Dynamic networks, e.g., Dynamic Convolution (DY-Conv) and the Mixture of Experts (MoE), have been extensively explored as they can considerably improve the model’s representation power with acceptable computational cost. The common practice in implementing dynamic networks is to convert the given static layers into fully dynamic ones where all parameters are dynamic (at least within a single layer) and vary with the input. However, such a fully dynamic setting may cause redundant parameters and high deployment costs, limiting the applicability of dynamic networks to a broader range of tasks and models. The main contributions of our work are challenging the basic commonsense in dynamic networks and proposing a partially dynamic network, namely PAD-Net, to transform the redundant dynamic parameters into static ones. Also, we further design Iterative Mode Partition to partition dynamic and static parameters efficiently. Our method is comprehensively supported by large-scale experiments with two typical advanced dynamic architectures, i.e., DY-Conv and MoE, on both image classification and GLUE benchmarks. Encouragingly, we surpass the fully dynamic networks by +0.7% top-1 acc with only 30% dynamic parameters for ResNet-50 and +1.9% average score in language understanding with only 50% dynamic parameters for BERT.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Dynamic networks, e.g., Dynamic Convolution (DY-Conv) and the Mixture of Experts (MoE), have been extensively explored as they can considerably improve the model’s representation power with acceptable computational cost. The common practice in implementing dynamic networks is to convert the given static layers into fully dynamic ones where all parameters are dynamic (at least within a single layer) and vary with the input. However, such a fully dynamic setting may cause redundant parameters and high deployment costs, limiting the applicability of dynamic networks to a broader range of tasks and models.",
+          "Main Action": "Converting",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "static layers"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Dynamic networks, e.g., Dynamic Convolution (DY-Conv) and the Mixture of Experts (MoE), have been extensively explored as they can considerably improve the model’s representation power with acceptable computational cost."
+            ],
+            "Purpose": [
+              "The common practice in implementing dynamic networks is to convert the given static layers into fully dynamic ones where all parameters are dynamic (at least within a single layer) and vary with the input."
+            ],
+            "Method": [
+              "However, such a fully dynamic setting may cause redundant parameters and high deployment costs, limiting the applicability of dynamic networks to a broader range of tasks and models."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "This suggests that while dynamic networks offer improved representation capabilities, they come with significant computational overhead."
+            ],
+            "Challenge": [
+              "Redundant parameters and high deployment costs pose significant challenges for deploying dynamic networks across various tasks and models."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "These trade-offs imply that dynamic networks may not always be suitable for scenarios requiring lightweight or resource-constrained implementations."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The main contributions of our work are challenging the basic commonsense in dynamic networks and proposing a partially dynamic network, namely PAD-Net, to transform the redundant dynamic parameters into static ones. Also, we further design Iterative Mode Partition to partition dynamic and static parameters efficiently.",
+          "Main Action": "Proposing a novel network architecture",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "PAD-Net"
+              ],
+              "Secondary Object": [
+                "redundant dynamic parameters"
+              ]
+            },
+            "Context": [
+              "Dynamic networks with excessive parameters"
+            ],
+            "Purpose": [
+              "Reducing redundancy in dynamic networks"
+            ],
+            "Method": [
+              "Using PAD-Net to transform redundant dynamic parameters into static ones"
+            ],
+            "Results": [
+              "Creating PAD-Net",
+              "Designing Iterative Mode Partition"
+            ],
+            "Analysis": [
+              "Interpreting the effectiveness of PAD-Net compared to traditional methods"
+            ],
+            "Challenge": [
+              "Potential limitations or edge cases not explicitly addressed"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader impact of novel network models like PAD-Net"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our method is comprehensively supported by large-scale experiments with two typical advanced dynamic architectures, i.e., DY-Conv and MoE, on both image classification and GLUE benchmarks. Encouragingly, we surpass the fully dynamic networks by +0.7% top-1 acc with only 30% dynamic parameters for ResNet-50 and +1.9% average score in language understanding with only 50% dynamic parameters for BERT.",
+          "Main Action": "surpassed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "fully dynamic networks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "large-scale experiments",
+              "two typical advanced dynamic architectures",
+              "i.e., DY-Conv and MoE",
+              "both image classification and GLUE benchmarks"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "using DY-Conv and MoE architectures",
+              "applied to image classification and GLUE",
+              "with only 30% dynamic parameters for ResNet-50",
+              "and 50% dynamic parameters for BERT"
+            ],
+            "Results": [
+              "+0.7% top-1 acc",
+              "+1.9% average score"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_241",
+      "abstract": "Commonsense reasoning is omnipresent in human communications and thus is an important feature for open-domain dialogue systems. However, evaluating commonsense in dialogue systems is still an open challenge. We take the first step by focusing on event commonsense that considers events and their relations, and is crucial in both dialogues and general commonsense reasoning. We propose ACCENT, an event commonsense evaluation metric empowered by commonsense knowledge bases (CSKBs). ACCENT first extracts event-relation tuples from a dialogue, and then evaluates the response by scoring the tuples in terms of their compatibility with the CSKB. To evaluate ACCENT, we construct the first public event commonsense evaluation dataset for open-domain dialogues. Our experiments show that ACCENT is an efficient metric for event commonsense evaluation, which achieves higher correlations with human judgments than existing baselines.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Commonsense reasoning is omnipresent in human communications and thus is an important feature for open-domain dialogue systems. However, evaluating commonsense in dialogue systems is still an open challenge. We take the first step by focusing on event commonsense that considers events and their relations, and is crucial in both dialogues and general commonsense reasoning.",
+          "Main Action": "taking the first step",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "event common sense"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "common sense reasoning in human communications",
+              "open-domain dialogue systems",
+              "evaluating commonsense in dialogue systems",
+              "natural language processing"
+            ],
+            "Purpose": [
+              "enhancing AI systems' ability to handle everyday conversations"
+            ],
+            "Method": [
+              "focusing on event-based common sense"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancing AI conversation capabilities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose ACCENT, an event commonsense evaluation metric empowered by commonsense knowledge bases (CSKBs). ACCENT first extracts event-relation tuples from a dialogue, and then evaluates the response by scoring the tuples in terms of their compatibility with the CSKB.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to evaluate responses by scoring event-relation tuples"
+            ],
+            "Method": [
+              "extracting event-relation tuples from a dialogue",
+              "evaluating the response by scoring the tuples in terms of their compatibility with the CSKB"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improving event evaluation metrics for AI systems"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "To evaluate ACCENT, we construct the first public event commonsense evaluation dataset for open-domain dialogues. Our experiments show that ACCENT is an efficient metric for event commonsense evaluation, which achieves higher correlations with human judgments than existing baselines.",
+          "Main Action": "Construct",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "first public event commonsense evaluation dataset for open-domain dialogues"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "To evaluate ACCENT"
+            ],
+            "Purpose": [
+              "Evaluating ACCENT"
+            ],
+            "Method": [
+              "open-domain dialogues"
+            ],
+            "Results": [
+              "ACCENT is an efficient metric for event commonsense evaluation"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Importance, impact, applications, or future work"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

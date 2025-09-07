@@ -1,0 +1,296 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_25",
+      "abstract": "Previous studies indicate that the capacity of media to influence the salience of issues in the public realm is strongly dependent on specific attributes that characterize these issues. In this work, we investigate two internal aspects of issue types related to the attribute of duration. First, we address whether news stories belonging to different issue types can be identified and represented using a set of quantifiable temporal dimensions (i.e. lifespan, intensity, and burstiness). Second, we conduct a qualitative analysis to investigate whether news stories of different issue types have different narrative patterns, regardless of their specific topic. We use a corpus of 50,385 political news articles in Spanish from 2018 as a case study, and propose a novel system to aggregate the articles into stories. Our results show that stories belonging to different issue types do have distinguishing behaviours, especially along the intensity dimension. At the same time, the qualitative analysis indicates a tendency to associate narrative patterns to issue types. This analysis shows the potential of using news stories as research units to study framing strategies.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Previous studies indicate that the capacity of media to influence the salience of issues in the public realm is strongly dependent on specific attributes that characterize these issues.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we investigate two internal aspects of issue types related to the attribute of duration. First, we address whether news stories belonging to different issue types can be identified and represented using a set of quantifiable temporal dimensions (i.e. lifespan, intensity, and burstiness). Second, we conduct a qualitative analysis to investigate whether news stories of different issue types have different narrative patterns, regardless of their specific topic. We use a corpus of 50,385 political news articles in Spanish from 2018 as a case study, and propose a novel system to aggregate the articles into stories.",
+          "Main Action": "Investigate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "News Stories"
+              ],
+              "Secondary Object": [
+                "Temporal Dimensions",
+                "Narrative Patterns"
+              ]
+            },
+            "Context": [
+              "Corpus of 50,385 Political News Articles in Spanish from 2018"
+            ],
+            "Purpose": [
+              "Explore Whether Different Issue Types Can Be Identified Using Quantifiable Temporal Dimensions",
+              "Compare Narrative Patterns Across Different Issue Types Regardless of Specific Topic"
+            ],
+            "Method": [
+              "Propose a Novel System to Aggregate Articles Into Stories",
+              "Use a Corpus of 50,385 Political News Articles in Spanish from 2018"
+            ],
+            "Results": [
+              "Findings From the Conducted Analyses"
+            ],
+            "Analysis": [
+              "Interpretations of the Findings",
+              "Explanations of Other Arguments"
+            ],
+            "Challenge": [
+              "Working With Such a Large Dataset",
+              "Ensuring Inter-Rater Agreement for Qualitative Analysis"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Contribute New Insights Into Categorizing News Stories",
+              "Aid Media Studies or Computational Linguistics"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results show that stories belonging to different issue types do have distinguishing behaviours, especially along the intensity dimension. At the same time, the qualitative analysis indicates a tendency to associate narrative patterns to issue types.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Our results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "stories belonging to different issue types"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "different issue types",
+              "behaviors",
+              "intensity dimension"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "stories belonging to different issue types do have distinguishing behaviors, especially along the intensity dimension"
+            ],
+            "Analysis": [
+              "a tendency to associate narrative patterns to issue types"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "This analysis shows the potential of using news stories as research units to study framing strategies.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_62",
+      "abstract": "This review synthesizes Sakari Taipale’s book Intergenerational Connections in Digital Families (Springer International Publishing, 2019), partially from an auto-ethnographic perspective. Borrowing from the book’s structure, the review is divided into three parts. The first section examines the definitions of digital families and the role of everyday communication technologies in connecting such families. The second section critiques the interconnected roles of family members and generations in maintaining digital connections, especially through Taipale’s revival of the notion of the “warm expert.” The final section assesses the book’s conclusions in the context of changing social policies. It also looks at the possibilities for future research in the domain of digital family studies (and, by extension, in digital humanities) that can germinate from Taipale’s concise study.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This review synthesizes Sakari Taipale’s book Intergenerational Connections in Digital Families (Springer International Publishing, 2019), partially from an auto-ethnographic perspective.",
+          "Main Action": "synthesizes",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Sakari Taipale’s book Intergenerational Connections in Digital Families"
+              ],
+              "Secondary Object": [
+                "(Springer International Publishing, 2019)"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To synthesize and critically evaluate the book *Intergenerational Connections in Digital Families*"
+            ],
+            "Method": [
+              "Auto-ethnographic perspective"
+            ],
+            "Results": [
+              "Summary and critical examination of the book's themes, arguments, and contributions"
+            ],
+            "Analysis": [
+              "Interpretations of the book's significance within the field of family studies and digital culture"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential academic and practical value of understanding intergenerational connections in digital families"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Borrowing from the book’s structure, the review is divided into three parts. The first section examines the definitions of digital families and the role of everyday communication technologies in connecting such families. The second section critiques the interconnected roles of family members and generations in maintaining digital connections, especially through Taipale’s revival of the notion of the “warm expert.” The final section assesses the book’s conclusions in the context of changing social policies. It also looks at the possibilities for future research in the domain of digital family studies (and, by extension, in digital humanities) that can germinate from Taipale’s concise study.",
+          "Main Action": "assessing the book's conclusions",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the book's conclusions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "digital family studies (and, by extension, in digital humanities)"
+            ],
+            "Purpose": [
+              "evaluating the book's conclusions in the context of changing social policies and suggesting future research areas"
+            ],
+            "Method": [
+              "reviewing and critiquing"
+            ],
+            "Results": [
+              "looking at the possibilities for future research in the domain of digital family studies"
+            ],
+            "Analysis": [
+              "interpreting the evaluation of the book's conclusions"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance and potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

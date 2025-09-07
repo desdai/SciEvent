@@ -1,0 +1,418 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_203",
+      "abstract": "Chatbots have become ubiquitous in our daily lives, enabling natural language conversations with users through various modes of communication. Chatbots have the potential to play a significant role in promoting health and well-being. As the number of studies and available products related to chatbots continues to rise, there is a critical need to assess product features to enhance the design of chatbots that effectively promote health and behavioral change. This scoping review aims to provide a comprehensive assessment of the current state of health-related chatbots, including the chatbots’ characteristics and features, user backgrounds, communication models, relational building capacity, personalization, interaction, responses to suicidal thoughts, and users’ in-app experiences during chatbot use. Through this analysis, we seek to identify gaps in the current research, guide future directions, and enhance the design of health-focused chatbots. Following the scoping review methodology by Arksey and O'Malley and guided by the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) checklist, this study used a two-pronged approach to identify relevant chatbots: (1) searching the iOS and Android App Stores and (2) reviewing scientific literature through a search strategy designed by a librarian. Overall, 36 chatbots were selected based on predefined criteria from both sources. These chatbots were systematically evaluated using a comprehensive framework developed for this study, including chatbot characteristics, user backgrounds, building relational capacity, personalization, interaction models, responses to critical situations, and user experiences. Ten coauthors were responsible for downloading and testing the chatbots, coding their features, and evaluating their performance in simulated conversations. The testing of all chatbot apps was limited to their free-to-use features. This review provides an overview of the diversity of health-related chatbots, encompassing categories such as mental health support, physical activity promotion, and behavior change interventions. Chatbots use text, animations, speech, images, and emojis for communication. The findings highlight variations in conversational capabilities, including empathy, humor, and personalization. Notably, concerns regarding safety, particularly in addressing suicidal thoughts, were evident. Approximately 44% (16/36) of the chatbots effectively addressed suicidal thoughts. User experiences and behavioral outcomes demonstrated the potential of chatbots in health interventions, but evidence remains limited. This scoping review underscores the significance of chatbots in health-related applications and offers insights into their features, functionalities, and user experiences. This study contributes to advancing the understanding of chatbots’ role in digital health interventions, thus paving the way for more effective and user-centric health promotion strategies. This study informs future research directions, emphasizing the need for rigorous randomized control trials, standardized evaluation metrics, and user-centered design to unlock the full potential of chatbots in enhancing health and well-being. Future research should focus on addressing limitations, exploring real-world user experiences, and implementing robust data security and privacy measures.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Chatbots have become ubiquitous in our daily lives, enabling natural language conversations with users through various modes of communication. Chatbots have the potential to play a significant role in promoting health and well-being. As the number of studies and available products related to chatbots continues to rise, there is a critical need to assess product features to enhance the design of chatbots that effectively promote health and behavioral change. This scoping review aims to provide a comprehensive assessment of the current state of health-related chatbots, including the chatbots’ characteristics and features, user backgrounds, communication models, relational building capacity, personalization, interaction, responses to suicidal thoughts, and users’ in-app experiences during chatbot use. Through this analysis, we seek to identify gaps in the current research, guide future directions, and enhance the design of health-focused chatbots.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "This scoping review"
+            ],
+            "Object": {
+              "Primary Object": [
+                "health-related chatbots"
+              ],
+              "Secondary Object": [
+                "chatbots' characteristics and features",
+                "user backgrounds",
+                "communication models",
+                "relational building capacity",
+                "personalization",
+                "interaction",
+                "responses to suicidal thoughts",
+                "users' in-app experiences"
+              ]
+            },
+            "Context": [
+              "There is a critical need to assess product features to enhance the design of chatbots that effectively promote health and behavioral change."
+            ],
+            "Purpose": [
+              "To provide a comprehensive assessment of the current state of health-related chatbots, identifying gaps in the current research, guiding future directions, and enhancing the design of health-focused chatbots."
+            ],
+            "Method": [
+              "Through this analysis"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enhance the design of health-focused chatbots"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Following the scoping review methodology by Arksey and O'Malley and guided by the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) checklist, this study used a two-pronged approach to identify relevant chatbots: (1) searching the iOS and Android App Stores and (2) reviewing scientific literature through a search strategy designed by a librarian. Overall, 36 chatbots were selected based on predefined criteria from both sources. These chatbots were systematically evaluated using a comprehensive framework developed for this study, including chatbot characteristics, user backgrounds, building relational capacity, personalization, interaction models, responses to critical situations, and user experiences. Ten coauthors were responsible for downloading and testing the chatbots, coding their features, and evaluating their performance in simulated conversations. The testing of all chatbot apps was limited to their free-to-use features.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "This study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a two-pronged approach",
+                "chatbots",
+                "coauthors",
+                "free-to-use features"
+              ],
+              "Secondary Object": [
+                "iOS and Android App Stores",
+                "scientific literature",
+                "chatbots' features",
+                "simulated conversations"
+              ]
+            },
+            "Context": [
+              "following the scoping review methodology by Arksey and O'Malley",
+              "guided by the PRISMA-ScR checklist"
+            ],
+            "Purpose": [
+              "to identify relevant chatbots",
+              "systematically evaluate chatbots",
+              "testing chatbots",
+              "evaluating their performance"
+            ],
+            "Method": [
+              "using a two-pronged approach",
+              "developing a comprehensive framework",
+              "downloading and testing the chatbots",
+              "coding their features",
+              "evaluating their performance in simulated conversations"
+            ],
+            "Results": [
+              "Overall, 36 chatbots were selected based on predefined criteria from both sources.",
+              "Ten coauthors were responsible for downloading and testing the chatbots, coding their features, and evaluating their performance in simulated conversations."
+            ],
+            "Analysis": [
+              "The testing of all chatbot apps was limited to their free-to-use features."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "This review provides an overview of the diversity of health-related chatbots, encompassing categories such as mental health support, physical activity promotion, and behavior change interventions. Chatbots use text, animations, speech, images, and emojis for communication. The findings highlight variations in conversational capabilities, including empathy, humor, and personalization. Notably, concerns regarding safety, particularly in addressing suicidal thoughts, were evident. Approximately 44% (16/36) of the chatbots effectively addressed suicidal thoughts. User experiences and behavioral outcomes demonstrated the potential of chatbots in health interventions, but evidence remains limited.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "This review"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an overview of the diversity of health-related chatbots"
+              ],
+              "Secondary Object": [
+                "categories such as mental health support",
+                "physical activity promotion",
+                "behavior change interventions"
+              ]
+            },
+            "Context": [
+              "The findings highlight variations in conversational capabilities, including empathy, humor, and personalization."
+            ],
+            "Purpose": [
+              "To provide an overview of the diversity of health-related chatbots"
+            ],
+            "Method": [
+              "use text, animations, speech, images, and emojis for communication"
+            ],
+            "Results": [
+              "Notably, concerns regarding safety, particularly in addressing suicidal thoughts, were evident.",
+              "Approximately 44% (16/36) of the chatbots effectively addressed suicidal thoughts."
+            ],
+            "Analysis": [
+              "User experiences and behavioral outcomes demonstrated the potential of chatbots in health interventions, but evidence remains limited."
+            ],
+            "Challenge": [
+              "Evidence remains limited"
+            ],
+            "Ethical": [
+              "Concerns regarding safety, particularly in addressing suicidal thoughts, were evident"
+            ],
+            "Implications": [
+              "Future work may explore further applications and improvements based on user feedback and empirical data."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This scoping review underscores the significance of chatbots in health-related applications and offers insights into their features, functionalities, and user experiences. This study contributes to advancing the understanding of chatbots’ role in digital health interventions, thus paving the way for more effective and user-centric health promotion strategies. This study informs future research directions, emphasizing the need for rigorous randomized control trials, standardized evaluation metrics, and user-centered design to unlock the full potential of chatbots in enhancing health and well-being. Future research should focus on addressing limitations, exploring real-world user experiences, and implementing robust data security and privacy measures.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "This study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "future research directions"
+              ],
+              "Secondary Object": [
+                "rigorous randomized control trials",
+                "standardized evaluation metrics",
+                "user-centered design"
+              ]
+            },
+            "Context": [
+              "scoping review underscoring the significance of chatbots in health-related applications and offering insights into their features, functionalities, and user experiences"
+            ],
+            "Purpose": [
+              "informing...to unlock the full potential of chatbots in enhancing health and well-being"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "exploring real-world user experiences, and implementing robust data security and privacy measures"
+            ],
+            "Challenge": [
+              "addressing limitations"
+            ],
+            "Ethical": [
+              "emphasizing the need for...and user-centered design to unlock the full potential of chatbots in enhancing health and well-being"
+            ],
+            "Implications": [
+              "paving the way for more effective and user-centric health promotion strategies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_902",
+      "abstract": "Chronic pain conditions involve numerous physical and psychological challenges, and while psychosocial self-management interventions can be of benefit for people living with chronic pain, such in-person treatment is not always accessible. Digital self-management approaches could improve this disparity, potentially bolstering outreach and providing easy, relatively low-cost access to pain self-management interventions. This randomized controlled trial aimed to evaluate the short-term efficacy of EPIO (i.e., inspired by the Greek goddess for the soothing of pain, Epione), a digital self-management intervention, for people living with chronic pain. Patients (N=266) were randomly assigned to either the EPIO intervention (n=132) or a care-as-usual control group (n=134). Outcome measures included pain interference (Brief Pain Inventory; primary outcome measure), anxiety and depression (Hospital Anxiety and Depression Scale), self-regulatory fatigue (Self-Regulatory Fatigue 18 scale), health-related quality of life (SF-36 Short Form Health Survey), pain catastrophizing (Pain Catastrophizing Scale), and pain acceptance (Chronic Pain Acceptance Questionnaire). Linear regression models used change scores as the dependent variables. The participants were primarily female (210/259, 81.1%), with a median age of 49 (range 22-78) years and a variety of pain conditions. Analyses (n=229) after 3 months revealed no statistically significant changes for the primary outcome of pain interference (P=.84), but significant reductions in the secondary outcomes of depression (mean difference −0.90; P=.03) and self-regulatory fatigue (mean difference −2.76; P=.008) in favor of the intervention group. No other statistically significant changes were observed at 3 months (all P>.05). Participants described EPIO as useful (i.e., totally agree or agree; 95/109, 87.2%) and easy to use (101/109, 92.7%), with easily understandable exercises (106/109, 97.2%). Evidence-informed, user-centered digital pain self-management interventions such as EPIO may have the potential to effectively support self-management and improve psychological functioning in the form of reduced symptoms of depression and improved capacity to regulate thoughts, feelings, and behavior for people living with chronic pain.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Chronic pain conditions involve numerous physical and psychological challenges, and while psychosocial self-management interventions can be of benefit for people living with chronic pain, such in-person treatment is not always accessible. Digital self-management approaches could improve this disparity, potentially bolstering outreach and providing easy, relatively low-cost access to pain self-management interventions.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Digital self-management approaches"
+            ],
+            "Object": {
+              "Primary Object": [
+                "outreach",
+                "pain self-management interventions"
+              ],
+              "Secondary Object": [
+                "people living with chronic pain"
+              ]
+            },
+            "Context": [
+              "Chronic pain conditions involve numerous physical and psychological challenges",
+              "psychosocial self-management interventions can be of benefit but are not always accessible"
+            ],
+            "Purpose": [
+              "improve this disparity",
+              "bolster outreach",
+              "provide easy, relatively low-cost access"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "in-person treatment is not always accessible"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potentially provide better care options for those facing barriers to traditional treatments"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This randomized controlled trial aimed to evaluate the short-term efficacy of EPIO (i.e., inspired by the Greek goddess for the soothing of pain, Epione), a digital self-management intervention, for people living with chronic pain. Patients (N=266) were randomly assigned to either the EPIO intervention (n=132) or a care-as-usual control group (n=134). Outcome measures included pain interference (Brief Pain Inventory; primary outcome measure), anxiety and depression (Hospital Anxiety and Depression Scale), self-regulatory fatigue (Self-Regulatory Fatigue 18 scale), health-related quality of life (SF-36 Short Form Health Survey), pain catastrophizing (Pain Catastrophizing Scale), and pain acceptance (Chronic Pain Acceptance Questionnaire). Linear regression models used change scores as the dependent variables. The participants were primarily female (210/259, 81.1%), with a median age of 49 (range 22-78) years and a variety of pain conditions.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Patients"
+            ],
+            "Object": {
+              "Primary Object": [
+                "EPIO intervention",
+                "care-as-usual control group"
+              ],
+              "Secondary Object": [
+                "outcome measures"
+              ]
+            },
+            "Context": [
+              "randomized controlled trial",
+              "people living with chronic pain",
+              "median age of 49 (range 22-78) years"
+            ],
+            "Purpose": [
+              "evaluate the short-term efficacy of EPIO"
+            ],
+            "Method": [
+              "linear regression models using change scores as the dependent variable"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Analyses (n=229) after 3 months revealed no statistically significant changes for the primary outcome of pain interference (P=.84), but significant reductions in the secondary outcomes of depression (mean difference −0.90; P=.03) and self-regulatory fatigue (mean difference −2.76; P=.008) in favor of the intervention group. No other statistically significant changes were observed at 3 months (all P>.05). Participants described EPIO as useful (i.e., totally agree or agree; 95/109, 87.2%) and easy to use (101/109, 92.7%), with easily understandable exercises (106/109, 97.2%).",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "EPIO",
+                "pain interference",
+                "depression",
+                "self-regulatory fatigue"
+              ],
+              "Secondary Object": [
+                "intervention group"
+              ]
+            },
+            "Context": [
+              "analyses (n=229)",
+              "after 3 months"
+            ],
+            "Purpose": [
+              "to observe effects of the intervention"
+            ],
+            "Method": [
+              "no specific method mentioned"
+            ],
+            "Results": [
+              "revealed no statistically significant changes for the primary outcome of pain interference (P=.84)",
+              "significant reductions in the secondary outcomes of depression (mean difference −0.90; P=.03) and self-regulatory fatigue (mean difference −2.76; P=.008) in favor of the intervention group",
+              "No other statistically significant changes were observed at 3 months (all P>.05)"
+            ],
+            "Analysis": [
+              "Participants described EPIO as useful (i.e., totally agree or agree; 95/109, 87.2%) and easy to use (101/109, 92.7%), with easily understandable exercises (106/109, 97.2%)."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Evidence-informed, user-centered digital pain self-management interventions such as EPIO may have the potential to effectively support self-management and improve psychological functioning in the form of reduced symptoms of depression and improved capacity to regulate thoughts, feelings, and behavior for people living with chronic pain.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "user-centered digital pain self-management interventions such as EPIO"
+            ],
+            "Object": {
+              "Primary Object": [
+                "people living with chronic pain"
+              ],
+              "Secondary Object": [
+                "depression",
+                "capacity to regulate thoughts, feelings, and behavior"
+              ]
+            },
+            "Context": [
+              "Evidence-informed"
+            ],
+            "Purpose": [
+              "to effectively support self-management and improve psychological functioning"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "reduced symptoms of depression",
+              "improved capacity to regulate thoughts, feelings, and behavior"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

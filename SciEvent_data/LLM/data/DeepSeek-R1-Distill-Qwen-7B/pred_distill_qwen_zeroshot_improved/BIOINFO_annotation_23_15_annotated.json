@@ -1,0 +1,296 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_344",
+      "abstract": "Predicting the binding between T-cell receptor (TCR) and peptide presented by human leucocyte antigen molecule is a highly challenging task and a key bottleneck in the development of immunotherapy. Existing prediction tools, despite exhibiting good performance on the datasets they were built with, suffer from low true positive rates when used to predict epitopes capable of eliciting T-cell responses in patients. Therefore, an improved tool for TCR-peptide prediction built upon a large dataset combining existing publicly available data is still needed. We collected data from five public databases (IEDB, TBAdb, VDJdb, McPAS-TCR, and 10X) to form a dataset of >3 million TCR–peptide pairs, 3.27% of which were binding interactions. We proposed epiTCR, a Random Forest-based method dedicated to predicting the TCR–peptide interactions. epiTCR used simple input of TCR CDR3β sequences and antigen sequences, which are encoded by flattened BLOSUM62. epiTCR performed with area under the curve (0.98) and higher sensitivity (0.94) than other existing tools (NetTCR, Imrex, ATM-TCR, and pMTnet), while maintaining comparable prediction specificity (0.9). We identified seven epitopes that contributed to 98.67% of false positives predicted by epiTCR and exerted similar effects on other tools. We also demonstrated a considerable influence of peptide sequences on prediction, highlighting the need for more diverse peptides in a more balanced dataset. In conclusion, epiTCR is among the most well-performing tools, thanks to the use of combined data from public sources and its use will contribute to the quest in identifying neoantigens for precision cancer immunotherapy.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Predicting the binding between T-cell receptor (TCR) and peptide presented by human leucocyte antigen molecule is a highly challenging task and a key bottleneck in the development of immunotherapy. Existing prediction tools, despite exhibiting good performance on the datasets they were built with, suffer from low true positive rates when used to predict epitopes capable of eliciting T-cell responses in patients. Therefore, an improved tool for TCR-peptide prediction built upon a large dataset combining existing publicly available data is still needed.",
+          "Main Action": "Predicting",
+          "Arguments": {
+            "Agent": [
+              "researchers",
+              "computational models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "T cell receptor (TCR)",
+                "peptide presented by human leucocyte antigen molecule"
+              ],
+              "Secondary Object": [
+                "human leucocyte antigen molecules",
+                "(HLA)-based systems"
+              ]
+            },
+            "Context": [
+              "This task is a highly challenging one in the development of immunotherapy"
+            ],
+            "Purpose": [
+              "To overcome existing limitations and improve prediction accuracy"
+            ],
+            "Method": [
+              "Gathering comprehensive datasets involving existing publicly available data and applying advanced machine learning algorithms"
+            ],
+            "Results": [
+              "Improved tools show increased true positive rates compared to previous models"
+            ],
+            "Analysis": [
+              "Understanding the underlying challenges highlights areas requiring innovation"
+            ],
+            "Challenge": [
+              "Low true positive rates limit practical application in patient-specific scenarios"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enhanced predictive capabilities could lead to personalized immunotherapies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "We collected data from five public databases (IEDB, TBAdb, VDJdb, McPAS-TCR, and 10X) to form a dataset of >3 million TCR–peptide pairs, 3.27% of which were binding interactions. We proposed epiTCR, a Random Forest-based method dedicated to predicting the TCR–peptide interactions. epiTCR used simple input of TCR CDR3β sequences and antigen sequences, which are encoded by flattened BLOSUM62.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Results/Findings": "",
+          "Text": "epiTCR performed with area under the curve (0.98) and higher sensitivity (0.94) than other existing tools (NetTCR, Imrex, ATM-TCR, and pMTnet), while maintaining comparable prediction specificity (0.9). We identified seven epitopes that contributed to 98.67% of false positives predicted by epiTCR and exerted similar effects on other tools. We also demonstrated a considerable influence of peptide sequences on prediction, highlighting the need for more diverse peptides in a more balanced dataset.",
+          "Main Action": "epiTCR performed",
+          "Arguments": {
+            "Agent": [
+              "with"
+            ],
+            "Object": {
+              "Primary Object": [
+                "area under the curve (0.98)"
+              ],
+              "Secondary Object": [
+                "and higher sensitivity (0.94)"
+              ]
+            },
+            "Context": [
+              "while maintaining comparable prediction specificity (0.9)",
+              "We identified seven epitopes that contributed to 98.67% of false positives predicted by epiTCR and exerted similar effects on other tools.",
+              "We also demonstrated a considerable influence of peptide sequences on prediction, highlighting the need for more diverse peptides in a more balanced dataset."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "We identified seven epitopes that contributed to 98.67% of false positives predicted by epiTCR and exerted similar effects on other tools.",
+              "We also demonstrated a considerable influence of peptide sequences on prediction, highlighting the need for more diverse peptides in a more balanced dataset."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In conclusion, epiTCR is among the most well-performing tools, thanks to the use of combined data from public sources and its use will contribute to the quest in identifying neoantigens for precision cancer immunotherapy.",
+          "Main Action": "its use",
+          "Arguments": {
+            "Agent": [
+              "researchers developed epiTCR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Among the most well-performing tools"
+              ],
+              "Secondary Object": [
+                "Identifying neoantigens for precision cancer immunotherapy"
+              ]
+            },
+            "Context": [
+              "Precision cancer immunotherapy"
+            ],
+            "Purpose": [
+              "Improving therapeutic options through better prediction models"
+            ],
+            "Method": [
+              "Big data analysis and machine learning techniques"
+            ],
+            "Results": [
+              "High performance metrics achieved through effective utilization of combined data sources"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Advancing personalized medicine efforts and potentially reducing treatment trial times"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_437",
+      "abstract": "Mapping genetic interactions and essentiality networks in human cell lines has been used to identify vulnerabilities of cells carrying specific genetic alterations and to associate novel functions to genes, respectively. In vitro and in vivo genetic screens to decipher these networks are resource-intensive, limiting the throughput of samples that can be analyzed. In this application note, we provide an R package we call Genetic inteRaction and EssenTiality neTwork mApper (GRETTA). GRETTA is an accessible tool for in silico genetic interaction screens and essentiality network analyses using publicly available data, requiring only basic R programming knowledge.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Mapping genetic interactions and essentiality networks in human cell lines has been used to identify vulnerabilities of cells carrying specific genetic alterations and to associate novel functions to genes, respectively. In vitro and in vivo genetic screens to decipher these networks are resource-intensive, limiting the throughput of samples that can be analyzed.",
+          "Main Action": "Using in vitro and in vivo genetic screens to map genetic interaction and essentiality networks in human cell lines",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Identify vulnerabilities of cells carrying specific genetic alterations and associate novel functions to genes"
+              ],
+              "Secondary Object": [
+                "Human cell lines"
+              ]
+            },
+            "Context": [
+              "Understanding cellular response to genetic changes helps elucidate disease mechanisms"
+            ],
+            "Purpose": [
+              "To identify cell vulnerabilities and discover new gene functions"
+            ],
+            "Method": [
+              "In vitro and in vivo genetic screens"
+            ],
+            "Results": [
+              "Resource-intensive methods limit sample throughput"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "High cost limits sample throughput"
+            ],
+            "Ethical": [
+              "None specifically mentioned"
+            ],
+            "Implications": [
+              "Opportunities for developing targeted therapies against genetic diseases"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this application note, we provide an R package we call Genetic inteRaction and EssenTiality neTwork mApper (GRETTA). GRETTA is an accessible tool for in silico genetic interaction screens and essentiality network analyses using publicly available data, requiring only basic R programming knowledge.",
+          "Main Action": "Provide",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "An R package called Genetic interaction and Essentiality network mapper (GRETTA)"
+              ],
+              "Secondary Object": [
+                "in silico genetic interaction screens",
+                "essentiality network analyses"
+              ]
+            },
+            "Context": [
+              "Using publicly available data, requiring only basic R programming knowledge"
+            ],
+            "Purpose": [
+              "To introduce an accessible tool for analyzing genetic interactions and essentiality networks"
+            ],
+            "Method": [
+              "Integrate R packages with bioinformatics libraries focused on genetic interactions and essential protein identification"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enabling simplified analysis of genetic interactions and essentiality networks",
+              "Facilitating research collaboration and resource sharing",
+              "Improving accessibility for biologists and researchers without deep computational expertise"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

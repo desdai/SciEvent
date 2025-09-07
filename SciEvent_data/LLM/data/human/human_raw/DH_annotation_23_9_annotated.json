@@ -1,0 +1,211 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_05",
+      "abstract": "In this paper, we present a case study on quality criteria for the robustness of categories in pragmalinguistic tagset development. We model a number of classification tasks for linguistic routines of discourse referencing in the plenary minutes of the German Bundestag. In the process, we focus and reflect on three fundamental quality criteria: 1. segmentation, i.e. size of the annotated segments (e.g. words, phrases or sentences), 2. granularity, i.e. degrees of content differentiation and 3. interpretation depth, i.e. the degree of inclusion of linguistic knowledge, co-textual knowledge and extra-linguistic, context-sensitive knowledge. With the machine learnability of categories in mind, our focus is on principles and conditions of category development in collaborative annotation. Our experiments and tests on pilot corpora aim to investigate to which extent statistical measures indicate whether interpretative classifications are machine-reproducible and reliable. To this end, we compare gold-standard datasets annotated with different segment sizes (phrases, sentences) and categories with different granularity, respectively. We conduct experiments with different machine learning frameworks to automatically predict labels from our tagset. We apply BERT ([Devlin et al. 2019]), a pre-trained neural transformer language model which we finetune and constrain for our labelling and classification tasks, and compare it against Naive Bayes as a probabilistic knowledge-agnostic baseline model. The results from these experiments contribute to the development and reflection of our category systems.",
+      "events": [
+        {
+          "Background/Introduction": "case study on quality criteria",
+          "Text": "In this paper, we present a case study on quality criteria for the robustness of categories in pragmalinguistic tagset development. We model a number of classification tasks for linguistic routines of discourse referencing in the plenary minutes of the German Bundestag.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a case study"
+              ],
+              "Primary Modifier": [
+                "on quality criteria for the robustness of categories in pragmalinguistic tagset development"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "In this paper"
+            ],
+            "Purpose": [],
+            "Method": [
+              "We model a number of classification tasks for linguistic routines of discourse referencing in the plenary minutes of the German Bundestag"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "expirements on pilot corpora",
+          "Text": "In the process, we focus and reflect on three fundamental quality criteria: 1. segmentation, i.e. size of the annotated segments (e.g. words, phrases or sentences), 2. granularity, i.e. degrees of content differentiation and 3. interpretation depth, i.e. the degree of inclusion of linguistic knowledge, co-textual knowledge and extra-linguistic, context-sensitive knowledge. With the machine learnability of categories in mind, our focus is on principles and conditions of category development in collaborative annotation. Our experiments and tests on pilot corpora aim to investigate to which extent statistical measures indicate whether interpretative classifications are machine-reproducible and reliable. To this end, we compare gold-standard datasets annotated with different segment sizes (phrases, sentences) and categories with different granularity, respectively. We conduct experiments with different machine learning frameworks to automatically predict labels from our tagset. We apply BERT ([Devlin et al. 2019]), a pre-trained neural transformer language model which we finetune and constrain for our labelling and classification tasks, and compare it against Naive Bayes as a probabilistic knowledge-agnostic baseline model.",
+          "Main Action": "focus and reflect",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three fundamental quality criteria"
+              ],
+              "Primary Modifier": [
+                "1. segmentation, i.e. size of the annotated segments (e.g. words, phrases or sentences), 2. granularity, i.e. degrees of content differentiation and 3. interpretation depth, i.e. the degree of inclusion of linguistic knowledge, co-textual knowledge and extra-linguistic, context-sensitive knowledge."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "With the machine learnability of categories in mind,"
+            ],
+            "Purpose": [
+              "our focus is on principles and conditions of category development in collaborative annotation.",
+              "aim to investigate to which extent statistical measures indicate whether interpretative classifications are machine-reproducible and reliable."
+            ],
+            "Method": [
+              "experiments and tests on pilot corpora",
+              "we compare gold-standard datasets annotated with different segment sizes (phrases, sentences) and categories with different granularity, respectively.",
+              "experiments with different machine learning frameworks to automatically predict labels from our tagset.",
+              "We apply BERT ([Devlin et al. 2019]), a pre-trained neural transformer language model",
+              "we finetune and constrain for our labelling and classification tasks",
+              "compare it against Naive Bayes as a probabilistic knowledge-agnostic baseline model."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "resuluts  from the expirements and their contribution",
+          "Text": "The results from these experiments contribute to the development and reflection of our category systems.",
+          "Main Action": "from",
+          "Arguments": {
+            "Agent": [
+              "The results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "experiments"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "contribute to the development and reflection of our category systems."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_38",
+      "abstract": "Sound studies in general, and voice studies in particular, present particular challenges for digital humanities scholarship. The software tools available to digital humanists who want to study performative speech are less familiar and less developed for our uses, and the user base is also much smaller than for text mining or network analysis. This article provides a critical narrative of our research and an outline of our methodology, in applying, developing and refining tools for the analysis of pitch and timing patterns in recorded performances of literary texts. The primary texts and audio considered are poetry readings, but the tools and methods can and have been applied more widely to podcasts, talking books, political speeches, etc.",
+      "events": [
+        {
+          "Background/Introduction": "sound studies",
+          "Text": "Sound studies in general, and voice studies in particular, present particular challenges for digital humanities scholarship. The software tools available to digital humanists who want to study performative speech are less familiar and less developed for our uses, and the user base is also much smaller than for text mining or network analysis.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "Sound studies in general, and voice studies in particular,"
+            ],
+            "Object": {
+              "Primary Object": [
+                "particular challenges"
+              ],
+              "Primary Modifier": [
+                "for digital humanities scholarship."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "software tools available to digital humanists who want to study performative speech are less familiar and less developed for our uses,",
+              "the user base is also much smaller than for text mining or network analysis."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "critical narriative of the method used in this study",
+          "Text": "This article provides a critical narrative of our research and an outline of our methodology, in applying, developing and refining tools for the analysis of pitch and timing patterns in recorded performances of literary texts.",
+          "Main Action": "provides",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "critical narrative"
+              ],
+              "Primary Modifier": [
+                "of our research and an outline of our methodology"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "applying, developing and refining tools for the analysis of pitch and timing patterns in recorded performances of literary texts"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "tools used",
+          "Text": "The primary texts and audio considered are poetry readings, but the tools and methods can and have been applied more widely to podcasts, talking books, political speeches, etc.",
+          "Main Action": "are",
+          "Arguments": {
+            "Agent": [
+              "The primary texts and audio considered"
+            ],
+            "Object": {
+              "Primary Object": [
+                "poetry readings"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "the tools and methods can and have been applied more widely to podcasts, talking books, political speeches, etc."
+            ],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

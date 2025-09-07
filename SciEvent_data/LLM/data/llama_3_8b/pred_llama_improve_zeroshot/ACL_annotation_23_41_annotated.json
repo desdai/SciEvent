@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_509",
+      "abstract": "Fine-tuning has been proven to be a simple and effective technique to transfer the learned knowledge of Pre-trained Language Models (PLMs) to downstream tasks. However, vanilla fine-tuning easily overfits the target data and degrades the generalization ability. Most existing studies attribute it to catastrophic forgetting, and they retain the pre-trained knowledge indiscriminately without identifying what knowledge is transferable. Motivated by this, we frame fine-tuning into a causal graph and discover that the crux of catastrophic forgetting lies in the missing causal effects from the pre-trained data. Based on the causal view, we propose a unified objective for fine-tuning to retrieve the causality back. Intriguingly, the unified objective can be seen as the sum of the vanilla fine-tuning objective, which learns new knowledge from target data, and the causal objective, which preserves old knowledge from PLMs. Therefore, our method is flexible and can mitigate negative transfer while preserving knowledge. Since endowing models with commonsense is a long-standing challenge, we implement our method on commonsense QA with a proposed heuristic estimation to verify its effectiveness. In the experiments, our method outperforms state-of-the-art fine-tuning methods on all six commonsense QA datasets and can be implemented as a plug-in module to inflate the performance of existing QA models.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Fine-tuning has been proven to be a simple and effective technique to transfer the learned knowledge of Pre-trained Language Models (PLMs) to downstream tasks. However, vanilla fine-tuning easily overfits the target data and degrades the generalization ability. Most existing studies attribute it to catastrophic forgetting, and they retain the pre-trained knowledge indiscriminately without identifying what knowledge is transferable.",
+          "Main Action": "has been proven",
+          "Arguments": {
+            "Agent": [
+              "Most existing studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "catastrophic forgetting"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to transfer the learned knowledge"
+            ],
+            "Method": [
+              "fine-tuning"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "without identifying what knowledge is transferable"
+            ],
+            "Challenge": [
+              "vanilla fine-tuning easily overfits the target data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "degrades the generalization ability"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Motivated by this, we frame fine-tuning into a causal graph and discover that the crux of catastrophic forgetting lies in the missing causal effects from the pre-trained data. Based on the causal view, we propose a unified objective for fine-tuning to retrieve the causality back. Intriguingly, the unified objective can be seen as the sum of the vanilla fine-tuning objective, which learns new knowledge from target data, and the causal objective, which preserves old knowledge from PLMs. Therefore, our method is flexible and can mitigate negative transfer while preserving knowledge. Since endowing models with commonsense is a long-standing challenge, we implement our method on commonsense QA with a proposed heuristic estimation to verify its effectiveness.",
+          "Main Action": "frame fine-tuning",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a causal graph"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "this",
+              "catastrophic forgetting",
+              "pre-trained data"
+            ],
+            "Purpose": [
+              "retrieve the causality back"
+            ],
+            "Method": [
+              "proposed a unified objective"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "mitigate negative transfer while preserving knowledge"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In the experiments, our method outperforms state-of-the-art fine-tuning methods on all six commonsense QA datasets and can be implemented as a plug-in module to inflate the performance of existing QA models.",
+          "Main Action": "outperforms",
+          "Arguments": {
+            "Agent": [
+              "our method"
+            ],
+            "Object": {
+              "Primary Object": [
+                "state-of-the-art fine-tuning methods"
+              ],
+              "Secondary Object": [
+                "six commonsense QA datasets"
+              ]
+            },
+            "Context": [
+              "in the experiments"
+            ],
+            "Purpose": [
+              "can be implemented as a plug-in module to inflate the performance of existing QA models"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "to inflate the performance of existing QA models"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_316",
+      "abstract": "We study grammar induction with mildly context-sensitive grammars for unsupervised discontinuous parsing. Using the probabilistic linear context-free rewriting system (LCFRS) formalism, our approach fixes the rule structure in advance and focuses on parameter learning with maximum likelihood. To reduce the computational complexity of both parsing and parameter estimation, we restrict the grammar formalism to LCFRS-2 (i.e., binary LCFRS with fan-out two) and further discard rules that require O(l⁶) time to parse, reducing inference to O(l⁵). We find that using a large number of nonterminals is beneficial and thus make use of tensor decomposition-based rank-space dynamic programming with an embedding-based parameterization of rule probabilities to scale up the number of nonterminals. Experiments on German and Dutch show that our approach is able to induce linguistically meaningful trees with continuous and discontinuous structures.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "We study grammar induction with mildly context-sensitive grammars for unsupervised discontinuous parsing. Using the probabilistic linear context-free rewriting system (LCFRS) formalism, our approach fixes the rule structure in advance and focuses on parameter learning with maximum likelihood.",
+          "Main Action": "study",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "grammar induction"
+              ],
+              "Secondary Object": [
+                "mildly context-sensitive grammars",
+                "unsupervised discontinuous parsing"
+              ]
+            },
+            "Context": [
+              "Using the probabilistic linear context-free rewriting system (LCFRS) formalism"
+            ],
+            "Purpose": [
+              "fixes the rule structure in advance and focuses on parameter learning with maximum likelihood"
+            ],
+            "Method": [
+              "parameter learning with maximum likelihood"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To reduce the computational complexity of both parsing and parameter estimation, we restrict the grammar formalism to LCFRS-2 (i.e., binary LCFRS with fan-out two) and further discard rules that require O(l⁶) time to parse, reducing inference to O(l⁵). We find that using a large number of nonterminals is beneficial and thus make use of tensor decomposition-based rank-space dynamic programming with an embedding-based parameterization of rule probabilities to scale up the number of nonterminals.",
+          "Main Action": "reduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "computational complexity"
+              ],
+              "Secondary Object": [
+                "both parsing and parameter estimation"
+              ]
+            },
+            "Context": [
+              "grammar formalism"
+            ],
+            "Purpose": [
+              "beneficial"
+            ],
+            "Method": [
+              "tensor decomposition-based rank-space dynamic programming with an embedding-based parameterization of rule probabilities"
+            ],
+            "Results": [
+              "reducing inference to O(l⁵)"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "O(l⁶) time to parse"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "scaling up the number of nonterminals"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments on German and Dutch show that our approach is able to induce linguistically meaningful trees with continuous and discontinuous structures.",
+          "Main Action": "induce",
+          "Arguments": {
+            "Agent": [
+              "our approach"
+            ],
+            "Object": {
+              "Primary Object": [
+                "linguistically meaningful trees"
+              ],
+              "Secondary Object": [
+                "continuous and discontinuous structures"
+              ]
+            },
+            "Context": [
+              "German and Dutch"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "approach"
+            ],
+            "Results": [
+              "able to induce"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

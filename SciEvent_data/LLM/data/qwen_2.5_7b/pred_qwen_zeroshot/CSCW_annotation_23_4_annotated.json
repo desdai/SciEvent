@@ -1,0 +1,385 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_105",
+      "abstract": "Peer matching can enhance the impact of social health technologies. By matching similar peers, online health communities can optimally facilitate social modeling that supports positive health attitudes and moods. However, little work has examined how to operationalize similarities in digital health tools, thus limiting our ability to perform optimal peer matching. To address this gap, we conducted a factorial experiment to examine how three categories of similarity variables (i.e., Demographic, Ability, Experiential) can be used to perform peer matching that supports the social modeling of physical activity. We focus this study on physical activity because it is a health behavior that reduces the risk of chronic diseases. We also prioritized this study for single-caregiver mothers who often face substantial barriers to being active because of immense employment and household responsibilities, especially Black single-caregiver mothers. We recruited 309 single-caregiver mothers (49% Black, 51% white), then we asked them to listen to peer audio storytelling about family physical activity. We randomly matched/mismatched the storyteller's profile using the three categories of similarity variables. Our analyses demonstrated that matching by Demographic variables led to a significantly higher Physical Activity Intention. Furthermore, our subgroup analyses indicated that Black single-caregiver mothers experienced a significant and immediate effect of peer matching in Physical Activity Intention, Self-efficacy, and mood. In contrast, white single-caregiver mothers did not report any significant immediate effect. Collectively, our data suggest that peer matching in health storytelling is potentially beneficial for racially minoritized groups; and that having diverse representations in health technology is required for promoting health equity.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Peer matching can enhance the impact of social health technologies. By matching similar peers, online health communities can optimally facilitate social modeling that supports positive health attitudes and moods. However, little work has examined how to operationalize similarities in digital health tools, thus limiting our ability to perform optimal peer matching.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "little work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "examined how to operationalize similarities in digital health tools"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "By matching similar peers, online health communities can optimally facilitate social modeling that supports positive health attitudes and moods"
+            ],
+            "Purpose": [
+              "thus limiting our ability to perform optimal peer matching"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "limiting our ability to perform optimal peer matching"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To address this gap, we conducted a factorial experiment to examine how three categories of similarity variables (i.e., Demographic, Ability, Experiential) can be used to perform peer matching that supports the social modeling of physical activity. We focus this study on physical activity because it is a health behavior that reduces the risk of chronic diseases. We also prioritized this study for single-caregiver mothers who often face substantial barriers to being active because of immense employment and household responsibilities, especially Black single-caregiver mothers. We recruited 309 single-caregiver mothers (49% Black, 51% white), then we asked them to listen to peer audio storytelling about family physical activity. We randomly matched/mismatched the storyteller's profile using the three categories of similarity variables.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a factorial experiment"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "three categories of similarity variables (i.e., Demographic, Ability, Experiential)",
+                "single-caregiver mothers"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "to examine how [similarity variables] can be used to perform peer matching that supports the social modeling of physical activity",
+              "focus[ing] this study on physical activity because it is a health behavior that reduces the risk of chronic diseases",
+              "prioritize[d] this study for single-caregiver mothers who often face substantial barriers to being active because of immense employment and household responsibilities, especially Black single-caregiver mothers",
+              "recruit[ed] 309 single-caregiver mothers (49% Black, 51% white)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "randomly match/mismatch the storyteller's profile using the three categories of similarity variables"
+            ],
+            "Results": [
+              "ask[ed] them to listen to peer audio storytelling about family physical activity"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our analyses demonstrated that matching by Demographic variables led to a significantly higher Physical Activity Intention. Furthermore, our subgroup analyses indicated that Black single-caregiver mothers experienced a significant and immediate effect of peer matching in Physical Activity Intention, Self-efficacy, and mood. In contrast, white single-caregiver mothers did not report any significant immediate effect.",
+          "Main Action": "<MATCHING BY DEMOGRAPHIC VARIABLES>",
+          "Arguments": {
+            "Agent": [
+              "OUR ANALYSES"
+            ],
+            "Object": {
+              "Primary Object": [
+                "PHYSICAL ACTIVITY INTENTION"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "BLACK SINGLE-CAREGIVER MOTHERS",
+                "WHITE SINGLE-CAREGIVER MOTHERS"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "DEMOGRAPHIC VARS",
+              "PEER MATCHING"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "SIGNIFICANTLY HIGHER PHYSICAL ACTIVITY INTENTION",
+              "SIGNIFICANT AND IMMEDIATE EFFECT OF PEER MATCHING ON PHYSICAL ACTIVITY INTENTION, SELF-EFFICACY, AND MOOD FOR BLACK SINGLE-CAREGIVER MOTHERS",
+              "NO SIGNIFICANT IMMEDIATE EFFECT REPORTED BY WHITE SINGLE-CAREGIVER MOTHERS"
+            ],
+            "Analysis": [
+              "IN CONTRAST TO WHITE SINGLE-CAREGIVER MOTHERS"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "BROADENING THE UNDERSTANDING OF HOW DIFFERENT GROUPS RESPOND TO INTERVENTIONS LIKE PEER MATCHING"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Collectively, our data suggest that peer matching in health storytelling is potentially beneficial for racially minoritized groups; and that having diverse representations in health technology is required for promoting health equity.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "our data"
+            ],
+            "Object": {
+              "Primary Object": [
+                "peer matching in health storytelling"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "racially minoritized groups",
+                "diverse representations in health technology"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "potentially beneficial for",
+              "required for promoting health equity"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "suggest that...is potentially beneficial",
+              "require for promoting health equity"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_112",
+      "abstract": "A central challenge of social computing research is to enable people to communicate expressively with each other remotely. Augmented reality has great promise for expressive communication since it enables communication beyond texts and photos and towards immersive experiences rendered in recipients' physical environments. Little research, however, has explored AR's potential for everyday interpersonal communication. In this work, we prototype an AR messaging system, ARwand, to understand people's behaviors and perceptions around communicating with friends via AR messaging. We present our findings under four themes observed from a user study with 24 participants, including the types of immersive messages people choose to send to each other, which factors contribute to a sense of immersiveness, and what concerns arise over this new form of messaging. We discuss important implications of our findings on the design of future immersive communication systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "A central challenge of social computing research is to enable people to communicate expressively with each other remotely. Augmented reality has great promise for expressive communication since it enables communication beyond texts and photos and towards immersive experiences rendered in recipients' physical environments. Little research, however, has explored AR's potential for everyday interpersonal communication.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Little research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "AR's potential"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "everyday interpersonal communication"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Augmented reality has great promise for expressive communication since it enables communication beyond texts and photos and towards immersive experiences rendered in recipients' physical environments."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a central challenge of social computing research is to enable people to communicate expressively with each other remotely"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we prototype an AR messaging system, ARwand, to understand people's behaviors and perceptions around communicating with friends via AR messaging. We present our findings under four themes observed from a user study with 24 participants, including the types of immersive messages people choose to send to each other, which factors contribute to a sense of immersiveness, and what concerns arise over this new form of messaging.",
+          "Main Action": "prototype",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an AR messaging system",
+                "ARwand"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in this work"
+            ],
+            "Purpose": [
+              "to understand people's behaviors and perceptions around communicating with friends via AR messaging"
+            ],
+            "Method": [
+              "user study with 24 participants"
+            ],
+            "Results": [
+              "our findings under four themes observed from a user study with 24 participants, including the types of immersive messages people choose to send to each other, which factors contribute to a sense of immersiveness, and what concerns arise over this new form of messaging"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss important implications of our findings on the design of future immersive communication systems.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our findings"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "future immersive communication systems"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "discuss important implications of"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "on the design of"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

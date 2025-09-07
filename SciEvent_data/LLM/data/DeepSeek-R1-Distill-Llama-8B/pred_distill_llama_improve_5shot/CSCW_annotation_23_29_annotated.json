@@ -1,0 +1,299 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_168",
+      "abstract": "Claims of election fraud throughout the 2020 U.S. Presidential Election and during the lead-up to the January 6, 2021 insurrection attempt have drawn attention to the urgent need to better understand how people interpret and act on disinformation. In this work, we present three primary contributions: (1) a framework for understanding the interaction between participatory disinformation and informal and tactical mobilization; (2) three case studies from the 2020 U.S. election analyzed using detailed temporal, content, and thematic analysis; and (3) a qualitative coding scheme for understanding how digital disinformation functions to mobilize online audiences. We combine resource mobilization theory with previous work examining participatory disinformation campaigns and 'deep stories' to show how false or misleading information functioned to mobilize online audiences before, during, and after election day. Our analysis highlights how users on Twitter collaboratively construct and amplify alleged evidence of fraud that is used to facilitate action, both online and off. We find that mobilization is dependent on the selective amplification of false or misleading tweets by influencers, the framing around those claims, as well as the perceived credibility of their source. These processes are a self-reinforcing cycle where audiences collaborate in the construction of a misleading version of reality, which in turn leads to offline actions that are used to further reinforce a manufactured reality. Through this work, we hope to better inform future interventions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Claims of election fraud throughout the 2020 U.S. Presidential Election and during the lead-up to the January 6, 2021 insurrection attempt have drawn attention to the urgent need to better understand how people interpret and act on disinformation.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we present three primary contributions: (1) a framework for understanding the interaction between participatory disinformation and informal and tactical mobilization; (2) three case studies from the 2020 U.S. election analyzed using detailed temporal, content, and thematic analysis; and (3) a qualitative coding scheme for understanding how digital disinformation functions to mobilize online audiences. We combine resource mobilization theory with previous work examining participatory disinformation campaigns and 'deep stories' to show how false or misleading information functioned to mobilize online audiences before, during, and after election day.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "three primary contributions"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a framework for understanding the interaction between participatory disinformation and informal and tactical mobilization"
+              ],
+              "Secondary Object": [
+                "case studies from the 2020 U.S. election",
+                "qualitative coding scheme for understanding how digital disinformation functions to mobilize online audiences"
+              ]
+            },
+            "Context": [
+              "effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "language family distance predicts more negative transfer",
+              "conversational speech data shows greater facilitation for language acquisition than scripted speech data"
+            ],
+            "Purpose": [
+              "examine the impact of native CDS"
+            ],
+            "Method": [
+              "TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020)"
+            ],
+            "Results": [
+              "as in human SLA, language family distance predicts more negative transfer",
+              "conversational speech data shows greater facilitation for language acquisition than scripted speech data"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "negative transfer",
+              "loss of haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our analysis highlights how users on Twitter collaboratively construct and amplify alleged evidence of fraud that is used to facilitate action, both online and off. We find that mobilization is dependent on the selective amplification of false or misleading tweets by influencers, the framing around those claims, as well as the perceived credibility of their source. These processes are a self-reinforcing cycle where audiences collaborate in the construction of a misleading version of reality, which in turn leads to offline actions that are used to further reinforce a manufactured reality.",
+          "Main Action": "have collaboratively constructed and amplified",
+          "Arguments": {
+            "Agent": [
+              "users on Twitter"
+            ],
+            "Object": {
+              "Primary Object": [
+                "alleged evidence of fraud"
+              ],
+              "Secondary Object": [
+                "both online and off"
+              ]
+            },
+            "Context": [
+              "collaborative construction of a misleading version of reality",
+              "audiences collaborate in the construction of a misleading version of reality"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "selective amplification of false or misleading tweets by influencers",
+              "framing around those claims",
+              "perceived credibility of their source"
+            ],
+            "Results": [
+              "mobilization is dependent on these factors",
+              "self-reinforcing cycle"
+            ],
+            "Analysis": [
+              "manufactured reality",
+              "offline actions"
+            ],
+            "Challenge": [
+              "negative transfer",
+              "loss of haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for misuse",
+              "broader societal impacts"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Through this work, we hope to better inform future interventions.",
+          "Main Action": "hope to better inform",
+          "Arguments": {
+            "Agent": [
+              "this work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "future interventions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "through this work"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_212",
+      "abstract": "Ubiquitous computing encapsulates the idea for technology to be interwoven into the fabric of everyday life. As computing blends into everyday physical artifacts, powerful opportunities open up for social connection. Prior connected media objects span a broad spectrum of design combinations. Such diversity suggests that people have varying needs and preferences for staying connected to one another. However, since these designs have largely been studied in isolation, we do not have a holistic understanding around how people would configure and behave within a ubiquitous social ecosystem of physically-grounded artifacts. In this paper, we create a technology probe called Social Wormholes, that lets people configure their own home ecosystem of connected artifacts. Through a field study with 24 participants, we report on patterns of behaviors that emerged naturally in the context of their daily lives and shine a light on how ubiquitous computing could be leveraged for social computing.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Ubiquitous computing encapsulates the idea for technology to be interwoven into the fabric of everyday life. As computing blends into everyday physical artifacts, powerful opportunities open up for social connection. Prior connected media objects span a broad spectrum of design combinations. Such diversity suggests that people have varying needs and preferences for staying connected to one another. However, since these designs have largely been studied in isolation, we do not have a holistic understanding around how people would configure and behave within a ubiquitous social ecosystem of physically-grounded artifacts.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we create a technology probe called Social Wormholes, that lets people configure their own home ecosystem of connected artifacts. Through a field study with 24 participants, we report on patterns of behaviors that emerged naturally in the context of their daily lives and shine a light on how ubiquitous computing could be leveraged for social computing",
+          "Main Action": "create",
+          "Arguments": {
+            "Agent": [
+              "Social Wormholes"
+            ],
+            "Object": {
+              "Primary Object": [
+                "their own home ecosystem of connected artifacts"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Through a field study with 24 participants"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "patterns of behaviors that emerged naturally in the context of their daily lives",
+              "how ubiquitous computing could be leveraged for social computing"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<ONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

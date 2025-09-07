@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_449",
+      "abstract": "Diploid assembly, or determining sequences of homologous chromosomes separately, is essential to elucidate genetic differences between haplotypes. One approach is to call and phase single nucleotide variants (SNVs) on a reference sequence. However, this approach becomes unstable on large segmental duplications (SDs) or structural variations (SVs) because the alignments of reads deriving from these regions tend to be unreliable. Another approach is to use highly accurate PacBio HiFi reads to output diploid assembly directly. Nonetheless, HiFi reads cannot phase homozygous regions longer than their length and require oxford nanopore technology (ONT) reads or Hi-C to produce a fully phased assembly. Is a single long-read sequencing technology sufficient to create an accurate diploid assembly? Here, we present JTK, a megabase-scale diploid genome assembler. It first randomly samples kilobase-scale sequences (called 'chunks') from the long reads, phases variants found on them, and produces two haplotypes. The novel idea of JTK is to utilize chunks to capture SNVs and SVs simultaneously. From 60-fold ONT reads on the HG002 and a Japanese sample, it fully assembled two haplotypes with approximately 99.9% accuracy on the histocompatibility complex (MHC) and the leukocyte receptor complex (LRC) regions, which was impossible by the reference-based approach. In addition, in the LRC region on a Japanese sample, JTK output an assembly of better contiguity than those built from high-coverage HiFi+Hi-C. In the coming age of pan-genomics, JTK would complement the reference-based phasing method to assemble the difficult-to-assemble but medically important regions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Diploid assembly, or determining sequences of homologous chromosomes separately, is essential to elucidate genetic differences between haplotypes. One approach is to call and phase single nucleotide variants (SNVs) on a reference sequence. However, this approach becomes unstable on large segmental duplications (SDs) or structural variations (SVs) because the alignments of reads deriving from these regions tend to be unreliable. Another approach is to use highly accurate PacBio HiFi reads to output diploid assembly directly. Nonetheless, HiFi reads cannot phase homozygous regions longer than their length and require Oxford Nanopore Technology (ONT) reads or Hi-C to produce a fully phased assembly. Is a single long-read sequencing technology sufficient to create an accurate diploid assembly?",
+          "Main Action": "becomes unstable",
+          "Arguments": {
+            "Agent": [
+              "large segmental duplications (SDs) or structural variations (SVs)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "this approach"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "because the alignments of reads deriving from these regions tend to be unreliable"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "calling and phasing single nucleotide variants (SNVs) on a reference sequence"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "However, this approach becomes unstable on large SDs or SVs because the alignments of reads deriving from these regions tend to be unreliable"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "Is a single long-read sequencing technology sufficient to create an accurate diploid assembly?"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we present JTK, a megabase-scale diploid genome assembler. It first randomly samples kilobase-scale sequences (called 'chunks') from the long reads, phases variants found on them, and produces two haplotypes. The novel idea of JTK is to utilize chunks to capture SNVs and SVs simultaneously.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "JTK"
+            ],
+            "Object": {
+              "Primary Object": [
+                "JTK, a megabase-scale diploid genome assembler"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "It first randomly samples kilobase-scale sequences (called 'chunks') from the long reads,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "phases variants found on them, and produces two haplotypes.",
+              "utilizes chunks to capture SNVs and SVs simultaneously."
+            ],
+            "Results": [
+              "The novel idea of JTK is to utilize chunks to capture SNVs and SVs simultaneously."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "From 60-fold ONT reads on the HG002 and a Japanese sample, it fully assembled two haplotypes with approximately 99.9% accuracy on the histocompatibility complex (MHC) and the leukocyte receptor complex (LRC) regions, which was impossible by the reference-based approach. In addition, in the LRC region on a Japanese sample, JTK output an assembly of better contiguity than those built from high-coverage HiFi+Hi-C.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In the coming age of pan-genomics, JTK would complement the reference-based phasing method to assemble the difficult-to-assemble but medically important regions.",
+          "Main Action": "would complement",
+          "Arguments": {
+            "Agent": [
+              "JTK"
+            ],
+            "Object": {
+              "Primary Object": [
+                "reference-based phasing method"
+              ],
+              "Secondary Object": [
+                "medically important regions"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_29",
+      "abstract": "GREAT (Genomic Regions Enrichment of Annotations Tool) is a widely used tool for functional enrichment on genomic regions. However, as an online tool, it has limitations of outdated annotation data, small numbers of supported organisms and gene set collections, and not being extensible for users. Here, we developed a new R/Bioconductor package named rGREAT which implements the GREAT algorithm locally. rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users. Additionally, it implements a general method for dealing with background regions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "GREAT (Genomic Regions Enrichment of Annotations Tool) is a widely used tool for functional enrichment on genomic regions. However, as an online tool, it has limitations of outdated annotation data, small numbers of supported organisms and gene set collections, and not being extensible for users.",
+          "Main Action": "has limitations",
+          "Arguments": {
+            "Agent": [
+              "GREAT (Genomic Regions Enrichment of Annotations Tool)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "GREAT (Genomic Regions Enrichment of Annotations Tool)"
+              ],
+              "Secondary Object": [
+                "outdated annotation data",
+                "small numbers of supported organisms and gene set collections",
+                "not being extensible"
+              ]
+            },
+            "Context": [
+              "as an online tool"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "impacting research efficiency and utility"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we developed a new R/Bioconductor package named rGREAT which implements the GREAT algorithm locally. rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users. Additionally, it implements a general method for dealing with background regions.",
+          "Main Action": "have developed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new R/Bioconductor package named rGREAT"
+              ],
+              "Secondary Object": [
+                "the GREAT algorithm implemented locally"
+              ]
+            },
+            "Context": [
+              "Here."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users."
+            ],
+            "Analysis": [
+              "Additionally, it implements a general method for dealing with background regions."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

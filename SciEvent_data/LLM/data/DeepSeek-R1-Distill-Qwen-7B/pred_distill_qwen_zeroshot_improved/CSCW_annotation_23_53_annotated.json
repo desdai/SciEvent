@@ -1,0 +1,296 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_156",
+      "abstract": "The question of how to develop and maintain appropriate, socially informed and sophisticated infrastructural systems is an ongoing concern for CSCW. Information infrastructure development efforts are usually large endeavors that involve many stakeholders, including several organizations that need to interoperate with legacy systems. Projects typically take several years to develop. The duration, variety, and sites of engagement in the development of information infrastructures can be challenging to approach with typical CSCW approaches. In this paper, we compare and analyze our varied experiences in order to generate lessons learned based on being embedded for three or more years as action researchers and ethnographers in infrastructure development projects in the domains of traffic engineering, vocational education, and ocean science. Drawing upon these experiences, as well as literature in infrastructure studies, design methodologies, and organizational studies, we extract guidance for researchers and practitioners seeking to understand and engage in long-term organizationally complex system development projects. Among these lessons, we encourage revisiting previously gathered data as scope and scale change, observing changes in the discursive 'reference public' who will benefit from the system, and planning for different intellectual points of entry and exit. This paper lays groundwork for future developments in theory and method of collaborative design and development in and with complex systems.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "The question of how to develop and maintain appropriate, socially informed and sophisticated infrastructural systems is an ongoing concern for CSCW. Information infrastructure development efforts are usually large endeavors that involve many stakeholders, including several organizations that need to interoperate with legacy systems. Projects typically take several years to develop. The duration, variety, and sites of engagement in the development of information infrastructures can be challenging to approach with typical CSCW approaches.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we compare and analyze our varied experiences in order to generate lessons learned based on being embedded for three or more years as action researchers and ethnographers in infrastructure development projects in the domains of traffic engineering, vocational education, and ocean science. Drawing upon these experiences, as well as literature in infrastructure studies, design methodologies, and organizational studies, we extract guidance for researchers and practitioners seeking to understand and engage in long-term organizationally complex system development projects.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "In this paper, we compare and analyze our varied experiences in order to generate lessons learned based on being embedded for three or more years as action researchers and ethnographers in infrastructure development projects in the domains of traffic engineering, vocational education, and ocean science.",
+              "Drawing upon these experiences, as well as literature in infrastructure studies, design methodologies, and organizational studies, we extract guidance for researchers and practitioners seeking to understand and engage in long-term organizationally complex system development projects."
+            ],
+            "Object": {
+              "Primary Object": [
+                "Institutional researchers and practitioners seeking to understand and engage in long-term organizationally complex system development projects."
+              ],
+              "Secondary Object": [
+                "Our varied experiences in infrastructure development projects in traffic engineering, vocational education, and ocean science."
+              ]
+            },
+            "Context": [
+              "This paper compares and analyzes experiences over time as action researchers and ethnographers in infrastructure development projects across traffic engineering, vocational education, and ocean science. Literature review includes infrastructure studies, design methodologies, and organizational studies."
+            ],
+            "Purpose": [
+              "To provide actionable insights guiding future research and practice in understanding and engaging with long-term complex systems in infrastructure development."
+            ],
+            "Method": [
+              "Comparing past experiences, analyzing data from infrastructure development projects spanning traffic engineering, vocational education, and ocean science, utilizing literature reviews in infrastructure studies, design methodologies, and organizational studies."
+            ],
+            "Results": [
+              "Lessons learned have been generated from extensive embedment periods (>3 years) as action researchers and ethnographers in infrastructure development projects focusing on traffic engineering, vocational education, and ocean science. These lessons inform guidance aimed at helping others navigate similar challenges."
+            ],
+            "Analysis": [
+              "These experiences highlight the importance of integrating diverse disciplinary perspectives and longitudinal engagement in developing effective strategies for managing complex organizational systems."
+            ],
+            "Challenge": [
+              "One challenge involves balancing detailed local project expertise against broad strategic considerations necessary for systemic change."
+            ],
+            "Ethical": [
+              "The study adheres to ethical standards ensuring respect for participants' privacy and informed consent during fieldwork."
+            ],
+            "Implications": [
+              "Such guidance enhances the ability of institutions to address multifaceted issues requiring adaptive management skills across sectors including transportation, education, and environmental sciences."
+            ],
+            "Contradictions": [
+              "There is no direct contradiction presented regarding alternative theories or practices in infrastructure development."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Among these lessons, we encourage revisiting previously gathered data as scope and scale change, observing changes in the discursive 'reference public' who will benefit from the system, and planning for different intellectual points of entry and exit. This paper lays groundwork for future developments in theory and method of collaborative design and development in and with complex systems.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Among these lessons",
+              "observing changes in the discursive 'reference public'",
+              "and planning for different intellectual points of entry and exit"
+            ],
+            "Purpose": [
+              "Lay groundwork for future developments in theory and method of collaborative design and development in and with complex systems"
+            ],
+            "Method": [
+              "Analyzing past data",
+              "Observing changes in the discursive 'reference public'",
+              "Discussing scope and scale changes",
+              "Planning for different intellectual points of entry and exit"
+            ],
+            "Results": [
+              "This paper lays groundwork for future developments in theory and method..."
+            ],
+            "Analysis": [
+              "The abstract discusses methods including analyzing past data, observing changes..., and planning for different intellectual points..."
+            ],
+            "Challenge": [
+              "No explicit challenge extracted"
+            ],
+            "Ethical": [
+              "No explicit ethical concern extracted"
+            ],
+            "Implications": [
+              "BROAD SIGNIFICANCE OR POTENTIAL FOR FUTURE APPLICATIONS/RESEARCH"
+            ],
+            "Contradictions": [
+              "None explicitly noted"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_181",
+      "abstract": "Social media platforms moderate content for each user by incorporating the outputs of both platform-wide content moderation systems and, in some cases, user-configured personal moderation preferences. However, it is unclear (1) how end users perceive the choices and affordances of different kinds of personal content moderation tools, and (2) how the introduction of personalization impacts user perceptions of platforms' content moderation responsibilities. This paper investigates end users' perspectives on personal content moderation tools by conducting an interview study with a diverse sample of 24 active social media users. We probe interviewees' preferences using simulated personal moderation interfaces, including word filters, sliders for toxicity levels, and boolean toxicity toggles. We also examine the labor involved for users in choosing moderation settings and present users' attitudes about the roles and responsibilities of social media platforms and other stakeholders toward moderation. We discuss how our findings can inform design solutions to improve transparency and controllability in personal content moderation tools.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Social media platforms moderate content for each user by incorporating the outputs of both platform-wide content moderation systems and, in some cases, user-configured personal moderation preferences. However, it is unclear (1) how end users perceive the choices and affordances of different kinds of personal content moderation tools, and (2) how the introduction of personalization impacts user perceptions of platforms' content moderation responsibilities.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Academic Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "End Users’ Perceptions"
+              ],
+              "Secondary Object": [
+                "Different Types of Personal Content Moderation Tools"
+              ]
+            },
+            "Context": [
+              "It is unclear how end users perceive",
+              "how the introduction of personalization"
+            ],
+            "Purpose": [
+              "To address gaps in understanding"
+            ],
+            "Method": [
+              "Empirical Studies Involving Surveys/Interviews Among End-Users"
+            ],
+            "Results": [
+              "Findings From Data Collection"
+            ],
+            "Analysis": [
+              "Interpretations Or Explanations Of Findings"
+            ],
+            "Challenge": [
+              "Uncertainty About User Perception And Impact Of Personalization"
+            ],
+            "Ethical": [
+              "Potential Privacy Concerns"
+            ],
+            "Implications": [
+              "Better Design Of Personalization Features For Enhanced User Experience"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper investigates end users' perspectives on personal content moderation tools by conducting an interview study with a diverse sample of 24 active social media users. We probe interviewees' preferences using simulated personal moderation interfaces, including word filters, sliders for toxicity levels, and boolean toxicity toggles. We also examine the labor involved for users in choosing moderation settings and present users' attitudes about the roles and responsibilities of social media platforms and other stakeholders toward moderation.",
+          "Main Action": "Testing interviewees' preferences using simulated personal moderation interfaces",
+          "Arguments": {
+            "Agent": [
+              "A team of researchers",
+              "Interviewees"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Personal content moderation tools",
+                "Simulated interfaces with word filters, sliders for toxicity levels, and boolean toxicity toggles"
+              ],
+              "Secondary Object": [
+                "Users' experiences and perspectives on moderation settings"
+              ]
+            },
+            "Context": [
+              "Conducting an interview study with a diverse sample of 24 active social media users to investigate end users' perspectives on personal content moderation tools"
+            ],
+            "Purpose": [
+              "Evaluating users' choices towards effective moderation practices"
+            ],
+            "Method": [
+              "Administering interviews alongside interactive simulators customized to test moderation preferences"
+            ],
+            "Results": [
+              "Data showing users' expressed difficulties balancing moderation requirements against platform accountability expectations"
+            ],
+            "Analysis": [
+              "Insights revealing discrepancies between users' actual behaviors and desired functionality"
+            ],
+            "Challenge": [
+              "Identifying areas needing improvement in technology implementation and stakeholder communication"
+            ],
+            "Ethical": [
+              "Potential implications for fair usage guidelines and transparency in moderation practices"
+            ],
+            "Implications": [
+              "Opportunities for enhancing moderation technologies and fostering better stakeholder collaboration"
+            ],
+            "Contradictions": [
+              "No explicit contradictions noted in the text"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss how our findings can inform design solutions to improve transparency and controllability in personal content moderation tools.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "findings"
+              ],
+              "Secondary Object": [
+                "design solutions"
+              ]
+            },
+            "Context": [
+              "personal content moderation tools"
+            ],
+            "Purpose": [
+              "improve transparency and controllability"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

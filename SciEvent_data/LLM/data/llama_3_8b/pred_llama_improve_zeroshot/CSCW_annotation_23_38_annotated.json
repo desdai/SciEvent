@@ -1,0 +1,343 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_255",
+      "abstract": "Economically disadvantaged migrant workers are one of the most vulnerable groups in healthcare. Studies have shown that chatbots can help patients and health professionals in healthcare settings. However, the design of health chatbots for migrant workers has not been thoroughly investigated. Scenario-based interviews with nineteen participants, including ten economically disadvantaged Thai migrant workers and nine relevant stakeholders, were conducted to examine how they seek healthcare, obtain health information, and communicate with health professionals to gain a deeper understanding of the barriers that migrant workers encounter in healthcare. The findings of the interview show that migrant workers face a variety of barriers, such as a lack of familiarity with the healthcare system in the host country, language barriers, cultural barriers to seeking healthcare, and communication barriers with health professionals. Then, the technological design strategies and the benefits of health chatbots from the perspective of migrant workers were discussed, including their potential to help migrant workers navigate the healthcare system step-by-step, obtain reliable health information, improve their health literacy, and facilitate communication with health professionals. Finally, five design implications for chatbots were proposed to guide future development of health chatbots to help migrant workers. Policymakers and health professionals can benefit from the design implications of migrant worker-centered health chatbots when they develop health chatbots that promote the health and well-being of migrant workers.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Economically disadvantaged migrant workers are one of the most vulnerable groups in healthcare. Studies have shown that chatbots can help patients and health professionals in healthcare settings. However, the design of health chatbots for migrant workers has not been thoroughly investigated.",
+          "Main Action": "have shown",
+          "Arguments": {
+            "Agent": [
+              "Studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that chatbots can help patients and health professionals in healthcare settings"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Scenario-based interviews with nineteen participants, including ten economically disadvantaged Thai migrant workers and nine relevant stakeholders, were conducted to examine how they seek healthcare, obtain health information, and communicate with health professionals to gain a deeper understanding of the barriers that migrant workers encounter in healthcare.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The findings of the interview show that migrant workers face a variety of barriers, such as a lack of familiarity with the healthcare system in the host country, language barriers, cultural barriers to seeking healthcare, and communication barriers with health professionals. Then, the technological design strategies and the benefits of health chatbots from the perspective of migrant workers were discussed, including their potential to help migrant workers navigate the healthcare system step-by-step, obtain reliable health information, improve their health literacy, and facilitate communication with health professionals.",
+          "Main Action": "discussed",
+          "Arguments": {
+            "Agent": [
+              "technological design strategies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "benefits of health chatbots"
+              ],
+              "Secondary Object": [
+                "migrant workers"
+              ]
+            },
+            "Context": [
+              "from the perspective of migrant workers"
+            ],
+            "Purpose": [
+              "to help migrant workers navigate the healthcare system step-by-step, obtain reliable health information, improve their health literacy, and facilitate communication with health professionals"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential application in improving healthcare services for migrant workers"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, five design implications for chatbots were proposed to guide future development of health chatbots to help migrant workers. Policymakers and health professionals can benefit from the design implications of migrant worker-centered health chatbots when they develop health chatbots that promote the health and well-being of migrant workers.",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "policymakers and health professionals"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design implications"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "for chatbots"
+            ],
+            "Purpose": [
+              "to guide future development of health chatbots"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "benefit from the design implications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_113",
+      "abstract": "The 2011 Fukushima Daiichi nuclear disaster has led to worldwide disruptive discussions related to crisis. In April 2021, the news that the Japanese Cabinet decided to discharge the stored wastewater into the Pacific Ocean drew global attention once again. Social media platforms like Twitter are ubiquitously used to gain information and exchange opinions during and after a crisis. Analyzing crisis-related tweets can help capture insights for public situational awareness development, crisis global response coordination, and post-disaster policy-making. We examined corresponding Twitter discourse in different languages about the nuclear disaster in 2011 and the follow-up discharge of the stored water until 2021. We utilized NLP techniques including topic modeling and sentiment analysis to identify the dominant topics related to the nuclear disaster, the post-disaster discourses, and the public attitudes towards these topics in different time phases. Our work revealed multilingual disparities of post-disaster discourse dynamics and the regional public attitudes towards the post-disaster management in the long run.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The 2011 Fukushima Daiichi nuclear disaster has led to worldwide disruptive discussions related to crisis. In April 2021, the news that the Japanese Cabinet decided to discharge the stored wastewater into the Pacific Ocean drew global attention once again. Social media platforms like Twitter are ubiquitously used to gain information and exchange opinions during and after a crisis. Analyzing crisis-related tweets can help capture insights for public situational awareness development, crisis global response coordination, and post-disaster policy-making.",
+          "Main Action": "analyzing",
+          "Arguments": {
+            "Agent": [
+              "social media platforms like Twitter"
+            ],
+            "Object": {
+              "Primary Object": [
+                "crisis-related tweets"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "during and after a crisis"
+            ],
+            "Purpose": [
+              "help capture insights for public situational awareness development, crisis global response coordination, and post-disaster policy-making"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "public situational awareness development, crisis global response coordination, and post-disaster policy-making"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We examined corresponding Twitter discourse in different languages about the nuclear disaster in 2011 and the follow-up discharge of the stored water until 2021. We utilized NLP techniques including topic modeling and sentiment analysis to identify the dominant topics related to the nuclear disaster, the post-disaster discourses, and the public attitudes towards these topics in different time phases.",
+          "Main Action": "examined",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "corresponding Twitter discourse"
+              ],
+              "Secondary Object": [
+                "different languages",
+                "nuclear disaster",
+                "stored water",
+                "time phases"
+              ]
+            },
+            "Context": [
+              "Twitter discourse",
+              "nuclear disaster",
+              "post-disaster discourses",
+              "public attitudes"
+            ],
+            "Purpose": [
+              "identify the dominant topics",
+              "related to the nuclear disaster",
+              "in different time phases"
+            ],
+            "Method": [
+              "NLP techniques",
+              "topic modeling",
+              "sentiment analysis"
+            ],
+            "Results": [
+              "dominant topics",
+              "post-disaster discourses",
+              "public attitudes"
+            ],
+            "Analysis": [
+              "identify the dominant topics"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader understanding of public attitudes"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our work revealed multilingual disparities of post-disaster discourse dynamics and the regional public attitudes towards the post-disaster management in the long run.",
+          "Main Action": "revealed",
+          "Arguments": {
+            "Agent": [
+              "our work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "multilingual disparities of post-disaster discourse dynamics"
+              ],
+              "Secondary Object": [
+                "regional public attitudes towards the post-disaster management in the long run"
+              ]
+            },
+            "Context": [
+              "post-disaster"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_36",
+      "abstract": "The premise of this article is that a basic understanding of the composition and functioning of large language models is critically urgent. To that end, we extract a representational map of OpenAI's GPT-2 with what we articulate as two classes of deep learning code, that which pertains to the model and that which underwrites applications built around the model. We then verify this map through case studies of two popular GPT-2 applications: the text adventure game, AI Dungeon, and the language art project, This Word Does Not Exist. Such an exercise allows us to test the potential of Critical Code Studies when the object of study is deep learning code and to demonstrate the validity of code as an analytical focus for researchers in the subfields of Critical Artificial Intelligence and Critical Machine Learning Studies. More broadly, however, our work draws attention to the means by which ordinary users might interact with, and even direct, the behavior of deep learning systems, and by extension works toward demystifying some of the auratic mystery of “AI.” What is at stake is the possibility of achieving an informed sociotechnical consensus about the responsible applications of large language models, as well as a more expansive sense of their creative capabilities — indeed, understanding how and where engagement occurs allows all of us to become more active participants in the development of machine learning systems.",
+      "events": [
+        {
+          "Background/Introduction": "Extraction of representational map of GPT-2",
+          "Text": "The premise of this article is that a basic understanding of the composition and functioning of large language models is critically urgent. To that end, we extract a representational map of OpenAI's GPT-2 with what we articulate as two classes of deep learning code, that which pertains to the model and that which underwrites applications built around the model.",
+          "Main Action": "extract",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a representational map"
+              ],
+              "Primary Modifier": [
+                "of OpenAI's GPT-2"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "with what we articulate as two classes of deep learning code",
+              "The premise of this article is that a basic understanding of the composition and functioning of large language models is critically urgent"
+            ],
+            "Purpose": [
+              "that which pertains to the model",
+              "that which underwrites applications built around the model."
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Verification of map through case studies",
+          "Text": "We then verify this map through case studies of two popular GPT-2 applications: the text adventure game, AI Dungeon, and the language art project, This Word Does Not Exist. Such an exercise allows us to test the potential of Critical Code Studies when the object of study is deep learning code and to demonstrate the validity of code as an analytical focus for researchers in the subfields of Critical Artificial Intelligence and Critical Machine Learning Studies.",
+          "Main Action": "then verify",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "this map"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "when the object of study is deep learning code",
+              "n the subfields of Critical Artificial Intelligence",
+              "Critical Machine Learning Studies."
+            ],
+            "Purpose": [
+              "Such an exercise allows us to test the potential of Critical Code Studies",
+              "to demonstrate the validity of code as an analytical focus for researchers"
+            ],
+            "Method": [
+              "through case studies of two popular GPT-2 applications:",
+              "the text adventure game, AI Dungeon, and the language art project, This Word Does Not Exis"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Means by which ordinary users can interact with deep learning systems",
+          "Text": "More broadly, however, our work draws attention to the means by which ordinary users might interact with, and even direct, the behavior of deep learning systems, and by extension works toward demystifying some of the auratic mystery of “AI.” What is at stake is the possibility of achieving an informed sociotechnical consensus about the responsible applications of large language models, as well as a more expansive sense of their creative capabilities — indeed, understanding how and where engagement occurs allows all of us to become more active participants in the development of machine learning systems.",
+          "Main Action": "draws attention",
+          "Arguments": {
+            "Agent": [
+              "our work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to the means"
+              ],
+              "Primary Modifier": [
+                "by which ordinary users might interact with"
+              ],
+              "Secondary Object": [
+                "even direct,"
+              ],
+              "Secondary Modifier": [
+                "the behavior of deep learning systems,"
+              ]
+            },
+            "Context": [
+              "by extension works toward demystifying some of the auratic mystery of “AI.",
+              "What is at stake is",
+              "in the development of machine learning systems."
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "allows all of us to become more active participants"
+            ],
+            "Analysis": [
+              "the possibility of achieving an informed sociotechnical consensus about the responsible applications of large language models",
+              "a more expansive sense of their creative capabilities —",
+              "understanding how and where engagement occurs"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_18",
+      "abstract": "This article examines the technical development and afterlives of two projects, the CURSUS project (2000-2003) and the William Godwin's Diary project (2007-2010) to undertake case studies in problems relating to hosting and storage of digital humanities projects. In both cases, a combination of outside events or project decisions negatively impacted the project. This was discussed as part of a symposium for the Endings Principles for Digital Longevity and reflects on whether following these principles would have benefited these projects. Overall, the case is made that we should always be planning for events that could affect the sustainability of digital research projects.",
+      "events": [
+        {
+          "Background/Introduction": "Technical development and afterlives of 2 projects",
+          "Text": "This article examines the technical development and afterlives of two projects, the CURSUS project (2000-2003) and the William Godwin's Diary project (2007-2010) to undertake case studies in problems relating to hosting and storage of digital humanities projects.",
+          "Main Action": "examines",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the technical development"
+              ],
+              "Primary Modifier": [
+                "he CURSUS project"
+              ],
+              "Secondary Object": [
+                "afterlives of two projects"
+              ],
+              "Secondary Modifier": [
+                "the William Godwin's Diary project"
+              ]
+            },
+            "Context": [],
+            "Purpose": [
+              "o undertake case studies in problems relating to hosting",
+              "storage of digital humanities projects."
+            ],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Negative impact on project due to combination of outside of project events",
+          "Text": "In both cases, a combination of outside events or project decisions negatively impacted the project. This was discussed as part of a symposium for the Endings Principles for Digital Longevity and reflects on whether following these principles would have benefited these projects.",
+          "Main Action": "was discussed",
+          "Arguments": {
+            "Agent": [
+              "This"
+            ],
+            "Object": {
+              "Primary Object": [
+                "as part of a symposium"
+              ],
+              "Primary Modifier": [
+                "for the Endings Principles for Digital Longevity"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "In both cases, a combination of outside events or project decisions"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "negatively impacted the project."
+            ],
+            "Analysis": [
+              "reflects on whether following these principles would have benefited these projects."
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Conclusion about how we should always plan for events that effect sustainibility of digital projects",
+          "Text": "Overall, the case is made that we should always be planning for events that could affect the sustainability of digital research projects.",
+          "Main Action": "should",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "always be planning"
+              ],
+              "Primary Modifier": [
+                "for events"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Overall, the case is made that",
+              "of digital research projects."
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "that could affect the sustainability"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

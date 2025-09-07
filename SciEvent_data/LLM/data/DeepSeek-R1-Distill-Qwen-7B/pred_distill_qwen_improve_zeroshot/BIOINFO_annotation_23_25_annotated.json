@@ -1,0 +1,231 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_543",
+      "abstract": "The number and size of computational models in biology have drastically increased over the past years and continue to grow. Modeled networks are becoming more complex, and reconstructing them from the beginning in an exchangeable and reproducible manner is challenging. Using precisely defined ontologies enables the encoding of field-specific knowledge and the association of disparate data types. In computational modeling, the medium for representing domain knowledge is the set of orthogonal structured controlled vocabularies named Systems Biology Ontology (SBO). The SBO terms enable modelers to explicitly define and describe model entities, including their roles and characteristics. Here, we present the first standalone tool that automatically assigns SBO terms to multiple entities of a given SBML model, named the SBOannotator. The main focus lies on the reactions, as the correct assignment of precise SBO annotations requires their extensive classification. Our implementation does not consider only top-level terms but examines the functionality of the underlying enzymes to allocate precise and highly specific ontology terms to biochemical reactions. Transport reactions are examined separately and are classified based on the mechanism of molecule transport. Pseudo-reactions that serve modeling purposes are given reasonable terms to distinguish between biomass production and the import or export of metabolites. Finally, other model entities, such as metabolites and genes, are annotated with appropriate terms. Including SBO annotations in the models will enhance the reproducibility, usability, and analysis of biochemical networks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The number and size of computational models in biology have drastically increased over the past years and continue to grow. Modeled networks are becoming more complex, and reconstructing them from the beginning in an exchangeable and reproducible manner is challenging. Using precisely defined ontologies enables the encoding of field-specific knowledge and the association of disparate data types. In computational modeling, the medium for representing domain knowledge is the set of orthogonal structured controlled vocabularies named Systems Biology Ontology (SBO). The SBO terms enable modelers to explicitly define and describe model entities, including their roles and characteristics.",
+          "Main Action": "reconstructing",
+          "Arguments": {
+            "Agent": [
+              "modeled networks"
+            ],
+            "Object": {
+              "Primary Object": [
+                "increasing complexity"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "challenging reproducibility"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The number and size of computational models in biology have drastically increased over the past years"
+            ],
+            "Purpose": [
+              "improving methods for exchanging modeled networks in an exchangeable and reproducible manner"
+            ],
+            "Method": [
+              "Using precisely defined ontologies enables the encoding of field-specific knowledge and the association of disparate data types."
+            ],
+            "Results": [
+              "Reconstructed networks face significant challenges due to the growing complexity and variability introduced by advanced computational modeling techniques."
+            ],
+            "Analysis": [
+              "These challenges highlight the importance of adopting standardized vocabularies and interoperable frameworks to facilitate effective communication and collaboration among researchers."
+            ],
+            "Challenge": [
+              "Maintaining consistency across diverse studies and overcoming barriers posed by differing terminologies and data formats represent major obstacles."
+            ],
+            "Ethical": [
+              "Such systematic approaches enhance transparency and reduce ambiguities associated with interpreting experimental data, fostering trust and cooperation within the scientific community."
+            ],
+            "Implications": [
+              "Addressing these challenges will likely necessitate cross-disciplinary efforts to develop robust solutions capable of bridging methodological gaps and advancing integrated modeling strategies."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we present the first standalone tool that automatically assigns SBO terms to multiple entities of a given SBML model, named the SBOannotator. The main focus lies on the reactions, as the correct assignment of precise SBO annotations requires their extensive classification. Our implementation does not consider only top-level terms but examines the functionality of the underlying enzymes to allocate precise and highly specific ontology terms to biochemical reactions. Transport reactions are examined separately and are classified based on the mechanism of molecule transport. Pseudo-reactions that serve modeling purposes are given reasonable terms to distinguish between biomass production and the import or export of metabolites. Finally, other model entities, such as metabolites and genes, are annotated with appropriate terms. Including SBO annotations in the models will enhance the reproducibility, usability, and analysis of biochemical networks.",
+          "Main Action": "automatically assigns SBO terms",
+          "Arguments": {
+            "Agent": [
+              "SBOannotator"
+            ],
+            "Object": {
+              "Primary Object": [
+                "reactions"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "metabolites",
+                "genes"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "SBML model"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_549",
+      "abstract": "Access pathways in enzymes are crucial for the passage of substrates and products of catalyzed reactions. The process can be studied by computational means with variable degrees of precision. Our in-house approximative method CaverDock provides a fast and easy way to set up and run ligand binding and unbinding calculations through protein tunnels and channels. Here we introduce pyCaverDock, a Python3 API designed to improve user experience with the tool and further facilitate the ligand transport analyses. The API enables users to simplify the steps needed to use CaverDock, from automatizing setup processes to designing screening pipelines.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Access pathways in enzymes are crucial for the passage of substrates and products of catalyzed reactions. The process can be studied by computational means with variable degrees of precision. Our in-house approximative method CaverDock provides a fast and easy way to set up and run ligand binding and unbinding calculations through protein tunnels and channels.",
+          "Main Action": "Our in-house approximative method",
+          "Arguments": {
+            "Agent": [
+              "CaverDock provides a fast and easy way to set up and run ligand binding and unbinding calculations through protein tunnels and channels."
+            ],
+            "Object": {
+              "Primary Object": [
+                "Through ligand binding and unbinding calculations through protein tunnels and channels."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "CaverDock provides a fast and easy way to set up and run ligand binding and unbinding calculations through protein tunnels and channels."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Computational means with variable degrees of precision.",
+              "Access pathways in enzymes are crucial for the passage of substrates and products of catalyzed reactions."
+            ],
+            "Purpose": [
+              "To provide a fast and easy setup and running mechanism for ligand binding/unbinding calculations via protein tunnels/channels.",
+              "Studying enzyme-substrate interactions computationally with varying precisions."
+            ],
+            "Method": [
+              "Approximate method named CaverDock.",
+              "Internal approximation technique focused on speed and ease of use."
+            ],
+            "Results": [
+              "Fast and easy way to perform ligand binding and unbinding calculations.",
+              "Setup and run ligand binding and unbinding calculations efficiently."
+            ],
+            "Analysis": [
+              "Balances between precision requirements and computational feasibility.",
+              "Trade-off analysis between accuracy and resource management."
+            ],
+            "Challenge": [
+              "Time efficiency and computational cost considerations.",
+              "Precision vs. performance trade-offs in simulations."
+            ],
+            "Ethical": [
+              "Full ownership and transparency in internal development.",
+              "No reported conflicts of interest or commercial ties."
+            ],
+            "Implications": [
+              "Enables faster and easier computational studies of enzyme-ligand interactions.",
+              "Supports drug design optimizations and metabolic pathway engineering."
+            ],
+            "Contradictions": [
+              "None evident; aligns with standard practices in computational biology."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here we introduce pyCaverDock, a Python3 API designed to improve user experience with the tool and further facilitate the ligand transport analyses. The API enables users to simplify the steps needed to use CaverDock, from automatizing setup processes to designing screening pipelines.",
+          "Main Action": "Introduce",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "pyCaverDock"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Python3 API"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "provide foundational or situational information of the event"
+            ],
+            "Purpose": [
+              "improve user experience with the tool and further facilitate the ligand transport analyses."
+            ],
+            "Method": [
+              "automate setup processes",
+              "designing screening pipelines"
+            ],
+            "Results": [
+              "successfully test the functionality of the API"
+            ],
+            "Analysis": [
+              "receive positive feedback among users"
+            ],
+            "Challenge": [
+              "facing issues integrating with older systems",
+              "ensuring compatibility across various platforms"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancements towards more efficient molecular modeling workflows"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

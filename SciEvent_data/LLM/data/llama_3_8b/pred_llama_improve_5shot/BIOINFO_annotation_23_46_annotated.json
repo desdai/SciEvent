@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_79",
+      "abstract": "Promoter-centered chromatin interactions, which include promoter-enhancer (PE) and promoter-promoter (PP) interactions, are important to decipher gene regulation and disease mechanisms. The development of next-generation sequencing technologies such as promoter capture Hi-C (pcHi-C) leads to the discovery of promoter-centered chromatin interactions. However, pcHi-C experiments are expensive and thus may be unavailable for tissues/cell types of interest. In addition, these experiments may be underpowered due to insufficient sequencing depth or various artifacts, which results in a limited finding of interactions. Most existing computational methods for predicting chromatin interactions are based on in situ Hi-C and can detect chromatin interactions across the entire genome. However, they may not be optimal for predicting promoter-centered chromatin interactions. We develop a supervised multi-modal deep learning model, which utilizes a comprehensive set of features such as genomic sequence, epigenetic signal, anchor distance, evolutionary features and DNA structural features to predict tissue/cell type-specific PE and PP interactions. We further extend the deep learning model in a multi-task learning and a transfer learning framework and demonstrate that the proposed approach outperforms state-of-the-art deep learning methods. Moreover, the proposed approach can achieve comparable prediction performance using predefined biologically relevant tissues/cell types compared to using all tissues/cell types in the pretraining especially for predicting PE interactions. The prediction performance can be further improved by using computationally inferred biologically relevant tissues/cell types in the pretraining, which are defined based on the common genes in the proximity of two anchors in the chromatin interactions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Promoter-centered chromatin interactions, which include promoter-enhancer (PE) and promoter-promoter (PP) interactions, are important to decipher gene regulation and disease mechanisms. The development of next-generation sequencing technologies such as promoter capture Hi-C (pcHi-C) leads to the discovery of promoter-centered chromatin interactions. However, pcHi-C experiments are expensive and thus may be unavailable for tissues/cell types of interest. In addition, these experiments may be underpowered due to insufficient sequencing depth or various artifacts, which results in a limited finding of interactions. Most existing computational methods for predicting chromatin interactions are based on in situ Hi-C and can detect chromatin interactions across the entire genome. However, they may not be optimal for predicting promoter-centered chromatin interactions.",
+          "Main Action": "promote",
+          "Arguments": {
+            "Agent": [
+              "Next-generation sequencing technologies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "chromatin interactions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "are important to decipher gene regulation and disease mechanisms."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "leads to the discovery"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "expensive"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We develop a supervised multi-modal deep learning model, which utilizes a comprehensive set of features such as genomic sequence, epigenetic signal, anchor distance, evolutionary features and DNA structural features to predict tissue/cell type-specific PE and PP interactions. We further extend the deep learning model in a multi-task learning and a transfer learning framework and demonstrate that the proposed approach outperforms state-of-the-art deep learning methods.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Moreover, the proposed approach can achieve comparable prediction performance using predefined biologically relevant tissues/cell types compared to using all tissues/cell types in the pretraining especially for predicting PE interactions. The prediction performance can be further improved by using computationally inferred biologically relevant tissues/cell types in the pretraining, which are defined based on the common genes in the proximity of two anchors in the chromatin interactions.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Proposed"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "achievable"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "by leveraging machine learning algorithms"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_163",
+      "abstract": "Circadian oscillations of gene expression regulate daily physiological processes, and their disruption is linked to many diseases. Circadian rhythms can be disrupted in a variety of ways, including differential phase, amplitude and rhythm fitness. Although many differential circadian biomarker detection methods have been proposed, a workflow for systematic detection of multifaceted differential circadian characteristics with accurate false positive control is not currently available. We propose a comprehensive and interactive pipeline to capture the multifaceted characteristics of differentially rhythmic biomarkers. Analysis outputs are accompanied by informative visualization and interactive exploration. The workflow is demonstrated in multiple case studies and is extensible to general omics applications.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Circadian oscillations of gene expression regulate daily physiological processes, and their disruption is linked to many diseases. Circadian rhythms can be disrupted in a variety of ways, including differential phase, amplitude and rhythm fitness. Although many differential circadian biomarker detection methods have been proposed, a workflow for systematic detection of multifaceted differential circadian characteristics with accurate false positive control is not currently available.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose a comprehensive and interactive pipeline to capture the multifaceted characteristics of differentially rhythmic biomarkers. Analysis outputs are accompanied by informative visualization and interactive exploration.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel theoretical framework"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "live streaming has become almost ubiquitous in both public and private spaces in many countries"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "interview study with 25 Chinese streamers"
+            ],
+            "Results": [
+              "streamers cared about bystanders' privacy",
+              "primarily relied on technical, behavioral, and collaborative strategies"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "applying the theoretical lens of collective privacy management"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The workflow is demonstrated in multiple case studies and is extensible to general omics applications.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a collaborative project"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "communities interested in Gə'əz language texts",
+              "other under-resourced manuscript traditions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "an easy-to-use open-source tool"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

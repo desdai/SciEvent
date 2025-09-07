@@ -1,0 +1,354 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_41",
+      "abstract": "We present an exploration of cultural norms surrounding online disclosure of information about one's interpersonal relationships (such as information about family members, colleagues, friends, or lovers) on Twitter. The literature identifies the cultural dimension of individualism versus collectivism as being a major determinant of offline communication differences in terms of emotion, topic, and content disclosed. We decided to study whether such differences also occur online in context of Twitter when comparing tweets posted in an individualistic (U.S.) versus a collectivist (India) society. We collected more than 2 million tweets posted in the U.S. and India over a 3-month period which contain interpersonal relationship keywords. A card-sort study was used to develop this culturally-sensitive saturated taxonomy of keywords that represent interpersonal relationships (e.g., ma, mom, mother). Then we developed a high-accuracy interpersonal disclosure detector based on dependency-parsing (F1-score: 86%) to identify when the words refer to a personal relationship of the poster (e.g., 'my mom' as opposed to 'a mom'). This allowed us to identify the 400K+ tweets in our dataset which actually disclose information about the poster's interpersonal relationships. We used a mixed-methods approach to analyze these tweets (e.g., comparing the amount of joy expressed about one's family) and found differences in emotion, topic, and content disclosed between tweets from the U.S. versus India. Our analysis also reveals how a combination of qualitative and quantitative methods are needed to uncover these differences; Using just one or the other can be misleading. This study extends the prior literature on Multi-Party Privacy and provides guidance for researchers and designers of culturally-sensitive systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "We present an exploration of cultural norms surrounding online disclosure of information about one's interpersonal relationships (such as information about family members, colleagues, friends, or lovers) on Twitter. The literature identifies the cultural dimension of individualism versus collectivism as being a major determinant of offline communication differences in terms of emotion, topic, and content disclosed. We decided to study whether such differences also occur online in context of Twitter when comparing tweets posted in an individualistic (U.S.) versus a collectivist (India) society.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an exploration of cultural norms surrounding online disclosure of information about one's interpersonal relationships on Twitter"
+              ],
+              "Secondary Object": [
+                "tweets posted in an individualistic (U.S.) versus a collectivist (India) society"
+              ]
+            },
+            "Context": [
+              "The literature identifies the cultural dimension of individualism versus collectivism as being a major determinant of offline communication differences in terms of emotion, topic, and content disclosed"
+            ],
+            "Purpose": [
+              "to study whether such differences also occur online in context of Twitter"
+            ],
+            "Method": [
+              "comparing tweets posted in an individualistic (U.S.) versus a collectivist (India) society"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We collected more than 2 million tweets posted in the U.S. and India over a 3-month period which contain interpersonal relationship keywords. A card-sort study was used to develop this culturally-sensitive saturated taxonomy of keywords that represent interpersonal relationships (e.g., ma, mom, mother). Then we developed a high-accuracy interpersonal disclosure detector based on dependency-parsing (F1-score: 86%) to identify when the words refer to a personal relationship of the poster (e.g., 'my mom' as opposed to 'a mom'). This allowed us to identify the 400K+ tweets in our dataset which actually disclose information about the poster's interpersonal relationships.",
+          "Main Action": "<COLLECTED TWEETS AND DEVELOPED TAXONOMY AND DETECTOR>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "more than 2 million tweets",
+                "culturally-sensitive saturated taxonomy of keywords",
+                "high-accuracy interpersonal disclosure detector"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "collected in the U.S. and India over a 3-month period which contain interpersonal relationship keywords",
+              "card-sort study was used to develop this culturally-sensitive saturated taxonomy of keywords that represent interpersonal relationships (e.g., ma, mom, mother)",
+              "developed a high-accuracy interpersonal disclosure detector based on dependency-parsing (F1-score: 86%)"
+            ],
+            "Purpose": [
+              "identify when the words refer to a personal relationship of the poster (e.g., 'my mom' as opposed to 'a mom')"
+            ],
+            "Method": [
+              "collected more than 2 million tweets",
+              "card-sort study",
+              "dependency-parsing"
+            ],
+            "Results": [
+              "allowed us to identify the 400K+ tweets in our dataset which actually disclose information about the poster's interpersonal relationships"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We used a mixed-methods approach to analyze these tweets (e.g., comparing the amount of joy expressed about one's family) and found differences in emotion, topic, and content disclosed between tweets from the U.S. versus India. Our analysis also reveals how a combination of qualitative and quantitative methods are needed to uncover these differences; using just one or the other can be misleading.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a mixed-methods approach"
+              ],
+              "Secondary Object": [
+                "tweets",
+                "differences in emotion, topic, and content disclosed between tweets from the U.S. versus India"
+              ]
+            },
+            "Context": [
+              "using a mixed-methods approach to analyze these tweets"
+            ],
+            "Purpose": [
+              "to uncover these differences"
+            ],
+            "Method": [
+              "comparing the amount of joy expressed about one's family"
+            ],
+            "Results": [
+              "found differences in emotion, topic, and content disclosed between tweets from the U.S. versus India",
+              "reveals how a combination of qualitative and quantitative methods are needed to uncover these differences; using just one or the other can be misleading"
+            ],
+            "Analysis": [
+              "how a combination of qualitative and quantitative methods are needed to uncover these differences"
+            ],
+            "Challenge": [
+              "using just one or the other can be misleading"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "implications for understanding cross-cultural communication through social media"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This study extends the prior literature on Multi-Party Privacy and provides guidance for researchers and designers of culturally-sensitive systems.",
+          "Main Action": "<EXTENDS>",
+          "Arguments": {
+            "Agent": [
+              "This study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "prior literature on Multi-Party Privacy"
+              ],
+              "Secondary Object": [
+                "researchers and designers of culturally-sensitive systems"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "provides guidance"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_147",
+      "abstract": "Users face security folklore in their daily lives in the form of security advice, myths, and word-of-mouth stories. Using a VPN to access the Tor network, i.e., Tor over VPN, is an interesting example of security folklore because of its inconclusive security benefits and its occurrence in pop-culture media.Following the Theory of Reasoned Action, we investigated the phenomenon with three studies: (1) we quantified the behavior on real-world Tor traffic and measured a prevalence of 6.23%; (2) we surveyed users' intentions and beliefs, discovering that they try to protect themselves from the Tor network or increase their general security; and (3) we analyzed online information sources, suggesting that perceived norms and ease-of-use play a significant role while behavioral beliefs about the purpose and effect are less crucial in spreading security folklore. We discuss how to communicate security advice effectively and combat security misinformation and misconceptions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Users face security folklore in their daily lives in the form of security advice, myths, and word-of-mouth stories. Using a VPN to access the Tor network, i.e., Tor over VPN, is an interesting example of security folklore because of its inconclusive security benefits and its occurrence in pop-culture media.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Users"
+            ],
+            "Object": {
+              "Primary Object": [
+                "security folklore"
+              ],
+              "Secondary Object": [
+                "security advice",
+                "myths",
+                "word-of-mouth stories"
+              ]
+            },
+            "Context": [
+              "daily lives",
+              "form of security folklore in users' daily lives"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "inconclusive security benefits"
+            ],
+            "Analysis": [
+              "occurrence in pop-culture media"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Following the Theory of Reasoned Action, we investigated the phenomenon with three studies: (1) we quantified the behavior on real-world Tor traffic and measured a prevalence of 6.23%; (2) we surveyed users' intentions and beliefs, discovering that they try to protect themselves from the Tor network or increase their general security; and (3) we analyzed online information sources, suggesting that perceived norms and ease-of-use play a significant role while behavioral beliefs about the purpose and effect are less crucial in spreading security folklore.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "behavior",
+                "users' intentions and beliefs",
+                "online information sources"
+              ],
+              "Secondary Object": [
+                "real-world Tor traffic",
+                "Tor network",
+                "perceived norms and ease-of-use",
+                "behavioral beliefs about the purpose and effect"
+              ]
+            },
+            "Context": [
+              "following the Theory of Reasoned Action",
+              "three studies"
+            ],
+            "Purpose": [
+              "quantify the behavior",
+              "survey users' intentions and beliefs",
+              "analyze online information sources"
+            ],
+            "Method": [
+              "measured a prevalence of 6.23%",
+              "discovering that they try to protect themselves from the Tor network or increase their general security",
+              "suggesting that...play a significant role while ...are less crucial in spreading security folklore"
+            ],
+            "Results": [
+              "prevalence of 6.23% on real-world Tor traffic",
+              "they try to protect themselves from the Tor network or increase their general security",
+              "perceived norms and ease-of-use play a significant role while behavioral beliefs about the purpose and effect are less crucial in spreading security folklore"
+            ],
+            "Analysis": [
+              "none"
+            ],
+            "Challenge": [
+              "none"
+            ],
+            "Ethical": [
+              "none"
+            ],
+            "Implications": [
+              "importance, impact, applications, or future work"
+            ],
+            "Contradictions": [
+              "none"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss how to communicate security advice effectively and combat security misinformation and misconceptions.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how to communicate security advice effectively and combat security misinformation and misconceptions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

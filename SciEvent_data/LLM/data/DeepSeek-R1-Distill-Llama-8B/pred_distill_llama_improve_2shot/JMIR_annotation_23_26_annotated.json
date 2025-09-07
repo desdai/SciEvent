@@ -1,0 +1,386 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_881",
+      "abstract": "Since the onset of the COVID-19 pandemic, vaccines have been an important topic in public discourse. The discussions around vaccines are polarized, as some see them as an important measure to end the pandemic, and others are hesitant or find them harmful. A substantial portion of these discussions occurs openly on social media platforms. This allows us to closely monitor the opinions of different groups and their changes over time. This study investigated posts related to COVID-19 vaccines on Twitter (Twitter Inc) and focused on those that had a negative stance toward vaccines. It examined the evolution of the percentage of negative tweets over time. It also examined the different topics discussed in these tweets to understand the concerns and discussion points of those holding a negative stance toward the vaccines. A data set of 16,713,238 English tweets related to COVID-19 vaccines was collected, covering the period from March 1, 2020, to July 31, 2021. We used the scikit-learn Python library to apply a support vector machine classifier to identify the tweets with a negative stance toward COVID-19 vaccines. A total of 5163 tweets were used to train the classifier, of which a subset of 2484 tweets was manually annotated by us and made publicly available along with this paper. We used the BERTopic model to extract the topics discussed within the negative tweets and investigate them, including how they changed over time. We showed that the negativity with respect to COVID-19 vaccines has decreased over time along with the vaccine rollouts. We identified 37 topics of discussion and presented their respective importance over time. We showed that popular topics not only consisted of conspiratorial discussions, such as 5G towers and microchips, but also contained legitimate concerns around vaccination safety and side effects as well as concerns about policies. The most prevalent topic among vaccine-hesitant tweets was related to the use of messenger RNA and fears about its speculated negative effects on our DNA. Hesitancy toward vaccines existed before the COVID-19 pandemic. However, given the dimension of and circumstances surrounding the COVID-19 pandemic, some new areas of hesitancy and negativity toward COVID-19 vaccines have arisen, for example, whether there has been enough time for them to be properly tested. There is also an unprecedented number of conspiracy theories associated with them. Our study shows that even unpopular opinions or conspiracy theories can become widespread when paired with a widely popular discussion topic such as COVID-19 vaccines. Understanding the concerns, the discussed topics, and how they change over time is essential for policy makers and public health authorities to provide better in-time information and policies to facilitate the vaccination of the population in future similar crises.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Since the onset of the COVID-19 pandemic, vaccines have been an important topic in public discourse. The discussions around vaccines are polarized, as some see them as an important measure to end the pandemic, and others are hesitant or find them harmful. A substantial portion of these discussions occurs openly on social media platforms. This allows us to closely monitor the opinions of different groups and their changes over time.",
+          "Main Action": "have been an important topic in public discourse.",
+          "Arguments": {
+            "Agent": [
+              "vaccines"
+            ],
+            "Object": {
+              "Primary Object": [
+                "public discourse"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "since the onset of the COVID-19 pandemic",
+              "The discussions around vaccines are polarized",
+              "some see them as an important measure to end the pandemic",
+              "others are hesitant or find them harmful"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "substantial portion of these discussions occurs openly on social media platforms"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study investigated posts related to COVID-19 vaccines on Twitter (Twitter Inc) and focused on those that had a negative stance toward vaccines. It examined the evolution of the percentage of negative tweets over time. It also examined the different topics discussed in these tweets to understand the concerns and discussion points of those holding a negative stance toward the vaccines. A data set of 16,713,238 English tweets related to COVID-19 vaccines was collected, covering the period from March 1, 2020, to July 31, 2021. We used the scikit-learn Python library to apply a support vector machine classifier to identify the tweets with a negative stance toward COVID-19 vaccines. A total of 5163 tweets were used to train the classifier, of which a subset of 2484 tweets was manually annotated by us and made publicly available along with this paper. We used the BERTopic model to extract the topics discussed within the negative tweets and investigate them, including how they changed over time.",
+          "Main Action": "investigated",
+          "Arguments": {
+            "Agent": [
+              "Posts related to COVID-19 vaccines on Twitter (Twitter Inc)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "those that had a negative stance toward vaccines"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "focused on those that had a negative stance toward vaccines",
+              "examined the evolution of the percentage of negative tweets over time",
+              "examined the different topics discussed in these tweets"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "support vector machine classifier"
+            ],
+            "Results": [
+              "16,713,238 English tweets related to COVID-19 vaccines",
+              "covering the period from March 1, 2020, to July 31, 2021",
+              "5163 tweets were used to train the classifier",
+              "subset of 2484 tweets was manually annotated"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "BERTopic model"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We showed that the negativity with respect to COVID-19 vaccines has decreased over time along with the vaccine rollouts. We identified 37 topics of discussion and presented their respective importance over time. We showed that popular topics not only consisted of conspiratorial discussions, such as 5G towers and microchips, but also contained legitimate concerns around vaccination safety and side effects as well as concerns about policies. The most prevalent topic among vaccine-hesitant tweets was related to the use of messenger RNA and fears about its speculated negative effects on our DNA.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Hesitancy toward vaccines existed before the COVID-19 pandemic. However, given the dimension of and circumstances surrounding the COVID-19 pandemic, some new areas of hesitancy and negativity toward COVID-19 vaccines have arisen, for example, whether there has been enough time for them to be properly tested. There is also an unprecedented number of conspiracy theories associated with them. Our study shows that even unpopular opinions or conspiracy theories can become widespread when paired with a widely popular discussion topic such as COVID-19 vaccines. Understanding the concerns, the discussed topics, and how they change over time is essential for policy makers and public health authorities to provide better in-time information and policies to facilitate the vaccination of the population in future similar crises.",
+          "Main Action": "have arisen",
+          "Arguments": {
+            "Agent": [
+              "some new areas of hesitancy and negativity toward COVID-19 vaccines"
+            ],
+            "Object": {
+              "Primary Object": [
+                "hesitancy toward vaccines"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "whether there has been enough time for them to be properly tested",
+              "unprecedented number of conspiracy theories associated with them"
+            ],
+            "Purpose": [
+              "Understanding the concerns..."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "even unpopular opinions or conspiracy theories can become widespread"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Understanding..."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_358",
+      "abstract": "Workers with flexible work designs (FWDs) face specific challenges, such as difficulties in detaching from work, setting boundaries between work and private life, and recovering from work. This study evaluated the effectiveness of an intervention in improving the recovery, work-life balance, and well-being of workers with FWDs compared with a waitlist control group. It also compares the effectiveness of a web-based training format and blended training format. In the web-based training format, participants individually completed 6 web-based modules and daily tasks over 6 weeks, learning self-regulation strategies to meet the particular challenges of FWDs. In the blended training format, participants attended 3 group sessions in addition to completing the 6 web-based modules. In a randomized controlled trial, participants were assigned to a web-based intervention group (196/575, 34.1%), blended intervention group (198/575, 34.4%), or waitlist control group (181/575, 31.5%). Study participants self-assessed their levels of primary outcomes (psychological detachment, satisfaction with work-life balance, and well-being) before the intervention, after the intervention, at a 4-week follow-up, and at a 6-month follow-up. The final sample included 373 participants (web-based intervention group: n=107, 28.7%; blended intervention group: n=129, 34.6%; and control group: n=137, 36.7%). Compliance was assessed as a secondary outcome. The results of multilevel analyses were in line with our hypothesis that both training formats would improve psychological detachment, satisfaction with work-life balance, and well-being. We expected blended training to reinforce these effects, but blended training participants did not profit more from the intervention than web-based training participants. However, they reported to have had more social exchange, and blended training participants were more likely to adhere to the training. Both web-based and blended training are effective tools for improving the recovery, work-life balance, and well-being of workers with FWDs. Group sessions can increase the likelihood of participants actively participating in web-based modules and exercises.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Workers with flexible work designs (FWDs) face specific challenges, such as difficulties in detaching from work, setting boundaries between work and private life, and recovering from work.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study evaluated the effectiveness of an intervention in improving the recovery, work-life balance, and well-being of workers with FWDs compared with a waitlist control group. It also compares the effectiveness of a web-based training format and blended training format. In the web-based training format, participants individually completed 6 web-based modules and daily tasks over 6 weeks, learning self-regulation strategies to meet the particular challenges of FWDs. In the blended training format, participants attended 3 group sessions in addition to completing the 6 web-based modules. In a randomized controlled trial, participants were assigned to a web-based intervention group (196/575, 34.1%), blended intervention group (198/575, 34.4%), or waitlist control group (181/575, 31.5%). Study participants self-assessed their levels of primary outcomes (psychological detachment, satisfaction with work-life balance, and well-being) before the intervention, after the intervention, at a 4-week follow-up, and at a 6-month follow-up. The final sample included 373 participants (web-based intervention group: n=107, 28.7%; blended intervention group: n=129, 34.6%; and control group: n=137, 36.7%). Compliance was assessed as a secondary outcome.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "The results of multilevel analyses were in line with our hypothesis that both training formats would improve psychological detachment, satisfaction with work-life balance, and well-being. We expected blended training to reinforce these effects, but blended training participants did not profit more from the intervention than web-based training participants. However, they reported to have had more social exchange, and blended training participants were more likely to adhere to the training.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Both web-based and blended training are effective tools for improving the recovery, work-life balance, and well-being of workers with FWDs. Group sessions can increase the likelihood of participants actively participating in web-based modules and exercises.",
+          "Main Action": "are effective tools",
+          "Arguments": {
+            "Agent": [
+              "Both web-based and blended training"
+            ],
+            "Object": {
+              "Primary Object": [
+                "improving the recovery, work-life balance, and well-being of workers with FWDs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Group sessions can increase the likelihood of participants actively participating in web-based modules and exercises."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

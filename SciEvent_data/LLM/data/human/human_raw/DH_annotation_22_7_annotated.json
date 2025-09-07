@@ -1,0 +1,181 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_15",
+      "abstract": "Access to audio collections is often restricted by institutions for copyright, privacy, and preservation reasons, but it is the lack of descriptive metadata and annotations that stands in the way of all levels of access and use. Libraries, archives, and museums (LAMs) often hold physical audio artifacts that are unmarked and lacking important identifiable information such as title, date, location, subject, participants, or context. Annotating is only one of a list of scholarly primitives including discovering, comparing, referring, sampling, illustrating, and representing [Unsworth 2000]. IIIF (International Image Interoperability Framework) is one standardized solution that LAMs have adopted for giving users the ability to perform these primitives with images held in cultural heritage institutions. The AudiAnnotate project builds on the new IIIF standards for AV to address the gaps in engaging with audio by developing a solution to bring together free audio annotation tools and the Web as a standardized collaboration and presentation platform. The AudiAnnotate use case presented here includes a presentation by Tanya Clement titled 'Zora Neale Hurston's WPA field recordings in Jacksonville, FL (1939)' which provides context to three recordings of Hurston created during the Works Project Administration Federal Writers Project from 1937-1942 and made available online at the Library of Congress as part of the Florida Folklife Collections Florida Memory (FM) project.",
+      "events": [
+        {
+          "Background/Introduction": "Lack of descriptive metadata and annotations that hinder levels of use",
+          "Text": "Access to audio collections is often restricted by institutions for copyright, privacy, and preservation reasons, but it is the lack of descriptive metadata and annotations that stands in the way of all levels of access and use. Libraries, archives, and museums (LAMs) often hold physical audio artifacts that are unmarked and lacking important identifiable information such as title, date, location, subject, participants, or context. Annotating is only one of a list of scholarly primitives including discovering, comparing, referring, sampling, illustrating, and representing [Unsworth 2000].",
+          "Main Action": "is often restricted",
+          "Arguments": {
+            "Agent": [
+              "Access to audio collections"
+            ],
+            "Object": {
+              "Primary Object": [
+                "by institutions"
+              ],
+              "Primary Modifier": [
+                "for copyright, privacy, and preservation reasons,"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Libraries, archives, and museums (LAMs) often hold physical audio artifacts that are unmarked and lacking important identifiable information such as title, date, location, subject, participants, or context"
+            ],
+            "Purpose": [],
+            "Method": [
+              "Annotating is only one of a list of scholarly primitives including discovering, comparing, referring, sampling, illustrating, and representing [Unsworth 2000]."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "but it is the lack of descriptive metadata and annotations that stands in the way of all levels of access and use."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "AudiAnnotate uses IIIF to enhance audio annotation online",
+          "Text": "IIIF (International Image Interoperability Framework) is one standardized solution that LAMs have adopted for giving users the ability to perform these primitives with images held in cultural heritage institutions. The AudiAnnotate project builds on the new IIIF standards for AV to address the gaps in engaging with audio by developing a solution to bring together free audio annotation tools and the Web as a standardized collaboration and presentation platform.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "IIIF (International Image Interoperability Framework)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "one standardized solution"
+              ],
+              "Primary Modifier": [
+                "that LAMs have adopted"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "for giving users the ability to perform these primitives with images held in cultural heritage institutions."
+            ],
+            "Method": [
+              "The AudiAnnotate project builds on the new IIIF standards for AV to address the gaps in engaging with audio by developing a solution to bring together free audio annotation tools and the Web as a standardized collaboration and presentation platform."
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "AudioAnnotate use case results and availability",
+          "Text": "The AudiAnnotate use case presented here includes a presentation by Tanya Clement titled 'Zora Neale Hurston's WPA field recordings in Jacksonville, FL (1939)' which provides context to three recordings of Hurston created during the Works Project Administration Federal Writers Project from 1937-1942 and made available online at the Library of Congress as part of the Florida Folklife Collections Florida Memory (FM) project.",
+          "Main Action": "presented here",
+          "Arguments": {
+            "Agent": [
+              "The AudiAnnotate use case"
+            ],
+            "Object": {
+              "Primary Object": [
+                "includes a presentation"
+              ],
+              "Primary Modifier": [
+                "by Tanya Clement titled 'Zora Neale Hurston's WPA field recordings in Jacksonville, FL (1939)'"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "which provides context to three recordings of Hurston created during the Works Project Administration Federal Writers Project from 1937-1942",
+              "made available online at the Library of Congress as part of the Florida Folklife Collections Florida Memory (FM) project"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_50",
+      "abstract": "The Tesserae Intertext Service Application Programming Interface (TIS-API) enhances the machine-accessibility of the intertext discovery capabilities of the Tesserae software. Instead of requiring inputs through a human-accessible webpage, the TIS-API accepts inputs according to a web development standard. Two case studies demonstrate the contributions of the TIS-API to computer-assisted literary criticism, particularly in increased software development and maintenance flexibility as well as in easier integration of Tesserae software into research workflows. Those interested in integrating the TIS-API into their digital projects can find documentation at https://tesserae.caset.buffalo.edu/docs/api/. For exact implementation details, the source code is available at https://github.com/tesserae/apitess.",
+      "events": [
+        {
+          "Background/Introduction": "Introduction and use of the tesserae intertext service application programming interface",
+          "Text": "The Tesserae Intertext Service Application Programming Interface (TIS-API) enhances the machine-accessibility of the intertext discovery capabilities of the Tesserae software.",
+          "Main Action": "enhances",
+          "Arguments": {
+            "Agent": [
+              "The Tesserae Intertext Service Application Programming Interface (TIS-API)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the machine-accessibility"
+              ],
+              "Primary Modifier": [
+                "of the intertext discovery capabilities of the Tesserae software."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "TIS-API enables flexible literary analysis integration",
+          "Text": "Instead of requiring inputs through a human-accessible webpage, the TIS-API accepts inputs according to a web development standard. Two case studies demonstrate the contributions of the TIS-API to computer-assisted literary criticism, particularly in increased software development and maintenance flexibility as well as in easier integration of Tesserae software into research workflows. Those interested in integrating the TIS-API into their digital projects can find documentation at https://tesserae.caset.buffalo.edu/docs/api/. For exact implementation details, the source code is available at https://github.com/tesserae/apitess.",
+          "Main Action": "accepts",
+          "Arguments": {
+            "Agent": [
+              "the TIS-API"
+            ],
+            "Object": {
+              "Primary Object": [
+                "inputs"
+              ],
+              "Primary Modifier": [
+                "according to a web development standard."
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Instead of requiring inputs through a human-accessible webpage"
+            ],
+            "Purpose": [],
+            "Method": [
+              "Those interested in integrating the TIS-API into their digital projects can find documentation at https://tesserae.caset.buffalo.edu/docs/api/.",
+              "For exact implementation details, the source code is available at https://github.com/tesserae/apitess."
+            ],
+            "Results": [
+              "Two case studies demonstrate the contributions of the TIS-API to computer-assisted literary criticism, particularly in increased software development and maintenance flexibility as well as in easier integration of Tesserae software into research workflows."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

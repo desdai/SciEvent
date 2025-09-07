@@ -1,0 +1,322 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_22",
+      "abstract": "There are a number of risks to interpretability found in the growing use of complicated computational methods within the humanities. Greater attention needs to be given to the format and presentation of the underlying data and the interpretation of any data-derived results. Visually appealing graphic renderings of data, high classification accuracy and confidence scores, and impressive summary statistics can be rhetorically structured to appeal to preconceived notions and commonplace understandings. While making arguments from the summary of significant features might be permissible in some applications of what is now commonly called data science, humanistic uses of computation put forward in the service of academic arguments require much greater access to and grounding in interpretable digital objects. When features are derived from text, these underlying features need to be shown and interpreted. This essay argues that claims made on behalf of computational models need to be evaluated and warranted by a set of shared assumptions and the ability to test and verify that the data are indeed comprehensible according to the norms of the shared interpretative community.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "There are a number of risks to interpretability found in the growing use of complicated computational methods within the humanities. Greater attention needs to be given to the format and presentation of the underlying data and the interpretation of any data-derived results.",
+          "Main Action": "greater attention needs to be given",
+          "Arguments": {
+            "Agent": [
+              "The growing use of complicated computational methods within the humanities"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to the format and presentation of the underlying data"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "and the interpretation of any data-derived results"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "There are a number of risks to interpretability found in the growing use of complicated computational methods within the humanities."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Visually appealing graphic renderings of data, high classification accuracy and confidence scores, and impressive summary statistics can be rhetorically structured to appeal to preconceived notions and commonplace understandings. While making arguments from the summary of significant features might be permissible in some applications of what is now commonly called data science, humanistic uses of computation put forward in the service of academic arguments require much greater access to and grounding in interpretable digital objects. When features are derived from text, these underlying features need to be shown and interpreted. This essay argues that claims made on behalf of computational models need to be evaluated and warranted by a set of shared assumptions and the ability to test and verify that the data are indeed comprehensible according to the norms of the shared interpretative community.",
+          "Main Action": "visually appealing graphic renderings of data",
+          "Arguments": {
+            "Agent": [
+              "Whoever created them"
+            ],
+            "Object": {
+              "Primary Object": [
+                "can be rhetorically structured to appeal to preconceived notions and commonplace understandings"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "While making arguments from the summary of significant features might be permissible in some applications of what is now commonly called data science"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "When features are derived from text, these underlying features need to be shown and interpreted"
+            ],
+            "Analysis": [
+              "This essay argues that claims made on behalf of computational models need to be evaluated and warranted by a set of shared assumptions and the ability to test and verify that the data are indeed comprehensible according to the norms of the shared interpretative community"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "The broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_21",
+      "abstract": "Katherine Bode theorizes a new approach to “data rich” literary history, in which the researcher constructs a “a scholarly edition of a literary system” pairing annotated data with a critical apparatus. Bode challenges the rhetoric around distant reading, arguing it recapitulates the historical oversights of New Criticism. A World of Fiction comprises a book and paired database which apply this framework to the fiction published in nineteenth-century Australian newspapers. Bode's investigation advances new ideas about the gender of Australian fiction authors, the networks of influence among provincial and metropolitan newspapers, and the national character of fiction in the period. A World of Fiction is an important intervention in conversations about computational literary-historical analysis, as well as around the construction and use of digitized historical archives.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Katherine Bode theorizes a new approach to “data rich” literary history, in which the researcher constructs a “a scholarly edition of a literary system” pairing annotated data with a critical apparatus.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "Katherine Bode"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new approach called 'data-rich' literary history where she combines annotated data with a critical apparatus within her scholarly edition."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Bode challenges the rhetoric around distant reading, arguing it recapitulates the historical oversights of New Criticism. A World of Fiction comprises a book and paired database which apply this framework to the fiction published in nineteenth-century Australian newspapers. ",
+          "Main Action": "challenges",
+          "Arguments": {
+            "Agent": [
+              "Bode"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the rhetoric around distant reading"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "arguing it recapitulate the historical oversights of New Criticism"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "A World of Fiction comprises a book and paired database which apply this framework to the fiction published in nineteenth-century Australian newspapers."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Bode's investigation advances new ideas about the gender of Australian fiction authors, the networks of influence among provincial and metropolitan newspapers, and the national character of fiction in the period.",
+          "Main Action": "investigates",
+          "Arguments": {
+            "Agent": [
+              "Bode"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new ideas about the gender of Australian fiction authors"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "the networks of influence among provincial and metropolitan newspapers"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "and the national character of fiction in the period"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "A World of Fiction is an important intervention in conversations about computational literary-historical analysis, as well as around the construction and use of digitized historical archives.",
+          "Main Action": "is an important intervention in conversations about",
+          "Arguments": {
+            "Agent": [
+              "A World of Fiction"
+            ],
+            "Object": {
+              "Primary Object": [
+                "conversations about computational literary-historical analysis"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "around the construction and use of digitized historical archives"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

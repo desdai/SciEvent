@@ -1,0 +1,253 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_572",
+      "abstract": "Survival analysis is an important tool for modeling time-to-event data, e.g., to predict the survival time of a patient after a cancer diagnosis or a certain treatment. While deep neural networks work well in standard prediction tasks, it is still unclear how to best utilize these deep models in survival analysis due to the difficulty of modeling right censored data, especially for multi-omics data. Although existing methods have shown the advantage of multi-omics integration in survival prediction, it remains challenging to extract complementary information from different omics and improve the prediction accuracy. In this work, we propose a novel multi-omics deep survival prediction approach by dually fused graph convolutional network (GCN) named FGCNSurv. Our FGCNSurv is a complete generative model from multi-omics data to survival outcome of patients, including feature fusion by a factorized bilinear model, graph fusion of multiple graphs, higher-level feature extraction by GCN, and survival prediction by a Cox proportional hazard model. The factorized bilinear model enables to capture cross-omics features and quantify complex relations from multi-omics data. By fusing single-omics features and the cross-omics features, and simultaneously fusing multiple graphs from different omics, GCN with the generated dually fused graph could capture higher-level features for computing the survival loss in the Cox-PH model. Comprehensive experimental results on real-world datasets with gene expression and microRNA expression data show that the proposed FGCNSurv method outperforms existing survival prediction methods, and imply its ability to extract complementary information for survival prediction from multi-omics data.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Survival analysis is an important tool for modeling time-to-event data, e.g., to predict the survival time of a patient after a cancer diagnosis or a certain treatment. While deep neural networks work well in standard prediction tasks, it is still unclear how to best utilize these deep models in survival analysis due to the difficulty of modeling right censored data, especially for multi-omics data. Although existing methods have shown the advantage of multi-omics integration in survival prediction, it remains challenging to extract complementary information from different omics and improve the prediction accuracy.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "deep neural networks"
+            ],
+            "Results": [
+              "existing methods",
+              "multi-omics integration"
+            ],
+            "Analysis": [
+              "right censored data",
+              "multi-omics data"
+            ],
+            "Challenge": [
+              "modeling right censored data",
+              "extracting complementary information",
+              "improving prediction accuracy"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "survival prediction",
+              "patient prognosis",
+              "cancer diagnosis",
+              "treatment outcome"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we propose a novel multi-omics deep survival prediction approach by dually fused graph convolutional network (GCN) named FGCNSurv. Our FGCNSurv is a complete generative model from multi-omics data to survival outcome of patients, including feature fusion by a factorized bilinear model, graph fusion of multiple graphs, higher-level feature extraction by GCN, and survival prediction by a Cox proportional hazard model. The factorized bilinear model enables to capture cross-omics features and quantify complex relations from multi-omics data. By fusing single-omics features and the cross-omics features, and simultaneously fusing multiple graphs from different omics, GCN with the generated dually fused graph could capture higher-level features for computing the survival loss in the Cox-PH model.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel multi-omics deep survival prediction approach"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "development of models for patient survival predictions using multi-omics data"
+            ],
+            "Purpose": [
+              "improving patient survival prediction accuracy"
+            ],
+            "Method": [
+              "Factorized Bilinear Model",
+              "Graph Convolutional Network (GCN)",
+              "Cox Proportional Hazards model"
+            ],
+            "Results": [
+              "capturing cross-omics features and quantifying complex relations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Comprehensive experimental results on real-world datasets with gene expression and microRNA expression data show that the proposed FGCNSurv method outperforms existing survival prediction methods, and imply its ability to extract complementary information for survival prediction from multi-omics data.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_668",
+      "abstract": "In functional imaging studies, accurately synchronizing the time course of experimental manipulations and stimulus presentations with resulting imaging data is crucial for analysis. Current software tools lack such functionality, requiring manual processing of the experimental and imaging data, which is error-prone and potentially non-reproducible. We present VoDEx, an open-source Python library that streamlines the data management and analysis of functional imaging data. VoDEx synchronizes the experimental timeline and events (e.g., presented stimuli, recorded behavior) with imaging data. VoDEx provides tools for logging and storing the timeline annotation, and enables retrieval of imaging data based on specific time-based and manipulation-based experimental conditions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In functional imaging studies, accurately synchronizing the time course of experimental manipulations and stimulus presentations with resulting imaging data is crucial for analysis. Current software tools lack such functionality, requiring manual processing of the experimental and imaging data, which is error-prone and potentially non-reproducible.",
+          "Main Action": "synchronizing",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "experimental manipulations and stimulus presentations"
+              ],
+              "Secondary Object": [
+                "imaging data"
+              ]
+            },
+            "Context": [
+              "functional imaging studies"
+            ],
+            "Purpose": [
+              "analysis"
+            ],
+            "Method": [
+              "manual processing"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "error-prone and potentially non-reproducible"
+            ],
+            "Challenge": [
+              "error-prone and potentially non-reproducible"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "reproducibility and efficiency in research"
+            ],
+            "Contradictions": [
+              "current software tools lack such functionality"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present VoDEx, an open-source Python library that streamlines the data management and analysis of functional imaging data. VoDEx synchronizes the experimental timeline and events (e.g., presented stimuli, recorded behavior) with imaging data. VoDEx provides tools for logging and storing the timeline annotation, and enables retrieval of imaging data based on specific time-based and manipulation-based experimental conditions.",
+          "Main Action": "We present VoDEx, an open-source Python library that streamlines the data management and analysis of functional imaging data.",
+          "Arguments": {
+            "Agent": [
+              "VoDEx"
+            ],
+            "Object": {
+              "Primary Object": [
+                "functional imaging data"
+              ],
+              "Secondary Object": [
+                "experimental timeline and events",
+                "specific time-based and manipulation-based experimental conditions"
+              ]
+            },
+            "Context": [
+              "integrating experimental data with imaging data"
+            ],
+            "Purpose": [
+              "streamlining the data management and analysis of functional imaging data"
+            ],
+            "Method": [
+              "open-source Python library",
+              "tools for logging and storing the timeline annotation",
+              "enabling retrieval of imaging data"
+            ],
+            "Results": [
+              "enhanced integration between behavioral and imaging data"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancing neuroimaging research by standardizing data handling practices"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

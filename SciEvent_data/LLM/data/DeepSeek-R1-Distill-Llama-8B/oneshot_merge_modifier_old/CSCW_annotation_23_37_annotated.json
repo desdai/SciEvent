@@ -1,0 +1,333 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_262",
+      "abstract": "Visualizations play a considerable role in explaining trends or providing evidence when consuming data online. Whether those visualizations are shared on news outlets or social networks, platforms usually allow readers to discuss their stories in comments sections. For the scope of this work, we studied the online community r/dataisbeautiful on Reddit. We found that chart creators were using a variety of authoring tools to share their content. Readers of these posts, commenters, used text mainly to discuss and critique the visual content. We noticed a need for a richer mode of communication that would show instead of telling authors what to do. Based on our findings, we introduced Vizdat, a lightweight tool and extension to allow users to visualize and reproduce charts in the comments sections of data stories. We used Vizdat as a technology probe with 11 Reddit users to create data visualization and discuss charts on r/dataisbeautiful. During the four-week field deployment period, we observed how Vizdat was used and interviewed the participants. We found that commenters saw value in accessing the visualization specifications through Vizdat and used those charts to structure their replies with richer modalities. As a result, visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts. In our paper, we share these findings and other insights to understand the dynamics of forum discussion around charts.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Visualizations play a considerable role in explaining trends or providing evidence when consuming data online. Whether those visualizations are shared on news outlets or social networks, platforms usually allow readers to discuss their stories in comments sections. For the scope of this work, we studied the online community r/dataisbeautiful on Reddit.",
+          "Main Action": "studied",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "r/dataisbeautiful on Reddit"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Whether those visualizations are shared on news outlets or social networks, platforms usually allow readers to discuss their stories in comments sections."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We found that chart creators were using a variety of authoring tools to share their content. Readers of these posts, commenters, used text mainly to discuss and critique the visual content. We noticed a need for a richer mode of communication that would show instead of telling authors what to do. Based on our findings, we introduced Vizdat, a lightweight tool and extension to allow users to visualize and reproduce charts in the comments sections of data stories. We used Vizdat as a technology probe with 11 Reddit users to create data visualization and discuss charts on r/dataisbeautiful. During the four-week field deployment period, we observed how Vizdat was used and interviewed the participants.",
+          "Main Action": "introduced",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Vizdat",
+                "a lightweight tool and extension to allow users to visualize and reproduce charts in the comments sections of data stories"
+              ],
+              "Secondary Object": [
+                "users"
+              ]
+            },
+            "Context": [
+              "based on our findings",
+              "during the four-week field deployment period"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "used Vizdat as a technology probe with 11 Reddit users to create data visualization and discuss charts on r/dataisbeautiful"
+            ],
+            "Analysis": [
+              "observed how Vizdat was used and interviewed the participants"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that commenters saw value in accessing the visualization specifications through Vizdat and used those charts to structure their replies with richer modalities. As a result, visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts.",
+          "Main Action": "found that commenters saw value in accessing the visualization specifications through Vizdat and used those charts to structure their replies with richer modalities.",
+          "Arguments": {
+            "Agent": [
+              "commenters"
+            ],
+            "Object": {
+              "Primary Object": [
+                "visualization specifications through Vizdat"
+              ],
+              "Secondary Object": [
+                "charts"
+              ]
+            },
+            "Context": [
+              "as a result, visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In our paper, we share these findings and other insights to understand the dynamics of forum discussion around charts.",
+          "Main Action": "share these findings and other insights",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "to understand the dynamics of forum discussion around charts."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_246",
+      "abstract": "Recent interest in design through the artificial intelligence (AI) lens is rapidly increasing. Designers, as a special user group interacting with AI, have received more attention in the Human-Computer Interaction community. Prior work has discussed emerging challenges that persist in designing for AI. However, few systematic reviews focus on AI for design to understand how designers and AI can augment each other's complementary strengths in design collaboration. In this work, we conducted a landscape analysis of AI for design, via a systematic literature review of 93 papers. The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration. We discuss the implications of our findings and suggested methodological proposals to guide HCI toward research and practices that center on collaborative creativity.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Recent interest in design through the artificial intelligence (AI) lens is rapidly increasing. Designers, as a special user group interacting with AI, have received more attention in the Human-Computer Interaction community. Prior work has discussed emerging challenges that persist in designing for AI. However, few systematic reviews focus on AI for design to understand how designers and AI can augment each other's complementary strengths in design collaboration.",
+          "Main Action": "have received more attention in the Human-Computer Interaction community.",
+          "Arguments": {
+            "Agent": [
+              "Designers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Prior work has discussed emerging challenges that persist in designing for AI."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we conducted a landscape analysis of AI for design, via a systematic literature review of 93 papers. The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration.",
+          "Main Action": "conducted a landscape analysis of AI for design",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "via a systematic literature review of 93 papers."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration."
+            ],
+            "Analysis": [
+              "The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss the implications of our findings and suggested methodological proposals to guide HCI toward research and practices that center on collaborative creativity.",
+          "Main Action": "discuss the implications of our findings and suggested methodological proposals",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "to guide HCI toward research and practices that center on collaborative creativity."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

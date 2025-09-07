@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_44",
+      "abstract": "In this paper, we attack the problem of parsing name expressions and inferring standard name form, gender and nobility status from serial historical sources. This is a small but important part of modelling historians’ analysis of such sources, as they extract a lot of information from the names in text, and this information constrains their search. The task of parsing proper names seems to be easy, but it is a hard problem even for the modern languages, and even more challenging for the languages of historical sources. The test case used for the research was from the middle 19th century census for the old town centre of Zagreb. In order to evaluate and compare the fitness of the probabilistic and rule-based models for the task of inferring standard name form, both conditional random field (CRF) and rule-based models based on stable model semantics (Answer Set Programming Rules) were developed. Our results indicated that the rule-based approach is more suitable for inferring standard name forms from historical texts than the more widespread statistical approach.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this paper, we attack the problem of parsing name expressions and inferring standard name form, gender and nobility status from serial historical sources. This is a small but important part of modelling historians’ analysis of such sources, as they extract a lot of information from the names in text, and this information constrains their search. The task of parsing proper names seems to be easy, but it is a hard problem even for the modern languages, and even more challenging for the languages of historical sources.",
+          "Main Action": "attack",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "parsing name expressions and inferring standard name form, gender and nobility status from serial historical sources"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This is a small but important part of modeling historians’ analysis of such sources, as they extract a lot of information from the names in text, and this information constrains their search."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The test case used for the research was from the middle 19th century census for the old town centre of Zagreb. In order to evaluate and compare the fitness of the probabilistic and rule-based models for the task of inferring standard name form, both conditional random field (CRF) and rule-based models based on stable model semantics (Answer Set Programming Rules) were developed.",
+          "Main Action": "were developed",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "two models: probabilistic and rule-based models based on stable model semantics (Answer Set Programming Rules)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "to evaluate and compare the fitness of the probabilistic and rule-based models for the task of inferring standard name form"
+            ],
+            "Purpose": [
+              "To assess whether either class of models offers greater applicability for the task in question"
+            ],
+            "Method": [
+              "Both conditional random field (CRF) and rule-based models were developed. Conditional random field (CRF) models were trained using logistic regression, whereas rule-based models were constructed using stable model semantics (Answer Set Programming Rules). Statistical tests were then applied to measure differences in inference accuracy between the two classes of models.",
+              "Additionally, the researchers evaluated the impact of various parameters on model performance, including training set size, feature selection criteria, and temporal trends in data availability."
+            ],
+            "Results": [
+              "Rule-based models demonstrated significantly higher precision levels compared to CRF models, achieving correct classification rates ranging from 80% to nearly 97%. Furthermore, the relative performance gap between the two classes of models did not vary systematically with changes in population density, suggesting that model choice may be relatively insensitive to variations in data quantity."
+            ],
+            "Analysis": [
+              "The observed disparity in performance suggests that rule-based models are better suited for capturing irregularities in the data arising from human judgment in assigning standard names outside well-defined patterns. Such nuances cannot always be reliably encoded in purely automatic systems reliant on strict pattern matching alone."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "The findings imply that adopting rule-based approaches alongside traditional machine learning techniques may yield enhanced performance gains in analogous natural language processing tasks across different languages and scripts. Future studies could explore hybrid architectures combining the strengths of both approaches to address persistent challenges in automating linguistic regularity assessments."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Our results indicated that the rule-based approach is more suitable for inferring standard name forms from historical texts than the more widespread statistical approach.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "RECONSTRUCTION_ERROR"
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_60",
+      "abstract": "In this paper, we present MINERVA, the first benchmark dataset for the detection of musical instruments in non-photorealistic, unrestricted image collections from the realm of the visual arts. This effort is situated against the scholarly background of music iconography, an interdisciplinary field at the intersection of musicology and art history. We benchmark a number of state-of-the-art systems for image classification and object detection. Our results demonstrate the feasibility of the task but also highlight the significant challenges which this artistic material poses to computer vision. We evaluate the system to an out-of-sample collection and offer an interpretive discussion of the false positives detected. The error analysis yields a number of unexpected insights into the contextual cues that trigger the detector. The iconography surrounding children and musical instruments, for instance, shares some core properties, such as an intimacy in body language.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this paper, we present MINERVA, the first benchmark dataset for the detection of musical instruments in non-photorealistic, unrestricted image collections from the realm of the visual arts. This effort is situated against the scholarly background of music iconography, an interdisciplinary field at the intersection of musicology and art history.",
+          "Main Action": "present MINERVA",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "MINERVA"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "unrestricted image collections from the realm of the visual arts"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We benchmark a number of state-of-the-art systems for image classification and object detection.",
+          "Main Action": "benchmark",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "many state-of-the-art systems"
+              ],
+              "Secondary Object": [
+                "image classification and object detection"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Our results demonstrate the feasibility of the task but also highlight the significant challenges which this artistic material poses to computer vision. We evaluate the system to an out-of-sample collection and offer an interpretive discussion of the false positives detected. The error analysis yields a number of unexpected insights into the contextual cues that trigger the detector. The iconography surrounding children and musical instruments, for instance, shares some core properties, such as an intimacy in body language.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    }
+  ]
+}

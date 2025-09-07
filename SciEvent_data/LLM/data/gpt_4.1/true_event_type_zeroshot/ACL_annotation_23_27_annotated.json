@@ -1,0 +1,252 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_304",
+      "abstract": "Large language models (LMs) beyond a certain scale, demonstrate the emergent capability of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting. While CoT can yield dramatically improved performance, such gains are only observed for sufficiently large LMs. Even more concerning, there is little guarantee that the generated rationales are consistent with LM’s predictions or faithfully justify the decisions. In this work, we propose SCOTT, a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger. To form better supervision, we elicit rationales supporting the gold answers from a large LM (teacher) by contrastive decoding, which encourages the teacher to generate tokens that become more plausible only when the answer is considered. To ensure faithful distillation, we use the teacher-generated rationales to learn a student LM with a counterfactual reasoning objective, which prevents the student from ignoring the rationales to make inconsistent predictions. Experiments show that while yielding comparable performance, our method leads to a more faithful model than baselines. Further analysis shows that such a model respects the rationales more when making decisions; thus, we can improve its performance more by refining its rationales.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Large language models (LMs) beyond a certain scale, demonstrate the emergent capability of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting. While CoT can yield dramatically improved performance, such gains are only observed for sufficiently large LMs. Even more concerning, there is little guarantee that the generated rationales are consistent with LM’s predictions or faithfully justify the decisions.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "Large language models (LMs) beyond a certain scale"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the emergent capability of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Large language models (LMs) beyond a certain scale"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "chain-of-thought (CoT) prompting"
+            ],
+            "Results": [
+              "CoT can yield dramatically improved performance",
+              "such gains are only observed for sufficiently large LMs"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "there is little guarantee that the generated rationales are consistent with LM’s predictions or faithfully justify the decisions"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we propose SCOTT, a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger. To form better supervision, we elicit rationales supporting the gold answers from a large LM (teacher) by contrastive decoding, which encourages the teacher to generate tokens that become more plausible only when the answer is considered. To ensure faithful distillation, we use the teacher-generated rationales to learn a student LM with a counterfactual reasoning objective, which prevents the student from ignoring the rationales to make inconsistent predictions.",
+          "Main Action": "propose SCOTT, a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "SCOTT, a faithful knowledge distillation method"
+              ],
+              "Secondary Object": [
+                "a small, self-consistent CoT model",
+                "a teacher model that is orders of magnitude larger"
+              ]
+            },
+            "Context": [
+              "In this work"
+            ],
+            "Purpose": [
+              "to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger"
+            ],
+            "Method": [
+              "we elicit rationales supporting the gold answers from a large LM (teacher) by contrastive decoding",
+              "we use the teacher-generated rationales to learn a student LM with a counterfactual reasoning objective"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "contrastive decoding, which encourages the teacher to generate tokens that become more plausible only when the answer is considered",
+              "a counterfactual reasoning objective, which prevents the student from ignoring the rationales to make inconsistent predictions"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments show that while yielding comparable performance, our method leads to a more faithful model than baselines. Further analysis shows that such a model respects the rationales more when making decisions; thus, we can improve its performance more by refining its rationales.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experiments",
+              "Further analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that while yielding comparable performance, our method leads to a more faithful model than baselines",
+                "that such a model respects the rationales more when making decisions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "while yielding comparable performance, our method leads to a more faithful model than baselines",
+              "such a model respects the rationales more when making decisions",
+              "we can improve its performance more by refining its rationales"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_626",
+      "abstract": "Data annotation is the process of labeling data that could be used to train machine learning models. Having high quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output. GPT-3, a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks. It is therefore natural to wonder whether it can be used to effectively annotate data for NLP tasks. In this paper, we evaluate the performance of GPT-3 as a data annotator by comparing it with traditional data annotation methods and analyzing its output on a range of tasks. Through this analysis, we aim to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Data annotation is the process of labeling data that could be used to train machine learning models. Having high quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output. GPT-3, a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks. It is therefore natural to wonder whether it can be used to effectively annotate data for NLP tasks.",
+          "Main Action": "wonder",
+          "Arguments": {
+            "Agent": [
+              "it"
+            ],
+            "Object": {
+              "Primary Object": [
+                "whether it can be used to effectively annotate data for NLP tasks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Data annotation is the process of labeling data that could be used to train machine learning models.",
+              "Having high quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output.",
+              "GPT-3, a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks."
+            ],
+            "Purpose": [
+              "to effectively annotate data for NLP tasks"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": " In this paper, we evaluate the performance of GPT-3 as a data annotator by comparing it with traditional data annotation methods and analyzing its output on a range of tasks. Through this analysis, we aim to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP.",
+          "Main Action": "evaluate the performance of GPT-3 as a data annotator",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the performance of GPT-3 as a data annotator"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In this paper"
+            ],
+            "Purpose": [
+              "to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP"
+            ],
+            "Method": [
+              "comparing it with traditional data annotation methods",
+              "analyzing its output on a range of tasks"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

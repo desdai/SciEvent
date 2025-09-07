@@ -1,0 +1,350 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_262",
+      "abstract": "Visualizations play a considerable role in explaining trends or providing evidence when consuming data online. Whether those visualizations are shared on news outlets or social networks, platforms usually allow readers to discuss their stories in comments sections. For the scope of this work, we studied the online community r/dataisbeautiful on Reddit. We found that chart creators were using a variety of authoring tools to share their content. Readers of these posts, commenters, used text mainly to discuss and critique the visual content. We noticed a need for a richer mode of communication that would show instead of telling authors what to do. Based on our findings, we introduced Vizdat, a lightweight tool and extension to allow users to visualize and reproduce charts in the comments sections of data stories. We used Vizdat as a technology probe with 11 Reddit users to create data visualization and discuss charts on r/dataisbeautiful. During the four-week field deployment period, we observed how Vizdat was used and interviewed the participants. We found that commenters saw value in accessing the visualization specifications through Vizdat and used those charts to structure their replies with richer modalities. As a result, visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts. In our paper, we share these findings and other insights to understand the dynamics of forum discussion around charts.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Visualizations play a considerable role in explaining trends or providing evidence when consuming data online. Whether those visualizations are shared on news outlets or social networks, platforms usually allow readers to discuss their stories in comments sections. For the scope of this work, we studied the online community r/dataisbeautiful on Reddit.",
+          "Main Action": "Studied",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "r/dataisbeautiful"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Visualizations play a considerable role in explaining trends or providing evidence",
+              "Whether those visualizations are shared on news outlets or social networks",
+              "platforms usually allow readers to discuss their stories in comments sections"
+            ],
+            "Purpose": [
+              "To explore how visualization consumption influences online discussions"
+            ],
+            "Method": [
+              "Focusing on the subreddit r/dataisbeautiful"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We found that chart creators were using a variety of authoring tools to share their content. Readers of these posts, commenters, used text mainly to discuss and critique the visual content. We noticed a need for a richer mode of communication that would show instead of telling authors what to do. Based on our findings, we introduced Vizdat, a lightweight tool and extension to allow users to visualize and reproduce charts in the comments sections of data stories. We used Vizdat as a technology probe with 11 Reddit users to create data visualization and discuss charts on r/dataisbeautiful. During the four-week field deployment period, we observed how Vizdat was used and interviewed the participants.",
+          "Main Action": "used",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Vizdat"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "community-driven environment",
+              "Reddit's /r/dataisbeautiful"
+            ],
+            "Purpose": [
+              "evaluate how well Vizdat facilitates discussions about data visuals"
+            ],
+            "Method": [
+              "deployed Vizdat as a technology probe",
+              "four-week field deployment period",
+              "observed how Vizdat was used",
+              "interviewed the participants"
+            ],
+            "Results": [
+              "active participation and engagement metrics"
+            ],
+            "Analysis": [
+              "interpreting the usage data helps refine the tool"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "informed consent wasn't a concern"
+            ],
+            "Implications": [
+              "enhance online data discussion spaces",
+              "valuable contribution to the field"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that commenters saw value in accessing the visualization specifications through Vizdat and used those charts to structure their replies with richer modalities. As a result, visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts.",
+          "Main Action": "found that",
+          "Arguments": {
+            "Agent": [
+              "commenters"
+            ],
+            "Object": {
+              "Primary Object": [
+                "visualization specifications"
+              ],
+              "Secondary Object": [
+                "charts"
+              ]
+            },
+            "Context": [
+              "accessing the visualization specifications through Vizdat",
+              "used those charts to structure their replies with richer modalities"
+            ],
+            "Purpose": [
+              "appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts"
+            ],
+            "Method": [
+              "using Vizdat",
+              "embedding comments with modified charts"
+            ],
+            "Results": [
+              "commenters saw value in accessing the visualization specifications through Vizdat",
+              "used those charts to structure their replies with richer modalities",
+              ".visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts"
+            ],
+            "Analysis": [
+              "The interaction between commenters and visualization authors was facilitated through Vizdat.",
+              "This method led to more constructive discussions compared to traditional commenting."
+            ],
+            "Challenge": [
+              "The reliance on Vizdat may limit its accessibility to certain audiences.",
+              "The effectiveness of embedding comments within visualizations requires further validation."
+            ],
+            "Ethical": [
+              "No significant ethical concerns were raised in the context of this study."
+            ],
+            "Implications": [
+              "These findings suggest that integrated visualization-commentary platforms can enhance scholarly discourse.",
+              "Future research could explore additional features to improve such interactions."
+            ],
+            "Contradictions": [
+              "There were no contradictions reported in the findings of this study."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In our paper, we share these findings and other insights to understand the dynamics of forum discussion around charts.",
+          "Main Action": "to understand",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these findings and other insights"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "forum discussion around charts"
+            ],
+            "Purpose": [
+              "to understand the dynamics of forum discussion around charts"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "These findings and other insights likely influence future research or applications related to online discussions and chart interactions."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_246",
+      "abstract": "Recent interest in design through the artificial intelligence (AI) lens is rapidly increasing. Designers, as a special user group interacting with AI, have received more attention in the Human-Computer Interaction community. Prior work has discussed emerging challenges that persist in designing for AI. However, few systematic reviews focus on AI for design to understand how designers and AI can augment each other's complementary strengths in design collaboration. In this work, we conducted a landscape analysis of AI for design, via a systematic literature review of 93 papers. The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration. We discuss the implications of our findings and suggested methodological proposals to guide HCI toward research and practices that center on collaborative creativity.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Recent interest in design through the artificial intelligence (AI) lens is rapidly increasing. Designers, as a special user group interacting with AI, have received more attention in the Human-Computer Interaction community. Prior work has discussed emerging challenges that persist in designing for AI. However, few systematic reviews focus on AI for design to understand how designers and AI can augment each other's complementary strengths in design collaboration.",
+          "Main Action": "Few systematic reviews focus on AI for design",
+          "Arguments": {
+            "Agent": [
+              "Designers",
+              "Human-Computer Interaction community",
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Artificial Intelligence (AI)",
+                "design collaboration"
+              ],
+              "Secondary Object": [
+                "interaction between designers and AI"
+              ]
+            },
+            "Context": [
+              "Recent interest in design through the AI lens is rapidly increasing",
+              "Prior work has discussed emerging challenges that persist in designing for AI"
+            ],
+            "Purpose": [
+              "To understand how designers and AI can augment each other's complementary strengths in design collaboration"
+            ],
+            "Method": [
+              "Not explicitly mentioned"
+            ],
+            "Results": [
+              "Emerging challenges",
+              "prior work discussions"
+            ],
+            "Analysis": [
+              "Interpretation of the gap in systematic reviews"
+            ],
+            "Challenge": [
+              "Persistent challenges in designing for AI"
+            ],
+            "Ethical": [
+              "Not explicitly mentioned"
+            ],
+            "Implications": [
+              "Broader significance for design practices and future research"
+            ],
+            "Contradictions": [
+              "Disagreements with existing knowledge about AI integration"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we conducted a landscape analysis of AI for design, via a systematic literature review of 93 papers. The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration.",
+          "Main Action": "conducted a landscape analysis",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "93 papers"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "AI for design"
+            ],
+            "Purpose": [
+              "to analyze the landscape of AI for design"
+            ],
+            "Method": [
+              "a systematic literature review of 93 papers"
+            ],
+            "Results": [
+              "three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Insights into how AI interacts with design processes and future applications in AI for design"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss the implications of our findings and suggested methodological proposals to guide HCI toward research and practices that center on collaborative creativity.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

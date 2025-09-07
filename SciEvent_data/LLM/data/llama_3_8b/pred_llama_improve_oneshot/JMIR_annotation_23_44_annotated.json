@@ -1,0 +1,376 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_159",
+      "abstract": "Literature reviews (LRs) identify, evaluate, and synthesize relevant papers to a particular research question to advance understanding and support decision-making. However, LRs, especially traditional systematic reviews, are slow, resource-intensive, and become outdated quickly. LiteRev is an advanced and enhanced version of an existing automation tool designed to assist researchers in conducting LRs through the implementation of cutting-edge technologies such as natural language processing and machine learning techniques. In this paper, we present a comprehensive explanation of LiteRev’s capabilities, its methodology, and an evaluation of its accuracy and efficiency to a manual LR, highlighting the benefits of using LiteRev. Based on the user’s query, LiteRev performs an automated search on a wide range of open-access databases and retrieves relevant metadata on the resulting papers, including abstracts or full texts when available. These abstracts (or full texts) are text processed and represented as a term frequency-inverse document frequency matrix. Using dimensionality reduction (pairwise controlled manifold approximation) and clustering (hierarchical density-based spatial clustering of applications with noise) techniques, the corpus is divided into different topics described by a list of the most important keywords. The user can then select one or several topics of interest, enter additional keywords to refine its search, or provide key papers to the research question. Based on these inputs, LiteRev performs a k-nearest neighbor (k-NN) search and suggests a list of potentially interesting papers. By tagging the relevant ones, the user triggers new k-NN searches until no additional paper is suggested for screening. To assess the performance of LiteRev, we ran it in parallel to a manual LR on the burden and care for acute and early HIV infection in sub-Saharan Africa. We assessed the performance of LiteRev using true and false predictive values, recall, and work saved over sampling. LiteRev extracted, processed, and transformed text into a term frequency-inverse document frequency matrix of 631 unique papers from PubMed. The topic modeling module identified 16 topics and highlighted 2 topics of interest to the research question. Based on 18 key papers, the k-NNs module suggested 193 papers for screening out of 613 papers in total (31.5% of the whole corpus) and correctly identified 64 relevant papers out of the 87 papers found by the manual abstract screening (recall rate of 73.6%). Compared to the manual full text screening, LiteRev identified 42 relevant papers out of the 48 papers found manually (recall rate of 87.5%). This represents a total work saved over sampling of 56%. We presented the features and functionalities of LiteRev, an automation tool that uses natural language processing and machine learning methods to streamline and accelerate LRs and support researchers in getting quick and in-depth overviews on any topic of interest.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Literature reviews (LRs) identify, evaluate, and synthesize relevant papers to a particular research question to advance understanding and support decision-making. However, LRs, especially traditional systematic reviews, are slow, resource-intensive, and become outdated quickly.",
+          "Main Action": "identify, evaluate, and synthesize",
+          "Arguments": {
+            "Agent": [
+              "literature reviews"
+            ],
+            "Object": {
+              "Primary Object": [
+                "relevant papers"
+              ],
+              "Secondary Object": [
+                "to a particular research question"
+              ]
+            },
+            "Context": [
+              "However, LRs, especially traditional systematic reviews, are slow, resource-intensive, and become outdated quickly."
+            ],
+            "Purpose": [
+              "advance understanding and support decision-making"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "slow, resource-intensive, and become outdated quickly"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "LiteRev is an advanced and enhanced version of an existing automation tool designed to assist researchers in conducting LRs through the implementation of cutting-edge technologies such as natural language processing and machine learning techniques. In this paper, we present a comprehensive explanation of LiteRev’s capabilities, its methodology, and an evaluation of its accuracy and efficiency to a manual LR, highlighting the benefits of using LiteRev. Based on the user’s query, LiteRev performs an automated search on a wide range of open-access databases and retrieves relevant metadata on the resulting papers, including abstracts or full texts when available. These abstracts (or full texts) are text processed and represented as a term frequency-inverse document frequency matrix. Using dimensionality reduction (pairwise controlled manifold approximation) and clustering (hierarchical density-based spatial clustering of applications with noise) techniques, the corpus is divided into different topics described by a list of the most important keywords. The user can then select one or several topics of interest, enter additional keywords to refine its search, or provide key papers to the research question. Based on these inputs, LiteRev performs a k-nearest neighbor (k-NN) search and suggests a list of potentially interesting papers. By tagging the relevant ones, the user triggers new k-NN searches until no additional paper is suggested for screening. To assess the performance of LiteRev, we ran it in parallel to a manual LR on the burden and care for acute and early HIV infection in sub-Saharan Africa. We assessed the performance of LiteRev using true and false predictive values, recall, and work saved over sampling.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "comprehensive explanation of LiteRev's capabilities, its methodology, and an evaluation of its accuracy and efficiency"
+              ],
+              "Secondary Object": [
+                "manual LR"
+              ]
+            },
+            "Context": [
+              "Based on the user's query, LiteRev performs an automated search..."
+            ],
+            "Purpose": [
+              "highlighting the benefits of using LiteRev"
+            ],
+            "Method": [
+              "implementation of cutting-edge technologies such as natural language processing and machine learning techniques"
+            ],
+            "Results": [
+              "assessment of LiteRev using true and false predictive values, recall, and work saved over sampling"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "By tagging the relevant ones, the user triggers new k-NN searches until no additional paper is suggested for screening."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "LiteRev extracted, processed, and transformed text into a term frequency-inverse document frequency matrix of 631 unique papers from PubMed. The topic modeling module identified 16 topics and highlighted 2 topics of interest to the research question. Based on 18 key papers, the k-NNs module suggested 193 papers for screening out of 613 papers in total (31.5% of the whole corpus) and correctly identified 64 relevant papers out of the 87 papers found by the manual abstract screening (recall rate of 73.6%). Compared to the manual full text screening, LiteRev identified 42 relevant papers out of the 48 papers found manually (recall rate of 87.5%). This represents a total work saved over sampling of 56%.",
+          "Main Action": "extracted, processed, and transformed",
+          "Arguments": {
+            "Agent": [
+              "LiteRev"
+            ],
+            "Object": {
+              "Primary Object": [
+                "term frequency-inverse document frequency matrix of 631 unique papers from PubMed"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The topic modeling module identified 16 topics and highlighted 2 topics of interest to the research question."
+            ],
+            "Purpose": [
+              "Based on 18 key papers,"
+            ],
+            "Method": [
+              "k-NNs module suggested"
+            ],
+            "Results": [
+              "correctly identified 64 relevant papers out of the 87 papers found by the manual abstract screening"
+            ],
+            "Analysis": [
+              "This represents a total work saved over sampling of 56%"
+            ],
+            "Challenge": [
+              "compared to the manual full text screening"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We presented the features and functionalities of LiteRev, an automation tool that uses natural language processing and machine learning methods to streamline and accelerate LRs and support researchers in getting quick and in-depth overviews on any topic of interest.",
+          "Main Action": "presented",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "features and functionalities of LiteRev"
+              ],
+              "Secondary Object": [
+                "an automation tool"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "uses natural language processing and machine learning methods"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "support researchers in getting quick and in-depth overviews on any topic of interest"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_705",
+      "abstract": "Digital mental health (DMH) programs can be effective in treating and preventing mental health problems. However, community engagement with these programs can be poor. Understanding the barriers and enablers of DMH program use may assist in identifying ways to increase the uptake of these programs, which have the potential to provide broad-scale prevention and treatment in the community. In this study, we aimed to identify and compare factors that may influence participation in DMH programs in practice and research trials, identify any respondent characteristics that are associated with these factors, and assess the relationship between intentions to use DMH programs and actual uptake. Australian adults aged ≥18 years were recruited from market research panels to participate in the study. The sample was representative of the Australian adult population based on age, gender, and location. Participants completed a cross-sectional web-based survey assessing demographic characteristics, mental health symptom measures, attitudes and use of DMH programs in practice and in research studies, and the factors influencing their use in both settings. Across both research and practice, trust in the organization delivering the service or trial was the top-ranked factor influencing participation, followed by anonymity or privacy and adequate information. There was little variation in rankings across demographic groups, including intentions to use DMH programs or mental health status. Intentions to use DMH programs were a strong predictor of both current (odds ratio 2.50, 99% CI 1.41-4.43; P<.001) and past (odds ratio 2.98, 99% CI 1.71-5.19; P<.001) use behaviors. Efforts to increase the uptake of DMH programs or participation in research trials should focus on clearly communicating the following to users: the legitimacy of the organization delivering the program, security and use of participant data, and effectiveness of DMH programs.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Digital mental health (DMH) programs can be effective in treating and preventing mental health problems. However, community engagement with these programs can be poor. Understanding the barriers and enablers of DMH program use may assist in identifying ways to increase the uptake of these programs, which have the potential to provide broad-scale prevention and treatment in the community.",
+          "Main Action": "Understanding",
+          "Arguments": {
+            "Agent": [
+              "community engagement"
+            ],
+            "Object": {
+              "Primary Object": [
+                "barriers and enablers of DMH program use"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "However, community engagement with these programs can be poor"
+            ],
+            "Purpose": [
+              "may assist in identifying ways to increase the uptake of these programs"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "which have the potential to provide broad-scale prevention and treatment in the community"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "poor community engagement"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "have the potential to provide broad-scale prevention and treatment in the community"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we aimed to identify and compare factors that may influence participation in DMH programs in practice and research trials, identify any respondent characteristics that are associated with these factors, and assess the relationship between intentions to use DMH programs and actual uptake. Australian adults aged ≥18 years were recruited from market research panels to participate in the study. The sample was representative of the Australian adult population based on age, gender, and location. Participants completed a cross-sectional web-based survey assessing demographic characteristics, mental health symptom measures, attitudes and use of DMH programs in practice and in research studies, and the factors influencing their use in both settings.",
+          "Main Action": "identify and compare",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "factors that may influence participation in DMH programs in practice and research trials"
+              ],
+              "Secondary Object": [
+                "respondent characteristics that are associated with these factors"
+              ]
+            },
+            "Context": [
+              "Australian adults aged ≥18 years were recruited from market research panels to participate in the study"
+            ],
+            "Purpose": [
+              "to identify and compare factors..."
+            ],
+            "Method": [
+              "Participants completed a cross-sectional web-based survey..."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Across both research and practice, trust in the organization delivering the service or trial was the top-ranked factor influencing participation, followed by anonymity or privacy and adequate information. There was little variation in rankings across demographic groups, including intentions to use DMH programs or mental health status. Intentions to use DMH programs were a strong predictor of both current (odds ratio 2.50, 99% CI 1.41-4.43; P<.001) and past (odds ratio 2.98, 99% CI 1.71-5.19; P<.001) use behaviors.",
+          "Main Action": "was the top-ranked factor influencing participation",
+          "Arguments": {
+            "Agent": [
+              "trust"
+            ],
+            "Object": {
+              "Primary Object": [
+                "participation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "across both research and practice"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "followed by anonymity or privacy and adequate information"
+            ],
+            "Analysis": [
+              "There was little variation in rankings across demographic groups..."
+            ],
+            "Challenge": [
+              "Intentions to use DMH programs were a strong predictor..."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Efforts to increase the uptake of DMH programs or participation in research trials should focus on clearly communicating the following to users: the legitimacy of the organization delivering the program, security and use of participant data, and effectiveness of DMH programs.",
+          "Main Action": "focus on",
+          "Arguments": {
+            "Agent": [
+              "Efforts"
+            ],
+            "Object": {
+              "Primary Object": [
+                "increasing the uptake of DMH programs or participation in research trials"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "the following to users"
+            ],
+            "Purpose": [
+              "to communicate"
+            ],
+            "Method": [
+              "clearly"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "security and use of participant data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

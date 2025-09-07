@@ -1,0 +1,334 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_257",
+      "abstract": "AI explanations are often mentioned as a way to improve human-AI decision-making, but empirical studies have not found consistent evidence of explanations' effectiveness and, on the contrary, suggest that they can increase overreliance when the AI system is wrong. While many factors may affect reliance on AI support, one important factor is how decision-makers reconcile their own intuition — beliefs or heuristics, based on prior knowledge, experience, or pattern recognition, used to make judgments — with the information provided by the AI system to determine when to override AI predictions. We conduct a think-aloud, mixed-methods study with two explanation types (feature- and example-based) for two prediction tasks to explore how decision-makers' intuition affects their use of AI predictions and explanations, and ultimately their choice of when to rely on AI. Our results identify three types of intuition involved in reasoning about AI predictions and explanations: intuition about the task outcome, features, and AI limitations. Building on these, we summarize three observed pathways for decision-makers to apply their own intuition and override AI predictions. We use these pathways to explain why (1) the feature-based explanations we used did not improve participants' decision outcomes and increased their overreliance on AI, and (2) the example-based explanations we used improved decision-makers' performance over feature-based explanations and helped achieve complementary human-AI performance. Overall, our work identifies directions for further development of AI decision-support systems and explanation methods that help decision-makers effectively apply their intuition to achieve appropriate reliance on AI.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "AI explanations are often mentioned as a way to improve human-AI decision-making, but empirical studies have not found consistent evidence of explanations' effectiveness and, on the contrary, suggest that they can increase overreliance when the AI system is wrong. While many factors may affect reliance on AI support, one important factor is how decision-makers reconcile their own intuition — beliefs or heuristics, based on prior knowledge, experience, or pattern recognition, used to make judgments — with the information provided by the AI system to determine when to override AI predictions.",
+          "Main Action": "highlight difficulties arising from reconciling differing cognitive systems",
+          "Arguments": {
+            "Agent": [
+              "decision-makers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "conflict between human intuition and AI-generated insights"
+              ],
+              "Secondary Object": [
+                "inconsistent effectiveness of AI explanations"
+              ]
+            },
+            "Context": [
+              "while many factors affect reliance on AI support, one important factor is how decision-makers reconcile their own intuition — beliefs or heuristics, based on prior knowledge, experience, or pattern recognition, used to make judgments — with the information provided by the AI system to determine when to override AI predictions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "empirical studies have not found consistent evidence of explanations' effectiveness and, on the contrary, suggest that they can increase overreliance when the AI system is wrong"
+            ],
+            "Analysis": [
+              "it explains why AI explanations fail to consistently impact decision-making reliably"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conduct a think-aloud, mixed-methods study with two explanation types (feature- and example-based) for two prediction tasks to explore how decision-makers' intuition affects their use of AI predictions and explanations, and ultimately their choice of when to rely on AI.",
+          "Main Action": "evaluate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "evaluation of the effectiveness of two explanation types (feature- and example-based) for two prediction tasks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "How decision-makers' intuition affects their use of AI predictions and explanations, and ultimately their choice of when to rely on AI"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results identify three types of intuition involved in reasoning about AI predictions and explanations: intuition about the task outcome, features, and AI limitations. Building on these, we summarize three observed pathways for decision-makers to apply their own intuition and override AI predictions. We use these pathways to explain why (1) the feature-based explanations we used did not improve participants' decision outcomes and increased their overreliance on AI, and (2) the example-based explanations we used improved decision-makers' performance over feature-based explanations and helped achieve complementary human-AI performance.",
+          "Main Action": "explain",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "phenomenon concerning AI predictions and human intuition"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "three observed pathways for decision-makers to apply their own intuition and override AI predictions"
+            ],
+            "Purpose": [
+              "explain the reasons behind the observed differences between feature-based and example-based explanations, offer rationale for differing impacts on decision-making performance"
+            ],
+            "Method": [
+              "analyzing these pathways to derive explanations"
+            ],
+            "Results": [
+              "We use these pathways to explain why (1) the feature-based explanations we used did not improve participants' decision outcomes and increased their overreliance on AI",
+              "and (2) the example-based explanations we used improved decision-makers' performance over feature-based explanations and helped achieve complementary human-AI performance"
+            ],
+            "Analysis": [
+              "it allows us to link human-intuition gaps and AI limitations to differing effectiveness of explanations in facilitating rational decision making"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "this offers guidance for informed design considerations integrating human-AI collaboration principles across diverse contexts"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Overall, our work identifies directions for further development of AI decision-support systems and explanation methods that help decision-makers effectively apply their intuition to achieve appropriate reliance on AI.",
+          "Main Action": "identifies",
+          "Arguments": {
+            "Agent": [
+              "researchers working on improving AI decision-support systems"
+            ],
+            "Object": {
+              "Primary Object": [
+                "directions for further development of AI decision-support systems and explanation methods"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "while helping decision-makers effectively apply their intuition to achieve appropriate reliance on AI"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broadly significant for future applications in decision-making contexts involving AI integration with human intuition"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_182",
+      "abstract": "With the shift to hybrid meetings in work spaces, there is an increasing need to create a more inclusive hybrid meeting experience where people meeting together in a room interact with those joining remotely. This paper describes a design exploration, implementation, and evaluation of Perspectives, a novel hybrid meeting system that aimed to create an inclusive and equitable space for hybrid meetings. Perspectives digitally composites everyone into a virtual room so that each person has a unique but spatially consistent viewpoint into the meeting. The user study compared Perspectives with three commercially available UX designs for hybrid meetings: Gallery, Together Mode, and Front Row. Results from this study revealed key benefits of Perspectives, including supporting natural interactions, creating a strong sense of co-presence, and reducing cognitive load. Results from the study also helped iterate on the design principles of Perspectives, which offer important insights on supporting hybrid meetings.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With the shift to hybrid meetings in work spaces, there is an increasing need to create a more inclusive hybrid meeting experience where people meeting together in a room interact with those joining remotely.",
+          "Main Action": "create",
+          "Arguments": {
+            "Agent": [
+              "people meeting together in a room",
+              "those joining remotely"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an inclusive hybrid meeting experience"
+              ],
+              "Secondary Object": [
+                "where people meeting together in a room interact with those joining remotely"
+              ]
+            },
+            "Context": [
+              "With the shift to hybrid meetings in workspaces, there is an increasing need"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper describes a design exploration, implementation, and evaluation of Perspectives, a novel hybrid meeting system that aimed to create an inclusive and equitable space for hybrid meetings. Perspectives digitally composites everyone into a virtual room so that each person has a unique but spatially consistent viewpoint into the meeting. The user study compared Perspectives with three commercially available UX designs for hybrid meetings: Gallery, Together Mode, and Front Row.",
+          "Main Action": "describes",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "this paper describes a design exploration, implementation, and evaluation of Perspectives, a novel hybrid meeting system that aimed to create an inclusive and equitable space for hybrid meetings.",
+              "Perspectives digitally composites everyone into a virtual room so that each person has a unique but spatially consistent viewpoint into the meeting."
+            ],
+            "Purpose": [
+              "to create an inclusive and equitable space for hybrid meetings"
+            ],
+            "Method": [
+              "they implemented a user study comparing Perspectives with three commercially available UX designs for hybrid meetings: Gallery, Together Mode, and Front Row. Their methodology involved assessing participants' experiences and feedback across these platforms."
+            ],
+            "Results": [
+              "The results showed that Perspectives successfully created an inclusive environment, with users reporting positive feedback on participation rates and perceived fairness of interactions."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "The success of Perspectives suggests broader applicability in diverse hybridmeeting scenarios, potentially enhancing accessibility for individuals with varying needs."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Results from this study revealed key benefits of Perspectives, including supporting natural interactions, creating a strong sense of co-presence, and reducing cognitive load. Results from the study also helped iterate on the design principles of Perspectives, which offer important insights on supporting hybrid meetings.",
+          "Main Action": "revealed",
+          "Arguments": {
+            "Agent": [
+              "this study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "key benefits of Perspectives, including supporting natural interactions, creating a strong sense of co-presence, and reducing cognitive load"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

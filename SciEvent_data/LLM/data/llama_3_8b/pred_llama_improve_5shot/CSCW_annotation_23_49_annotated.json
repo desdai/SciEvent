@@ -1,0 +1,336 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_53",
+      "abstract": "Technologies are increasingly enrolled in projects to involve civilians in the work of policy-making, often under the label of 'civic technology'. But conventional forms of participation through transactions such as voting provide limited opportunities for engagement. In response, some civic tech groups organize around issues of shared concern to explore new forms of democratic technologies. How does their work affect the relationship between publics and public servants? This paper explores how a Civic Tech Toronto creates a platform for civic engagement through the maintenance of an autonomous community for civic engagement and participation that is casual, social, nonpartisan, experimental, and flexible. Based on two years of action research, including community organizing, interviews, and observations, this paper shows how this grassroots civic tech group creates a civic platform that places a diverse range of participants in contact with the work of public servants, helping to build capacities and relationships that prepare both publics and public servants for the work of participatory democracy. The case shows that understanding civic tech requires a lens beyond the mere analysis or production of technical artifacts. As a practice for making technologies that is social and participatory, civic tech creates alternative modes of technology development and opportunities for experimentation and learning, and it can reconfigure the roles of democratic participants.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Technologies are increasingly enrolled in projects to involve civilians in the work of policy-making, often under the label of 'civic technology'. But conventional forms of participation through transactions such as voting provide limited opportunities for engagement. In response, some civic tech groups organize around issues of shared concern to explore new forms of democratic technologies. How does their work affect the relationship between publics and public servants?",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper explores how a Civic Tech Toronto creates a platform for civic engagement through the maintenance of an autonomous community for civic engagement and participation that is casual, social, nonpartisan, experimental, and flexible. Based on two years of action research, including community organizing, interviews, and observations, this paper shows how this grassroots civic tech group creates a civic platform that places a diverse range of participants in contact with the work of public servants, helping to build capacities and relationships that prepare both publics and public servants for the work of participatory democracy.",
+          "Main Action": "explores",
+          "Arguments": {
+            "Agent": [
+              "how a Civic Tech Toronto creates a platform for civic engagement"
+            ],
+            "Object": {
+              "Primary Object": [
+                "through the maintenance of an autonomous community for civic engagement and participation"
+              ],
+              "Secondary Object": [
+                "that is casual, social, nonpartisan, experimental, and flexible"
+              ]
+            },
+            "Context": [
+              "Based on two years of action research, including community organizing, interviews, and observations"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "action research, community organizing, interviews, and observations"
+            ],
+            "Results": [
+              "helping to build capacities and relationships that prepare both publics and public servants for the work of participatory democracy"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The case shows that understanding civic tech requires a lens beyond the mere analysis or production of technical artifacts. As a practice for making technologies that is social and participatory, civic tech creates alternative modes of technology development and opportunities for experimentation and learning, and it can reconfigure the roles of democratic participants.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_189",
+      "abstract": "Artificial Intelligence (AI) based technologies are increasingly being integrated into public sector programs to help with decision-support and effective distribution of constrained resources. The field of Computer Supported Cooperative Work (CSCW) has begun to examine how the resultant sociotechnical systems may be designed appropriately when targeting underserved populations. We present an ethnographic study of a large-scale real-world integration of an AI system for resource allocation in a call-based maternal and child health program in India. Our findings uncover complexities around determining who benefits from the intervention, how the human-AI collaboration is managed, when intervention must take place in alignment with various priorities, and why the AI is sought, for what purpose. Our paper offers takeaways for human-centered AI integration in public health, drawing attention to the work done by the AI as actor, the work of configuring the human-AI partnership with multiple diverse stakeholders, and the work of aligning program goals for design and implementation through continual dialogue across stakeholders.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Artificial Intelligence (AI) based technologies are increasingly being integrated into public sector programs to help with decision-support and effective distribution of constrained resources. The field of Computer Supported Cooperative Work (CSCW) has begun to examine how the resultant sociotechnical systems may be designed appropriately when targeting underserved populations.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present an ethnographic study of a large-scale real-world integration of an AI system for resource allocation in a call-based maternal and child health program in India.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an ethnographic study"
+              ],
+              "Secondary Object": [
+                "of a large-scale real-world integration"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our findings uncover complexities around determining who benefits from the intervention, how the human-AI collaboration is managed, when intervention must take place in alignment with various priorities, and why the AI is sought, for what purpose.",
+          "Main Action": "uncover",
+          "Arguments": {
+            "Agent": [
+              "Our findings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "complexities around determining who benefits from the intervention"
+              ],
+              "Secondary Object": [
+                "how the human-AI collaboration is managed",
+                "when intervention must take place in alignment with various priorities",
+                "why the AI is sought, for what purpose"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "language family distance predicts more negative transfer"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our paper offers takeaways for human-centered AI integration in public health, drawing attention to the work done by the AI as actor, the work of configuring the human-AI partnership with multiple diverse stakeholders, and the work of aligning program goals for design and implementation through continual dialogue across stakeholders.",
+          "Main Action": "offers",
+          "Arguments": {
+            "Agent": [
+              "Our paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "takeaways"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

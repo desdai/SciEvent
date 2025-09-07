@@ -1,0 +1,297 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_08",
+      "abstract": "Charles Stewart Parnell was one of the most controversial and effective leaders in the United Kingdom in the second half of the nineteenth century. Almost single-handedly, he transformed the proposal of Home Rule for Ireland from a languishing irrelevance to a mass-supported cause. Though the historiography on Parnell is substantial, his speeches - the main primary sources for accessing both his thinking and strategies - have never been collected or edited. One of the core questions in working towards an edition of his speeches was whether it would be possible to use automated methods on these fragmentary sources to reconstruct what Parnell actually said in them. We were also interested in how the reports varied, and what that variation might tell us about the practices and biases of the journalists who wrote them and the newspapers which published them. This article discusses the use of two digital tools in our attempts to answer these research questions: CollateX, which was designed by Digital Humanities practitioners for the comparison of textual variants, and SBERT Sentence Transformers, which establishes levels of similarity between texts. In this article we talk about how the application of digital methods to the corpus led us away from the idea of producing definitive reconstructions of the speeches, and towards a deeper understanding of the corpus and the journalistic practices which went into its creation.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Charles Stewart Parnell was one of the most controversial and effective leaders in the United Kingdom in the second half of the nineteenth century. Almost single-handedly, he transformed the proposal of Home Rule for Ireland from a languishing irrelevance to a mass-supported cause. Though the historiography on Parnell is substantial, his speeches - the main primary sources for accessing both his thinking and strategies - have never been collected or edited.",
+          "Main Action": "transformed the proposal of Home Rule for Ireland",
+          "Arguments": {
+            "Agent": [
+              "Charles Stewart Parnell"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Home Rule for Ireland"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "second half of the nineteenth century",
+              "United Kingdom"
+            ],
+            "Purpose": [
+              "to turn the proposal of Home Rule for Ireland into a mass-supported cause"
+            ],
+            "Method": [
+              "speeches",
+              "leadership"
+            ],
+            "Results": [
+              "increased popularity",
+              "mass-supported cause"
+            ],
+            "Analysis": [
+              "historiography on Parnell is substantial",
+              "lack of collection or editing of speeches"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "future applications",
+              "research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "One of the core questions in working towards an edition of his speeches was whether it would be possible to use automated methods on these fragmentary sources to reconstruct what Parnell actually said in them. We were also interested in how the reports varied, and what that variation might tell us about the practices and biases of the journalists who wrote them and the newspapers which published them. This article discusses the use of two digital tools in our attempts to answer these research questions: CollateX, which was designed by Digital Humanities practitioners for the comparison of textual variants, and SBERT Sentence Transformers, which establishes levels of similarity between texts.",
+          "Main Action": "using ... tools",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "CollateX",
+                "SBERT Sentence Transformers"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "working towards an edition of his speeches",
+              "how the reports varied",
+              "practices and biases of the journalists"
+            ],
+            "Purpose": [
+              "reconstructing what Parnell actually said",
+              "understanding the practices and biases"
+            ],
+            "Method": [
+              "CollateX",
+              "SBERT Sentence Transformers"
+            ],
+            "Results": [
+              "attempting to answer these research questions"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In this article we talk about how the application of digital methods to the corpus led us away from the idea of producing definitive reconstructions of the speeches, and towards a deeper understanding of the corpus and the journalistic practices which went into its creation.",
+          "Main Action": "how the application of digital methods to the corpus",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "corpus"
+              ],
+              "Secondary Object": [
+                "speeches"
+              ]
+            },
+            "Context": [
+              "the idea of producing definitive reconstructions of the speeches"
+            ],
+            "Purpose": [
+              "a deeper understanding of the corpus and the journalistic practices"
+            ],
+            "Method": [
+              "digital methods"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_01",
+      "abstract": "Biemann, Heyer, and Quasthoff's Wissensrohstoff Text is concerned with conveying a basic understanding of the models and techniques of text mining, as well as insight into which method is procedurally suitable for whichever problem in this area. The book imparts indispensable knowledge, and the new edition makes it possible to describe and discuss the most recent developments in text mining. The book also deals with linguistic fundamentals and with principles of human language processing, which is very noteworthy and a unique asset. The book shows in an exemplary way how complex knowledge can be conveyed by means of didactic reduction.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Biemann, Heyer, and Quasthoff's Wissensrohstoff Text is concerned with conveying a basic understanding of the models and techniques of text mining, as well as insight into which method is procedurally suitable for whichever problem in this area.",
+          "Main Action": "Biemann, Heyer, and Quasthoff's Wissensrohstoff Text is concerned with...",
+          "Arguments": {
+            "Agent": [
+              "Biemann, Heyer, and Quasthoff’s Wissensrohstoff Text"
+            ],
+            "Object": {
+              "Primary Object": [
+                "models and techniques of text mining"
+              ],
+              "Secondary Object": [
+                "whichever problem in this area"
+              ]
+            },
+            "Context": [
+              "this area"
+            ],
+            "Purpose": [
+              "providing a basic understanding of the models and techniques of text mining, as well as insight into which method is procedurally suitable for whichever problem in this area"
+            ],
+            "Method": [
+              "comparing methods based on procedural suitability"
+            ],
+            "Results": [
+              "insight into which method is procedurally suitable"
+            ],
+            "Analysis": [
+              "comparative aspect of methods suitability"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "future research directions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The book imparts indispensable knowledge, and the new edition makes it possible to describe and discuss the most recent developments in text mining. The book also deals with linguistic fundamentals and with principles of human language processing, which is very noteworthy and a unique asset.",
+          "Main Action": "The book imparts indispensable knowledge",
+          "Arguments": {
+            "Agent": [
+              "the book"
+            ],
+            "Object": {
+              "Primary Object": [
+                "indispensable knowledge"
+              ],
+              "Secondary Object": [
+                "most recent developments in text mining"
+              ]
+            },
+            "Context": [
+              "linguistic fundamentals",
+              "principles of human language processing"
+            ],
+            "Purpose": [
+              "making it possible to describe and discuss the most recent developments in text mining"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "a unique asset"
+            ],
+            "Analysis": [
+              "very noteworthy"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "unique asset"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The book shows in an exemplary way how complex knowledge can be conveyed by means of didactic reduction.",
+          "Main Action": "shows in an exemplary way how complex knowledge can be conveyed by means of didactic reduction",
+          "Arguments": {
+            "Agent": [
+              "the book"
+            ],
+            "Object": {
+              "Primary Object": [
+                "complex knowledge"
+              ],
+              "Secondary Object": [
+                "didactic reduction"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to demonstrate the effectiveness of didactic reduction in conveying complex knowledge"
+            ],
+            "Method": [
+              "by means of didactic reduction"
+            ],
+            "Results": [
+              "complex knowledge is effectively conveyed"
+            ],
+            "Analysis": [
+              "This demonstrates the value of didactic reduction as a teaching tool"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Didactic reduction is a valuable approach for simplifying complex concepts"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

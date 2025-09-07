@@ -1,0 +1,432 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_109",
+      "abstract": "Prior work has identified a resilient phenomenon that threatens the performance of human-AI decision-making teams: overreliance, when people agree with an AI, even when it is incorrect. Surprisingly, overreliance does not reduce when the AI produces explanations for its predictions, compared to only providing predictions. Some have argued that overreliance results from cognitive biases or uncalibrated trust, attributing overreliance to an inevitability of human cognition. By contrast, our paper argues that people strategically choose whether or not to engage with an AI explanation, demonstrating empirically that there are scenarios where AI explanations reduce overreliance. To achieve this, we formalize this strategic choice in a cost-benefit framework, where the costs and benefits of engaging with the task are weighed against the costs and benefits of relying on the AI. We manipulate the costs and benefits in a maze task, where participants collaborate with a simulated AI to find the exit of a maze. Through 5 studies (N = 731), we find that costs such as task difficulty (Study 1), explanation difficulty (Study 2, 3), and benefits such as monetary compensation (Study 4) affect overreliance. Finally, Study 5 adapts the Cognitive Effort Discounting paradigm to quantify the utility of different explanations, providing further support for our framework. Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Prior work has identified a resilient phenomenon that threatens the performance of human-AI decision-making teams: overreliance, when people agree with an AI, even when it is incorrect. Surprisingly, overreliance does not reduce when the AI produces explanations for its predictions, compared to only providing predictions. Some have argued that overreliance results from cognitive biases or uncalibrated trust, attributing overreliance to an inevitability of human cognition. By contrast, our paper argues that people strategically choose whether or not to engage with an AI explanation, demonstrating empirically that there are scenarios where AI explanations reduce overreliance.",
+          "Main Action": "demonstrating",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "AI explanations"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "scenarios"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "prior work has identified a resilient phenomenon that threatens the performance of human-AI decision-making teams: overreliance"
+            ],
+            "Purpose": [
+              "argue that people strategically choose whether or not to engage with an AI explanation"
+            ],
+            "Method": [
+              "By contrast, our paper argues that people strategically choose whether or not to engage with an AI explanation, demonstrating empirically that there are scenarios where AI explanations reduce overreliance."
+            ],
+            "Results": [
+              "Our paper demonstrates that in certain scenarios, AI explanations lead to reduced overreliance among human-AI decision-making teams."
+            ],
+            "Analysis": [
+              "We provide empirical evidence through controlled experiments showing that exposing participants to AI explanations changes their decision-making behavior towards evaluating both AI predictions and explanatory insights."
+            ],
+            "Challenge": [
+              "However, we acknowledge challenges such as ensuring the generality of our findings across diverse populations and understanding edge cases where AI explanations do not influence overreliance."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This finding implies that designers of AI systems should consider integrating mechanisms that encourage systematic evaluation of AI explanations, potentially enhancing collaborative decision-making processes."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To achieve this, we formalize this strategic choice in a cost-benefit framework, where the costs and benefits of engaging with the task are weighed against the costs and benefits of relying on the AI. We manipulate the costs and benefits in a maze task, where participants collaborate with a simulated AI to find the exit of a maze.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through 5 studies (N = 731), we find that costs such as task difficulty (Study 1), explanation difficulty (Study 2, 3), and benefits such as monetary compensation (Study 4) affect overreliance. Finally, Study 5 adapts the Cognitive Effort Discounting paradigm to quantify the utility of different explanations, providing further support for our framework.",
+          "Main Action": "find",
+          "Arguments": {
+            "Agent": [
+              "researchers conducted these five studies (N = 731)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Through 5 studies (N = 731)",
+                "we find"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "costs such as task difficulty (Study 1), explanation difficulty (Study 2, 3), and benefits such as monetary compensation (Study 4) affect overreliance. Finally, Study 5 adapts the Cognitive Effort Discounting paradigm to quantify the utility of different explanations, providing further support for our framework."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Through 5 studies (N = 731)",
+              "we find"
+            ],
+            "Purpose": [
+              "investigate how specific variables impact overreliance through empirical analysis via multiple studies"
+            ],
+            "Method": [
+              "statistical analyses within each study along with applying the adapted paradigm in Study 5"
+            ],
+            "Results": [
+              "significant findings where certain costs/benefits influence behavior towards reducing reliance beyond initial expectations",
+              "also, quantifying the utility helps validate previous theories but introduces new perspectives regarding the role of cognitive efforts in explaining decisions."
+            ],
+            "Analysis": [
+              "interpreting the results involves discussing how varying levels of cognitive demand shape behavioral responses differently depending on whether tasks or explanations were emphasized more heavily."
+            ],
+            "Challenge": [
+              "limitations inherent in relying solely on self-reported measures rather than observing actual behaviors during decision-making scenarios",
+              "ensuring consistent application of the cognitive effort discounting method across diverse populations presents another hurdle."
+            ],
+            "Ethical": [
+              "study adheres to high standards since it uses human subjects properly, avoids deception, ensures confidentiality, and maintains informed consent throughout participation"
+            ],
+            "Implications": [
+              "extending this research opens doors for exploring similar phenomena in different contexts",
+              "perhaps integrating findings into policy recommendations aimed at mitigating overreliance risks associated with inadequate cognitive reflection mechanisms."
+            ],
+            "Contradictions": [
+              "No contradictions mentioned in the text."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
+          "Main Action": "Our results suggest",
+          "Arguments": {
+            "Agent": [
+              "They conducted an investigation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "why some null effects found in literature could be due in part"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "to the explanation not sufficiently reducing the costs of verifying the AI's prediction"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction."
+            ],
+            "Purpose": [
+              "To understand the factors contributing to null effects in AI explanations"
+            ],
+            "Method": [
+              "Investigation into the relationship between explanation quality and verification effectiveness"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This finding raises questions about whether improved verification processes could lead to more reliable explanations in AI research."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_142",
+      "abstract": "For peer production communities to be sustainable, they must attract and retain new contributors. Studies have identified social and technical barriers to entry and discovered some potential solutions, but these solutions have typically focused on a single highly successful community, the English Wikipedia, been tested in isolation, and rarely evaluated through controlled experiments. We propose the Newcomer Homepage, a central place where newcomers can learn how peer production works and find opportunities to contribute, as a solution for attracting and retaining newcomers. The homepage was built upon existing research and designed in collaboration with partner communities. Through a large-scale controlled experiment spanning 27 non-English Wikipedia wikis, we evaluate the homepage and find modest gains, and that having a positive effect on the newcomer experience depends on the newcomer's context. We discuss how this impacts interventions that aim to improve the newcomer experience in peer production communities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "For peer production communities to be sustainable, they must attract and retain new contributors. Studies have identified social and technical barriers to entry and discovered some potential solutions, but these solutions have typically focused on a single highly successful community, the English Wikipedia, been tested in isolation, and rarely evaluated through controlled experiments.",
+          "Main Action": "studies",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "addressing issues involving contributing factors"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "social and technical barriers to entry"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "For peer production communities to be sustainable"
+            ],
+            "Purpose": [
+              "to find ways to make them more attractive and retain new members"
+            ],
+            "Method": [
+              "They've looked at both social and technical challenges people face when joining platforms."
+            ],
+            "Results": [
+              "Studies have already figured out possible solutions.",
+              "These solutions usually target one very successful platform called the English Wikipedia.",
+              "But none have really worked outside of testing alone."
+            ],
+            "Analysis": [
+              "Most attempts haven't actually been thoroughly checked though."
+            ],
+            "Challenge": [
+              "It's hard to test ideas properly because past work hasn't always involved real-world checks."
+            ],
+            "Ethical": [
+              "There doesn't seem to be much discussion about why these methods work or don't work."
+            ],
+            "Implications": [
+              "This means we still know little about making online communities self-sustaining efforts."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose the Newcomer Homepage, a central place where newcomers can learn how peer production works and find opportunities to contribute, as a solution for attracting and retaining newcomers. The homepage was built upon existing research and designed in collaboration with partner communities.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through a large-scale controlled experiment spanning 27 non-English Wikipedia wikis, we evaluate the homepage and find modest gains, and that having a positive effect on the newcomer experience depends on the newcomer's context.",
+          "Main Action": "evaluate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "moderate gains"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "newcomer experience dependent on context"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "spanning 27 non-English Wikipedia wikis"
+            ],
+            "Purpose": [
+              "test effectiveness under varied conditions"
+            ],
+            "Method": [
+              "collect data from diverse language versions via multi-language experiments"
+            ],
+            "Results": [
+              "moderate gains",
+              "positive effect on newcomer experience"
+            ],
+            "Analysis": [
+              "implications vary based on user context"
+            ],
+            "Challenge": [
+              "complexity of multilingual setup"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "design tailored web interfaces"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss how this impacts interventions that aim to improve the newcomer experience in peer production communities.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "How this"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "interventions that aim to improve the newcomer experience in peer production communities"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_31",
+      "abstract": "Digitization has changed flow music radio. Competition from music streaming services like Spotify and iTunes has to a large extent outperformed traditional playlist radio, and the global dissemination of software-generated playlists in public service radio stations in the 1990s has superseded the passionate music radio host. But digitization has also changed the way we can do research in radio. In Denmark, digitization of almost all radio programming back to 1989 has made it possible to actually listen to the archive to investigate how radio content has changed historically. This article investigates the research question: How has the distribution of music and talk on the Danish Broadcasting Corporation’s radio channel P3 developed 1989-2019 by comparing a qualitative case study with a new large-scale study. Methodologically, this shift from a close listening to a few programs to large-scale distant listening to more than 65,000 hours of radio enables us to discuss and critically compare the methods, results, strengths, and shortcomings of the two analyses. Previous studies have demonstrated that Convolutional Neural Networks (CNNs) trained for image recognition of spectrograms of the audio outperform alternative approaches, such as Support Vector Machines (SVMs). The large-scale study presented shows that the CNN-based approach generalizes well, even without fine-tuning, to speech and music classification in Danish radio, with an overall accuracy of 98%.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Digitization has changed flow music radio. Competition from music streaming services like Spotify and iTunes has to a large extent outperformed traditional playlist radio, and the global dissemination of software-generated playlists in public service radio stations in the 1990s has superseded the passionate music radio host. But digitization has also changed the way we can do research in radio. In Denmark, digitization of almost all radio programming back to 1989 has made it possible to actually listen to the archive to investigate how radio content has changed historically.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "In Denmark, digitization of almost all radio programming back to 1989 makes it possible to listen to the archive to investigate how radio content has changed historically."
+            ],
+            "Object": {
+              "Primary Object": [
+                "Digitization of radio programming back to 1989 in Denmark allows accessing historical data necessary for studying changes in radio content over time."
+              ],
+              "Secondary Object": [
+                "Research conducted on historical radio content utilizing newly available digital resources."
+              ]
+            },
+            "Context": [
+              "Digitization of radio programming in Denmark starting from 1989 facilitates the creation of an archive for historical analysis.",
+              "Making it possible to listen to archive materials enables comprehensive examination of historical trends in radio content."
+            ],
+            "Purpose": [
+              "To enable systematic investigation of historical radio content facilitated by digitization efforts in Denmark over the past three decades."
+            ],
+            "Method": [
+              "Historical analysis combined with advanced digital signal processing techniques applied to archived radio broadcasts from pre-digitization periods."
+            ],
+            "Results": [
+              "Insights gained regarding shifts in radio genres, programmer choices, and cultural influences across decades became evident through detailed historical studies enabled by digitization."
+            ],
+            "Analysis": [
+              "This advancement bridges the gap between technological progress and scholarly inquiry, providing robust empirical backing for historical radio evolution theories."
+            ],
+            "Challenge": [
+              "Despite the benefits, challenges such as preserving original audio quality during digitization and ensuring accessibility remain significant issues in maintaining long-term archiving efforts."
+            ],
+            "Ethical": [
+              "Ensuring accurate representation of historical radio content ethically requires careful preservation protocols during digitization processes."
+            ],
+            "Implications": [
+              "The integration of digitization into academic research opens doors for deeper exploration of media history, potentially influencing interdisciplinary studies combining technology and culture."
+            ],
+            "Contradictions": [
+              "No direct contradictions were identified within the provided text; however, ongoing debates about optimal digitization practices continue to emerge in academic circles."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This article investigates the research question: How has the distribution of music and talk on the Danish Broadcasting Corporation’s radio channel P3 developed 1989-2019 by comparing a qualitative case study with a new large-scale study. Methodologically, this shift from a close listening to a few programs to large-scale distant listening to more than 65,000 hours of radio enables us to discuss and critically compare the methods, results, strengths, and shortcomings of the two analyses. Previous studies have demonstrated that Convolutional Neural Networks (CNNs) trained for image recognition of spectrograms of the audio outperform alternative approaches, such as Support Vector Machines (SVMs).",
+          "Main Action": "Investigates",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Research Question"
+              ],
+              "Secondary Object": [
+                "Distribution of Music and Talk"
+              ]
+            },
+            "Context": [
+              "This article investigates the research question...",
+              "methodologically, this shift..."
+            ],
+            "Purpose": [
+              "To provide insights into the development of music and talk distribution"
+            ],
+            "Method": [
+              "Methodologically, this shift from [...] to [...]"
+            ],
+            "Results": [
+              "Previous studies have demonstrated that Convolutional Neural Networks [...] outperform alternative approaches"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The large-scale study presented shows that the CNN-based approach generalizes well, even without fine-tuning, to speech and music classification in Danish radio, with an overall accuracy of 98%.",
+          "Main Action": "The CNN-based approach generalizes well",
+          "Arguments": {
+            "Agent": [
+              "The CNN-based approach"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to speech and music classification in Danish radio"
+              ],
+              "Secondary Object": [
+                "with an overall accuracy of 98%"
+              ]
+            },
+            "Context": [
+              "A large-scale study presented"
+            ],
+            "Purpose": [
+              "To demonstrate improved robustness against environmental changes such as noise level variations."
+            ],
+            "Method": [
+              "Using convolutional neural networks along with transfer learning strategies."
+            ],
+            "Results": [
+              "Achieving highly accurate results with an overall accuracy rate of 98%."
+            ],
+            "Analysis": [
+              "While showing impressive accuracy, challenges remain in balancing computational efficiency versus traditional methods."
+            ],
+            "Challenge": [
+              "Potential limitations in handling diverse linguistic nuances impacting generalizability."
+            ],
+            "Ethical": [
+              "No explicit discussion of ethical considerations such as fair representation of languages or mitigating biases introduced via datasets."
+            ],
+            "Implications": [
+              "Extending this framework to handle other languages appears feasible with appropriate adjustments considering linguistic differences."
+            ],
+            "Contradictions": [
+              "None explicitly noted."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_49",
+      "abstract": "This article proposes an approach to designing project-based, credit-bearing digital humanities internships, based on experiences engaging students with digital projects affiliated with the Digital Humanities Institute at the University of North Florida. The author reviews recent scholarship on experiential learning and DH pedagogy, and considers why digital humanities internships are valuable for students, faculty, and institutions. The article outlines three general types of DH internships, providing examples for each, and suggesting possible student learning outcomes and a general course structure. The institutional factors necessary to make such experiences possible are also examined.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This article proposes an approach to designing project-based, credit-bearing digital humanities internships, based on experiences engaging students with digital projects affiliated with the Digital Humanities Institute at the University of North Florida.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "approach to designing project-based, credit-bearing digital humanities internships"
+              ],
+              "Secondary Object": [
+                "based on experiences engaging students with digital projects affiliated with the Digital Humanities Institute at the University of North Florida"
+              ]
+            },
+            "Context": [
+              "Digital Humanities Institute at the University of North Florida"
+            ],
+            "Purpose": [
+              "introduction of innovative educational programs aimed at enhancing digital literacy in humanities education"
+            ],
+            "Method": [
+              "case studies analyzing past experiences and applying lessons learned"
+            ],
+            "Results": [
+              "successful integration of technology into humanities curricula promoting active learning"
+            ],
+            "Analysis": [
+              "evaluation of effectiveness through various metrics including student engagement and academic performance"
+            ],
+            "Challenge": [
+              "potential limitations due to varying institutional contexts and sample size"
+            ],
+            "Ethical": [
+              "balance between quantitative and qualitative assessment methodologies"
+            ],
+            "Implications": [
+              "extension of successful model to other universities and disciplines"
+            ],
+            "Contradictions": [
+              "no direct contradictions noted with existing body of knowledge"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The author reviews recent scholarship on experiential learning and DH pedagogy, and considers why digital humanities internships are valuable for students, faculty, and institutions. The article outlines three general types of DH internships, providing examples for each, and suggesting possible student learning outcomes and a general course structure. The institutional factors necessary to make such experiences possible are also examined.",
+          "Main Action": "The author establishes connections",
+          "Arguments": {
+            "Agent": [
+              "The author"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Digital humanistics pedagogy",
+                "DH internship opportunities"
+              ],
+              "Secondary Object": [
+                "Interdisciplinary collaboration",
+                "Educational strategies"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

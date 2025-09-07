@@ -1,0 +1,276 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_59",
+      "abstract": "There is an increasing use of information visualization techniques in Digital Humanities to support the analysis of literary works. On the other hand, the rise of digital reading on the web as well as the development of dedicated e-book readers has triggered a variety of hardware and software solutions to provide new reading environments and new material engagements with textual forms. In this paper, we propose a new metaphor, In-Out-In metaphor, to support the reading of literary works in a digital medium. Our model integrates information visualization techniques with plain text reading into the reading flow. This approach differs from the well-known dichotomy between close and distant reading because its emphasis is not on supporting the analysis of the texts being read, but on providing a smooth flow between focus and digression, which naturally occurs during a reading experience. We present a solution to read and explore the Book of Disquiet by Fernando Pessoa, an unfinished book composed of a set of modular texts that have been edited in different sequences and which can be read multi-sequentially. The research and design decisions for the visual reader of the Book of Disquiet are meant to provide an appealing, rich and interactive online reading experience through a web-based application, LdoD Visual. The implemented features apply information visualization techniques with an emphasis on exploring the modular nature of the book. Since this is a fragmentary literary work, its reading can be fragmentary as well, but providing a smooth multiple flow reading experience.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "There is an increasing use of information visualization techniques in Digital Humanities to support the analysis of literary works. On the other hand, the rise of digital reading on the web as well as the development of dedicated e-book readers has triggered a variety of hardware and software solutions to provide new reading environments and new material engagements with textual forms.",
+          "Main Action": "increasing use",
+          "Arguments": {
+            "Agent": [
+              "Information Visualization Techniques"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Digital Humanities"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "analysis of literary works"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "on the other hand",
+              "rise of digital reading",
+              "development of e-book readers"
+            ],
+            "Purpose": [
+              "provide new reading environments",
+              "new material engagements with textual forms"
+            ],
+            "Method": [
+              "hardware and software solutions"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we propose a new metaphor, In-Out-In metaphor, to support the reading of literary works in a digital medium. Our model integrates information visualization techniques with plain text reading into the reading flow. This approach differs from the well-known dichotomy between close and distant reading because its emphasis is not on supporting the analysis of the texts being read, but on providing a smooth flow between focus and digression, which naturally occurs during a reading experience.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "a new metaphor"
+            ],
+            "Object": {
+              "Primary Object": [
+                "In-Out-In metaphor"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "supporting the reading of literary works in a digital medium"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "our model integrates information visualization techniques"
+            ],
+            "Purpose": [
+              "to provide a smooth flow between focus and digression"
+            ],
+            "Method": [
+              "integrate information visualization techniques with plain text reading"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We present a solution to read and explore the Book of Disquiet by Fernando Pessoa, an unfinished book composed of a set of modular texts that have been edited in different sequences and which can be read multi-sequentially. The research and design decisions for the visual reader of the Book of Disquiet are meant to provide an appealing, rich and interactive online reading experience through a web-based application, LdoD Visual. The implemented features apply information visualization techniques with an emphasis on exploring the modular nature of the book. Since this is a fragmentary literary work, its reading can be fragmentary as well, but providing a smooth multiple flow reading experience.",
+          "Main Action": "The research and design decisions",
+          "Arguments": {
+            "Agent": [
+              "a team developing the application"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an appealing, rich and interactive online reading experience"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Information Visualization Techniques"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This is a fragmentary literary work",
+              "its reading can be fragmentary"
+            ],
+            "Purpose": [
+              "to create an engaging digital tool for exploring a complex literary work"
+            ],
+            "Method": [
+              "Information Visualization Techniques were specifically applied"
+            ],
+            "Results": [
+              "A successful prototype named 'LdoD Visual' was created"
+            ],
+            "Analysis": [
+              "Reasoning supports the effectiveness of using such visualization techniques"
+            ],
+            "Challenge": [
+              "Ensuring module sequencing aligns smoothly across different platforms"
+            ],
+            "Ethical": [
+              "No explicit mention of ethical concerns"
+            ],
+            "Implications": [
+              "Extending this approach offers promising opportunities"
+            ],
+            "Contradictions": [
+              "Nothing suggests contradictions"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_63",
+      "abstract": "An interview with Professor Franciska de Jong (Director at CLARIN ERIC), Dr. Martijn Kleppe (Head of Research at the KB, National Library of the Netherlands), and Dr. Max Kemman (Researcher/Consultant at Dialogic) on the founding of the ADHO Audiovisual in Digital Humanities (AVinDH) Special Interest Group. They are interviewed by Stefania Scagliola (Centre for Contemporary and Digital History), who co-founded the group and is a co-editor of this special issue.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "An interview with Professor Franciska de Jong (Director at CLARIN ERIC), Dr. Martijn Kleppe (Head of Research at the KB, National Library of the Netherlands), and Dr. Max Kemman (Researcher/Consultant at Dialogic) on the founding of the ADHO Audiovisual in Digital Humanities (AVinDH) Special Interest Group.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "An interview with Professor Franciska de Jong..."
+            ],
+            "Object": {
+              "Primary Object": [
+                "Dr. Martijn Kleppe...",
+                "Dr. Max Kemman..."
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "Clairvoyance Center..."
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "An interview with three experts..."
+            ],
+            "Purpose": [
+              "To discuss the founding process..."
+            ],
+            "Method": [
+              "No explicit method mentioned."
+            ],
+            "Results": [
+              "No results provided."
+            ],
+            "Analysis": [
+              "The discussion focused mainly on..."
+            ],
+            "Challenge": [
+              "No challenges identified."
+            ],
+            "Ethical": [
+              "No ethical issues discussed."
+            ],
+            "Implications": [
+              "Potential for further exploration..."
+            ],
+            "Contradictions": [
+              "None mentioned"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "They are interviewed by Stefania Scagliola (Centre for Contemporary and Digital History), who co-founded the group and is a co-editor of this special issue.",
+          "Main Action": "interviewed",
+          "Arguments": {
+            "Agent": [
+              "Stefania Scagliola ( Centre for Contemporary and Digital History )"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Primary Modifier": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ],
+              "Secondary Modifier": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "She co-founded the group and is a co-editor of this special issue."
+            ],
+            "Purpose": [
+              "To conduct interviews and discuss her involvement in the group and special issue"
+            ],
+            "Method": [
+              "None explicitly mentioned"
+            ],
+            "Results": [
+              "No specific results mentioned"
+            ],
+            "Analysis": [
+              "Interpretation of her role and contributions"
+            ],
+            "Challenge": [
+              "Not discussed"
+            ],
+            "Ethical": [
+              "Not implied"
+            ],
+            "Implications": [
+              "Broader impact on academic discussions"
+            ],
+            "Contradictions": [
+              "None mentioned"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

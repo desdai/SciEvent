@@ -1,0 +1,303 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_406",
+      "abstract": "Drug combination therapy shows significant advantages over monotherapy in cancer treatment. Since the combinational space is difficult to be traversed experimentally, identifying novel synergistic drug combinations based on computational methods has become a powerful tool for pre-screening. Among them, methods based on deep learning have far outperformed other methods. However, most deep learning-based methods are unstable and will give inconsistent predictions even by simply changing the input order of drugs. In addition, the insufficient experimental data of drug combination screening limits the generalization ability of existing models. These problems prevent the deep learning-based models from being in service. In this article, we propose CGMS to address the above problems. CGMS models a drug combination and a cell line as a heterogeneous complete graph, and generates the whole-graph embedding to characterize their interaction by leveraging the heterogeneous graph attention network. Based on the whole-graph embedding, CGMS can make a stable, order-independent prediction. To enhance the generalization ability of CGMS, we apply the multi-task learning technique to train the model on drug synergy prediction task and drug sensitivity prediction task simultaneously. We compare CGMS's generalization ability with six state-of-the-art methods on a public dataset, and CGMS significantly outperforms other methods in the leave-drug combination-out scenario, as well as in the leave-cell line-out and leave-drug-out scenarios. We further present the benefit of eliminating the order dependency and the discrimination power of whole-graph embeddings, interpret the rationality of the attention mechanism, and verify the contribution of multi-task learning.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Drug combination therapy shows significant advantages over monotherapy in cancer treatment. Since the combinational space is difficult to be traversed experimentally, identifying novel synergistic drug combinations based on computational methods has become a powerful tool for pre-screening. Among them, methods based on deep learning have far outperformed other methods. However, most deep learning-based methods are unstable and will give inconsistent predictions even by simply changing the input order of drugs. In addition, the insufficient experimental data of drug combination screening limits the generalization ability of existing models. These problems prevent the deep learning-based models from being in service.",
+          "Main Action": "highlighting",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Since the combinational space is difficult to be traversed experimentally",
+              "identifying novel synergistic drug combinations based on computational methods has become a powerful tool for pre-screening"
+            ],
+            "Purpose": [
+              "These problems prevent the deep learning-based models from being in service"
+            ],
+            "Method": [
+              "methods based on deep learning",
+              "computational methods"
+            ],
+            "Results": [
+              "deep learning-based methods... far outperformed other methods",
+              "models... show inconsistent predictions"
+            ],
+            "Analysis": [
+              "problem lies within the models' inherent instability"
+            ],
+            "Challenge": [
+              "unstable and will give inconsistent predictions even by simply changing the input order of drugs",
+              "insufficient experimental data of drug combination screening limits the generalization ability of existing models"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "prevent the deep learning-based models from being in service",
+              "limit the generalization ability of existing models"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this article, we propose CGMS to address the above problems. CGMS models a drug combination and a cell line as a heterogeneous complete graph, and generates the whole-graph embedding to characterize their interaction by leveraging the heterogeneous graph attention network. Based on the whole-graph embedding, CGMS can make a stable, order-independent prediction. To enhance the generalization ability of CGMS, we apply the multi-task learning technique to train the model on drug synergy prediction task and drug sensitivity prediction task simultaneously.",
+          "Main Action": "Proposing CGMS",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a drug combination and a cell line"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "address the above problems"
+            ],
+            "Purpose": [
+              "make a stable, order-independent prediction"
+            ],
+            "Method": [
+              "model[ing] a drug combination and a cell line as a heterogeneous complete graph",
+              "generating the whole-graph embedding",
+              "leveraging the heterogeneous graph attention network",
+              "applying multi-task learning"
+            ],
+            "Results": [
+              "making a stable, order-independent prediction"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enhancing the generalization ability of CGMS"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We compare CGMS's generalization ability with six state-of-the-art methods on a public dataset, and CGMS significantly outperforms other methods in the leave-drug combination-out scenario, as well as in the leave-cell line-out and leave-drug-out scenarios. We further present the benefit of eliminating the order dependency and the discrimination power of whole-graph embeddings, interpret the rationality of the attention mechanism, and verify the contribution of multi-task learning.",
+          "Main Action": "Compare",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "six state-of-the-art methods"
+              ],
+              "Secondary Object": [
+                "public dataset"
+              ]
+            },
+            "Context": [
+              "on a public dataset"
+            ],
+            "Purpose": [
+              "evaluate CGMS's generalization ability"
+            ],
+            "Method": [
+              "using a public dataset",
+              "leave-drug combination-out scenario",
+              "leave-cell line-out and leave-drug-out scenarios",
+              "eliminating the order dependency",
+              "discrimination power of whole-graph embeddings",
+              "attention mechanism",
+              "multi-task learning"
+            ],
+            "Results": [
+              "CGMS significantly outperforms other methods"
+            ],
+            "Analysis": [
+              "interpret the rationality of the attention mechanism",
+              "verify the contribution of multi-task learning"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improvements over existing methods"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_379",
+      "abstract": "Identifying organellar DNA, such as mitochondrial or plastid sequences, inside a whole genome assembly, remains challenging and requires biological background knowledge. To address this, we developed ODNA based on genome annotation and machine learning to fulfill. ODNA is a software that classifies organellar DNA sequences within a genome assembly by machine learning based on a predefined genome annotation workflow. We trained our model with 829,769 DNA sequences from 405 genome assemblies and achieved high predictive performance (e.g., matthew's correlation coefficient of 0.61 for mitochondria and 0.73 for chloroplasts) on independent validation data, thus outperforming existing approaches significantly.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Identifying organellar DNA, such as mitochondrial or plastid sequences, inside a whole genome assembly, remains challenging and requires biological background knowledge.",
+          "Main Action": "Identify",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "organellar DNA"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To address this, we developed ODNA based on genome annotation and machine learning to fulfill. ODNA is a software that classifies organellar DNA sequences within a genome assembly by machine learning based on a predefined genome annotation workflow.",
+          "Main Action": "Developed",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ODNA"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "To address this"
+            ],
+            "Purpose": [
+              "Fulfill"
+            ],
+            "Method": [
+              "Based on genome annotation",
+              "Machine learning"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We trained our model with 829,769 DNA sequences from 405 genome assemblies and achieved high predictive performance (e.g., Matthew's correlation coefficient of 0.61 for mitochondria and 0.73 for chloroplasts) on independent validation data, thus outperforming existing approaches significantly.",
+          "Main Action": "Trained model with 829,769 DNA sequences from 405 genome assemblies",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Model"
+              ],
+              "Secondary Object": [
+                "DNA sequences",
+                "Genome assemblies"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "Outperforming existing approaches significantly"
+            ],
+            "Method": [
+              "Training with 829,769 DNA sequences from 405 genome assemblies"
+            ],
+            "Results": [
+              "Achieved high predictive performance (e.g., Matthew's correlation coefficient of 0.61 for mitochondria and 0.73 for chloroplasts)"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improving predictions for mitochondrial and chloroplast sequences"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

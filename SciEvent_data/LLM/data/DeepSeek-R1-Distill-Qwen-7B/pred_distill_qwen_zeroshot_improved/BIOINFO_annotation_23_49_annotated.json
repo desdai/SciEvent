@@ -1,0 +1,292 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_691",
+      "abstract": "Biological network analysis for high-throughput biomedical data interpretation relies heavily on topological characteristics. Networks are commonly composed of nodes representing genes or proteins that are connected by edges when interacting. In this study, we use the rich information available in the Reactome pathway database to build biological networks accounting for small molecules and proteoforms modeled using protein isoforms and post-translational modifications to study the topological changes induced by this refinement of the network representation. We find that improving the interactome modeling increases the number of nodes and interactions, but that isoform and post-translational modification annotation is still limited compared to what can be expected biologically. We also note that small molecule information can distort the topology of the network due to the high connectedness of these molecules, which does not necessarily represent the reality of biology. However, by restricting the connections of small molecules to the context of biochemical reactions, we find that these improve the overall connectedness of the network and reduce the prevalence of isolated components and nodes. Overall, changing the representation of the network alters the prevalence of articulation points and bridges globally but also within and across pathways. Hence, some molecules can gain or lose in biological importance depending on the level of detail of the representation of the biological system, which might in turn impact network-based studies of diseases or druggability.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Biological network analysis for high-throughput biomedical data interpretation relies heavily on topological characteristics. Networks are commonly composed of nodes representing genes or proteins that are connected by edges when interacting.",
+          "Main Action": "biological network analysis",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "high-throughput biomedical data interpretation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Networks are commonly composed of nodes representing genes or proteins that are connected by edges when interacting."
+            ],
+            "Purpose": [
+              "relying on topological characteristics"
+            ],
+            "Method": [
+              "topological characteristics"
+            ],
+            "Results": [
+              "interpreted results"
+            ],
+            "Analysis": [
+              "observed patterns"
+            ],
+            "Challenge": [
+              "complexity of simultaneous variable interactions",
+              "high dimensionality",
+              "computational demands"
+            ],
+            "Ethical": [
+              "data privacy concerns",
+              "patient confidentiality"
+            ],
+            "Implications": [
+              "advancing molecular pathway analysis",
+              "personalized medicine strategies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we use the rich information available in the Reactome pathway database to build biological networks accounting for small molecules and proteoforms modeled using protein isoforms and post-translational modifications to study the topological changes induced by this refinement of the network representation.",
+          "Main Action": "model",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "biological networks"
+              ],
+              "Secondary Object": [
+                "protein isoforms",
+                "post-translational modifications"
+              ]
+            },
+            "Context": [
+              "in this study, we use the rich information available in the Reactome pathway database to build"
+            ],
+            "Purpose": [
+              "to study the topological changes induced by this refinement of the network representation"
+            ],
+            "Method": [
+              "utilize the Reactome pathway database, bioinformatics methods, protein isoforms, and post-translational modifications"
+            ],
+            "Results": [
+              "improve the ability to capture dynamic interactions within complex systems"
+            ],
+            "Analysis": [
+              "due to enhanced network detail obtained through refined network representations"
+            ],
+            "Challenge": [
+              "face challenges associated with increasing computational demands resulting from larger datasets"
+            ],
+            "Ethical": [
+              "no direct ethical concerns discussed in relation to this study"
+            ],
+            "Implications": [
+              "provide opportunities for future advancements in studying cellular responses dynamically across organisms"
+            ],
+            "Contradictions": [
+              "none identified that disagree with existing knowledge"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We find that improving the interactome modeling increases the number of nodes and interactions, but that isoform and post-translational modification annotation is still limited compared to what can be expected biologically. We also note that small molecule information can distort the topology of the network due to the high connectedness of these molecules, which does not necessarily represent the reality of biology. However, by restricting the connections of small molecules to the context of biochemical reactions, we find that these improve the overall connectedness of the network and reduce the prevalence of isolated components and nodes. Overall, changing the representation of the network alters the prevalence of articulation points and bridges globally but also within and across pathways. Hence, some molecules can gain or lose in biological importance depending on the level of detail of the representation of the biological system, which might in turn impact network-based studies of diseases or druggability.",
+          "Main Action": "Improving the interactome modeling increases the number of nodes and interactions",
+          "Arguments": {
+            "Agent": [
+              "researchers or the study team"
+            ],
+            "Object": {
+              "Primary Object": [
+                "nodes and interactions"
+              ],
+              "Secondary Object": [
+                "isoforms and post-translational modification annotation"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_116",
+      "abstract": "Scientists seeking to understand the genomic basis of bacterial phenotypes, such as antibiotic resistance, today have access to an unprecedented number of complete and nearly complete genomes. Making sense of these data requires computational tools able to perform multiple-genome comparisons efficiently, yet currently available tools cannot scale beyond several tens of genomes. We describe PRAWNS, an efficient and scalable tool for multiple-genome analysis. PRAWNS defines a concise set of genomic features (metablocks), as well as pairwise relationships between them, which can be used as a basis for large-scale genotype-phenotype association studies. We demonstrate the effectiveness of PRAWNS by identifying genomic regions associated with antibiotic resistance in Acinetobacter baumannii.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Scientists seeking to understand the genomic basis of bacterial phenotypes, such as antibiotic resistance, today have access to an unprecedented number of complete and nearly complete genomes. Making sense of these data requires computational tools able to perform multiple-genome comparisons efficiently, yet currently available tools cannot scale beyond several tens of genomes.",
+          "Main Action": "They cannot scale beyond several tens of genomes",
+          "Arguments": {
+            "Agent": [
+              "None"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Several tens of genomes"
+              ],
+              "Secondary Object": [
+                "Current tools for multiple-genome comparisons"
+              ]
+            },
+            "Context": [
+              "Scientists seeking to understand the genomic basis of bacterial phenotypes, such as antibiotic resistance, today have access to an unprecedented number of complete and nearly complete genomes"
+            ],
+            "Purpose": [
+              "To enable effective comparison among larger numbers of genomes"
+            ],
+            "Method": [
+              "Computational tools capable of performing multiple-genome comparisons efficiently"
+            ],
+            "Results": [
+              "Currently unavailable"
+            ],
+            "Analysis": [
+              "These limitations hinder broader application efforts"
+            ],
+            "Challenge": [
+              "Scalability issues prevent handling of larger datasets"
+            ],
+            "Ethical": [
+              "Not addressed in the passage"
+            ],
+            "Implications": [
+              "Addressing this challenge may lead to advancements in comparative genomics and applied microbiology"
+            ],
+            "Contradictions": [
+              "There are none cited in the text"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "We describe PRAWNS, an efficient and scalable tool for multiple-genome analysis. PRAWNS defines a concise set of genomic features (metablocks), as well as pairwise relationships between them, which can be used as a basis for large-scale genotype-phenotype association studies.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate the effectiveness of PRAWNS by identifying genomic regions associated with antibiotic resistance in Acinetobacter baumannii.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

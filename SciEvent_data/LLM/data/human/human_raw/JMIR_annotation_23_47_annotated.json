@@ -1,0 +1,298 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_932",
+      "abstract": "Experience-based knowledge and value considerations of health professionals, citizens, and patients are essential to formulate public health and clinical guidelines that are relevant and applicable to medical practice. Conventional methods for incorporating such knowledge into guideline development often involve a limited number of representatives and are considered to be time-consuming. Including experiential knowledge can be crucial during rapid guidance production in response to a pandemic but it is difficult to accomplish. This proof-of-concept study explored the potential of artificial intelligence (AI)–based methods to capture experiential knowledge and value considerations from existing data channels to make these insights available for public health guideline development. We developed and examined AI-based methods in relation to the COVID-19 vaccination guideline development in the Netherlands. We analyzed Dutch messages shared between December 2020 and June 2021 on social media and on 2 databases from the Dutch National Institute for Public Health and the Environment (RIVM), where experiences and questions regarding COVID-19 vaccination are reported. First, natural language processing (NLP) filtering techniques and an initial supervised machine learning model were developed to identify this type of knowledge in a large data set. Subsequently, structural topic modeling was performed to discern thematic patterns related to experiences with COVID-19 vaccination. NLP methods proved to be able to identify and analyze experience-based knowledge and value considerations in large data sets. They provide insights into a variety of experiential knowledge that is difficult to obtain otherwise for rapid guideline development. Some topics addressed by citizens, patients, and professionals can serve as direct feedback to recommendations in the guideline. For example, a topic pointed out that although travel was not considered as a reason warranting prioritization for vaccination in the national vaccination campaign, there was a considerable need for vaccines for indispensable travel, such as cross-border informal caregiving, work or study, or accessing specialized care abroad. Another example is the ambiguity regarding the definition of medical risk groups prioritized for vaccination, with many citizens not meeting the formal priority criteria while being equally at risk. Such experiential knowledge may help the early identification of problems with the guideline’s application and point to frequently occurring exceptions that might initiate a revision of the guideline text. This proof-of-concept study presents NLP methods as viable tools to access and use experience-based knowledge and value considerations, possibly contributing to robust, equitable, and applicable guidelines. They offer a way for guideline developers to gain insights into health professionals, citizens, and patients’ experience-based knowledge, especially when conventional methods are difficult to implement. AI-based methods can thus broaden the evidence and knowledge base available for rapid guideline development and may therefore be considered as an important addition to the toolbox of pandemic preparedness.",
+      "events": [
+        {
+          "Background/Introduction": "Experience-based knowledge crucial but challenging for rapid guideline development",
+          "Text": "Experience-based knowledge and value considerations of health professionals, citizens, and patients are essential to formulate public health and clinical guidelines that are relevant and applicable to medical practice. Conventional methods for incorporating such knowledge into guideline development often involve a limited number of representatives and are considered to be time-consuming. Including experiential knowledge can be crucial during rapid guidance production in response to a pandemic but it is difficult to accomplish.",
+          "Main Action": "are essential",
+          "Arguments": {
+            "Agent": [
+              "Experience-based knowledge and value considerations of health professionals, citizens, and patients"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to formulate public health and clinical guidelines"
+              ],
+              "Primary Modifier": [
+                "that are relevant and applicable to medical practice"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Conventional methods for incorporating such knowledge into guideline development often involve a limited number of representatives and are considered to be time-consuming"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "Including experiential knowledge can be crucial during rapid guidance production in response to a pandemic but it is difficult to accomplish."
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Study used AI to analyze COVID-19 vaccination data from social media",
+          "Text": "This proof-of-concept study explored the potential of artificial intelligence (AI)–based methods to capture experiential knowledge and value considerations from existing data channels to make these insights available for public health guideline development. We developed and examined AI-based methods in relation to the COVID-19 vaccination guideline development in the Netherlands. We analyzed Dutch messages shared between December 2020 and June 2021 on social media and on 2 databases from the Dutch National Institute for Public Health and the Environment (RIVM), where experiences and questions regarding COVID-19 vaccination are reported. First, natural language processing (NLP) filtering techniques and an initial supervised machine learning model were developed to identify this type of knowledge in a large data set. Subsequently, structural topic modeling was performed to discern thematic patterns related to experiences with COVID-19 vaccination.",
+          "Main Action": "explored",
+          "Arguments": {
+            "Agent": [
+              "This proof-of-concept study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the potential of artificial intelligence (AI)–based methods"
+              ],
+              "Primary Modifier": [
+                "to capture experiential knowledge and value considerations from existing data channels"
+              ],
+              "Secondary Object": [
+                "to make these insights available"
+              ],
+              "Secondary Modifier": [
+                "for public health guideline development"
+              ]
+            },
+            "Context": [
+              "in relation to the COVID-19 vaccination guideline development in the Netherlands"
+            ],
+            "Purpose": [],
+            "Method": [
+              "We developed and examined AI-based methods",
+              "We analyzed Dutch messages shared between December 2020 and June 2021 on social media and on 2 databases from the Dutch National Institute for Public Health and the Environment (RIVM), where experiences and questions regarding COVID-19 vaccination are reported. First, natural language processing (NLP) filtering techniques and an initial supervised machine learning model were developed to identify this type of knowledge in a large data set."
+            ],
+            "Results": [
+              "Subsequently, structural topic modeling was performed to discern thematic patterns related to experiences with COVID-19 vaccination."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "NLP methods identified experience-based knowledge for guideline improvement",
+          "Text": "NLP methods proved to be able to identify and analyze experience-based knowledge and value considerations in large data sets. They provide insights into a variety of experiential knowledge that is difficult to obtain otherwise for rapid guideline development. Some topics addressed by citizens, patients, and professionals can serve as direct feedback to recommendations in the guideline. For example, a topic pointed out that although travel was not considered as a reason warranting prioritization for vaccination in the national vaccination campaign, there was a considerable need for vaccines for indispensable travel, such as cross-border informal caregiving, work or study, or accessing specialized care abroad. Another example is the ambiguity regarding the definition of medical risk groups prioritized for vaccination, with many citizens not meeting the formal priority criteria while being equally at risk. Such experiential knowledge may help the early identification of problems with the guideline’s application and point to frequently occurring exceptions that might initiate a revision of the guideline text.",
+          "Main Action": "proved",
+          "Arguments": {
+            "Agent": [
+              "NLP methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to be able to identify and analyze experience-based knowledge and value considerations"
+              ],
+              "Primary Modifier": [
+                "in large data sets"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "They provide insights into a variety of experiential knowledge that is difficult to obtain otherwise for rapid guideline development"
+            ],
+            "Challenge": [
+              "Another example is the ambiguity regarding the definition of medical risk groups prioritized for vaccination, with many citizens not meeting the formal priority criteria while being equally at risk."
+            ],
+            "Ethical": [],
+            "Implications": [
+              "Such experiential knowledge may help the early identification of problems with the guideline’s application and point to frequently occurring exceptions that might initiate a revision of the guideline text.",
+              "Some topics addressed by citizens, patients, and professionals can serve as direct feedback to recommendations in the guideline."
+            ],
+            "Contradictions": [
+              "For example, a topic pointed out that although travel was not considered as a reason warranting prioritization for vaccination in the national vaccination campaign, there was a considerable need for vaccines for indispensable travel, such as cross-border informal caregiving, work or study, or accessing specialized care abroad."
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "NLP methods help access experience-based knowledge for better guidelines",
+          "Text": "This proof-of-concept study presents NLP methods as viable tools to access and use experience-based knowledge and value considerations, possibly contributing to robust, equitable, and applicable guidelines. They offer a way for guideline developers to gain insights into health professionals, citizens, and patients’ experience-based knowledge, especially when conventional methods are difficult to implement. AI-based methods can thus broaden the evidence and knowledge base available for rapid guideline development and may therefore be considered as an important addition to the toolbox of pandemic preparedness.",
+          "Main Action": "presents",
+          "Arguments": {
+            "Agent": [
+              "This proof-of-concept study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "NLP methods"
+              ],
+              "Primary Modifier": [
+                "as viable tools to access and use experience-based knowledge and value considerations"
+              ],
+              "Secondary Object": [
+                "possibly contributing to"
+              ],
+              "Secondary Modifier": [
+                "robust, equitable, and applicable guidelines."
+              ]
+            },
+            "Context": [
+              "especially when conventional methods are difficult to implement"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [
+              "They offer a way for guideline developers to gain insights into health professionals, citizens, and patients’ experience-based knowledge"
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "AI-based methods can thus broaden the evidence and knowledge base available for rapid guideline development and may therefore be considered as an important addition to the toolbox of pandemic preparedness."
+            ],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_563",
+      "abstract": "Using traditional patient-reported outcomes (PROs), such as paper-based questionnaires, is cumbersome in the era of web-based medical consultation and telemedicine. Electronic PROs may reduce the burden on patients if implemented widely. Considering promising reports of DryEyeRhythm, our in-house mHealth smartphone app for investigating dry eye disease (DED) and the electronic and paper-based Ocular Surface Disease Index (OSDI) should be evaluated and compared to determine their equivalency. The purpose of this study is to assess the equivalence between smartphone app–based and paper-based questionnaires for DED. This prospective, nonblinded, randomized crossover study enrolled 34 participants between April 2022 and June 2022 at a university hospital in Japan. The participants were allocated randomly into 2 groups in a 1:1 ratio. The paper-app group initially responded to the paper-based Japanese version of the OSDI (J-OSDI), followed by the app-based J-OSDI. The app-paper group responded to similar questionnaires but in reverse order. We performed an equivalence test based on minimal clinically important differences to assess the equivalence of the J-OSDI total scores between the 2 platforms (paper-based vs app-based). A 95% CI of the mean difference between the J-OSDI total scores within the ±7.0 range between the 2 platforms indicated equivalence. The internal consistency and agreement of the app-based J-OSDI were assessed with Cronbach α coefficients and intraclass correlation coefficient values. A total of 33 participants were included in this study. The total scores for the app- and paper-based J-OSDI indicated satisfactory equivalence per our study definition (mean difference 1.8, 95% CI –1.4 to 5.0). Moreover, the app-based J-OSDI total score demonstrated good internal consistency and agreement (Cronbach α=.958; intraclass correlation=0.919; 95% CI 0.842 to 0.959) and was significantly correlated with its paper-based counterpart (Pearson correlation=0.932, P<.001). This study demonstrated the equivalence of PROs between the app- and paper-based J-OSDI. Implementing the app-based J-OSDI in various scenarios, including telehealth, may have implications for the early diagnosis of DED and longitudinal monitoring of PROs.",
+      "events": [
+        {
+          "Background/Introduction": "Traditional PROs burdensome; electronic PROs need comparison with paper-based",
+          "Text": "Using traditional patient-reported outcomes (PROs), such as paper-based questionnaires, is cumbersome in the era of web-based medical consultation and telemedicine. Electronic PROs may reduce the burden on patients if implemented widely. Considering promising reports of DryEyeRhythm, our in-house mHealth smartphone app for investigating dry eye disease (DED) and the electronic and paper-based Ocular Surface Disease Index (OSDI) should be evaluated and compared to determine their equivalency.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "Using traditional patient-reported outcomes (PROs), such as paper-based questionnaires"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cumbersome"
+              ],
+              "Primary Modifier": [
+                "in the era of web-based medical consultation and telemedicine"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Considering promising reports of DryEyeRhythm, our in-house mHealth smartphone app for investigating dry eye disease (DED) and the electronic and paper-based Ocular Surface Disease Index (OSDI) should be evaluated and compared to determine their equivalency."
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "Electronic PROs may reduce the burden on patients if implemented widely"
+            ],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Crossover study compared smartphone app-based and paper-based DED questionnaires",
+          "Text": "The purpose of this study is to assess the equivalence between smartphone app–based and paper-based questionnaires for DED. This prospective, nonblinded, randomized crossover study enrolled 34 participants between April 2022 and June 2022 at a university hospital in Japan. The participants were allocated randomly into 2 groups in a 1:1 ratio. The paper-app group initially responded to the paper-based Japanese version of the OSDI (J-OSDI), followed by the app-based J-OSDI. The app-paper group responded to similar questionnaires but in reverse order. We performed an equivalence test based on minimal clinically important differences to assess the equivalence of the J-OSDI total scores between the 2 platforms (paper-based vs app-based). A 95% CI of the mean difference between the J-OSDI total scores within the ±7.0 range between the 2 platforms indicated equivalence. The internal consistency and agreement of the app-based J-OSDI were assessed with Cronbach α coefficients and intraclass correlation coefficient values.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "The purpose of this study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to assess the equivalence"
+              ],
+              "Primary Modifier": [
+                "between smartphone app–based and paper-based questionnaires for DED"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "This prospective, nonblinded, randomized crossover study enrolled 34 participants between April 2022 and June 2022 at a university hospital in Japan."
+            ],
+            "Purpose": [],
+            "Method": [
+              "The participants were allocated randomly into 2 groups in a 1:1 ratio. The paper-app group initially responded to the paper-based Japanese version of the OSDI (J-OSDI), followed by the app-based J-OSDI. The app-paper group responded to similar questionnaires but in reverse order. We performed an equivalence test based on minimal clinically important differences to assess the equivalence of the J-OSDI total scores between the 2 platforms (paper-based vs app-based)."
+            ],
+            "Results": [],
+            "Analysis": [
+              "A 95% CI of the mean difference between the J-OSDI total scores within the ±7.0 range between the 2 platforms indicated equivalence. The internal consistency and agreement of the app-based J-OSDI were assessed with Cronbach α coefficients and intraclass correlation coefficient values."
+            ],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "App and paper J-OSDI showed good equivalence and correlation",
+          "Text": "A total of 33 participants were included in this study. The total scores for the app- and paper-based J-OSDI indicated satisfactory equivalence per our study definition (mean difference 1.8, 95% CI –1.4 to 5.0). Moreover, the app-based J-OSDI total score demonstrated good internal consistency and agreement (Cronbach α=.958; intraclass correlation=0.919; 95% CI 0.842 to 0.959) and was significantly correlated with its paper-based counterpart (Pearson correlation=0.932, P<.001).",
+          "Main Action": "indicated",
+          "Arguments": {
+            "Agent": [
+              "The total scores for the app- and paper-based J-OSDI"
+            ],
+            "Object": {
+              "Primary Object": [
+                "satisfactory equivalence"
+              ],
+              "Primary Modifier": [
+                "per our study definition (mean difference 1.8, 95% CI –1.4 to 5.0)"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "A total of 33 participants were included in this study"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "Moreover, the app-based J-OSDI total score demonstrated good internal consistency and agreement (Cronbach α=.958; intraclass correlation=0.919; 95% CI 0.842 to 0.959) and was significantly correlated with its paper-based counterpart (Pearson correlation=0.932, P<.001)."
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "App-based J-OSDI equivalent to paper version; useful for telehealth",
+          "Text": "This study demonstrated the equivalence of PROs between the app- and paper-based J-OSDI. Implementing the app-based J-OSDI in various scenarios, including telehealth, may have implications for the early diagnosis of DED and longitudinal monitoring of PROs.",
+          "Main Action": "demonstrated",
+          "Arguments": {
+            "Agent": [
+              "This study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the equivalence of PROs"
+              ],
+              "Primary Modifier": [
+                "between the app- and paper-based J-OSDI"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [
+              "Implementing the app-based J-OSDI in various scenarios, including telehealth, may have implications for the early diagnosis of DED and longitudinal monitoring of PROs."
+            ],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}
