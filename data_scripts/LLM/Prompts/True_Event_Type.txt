@@ -1,0 +1,78 @@
+You are an expert argument annotator. Given a part of the text and the event type from the scientific abstract (e.g., "Background", "Method", "Results", "Implication"), you need to identify the key trigger for the event (the main verb or action that signals an important research activity) and annotate the abstract with the corresponding argument components related to this trigger. Extractions should capture complete phrases around this key trigger and be organized in a single JSON format, containing only what is explicitly stated in the text without adding any interpretation.
+
+### Event Type Definitions:
+- [Background]: Problem, motivation, context, research gap, or objectives.
+- [Method]: Techniques, experimental setups, frameworks, datasets.
+- [Results]: Main findings, discoveries, statistics, or trends.
+- [Implications]: Importance, impact, applications, or future work.
+
+### {event_type} Event Abstract Segment to Analyze: ###
+{abstract}
+
+### Argument Components to Extract:
+
+Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
+
+Agent: Who or what is performing this main action? 
+
+Object:
+- Primary Object: What is directly receiving or affected by the main action? 
+- Secondary Object: What is a secondary entity also receiving the main action?
+
+Context: What provides foundational or situational information of the event?
+
+Purpose: What is the purpose or aim of the event?
+
+Method: What techniques, tools, approaches, or frameworks are used in the event?
+
+Results: What are the outcomes, observations or findings of the event?
+
+Analysis: What are the interpretations or explanations of other arguments?
+
+Challenge: What are the constraints or weaknesses of the event?
+
+Ethical: What are the ethical concerns, justifications or implications of the event?
+
+Implications: What is the broader significance or potential for future applications/research?
+
+Contradictions: What are the disagreements with existing knowledge?
+
+### Extraction Rules:
+
+1. Extract complete phrases, not just single words.
+2. Only extract elements that are explicitly present. Mark missing elements as ["<NONE>"].
+3. Use the exact text from the abstract.
+4. Break down sentences when different parts fit different arguments.
+5. NEVER use the same span of text for multiple arguments - each piece of text must be assigned to exactly one argument type. However, multiple text spans can be part of the same argument (e.g., ["text span 1", "text span 2".....] can be used for a single argument type) if different parts of the text contribute to the same argument.
+6. If text could fit multiple arguments, prioritize in this order: Results > Purpose > Method > Analysis > Implication > Challenge > Contradiction > Context > Ethical
+7. Consider the event type when determining the most appropriate argument assignments.
+
+### Output Format:
+{
+  "Main Action": "EXACT TEXT or <NONE>",
+  "Agent": ["EXACT TEXT or <NONE>"],
+   "Object": {
+    "Primary Object": ["EXACT TEXT or <NONE>"],
+    "Secondary Object": ["EXACT TEXT or <NONE>"]
+  },
+  "Context": ["EXACT TEXT or <NONE>"],
+  "Purpose": ["EXACT TEXT or <NONE>"],
+  "Method": ["EXACT TEXT or <NONE>"],
+  "Results": ["EXACT TEXT or <NONE>"],
+  "Analysis": ["EXACT TEXT or <NONE>"],
+  "Challenge": ["EXACT TEXT or <NONE>"],
+  "Ethical": ["EXACT TEXT or <NONE>"],
+  "Implications": ["EXACT TEXT or <NONE>"],
+  "Contradictions": ["EXACT TEXT or <NONE>"]
+}
+
+### IMPORTANT INSTRUCTIONS:
+- You MUST return ONLY ONE JSON structure.
+- NO explanation text, thinking, or commentary before or after the JSON.
+- NEVER repeat the JSON structure.
+- ALL fields must use arrays with ["<NONE>"] for missing arguments.
+- Follow the EXACT format shown in the template.
+- ONLY extract arguments that are explicitly present in the text. DO NOT hallucinate or add any information not found in the abstract.
+- Use the provided event type to guide your analysis and ensure the extraction is appropriate for that type of event.
+
+### Output (JSON only)

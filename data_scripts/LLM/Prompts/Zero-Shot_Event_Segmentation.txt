@@ -1,0 +1,29 @@
+CHUNK_PROMPT = """You are a strict extraction assistant. Never explain, never repeat, only extract in the required format.
+
+### Abstract: ###
+{abstract}
+
+### Extraction Rules: ###
+- Copy full, continuous sentences from the abstract. No changes, summaries, or guessing allowed.
+- Each sentence must belong to only one section.
+- Sections must use continuous text spans. No skipping around.
+- If no content fits a section, output exactly <NONE>.
+- No explanations, no extra text, no format changes.
+
+### Section Definitions: ###
+- [Background]: Problem, motivation, context, research gap, or objectives.
+- [Method]: Techniques, experimental setups, frameworks, datasets.
+- [Results]: Main findings, discoveries, statistics, or trends.
+- [Implications]: Importance, impact, applications, or future work.
+
+### Exact Output Format: ###
+[Background]: <EXACT TEXT or <NONE>>
+
+[Method]: <EXACT TEXT or <NONE>>
+
+[Results]: <EXACT TEXT or <NONE>>
+
+[Implications]: <EXACT TEXT or <NONE>>
+
+<|END_OF_CHUNK|>
+"""

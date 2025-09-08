@@ -1,0 +1,200 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_89",
+      "abstract": "The rapid development of spatial transcriptomics (ST) approaches has provided new insights into understanding tissue architecture and function. However, the gene expressions measured at a spot may contain contributions from multiple cells due to the low-resolution of current ST technologies. Although many computational methods have been developed to disentangle discrete cell types from spatial mixtures, the community lacks a thorough evaluation of the performance of those deconvolution methods. Here, we present a comprehensive benchmarking of 14 deconvolution methods on four datasets. Furthermore, we investigate the robustness of different methods to sequencing depth, spot size and the choice of normalization. Moreover, we propose a new ensemble learning-based deconvolution method (EnDecon) by integrating multiple individual methods for more accurate deconvolution. The major new findings include: (i) cell2loction, RCTD and spatialDWLS are more accurate than other ST deconvolution methods, based on the evaluation of three metrics: RMSE, PCC and JSD; (ii) cell2location and spatialDWLS are more robust to the variation of sequencing depth than RCTD; (iii) the accuracy of the existing methods tends to decrease as the spot size becomes smaller; (iv) most deconvolution methods perform best when they normalize ST data using the method described in their original papers; and (v) the integrative method, EnDecon, could achieve more accurate ST deconvolution. Our study provides valuable information and guideline for practically applying ST deconvolution tools and developing new and more effective methods.",
+      "events": [
+        {
+          "Background/Introduction": "ST methods need better deconvolution evaluation",
+          "Text": "The rapid development of spatial transcriptomics (ST) approaches has provided new insights into understanding tissue architecture and function. However, the gene expressions measured at a spot may contain contributions from multiple cells due to the low-resolution of current ST technologies. Although many computational methods have been developed to disentangle discrete cell types from spatial mixtures, the community lacks a thorough evaluation of the performance of those deconvolution methods.",
+          "Main Action": "has provided",
+          "Arguments": {
+            "Agent": [
+              "rapid development of spatial transcriptomics (ST) approaches"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new insights"
+              ],
+              "Primary Modifier": [
+                "into understanding tissue architecture and function"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "many computational methods have been developed to disentangle discrete cell types from spatial mixtures"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "the gene expressions measured at a spot may contain contributions from multiple cells due to the low-resolution of current ST technologies",
+              "the community lacks a thorough evaluation of the performance of those deconvolution methods"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Benchmarking 14 deconvolution methods; proposes ensemble method EnDecon",
+          "Text": "Here, we present a comprehensive benchmarking of 14 deconvolution methods on four datasets. Furthermore, we investigate the robustness of different methods to sequencing depth, spot size and the choice of normalization. Moreover, we propose a new ensemble learning-based deconvolution method (EnDecon) by integrating multiple individual methods for more accurate deconvolution.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a comprehensive benchmarking"
+              ],
+              "Primary Modifier": [
+                "of 14 deconvolution methods on four datasets"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "we investigate the robustness of different methods to sequencing depth, spot size and the choice of normalization",
+              "we propose a new ensemble learning-based deconvolution method (EnDecon) by integrating multiple individual methods for more accurate deconvolution"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Top methods: cell2location, spatialDWLS, RCTD; EnDecon improves accuracy",
+          "Text": "The major new findings include: (i) cell2loction, RCTD and spatialDWLS are more accurate than other ST deconvolution methods, based on the evaluation of three metrics: RMSE, PCC and JSD; (ii) cell2location and spatialDWLS are more robust to the variation of sequencing depth than RCTD; (iii) the accuracy of the existing methods tends to decrease as the spot size becomes smaller; (iv) most deconvolution methods perform best when they normalize ST data using the method described in their original papers; and (v) the integrative method, EnDecon, could achieve more accurate ST deconvolution.",
+          "Main Action": "include",
+          "Arguments": {
+            "Agent": [
+              "The major new findings"
+            ],
+            "Object": {
+              "Primary Object": [],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "cell2loction, RCTD and spatialDWLS are more accurate than other ST deconvolution methods, based on the evaluation of three metrics: RMSE, PCC and JSD",
+              "cell2location and spatialDWLS are more robust to the variation of sequencing depth than RCTD",
+              "the accuracy of the existing methods tends to decrease as the spot size becomes smaller",
+              "most deconvolution methods perform best when they normalize ST data using the method described in their original papers",
+              "the integrative method, EnDecon, could achieve more accurate ST deconvolution"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Study guides ST deconvolution tool use and future development",
+          "Text": "Our study provides valuable information and guideline for practically applying ST deconvolution tools and developing new and more effective methods.",
+          "Main Action": "provides",
+          "Arguments": {
+            "Agent": [
+              "Our study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "valuable information and guideline"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_233",
+      "abstract": "The increasing availability of RNA structural information that spans many kilobases of transcript sequence imposes a need for tools that can rapidly screen, identify, and prioritize structural modules of interest. We describe RNA Structural Content Scanner (RSCanner), an automated tool that scans RNA transcripts for regions that contain high levels of secondary structure and then classifies each region for its relative propensity to adopt stable or dynamic structures. RSCanner then generates an intuitive heatmap enabling users to rapidly pinpoint regions likely to contain a high or low density of discrete RNA structures, thereby informing downstream functional or structural investigation.",
+      "events": [
+        {
+          "Background/Introduction": "Tool needed to scan, ID, and prioritize large RNA structures",
+          "Text": "The increasing availability of RNA structural information that spans many kilobases of transcript sequence imposes a need for tools that can rapidly screen, identify, and prioritize structural modules of interest.",
+          "Main Action": "imposes",
+          "Arguments": {
+            "Agent": [
+              "increasing availability"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a need"
+              ],
+              "Primary Modifier": [
+                "for tools that can rapidly screen, identify, and prioritize structural modules of interest"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "RSCanner identifies and maps RNA secondary structure regions, aiding analysis",
+          "Text": "We describe RNA Structural Content Scanner (RSCanner), an automated tool that scans RNA transcripts for regions that contain high levels of secondary structure and then classifies each region for its relative propensity to adopt stable or dynamic structures. RSCanner then generates an intuitive heatmap enabling users to rapidly pinpoint regions likely to contain a high or low density of discrete RNA structures, thereby informing downstream functional or structural investigation.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "RNA Structural Content Scanner (RSCanner)"
+              ],
+              "Primary Modifier": [
+                "an automated tool"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "RSCanner then generates an intuitive heatmap enabling users to rapidly pinpoint regions likely to contain a high or low density of discrete RNA structures, thereby informing downstream functional or structural investigation"
+            ],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

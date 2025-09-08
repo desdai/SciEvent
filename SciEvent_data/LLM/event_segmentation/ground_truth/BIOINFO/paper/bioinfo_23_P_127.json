@@ -1,0 +1,9 @@
+{
+  "bioinfo_23_P_127": {
+    "abstract": "Recent innovations in single-cell chromatin accessibility sequencing (scCAS) have revolutionized the characterization of epigenomic heterogeneity. Estimation of the number of cell types is a crucial step for downstream analyses and biological implications. However, efforts to perform estimation specifically for scCAS data are limited. Here, we propose ASTER, an ensemble learning-based tool for accurately estimating the number of cell types in scCAS data. ASTER outperformed baseline methods in systematic evaluation on 27 datasets of various protocols, sizes, numbers of cell types, degrees of cell-type imbalance, cell states and qualities, providing valuable guidance for scCAS data analysis.",
+    "[Background]": "Recent innovations in single-cell chromatin accessibility sequencing (scCAS) have revolutionized the characterization of epigenomic heterogeneity. Estimation of the number of cell types is a crucial step for downstream analyses and biological implications. However, efforts to perform estimation specifically for scCAS data are limited.",
+    "[Method]": "Here, we propose ASTER, an ensemble learning-based tool for accurately estimating the number of cell types in scCAS data.",
+    "[Results]": "ASTER outperformed baseline methods in systematic evaluation on 27 datasets of various protocols, sizes, numbers of cell types, degrees of cell-type imbalance, cell states and qualities, providing valuable guidance for scCAS data analysis.",
+    "[Implications]": "<NONE>"
+  }
+}
