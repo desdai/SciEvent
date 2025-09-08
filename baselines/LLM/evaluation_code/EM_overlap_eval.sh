@@ -77,18 +77,6 @@ python baselines/LLM/evaluation_code/EM_overlap_eval.py \
 
 # ======================= Distilled =======================
 
-# Improve zeroshot-distill-qwen
-python baselines/LLM/evaluation_code/EM_overlap_eval.py \
-    --pred SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_zeroshot_eval/pred_event_level.json \
-    --gold SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_zeroshot_eval/gold_event_level.json \
-    --out baselines/LLM/LLM_results/Improve_zeroshot-distill-qwen.txt
-
-# Improve oneshot-distill-qwen
-python baselines/LLM/evaluation_code/EM_overlap_eval.py \
-    --pred SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_oneshot_eval/pred_event_level.json \
-    --gold SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_oneshot_eval/gold_event_level.json \
-    --out baselines/LLM/LLM_results/Improve_oneshot-distill-qwen.txt
-
 # Improve zeroshot-distill-llama
 python baselines/LLM/evaluation_code/EM_overlap_eval.py \
     --pred SciEvent_data/LLM/data/DeepSeek-R1-Distill-Llama-8B/improve_zeroshot_eval/pred_event_level.json \

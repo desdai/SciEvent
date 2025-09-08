@@ -91,19 +91,6 @@ python baselines/LLM/evaluation_code/prepare_for_eval.py \
 
 
 # """Distilled ones follow:"""
-# Improve zeroshot-distill-qwen
-python baselines/LLM/evaluation_code/prepare_for_eval.py \
-    --pred_folder SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/pred_distill_qwen_improve_zeroshot \
-    --gold_folder SciEvent_data/LLM/data/true \
-    --pred_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_zeroshot_eval/pred_event_level.json \
-    --gold_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_zeroshot_eval/gold_event_level.json
-
-# Improve oneshot-distill-qwen
-python baselines/LLM/evaluation_code/prepare_for_eval.py \
-    --pred_folder SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/pred_distill_qwen_improve_oneshot \
-    --gold_folder SciEvent_data/LLM/data/true \
-    --pred_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_oneshot_eval/pred_event_level.json \
-    --gold_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Qwen-7B/improve_oneshot_eval/gold_event_level.json
 
 # Improve zeroshot-distill-llama
 python baselines/LLM/evaluation_code/prepare_for_eval.py \
@@ -146,13 +133,6 @@ python baselines/LLM/evaluation_code/prepare_for_eval.py \
     --gold_folder SciEvent_data/LLM/data/true \
     --pred_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Llama-8B/improve_pred_eval/pred_event_level.json \
     --gold_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Llama-8B/improve_pred_eval/gold_event_level.json
-
-# old distill-llama
-python baselines/LLM/evaluation_code/prepare_for_eval.py \
-    --pred_folder SciEvent_data/LLM/data/DeepSeek-R1-Distill-Llama-8B/oneshot_merge_modifier_old \
-    --gold_folder SciEvent_data/LLM/data/true \
-    --pred_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Llama-8B/improve_oneshot_eval/pred_event_level.json \
-    --gold_out SciEvent_data/LLM/data/DeepSeek-R1-Distill-Llama-8B/improve_oneshot_eval/gold_event_level.json
 
 # """GPT-4.1""" 
 # zeroshot-GPT-4.1

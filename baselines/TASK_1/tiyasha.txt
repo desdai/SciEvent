@@ -1,0 +1,42 @@
+
+Strict (EM + Class) Evaluation:
+  Precision: 0.8265
+  Recall: 0.8804
+  F1-score: 0.8526
+  Counts: Counter({'COR': 162, 'INC': 18, 'SPU': 16, 'MIS': 4})
+
+IoU + Class Evaluation:
+  Precision: 0.9133
+  Recall: 0.9728
+  F1-score: 0.9421
+  Counts: Counter({'COR': 179, 'SPU': 16, 'MIS': 4, 'INC': 1})
+
+=== EVENT-TYPE-WISE PERFORMANCE ===
+
+[Exact Match]
+Background   | P: 0.9200 R: 0.9388 F1: 0.9293 | {'INC': 3, 'COR': 46, 'SPU': 1}
+Method       | P: 0.8333 R: 0.8000 F1: 0.8163 | {'INC': 8, 'COR': 40, 'MIS': 2}
+Results      | P: 0.7200 R: 0.8780 F1: 0.7912 | {'SPU': 9, 'COR': 36, 'INC': 5}
+Implications | P: 0.8333 R: 0.9091 F1: 0.8696 | {'INC': 2, 'SPU': 6, 'COR': 40, 'MIS': 2}
+
+[IoU Match]
+Background   | P: 0.9800 R: 1.0000 F1: 0.9899 | {'COR': 49, 'SPU': 1}
+Method       | P: 1.0000 R: 0.9600 F1: 0.9796 | {'COR': 48, 'MIS': 2}
+Results      | P: 0.8000 R: 0.9756 F1: 0.8791 | {'SPU': 9, 'COR': 40, 'INC': 1}
+Implications | P: 0.8750 R: 0.9545 F1: 0.9130 | {'COR': 42, 'SPU': 6, 'MIS': 2}
+
+=== DOMAIN-WISE PERFORMANCE ===
+
+[Exact Match]
+dh           | P: 0.4054 R: 0.5000 F1: 0.4478 | {'INC': 12, 'SPU': 10, 'COR': 15, 'MIS': 3}
+jmir         | P: 0.9750 R: 1.0000 F1: 0.9873 | {'COR': 39, 'SPU': 1}
+ACL          | P: 0.9250 R: 0.9737 F1: 0.9487 | {'COR': 37, 'SPU': 2, 'INC': 1}
+cscw         | P: 0.9750 R: 1.0000 F1: 0.9873 | {'COR': 39, 'SPU': 1}
+bioinfo      | P: 0.8205 R: 0.8421 F1: 0.8312 | {'COR': 32, 'INC': 5, 'SPU': 2, 'MIS': 1}
+
+[IoU Match]
+dh           | P: 0.7027 R: 0.8667 F1: 0.7761 | {'COR': 26, 'SPU': 10, 'MIS': 3, 'INC': 1}
+jmir         | P: 0.9750 R: 1.0000 F1: 0.9873 | {'COR': 39, 'SPU': 1}
+ACL          | P: 0.9500 R: 1.0000 F1: 0.9744 | {'COR': 38, 'SPU': 2}
+cscw         | P: 0.9750 R: 1.0000 F1: 0.9873 | {'COR': 39, 'SPU': 1}
+bioinfo      | P: 0.9487 R: 0.9737 F1: 0.9610 | {'COR': 37, 'SPU': 2, 'MIS': 1}
