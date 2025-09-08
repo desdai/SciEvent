@@ -1,0 +1,291 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_112",
+      "abstract": "In the training of predictive models using high-dimensional genomic data, multiple studies' worth of data are often combined to increase sample size and improve generalizability. A drawback of this approach is that there may be different sets of features measured in each study due to variations in expression measurement platform or technology. It is often common practice to work only with the intersection of features measured in common across all studies, which results in the blind discarding of potentially useful feature information that is measured in individual or subsets of studies. We characterize the loss in predictive performance incurred by using only the intersection of feature information available across all studies when training predictors using gene expression data from microarray and sequencing datasets. We study the properties of linear and polynomial regression for imputing discarded features and demonstrate improvements in the external performance of prediction functions through simulation and in gene expression data collected on breast cancer patients. To improve this process, we propose a pairwise strategy that applies any imputation algorithm to two studies at a time and averages imputed features across pairs. We demonstrate that the pairwise strategy is preferable to first merging all datasets together and imputing any resulting missing features. Finally, we provide insights on which subsets of intersected and study-specific features should be used so that missing-feature imputation best promotes cross-study replicability.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In the training of predictive models using high-dimensional genomic data, multiple studies' worth of data are often combined to increase sample size and improve generalizability. A drawback of this approach is that there may be different sets of features measured in each study due to variations in expression measurement platform or technology. It is often common practice to work only with the intersection of features measured in common across all studies, which results in the blind discarding of potentially useful feature information that is measured in individual or subsets of studies.",
+          "Main Action": "are often combined",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "high-dimensional genomic data"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We characterize the loss in predictive performance incurred by using only the intersection of feature information available across all studies when training predictors using gene expression data from microarray and sequencing datasets. We study the properties of linear and polynomial regression for imputing discarded features and demonstrate improvements in the external performance of prediction functions through simulation and in gene expression data collected on breast cancer patients. To improve this process, we propose a pairwise strategy that applies any imputation algorithm to two studies at a time and averages imputed features across pairs.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a pairwise strategy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We characterize the loss in predictive performance incurred by using only the intersection of feature information available across all studies when training predictors using gene expression data from microarray and sequencing datasets. We study the properties of linear and polynomial regression for imputing discarded features and demonstrate improvements in the external performance of prediction functions through simulation and in gene expression data collected on breast cancer patients."
+            ],
+            "Purpose": [
+              "To improve this process"
+            ],
+            "Method": [
+              "applying any imputation algorithm to two studies at a time and averaging imputed features across pairs"
+            ],
+            "Results": [
+              "improvements in the external performance of prediction functions"
+            ],
+            "Analysis": [
+              "discussed challenges in current methods"
+            ],
+            "Challenge": [
+              "addressing limitations like computational demands or coverage gaps"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader impacts on bioinformatics and personalized medicine"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate that the pairwise strategy is preferable to first merging all datasets together and imputing any resulting missing features. Finally, we provide insights on which subsets of intersected and study-specific features should be used so that missing-feature imputation best promotes cross-study replicability.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the pairwise strategy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to show that the pairwise strategy is preferable to first merging all datasets together and imputing any resulting missing features"
+            ],
+            "Method": [
+              "comparing it to merging datasets and imputing missing features"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "promoting better handling of missing features"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_99",
+      "abstract": "Interpreting and visualizing synteny relationships across several genomes is a challenging task. We previously proposed a network-based approach for better visualization and interpretation of large-scale microsynteny analyses. Here, we present syntenet, an R package to infer and analyze synteny networks from whole-genome protein sequence data. The package offers a simple and complete framework, including data preprocessing, synteny detection and network inference, network clustering and phylogenomic profiling, and microsynteny-based phylogeny inference. Graphical functions are also available to create publication-ready plots. Synteny networks inferred with syntenet can highlight taxon-specific gene clusters that likely contributed to the evolution of important traits, and microsynteny-based phylogenies can help resolve phylogenetic relationships under debate.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Interpreting and visualizing synteny relationships across several genomes is a challenging task. We previously proposed a network-based approach for better visualization and interpretation of large-scale microsynteny analyses.",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "network-based approach"
+              ],
+              "Secondary Object": [
+                "better visualization and interpretation of large-scale microsynteny analyses"
+              ]
+            },
+            "Context": [
+              "Interpreting and visualizing synteny relationships across several genomes is a challenging task"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "network-based approach"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Interpreting and visualizing synteny relationships across several genomes is a challenging task"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we present syntenet, an R package to infer and analyze synteny networks from whole-genome protein sequence data. The package offers a simple and complete framework, including data preprocessing, synteny detection and network inference, network clustering and phylogenomic profiling, and microsynteny-based phylogeny inference. Graphical functions are also available to create publication-ready plots.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "syntenet",
+                "an R package"
+              ],
+              "Secondary Object": [
+                "whole-genome protein sequence data"
+              ]
+            },
+            "Context": [
+              "The package offers a simple and complete framework, including data preprocessing, synteny detection and network inference, network clustering and phylogenomic profiling, and microsynteny-based phylogeny inference.",
+              "Graphical functions are also available to create publication-ready plots."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "data preprocessing",
+              "syntheny detection and network inference",
+              "network clustering and phylogenomic profiling",
+              "microsynteny-based phylogeny inference"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<ONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Synteny networks inferred with syntenet can highlight taxon-specific gene clusters that likely contributed to the evolution of important traits, and microsynteny-based phylogenies can help resolve phylogenetic relationships under debate.",
+          "Main Action": "inferred",
+          "Arguments": {
+            "Agent": [
+              "Synteny networks"
+            ],
+            "Object": {
+              "Primary Object": [
+                "taxon-specific gene clusters"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "that likely contributed to the evolution of important traits"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

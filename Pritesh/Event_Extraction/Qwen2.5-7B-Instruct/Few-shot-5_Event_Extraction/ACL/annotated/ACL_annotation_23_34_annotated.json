@@ -1,0 +1,293 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_664",
+      "abstract": "Supervised visual captioning models typically require a large scale of images or videos paired with descriptions in a specific language (i.e., the vision-caption pairs) for training. However, collecting and labeling large-scale datasets is time-consuming and expensive for many scenarios and languages. Therefore, sufficient labeled pairs are usually not available. To deal with the label shortage problem, we present a simple yet effective zero-shot approach MultiCapCLIP that can generate visual captions for different scenarios and languages without any labeled vision-caption pairs of downstream datasets. In the training stage, MultiCapCLIP only requires text data for input. Then it conducts two main steps: 1) retrieving concept prompts that preserve the corresponding domain knowledge of new scenarios; 2) auto-encoding the prompts to learn writing styles to output captions in a desired language. In the testing stage, MultiCapCLIP instead takes visual data as input directly to retrieve the concept prompts to generate the final visual descriptions. The extensive experiments on image and video captioning across four benchmarks and four languages (i.e., English, Chinese, German, and French) confirm the effectiveness of our approach. Compared with state-of-the-art zero-shot and weakly-supervised methods, our method achieves 4.8% and 21.5% absolute improvements in terms of BLEU@4 and CIDEr metrics.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Supervised visual captioning models typically require a large scale of images or videos paired with descriptions in a specific language (i.e., the vision-caption pairs) for training. However, collecting and labeling large-scale datasets is time-consuming and expensive for many scenarios and languages. Therefore, sufficient labeled pairs are usually not available.",
+          "Main Action": "require",
+          "Arguments": {
+            "Agent": [
+              "supervised visual captioning models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "large scale of images or videos paired with descriptions in a specific language"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "training",
+              "<none>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "collecting and labeling large-scale datasets is time-consuming and expensive for many scenarios and languages"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "sufficient labeled pairs are usually not available"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To deal with the label shortage problem, we present a simple yet effective zero-shot approach MultiCapCLIP that can generate visual captions for different scenarios and languages without any labeled vision-caption pairs of downstream datasets. In the training stage, MultiCapCLIP only requires text data for input. Then it conducts two main steps: 1) retrieving concept prompts that preserve the corresponding domain knowledge of new scenarios; 2) auto-encoding the prompts to learn writing styles to output captions in a desired language. In the testing stage, MultiCapCLIP instead takes visual data as input directly to retrieve the concept prompts to generate the final visual descriptions.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "MultiCapCLIP"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "deal with the label shortage problem",
+              "generate visual captions for different scenarios and languages without any labeled vision-caption pairs of downstream datasets"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "training stage: retrieves concept prompts preserving domain knowledge of new scenarios",
+              "auto-encodes the prompts to learn writing styles to output captions in a desired language"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "testing stage: takes visual data as input directly to retrieve the concept prompts to generate the final visual descriptions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The extensive experiments on image and video captioning across four benchmarks and four languages (i.e., English, Chinese, German, and French) confirm the effectiveness of our approach. Compared with state-of-the-art zero-shot and weakly-supervised methods, our method achieves 4.8% and 21.5% absolute improvements in terms of BLEU@4 and CIDEr metrics.",
+          "Main Action": "confirm",
+          "Arguments": {
+            "Agent": [
+              "our approach"
+            ],
+            "Object": {
+              "Primary Object": [
+                "effectiveness"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "extensive experiments on image and video captioning across four benchmarks and four languages"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "state-of-the-art zero-shot and weakly-supervised methods"
+            ],
+            "Results": [
+              "4.8% and 21.5% absolute improvements in terms of BLEU@4 and CIDEr metrics"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_605",
+      "abstract": "Knowledge distillation (KD) is the process of transferring knowledge from a large model to a small one. It has gained increasing attention in the natural language processing community, driven by the demands of compressing ever-growing language models. In this work, we propose an FDISTILL framework, which formulates sequence-level knowledge distillation as minimizing a generalized f-divergence function. We propose four distilling variants under our framework and show that existing SeqKD and ENGINE approaches are approximations of our FDISTILL methods. We further derive step-wise decomposition for our FDISTILL, reducing intractable sequence-level divergence to word-level losses that can be computed in a tractable manner. Experiments across four datasets show that our methods outperform existing KD approaches, and that our symmetric distilling losses can better force the student to learn from the teacher distribution.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Knowledge distillation (KD) is the process of transferring knowledge from a large model to a small one. It has gained increasing attention in the natural language processing community, driven by the demands of compressing ever-growing language models.",
+          "Main Action": "plays",
+          "Arguments": {
+            "Agent": [
+              "Read-overlap-based graph data structures"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a central role"
+              ],
+              "Secondary Object": [
+                "in computing de novo genome assembly"
+              ]
+            },
+            "Context": [
+              "Most long-read assemblers use Myers's string graph model to sparsify overlap graphs. Graph sparsification improves assembly contiguity by removing spurious and redundant connections."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "it must ensure that there exist walks in the graph that spell all chromosomes, given sufficient sequencing coverage.",
+              "this property becomes even more important for diploid genomes, polyploid genomes, and metagenomes where there is a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we propose an FDISTILL framework, which formulates sequence-level knowledge distillation as minimizing a generalized f-divergence function. We propose four distilling variants under our framework and show that existing SeqKD and ENGINE approaches are approximations of our FDISTILL methods. We further derive step-wise decomposition for our FDISTILL, reducing intractable sequence-level divergence to word-level losses that can be computed in a tractable manner.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "FDISTILL framework"
+              ],
+              "Secondary Object": [
+                "four distilling variants"
+              ]
+            },
+            "Context": [
+              "sequence-level knowledge distillation as minimizing a generalized f-divergence function",
+              "existing SeqKD and ENGINE approaches are approximations of our FDISTILL methods"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "deriving step-wise decomposition for our FDISTILL"
+            ],
+            "Results": [
+              "reducing intractable sequence-level divergence to word-level losses that can be computed in a tractable manner"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments across four datasets show that our methods outperform existing KD approaches, and that our symmetric distilling losses can better force the student to learn from the teacher distribution.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experiments"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that our methods outperform existing KD approaches"
+              ],
+              "Secondary Object": [
+                "and that our symmetric distilling losses can better force the student to learn from the teacher distribution"
+              ]
+            },
+            "Context": [
+              "across four datasets"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "outperform existing KD approaches",
+              "better force the student to learn from the teacher distribution"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

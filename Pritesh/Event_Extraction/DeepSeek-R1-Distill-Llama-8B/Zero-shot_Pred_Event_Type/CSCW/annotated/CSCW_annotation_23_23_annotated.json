@@ -1,0 +1,337 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_256",
+      "abstract": "Artificial intelligence (AI) is increasingly being considered to assist human decision-making in high-stake domains (e.g., health). However, researchers have discussed an issue that humans can over-rely on wrong suggestions of the AI model instead of achieving human-AI complementary performance. In this work, we utilized salient feature explanations along with what-if, counterfactual explanations to make humans review AI suggestions more analytically to reduce overreliance on AI and explored the effect of these explanations on trust and reliance on AI during clinical decision-making. We conducted an experiment with seven therapists and ten laypersons on the task of assessing post-stroke survivors' quality of motion, and analyzed their performance, agreement level on the task, and reliance on AI without and with two types of AI explanations. Our results showed that the AI model with both salient features and counterfactual explanations assisted therapists and laypersons to improve their performance and agreement level on the task when 'right' AI outputs are presented. While both therapists and laypersons over-relied on 'wrong' AI outputs, counterfactual explanations assisted both therapists and laypersons to reduce their over-reliance on 'wrong' AI outputs by 21% compared to salient feature explanations. Specifically, laypersons had higher performance degrades by 18.0 f1-score with salient feature explanations and 14.0 f1-score with counterfactual explanations than therapists with performance degrades of 8.6 and 2.8 f1-scores respectively. Our work discusses the potential of counterfactual explanations to better estimate the accuracy of an AI model and reduce over-reliance on 'wrong' AI outputs and implications for improving human-AI collaborative decision-making.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Artificial intelligence (AI) is increasingly being considered to assist human decision-making in high-stake domains (e.g., health). However, researchers have discussed an issue that humans can over-rely on wrong suggestions of the AI model instead of achieving human-AI complementary performance.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we utilized salient feature explanations along with what-if, counterfactual explanations to make humans review AI suggestions more analytically to reduce overreliance on AI and explored the effect of these explanations on trust and reliance on AI during clinical decision-making. We conducted an experiment with seven therapists and ten laypersons on the task of assessing post-stroke survivors' quality of motion, and analyzed their performance, agreement level on the task, and reliance on AI without and with two types of AI explanations.",
+          "Main Action": "Conducted an experiment",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Post-stroke survivors' quality of motion"
+              ],
+              "Secondary Object": [
+                "Participants"
+              ]
+            },
+            "Context": [
+              "Reducing over-reliance on AI and explored the effect of these explanations on trust and reliance on AI during clinical decision-making"
+            ],
+            "Purpose": [
+              "To reduce over-reliance on AI and explored the effect of these explanations on trust and reliance on AI during clinical decision-making"
+            ],
+            "Method": [
+              "Utilized salient feature explanations along with what-if, counterfactual explanations and conducted an experiment with seven therapists and ten laypersons on the task of assessing post-stroke survivors' quality of motion, and analyzed their performance, agreement level on the task, and reliance on AI without and with two types of AI explanations"
+            ],
+            "Results": [
+              "Analyzed their performance, agreement level on the task, and reliance on AI without and with two types of AI explanations"
+            ],
+            "Analysis": [
+              "Linked reductions in over-reliance on AI to better understanding"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enhancing trust in AI systems"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results showed that the AI model with both salient features and counterfactual explanations assisted therapists and laypersons to improve their performance and agreement level on the task when 'right' AI outputs are presented. While both therapists and laypersons over-relied on 'wrong' AI outputs, counterfactual explanations assisted both therapists and laypersons to reduce their over-reliance on 'wrong' AI outputs by 21% compared to salient feature explanations. Specifically, laypersons had higher performance degrades by 18.0 F1-score with salient feature explanations and 14.0 F1-score with counterfactual explanations than therapists with performance degrades of 8.6 and 2.8 F1-scores respectively.",
+          "Main Action": "showed",
+          "Arguments": {
+            "Agent": [
+              "Our results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "therapists and laypersons"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "'right' AI outputs are presented",
+              "wrong' AI outputs"
+            ],
+            "Purpose": [
+              "evaluate the effectiveness of AI models"
+            ],
+            "Method": [
+              "salient features",
+              "counterfactual explanations"
+            ],
+            "Results": [
+              "reduce their over-reliance on 'wrong' AI outputs by 21%",
+              "performance degrades ... F1-score"
+            ],
+            "Analysis": [
+              "counterfactual explanations were effective"
+            ],
+            "Challenge": [
+              "over-reliance on 'wrong' AI outputs"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improve AI usability"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "Our work discusses the potential of counterfactual explanations to better estimate the accuracy of an AI model and reduce over-reliance on 'wrong' AI outputs and implications for improving human-AI collaborative decision-making.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_229",
+      "abstract": "Prison and police abolition has become a major political philosophy in North American discourse following the 2020 George Floyd protests. The philosophy remains divisive, and North American abolitionists seeking to coalition-build, provide resources for vulnerable populations, and garner public support continue to experience challenges. We explore current usage of digital tools among abolitionists and the potential of a digital mapping tool to address these challenges. We conduct an interview study with 15 abolitionist organizations to understand activists' perspectives on the value of digital tools for organizing and a content analysis of 25 existing digital tools that convey abolitionist ideas to the public. Our findings together reveal (1) opportunities for digital mapping and HCI to support abolitionist activism and grassroots activism more broadly and (2) the challenges of digitally and spatially representing a movement that is intentionally grassroots, clandestine, and often involves organizers working in disparate locations.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Prison and police abolition has become a major political philosophy in North American discourse following the 2020 George Floyd protests. The philosophy remains divisive, and North American abolitionists seeking to coalition-build, provide resources for vulnerable populations, and garner public support continue to experience challenges.",
+          "Main Action": "continue to experience challenges",
+          "Arguments": {
+            "Agent": [
+              "North American abolitionists"
+            ],
+            "Object": {
+              "Primary Object": [
+                "challenges"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We explore current usage of digital tools among abolitionists and the potential of a digital mapping tool to address these challenges. We conduct an interview study with 15 abolitionist organizations to understand activists' perspectives on the value of digital tools for organizing and a content analysis of 25 existing digital tools that convey abolitionist ideas to the public.",
+          "Main Action": "We conduct an interview study with 15 abolitionist organizations",
+          "Arguments": {
+            "Agent": [
+              "They"
+            ],
+            "Object": {
+              "Primary Object": [
+                "15 abolitionist organizations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We explore current usage of digital tools among abolitionists"
+            ],
+            "Purpose": [
+              "To understand activists' perspectives on the value of digital tools for organizing"
+            ],
+            "Method": [
+              "Content analysis of 25 existing digital tools"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our findings together reveal (1) opportunities for digital mapping and HCI to support abolitionist activism and grassroots activism more broadly and (2) the challenges of digitally and spatially representing a movement that is intentionally grassroots, clandestine, and often involves organizers working in disparate locations.",
+          "Main Action": "Revealing",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Opportunities for digital mapping and HCI to support abolitionist activism and grassroots activism more broadly",
+                "Challenges of digitally and spatially representing a movement that is intentionally grassroots, clandestine, and often involves organizers working in disparate locations."
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

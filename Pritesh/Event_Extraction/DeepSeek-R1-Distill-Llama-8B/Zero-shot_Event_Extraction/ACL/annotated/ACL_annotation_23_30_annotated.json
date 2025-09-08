@@ -1,0 +1,288 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_03",
+      "abstract": "While the problem of hallucinations in neural machine translation has long been recognized, so far the progress on its alleviation is very little. Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative. It means that internal characteristics of the model can give much more information than we expect, and before using external models and measures, we first need to ask: how far can we go if we use nothing but the translation model itself? We propose to use a method that evaluates the percentage of the source contribution to a generated translation. Intuitively, hallucinations are translations “detached” from the source, hence they can be identified by low source contribution. This method improves detection accuracy for the most severe hallucinations by a factor of 2 and is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models. Next, if we move away from internal model characteristics and allow external tools, we show that using sentence similarity from cross-lingual embeddings further improves these results.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "While the problem of hallucinations in neural machine translation has long been recognized, so far the progress on its alleviation is very little. Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative. It means that internal characteristics of the model can give much more information than we expect, and before using external models and measures, we first need to ask: how far can we go if we use nothing but the translation model itself?",
+          "Main Action": "It turned out that",
+          "Arguments": {
+            "Agent": [
+              "Previously existing methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Translation model"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The problem of hallucinations in neural machine translation"
+            ],
+            "Purpose": [
+              "To determine if using nothing but the translation model itself can alleviate hallucinations"
+            ],
+            "Method": [
+              "Comparing existing methods against the translation model alone"
+            ],
+            "Results": [
+              "Existing methods fall short and the standard sequence log-probability is less informative compared to the translation model's internal characteristics"
+            ],
+            "Analysis": [
+              "This suggests that internal characteristics of the model offer more information than expected"
+            ],
+            "Challenge": [
+              "Current methods' inability to address hallucinations effectively"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Focusing on model internals could lead to advancements in addressing hallucination issues"
+            ],
+            "Contradictions": [
+              "Prior assumptions about the necessity of external models and measures"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose to use a method that evaluates the percentage of the source contribution to a generated translation. Intuitively, hallucinations are translations “detached” from the source, hence they can be identified by low source contribution.",
+          "Main Action": "Evaluates the percentage of the source contribution to a generated translation",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "The percentage of the source contribution"
+              ],
+              "Secondary Object": [
+                "A generated translation"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To evaluate the percentage of the source contribution to a generated translation"
+            ],
+            "Method": [
+              "A method that evaluates the percentage of the source contribution to a generated translation"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "This method improves detection accuracy for the most severe hallucinations by a factor of 2 and is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models. Next, if we move away from internal model characteristics and allow external tools, we show that using sentence similarity from cross-lingual embeddings further improves these results.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "using sentence similarity from cross-lingual embeddings"
+            ],
+            "Results": [
+              "improves detection accuracy for the most severe hallucinations by a factor of 2",
+              "is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_809",
+      "abstract": "The wide accessibility of social media has provided linguistically under-represented communities with an extraordinary opportunity to create content in their native languages. This, however, comes with certain challenges in script normalization, particularly where the speakers of a language in a bilingual community rely on another script or orthography to write their native language. This paper addresses the problem of script normalization for several such languages that are mainly written in a Perso-Arabic script. Using synthetic data with various levels of noise and a transformer-based model, we demonstrate that the problem can be effectively remediated. We conduct a small-scale evaluation of real data as well. Our experiments indicate that script normalization is also beneficial to improve the performance of downstream tasks such as machine translation and language identification.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The wide accessibility of social media has provided linguistically under-represented communities with an extraordinary opportunity to create content in their native languages. This, however, comes with certain challenges in script normalization, particularly where the speakers of a language in a bilingual community rely on another script or orthography to write their native language.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper addresses the problem of script normalization for several such languages that are mainly written in a Perso-Arabic script. Using synthetic data with various levels of noise and a transformer-based model, we demonstrate that the problem can be effectively remediated. We conduct a small-scale evaluation of real data as well.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "script normalization"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "several such languages that are mainly written in a Perso-Arabic script"
+            ],
+            "Purpose": [
+              "to address the problem of script normalization"
+            ],
+            "Method": [
+              "using synthetic data with various levels of noise",
+              "a transformer-based model"
+            ],
+            "Results": [
+              "the problem can be effectively remediated"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "conducting a small-scale evaluation of real data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improving script normalization efforts"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our experiments indicate that script normalization is also beneficial to improve the performance of downstream tasks such as machine translation and language identification.",
+          "Main Action": "Our experiments indicate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Script normalization"
+              ],
+              "Secondary Object": [
+                "Machine translation and language identification"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To improve the performance of downstream tasks"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "That script normalization is also beneficial"
+            ],
+            "Analysis": [
+              "It shows benefits beyond initial expectations"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Advancements in natural language processing systems"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

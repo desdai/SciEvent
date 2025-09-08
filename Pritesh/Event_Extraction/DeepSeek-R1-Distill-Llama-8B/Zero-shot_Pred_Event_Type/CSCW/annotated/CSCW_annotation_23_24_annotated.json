@@ -1,0 +1,384 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_36",
+      "abstract": "The COVID-19 pandemic has prompted countries around the world to introduce smartphone apps to support disease control efforts. Their purposes range from digital contact tracing to quarantine enforcement to vaccination passports, and their effectiveness often depends on widespread adoption. While previous work has identified factors that promote or hinder adoption, it has typically examined data collected at a single point in time or focused exclusively on digital contact tracing apps. In this work, we conduct the first representative study that examines changes in people's attitudes towards COVID-19-related smartphone apps for five different purposes over the first 1.5 years of the pandemic. In three survey rounds conducted between Summer 2020 and Summer 2021 in the United States and Germany, with approximately 1,000 participants per round and country, we investigate people's willingness to use such apps, their perceived utility, and people's attitudes towards them in different stages of the pandemic. Our results indicate that privacy is a consistent concern for participants, even in a public health crisis, and the collection of identity-related data significantly decreases acceptance of COVID-19 apps. Trust in authorities is essential to increase confidence in government-backed apps and foster citizens' willingness to contribute to crisis management. There is a need for continuous communication with app users to emphasize the benefits of health crisis apps both for individuals and society, thus counteracting decreasing willingness to use them and perceived usefulness as the pandemic evolves.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The COVID-19 pandemic has prompted countries around the world to introduce smartphone apps to support disease control efforts. Their purposes range from digital contact tracing to quarantine enforcement to vaccination passports, and their effectiveness often depends on widespread adoption. While previous work has identified factors that promote or hinder adoption, it has typically examined data collected at a single point in time or focused exclusively on digital contact tracing apps.",
+          "Main Action": "The countries have introduced smartphone apps",
+          "Arguments": {
+            "Agent": [
+              "Countries"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Smartphone apps"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The COVID-19 pandemic"
+            ],
+            "Purpose": [
+              "Support disease control efforts"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we conduct the first representative study that examines changes in people's attitudes towards COVID-19-related smartphone apps for five different purposes over the first 1.5 years of the pandemic. In three survey rounds conducted between Summer 2020 and Summer 2021 in the United States and Germany, with approximately 1,000 participants per round and country, we investigate people's willingness to use such apps, their perceived utility, and people's attitudes towards them in different stages of the pandemic.",
+          "Main Action": "Conduct the first representative study that examines changes in people's attitudes towards COVID-19-related smartphone apps for five different purposes over the first 1.5 years of the pandemic",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the first representative study that examines changes in people's attitudes towards COVID-19-related smartphone apps for five different purposes over the first 1.5 years of the pandemic"
+              ],
+              "Secondary Object": [
+                "nothing explicitly stated"
+              ]
+            },
+            "Context": [
+              "changes in people's attitudes towards COVID-19-related smartphone apps for five different purposes over the first 1.5 years of the pandemic",
+              "three survey rounds conducted between Summer 2020 and Summer 2021 in the United States and Germany"
+            ],
+            "Purpose": [
+              "examine changes in people's attitudes towards COVID-19-related smartphone apps for five different purposes over the first 1.5 years of the pandemic"
+            ],
+            "Method": [
+              "three survey rounds conducted between Summer 2020 and Summer 2021 in the United States and Germany",
+              "approximately 1,000 participants per round and country"
+            ],
+            "Results": [
+              "investigate people's willingness to use such apps",
+              "their perceived utility",
+              "people's attitudes towards them in different stages of the pandemic"
+            ],
+            "Analysis": [
+              "nothing explicitly stated"
+            ],
+            "Challenge": [
+              "nothing explicitly stated"
+            ],
+            "Ethical": [
+              "nothing explicitly stated"
+            ],
+            "Implications": [
+              "contribute new insights into user behavior regarding health apps during a crisis",
+              "suggest potential for future applications"
+            ],
+            "Contradictions": [
+              "nothing explicitly stated"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results indicate that privacy is a consistent concern for participants, even in a public health crisis, and the collection of identity-related data significantly decreases acceptance of COVID-19 apps. Trust in authorities is essential to increase confidence in government-backed apps and foster citizens' willingness to contribute to crisis management.",
+          "Main Action": "results indicate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "privacy"
+              ],
+              "Secondary Object": [
+                "collection of identity-related data"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "There is a need for continuous communication with app users to emphasize the benefits of health crisis apps both for individuals and society, thus counteracting decreasing willingness to use them and perceived usefulness as the pandemic evolves.",
+          "Main Action": "to maintain continuous communication",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "app users"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "as the pandemic evolves"
+            ],
+            "Purpose": [
+              "to counteract decreasing willingness to use them and perceived usefulness"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_222",
+      "abstract": "Technology plays an increasingly pivotal role in mediating mental health support in people's everyday lives. However, it is not clear how that mediation is occurring, to what end, and what technologies are implicated. In this study, we examine these questions with a mixed-methods analysis of conversations among participants in several Bipolar Disorder (BD) communities on Reddit. Analyzing posts produced over four years, we identify a wide variety of technologies that people employ to manage their mental conditions, such as communication technologies, online communities and tracking tools. Using this taxonomy of technologies as a framework, we then summarize three technology-mediated management strategies that these technologies enable, including serving as community, episode, and information mediators. We argue that with a comprehensive and nuanced understanding of people's in situ technology use, we can identify research and design opportunities for designing human-centered technologies to help people manage mental health challenges more effectively.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Technology plays an increasingly pivotal role in mediating mental health support in people's everyday lives. However, it is not clear how that mediation is occurring, to what end, and what technologies are implicated.",
+          "Main Action": "Technology plays an increasingly pivotal role in mediating mental health support in people's everyday lives",
+          "Arguments": {
+            "Agent": [
+              "technology"
+            ],
+            "Object": {
+              "Primary Object": [
+                "mental health support"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in people's everyday lives"
+            ],
+            "Purpose": [
+              "to understand how technology mediates mental health support"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "the unclear mechanisms of how technology mediates mental health support"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "the increasing role of technology in mental health support highlights its importance and potential for future applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we examine these questions with a mixed-methods analysis of conversations among participants in several Bipolar Disorder (BD) communities on Reddit. Analyzing posts produced over four years, we identify a wide variety of technologies that people employ to manage their mental conditions, such as communication technologies, online communities and tracking tools.",
+          "Main Action": "we analyze",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "conversations among participants in several Bipolar Disorder (BD) communities on Reddit"
+              ],
+              "Secondary Object": [
+                "participants"
+              ]
+            },
+            "Context": [
+              "Analyzing posts produced over four years"
+            ],
+            "Purpose": [
+              "to identify a wide variety of technologies that people employ to manage their mental conditions"
+            ],
+            "Method": [
+              "a mixed-methods analysis",
+              "qualitative (posts)",
+              "quantitative aspects"
+            ],
+            "Results": [
+              "we identify a wide variety of technologies that people employ to manage their mental conditions"
+            ],
+            "Analysis": [
+              "such as communication technologies, online communities and tracking tools"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Using this taxonomy of technologies as a framework, we then summarize three technology-mediated management strategies that these technologies enable, including serving as community, episode, and information mediators.",
+          "Main Action": "summarize",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three technology-mediated management strategies"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "using this taxonomy of technologies as a framework"
+            ],
+            "Purpose": [
+              "to understand how these technologies enable roles as community, episode, and information mediators"
+            ],
+            "Method": [
+              "taxonomy of technologies",
+              "roles as community, episode, and information mediators"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We argue that with a comprehensive and nuanced understanding of people's in situ technology use, we can identify research and design opportunities for designing human-centered technologies to help people manage mental health challenges more effectively.",
+          "Main Action": "identify",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "research and design opportunities"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "people's in situ technology use"
+            ],
+            "Purpose": [
+              "design human-centered technologies to help people manage mental health challenges more effectively"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

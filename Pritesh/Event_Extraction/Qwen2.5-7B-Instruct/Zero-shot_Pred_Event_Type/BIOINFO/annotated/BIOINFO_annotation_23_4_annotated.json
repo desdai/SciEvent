@@ -1,0 +1,250 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_399",
+      "abstract": "Bone marrow (BM) examination is one of the most important indicators in diagnosing hematologic disorders and is typically performed under the microscope via oil-immersion objective lens with a total 100× objective magnification. On the other hand, mitotic detection and identification is critical not only for accurate cancer diagnosis and grading but also for predicting therapy success and survival. Fully automated BM examination and mitotic figure examination from whole-slide images is highly demanded but challenging and poorly explored. First, the complexity and poor reproducibility of microscopic image examination are due to the cell type diversity, delicate intralineage discrepancy within the multitype cell maturation process, cells overlapping, lipid interference and stain variation. Second, manual annotation on whole-slide images is tedious, laborious and subject to intraobserver variability, which causes the supervised information restricted to limited, easily identifiable and scattered cells annotated by humans. Third, when the training data are sparsely labeled, many unlabeled objects of interest are wrongly defined as background, which severely confuses AI learners. This article presents an efficient and fully automatic CW-Net approach to address the three issues mentioned above and demonstrates its superior performance on both BM examination and mitotic figure examination. The experimental results demonstrate the robustness and generalizability of the proposed CW-Net on a large BM WSI dataset with 16,456 annotated cells of 19 BM cell types and a large-scale WSI dataset for mitotic figure assessment with 262,481 annotated cells of five cell types.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Bone marrow (BM) examination is one of the most important indicators in diagnosing hematologic disorders and is typically performed under the microscope via oil-immersion objective lens with a total 100× objective magnification. On the other hand, mitotic detection and identification is critical not only for accurate cancer diagnosis and grading but also for predicting therapy success and survival. Fully automated BM examination and mitotic figure examination from whole-slide images is highly demanded but challenging and poorly explored.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Bone marrow examination",
+              "Mitotic detection and identification"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Diagnosing hematologic disorders",
+                "Accurate cancer diagnosis and grading",
+                "Predicting therapy success and survival"
+              ],
+              "Secondary Object": [
+                "Whole-slide images"
+              ]
+            },
+            "Context": [
+              "Oil-immersion objective lens with a total 100× objective magnification"
+            ],
+            "Purpose": [
+              "Highly demanded but challenging and poorly explored"
+            ],
+            "Method": [
+              "Automated examination"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Challenging and poorly explored"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "First, the complexity and poor reproducibility of microscopic image examination are due to the cell type diversity, delicate intralineage discrepancy within the multitype cell maturation process, cells overlapping, lipid interference and stain variation. Second, manual annotation on whole-slide images is tedious, laborious and subject to intraobserver variability, which causes the supervised information restricted to limited, easily identifiable and scattered cells annotated by humans. Third, when the training data are sparsely labeled, many unlabeled objects of interest are wrongly defined as background, which severely confuses AI learners. This article presents an efficient and fully automatic CW-Net approach to address the three issues mentioned above and demonstrates its superior performance on both BM examination and mitotic figure examination.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an efficient and fully automatic CW-Net approach"
+              ],
+              "Secondary Object": [
+                "three issues mentioned above"
+              ]
+            },
+            "Context": [
+              "complexity and poor reproducibility of microscopic image examination",
+              "manual annotation on whole-slide images is tedious, laborious and subject to intraobserver variability",
+              "when the training data are sparsely labeled"
+            ],
+            "Purpose": [
+              "to address the three issues mentioned above"
+            ],
+            "Method": [
+              "presents an efficient and fully automatic CW-Net approach"
+            ],
+            "Results": [
+              "demonstrates its superior performance on both BM examination and mitotic figure examination"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The experimental results demonstrate the robustness and generalizability of the proposed CW-Net on a large BM WSI dataset with 16,456 annotated cells of 19 BM cell types and a large-scale WSI dataset for mitotic figure assessment with 262,481 annotated cells of five cell types.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "The experimental results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "robustness and generalizability of the proposed CW-Net"
+              ],
+              "Secondary Object": [
+                "a large BM WSI dataset with 16,456 annotated cells of 19 BM cell types",
+                "a large-scale WSI dataset for mitotic figure assessment with 262,481 annotated cells of five cell types"
+              ]
+            },
+            "Context": [
+              "on a large BM WSI dataset with 16,456 annotated cells of 19 BM cell types and a large-scale WSI dataset for mitotic figure assessment with 262,481 annotated cells of five cell types"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "the robustness and generalizability of the proposed CW-Net"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_82",
+      "abstract": "ManyFold is a flexible library for protein structure prediction with deep learning that (i) supports models that use both multiple sequence alignments (MSAs) and protein language model (pLM) embedding as inputs, (ii) allows inference of existing models (AlphaFold and OpenFold), (iii) is fully trainable, allowing for both fine-tuning and the training of new models from scratch and (iv) is written in Jax to support efficient batched operation in distributed settings. A proof-of-concept pLM-based model, pLMFold, is trained from scratch to obtain reasonable results with reduced computational overheads in comparison to AlphaFold.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "ManyFold is a flexible library for protein structure prediction with deep learning that (i) supports models that use both multiple sequence alignments (MSAs) and protein language model (pLM) embedding as inputs, (ii) allows inference of existing models (AlphaFold and OpenFold), (iii) is fully trainable, allowing for both fine-tuning and the training of new models from scratch and (iv) is written in Jax to support efficient batched operation in distributed settings.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "ManyFold"
+            ],
+            "Object": {
+              "Primary Object": [
+                "library"
+              ],
+              "Secondary Object": [
+                "models",
+                "datasets"
+              ]
+            },
+            "Context": [
+              "flexible",
+              "(i) supports models that use both multiple sequence alignments (MSAs) and protein language model (pLM) embedding as inputs, (ii) allows inference of existing models (AlphaFold and OpenFold)",
+              "fully trainable, allowing for both fine-tuning and the training of new models from scratch"
+            ],
+            "Purpose": [
+              "None mentioned directly but implied through capabilities described"
+            ],
+            "Method": [
+              "written in Jax to support efficient batched operation in distributed settings"
+            ],
+            "Results": [
+              "None explicitly stated"
+            ],
+            "Analysis": [
+              "None explicitly stated"
+            ],
+            "Challenge": [
+              "None explicitly stated"
+            ],
+            "Ethical": [
+              "None explicitly stated"
+            ],
+            "Implications": [
+              "None explicitly stated"
+            ],
+            "Contradictions": [
+              "None explicitly stated"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "A proof-of-concept pLM-based model, pLMFold, is trained from scratch to obtain reasonable results with reduced computational overheads in comparison to AlphaFold.",
+          "Main Action": "trained",
+          "Arguments": {
+            "Agent": [
+              "pLM-based model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "pLMFold"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "from scratch"
+            ],
+            "Purpose": [
+              "to obtain reasonable results with reduced computational overheads in comparison to AlphaFold"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "reasonable results with reduced computational overheads in comparison to AlphaFold"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

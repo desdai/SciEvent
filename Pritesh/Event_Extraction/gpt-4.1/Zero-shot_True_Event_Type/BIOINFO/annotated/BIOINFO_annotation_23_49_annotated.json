@@ -1,0 +1,296 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_691",
+      "abstract": "Biological network analysis for high-throughput biomedical data interpretation relies heavily on topological characteristics. Networks are commonly composed of nodes representing genes or proteins that are connected by edges when interacting. In this study, we use the rich information available in the Reactome pathway database to build biological networks accounting for small molecules and proteoforms modeled using protein isoforms and post-translational modifications to study the topological changes induced by this refinement of the network representation. We find that improving the interactome modeling increases the number of nodes and interactions, but that isoform and post-translational modification annotation is still limited compared to what can be expected biologically. We also note that small molecule information can distort the topology of the network due to the high connectedness of these molecules, which does not necessarily represent the reality of biology. However, by restricting the connections of small molecules to the context of biochemical reactions, we find that these improve the overall connectedness of the network and reduce the prevalence of isolated components and nodes. Overall, changing the representation of the network alters the prevalence of articulation points and bridges globally but also within and across pathways. Hence, some molecules can gain or lose in biological importance depending on the level of detail of the representation of the biological system, which might in turn impact network-based studies of diseases or druggability.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Biological network analysis for high-throughput biomedical data interpretation relies heavily on topological characteristics. Networks are commonly composed of nodes representing genes or proteins that are connected by edges when interacting.",
+          "Main Action": "relies heavily on",
+          "Arguments": {
+            "Agent": [
+              "Biological network analysis for high-throughput biomedical data interpretation"
+            ],
+            "Object": {
+              "Primary Object": [
+                "topological characteristics"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Networks are commonly composed of nodes representing genes or proteins that are connected by edges when interacting."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we use the rich information available in the Reactome pathway database to build biological networks accounting for small molecules and proteoforms modeled using protein isoforms and post-translational modifications to study the topological changes induced by this refinement of the network representation.",
+          "Main Action": "build biological networks accounting for small molecules and proteoforms modeled using protein isoforms and post-translational modifications",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "biological networks accounting for small molecules and proteoforms modeled using protein isoforms and post-translational modifications"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In this study"
+            ],
+            "Purpose": [
+              "to study the topological changes induced by this refinement of the network representation"
+            ],
+            "Method": [
+              "use the rich information available in the Reactome pathway database"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We find that improving the interactome modeling increases the number of nodes and interactions, but that isoform and post-translational modification annotation is still limited compared to what can be expected biologically. We also note that small molecule information can distort the topology of the network due to the high connectedness of these molecules, which does not necessarily represent the reality of biology. However, by restricting the connections of small molecules to the context of biochemical reactions, we find that these improve the overall connectedness of the network and reduce the prevalence of isolated components and nodes. Overall, changing the representation of the network alters the prevalence of articulation points and bridges globally but also within and across pathways. Hence, some molecules can gain or lose in biological importance depending on the level of detail of the representation of the biological system, which might in turn impact network-based studies of diseases or druggability.",
+          "Main Action": "find",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that improving the interactome modeling increases the number of nodes and interactions",
+                "that these improve the overall connectedness of the network and reduce the prevalence of isolated components and nodes",
+                "that isoform and post-translational modification annotation is still limited compared to what can be expected biologically"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "but that isoform and post-translational modification annotation is still limited compared to what can be expected biologically",
+              "However, by restricting the connections of small molecules to the context of biochemical reactions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "improving the interactome modeling",
+              "restricting the connections of small molecules to the context of biochemical reactions",
+              "changing the representation of the network"
+            ],
+            "Results": [
+              "improving the interactome modeling increases the number of nodes and interactions",
+              "isoform and post-translational modification annotation is still limited compared to what can be expected biologically",
+              "small molecule information can distort the topology of the network due to the high connectedness of these molecules, which does not necessarily represent the reality of biology",
+              "by restricting the connections of small molecules to the context of biochemical reactions, we find that these improve the overall connectedness of the network and reduce the prevalence of isolated components and nodes",
+              "changing the representation of the network alters the prevalence of articulation points and bridges globally but also within and across pathways",
+              "some molecules can gain or lose in biological importance depending on the level of detail of the representation of the biological system"
+            ],
+            "Analysis": [
+              "which does not necessarily represent the reality of biology"
+            ],
+            "Challenge": [
+              "isoform and post-translational modification annotation is still limited compared to what can be expected biologically"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "which might in turn impact network-based studies of diseases or druggability"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_116",
+      "abstract": "Scientists seeking to understand the genomic basis of bacterial phenotypes, such as antibiotic resistance, today have access to an unprecedented number of complete and nearly complete genomes. Making sense of these data requires computational tools able to perform multiple-genome comparisons efficiently, yet currently available tools cannot scale beyond several tens of genomes. We describe PRAWNS, an efficient and scalable tool for multiple-genome analysis. PRAWNS defines a concise set of genomic features (metablocks), as well as pairwise relationships between them, which can be used as a basis for large-scale genotype-phenotype association studies. We demonstrate the effectiveness of PRAWNS by identifying genomic regions associated with antibiotic resistance in Acinetobacter baumannii.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Scientists seeking to understand the genomic basis of bacterial phenotypes, such as antibiotic resistance, today have access to an unprecedented number of complete and nearly complete genomes. Making sense of these data requires computational tools able to perform multiple-genome comparisons efficiently, yet currently available tools cannot scale beyond several tens of genomes.",
+          "Main Action": "requires",
+          "Arguments": {
+            "Agent": [
+              "Making sense of these data"
+            ],
+            "Object": {
+              "Primary Object": [
+                "computational tools able to perform multiple-genome comparisons efficiently"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Scientists seeking to understand the genomic basis of bacterial phenotypes, such as antibiotic resistance, today have access to an unprecedented number of complete and nearly complete genomes."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "currently available tools cannot scale beyond several tens of genomes"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We describe PRAWNS, an efficient and scalable tool for multiple-genome analysis. PRAWNS defines a concise set of genomic features (metablocks), as well as pairwise relationships between them, which can be used as a basis for large-scale genotype-phenotype association studies.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "PRAWNS, an efficient and scalable tool for multiple-genome analysis"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "PRAWNS defines a concise set of genomic features (metablocks), as well as pairwise relationships between them"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "which can be used as a basis for large-scale genotype-phenotype association studies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate the effectiveness of PRAWNS by identifying genomic regions associated with antibiotic resistance in Acinetobacter baumannii.",
+          "Main Action": "demonstrate the effectiveness of PRAWNS",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the effectiveness of PRAWNS"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "identifying genomic regions associated with antibiotic resistance in Acinetobacter baumannii"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

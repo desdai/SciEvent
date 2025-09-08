@@ -1,0 +1,383 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_100",
+      "abstract": "Social media platforms are being utilized by individuals with mental illness for engaging in self-disclosure, finding support, or navigating treatment journeys. Individuals also increasingly bring their social media data to psychotherapy consultations. This emerging practice during psychotherapy can help us to better understand how patients appropriate social media technologies to develop and iterate patient narratives — the stories of patients' own experiences that are vital in mental health treatment. In this paper, we seek to understand patients' perspectives regarding why and how they bring up their social media activities during psychotherapy consultations as well as related concerns. Through interviews with 18 mood disorder patients, we found that social media helps augment narratives around interpersonal conflicts, digital detox, and self-expression. We also found that discussion of social media activities shines a light on the power imbalance and privacy concerns regarding use of patient-generated health information. Based on the findings, we discuss that social media data are different from other types of patient-generated health data in terms of supporting patient narratives because of the social interactions and curation social media inherently engenders. We also discuss privacy concerns and trust between a patient and a therapist when patient narratives are supported by patients' social media data. Finally, we suggest design implications for social computing technologies that can foster patient narratives rooted in social media activities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Social media platforms are being utilized by individuals with mental illness for engaging in self-disclosure, finding support, or navigating treatment journeys. Individuals also increasingly bring their social media data to psychotherapy consultations. This emerging practice during psychotherapy can help us to better understand how patients appropriate social media technologies to develop and iterate patient narratives — the stories of patients' own experiences that are vital in mental health treatment.",
+          "Main Action": "utilize",
+          "Arguments": {
+            "Agent": [
+              "individuals with mental illness"
+            ],
+            "Object": {
+              "Primary Object": [
+                "social media platforms"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we seek to understand patients' perspectives regarding why and how they bring up their social media activities during psychotherapy consultations as well as related concerns. Through interviews with 18 mood disorder patients, we found that social media helps augment narratives around interpersonal conflicts, digital detox, and self-expression.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We also found that discussion of social media activities shines a light on the power imbalance and privacy concerns regarding use of patient-generated health information. Based on the findings, we discuss that social media data are different from other types of patient-generated health data in terms of supporting patient narratives because of the social interactions and curation social media inherently engenders. We also discuss privacy concerns and trust between a patient and a therapist when patient narratives are supported by patients' social media data.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that streamers cared about bystanders' privacy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To protect bystanders from privacy violations"
+            ],
+            "Method": [
+              "evaluated possible privacy violations to bystanders from several perspectives"
+            ],
+            "Results": [
+              "streamers primarily relied on technical, behavioral, and collaborative strategies",
+              "current streaming platforms lacked features"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, we suggest design implications for social computing technologies that can foster patient narratives rooted in social media activities.",
+          "Main Action": "suggest",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design implications"
+              ],
+              "Secondary Object": [
+                "for social computing technologies"
+              ]
+            },
+            "Context": [
+              "that can foster patient narratives"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_149",
+      "abstract": "Legal crowdfunding is an emerging domain where lawyers and individuals raise funds to fight legal actions. To study how prospective donors can verify the credibility of legal campaigns, we analyzed the conversations surrounding these campaigns on Facebook. We discovered three primary themes associated with the perceptions of the contributors of legal campaigns: supporters posting admiring and appreciative comments, supporters posting critical and disapproving comments, and opponents posting critical and disapproving comments. We observed that while supporters criticized campaigns' opponents, biased media, and dishonest authorities, opponents criticized campaign owners, campaigns' objectives and opaque logistics. To understand the impact of these perspectives on donors, we followed up with an online survey study where we presented a legal campaign with its corresponding social media conversations. We found that critical comments impacted donation decisions more than appreciative comments. We concluded with design implications to better support potential donors to make more informed donation decisions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Legal crowdfunding is an emerging domain where lawyers and individuals raise funds to fight legal actions. To study how prospective donors can verify the credibility of legal campaigns, we analyzed the conversations surrounding these campaigns on Facebook.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We discovered three primary themes associated with the perceptions of the contributors of legal campaigns: supporters posting admiring and appreciative comments, supporters posting critical and disapproving comments, and opponents posting critical and disapproving comments. We observed that while supporters criticized campaigns' opponents, biased media, and dishonest authorities, opponents criticized campaign owners, campaigns' objectives and opaque logistics. To understand the impact of these perspectives on donors, we followed up with an online survey study where we presented a legal campaign with its corresponding social media conversations.",
+          "Main Action": "discovered",
+          "Arguments": {
+            "Agent": [
+              "three primary themes"
+            ],
+            "Object": {
+              "Primary Object": [
+                "associated with the perceptions of the contributors of legal campaigns"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "supporters posting admiring and appreciative comments",
+              "supporters posting critical and disapproving comments",
+              "opponents posting critical and disapproving comments"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "while supporters criticized campaigns' opponents, biased media, and dishonest authorities, opponents criticized campaign owners, campaigns' objectives and opaque logistics"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that critical comments impacted donation decisions more than appreciative comments",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that streamers cared about bystanders' privacy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "while prior work has studied bystanders' privacy concerns"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "evaluated possible privacy violations to bystanders from several perspectives"
+            ],
+            "Results": [
+              "streamers primarily relied on technical, behavioral, and collaborative strategies",
+              "current streaming platforms lacked features"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We concluded with design implications to better support potential donors to make more informed donation decisions.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_158",
+      "abstract": "As the shortage of skilled workers continues to be a pressing issue, exacerbated by demographic change, it is becoming a critical challenge for organizations to preserve the knowledge of retiring experts and pass it on to novices. While this knowledge transfer has traditionally occurred through personal interaction, it lacks scalability and requires significant resources and time. IT-based teaching systems have addressed this scalability issue, but their development is still tedious and time-consuming. In this work, we investigate the potential of machine learning (ML) models to facilitate knowledge transfer in an organizational context, leading to more cost-effective IT-based teaching systems. Through a systematic literature review, we examine key concepts, themes, and dimensions to understand better and design ML-based teaching systems. To do so, we capture and consolidate the capabilities of ML models in IT-based teaching systems, inductively analyze relevant concepts in this context, and determine their interrelationships. We present our findings in the form of a review of the key concepts, themes, and dimensions to understand and inform on ML-based teaching systems. Building on these results, our work contributes to research on computer-supported cooperative work by conceptualizing how ML-based teaching systems can preserve expert knowledge and facilitate its transfer from SMEs to human novices. In this way, we shed light on this emerging subfield of human-computer interaction and serve to build an interdisciplinary research agenda.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "As the shortage of skilled workers continues to be a pressing issue, exacerbated by demographic change, it is becoming a critical challenge for organizations to preserve the knowledge of retiring experts and pass it on to novices. While this knowledge transfer has traditionally occurred through personal interaction, it lacks scalability and requires significant resources and time. IT-based teaching systems have addressed this scalability issue, but their development is still tedious and time-consuming.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "While this knowledge transfer has traditionally occurred through personal interaction, it lacks scalability and requires significant resources and time."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we investigate the potential of machine learning (ML) models to facilitate knowledge transfer in an organizational context, leading to more cost-effective IT-based teaching systems. Through a systematic literature review, we examine key concepts, themes, and dimensions to understand better and design ML-based teaching systems. To do so, we capture and consolidate the capabilities of ML models in IT-based teaching systems, inductively analyze relevant concepts in this context, and determine their interrelationships.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the potential of machine learning (ML) models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "leading to more cost-effective IT-based teaching systems"
+            ],
+            "Method": [
+              "through a systematic literature review"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We present our findings in the form of a review of the key concepts, themes, and dimensions to understand and inform on ML-based teaching systems.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "findings"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Building on these results, our work contributes to research on computer-supported cooperative work by conceptualizing how ML-based teaching systems can preserve expert knowledge and facilitate its transfer from SMEs to human novices. In this way, we shed light on this emerging subfield of human-computer interaction and serve to build an interdisciplinary research agenda.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_134",
+      "abstract": "Human cognitive and decision-making abilities depreciate under pressure, motivating the emergence of artificial intelligence (AI) systems as decision support tools to assist people in performing tasks under stress. In this work, we study human decision-making behavior and task performance under time pressure — induced from limited initial observation time (time to perform the task before providing an initial response without AI input) and final decision time (time to weigh an AI's suggestion before reaching a collective human-AI team answer) — for spatial reasoning and count estimation tasks. Our results show that, while the impact of initial observation time on AI-assisted decision-making was dependent on task nature, participants were more likely to follow AI suggestions when they were provided with longer final decision time; moreover, although participants generally tended to adhere to their initial responses, they had more agency when they were more logically engaged in a task. Our results offer a nuanced understanding of human-AI collaboration under time pressure in different phases of the decision-making process.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Human cognitive and decision-making abilities depreciate under pressure, motivating the emergence of artificial intelligence (AI) systems as decision support tools to assist people in performing tasks under stress.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we study human decision-making behavior and task performance under time pressure — induced from limited initial observation time (time to perform the task before providing an initial response without AI input) and final decision time (time to weigh an AI's suggestion before reaching a collective human-AI team answer) — for spatial reasoning and count estimation tasks.",
+          "Main Action": "study",
+          "Arguments": {
+            "Agent": [
+              "human decision-making behavior"
+            ],
+            "Object": {
+              "Primary Object": [
+                "spatial reasoning and count estimation tasks under time pressure"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "for"
+            ],
+            "Purpose": [
+              "understand patterns of both positive and negative transfer between L1 and L2"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "while prior work has studied bystanders' privacy concerns,"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results show that, while the impact of initial observation time on AI-assisted decision-making was dependent on task nature, participants were more likely to follow AI suggestions when they were provided with longer final decision time; moreover, although participants generally tended to adhere to their initial responses, they had more agency when they were more logically engaged in a task.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our results offer a nuanced understanding of human-AI collaboration under time pressure in different phases of the decision-making process.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a collaborative project"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "communities interested in Gə'əz language texts",
+              "other under-resourced manuscript traditions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "an easy-to-use open-source tool"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "both highly accurate and accessible to communities interested in Gə'əz books"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

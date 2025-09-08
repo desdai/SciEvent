@@ -1,0 +1,299 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_16",
+      "abstract": "The ANTRACT project is a cross-disciplinary apparatus dedicated to the analysis of the French newsreel company Les Actualités Françaises (1945-1969) and its film productions. Founded during the liberation of France, this state-owned company filmed more than 20,000 news reports shown in French cinemas and throughout the world over its 24 years of activity. The project brings together research organizations with a dual historical and technological perspective. ANTRACT's goal is to study the production process, the film content, the way historical events are represented and the audience reception of Les Actualités Françaises newsreels using innovative AI-based data processing tools developed by partners specialized in image, audio, and text analysis. This article focuses on the data processing apparatus and tools of the project. Automatic content analysis is used to select data, to segment video units and typescript images, and to align them with their archival description. Automatic speech recognition provides a textual representation and natural language processing can extract named entities from the voice-over recording; automatic visual analysis is applied to detect and recognize faces of well-known characters in videos. These multifaceted data can then be queried and explored with the TXM text-mining platform. The results of these automatic analysis processes are feeding the Okapi platform, a client-server software that integrates documentation, information retrieval, and hypermedia capabilities within a single environment based on the Semantic Web standards. The complete corpus of Les Actualités Françaises, enriched with data and metadata, will be made available to the scientific community by the end of the project.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The ANTRACT project is a cross-disciplinary apparatus dedicated to the analysis of the French newsreel company Les Actualités Françaises (1945-1969) and its film productions. Founded during the liberation of France, this state-owned company filmed more than 20,000 news reports shown in French cinemas and throughout the world over its 24 years of activity. The project brings together research organizations with a dual historical and technological perspective. ANTRACT's goal is to study the production process, the film content, the way historical events are represented and the audience reception of Les Actualités Françaises newsreels using innovative AI-based data processing tools developed by partners specialized in image, audio, and text analysis.",
+          "Main Action": "is dedicated to the analysis of the French newsreel company Les Actualités Françaises (1945-1969) and its film productions",
+          "Arguments": {
+            "Agent": [
+              "The ANTRACT project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the analysis of the French newsreel company Les Actualités Françaises (1945-1969) and its film productions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The ANTRACT project is a cross-disciplinary apparatus",
+              "Founded during the liberation of France, this state-owned company filmed more than 20,000 news reports shown in French cinemas and throughout the world over its 24 years of activity",
+              "The project brings together research organizations with a dual historical and technological perspective"
+            ],
+            "Purpose": [
+              "ANTRACT's goal is to study the production process, the film content, the way historical events are represented and the audience reception of Les Actualités Françaises newsreels"
+            ],
+            "Method": [
+              "using innovative AI-based data processing tools developed by partners specialized in image, audio, and text analysis"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This article focuses on the data processing apparatus and tools of the project. Automatic content analysis is used to select data, to segment video units and typescript images, and to align them with their archival description. Automatic speech recognition provides a textual representation and natural language processing can extract named entities from the voice-over recording; automatic visual analysis is applied to detect and recognize faces of well-known characters in videos. These multifaceted data can then be queried and explored with the TXM text-mining platform.",
+          "Main Action": "is used",
+          "Arguments": {
+            "Agent": [
+              "Automatic content analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to select data",
+                "to segment video units and typescript images",
+                "to align them with their archival description"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This article focuses on the data processing apparatus and tools of the project."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Automatic content analysis",
+              "Automatic speech recognition",
+              "natural language processing",
+              "automatic visual analysis",
+              "the TXM text-mining platform"
+            ],
+            "Results": [
+              "Automatic speech recognition provides a textual representation",
+              "natural language processing can extract named entities from the voice-over recording",
+              "automatic visual analysis is applied to detect and recognize faces of well-known characters in videos",
+              "These multifaceted data can then be queried and explored with the TXM text-mining platform."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The results of these automatic analysis processes are feeding the Okapi platform, a client-server software that integrates documentation, information retrieval, and hypermedia capabilities within a single environment based on the Semantic Web standards. The complete corpus of Les Actualités Françaises, enriched with data and metadata, will be made available to the scientific community by the end of the project.",
+          "Main Action": "are feeding",
+          "Arguments": {
+            "Agent": [
+              "these automatic analysis processes"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the Okapi platform"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a client-server software that integrates documentation, information retrieval, and hypermedia capabilities within a single environment based on the Semantic Web standards"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "The results of these automatic analysis processes are feeding the Okapi platform",
+              "The complete corpus of Les Actualités Françaises, enriched with data and metadata, will be made available to the scientific community by the end of the project"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_54",
+      "abstract": "Zeynep Tufekci’s book Twitter and Tear Gas (Yale University Press; 2017) speaks to high-profile, anti-authoritarian networked protests. She engages with street protests and online movements to bring new perspectives and dialogues on the need for reconfiguration of digitally networked online spaces, and the trajectories of these social movements online. Her work contributes to scholarship in digital activism, and digital humanities in the context of networked movements.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Zeynep Tufekci’s book Twitter and Tear Gas (Yale University Press; 2017) speaks to high-profile, anti-authoritarian networked protests.",
+          "Main Action": "speaks to",
+          "Arguments": {
+            "Agent": [
+              "Zeynep Tufekci’s book Twitter and Tear Gas (Yale University Press; 2017)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "high-profile, anti-authoritarian networked protests"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "She engages with street protests and online movements to bring new perspectives and dialogues on the need for reconfiguration of digitally networked online spaces, and the trajectories of these social movements online.",
+          "Main Action": "engages with",
+          "Arguments": {
+            "Agent": [
+              "She"
+            ],
+            "Object": {
+              "Primary Object": [
+                "street protests and online movements"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to bring new perspectives and dialogues on the need for reconfiguration of digitally networked online spaces, and the trajectories of these social movements online"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Her work contributes to scholarship in digital activism, and digital humanities in the context of networked movements.",
+          "Main Action": "contributes to scholarship",
+          "Arguments": {
+            "Agent": [
+              "Her work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "scholarship in digital activism"
+              ],
+              "Secondary Object": [
+                "digital humanities in the context of networked movements"
+              ]
+            },
+            "Context": [
+              "in the context of networked movements"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Her work contributes to scholarship in digital activism",
+              "digital humanities in the context of networked movements"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

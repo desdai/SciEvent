@@ -1,0 +1,338 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_87",
+      "abstract": "How can online communities execute a focused vision for their space? Curation offers one approach, where community leaders manually select content to share with the community. Curation enables leaders to shape a space that matches their taste, norms, and values, but the practice is often intractable at social media scale: curators cannot realistically sift through hundreds or thousands of submissions daily. In this paper, we contribute algorithmic and interface foundations enabling curation at scale, and manifest these foundations in a system called Cura. Our approach draws on the observation that, while curators' attention is limited, other community members' upvotes are plentiful and informative of curators' likely opinions. We thus contribute a transformer-based curation model that predicts whether each curator will upvote a post based on previous community upvotes. Cura applies this curation model to create a feed of content that it predicts the curator would want in the community. Evaluations demonstrate that the curation model accurately estimates opinions of diverse curators, that changing curators for a community results in clearly recognizable shifts in the community's content, and that, consequently, curation can reduce anti-social behavior by half without extra moderation effort. By sampling different types of curators, Cura lowers the threshold to genres of curated social media ranging from editorial groups to stakeholder roundtables to democracies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "How can online communities execute a focused vision for their space? Curation offers one approach, where community leaders manually select content to share with the community. Curation enables leaders to shape a space that matches their taste, norms, and values, but the practice is often intractable at social media scale: curators cannot realistically sift through hundreds or thousands of submissions daily.",
+          "Main Action": "have",
+          "Arguments": {
+            "Agent": [
+              "Online communities"
+            ],
+            "Object": {
+              "Primary Object": [
+                "executed a focused vision for their space"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Curators manually select content to share with the community"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "curators cannot realistically sift through hundreds or thousands of submissions daily"
+            ],
+            "Challenge": [
+              "online communities grow too large for manual curation to remain feasible"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we contribute algorithmic and interface foundations enabling curation at scale, and manifest these foundations in a system called Cura. Our approach draws on the observation that, while curators' attention is limited, other community members' upvotes are plentiful and informative of curators' likely opinions. We thus contribute a transformer-based curation model that predicts whether each curator will upvote a post based on previous community upvotes. Cura applies this curation model to create a feed of content that it predicts the curator would want in the community.",
+          "Main Action": "contributing algorithmic and interface foundations enabling curation at scale",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "curation at scale"
+              ],
+              "Secondary Object": [
+                "system called Cura"
+              ]
+            },
+            "Context": [
+              "enabling curation at scale"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Evaluations demonstrate that the curation model accurately estimates opinions of diverse curators, that changing curators for a community results in clearly recognizable shifts in the community's content, and that, consequently, curation can reduce anti-social behavior by half without extra moderation effort.",
+          "Main Action": "accurately estimates opinions of diverse curators",
+          "Arguments": {
+            "Agent": [
+              "the curation model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "opinions of diverse curators"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "changing curators for a community results in clearly recognizable shifts in the community's content",
+              "consequently, curation can reduce anti-social behavior by half without extra moderation effort"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "that changing curators for a community results in clearly recognizable shifts in the community's content",
+              "that curation can reduce anti-social behavior by half without extra moderation effort"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a community results in clearly recognizable shifts in the community's content",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "By sampling different types of curators, Cura lowers the threshold to genres of curated social media ranging from editorial groups to stakeholder roundtables to democracies.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_127",
+      "abstract": "Online harassment and content moderation have been well-documented in online communities. However, new contexts and systems always bring new ways of harassment and need new moderation mechanisms. This study focuses on hate raids, a form of group attack in real-time in live streaming communities. Through a qualitative analysis of hate raids discussion in the Twitch subreddit (r/Twitch), we found that (1) hate raids as a human-bot coordinated group attack leverages the live stream system to attack marginalized streamers and other potential groups with(out) breaking the rules, (2) marginalized streamers suffer compound harms with insufficient support from the platform, (3) moderation strategies are overwhelmingly technical, but streamers still struggle to balance moderation and participation considering their marginalization status and needs. We use affordances as a lens to explain how hate raids happens in live streaming systems and propose moderation-by-design as a lens when developing new features or systems to mitigate the potential abuse of such designs.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Online harassment and content moderation have been well-documented in online communities. However, new contexts and systems always bring new ways of harassment and need new moderation mechanisms. This study focuses on hate raids, a form of group attack in real-time in live streaming communities.",
+          "Main Action": "have been documented",
+          "Arguments": {
+            "Agent": [
+              "online communities"
+            ],
+            "Object": {
+              "Primary Object": [
+                "online harassment and content moderation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "new contexts and systems always bring new ways of harassment and need new moderation mechanisms"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "hate raids, a form of group attack in real-time in live streaming communities"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through a qualitative analysis of hate raids discussion in the Twitch subreddit (r/Twitch), we found that (1) hate raids as a human-bot coordinated group attack leverages the live stream system to attack marginalized streamers and other potential groups with(out) breaking the rules, (2) marginalized streamers suffer compound harms with insufficient support from the platform, (3) moderation strategies are overwhelmingly technical, but streamers still struggle to balance moderation and participation considering their marginalization status and needs.",
+          "Main Action": "have extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Qualitative analysis of hate raids discussion in the Twitch subreddit (r/Twitch)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "hate raids as a human-bot coordinated group attack"
+              ],
+              "Secondary Object": [
+                "marginalized streamers"
+              ]
+            },
+            "Context": [
+              "effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "moderation strategies are overwhelmingly technical, but streamers still struggle to balance moderation and participation considering their marginalization status and needs"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "attack marginalized streamers and other potential groups without breaking the rules",
+              "compound harms with insufficient support from the platform"
+            ],
+            "Analysis": [
+              "as in human SLA, language family distance predicts more negative transfer",
+              "conversational speech data shows greater facilitation for language acquisition than scripted speech data"
+            ],
+            "Challenge": [
+              "graph model must be coverage-preserving",
+              "risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We use affordances as a lens to explain how hate raids happens in live streaming systems and propose moderation-by-design as a lens when developing new features or systems to mitigate the potential abuse of such designs.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Moderation-by-design as a lens when developing new features or systems to mitigate the potential abuse of such designs"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "when developing new features or systems to mitigate the potential abuse of such designs"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_26",
+      "abstract": "The annotation process of sign language corpora in terms of glosses, is a highly labor-intensive task, but a condition for a reliable quantitative analysis. During the annotation process the researcher typically defines the precise time slot in which a sign occurs and then enters the appropriate gloss for the sign. The aim of this project is to develop a set of tools to assist the annotation of the signs and their formal features in a video irrespectively of its content and quality. Recent advances in the field of deep learning have led to the development of accurate and fast pose estimation frameworks. In this study, such a framework (namely OpenPose) has been used to develop three different methods and tools to facilitate the annotation process. The first tool estimates the span of a sign sequence and creates empty slots in an annotation file. The second tool detects whether a sign is one- or two-handed. The last tool recognizes the different handshapes presented in a video sample. All tools can be easily re-trained to fit the needs of the researcher.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The annotation process of sign language corpora in terms of glosses, is a highly labor-intensive task, but a condition for a reliable quantitative analysis. During the annotation process the researcher typically defines the precise time slot in which a sign occurs and then enters the appropriate gloss for the sign.",
+          "Main Action": "defines",
+          "Arguments": {
+            "Agent": [
+              "researcher"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "annotation process of sign language corpora in terms of glosses"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "precise time slot"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "highly labor-intensive task"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The aim of this project is to develop a set of tools to assist the annotation of the signs and their formal features in a video irrespectively of its content and quality. Recent advances in the field of deep learning have led to the development of accurate and fast pose estimation frameworks. In this study, such a framework (namely OpenPose) has been used to develop three different methods and tools to facilitate the annotation process. The first tool estimates the span of a sign sequence and creates empty slots in an annotation file. The second tool detects whether a sign is one- or two-handed. The last tool recognizes the different handshapes presented in a video sample.",
+          "Main Action": "develop",
+          "Arguments": {
+            "Agent": [
+              "a set of tools"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "assist the annotation of the signs and their formal features in a video irrespectively of its content and quality."
+            ],
+            "Purpose": [
+              "to develop a set of tools"
+            ],
+            "Method": [
+              "such a framework namely OpenPose"
+            ],
+            "Results": [
+              "three different methods and tools to facilitate the annotation process"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "All tools can be easily re-trained to fit the needs of the researcher.",
+          "Main Action": "can be easily re-trained",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "to fit the needs"
+            ],
+            "Purpose": [
+              "of the researcher"
+            ],
+            "Method": [
+              "all tools"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_07",
+      "abstract": "Since there has been a recent trend to establishing virtual museums, which various institutions have swiftly responded to, the objective of this paper is to understand the nature of virtual and/or digital museums by focusing on their particular characteristics. In this approach, the paper proceeds from the assumption that museum representations in the virtual space and/or virtual museums could extend conventional or physical museum space, leading to enhanced visitor attraction and experience. The paper thus focuses on the virtual museum as an interdisciplinary and transdisciplinary object of investigation from the perspective of museology and digital humanities and seeks to ascertain whether scholarly and practical impacts are achieved. It also analyses the expected impacts on practical museum work and visitor needs, especially with respect to the tasks museums are required to fulfil in times of crisis.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Since there has been a recent trend to establishing virtual museums, which various institutions have swiftly responded to, the objective of this paper is to understand the nature of virtual and/or digital museums by focusing on their particular characteristics.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "There has been a recent trend to establishing virtual museums,"
+            ],
+            "Purpose": [
+              "to understand the nature of virtual and/or digital museums"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this approach, the paper proceeds from the assumption that museum representations in the virtual space and/or virtual museums could extend conventional or physical museum space, leading to enhanced visitor attraction and experience. The paper thus focuses on the virtual museum as an interdisciplinary and transdisciplinary object of investigation from the perspective of museology and digital humanities and seeks to ascertain whether scholarly and practical impacts are achieved. It also analyses the expected impacts on practical museum work and visitor needs, especially with respect to the tasks museums are required to fulfil in times of crisis.",
+          "Main Action": "proceeds",
+          "Arguments": {
+            "Agent": [
+              "this"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "from the assumption that museum representations in the virtual space and/or virtual museums could extend conventional or physical museum space,"
+            ],
+            "Purpose": [
+              "leading to enhanced visitor attraction and experience."
+            ],
+            "Method": [
+              "The paper thus focuses on the virtual museum as an interdisciplinary and transdisciplinary object of investigation from the perspective of museology and digital humanities"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "and seeks to ascertain whether scholarly and practical impacts are achieved.",
+              "It also analyses the expected impacts on practical museum work and visitor needs,"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

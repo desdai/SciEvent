@@ -1,0 +1,335 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_58",
+      "abstract": "Is hierarchical XML apt for the encoding of complex manuscript materials? Some scholars have argued that texts are non-hierarchical entities and that XML therefore is inadequate. This paper argues that the nature of text is such that it supports both hierarchical and non-hierarchical representations. The paper distinguishes (1) texts from documents and document carriers, (2) writing from “texting”, (3) actions that can be performed by one agent only from actions that require at least two agents to come about (“shared actions”), (4) finite actions from potentially infinitely ongoing actions. Texts are described as potentially infinitely ongoing shared actions which are co-produced by author and reader agents. This makes texts into entities that are more akin to events than to objects or properties, and shows, moreover, that texts are dependent on human understanding and thus mind-dependent entities. One consequence from this is that text encoding needs to be recognized as an act participating in texting which in turn makes hierarchical XML as apt a markup for “text representation”, or rather: for texting, as non-hierarchical markup. The encoding practices of the Bergen Wittgenstein Archives (WAB) serve as the main touchstone for my discussion.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Is hierarchical XML apt for the encoding of complex manuscript materials? Some scholars have argued that texts are non-hierarchical entities and that XML therefore is inadequate. This paper argues that the nature of text is such that it supports both hierarchical and non-hierarchical representations.",
+          "Main Action": "argues",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that the nature of text is such that it supports both hierarchical and non-hierarchical representations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Is hierarchical XML apt for the encoding of complex manuscript materials?",
+              "Some scholars have argued that texts are non-hierarchical entities and that XML therefore is inadequate."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "Some scholars have argued that texts are non-hierarchical entities and that XML therefore is inadequate."
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The paper distinguishes (1) texts from documents and document carriers, (2) writing from “texting”, (3) actions that can be performed by one agent only from actions that require at least two agents to come about (“shared actions”), (4) finite actions from potentially infinitely ongoing actions. Texts are described as potentially infinitely ongoing shared actions which are co-produced by author and reader agents.",
+          "Main Action": "distinguishes",
+          "Arguments": {
+            "Agent": [
+              "The paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "(1) texts from documents and document carriers",
+                "(2) writing from “texting”",
+                "(3) actions that can be performed by one agent only from actions that require at least two agents to come about (“shared actions”)",
+                "(4) finite actions from potentially infinitely ongoing actions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Texts are described as potentially infinitely ongoing shared actions which are co-produced by author and reader agents."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "This makes texts into entities that are more akin to events than to objects or properties, and shows, moreover, that texts are dependent on human understanding and thus mind-dependent entities.",
+          "Main Action": "shows",
+          "Arguments": {
+            "Agent": [
+              "this"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that texts are dependent on human understanding and thus mind-dependent entities"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This makes texts into entities that are more akin to events than to objects or properties"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "One consequence from this is that text encoding needs to be recognized as an act participating in texting which in turn makes hierarchical XML as apt a markup for “text representation”, or rather: for texting, as non-hierarchical markup. The encoding practices of the Bergen Wittgenstein Archives (WAB) serve as the main touchstone for my discussion.",
+          "Main Action": "serve as",
+          "Arguments": {
+            "Agent": [
+              "The encoding practices of the Bergen Wittgenstein Archives (WAB)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the main touchstone for my discussion"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "One consequence from this is that text encoding needs to be recognized as an act participating in texting which in turn makes hierarchical XML as apt a markup for “text representation”, or rather: for texting, as non-hierarchical markup."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_20",
+      "abstract": "This article presents a case study of Kinolab, a digital platform for the analysis of narrative film language. It describes the need for a scholarly database of clips focusing on film language for cinema and media studies faculty and students, highlighting recent technological and legal advances that have created a favorable environment for this kind of digital humanities work. Discussion of the project is situated within the broader context of contemporary developments in moving image annotation and a discussion of the unique challenges posed by computationally-driven moving image analysis. The article also argues for a universally accepted data model for film language to facilitate the academic crowdsourcing of film clips and the sharing of research and resources across the Semantic Web.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This article presents a case study of Kinolab, a digital platform for the analysis of narrative film language. It describes the need for a scholarly database of clips focusing on film language for cinema and media studies faculty and students, highlighting recent technological and legal advances that have created a favorable environment for this kind of digital humanities work.",
+          "Main Action": "presents",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a case study of Kinolab, a digital platform for the analysis of narrative film language"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Discussion of the project is situated within the broader context of contemporary developments in moving image annotation and a discussion of the unique challenges posed by computationally-driven moving image analysis.",
+          "Main Action": "is situated",
+          "Arguments": {
+            "Agent": [
+              "Discussion of the project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "within the broader context of contemporary developments in moving image annotation"
+              ],
+              "Secondary Object": [
+                "a discussion of the unique challenges posed by computationally-driven moving image analysis"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "the unique challenges posed by computationally-driven moving image analysis"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The article also argues for a universally accepted data model for film language to facilitate the academic crowdsourcing of film clips and the sharing of research and resources across the Semantic Web.",
+          "Main Action": "argues for",
+          "Arguments": {
+            "Agent": [
+              "The article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a universally accepted data model for film language"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to facilitate the academic crowdsourcing of film clips and the sharing of research and resources across the Semantic Web"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

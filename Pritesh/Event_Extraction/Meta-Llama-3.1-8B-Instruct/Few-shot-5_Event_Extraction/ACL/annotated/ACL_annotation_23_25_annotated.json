@@ -1,0 +1,291 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_783",
+      "abstract": "Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias the model’s predictions. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact. In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model’s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks. The gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias the model’s predictions. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Various"
+            ],
+            "Object": {
+              "Primary Object": [
+                "design settings"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "for in-context learning (ICL)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "bias the model’s predictions"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model’s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks.",
+          "Main Action": "define",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a typology"
+              ],
+              "Secondary Object": [
+                "for three types of label biases"
+              ]
+            },
+            "Context": [
+              "in ICL for text classification"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Prior label bias calibration methods fall short of addressing all three types of biases."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "he gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL.",
+          "Main Action": "gain is substantial",
+          "Arguments": {
+            "Agent": [
+              "tasks with large domain-label bias"
+            ],
+            "Object": {
+              "Primary Object": [
+                "on tasks with large domain-label bias"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "up to 37%",
+              "Macro-F1"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "label biases in ICL",
+              "prevalence of label biases in ICL"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_139",
+      "abstract": "Multimodal sarcasm detection is an important research topic in natural language processing and multimedia computing, and benefits a wide range of applications in multiple domains. Most existing studies regard the incongruity between image and text as the indicative clue in identifying multimodal sarcasm. To capture cross-modal incongruity, previous methods rely on fixed architectures in network design, which restricts the model from dynamically adjusting to diverse image-text pairs. Inspired by routing-based dynamic network, we model the dynamic mechanism in multimodal sarcasm detection and propose the Dynamic Routing Transformer Network (DynRT-Net). Our method utilizes dynamic paths to activate different routing transformer modules with hierarchical co-attention adapting to cross-modal incongruity. Experimental results on a public dataset demonstrate the effectiveness of our method compared to the state-of-the-art methods.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Multimodal sarcasm detection is an important research topic in natural language processing and multimedia computing, and benefits a wide range of applications in multiple domains. Most existing studies regard the incongruity between image and text as the indicative clue in identifying multimodal sarcasm. To capture cross-modal incongruity, previous methods rely on fixed architectures in network design, which restricts the model from dynamically adjusting to diverse image-text pairs.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Inspired by routing-based dynamic network, we model the dynamic mechanism in multimodal sarcasm detection and propose the Dynamic Routing Transformer Network (DynRT-Net). Our method utilizes dynamic paths to activate different routing transformer modules with hierarchical co-attention adapting to cross-modal incongruity.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results on a public dataset demonstrate the effectiveness of our method compared to the state-of-the-art methods.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a collaborative project"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "communities interested in Gə'əz language texts",
+              "other under-resourced manuscript traditions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "an easy-to-use open-source tool"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

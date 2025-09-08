@@ -1,0 +1,196 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_17",
+      "abstract": "This paper focuses on the practical realities of implementing the most common minimal computing methods for web development. It addresses the amount of technically-oriented detail-work required to configure the complex set of components that underpin widely-used platforms for static site generation. When going 'minimal' requires a great deal of technical labor, what implications does that have for its adoption by scholars without ongoing technical support, or the money or connections to delegate that work? What is the added emotional labor for technical collaborators who are only allowed to 'consult' with scholars, when they attempt to coach scholars through implementing a minimal computing site on their own? What opportunities are lost when a web development methodology cannot reasonably be taught in a hands-on way in a short workshop? After describing these challenges, this paper proposes that an infrastructural intervention — encompassing everything from writing better documentation, tutorials, and templates, to developing interfaces that mediate between users and technical complexity — is necessary to realize the potential of minimal computing as a framework for sustainable websites.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper focuses on the practical realities of implementing the most common minimal computing methods for web development. It addresses the amount of technically-oriented detail-work required to configure the complex set of components that underpin widely-used platforms for static site generation.",
+          "Main Action": "focuses on",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "practical realities of implementing the most common minimal computing methods for web development"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "underpin widely-used platforms for static site generation"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "When going 'minimal' requires a great deal of technical labor, what implications does that have for its adoption by scholars without ongoing technical support, or the money or connections to delegate that work? What is the added emotional labor for technical collaborators who are only allowed to 'consult' with scholars, when they attempt to coach scholars through implementing a minimal computing site on their own? What opportunities are lost when a web development methodology cannot reasonably be taught in a hands-on way in a short workshop? After describing these challenges, this paper proposes that an infrastructural intervention — encompassing everything from writing better documentation, tutorials, and templates, to developing interfaces that mediate between users and technical complexity — is necessary to realize the potential of minimal computing as a framework for sustainable websites.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an infrastructural intervention"
+              ],
+              "Secondary Object": [
+                "everything from writing better documentation, tutorials, and templates, to developing interfaces that mediate between users and technical complexity"
+              ]
+            },
+            "Context": [
+              "After describing these challenges"
+            ],
+            "Purpose": [
+              "to realize the potential of minimal computing as a framework for sustainable websites"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_29",
+      "abstract": "The purpose of this paper is to introduce Linked data from TEI (LIFT), an open-source tool written as a set of Python scripts for generating linked data from TEI-encoded texts. LIFT’s goal is to walk users through the transformation process from TEI to linked data step by step, as well as to promote a better understanding of the theoretical and methodological aspects that underpin the transformation. LIFT was created in the context of the University of Bologna’s Master Degree in Digital Humanities and Digital Knowledge as a teaching tool for students encountering linked open data for the first time as a method of organizing and publishing cultural knowledge and, specifically, digital scholarly editions on the web in a perspective of data integration.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The purpose of this paper is to introduce Linked data from TEI (LIFT), an open-source tool written as a set of Python scripts for generating linked data from TEI-encoded texts.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Linked data from TEI (LIFT)"
+              ],
+              "Secondary Object": [
+                "an open-source tool written as a set of Python scripts"
+              ]
+            },
+            "Context": [
+              "generating linked data from TEI-encoded texts"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "LIFT’s goal is to walk users through the transformation process from TEI to linked data step by step, as well as to promote a better understanding of the theoretical and methodological aspects that underpin the transformation. LIFT was created in the context of the University of Bologna’s Master Degree in Digital Humanities and Digital Knowledge as a teaching tool for students encountering linked open data for the first time as a method of organizing and publishing cultural knowledge and, specifically, digital scholarly editions on the web in a perspective of data integration.",
+          "Main Action": "walk users through",
+          "Arguments": {
+            "Agent": [
+              "LIFT"
+            ],
+            "Object": {
+              "Primary Object": [
+                "users"
+              ],
+              "Secondary Object": [
+                "transformation process from TEI to linked data"
+              ]
+            },
+            "Context": [
+              "University of Bologna’s Master Degree in Digital Humanities and Digital Knowledge as a teaching tool for students encountering linked open data for the first time as a method of organizing and publishing cultural knowledge and, specifically, digital scholarly editions on the web in a perspective of data integration"
+            ],
+            "Purpose": [
+              "to promote a better understanding of the theoretical and methodological aspects that underpin the transformation"
+            ],
+            "Method": [
+              "step by step"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

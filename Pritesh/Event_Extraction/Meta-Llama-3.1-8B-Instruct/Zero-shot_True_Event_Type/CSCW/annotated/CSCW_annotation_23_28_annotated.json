@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_28",
+      "abstract": "Technology use in acute care has so far been studied with a predominant focus on safety and efficiency rather than the experience of acute care staff. In the present paper, we report a qualitative study including 130 hours of participant observation on acute care teams and retrospective interviews with nine anesthesiologists on their experiences with technology. Our approach is theoretically guided by four modern HCI perspectives, namely psychological need satisfaction, activity theory, embodied interaction, and media equation theory. We analyzed the interview and observation data using a reflexive thematic analysis and identified four themes. Technology as necessary (evil) describes the pervasiveness of technology and how acute care teams depend on technology. While technology as second patient covers the additional load for anesthesiologists on a functional and emotional level, technology as problem solver and safety net highlights relieving aspects of technology use. Technology as artificial limb focuses on so-called transparent tools that extend the body and capabilities of users. We then discuss the identified themes concerning the previously presented theories. Based on our findings and theoretical perspectives, we report general insights for research and design in acute care, such as the benefits of mixed methods or the importance of the gut feelings of experts. Finally, we propose possible directions for future work, such as developing a UX questionnaire adapted to the context of safety-critical domains, such as acute care.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Technology use in acute care has so far been studied with a predominant focus on safety and efficiency rather than the experience of acute care staff.",
+          "Main Action": "has",
+          "Arguments": {
+            "Agent": [
+              "acute care staff"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in acute care"
+            ],
+            "Purpose": [
+              "rather than the experience"
+            ],
+            "Method": [
+              "so far been studied"
+            ],
+            "Results": [
+              "safety and efficiency"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In the present paper, we report a qualitative study including 130 hours of participant observation on acute care teams and retrospective interviews with nine anesthesiologists on their experiences with technology. Our approach is theoretically guided by four modern HCI perspectives, namely psychological need satisfaction, activity theory, embodied interaction, and media equation theory. We analyzed the interview and observation data using a reflexive thematic analysis and identified four themes.",
+          "Main Action": "report",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "a qualitative study",
+              "including 130 hours of participant observation",
+              "on acute care teams",
+              "and retrospective interviews"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Technology as necessary (evil) describes the pervasiveness of technology and how acute care teams depend on technology. While technology as second patient covers the additional load for anesthesiologists on a functional and emotional level, technology as problem solver and safety net highlights relieving aspects of technology use. Technology as artificial limb focuses on so-called transparent tools that extend the body and capabilities of users. We then discuss the identified themes concerning the previously presented theories.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "concerning the previously presented theories"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Based on our findings and theoretical perspectives, we report general insights for research and design in acute care, such as the benefits of mixed methods or the importance of the gut feelings of experts. Finally, we propose possible directions for future work, such as developing a UX questionnaire adapted to the context of safety-critical domains, such as acute care.",
+          "Main Action": "report",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "our findings and theoretical perspectives"
+            ],
+            "Purpose": [
+              "general insights for research and design in acute care"
+            ],
+            "Method": [
+              "developing a UX questionnaire adapted to the context of safety-critical domains"
+            ],
+            "Results": [
+              "possible directions for future work"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "benefits of mixed methods or the importance of the gut feelings of experts"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_55",
+      "abstract": "Socially assistive robots play an effective role in children's therapy and education. Robots engage children and provide interaction that is free of the potential judgment of human peers and adults. Research in socially assistive robots for children generally focuses on therapeutic and educational outcomes for those children, informed by a vision of autonomous robots. This perspective ignores therapists and educators, who operate these robots in practice. Through nine interviews with individuals who have used robots to deliver socially assistive services to neurodivergent children, we (1) define a dual-cycle model of therapy that helps capture the domain expert view of therapy, (2) identify six core themes of teleoperator needs and patterns across these themes, (3) provide high-level guidelines and detailed recommendations for designing teleoperated socially assistive robot systems, and (4) outline a vision of robot-assisted therapy informed by these guidelines and recommendations that centers teleoperators of socially assistive robots in practice.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Socially assistive robots play an effective role in children's therapy and education. Robots engage children and provide interaction that is free of the potential judgment of human peers and adults. Research in socially assistive robots for children generally focuses on therapeutic and educational outcomes for those children, informed by a vision of autonomous robots. This perspective ignores therapists and educators, who operate these robots in practice.",
+          "Main Action": "play",
+          "Arguments": {
+            "Agent": [
+              "socially assistive robots"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "children's therapy and education"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "potential judgment of human peers and adults"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "a vision of autonomous robots"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Through nine interviews with individuals who have used robots to deliver socially assistive services to neurodivergent children, we (1) define a dual-cycle model of therapy that helps capture the domain expert view of therapy, (2) identify six core themes of teleoperator needs and patterns across these themes, (3) provide high-level guidelines and detailed recommendations for designing teleoperated socially assistive robot systems, and (4) outline a vision of robot-assisted therapy informed by these guidelines and recommendations that centers teleoperators of socially assistive robots in practice.",
+          "Main Action": "define",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a dual-cycle model of therapy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "nine interviews with individuals who have used robots to deliver socially assistive services to neurodivergent children"
+            ],
+            "Purpose": [
+              "helps capture the domain expert view of therapy"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

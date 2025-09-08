@@ -1,0 +1,341 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_891",
+      "abstract": "Multitask prompted finetuning (MTF) has been shown to help large language models generalize to new tasks in a zero-shot setting, but so far explorations of MTF have focused on English data and models. We apply MTF to the pretrained multilingual BLOOM and mT5 model families to produce finetuned variants called BLOOMZ and mT0. We find finetuning large multilingual language models on English tasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus. Finetuning on multilingual tasks with English prompts further improves performance on English and non-English tasks leading to various state-of-the-art zero-shot results. We also investigate finetuning on multilingual tasks with prompts that have been machine-translated from English to match the language of each dataset. We find training on these machine-translated prompts leads to better performance on human-written prompts in the respective languages. Surprisingly, we find models are capable of zero-shot generalization to tasks in languages they have never intentionally seen. We conjecture that the models are learning higher-level capabilities that are both task- and language-agnostic. In addition, we introduce xP3, a composite of supervised datasets in 46 languages with English and machine-translated prompts.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Multitask prompted finetuning (MTF) has been shown to help large language models generalize to new tasks in a zero-shot setting, but so far explorations of MTF have focused on English data and models.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Multitask prompted finetuning"
+            ],
+            "Object": {
+              "Primary Object": [
+                "large language models"
+              ],
+              "Secondary Object": [
+                "new tasks"
+              ]
+            },
+            "Context": [
+              "has been shown to help",
+              "in a zero-shot setting"
+            ],
+            "Purpose": [
+              "to generalize to new tasks"
+            ],
+            "Method": [
+              "multitask prompted finetuning"
+            ],
+            "Results": [
+              "helps large language models generalize to new tasks in a zero-shot setting"
+            ],
+            "Analysis": [
+              "so far explorations of MTF have focused on English data and models"
+            ],
+            "Challenge": [
+              "none mentioned"
+            ],
+            "Ethical": [
+              "none mentioned"
+            ],
+            "Implications": [
+              "none mentioned"
+            ],
+            "Contradictions": [
+              "none mentioned"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We apply MTF to the pretrained multilingual BLOOM and mT5 model families to produce finetuned variants called BLOOMZ and mT0. We find finetuning large multilingual language models on English tasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus. Finetuning on multilingual tasks with English prompts further improves performance on English and non-English tasks leading to various state-of-the-art zero-shot results.",
+          "Main Action": "apply",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "MTF",
+                "pretrained multilingual BLOOM and mT5 model families"
+              ],
+              "Secondary Object": [
+                "BLOOMZ and mT0"
+              ]
+            },
+            "Context": [
+              "finetuning large multilingual language models on English tasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus"
+            ],
+            "Purpose": [
+              "to produce finetuned variants"
+            ],
+            "Method": [
+              "applying MTF to the pretrained multilingual BLOOM and mT5 model families"
+            ],
+            "Results": [
+              "finds finetuning large multilingual language models on English tasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus",
+              "finetuning on multilingual tasks with English prompts further improves performance on English and non-English tasks"
+            ],
+            "Analysis": [
+              "leading to various state-of-the-art zero-shot results"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We also investigate finetuning on multilingual tasks with prompts that have been machine-translated from English to match the language of each dataset. We find training on these machine-translated prompts leads to better performance on human-written prompts in the respective languages. Surprisingly, we find models are capable of zero-shot generalization to tasks in languages they have never intentionally seen. We conjecture that the models are learning higher-level capabilities that are both task- and language-agnostic.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "finetuning on multilingual tasks with prompts that have been machine-translated from English to match the language of each dataset"
+              ],
+              "Secondary Object": [
+                "models"
+              ]
+            },
+            "Context": [
+              "also investigation"
+            ],
+            "Purpose": [
+              "better performance on human-written prompts in the respective languages"
+            ],
+            "Method": [
+              "training on these machine-translated prompts"
+            ],
+            "Results": [
+              "leads to better performance on human-written prompts in the respective languages"
+            ],
+            "Analysis": [
+              "surprisingly, we find models are capable of zero-shot generalization to tasks in languages they have never intentionally seen; we conjecture that the models are learning higher-level capabilities that are both task- and language-agnostic"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In addition, we introduce xP3, a composite of supervised datasets in 46 languages with English and machine-translated prompts.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "xP3"
+              ],
+              "Secondary Object": [
+                "composite of supervised datasets in 46 languages with English and machine-translated prompts"
+              ]
+            },
+            "Context": [
+              "in addition"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_697",
+      "abstract": "In the last five years, there has been a significant focus in Natural Language Processing (NLP) on developing larger Pretrained Language Models (PLMs) and introducing benchmarks such as SuperGLUE and SQuAD to measure their abilities in language understanding, reasoning, and reading comprehension. These PLMs have achieved impressive results on these benchmarks, even surpassing human performance in some cases. This has led to claims of superhuman capabilities and the provocative idea that certain tasks have been solved. In this position paper, we take a critical look at these claims and ask whether PLMs truly have superhuman abilities and what the current benchmarks are really evaluating. We show that these benchmarks have serious limitations affecting the comparison between humans and PLMs and provide recommendations for fairer and more transparent benchmarks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In the last five years, there has been a significant focus in Natural Language Processing (NLP) on developing larger Pretrained Language Models (PLMs) and introducing benchmarks such as SuperGLUE and SQuAD to measure their abilities in language understanding, reasoning, and reading comprehension. These PLMs have achieved impressive results on these benchmarks, even surpassing human performance in some cases. This has led to claims of superhuman capabilities and the provocative idea that certain tasks have been solved.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "there has been a significant focus"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Natural Language Processing (NLP)",
+                "larger Pretrained Language Models (PLMs)",
+                "benchmarks such as SuperGLUE and SQuAD"
+              ],
+              "Secondary Object": [
+                "impressive results",
+                "superhuman capabilities",
+                "certain tasks being solved"
+              ]
+            },
+            "Context": [
+              "In the last five years",
+              "developing larger Pretrained Language Models (PLMs)",
+              "introducing benchmarks such as SuperGLUE and SQuAD"
+            ],
+            "Purpose": [
+              "measure their abilities in language understanding, reasoning, and reading comprehension"
+            ],
+            "Method": [
+              "achieving impressive results on these benchmarks"
+            ],
+            "Results": [
+              "achieved impressive results on these benchmarks, even surpassing human performance in some cases"
+            ],
+            "Analysis": [
+              "This has led to claims of superhuman capabilities and the provocative idea that certain tasks have been solved"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broad significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this position paper, we take a critical look at these claims and ask whether PLMs truly have superhuman abilities and what the current benchmarks are really evaluating.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these claims"
+              ],
+              "Secondary Object": [
+                "PLMs",
+                "current benchmarks"
+              ]
+            },
+            "Context": [
+              "position paper"
+            ],
+            "Purpose": [
+              "take a critical look at these claims and ask whether PLMs truly have superhuman abilities and what the current benchmarks are really evaluating"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We show that these benchmarks have serious limitations affecting the comparison between humans and PLMs and provide recommendations for fairer and more transparent benchmarks.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these benchmarks"
+              ],
+              "Secondary Object": [
+                "serious limitations affecting the comparison between humans and PLMs"
+              ]
+            },
+            "Context": [
+              "benchmarks have serious limitations"
+            ],
+            "Purpose": [
+              "provide recommendations for fairer and more transparent benchmarks"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

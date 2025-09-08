@@ -1,0 +1,305 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_571",
+      "abstract": "Transformer encoders contextualize token representations by attending to all other tokens at each layer, leading to quadratic increase in compute effort with the input length. In practice, however, the input text of many NLP tasks can be seen as a sequence of related segments (e.g., the sequence of sentences within a passage, or the hypothesis and premise in NLI). While attending across these segments is highly beneficial for many tasks, we hypothesize that this interaction can be delayed until later encoding stages. To this end, we introduce Layer-Adjustable Interactions in Transformers (LAIT). Within LAIT, segmented inputs are first encoded independently, and then jointly. This partial two-tower architecture bridges the gap between a Dual Encoder’s ability to pre-compute representations for segments and a fully self-attentive Transformer’s capacity to model cross-segment attention. The LAIT framework effectively leverages existing pretrained Transformers and converts them into the hybrid of the two aforementioned architectures, allowing for easy and intuitive control over the performance-efficiency tradeoff. Experimenting on a wide range of NLP tasks, we find LAIT able to reduce 30-50% of the attention FLOPs on many tasks, while preserving high accuracy; in some practical settings, LAIT could reduce actual latency by orders of magnitude.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Transformer encoders contextualize token representations by attending to all other tokens at each layer, leading to quadratic increase in compute effort with the input length. In practice, however, the input text of many NLP tasks can be seen as a sequence of related segments (e.g., the sequence of sentences within a passage, or the hypothesis and premise in NLI). While attending across these segments is highly beneficial for many tasks, we hypothesize that this interaction can be delayed until later encoding stages.",
+          "Main Action": "transformer encoders contextualize token representations by attending to all other tokens at each layer",
+          "Arguments": {
+            "Agent": [
+              "transformer encoders"
+            ],
+            "Object": {
+              "Primary Object": [
+                "token representations"
+              ],
+              "Secondary Object": [
+                "sequence of related segments"
+              ]
+            },
+            "Context": [
+              "input text of many NLP tasks can be seen as a sequence of related segments"
+            ],
+            "Purpose": [
+              "we hypothesize that this interaction can be delayed until later encoding stages"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To this end, we introduce Layer-Adjustable Interactions in Transformers (LAIT). Within LAIT, segmented inputs are first encoded independently, and then jointly. This partial two-tower architecture bridges the gap between a Dual Encoder’s ability to pre-compute representations for segments and a fully self-attentive Transformer’s capacity to model cross-segment attention. The LAIT framework effectively leverages existing pretrained Transformers and converts them into the hybrid of the two aforementioned architectures, allowing for easy and intuitive control over the performance-efficiency tradeoff.",
+          "Main Action": "Introduce",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Layer-Adjusted Interactions in Transformers (LAIT)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Dual Encoder",
+              "Fully self-attentive Transformer"
+            ],
+            "Purpose": [
+              "Bridging the gap between a Dual Encoder’s ability to pre-compute representations for segments and a fully self-attentive Transformer’s capacity to model cross-segment attention"
+            ],
+            "Method": [
+              "Segmented inputs are first encoded independently, and then jointly.",
+              "Partial two-tower architecture"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimenting on a wide range of NLP tasks, we find LAIT able to reduce 30-50% of the attention FLOPs on many tasks, while preserving high accuracy; in some practical settings, LAIT could reduce actual latency by orders of magnitude.",
+          "Main Action": "Experimenting",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "attention FLOPs"
+              ],
+              "Secondary Object": [
+                "NLP tasks"
+              ]
+            },
+            "Context": [
+              "There is no additional contextual information provided."
+            ],
+            "Purpose": [
+              "To evaluate the effectiveness of LAIT in reducing computational resources while maintaining performance."
+            ],
+            "Method": [
+              "Testing across various NLP tasks to compare LAIT's impact on computational efficiency."
+            ],
+            "Results": [
+              "Reducing 30-50% of attention FLOPs on many tasks while preserving high accuracy; in some practical settings, reducing actual latency by orders of magnitude."
+            ],
+            "Analysis": [
+              "No explicit analysis is provided beyond the presented results."
+            ],
+            "Challenge": [
+              "None explicitly mentioned."
+            ],
+            "Ethical": [
+              "None explicitly mentioned."
+            ],
+            "Implications": [
+              "Potential for widespread adoption due to significant improvements in computational efficiency."
+            ],
+            "Contradictions": [
+              "None explicitly mentioned."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_196",
+      "abstract": "Entailment Graphs (EGs) have been constructed based on extracted corpora as a strong and explainable form to indicate context-independent entailment relation in natural languages. However, EGs built by previous methods often suffer from severe sparsity issues, due to limited corpora available and the long-tail phenomenon of predicate distributions. In this paper, we propose a multi-stage method, Typed Predicate-Entailment Graph Generator (TP-EGG), to tackle this problem. Given several seed predicates, TP-EGG builds the graphs by generating new predicates and detecting entailment relations among them. The generative nature of TP-EGG helps us leverage the recent advances from large pretrained language models (PLMs), while avoiding the reliance on carefully prepared corpora. Experiments on benchmark datasets show that TP-EGG can generate high-quality and scale-controllable entailment graphs, achieving significant in-domain improvement over state-of-the-art EGs and boosting the performance of downstream inference tasks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Entailment Graphs (EGs) have been constructed based on extracted corpora as a strong and explainable form to indicate context-independent entailment relation in natural languages. However, EGs built by previous methods often suffer from severe sparsity issues, due to limited corpora available and the long-tail phenomenon of predicate distributions.",
+          "Main Action": "Entailment Graphs (EGs) have been constructed based on extracted corpora",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Entailment Graphs (EGs)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "natural languages",
+              "context-independent entailment relation"
+            ],
+            "Purpose": [
+              "to indicate context-independent entailment relation"
+            ],
+            "Method": [
+              "extracted corpora",
+              "previous methods"
+            ],
+            "Results": [
+              "severe sparsity issues",
+              "long-tail phenomenon of predicate distributions"
+            ],
+            "Analysis": [
+              "sparsity issues",
+              "limited corpora",
+              "predicate distributions"
+            ],
+            "Challenge": [
+              "sparsity issues",
+              "long-tail phenomenon"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "strong and explainable form"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we propose a multi-stage method, Typed Predicate-Entailment Graph Generator (TP-EGG), to tackle this problem. Given several seed predicates, TP-EGG builds the graphs by generating new predicates and detecting entailment relations among them. The generative nature of TP-EGG helps us leverage the recent advances from large pretrained language models (PLMs), while avoiding the reliance on carefully prepared corpora.",
+          "Main Action": "Propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Typed Predicate-Entailment Graph Generator (TP-EGG)"
+              ],
+              "Secondary Object": [
+                "This problem"
+              ]
+            },
+            "Context": [
+              "Avoiding the reliance on carefully prepared corpora",
+              "Leveraging recent advances from large pretrained language models (PLMs)"
+            ],
+            "Purpose": [
+              "To tackle this problem",
+              "Creating a method that leverages existing resources"
+            ],
+            "Method": [
+              "Multi-stage method",
+              "Generating new predicates",
+              "Detecting entailment relations"
+            ],
+            "Results": [
+              "Building the graphs efficiently",
+              "Using advancements from PLMs"
+            ],
+            "Analysis": [
+              "Comparing with traditional methods",
+              "Effectiveness of TP-EGG"
+            ],
+            "Challenge": [
+              "Relying on carefully prepared corpora"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Opening new avenues for building predicate-entailment graphs",
+              "Accelerating research in related areas"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments on benchmark datasets show that TP-EGG can generate high-quality and scale-controllable entailment graphs, achieving significant in-domain improvement over state-of-the-art EGs and boosting the performance of downstream inference tasks.",
+          "Main Action": "can generate",
+          "Arguments": {
+            "Agent": [
+              "TP-EGG"
+            ],
+            "Object": {
+              "Primary Object": [
+                "entailment graphs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "benchmark datasets"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "comparing against state-of-the-art EGs"
+            ],
+            "Results": [
+              "high-quality and scale-controllable entailment graphs",
+              "significant in-domain improvement",
+              "boosting the performance of downstream inference tasks"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improved performance",
+              "benefits for downstream tasks",
+              "practical applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

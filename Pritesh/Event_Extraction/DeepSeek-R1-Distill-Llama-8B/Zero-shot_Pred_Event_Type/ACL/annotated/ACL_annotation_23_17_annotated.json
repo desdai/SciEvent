@@ -1,0 +1,341 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_780",
+      "abstract": "Theory of Mind (ToM)—the ability to reason about the mental states of other people—is a key element of our social intelligence. Yet, despite their ever more impressive performance, large-scale neural language models still lack basic theory of mind capabilities out-of-the-box. We posit that simply scaling up models will not imbue them with theory of mind due to the inherently symbolic and implicit nature of the phenomenon, and instead investigate an alternative: can we design a decoding-time algorithm that enhances theory of mind of off-the-shelf neural language models without explicit supervision? We present SymbolicToM, a plug-and-play approach to reason about the belief states of multiple characters in reading comprehension tasks via explicit symbolic representation. More concretely, our approach tracks each entity’s beliefs, their estimation of other entities’ beliefs, and higher-order levels of reasoning, all through graphical representations, allowing for more precise and interpretable reasoning than previous approaches. Empirical results on the well-known ToMi benchmark (Le et al., 2019) demonstrate that SymbolicToM dramatically enhances off-the-shelf neural networks’ theory of mind in a zero-shot setting while showing robust out-of-distribution performance compared to supervised baselines. Our work also reveals spurious patterns in existing theory of mind benchmarks, emphasizing the importance of out-of-distribution evaluation and methods that do not overfit a particular dataset.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Theory of Mind (ToM)—the ability to reason about the mental states of other people—is a key element of our social intelligence. Yet, despite their ever more impressive performance, large-scale neural language models still lack basic theory of mind capabilities out-of-the-box. We posit that simply scaling up models will not imbue them with theory of mind due to the inherently symbolic and implicit nature of the phenomenon, and instead investigate an alternative: can we design a decoding-time algorithm that enhances theory of mind of off-the-shelf neural language models without explicit supervision?",
+          "Main Action": "We investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a decoding-time algorithm"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "despite their ever more impressive performance, large-scale neural language models still lack basic theory of mind capabilities out-of-the-box",
+              "and instead investigate an alternative"
+            ],
+            "Purpose": [
+              "to investigate whether we can design"
+            ],
+            "Method": [
+              "decoding-time algorithm"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "due to the inherently symbolic and implicit nature of the phenomenon"
+            ],
+            "Challenge": [
+              "this is untested territory",
+              "they do not know if this approach will actually work",
+              "integrating this into existing models without disrupting their functionality"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "if successful, this could lead to significant advancements in how AI handles social interactions and Theory of Mind tasks"
+            ],
+            "Contradictions": [
+              "existing knowledge suggests that scaling alone may not be sufficient"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present SymbolicToM, a plug-and-play approach to reason about the belief states of multiple characters in reading comprehension tasks via explicit symbolic representation. More concretely, our approach tracks each entity’s beliefs, their estimation of other entities’ beliefs, and higher-order levels of reasoning, all through graphical representations, allowing for more precise and interpretable reasoning than previous approaches.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "SymbolicToM"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "provide a more precise and interpretable reasoning than previous approaches"
+            ],
+            "Method": [
+              "track each entity’s beliefs, their estimation of other entities’ beliefs, and higher-order levels of reasoning",
+              "graphical representations"
+            ],
+            "Results": [
+              "allowing for more precise and interpretable reasoning than previous approaches"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improving reasoning capabilities with broader applicability"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Empirical results on the well-known ToMi benchmark (Le et al., 2019) demonstrate that SymbolicToM dramatically enhances off-the-shelf neural networks’ theory of mind in a zero-shot setting while showing robust out-of-distribution performance compared to supervised baselines.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our work also reveals spurious patterns in existing theory of mind benchmarks, emphasizing the importance of out-of-distribution evaluation and methods that do not overfit a particular dataset",
+          "Main Action": "Revealing spurious patterns",
+          "Arguments": {
+            "Agent": [
+              "Our work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Existing theory of mind benchmarks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Theory of mind benchmarks"
+            ],
+            "Purpose": [
+              "Emphasizing the importance of out-of-distribution evaluation and methods that do not overfit a particular dataset"
+            ],
+            "Method": [
+              "Out-of-distribution evaluation and methods that do not overfit a particular dataset"
+            ],
+            "Results": [
+              "Revelation of spurious patterns in existing theory of mind benchmarks"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Importance of out-of-distribution evaluation and methods that do not overfit a particular dataset"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_88",
+      "abstract": "Visual Word Sense Disambiguation (VWSD) is a task to find the image that most accurately depicts the correct sense of the target word for the given context. Previously, image-text matching models often suffered from recognizing polysemous words. This paper introduces an unsupervised VWSD approach that uses gloss information of an external lexical knowledge-base, especially the sense definitions. Specifically, we suggest employing Bayesian inference to incorporate the sense definitions when sense information of the answer is not provided. In addition, to ameliorate the out-of-dictionary (OOD) issue, we propose a context-aware definition generation with GPT-3. Experimental results show that the VWSD performance significantly increased with our Bayesian inference-based approach. In addition, our context-aware definition generation achieved prominent performance improvement in OOD examples, exhibiting better performance than the existing definition generation method.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Visual Word Sense Disambiguation (VWSD) is a task to find the image that most accurately depicts the correct sense of the target word for the given context. Previously, image-text matching models often suffered from recognizing polysemous words.",
+          "Main Action": "Previously, image-text matching models often suffered from recognizing polysemous words",
+          "Arguments": {
+            "Agent": [
+              "image-text matching models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "polysemous words"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Visual Word Sense Disambiguation (VWSD) is a task to find the image that most accurately depicts the correct sense of the target word for the given context"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "The inability of image-text matching models to recognize polysemous words"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improving recognition accuracy for polysemous words may enhance downstream tasks such as image captioning and search engines"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper introduces an unsupervised VWSD approach that uses gloss information of an external lexical knowledge-base, especially the sense definitions. Specifically, we suggest employing Bayesian inference to incorporate the sense definitions when sense information of the answer is not provided. In addition, to ameliorate the out-of-dictionary (OOD) issue, we propose a context-aware definition generation with GPT-3.",
+          "Main Action": "This paper introduces",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an unsupervised VWSD approach"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "using gloss information of an external lexical knowledge-base, especially the sense definitions",
+              "to ameliorate the out-of-dictionary (OOD) issue"
+            ],
+            "Purpose": [
+              "employing Bayesian inference to incorporate the sense definitions when sense information of the answer is not provided",
+              "proposing a context-aware definition generation with GPT-3"
+            ],
+            "Method": [
+              "Bayesian inference",
+              "context-aware definition generation with GPT-3"
+            ],
+            "Results": [
+              "improving the out-of-dictionary (OOD) issue"
+            ],
+            "Analysis": [
+              "not explicitly mentioned"
+            ],
+            "Challenge": [
+              "not explicitly mentioned"
+            ],
+            "Ethical": [
+              "not explicitly mentioned"
+            ],
+            "Implications": [
+              "enhancing natural language processing tasks",
+              "providing better word definitions"
+            ],
+            "Contradictions": [
+              "not explicitly mentioned"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Experimental results show that the VWSD performance significantly increased with our Bayesian inference-based approach. In addition, our context-aware definition generation achieved prominent performance improvement in OOD examples, exhibiting better performance than the existing definition generation method.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    }
+  ]
+}

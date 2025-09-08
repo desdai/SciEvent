@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_179",
+      "abstract": "Algorithmic risk assessments are being deployed in an increasingly broad spectrum of domains including banking, medicine, and law enforcement. However, there is widespread concern about their fairness and trustworthiness, and people are also known to display algorithm aversion, preferring human assessments even when they are quantitatively worse. Thus, how does the framing of who made an assessment affect how people perceive its fairness? We investigate whether individual algorithmic assessments are perceived to be more or less accurate, fair, and interpretable than identical human assessments, and explore how these perceptions change when assessments are obviously biased against a subgroup. To this end, we conducted an online experiment that manipulated how biased risk assessments are in a loan repayment task, and reported the assessments as being made either by a statistical model or a human analyst. We find that predictions made by the model are consistently perceived as less fair and less interpretable than those made by the analyst despite being identical. Furthermore, biased predictive errors were more likely to widen this perception gap, with the algorithm being judged even more harshly for making a biased mistake. Our results illustrate that who makes risk assessments can influence perceptions of how acceptable those assessments are - even if they are identically accurate and identically biased against subgroups. Additional work is needed to determine whether and how decision aids should be presented to stakeholders so that the inherent fairness and interpretability of their recommendations, rather than their framing, determines how they are perceived.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Algorithmic risk assessments are being deployed in an increasingly broad spectrum of domains including banking, medicine, and law enforcement. However, there is widespread concern about their fairness and trustworthiness, and people are also known to display algorithm aversion, preferring human assessments even when they are quantitatively worse. Thus, how does the framing of who made an assessment affect how people perceive its fairness?",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We investigate whether individual algorithmic assessments are perceived to be more or less accurate, fair, and interpretable than identical human assessments, and explore how these perceptions change when assessments are obviously biased against a subgroup. To this end, we conducted an online experiment that manipulated how biased risk assessments are in a loan repayment task, and reported the assessments as being made either by a statistical model or a human analyst.",
+          "Main Action": "They reported the assessments as being made either by a statistical model or a human analyst.",
+          "Arguments": {
+            "Agent": [
+              "They"
+            ],
+            "Object": {
+              "Primary Object": [
+                "assessments"
+              ],
+              "Secondary Object": [
+                "risk assessments in a loan repayment task"
+              ]
+            },
+            "Context": [
+              "whether individual algorithmic assessments are perceived to be more or less accurate, fair, and interpretable than identical human assessments, and explore how these perceptions change when assessments are obviously biased against a subgroup"
+            ],
+            "Purpose": [
+              "To this end, they conducted an online experiment that manipulated how biased risk assessments are in a loan repayment task,"
+            ],
+            "Method": [
+              "online experiment that manipulated how biased risk assessments are in a loan repayment task"
+            ],
+            "Results": [
+              "reported the assessments as being made either by a statistical model or a human analyst"
+            ],
+            "Analysis": [
+              "This suggests that individuals perceive algorithmic and human assessments differently depending on their origin."
+            ],
+            "Challenge": [
+              "The study relies on self-reported perceptions, which may introduce biases."
+            ],
+            "Ethical": [
+              "The study raises questions about transparency and accountability in automated decision-making processes."
+            ],
+            "Implications": [
+              "These findings have significant implications for designing algorithms that inspire public trust."
+            ],
+            "Contradictions": [
+              "Previous studies may have assumed homogeneity in assessment quality across models and humans."
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We find that predictions made by the model are consistently perceived as less fair and less interpretable than those made by the analyst despite being identical. Furthermore, biased predictive errors were more likely to widen this perception gap, with the algorithm being judged even more harshly for making a biased mistake. Our results illustrate that who makes risk assessments can influence perceptions of how acceptable those assessments are - even if they are identically accurate and identically biased against subgroups.",
+          "Main Action": "We find",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "predictions made by the model"
+              ],
+              "Secondary Object": [
+                "biased predictive errors"
+              ]
+            },
+            "Context": [
+              "model versus analyst"
+            ],
+            "Purpose": [
+              "influence perceptions of acceptability"
+            ],
+            "Method": [
+              "accuracy and bias"
+            ],
+            "Results": [
+              "less fair and less interpretable; biased predictive errors widening perception gaps"
+            ],
+            "Analysis": [
+              "linking to theoretical expectations"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "fairness and transparency"
+            ],
+            "Implications": [
+              "trust and policy-making"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Additional work is needed to determine whether and how decision aids should be presented to stakeholders so that the inherent fairness and interpretability of their recommendations, rather than their framing, determines how they are perceived.",
+          "Main Action": "determine",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "decision aids"
+              ],
+              "Secondary Object": [
+                "stakeholders"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "ensuring the inherent fairness and interpretability of their recommendations, rather than their framing, determines how they are perceived"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Currently, framing influences how decisions are perceived rather than their inherent fairness and interpretability"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improving decision-making processes based on intrinsic factors such as fairness and interpretability"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_92",
+      "abstract": "Group deliberation enables people to collaborate and solve problems, however, it is understudied due to a lack of resources. To this end, we introduce the first publicly available dataset containing collaborative conversations on solving a well-established cognitive task, consisting of 500 group dialogues and 14k utterances. In 64% of these conversations, the group members are able to find a better solution than they had identified individually, and in 43.8% of the groups who had a correct answer as their final solution, none of the participants had solved the task correctly by themselves. Furthermore, we propose a novel annotation schema that captures deliberation cues and release all 14k utterances annotated with it. Finally, we use the proposed dataset to develop and evaluate two methods for generating deliberation utterances.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Group deliberation enables people to collaborate and solve problems, however, it is understudied due to a lack of resources.",
+          "Main Action": "It is understudied",
+          "Arguments": {
+            "Agent": [
+              "Researchers or the academic community"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Group deliberation"
+              ],
+              "Secondary Object": [
+                "Lack of resources"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To this end, we introduce the first publicly available dataset containing collaborative conversations on solving a well-established cognitive task, consisting of 500 group dialogues and 14k utterances. In 64% of these conversations, the group members are able to find a better solution than they had identified individually, and in 43.8% of the groups who had a correct answer as their final solution, none of the participants had solved the task correctly by themselves. Furthermore, we propose a novel annotation schema that captures deliberation cues and release all 14k utterances annotated with it. Finally, we use the proposed dataset to develop and evaluate two methods for generating deliberation utterances.",
+          "Main Action": "Introduce the first publicly available dataset containing collaborative conversations on solving a well-established cognitive task",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "dataset containing collaborative conversations on solving a well-established cognitive task"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "collaborative conversations on solving a well-established cognitive task"
+            ],
+            "Purpose": [
+              "to provide a resource for evaluating two methods for generating deliberation utterances"
+            ],
+            "Method": [
+              "propose a novel annotation schema",
+              "release all 14k utterances annotated with it"
+            ],
+            "Results": [
+              "in 64% of these conversations, the group members are able to find a better solution than they had identified individually",
+              "in 43.8% of the groups who had a correct answer as their final solution, none of the participants had solved the task correctly by themselves"
+            ],
+            "Analysis": [
+              "These results highlight the effectiveness of collaborative problem-solving compared to individual effort"
+            ],
+            "Challenge": [
+              "individual performance often fails to match group-level success"
+            ],
+            "Ethical": [
+              "No explicit ethical concerns were raised in the text"
+            ],
+            "Implications": [
+              "Such datasets can advance AI research by leveraging collective intelligence"
+            ],
+            "Contradictions": [
+              "None explicitly mentioned"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

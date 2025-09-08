@@ -1,0 +1,344 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_671",
+      "abstract": "Temporal reasoning is the task of predicting temporal relations of event pairs. While temporal reasoning models can perform reasonably well on in-domain benchmarks, we have little idea of these systems’ generalizability due to existing datasets’ limitations. In this work, we introduce a novel task named TODAY that bridges this gap with temporal differential analysis, which, as the name suggests, evaluates whether systems can correctly understand the effect of incremental changes. Specifically, TODAY introduces slight contextual changes for given event pairs, and systems are asked to tell how this subtle contextual change would affect relevant temporal relation distributions. To facilitate learning, TODAY also annotates human explanations. We show that existing models, including GPT-3.5, drop to random guessing on TODAY, suggesting that they heavily rely on spurious information rather than proper reasoning for temporal predictions. On the other hand, we show that TODAY’s supervision style and explanation annotations can be used in joint learning, encouraging models to use more appropriate signals during training and thus outperform across several benchmarks. TODAY can also be used to train models to solicit incidental supervision from noisy sources such as GPT-3.5, thus moving us more toward the goal of generic temporal reasoning systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Temporal reasoning is the task of predicting temporal relations of event pairs. While temporal reasoning models can perform reasonably well on in-domain benchmarks, we have little idea of these systems’ generalizability due to existing datasets’ limitations.",
+          "Main Action": "have little idea of these systems’ generalizability",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these systems’ generalizability"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Temporal reasoning is the task of predicting temporal relations of event pairs.",
+              "While temporal reasoning models can perform reasonably well on in-domain benchmarks"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "due to existing datasets’ limitations"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we introduce a novel task named TODAY that bridges this gap with temporal differential analysis, which, as the name suggests, evaluates whether systems can correctly understand the effect of incremental changes. Specifically, TODAY introduces slight contextual changes for given event pairs, and systems are asked to tell how this subtle contextual change would affect relevant temporal relation distributions. To facilitate learning, TODAY also annotates human explanations.",
+          "Main Action": "introduce a novel task named TODAY",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel task named TODAY"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In this work"
+            ],
+            "Purpose": [
+              "that bridges this gap with temporal differential analysis"
+            ],
+            "Method": [
+              "temporal differential analysis",
+              "TODAY introduces slight contextual changes for given event pairs",
+              "systems are asked to tell how this subtle contextual change would affect relevant temporal relation distributions",
+              "TODAY also annotates human explanations"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We show that existing models, including GPT-3.5, drop to random guessing on TODAY, suggesting that they heavily rely on spurious information rather than proper reasoning for temporal predictions. On the other hand, we show that TODAY’s supervision style and explanation annotations can be used in joint learning, encouraging models to use more appropriate signals during training and thus outperform across several benchmarks.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that existing models, including GPT-3.5, drop to random guessing on TODAY",
+                "that TODAY’s supervision style and explanation annotations can be used in joint learning, encouraging models to use more appropriate signals during training and thus outperform across several benchmarks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "existing models, including GPT-3.5",
+              "TODAY",
+              "TODAY’s supervision style and explanation annotations"
+            ],
+            "Purpose": [
+              "encouraging models to use more appropriate signals during training"
+            ],
+            "Method": [
+              "TODAY’s supervision style and explanation annotations can be used in joint learning"
+            ],
+            "Results": [
+              "existing models, including GPT-3.5, drop to random guessing on TODAY",
+              "models ... outperform across several benchmarks"
+            ],
+            "Analysis": [
+              "they heavily rely on spurious information rather than proper reasoning for temporal predictions"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "TODAY can also be used to train models to solicit incidental supervision from noisy sources such as GPT-3.5, thus moving us more toward the goal of generic temporal reasoning systems.",
+          "Main Action": "can also be used",
+          "Arguments": {
+            "Agent": [
+              "TODAY"
+            ],
+            "Object": {
+              "Primary Object": [
+                "to train models to solicit incidental supervision from noisy sources such as GPT-3.5"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "thus moving us more toward the goal of generic temporal reasoning systems"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_65",
+      "abstract": "Continual relation extraction (RE) aims to learn constantly emerging relations while avoiding forgetting the learned relations. Existing works store a small number of typical samples to re-train the model for alleviating forgetting. However, repeatedly replaying these samples may cause the overfitting problem. We conduct an empirical study on existing works and observe that their performance is severely affected by analogous relations. To address this issue, we propose a novel continual extraction model for analogous relations. Specifically, we design memory-insensitive relation prototypes and memory augmentation to overcome the overfitting problem. We also introduce integrated training and focal knowledge distillation to enhance the performance on analogous relations. Experimental results show the superiority of our model and demonstrate its effectiveness in distinguishing analogous relations and overcoming overfitting.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Continual relation extraction (RE) aims to learn constantly emerging relations while avoiding forgetting the learned relations. Existing works store a small number of typical samples to re-train the model for alleviating forgetting. However, repeatedly replaying these samples may cause the overfitting problem. We conduct an empirical study on existing works and observe that their performance is severely affected by analogous relations.",
+          "Main Action": "observe",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that their performance is severely affected by analogous relations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Continual relation extraction (RE) aims to learn constantly emerging relations while avoiding forgetting the learned relations.",
+              "Existing works store a small number of typical samples to re-train the model for alleviating forgetting.",
+              "However, repeatedly replaying these samples may cause the overfitting problem.",
+              "We conduct an empirical study on existing works"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "We conduct an empirical study on existing works"
+            ],
+            "Results": [
+              "that their performance is severely affected by analogous relations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "repeatedly replaying these samples may cause the overfitting problem"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To address this issue, we propose a novel continual extraction model for analogous relations. Specifically, we design memory-insensitive relation prototypes and memory augmentation to overcome the overfitting problem. We also introduce integrated training and focal knowledge distillation to enhance the performance on analogous relations.",
+          "Main Action": "propose a novel continual extraction model for analogous relations",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel continual extraction model for analogous relations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "To address this issue"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "we design memory-insensitive relation prototypes and memory augmentation to overcome the overfitting problem",
+              "We also introduce integrated training and focal knowledge distillation to enhance the performance on analogous relations"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results show the superiority of our model and demonstrate its effectiveness in distinguishing analogous relations and overcoming overfitting.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experimental results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the superiority of our model"
+              ],
+              "Secondary Object": [
+                "its effectiveness in distinguishing analogous relations and overcoming overfitting"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "the superiority of our model",
+              "its effectiveness in distinguishing analogous relations and overcoming overfitting"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

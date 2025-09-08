@@ -1,0 +1,206 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_203",
+      "abstract": "The findings from genome-wide association studies (GWASs) have greatly helped us to understand the genetic basis of human complex traits and diseases. Despite the tremendous progress, much effects are still needed to address several major challenges arising in GWAS. First, most GWAS hits are located in the non-coding region of human genome, and thus their biological functions largely remain unknown. Second, due to the polygenicity of human complex traits and diseases, many genetic risk variants with weak or moderate effects have not been identified yet. To address the above challenges, we propose a powerful and adaptive latent model (PALM) to integrate cell-type/tissue-specific functional annotations with GWAS summary statistics. Unlike existing methods, which are mainly based on linear models, PALM leverages a tree ensemble to adaptively characterize non-linear relationship between functional annotations and the association status of genetic variants. To make PALM scalable to millions of variants and hundreds of functional annotations, we develop a functional gradient-based expectation-maximization algorithm, to fit the tree-based non-linear model in a stable manner. Through comprehensive simulation studies, we show that PALM not only controls false discovery rate well, but also improves statistical power of identifying risk variants. We also apply PALM to integrate summary statistics of 30 GWASs with 127 cell type/tissue-specific functional annotations. The results indicate that PALM can identify more risk variants as well as rank the importance of functional annotations, yielding better interpretation of GWAS results.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The findings from genome-wide association studies (GWASs) have greatly helped us to understand the genetic basis of human complex traits and diseases. Despite the tremendous progress, much effects are still needed to address several major challenges arising in GWAS. First, most GWAS hits are located in the non-coding region of human genome, and thus their biological functions largely remain unknown. Second, due to the polygenicity of human complex traits and diseases, many genetic risk variants with weak or moderate effects have not been identified yet.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "human complex traits and diseases"
+              ],
+              "Secondary Object": [
+                "GWAS"
+              ]
+            },
+            "Context": [
+              "understanding the genetic basis of human complex traits and diseases"
+            ],
+            "Purpose": [
+              "address several major challenges arising in GWAS"
+            ],
+            "Method": [
+              "studying the location of GWAS hits",
+              "dealing with the polygenicity of human complex traits"
+            ],
+            "Results": [
+              "many genetic risk variants with weak or moderate effects have not been identified yet"
+            ],
+            "Analysis": [
+              "suggesting that many genetic risk variants with weak or moderate effects have not been identified yet"
+            ],
+            "Challenge": [
+              "most GWAS hits are located in the non-coding region of human genome",
+              "due to the polygenicity of human complex traits and diseases"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "future research directions"
+            ],
+            "Contradictions": [
+              "known genomic regions do not fully explain complex traits"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "To address the above challenges, we propose a powerful and adaptive latent model (PALM) to integrate cell-type/tissue-specific functional annotations with GWAS summary statistics. Unlike existing methods, which are mainly based on linear models, PALM leverages a tree ensemble to adaptively characterize non-linear relationship between functional annotations and the association status of genetic variants. To make PALM scalable to millions of variants and hundreds of functional annotations, we develop a functional gradient-based expectation-maximization algorithm, to fit the tree-based non-linear model in a stable manner.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through comprehensive simulation studies, we show that PALM not only controls false discovery rate well, but also improves statistical power of identifying risk variants. We also apply PALM to integrate summary statistics of 30 GWASs with 127 cell type/tissue-specific functional annotations. The results indicate that PALM can identify more risk variants as well as rank the importance of functional annotations, yielding better interpretation of GWAS results.",
+          "Main Action": "Through comprehensive simulation studies, we show that PALM...",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "PALM"
+              ],
+              "Secondary Object": [
+                "GWASs"
+              ]
+            },
+            "Context": [
+              "comprehensive simulation studies"
+            ],
+            "Purpose": [
+              "to improve statistical power of identifying risk variants and yield better interpretation of GWAS results"
+            ],
+            "Method": [
+              "simulation studies",
+              "applying PALM to integrate summary statistics"
+            ],
+            "Results": [
+              "identifying risk variants",
+              "controlling false discovery rate",
+              "statistical power",
+              "functional annotations",
+              "risk variants",
+              "interpretation of GWAS results"
+            ],
+            "Analysis": [
+              "indicating that PALM can identify more risk variants"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_124",
+      "abstract": "Beyond identifying genetic variants, we introduce a set of Boolean relations, which allows for a comprehensive classification of the relations of every pair of variants by taking all minimal alignments into account. We present an efficient algorithm to compute these relations, including a novel way of efficiently computing all minimal alignments within the best theoretical complexity bounds. We show that these relations are common, and many non-trivial, for variants of the CFTR gene in dbSNP. Ultimately, we present an approach for the storing and indexing of variants in the context of a database that enables efficient querying for all these relations.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "Beyond identifying genetic variants, we introduce a set of Boolean relations, which allows for a comprehensive classification of the relations of every pair of variants by taking all minimal alignments into account. We present an efficient algorithm to compute these relations, including a novel way of efficiently computing all minimal alignments within the best theoretical complexity bounds. We show that these relations are common, and many non-trivial, for variants of the CFTR gene in dbSNP. Ultimately, we present an approach for the storing and indexing of variants in the context of a database that enables efficient querying for all these relations.",
+          "Main Action": "Introduce",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a set of Boolean relations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "variants of the CFTR gene in dbSNP"
+            ],
+            "Purpose": [
+              "efficient querying for all these relations"
+            ],
+            "Method": [
+              "an efficient algorithm",
+              "including a novel way of efficiently computing all minimal alignments"
+            ],
+            "Results": [
+              "common, and many non-trivial"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

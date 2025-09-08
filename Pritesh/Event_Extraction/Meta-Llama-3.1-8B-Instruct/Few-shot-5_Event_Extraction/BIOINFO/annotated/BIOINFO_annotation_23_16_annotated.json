@@ -1,0 +1,288 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_693",
+      "abstract": "The nuclear pore complex (NPC) is the only passageway for macromolecules between nucleus and cytoplasm, and an important reference standard in microscopy: it is massive and stereotypically arranged. The average architecture of NPC proteins has been resolved with pseudoatomic precision, however observed NPC heterogeneities evidence a high degree of divergence from this average. Single-molecule localization microscopy (SMLM) images NPCs at protein-level resolution, whereupon image analysis software studies NPC variability. However, the true picture of this variability is unknown. In quantitative image analysis experiments, it is thus difficult to distinguish intrinsically high SMLM noise from variability of the underlying structure. We introduce CIR4MICS ('ceramics', Configurable, Irregular Rings FOR MICroscopy Simulations), a pipeline that synthesizes ground truth datasets of structurally variable NPCs based on architectural models of the true NPC. Users can select one or more N- or C-terminally tagged NPC proteins, and simulate a wide range of geometric variations. We also represent the NPC as a spring-model such that arbitrary deforming forces, of user-defined magnitudes, simulate irregularly shaped variations. Further, we provide annotated reference datasets of simulated human NPCs, which facilitate a side-by-side comparison with real data. To demonstrate, we synthetically replicate a geometric analysis of real NPC radii and reveal that a range of simulated variability parameters can lead to observed results. Our simulator is therefore valuable to test the capabilities of image analysis methods, as well as to inform experimentalists about the requirements of hypothesis-driven imaging studies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The nuclear pore complex (NPC) is the only passageway for macromolecules between nucleus and cytoplasm, and an important reference standard in microscopy: it is massive and stereotypically arranged. The average architecture of NPC proteins has been resolved with pseudoatomic precision, however observed NPC heterogeneities evidence a high degree of divergence from this average. Single-molecule localization microscopy (SMLM) images NPCs at protein-level resolution, whereupon image analysis software studies NPC variability. However, the true picture of this variability is unknown. In quantitative image analysis experiments, it is thus difficult to distinguish intrinsically high SMLM noise from variability of the underlying structure.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We introduce CIR4MICS ('ceramics', Configurable, Irregular Rings FOR MICroscopy Simulations), a pipeline that synthesizes ground truth datasets of structurally variable NPCs based on architectural models of the true NPC. Users can select one or more N- or C-terminally tagged NPC proteins, and simulate a wide range of geometric variations. We also represent the NPC as a spring-model such that arbitrary deforming forces, of user-defined magnitudes, simulate irregularly shaped variations. Further, we provide annotated reference datasets of simulated human NPCs, which facilitate a side-by-side comparison with real data.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "CIR4MICS"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "ground truth datasets of structurally variable NPCs"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "synthesizes"
+            ],
+            "Results": [
+              "NPCs based on architectural models of the true NPC"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "To demonstrate, we synthetically replicate a geometric analysis of real NPC radii and reveal that a range of simulated variability parameters can lead to observed results. Our simulator is therefore valuable to test the capabilities of image analysis methods, as well as to inform experimentalists about the requirements of hypothesis-driven imaging studies.",
+          "Main Action": "synthetically replicate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a geometric analysis of real NPC radii"
+              ],
+              "Secondary Object": [
+                "and reveal that a range of simulated variability parameters can lead to observed results"
+              ]
+            },
+            "Context": [
+              "Our simulator is therefore valuable to test the capabilities of image analysis methods"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_100",
+      "abstract": "In recent years, interest has arisen in using machine learning to improve the efficiency of automatic medical consultation and enhance patient experience. In this article, we propose two frameworks to support automatic medical consultation, namely doctor-patient dialogue understanding and task-oriented interaction. We create a new large medical dialogue dataset with multi-level fine-grained annotations and establish five independent tasks, including named entity recognition, dialogue act classification, symptom label inference, medical report generation, and diagnosis-oriented dialogue policy. We report a set of benchmark results for each task, which shows the usability of the dataset and sets a baseline for future studies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In recent years, interest has arisen in using machine learning to improve the efficiency of automatic medical consultation and enhance patient experience.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Recent"
+            ],
+            "Object": {
+              "Primary Object": [
+                "years"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "interest has arisen in using machine learning to improve the efficiency of automatic medical consultation and enhance patient experience."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this article, we propose two frameworks to support automatic medical consultation, namely doctor-patient dialogue understanding and task-oriented interaction. We create a new large medical dialogue dataset with multi-level fine-grained annotations and establish five independent tasks, including named entity recognition, dialogue act classification, symptom label inference, medical report generation, and diagnosis-oriented dialogue policy.",
+          "Main Action": "proposed",
+          "Arguments": {
+            "Agent": [
+              "Two frameworks"
+            ],
+            "Object": {
+              "Primary Object": [
+                "support automatic medical consultation"
+              ],
+              "Secondary Object": [
+                "doctor-patient dialogue understanding and task-oriented interaction"
+              ]
+            },
+            "Context": [
+              "automatic medical consultation"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "create a new large medical dialogue dataset with multi-level fine-grained annotations"
+            ],
+            "Results": [
+              "establish five independent tasks, including named entity recognition, dialogue act classification, symptom label inference, medical report generation, and diagnosis-oriented dialogue policy"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We report a set of benchmark results for each task, which shows the usability of the dataset and sets a baseline for future studies.",
+          "Main Action": "report",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "benchmark results"
+              ],
+              "Secondary Object": [
+                "each task"
+              ]
+            },
+            "Context": [
+              "which shows the usability of the dataset"
+            ],
+            "Purpose": [
+              "sets a baseline for future studies"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

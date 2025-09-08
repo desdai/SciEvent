@@ -1,0 +1,338 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_47",
+      "abstract": "It was previously hypothesized that gender differences — and thus gender discrimination — would disappear if communication was no longer in person, and instead was transmitted and received in the same format for all. Yet, even online, researchers have identified gendered language styles in written communication that reveal gender cues and can lead to unequal treatment. In this work, we revisit these past findings and ask whether the same gendered patterns can be found on modern communication platforms, which present a new set of engagement features and mixed synchronous capabilities. We quantitatively analyze 335,000 Slack messages sent by 845 individuals as part of 46 teams, collected over six years of a product design capstone course. We found little evidence of traditionally gendered communication styles (characterized as elaborate, uncertain, and supportive) from the minority-gender participants. We did identify relationships between message author gender, communication style, and message engagement — women and minority genders were more likely to have their messages engaged with, but only when using certain communication styles — suggesting complex power dynamics exist on these platforms. We contribute the first study of gendered language styles on Enterprise Communication Platforms, adding to the community's understanding of how new settings and emerging technology relate to team collaborative dynamics, and motivating future tool development to support collaboration in diverse teams.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "It was previously hypothesized that gender differences — and thus gender discrimination — would disappear if communication was no longer in person, and instead was transmitted and received in the same format for all. Yet, even online, researchers have identified gendered language styles in written communication that reveal gender cues and can lead to unequal treatment.",
+          "Main Action": "would disappear",
+          "Arguments": {
+            "Agent": [
+              "gender differences"
+            ],
+            "Object": {
+              "Primary Object": [
+                "communication was no longer in person"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "even online, researchers have identified gendered language styles in written communication that reveal gender cues and can lead to unequal treatment"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "gender discrimination"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we revisit these past findings and ask whether the same gendered patterns can be found on modern communication platforms, which present a new set of engagement features and mixed synchronous capabilities. We quantitatively analyze 335,000 Slack messages sent by 845 individuals as part of 46 teams, collected over six years of a product design capstone course.",
+          "Main Action": "quantitively analyze",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "335,000 Slack messages"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Slack messages sent by 845 individuals as part of 46 teams",
+              "over six years of a product design capstone course"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found little evidence of traditionally gendered communication styles (characterized as elaborate, uncertain, and supportive) from the minority-gender participants. We did identify relationships between message author gender, communication style, and message engagement — women and minority genders were more likely to have their messages engaged with, but only when using certain communication styles — suggesting complex power dynamics exist on these platforms.",
+          "Main Action": "have little evidence of",
+          "Arguments": {
+            "Agent": [
+              "minority-gender participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "traditionally gendered communication styles"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "from the minority-gender participants",
+              "graph data structures play a central role in computing de novo genome assembly",
+              "Most long-read assemblers use Myers's string graph model"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "complex power dynamics predict more negative transfer"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "a risk of losing haplotype-specific information"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We contribute the first study of gendered language styles on Enterprise Communication Platforms, adding to the community's understanding of how new settings and emerging technology relate to team collaborative dynamics, and motivating future tool development to support collaboration in diverse teams.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "how new settings and emerging technology relate to team collaborative dynamics",
+              "adding to the community's understanding"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "future tool development to support collaboration in diverse teams"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "motivating future tool development"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_180",
+      "abstract": "We investigate how robotic camera systems can offer new capabilities to computer-supported cooperative work through the design, development, and evaluation of a prototype system called Periscope. With Periscope, a local worker completes manipulation tasks with guidance from a remote helper who observes the workspace through a camera mounted on a semi-autonomous robotic arm that is co-located with the worker. Our key insight is that the helper, the worker, and the robot should all share responsibility of the camera view — an approach we call shared camera control. Using this approach, we present a set of modes that distribute the control of the camera between the human collaborators and the autonomous robot depending on task needs. We demonstrate the system's utility and the promise of shared camera control through a preliminary study where 12 dyads collaboratively worked on assembly tasks. Finally, we discuss design and research implications of our work for future robotic camera systems that facilitate remote collaboration.",
+      "events": [
+        {
+          "Methods/Approach": "",
+          "Text": "We investigate how robotic camera systems can offer new capabilities to computer-supported cooperative work through the design, development, and evaluation of a prototype system called Periscope. With Periscope, a local worker completes manipulation tasks with guidance from a remote helper who observes the workspace through a camera mounted on a semi-autonomous robotic arm that is co-located with the worker. Our key insight is that the helper, the worker, and the robot should all share responsibility of the camera view — an approach we call shared camera control. Using this approach, we present a set of modes that distribute the control of the camera between the human collaborators and the autonomous robot depending on task needs.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "how robotic camera systems can offer new capabilities to computer-supported cooperative work"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Periscope"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "With Periscope, a local worker completes manipulation tasks with guidance from a remote helper who observes the workspace through a camera mounted on a semi-autonomous robotic arm that is co-located with the worker"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "design, development, and evaluation of a prototype system called Periscope"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "shared camera control",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate the system's utility and the promise of shared camera control through a preliminary study where 12 dyads collaboratively worked on assembly tasks.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the system's utility and the promise of shared camera control"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "through a preliminary study where 12 dyads collaboratively worked on assembly tasks"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Finally, we discuss design and research implications of our work for future robotic camera systems that facilitate remote collaboration.",
+          "Main Action": "have become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

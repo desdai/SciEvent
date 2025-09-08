@@ -1,0 +1,251 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_39",
+      "abstract": "Our study discusses the automated transcription with deep learning methods of a digital newspaper collection printed in a historical language, Arabic-script Ottoman Turkish (OT), dating to the late nineteenth- and early twentieth-century. We situate OT text collections within a larger history of digitization of periodicals, underscoring special challenges faced by Arabic script languages. Our paper approaches the question of automated transcription of non-Latin script languages, such as OT, from the broader perspective of debates surrounding OCR use for historical archives. In our study with OT, we have opted for training handwritten text recognition (HTR) models that generate transcriptions in the left-to-right, Latin writing system familiar to contemporary readers of Turkish, and not, as some scholars may expect, in right-to-left Arabic script text. As a one-to-one correspondence between the writing systems of OT and modern Turkish does not exist, we also discuss approaches to transcription and the creation of ground truth and argue that the challenges faced in the training of HTR models also draw into question straightforward notions of transcription, especially where divergent writing systems are involved. Finally, we reflect on potential domain bias of HTR models in other historical languages exhibiting spatio-temporal variance as well as the significance of working between writing systems for language communities that also have experienced language reform and script change.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Our study discusses the automated transcription with deep learning methods of a digital newspaper collection printed in a historical language, Arabic-script Ottoman Turkish (OT), dating to the late nineteenth- and early twentieth-century. We situate OT text collections within a larger history of digitization of periodicals, underscoring special challenges faced by Arabic script languages.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We situate OT text collections within a larger history of digitization of periodicals,"
+            ],
+            "Purpose": [
+              "underscoring special challenges faced by Arabic script languages."
+            ],
+            "Method": [
+              "digitization of periodicals"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "special challenges faced by Arabic script languages"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Our paper approaches the question of automated transcription of non-Latin script languages, such as OT, from the broader perspective of debates surrounding OCR use for historical archives. In our study with OT, we have opted for training handwritten text recognition (HTR) models that generate transcriptions in the left-to-right, Latin writing system familiar to contemporary readers of Turkish, and not, as some scholars may expect, in right-to-left Arabic script text. As a one-to-one correspondence between the writing systems of OT and modern Turkish does not exist, we also discuss approaches to transcription and the creation of ground truth and argue that the challenges faced in the training of HTR models also draw into question straightforward notions of transcription, especially where divergent writing systems are involved.",
+          "Main Action": "approaches",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "question",
+              "automated transcription",
+              "non-Latin script languages"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "training handwritten text recognition (HTR)",
+              "models",
+              "generate transcriptions"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "straightforward notions of transcription",
+              "divergent writing systems"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Finally, we reflect on potential domain bias of HTR models in other historical languages exhibiting spatio-temporal variance as well as the significance of working between writing systems for language communities that also have experienced language reform and script change.",
+          "Main Action": "reflect",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "potential domain bias of HTR models in other historical languages exhibiting spatio-temporal variance",
+              "significance of working between writing systems for language communities that also have experienced language reform and script change"
+            ],
+            "Purpose": [
+              "to consider these aspects"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_14",
+      "abstract": "This study presents the results of the research project on the Ballets Espagnols de Antonia Mercé La Argentina, a dance company active between 1927 and 1929 that adapted the model of Diaghilev's Ballets Russes to a repertoire based on the construction of a national identity through the modern and avant-garde aesthetics of interwar Europe. The systematisation of the preserved sources and their visualisation in interactive maps permits research to be carried out on one of the most brilliant episodes in the history of Spanish dance and to collaborate in the recovery of a forgotten dance heritage.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This study presents the results of the research project on the Ballets Espagnols de Antonia Mercé La Argentina, a dance company active between 1927 and 1929 that adapted the model of Diaghilev's Ballets Russes to a repertoire based on the construction of a national identity through the modern and avant-garde aesthetics of interwar Europe.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a dance company",
+              "active between 1927 and 1929"
+            ],
+            "Purpose": [
+              "adapted the model of Diaghilev's Ballets Russes",
+              "to a repertoire based on the construction of a national identity"
+            ],
+            "Method": [
+              "modern and avant-garde aesthetics of interwar Europe"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The systematisation of the preserved sources and their visualisation in interactive maps permits research to be carried out on one of the most brilliant episodes in the history of Spanish dance and to collaborate in the recovery of a forgotten dance heritage.",
+          "Main Action": "systematisation",
+          "Arguments": {
+            "Agent": [
+              "research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "one of the most brilliant episodes in the history of Spanish dance",
+              "recovery of a forgotten dance heritage"
+            ],
+            "Purpose": [
+              "to carry out research"
+            ],
+            "Method": [
+              "preserved sources",
+              "visualisation in interactive maps"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

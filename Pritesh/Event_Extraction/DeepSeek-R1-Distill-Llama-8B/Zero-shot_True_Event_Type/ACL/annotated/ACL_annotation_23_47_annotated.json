@@ -1,0 +1,337 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_183",
+      "abstract": "The potential choices for news article headlines are enormous, and finding the right balance between conveying the essential message and capturing the reader’s attention is key to effective headlining. However, presenting the same news headline to all readers is a suboptimal strategy, because it does not take into account the different preferences and interests of diverse readers, who may be confused about why a particular article has been recommended to them and do not see a clear connection between their interests and the recommended article. In this paper, we present a novel framework that addresses these challenges by incorporating user profiling to generate personalized headlines, and a combination of automated and human evaluation methods to determine user preference for personalized headlines. Our framework utilizes a learnable relevance function to assign personalized signature phrases to users based on their reading histories, which are then used to personalize headline generation. Through extensive evaluation, we demonstrate the effectiveness of our proposed framework in generating personalized headlines that meet the needs of a diverse audience. Our framework has the potential to improve the efficacy of news recommendations and facilitate creation of personalized content.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The potential choices for news article headlines are enormous, and finding the right balance between conveying the essential message and capturing the reader’s attention is key to effective headlining. However, presenting the same news headline to all readers is a suboptimal strategy, because it does not take into account the different preferences and interests of diverse readers, who may be confused about why a particular article has been recommended to them and do not see a clear connection between their interests and the recommended article.",
+          "Main Action": "Finding the right balance between conveying the essential message and capturing the reader’s attention",
+          "Arguments": {
+            "Agent": [
+              "The researcher"
+            ],
+            "Object": {
+              "Primary Object": [
+                "News article headlines"
+              ],
+              "Secondary Object": [
+                "Diverse readers"
+              ]
+            },
+            "Context": [
+              "Presenting the same news headline to all readers is a suboptimal strategy"
+            ],
+            "Purpose": [
+              "To effectively headline"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Because it does not take into account the different preferences and interests of diverse readers"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Key to effective headlining"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we present a novel framework that addresses these challenges by incorporating user profiling to generate personalized headlines, and a combination of automated and human evaluation methods to determine user preference for personalized headlines. Our framework utilizes a learnable relevance function to assign personalized signature phrases to users based on their reading histories, which are then used to personalize headline generation.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel framework"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "address these challenges"
+            ],
+            "Method": [
+              "user profiling",
+              "automated and human evaluation methods"
+            ],
+            "Results": [
+              "assigning personalized signature phrases to users",
+              "personalized headline generation"
+            ],
+            "Analysis": [
+              "comparing effectiveness to traditional methods"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improving personalization in news"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through extensive evaluation, we demonstrate the effectiveness of our proposed framework in generating personalized headlines that meet the needs of a diverse audience.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our proposed framework"
+              ],
+              "Secondary Object": [
+                "personalized headlines"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to show the effectiveness of our proposed framework"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "in generating personalized headlines that meet the needs of a diverse audience"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "better engagement or improved satisfaction"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "Our framework has the potential to improve the efficacy of news recommendations and facilitate creation of personalized content.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_386",
+      "abstract": "Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning. In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data. We evaluate ProgramFC on two challenging fact-checking datasets and show that it outperforms seven fact-checking baselines across different settings of evidence availability, with explicit output programs that benefit human debugging.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning.",
+          "Main Action": "Fact-checking real-world claims often requires",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "collecting multiple pieces of evidence"
+              ],
+              "Secondary Object": [
+                "applying complex multi-step reasoning"
+              ]
+            },
+            "Context": [
+              "Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning."
+            ],
+            "Purpose": [
+              "Ensuring accurate claims"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enhancing trustworthiness"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data.",
+          "Main Action": "We present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Program-Guided Fact-Checking (ProgramFC)",
+                "a novel fact-checking model"
+              ],
+              "Secondary Object": [
+                "complex claims"
+              ]
+            },
+            "Context": [
+              "leverage the in-context learning ability of large language models"
+            ],
+            "Purpose": [
+              "make our model both explanatory and data-efficient"
+            ],
+            "Method": [
+              "decompose complex claims into simpler sub-tasks",
+              "generate reasoning programs to guide the verification process",
+              "execute the program by delegating each sub-task to the corresponding sub-task handler"
+            ],
+            "Results": [
+              "our model... providing clear explanations of its reasoning process"
+            ],
+            "Analysis": [
+              "This process makes our model both explanatory and data-efficient"
+            ],
+            "Challenge": [
+              "require minimal training data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We evaluate ProgramFC on two challenging fact-checking datasets and show that it outperforms seven fact-checking baselines across different settings of evidence availability, with explicit output programs that benefit human debugging.",
+          "Main Action": "Evaluate ProgramFC",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ProgramFC"
+              ],
+              "Secondary Object": [
+                "two challenging fact-checking datasets"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "it outperforms seven fact-checking baselines across different settings of evidence availability"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improvements in fact-checking technology and potential for future applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

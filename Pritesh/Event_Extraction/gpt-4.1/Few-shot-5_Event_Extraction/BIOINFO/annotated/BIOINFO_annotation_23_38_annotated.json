@@ -1,0 +1,336 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_696",
+      "abstract": "Flux balance analysis (FBA) is widely recognized as an important method for studying metabolic networks. When incorporating flux measurements of certain reactions into an FBA problem, it is possible that the underlying linear program may become infeasible, e.g. due to measurement or modeling inaccuracies. Furthermore, while the biomass reaction is of central importance in FBA models, its stoichiometry is often a rough estimate and a source of high uncertainty. In this work, we present a method that allows modifications to the biomass reaction stoichiometry as a means to (i) render the FBA problem feasible and (ii) improve the accuracy of the model by corrections in the biomass composition. Optionally, the adjustment of the biomass composition can be used in conjunction with a previously introduced approach for balancing inconsistent fluxes to obtain a feasible FBA system. We demonstrate the value of our approach by analyzing realistic flux measurements of E.coli. In particular, we find that the growth-associated maintenance (GAM) demand of ATP, which is typically integrated with the biomass reaction, is likely overestimated in recent genome-scale models, at least for certain growth conditions. In light of these findings, we discuss issues related to the determination and inclusion of GAM values in constraint-based models. Overall, our method can uncover potential errors and suggest adjustments in the assumed biomass composition in FBA models based on inconsistencies between the model and measured fluxes.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Flux balance analysis (FBA) is widely recognized as an important method for studying metabolic networks. When incorporating flux measurements of certain reactions into an FBA problem, it is possible that the underlying linear program may become infeasible, e.g. due to measurement or modeling inaccuracies. Furthermore, while the biomass reaction is of central importance in FBA models, its stoichiometry is often a rough estimate and a source of high uncertainty.",
+          "Main Action": "is widely recognized as",
+          "Arguments": {
+            "Agent": [
+              "Flux balance analysis (FBA)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an important method for studying metabolic networks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "When incorporating flux measurements of certain reactions into an FBA problem, it is possible that the underlying linear program may become infeasible, e.g. due to measurement or modeling inaccuracies",
+              "while the biomass reaction is of central importance in FBA models, its stoichiometry is often a rough estimate and a source of high uncertainty"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "the underlying linear program may become infeasible, e.g. due to measurement or modeling inaccuracies",
+              "the biomass reaction is of central importance in FBA models, its stoichiometry is often a rough estimate and a source of high uncertainty"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we present a method that allows modifications to the biomass reaction stoichiometry as a means to (i) render the FBA problem feasible and (ii) improve the accuracy of the model by corrections in the biomass composition. Optionally, the adjustment of the biomass composition can be used in conjunction with a previously introduced approach for balancing inconsistent fluxes to obtain a feasible FBA system.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a method that allows modifications to the biomass reaction stoichiometry as a means to (i) render the FBA problem feasible and (ii) improve the accuracy of the model by corrections in the biomass composition"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "as a means to (i) render the FBA problem feasible and (ii) improve the accuracy of the model by corrections in the biomass composition"
+            ],
+            "Method": [
+              "a method that allows modifications to the biomass reaction stoichiometry",
+              "the adjustment of the biomass composition can be used in conjunction with a previously introduced approach for balancing inconsistent fluxes"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "to obtain a feasible FBA system"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We demonstrate the value of our approach by analyzing realistic flux measurements of E.coli. In particular, we find that the growth-associated maintenance (GAM) demand of ATP, which is typically integrated with the biomass reaction, is likely overestimated in recent genome-scale models, at least for certain growth conditions.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the value of our approach"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "by analyzing realistic flux measurements of E.coli"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "the growth-associated maintenance (GAM) demand of ATP, which is typically integrated with the biomass reaction, is likely overestimated in recent genome-scale models, at least for certain growth conditions"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "In light of these findings, we discuss issues related to the determination and inclusion of GAM values in constraint-based models. Overall, our method can uncover potential errors and suggest adjustments in the assumed biomass composition in FBA models based on inconsistencies between the model and measured fluxes.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "issues related to the determination and inclusion of GAM values in constraint-based models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In light of these findings"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "our method can uncover potential errors",
+              "suggest adjustments in the assumed biomass composition in FBA models based on inconsistencies between the model and measured fluxes"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_321",
+      "abstract": "To capture structural homology in RNAs, alignment and folding (AF) of RNA homologs has been a fundamental framework around RNA science. Learning sufficient scoring parameters for simultaneous AF (SAF) is an undeveloped subject because evaluating them is computationally expensive. We developed ConsTrain — a gradient-based machine learning method for rich SAF scoring. We also implemented ConsAlign — a SAF tool composed of ConsTrain's learned scoring parameters. To aim for better AF quality, ConsAlign employs (1) transfer learning from well-defined scoring models and (2) the ensemble model between the ConsTrain model and a well-established thermodynamic scoring model. Keeping comparable running time, ConsAlign demonstrated competitive AF prediction quality among current AF tools.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "To capture structural homology in RNAs, alignment and folding (AF) of RNA homologs has been a fundamental framework around RNA science. Learning sufficient scoring parameters for simultaneous AF (SAF) is an undeveloped subject because evaluating them is computationally expensive.",
+          "Main Action": "has been",
+          "Arguments": {
+            "Agent": [
+              "alignment and folding (AF) of RNA homologs"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a fundamental framework around RNA science"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "To capture structural homology in RNAs"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Learning sufficient scoring parameters for simultaneous AF (SAF) is an undeveloped subject because evaluating them is computationally expensive"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We developed ConsTrain — a gradient-based machine learning method for rich SAF scoring. We also implemented ConsAlign — a SAF tool composed of ConsTrain's learned scoring parameters. To aim for better AF quality, ConsAlign employs (1) transfer learning from well-defined scoring models and (2) the ensemble model between the ConsTrain model and a well-established thermodynamic scoring model.",
+          "Main Action": "developed",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ConsTrain — a gradient-based machine learning method for rich SAF scoring"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To aim for better AF quality"
+            ],
+            "Method": [
+              "implemented ConsAlign — a SAF tool composed of ConsTrain's learned scoring parameters",
+              "ConsAlign employs (1) transfer learning from well-defined scoring models and (2) the ensemble model between the ConsTrain model and a well-established thermodynamic scoring model"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Keeping comparable running time, ConsAlign demonstrated competitive AF prediction quality among current AF tools.",
+          "Main Action": "demonstrated",
+          "Arguments": {
+            "Agent": [
+              "ConsAlign"
+            ],
+            "Object": {
+              "Primary Object": [
+                "competitive AF prediction quality among current AF tools"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Keeping comparable running time"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

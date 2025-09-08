@@ -1,0 +1,261 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_61",
+      "abstract": "This paper introduces and unpacks several challenges faced by stewards who work with audiovisual resources, departing from the premise that audiovisual resources are undervalued and underutilized as primary source materials for scholarship and therefore receive less attention in the sphere of digital humanities. It will then present original research from the Maryland Institute for Technology in the Humanities (MITH), in conjunction with the University of Wisconsin-Madison and the Wisconsin Historical Society, on a project entitled Unlocking the Airwaves: Revitalizing an Early Public Radio Collection. As a case study, Unlocking the Airwaves successfully meets these challenges by employing strategies such as virtual reunification, linked data, minimal computing, and synced transcripts, to provide integrated access to the collections of the National Association of Educational Broadcasters (NAEB), which are currently split between the University of Maryland (audio files) and the Wisconsin Historical Society (paper collections). The project demonstrates innovative approaches towards increasing the discoverability of audiovisual collections in ways that allow for better contextual description, and offers a flexible framework for connecting audiovisual collections to related archival collections.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper introduces and unpacks several challenges faced by stewards who work with audiovisual resources, departing from the premise that audiovisual resources are undervalued and underutilized as primary source materials for scholarship and therefore receive less attention in the sphere of digital humanities.",
+          "Main Action": "introduces",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "several challenges faced by stewards who work with audiovisual resources"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "audiovisual resources are undervalued and underutilized as primary source materials for scholarship and therefore receive less attention in the sphere of digital humanities"
+            ],
+            "Purpose": [
+              "to highlight the importance and provide insights into how stewards manage these challenges"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "challenges faced by stewards who work with audiovisual resources"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "better understanding of resource management and preservation of cultural heritage"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "It will then present original research from the Maryland Institute for Technology in the Humanities (MITH), in conjunction with the University of Wisconsin-Madison and the Wisconsin Historical Society, on a project entitled Unlocking the Airwaves: Revitalizing an Early Public Radio Collection. As a case study, Unlocking the Airwaves successfully meets these challenges by employing strategies such as virtual reunification, linked data, minimal computing, and synced transcripts, to provide integrated access to the collections of the National Association of Educational Broadcasters (NAEB), which are currently split between the University of Maryland (audio files) and the Wisconsin Historical Society (paper collections).",
+          "Main Action": "Unlocking the Airwaves",
+          "Arguments": {
+            "Agent": [
+              "Maryland Institute for Technology in the Humanities (MITH)",
+              "University of Wisconsin-Madison",
+              "Wisconsin Historical Society"
+            ],
+            "Object": {
+              "Primary Object": [
+                "National Association of Educational Broadcasters (NAEB)"
+              ],
+              "Secondary Object": [
+                "University of Maryland",
+                "Wisconsin Historical Society"
+              ]
+            },
+            "Context": [
+              "fragmented collections",
+              "challenges of integration"
+            ],
+            "Purpose": [
+              "revitalizing an early public radio collection",
+              "providing integrated access"
+            ],
+            "Method": [
+              "virtual reunification",
+              "linked data",
+              "minimal computing",
+              "synced transcripts"
+            ],
+            "Results": [
+              "successful meeting of challenges"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "constraints of reuniting dispersed collections"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance",
+              "potential for future applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The project demonstrates innovative approaches towards increasing the discoverability of audiovisual collections in ways that allow for better contextual description, and offers a flexible framework for connecting audiovisual collections to related archival collections.",
+          "Main Action": "demonstrates",
+          "Arguments": {
+            "Agent": [
+              "the project"
+            ],
+            "Object": {
+              "Primary Object": [
+                "audiovisual collections"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "innovative approaches"
+            ],
+            "Purpose": [
+              "increasing the discoverability of audiovisual collections",
+              "connecting audiovisual collections to related archival collections"
+            ],
+            "Method": [
+              "a flexible framework"
+            ],
+            "Results": [
+              "better contextual description",
+              "enhanced discoverability",
+              "successful connection of audiovisual collections to archival collections"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improving access to cultural heritage materials",
+              "facilitating interdisciplinary collaboration between audiovisual and archival sectors"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_14",
+      "abstract": "Hosted out of the University of Virginia and funded by the National Endowment for the Humanities, Digital Yoknapatawpha is an international and collaborative project composed of William Faulkner scholars and technologists. Its goal is to create a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions with the aim of visualizing the data through a series of 'deep atlases' and other displays. This paper traces the development cycle of a supplementary narrative structure analysis dashboard that allows users to explore the chronology, narrative status, and date range of all of the texts set in his mythic county. In doing so, it bridges some of the significant gaps between narratological theory and computational methods, opens up a conversation about representing narrative data, and suggests some possible avenues for research with the dashboard.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Hosted out of the University of Virginia and funded by the National Endowment for the Humanities, Digital Yoknapatawpha is an international and collaborative project composed of William Faulkner scholars and technologists. Its goal is to create a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions with the aim of visualizing the data through a series of 'deep atlases' and other displays.",
+          "Main Action": "Create a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions",
+          "Arguments": {
+            "Agent": [
+              "hosted out of the University of Virginia",
+              "funded by the National Endowment for the Humanities",
+              "composed of William Faulkner scholars and technologists"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a comprehensive database of all the locations, characters, and events in Faulkner’s Yoknapatawpha fictions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "hosted out of the University of Virginia",
+              "funded by the National Endowment for the Humanities",
+              "composed of William Faulkner scholars and technologists"
+            ],
+            "Purpose": [
+              "aim of visualizing the data through a series of 'deep atlases' and other displays"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "benefit scholarship and understanding of Faulkner's work"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This paper traces the development cycle of a supplementary narrative structure analysis dashboard that allows users to explore the chronology, narrative status, and date range of all of the texts set in his mythic county. In doing so, it bridges some of the significant gaps between narratological theory and computational methods, opens up a conversation about representing narrative data, and suggests some possible avenues for research with the dashboard.",
+          "Main Action": "This paper traces the development cycle of a supplementary narrative structure analysis dashboard that allows users to explore...",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a supplementary narrative structure analysis dashboard"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "narratological theory",
+              "computational methods",
+              "mythic county"
+            ],
+            "Purpose": [
+              "bridges some of the significant gaps between narratological theory and computational methods"
+            ],
+            "Method": [
+              "allow[s] users to explore the chronology, narrative status, and date range of all of the texts set in his mythic county"
+            ],
+            "Results": [
+              "opens up a conversation about representing narrative data",
+              "suggests some possible avenues for research with the dashboard"
+            ],
+            "Analysis": [
+              "discusses the implications of integrating narrative analysis with computational methods"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enables researchers to visualize and analyze narrative structures across temporal dimensions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

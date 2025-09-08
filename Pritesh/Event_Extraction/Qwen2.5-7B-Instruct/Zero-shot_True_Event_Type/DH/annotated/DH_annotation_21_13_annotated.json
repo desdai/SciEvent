@@ -1,0 +1,302 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_34",
+      "abstract": "Over the past decade, podcasting has grown into one of the most important media forms in the world. This article argues that podcasting’s unique technical affordances — particularly RSS feeds and user-entered metadata — open up productive methods for exploring the cultural practices and meanings of the medium. We share three different methods for studying RSS feeds and podcast metadata: 1) visualizing how topics and keywords trend over time; 2) visualizing networks of commonly associated keywords entered by podcasters; and 3) analyzing norms and common practices for the duration of podcasts (as a time-based media format, podcasting is unusual in that it is not bound by the programming schedules and technical limitations that provide strict parameters for most audiovisual forms). The methods and preliminary results reveal how metadata can function as a surrogate for studying large collections of time-based media objects. Yet our study also shows that, when it comes to born digital media, the metadata are never fully separate from the objects they describe. We argue that future work in AV in DH needs to delineate between methods best suited for digitized media collections compared to those most appropriate for born digital media collections.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Over the past decade, podcasting has grown into one of the most important media forms in the world. This article argues that podcasting’s unique technical affordances — particularly RSS feeds and user-entered metadata — open up productive methods for exploring the cultural practices and meanings of the medium.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "podcasting's unique technical affordances"
+            ],
+            "Object": {
+              "Primary Object": [
+                "RSS feeds and user-entered metadata"
+              ],
+              "Secondary Object": [
+                "exploring the cultural practices and meanings of the medium"
+              ]
+            },
+            "Context": [
+              "Over the past decade, podcasting has grown into one of the most important media forms in the world"
+            ],
+            "Purpose": [
+              "open up productive methods"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "productive methods for exploring the cultural practices and meanings of the medium"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We share three different methods for studying RSS feeds and podcast metadata: 1) visualizing how topics and keywords trend over time; 2) visualizing networks of commonly associated keywords entered by podcasters; and 3) analyzing norms and common practices for the duration of podcasts (as a time-based media format, podcasting is unusual in that it is not bound by the programming schedules and technical limitations that provide strict parameters for most audiovisual forms).",
+          "Main Action": "share",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three different methods"
+              ],
+              "Secondary Object": [
+                "studying RSS feeds and podcast metadata"
+              ]
+            },
+            "Context": [
+              "for researching RSS feeds and podcast metadata"
+            ],
+            "Purpose": [
+              "to visualize trending topics/keywords over time",
+              "to visualize keyword associations among podcasters",
+              "to analyze podcast durations based on their nature as time-based media formats"
+            ],
+            "Method": [
+              "visualizing how topics and keywords trend over time",
+              "visualizing networks of commonly associated keywords entered by podcasters",
+              "analyzing norms and common practices for the duration of podcasts"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "unusual characteristics of podcasting compared to traditional audiovisual forms due to its non-boundary nature"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The methods and preliminary results reveal how metadata can function as a surrogate for studying large collections of time-based media objects. Yet our study also shows that, when it comes to born digital media, the metadata are never fully separate from the objects they describe.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "our study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "metadata",
+                "time-based media objects"
+              ],
+              "Secondary Object": [
+                "born digital media"
+              ]
+            },
+            "Context": [
+              "methods and preliminary results"
+            ],
+            "Purpose": [
+              "study how metadata functions as a surrogate for analyzing large collections of time-based media objects"
+            ],
+            "Method": [
+              "revelation through methods and preliminary results"
+            ],
+            "Results": [
+              "reveal how metadata can function as a surrogate for studying large collections of time-based media objects",
+              "shows that, when it comes to born digital media, the metadata are never fully separate from the objects they describe"
+            ],
+            "Analysis": [
+              "never fully separate from the objects they describe"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broad significance or potential for future applications/research on understanding relationships between metadata and born digital media"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We argue that future work in AV in DH needs to delineate between methods best suited for digitized media collections compared to those most appropriate for born digital media collections.",
+          "Main Action": "argue",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "future work in AV in DH"
+              ],
+              "Secondary Object": [
+                "methods best suited for digitized media collections",
+                "those most appropriate for born digital media collections"
+              ]
+            },
+            "Context": [
+              "delineate between"
+            ],
+            "Purpose": [
+              "needs to"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_36",
+      "abstract": "This paper introduces Coleto, an automatic collation tool for the comparison of variant texts in English, German, or French, which separates edits from variant texts so that textual changes can be classified and contextualized. Coleto’s proposed methodology for the classification of edits in variants includes: major/minor expansion, major/minor condensation, changes to numbers and whitespace, and common orthographic features. From this classification schema, Coleto generates: an aligned table of edits in the variants, visualizations of the frequency of classified edits, and a visualization of edit density across the progression of the texts. As a sample use case, we present mixed-method analyses of Andy Weir’s science fiction bestseller, The Martian, aided by Coleto’s functions and generated outputs.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper introduces Coleto, an automatic collation tool for the comparison of variant texts in English, German, or French, which separates edits from variant texts so that textual changes can be classified and contextualized.",
+          "Main Action": "introduces",
+          "Arguments": {
+            "Agent": [
+              "Coleto"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an automatic collation tool"
+              ],
+              "Secondary Object": [
+                "for the comparison of variant texts in English, German, or French"
+              ]
+            },
+            "Context": [
+              "automatic collation tool for the comparison of variant texts"
+            ],
+            "Purpose": [
+              "separates edits from variant texts so that textual changes can be classified and contextualized"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Coleto’s proposed methodology for the classification of edits in variants includes: major/minor expansion, major/minor condensation, changes to numbers and whitespace, and common orthographic features. From this classification schema, Coleto generates: an aligned table of edits in the variants, visualizations of the frequency of classified edits, and a visualization of edit density across the progression of the texts. As a sample use case, we present mixed-method analyses of Andy Weir’s science fiction bestseller, The Martian, aided by Coleto’s functions and generated outputs.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Coleto's proposed methodology"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an aligned table of edits in the variants",
+                "visualizations of the frequency of classified edits",
+                "a visualization of edit density across the progression of the texts"
+              ],
+              "Secondary Object": [
+                "The Martian"
+              ]
+            },
+            "Context": [
+              "classification of edits in variants",
+              "Andy Weir’s science fiction bestseller"
+            ],
+            "Purpose": [
+              "To generate useful insights into variant editing patterns through automated classification and visualization"
+            ],
+            "Method": [
+              "major/minor expansion",
+              "major/minor condensation",
+              "changes to numbers and whitespace",
+              "common orthographic features",
+              "generating outputs using Coleto's functions"
+            ],
+            "Results": [
+              "aligned table of edits in the variants",
+              "frequency of classified edits",
+              "edit density across the progression of the texts"
+            ],
+            "Analysis": [
+              "mixed-method analyses presented as a sample use case"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance for understanding and analyzing edited content in literature"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

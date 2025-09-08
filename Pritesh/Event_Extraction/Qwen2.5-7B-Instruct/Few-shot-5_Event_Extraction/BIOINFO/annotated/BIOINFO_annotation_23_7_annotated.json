@@ -1,0 +1,246 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_725",
+      "abstract": "Evolutionary inference depends crucially on the quality of multiple sequence alignments (MSA), which is problematic for distantly related proteins. Since protein structure is more conserved than sequence, it seems natural to use structure alignments for distant homologs. However, structure alignments may not be suitable for inferring evolutionary relationships. Here we examined four protein similarity measures that depend on sequence and structure (fraction of aligned residues, sequence identity, fraction of superimposed residues, and contact overlap), finding that they are intimately correlated but none of them provides a complete and unbiased picture of conservation in proteins. Therefore, we propose the new hybrid protein sequence and structure similarity score PC_sim based on their main principal component. The corresponding divergence measure PC_div shows the strongest correlation with divergences obtained from individual similarities, suggesting that it infers accurate evolutionary divergences. We developed the program PC_ali that constructs protein MSAs either de novo or modifying an input MSA, using a similarity matrix based on PC_sim. The program constructs a starting MSA based on the maximal cliques of the graph of these PAs and it refines it through progressive alignments along the tree reconstructed with PC_div. Compared with eight state-of-the-art multiple structure or sequence alignment tools, PC_ali achieves higher or equal aligned fraction and structural scores, sequence identity higher than structure aligners although lower than sequence aligners, highest score PC_sim, and highest similarity with the MSAs produced by other tools and with the reference MSA Balibase.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Evolutionary inference depends crucially on the quality of multiple sequence alignments (MSA), which is problematic for distantly related proteins. Since protein structure is more conserved than sequence, it seems natural to use structure alignments for distant homologs. However, structure alignments may not be suitable for inferring evolutionary relationships.",
+          "Main Action": "depends crucially on",
+          "Arguments": {
+            "Agent": [
+              "quality of multiple sequence alignments (MSA)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "evolutionary inference"
+              ],
+              "Secondary Object": [
+                "distantly related proteins"
+              ]
+            },
+            "Context": [
+              "protein structure is more conserved than sequence"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "structure alignments may not be suitable for inferring evolutionary relationships"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here we examined four protein similarity measures that depend on sequence and structure (fraction of aligned residues, sequence identity, fraction of superimposed residues, and contact overlap), finding that they are intimately correlated but none of them provides a complete and unbiased picture of conservation in proteins. Therefore, we propose the new hybrid protein sequence and structure similarity score PC_sim based on their main principal component. The corresponding divergence measure PC_div shows the strongest correlation with divergences obtained from individual similarities, suggesting that it infers accurate evolutionary divergences. We developed the program PC_ali that constructs protein MSAs either de novo or modifying an input MSA, using a similarity matrix based on PC_sim. The program constructs a starting MSA based on the maximal cliques of the graph of these PAs and it refines it through progressive alignments along the tree reconstructed with PC_div.",
+          "Main Action": "examined",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "four protein similarity measures"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "that depend on sequence and structure (fraction of aligned residues, sequence identity, fraction of superimposed residues, and contact overlap)",
+              "finding that they are intimately correlated but none of them provides a complete and unbiased picture of conservation in proteins"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "none specified"
+            ],
+            "Results": [
+              "they are intimately correlated but none of them provides a complete and unbiased picture of conservation in proteins"
+            ],
+            "Analysis": [
+              "proposes the new hybrid protein sequence and structure similarity score PC_sim based on their main principal component"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "corresponding divergence measure PC_div shows the strongest correlation with divergences obtained from individual similarities, suggesting that it infers accurate evolutionary divergences",
+              "program PC_ali that constructs protein MSAs either de novo or modifying an input MSA, using a similarity matrix based on PC_sim"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Compared with eight state-of-the-art multiple structure or sequence alignment tools, PC_ali achieves higher or equal aligned fraction and structural scores, sequence identity higher than structure aligners although lower than sequence aligners, highest score PC_sim, and highest similarity with the MSAs produced by other tools and with the reference MSA Balibase.",
+          "Main Action": "compared",
+          "Arguments": {
+            "Agent": [
+              "PC_ali"
+            ],
+            "Object": {
+              "Primary Object": [
+                "eight state-of-the-art multiple structure or sequence alignment tools"
+              ],
+              "Secondary Object": [
+                "higher or equal aligned fraction and structural scores",
+                "sequence identity higher than structure aligners although lower than sequence aligners",
+                "highest score PC_sim",
+                "highest similarity with the MSAs produced by other tools and with the reference MSA Balibase"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_57",
+      "abstract": "Intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology. In order to get a more clear view of these interspersed repeats encompassing a coding sequence, we have developed EDIR (Exome Database of Interspersed Repeats) which contains the positions of these structures within the human exome. EDIR has been calculated by an inductive strategy, rather than by a brute force approach and can be queried through an R/Bioconductor package or a web interface allowing the per-gene rapid extraction of homology-flanked sequences throughout the exome.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology. In order to get a more clear view of these interspersed repeats encompassing a coding sequence, we have developed EDIR (Exome Database of Interspersed Repeats) which contains the positions of these structures within the human exome.",
+          "Main Action": "have developed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "EDIR (Exome Database of Interspersed Repeats)"
+              ],
+              "Secondary Object": [
+                "positions of these structures within the human exome"
+              ]
+            },
+            "Context": [
+              "intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology"
+            ],
+            "Purpose": [
+              "get a more clear view of these interspersed repeats encompassing a coding sequence"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "EDIR has been calculated by an inductive strategy, rather than by a brute force approach and can be queried through an R/Bioconductor package or a web interface allowing the per-gene rapid extraction of homology-flanked sequences throughout the exome.",
+          "Main Action": "has been calculated",
+          "Arguments": {
+            "Agent": [
+              "EDIR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "by an inductive strategy"
+              ],
+              "Secondary Object": [
+                "through an R/Bioconductor package or a web interface allowing the per-gene rapid extraction of homology-flanked sequences throughout the exome"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

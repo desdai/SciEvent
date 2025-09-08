@@ -226,8 +226,8 @@ The `Prompts/` folder provides a variety of prompt templates for event segmentat
   - `Few-shot-2_Event_Extraction.txt`
   - `Few-shot-5_Event_Extraction.txt`
 - **Event type prediction and extraction:**
-  - `Pred_Event_Type.txt` (predicts event type and extracts arguments)
-  - `True_Event_Type.txt` (uses gold event type for extraction)
+  - `Zero-shot_Pred_Event_Type.txt` (predicts event type and extracts arguments)
+  - `Zero-shot_True_Event_Type.txt` (uses gold event type for extraction)
 
 **How to use:**
 - The prompt template is set in each script via the `PROMPT_TEMPLATE_NAME` variable or a command-line argument.
@@ -237,13 +237,13 @@ The `Prompts/` folder provides a variety of prompt templates for event segmentat
 **Prompt template summary:**
 | File | Use case |
 |------|----------|
-| Zero-Shot_Event_Segmentation.txt | Zero-shot segmentation |
-| Zero-Shot_Event_Extraction.txt | Zero-shot argument extraction |
-| One-Shot_Event_Extraction.txt | One-shot argument extraction |
+| Zero-shot_Event_Segmentation.txt | Zero-shot segmentation |
+| Zero-shot_Event_Extraction.txt | Zero-shot argument extraction |
+| One-shot_Event_Extraction.txt | One-shot argument extraction |
 | Few-shot-2_Event_Extraction.txt | 2-shot argument extraction |
 | Few-shot-5_Event_Extraction.txt | 5-shot argument extraction |
-| Pred_Event_Type.txt | Predict event type, then extract |
-| True_Event_Type.txt | Use gold event type for extraction |
+| Zero-shot_Pred_Event_Type.txt | Predict event type, then extraction |
+| Zero-shot_True_Event_Type.txt | Use gold event type for extraction |
 
 ## LLM Scripts Overview
 

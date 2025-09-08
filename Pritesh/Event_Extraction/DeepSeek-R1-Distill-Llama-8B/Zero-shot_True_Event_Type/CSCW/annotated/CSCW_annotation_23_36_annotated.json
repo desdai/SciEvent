@@ -1,0 +1,334 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_166",
+      "abstract": "Depression is the most common mental health problem in older adults; however, a lack of understanding in the interaction between physical and social causes hinders effective treatment. Unique issues such as age-specific increases in comorbid physical problems and alienation from social contact can make it difficult for health providers to identify instances of depression. These also make it difficult for depressed older adults to communicate with their social resources, such as friends, family, and health providers. Integrating technology-assisted collaboration with members of patients' social network to observe and manage multi-dimensional factors in depressed older adults' states is a potential way to improve the quality of practitioners' treatment-planning around these multi-dimensional factors, as well as provide assistance for family and friends' involvement in managing the depression. We conducted an interview study on stakeholders' perceptions of depression and communication to understand the opportunities and challenges involved in implementing such collaborative design. Interviewees included 16 depressed older adult patients, 10 of their family members, and two psychiatrists. Our findings reveal new insights into (1) patients' and families' social values and understandings of patients' condition, as well as (2) how these values and understandings influenced decision-making on communicating with each other and acting on depression. These insights have implications for the consideration of information and communication systems to aid depressed older adults' recovery and engagement with social network members.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Depression is the most common mental health problem in older adults; however, a lack of understanding in the interaction between physical and social causes hinders effective treatment. Unique issues such as age-specific increases in comorbid physical problems and alienation from social contact can make it difficult for health providers to identify instances of depression. These also make it difficult for depressed older adults to communicate with their social resources, such as friends, family, and health providers. Integrating technology-assisted collaboration with members of patients' social network to observe and manage multi-dimensional factors in depressed older adults' states is a potential way to improve the quality of practitioners' treatment-planning around these multi-dimensional factors, as well as provide assistance for family and friends' involvement in managing the depression.",
+          "Main Action": "Integrate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "technology-assisted collaboration"
+              ],
+              "Secondary Object": [
+                "members of patients' social network"
+              ]
+            },
+            "Context": [
+              "Depression is the most common mental health problem in older adults;",
+              "a lack of understanding in the interaction between physical and social causes hinders effective treatment;"
+            ],
+            "Purpose": [
+              "improve the quality of practitioners' treatment-planning and provide assistance for family and friends' involvement in managing the depression."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "better management and support for depressed older adults",
+              "improved practitioner actions",
+              "family and friend involvement in managing depression"
+            ],
+            "Analysis": [
+              "This setup addresses prior challenges in identifying and treating depression among older adults."
+            ],
+            "Challenge": [
+              "unique issues such as age-specific increases in comorbid physical problems and alienation from social contact complicate matters."
+            ],
+            "Ethical": [
+              "respecting the privacy and autonomy of individuals involved, especially in using technology in sensitive contexts."
+            ],
+            "Implications": [
+              "potential expansion of similar models across various populations and conditions."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted an interview study on stakeholders' perceptions of depression and communication to understand the opportunities and challenges involved in implementing such collaborative design. Interviewees included 16 depressed older adult patients, 10 of their family members, and two psychiatrists.",
+          "Main Action": "Conducted an interview study",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Stakeholders' perceptions of depression and communication"
+              ],
+              "Secondary Object": [
+                "Opportunities and challenges involved in implementing such collaborative design"
+              ]
+            },
+            "Context": [
+              "Understanding these perceptions to inform design implementation"
+            ],
+            "Purpose": [
+              "To understand the opportunities and challenges involved in implementing such collaborative design"
+            ],
+            "Method": [
+              "Interview study"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our findings reveal new insights into (1) patients' and families' social values and understandings of patients' condition, as well as (2) how these values and understandings influenced decision-making on communicating with each other and acting on depression.",
+          "Main Action": "Our findings reveal",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new insights into (1) patients' and families' social values and understandings of patients' condition, as well as (2) how these values and understandings influenced decision-making on communicating with each other and acting on depression"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "new insights into (1) patients' and families' social values and understandings of patients' condition, as well as (2) how these values and understandings influenced decision-making on communicating with each other and acting on depression"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Understanding of patients' condition and its influence on communication and actions regarding depression may lead to improved strategies for patient care."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "These insights have implications for the consideration of information and communication systems to aid depressed older adults' recovery and engagement with social network members.",
+          "Main Action": "These insights have implications for the consideration of information and communication systems to aid depressed older adults' recovery and engagement with social network members.",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "information and communication systems to aid depressed older adults' recovery and engagement with social network members."
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to aid depressed older adults' recovery and engagement with social network members."
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "These insights have implications for the consideration of information and communication systems to aid depressed older adults' recovery and engagement with social network members."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_174",
+      "abstract": "Drawing from a longitudinal case study, we inspect the activities of an expanding team of scientists and their collaborators as they sought to develop a novel software pipeline that worked both for themselves and for their wider community. We argue that these two tasks — making the software work for themselves and also for their wider scientific community — could not be differentiated from each other at the beginning of the software development process. Rather, this division of labor and software capacities emerged, articulated by the actors themselves as they went about their tasks. The activities of making the novel software 'work' at all, and the 'extra work' of making that software repurposable or reusable could not be distinguished until near the end of the development process — rather than defined or structured in advance. We discuss implications for the trajectory of software development, and the practical work of making software repurposable.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Drawing from a longitudinal case study, we inspect the activities of an expanding team of scientists and their collaborators as they sought to develop a novel software pipeline that worked both for themselves and for their wider community.",
+          "Main Action": "Developed",
+          "Arguments": {
+            "Agent": [
+              "An expanding team of scientists and their collaborators"
+            ],
+            "Object": {
+              "Primary Object": [
+                "A novel software pipeline"
+              ],
+              "Secondary Object": [
+                "Themselves and their wider community"
+              ]
+            },
+            "Context": [
+              "Longitudinal case study"
+            ],
+            "Purpose": [
+              "To fill a gap or improve upon existing solutions"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "They successfully developed the pipeline"
+            ],
+            "Analysis": [
+              "Insights gained from analyzing the team's activities"
+            ],
+            "Challenge": [
+              "Challenges faced during development"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader impact of having such a tool available"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We argue that these two tasks — making the software work for themselves and also for their wider scientific community — could not be differentiated from each other at the beginning of the software development process. Rather, this division of labor and software capacities emerged, articulated by the actors themselves as they went about their tasks. The activities of making the novel software 'work' at all, and the 'extra work' of making that software repurposable or reusable could not be distinguished until near the end of the development process — rather than defined or structured in advance.",
+          "Main Action": "These two tasks — making the software work for themselves and also for their wider scientific community — could not be differentiated from each other at the beginning of the software development process.",
+          "Arguments": {
+            "Agent": [
+              "the actors themselves"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the software"
+              ],
+              "Secondary Object": [
+                "their wider scientific community"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss implications for the trajectory of software development, and the practical work of making software repurposable.",
+          "Main Action": "Discuss",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Implications for the trajectory of software development"
+              ],
+              "Secondary Object": [
+                "Making software repurposable"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "Understanding the implications for software development"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Implications for the trajectory of software development"
+            ],
+            "Analysis": [
+              "Interpretation of the implications"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader significance for software development"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

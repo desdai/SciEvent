@@ -1,0 +1,340 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_653",
+      "abstract": "The BLOOM model is a large publicly available multilingual language model, but its pretraining was limited to 46 languages. To extend the benefits of BLOOM to other languages without incurring prohibitively large costs, it is desirable to adapt BLOOM to new languages not seen during pretraining. In this work, we apply existing language adaptation strategies to BLOOM and benchmark its zero-shot prompting performance on eight new languages in a resource-constrained setting. We find language adaptation to be effective at improving zero-shot performance in new languages. Surprisingly, we find that adapter-based finetuning is more effective than continued pretraining for large models. In addition, we discover that prompting performance is not significantly affected by language specifics, such as the writing system. It is primarily determined by the size of the language adaptation data. We also add new languages to BLOOMZ, which is a multitask finetuned version of BLOOM capable of following task instructions zero-shot. We find including a new language in the multitask fine-tuning mixture to be the most effective method to teach BLOOMZ a new language. We conclude that with sufficient training data, language adaptation can generalize well to diverse languages.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The BLOOM model is a large publicly available multilingual language model, but its pretraining was limited to 46 languages. To extend the benefits of BLOOM to other languages without incurring prohibitively large costs, it is desirable to adapt BLOOM to new languages not seen during pretraining.",
+          "Main Action": "pretrain",
+          "Arguments": {
+            "Agent": [
+              "BLOOM model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "46 languages"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "multilingual language model"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "extending the benefits of BLOOM to other languages"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "adapt BLOOM to new languages"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we apply existing language adaptation strategies to BLOOM and benchmark its zero-shot prompting performance on eight new languages in a resource-constrained setting. We find language adaptation to be effective at improving zero-shot performance in new languages. Surprisingly, we find that adapter-based finetuning is more effective than continued pretraining for large models. In addition, we discover that prompting performance is not significantly affected by language specifics, such as the writing system. It is primarily determined by the size of the language adaptation data.",
+          "Main Action": "apply existing language adaptation strategies",
+          "Arguments": {
+            "Agent": [
+              "BLOOM"
+            ],
+            "Object": {
+              "Primary Object": [
+                "eight new languages"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "language adaptation to be effective at improving zero-shot performance in new languages",
+              "surprising, we find that adapter-based finetuning is more effective than continued pretraining for large models",
+              "it is primarily determined by the size of the language adaptation data"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "language adaptation to be effective at improving zero-shot performance in new languages",
+              "adapter-based finetuning is more effective than continued pretraining for large models",
+              "prompting performance is not significantly affected by language specifics, such as the writing system"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We also add new languages to BLOOMZ, which is a multitask finetuned version of BLOOM capable of following task instructions zero-shot. We find including a new language in the multitask fine-tuning mixture to be the most effective method to teach BLOOMZ a new language. We conclude that with sufficient training data, language adaptation can generalize well to diverse languages.",
+          "Main Action": "add",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new languages"
+              ],
+              "Secondary Object": [
+                "BLOOMZ"
+              ]
+            },
+            "Context": [
+              "which is a multitask finetuned version of BLOOM capable of following task instructions zero-shot"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "including a new language in the multitask fine-tuning mixture to be the most effective method to teach BLOOMZ a new language"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_23",
+      "abstract": "As 3rd-person pronoun usage shifts to include novel forms, e.g., neopronouns, we need more research on identity-inclusive NLP. Exclusion is particularly harmful in one of the most popular NLP applications, machine translation (MT). Wrong pronoun translations can discriminate against marginalized groups, e.g., non-binary individuals (Dev et al., 2021). In this “reality check”, we study how three commercial MT systems translate 3rd-person pronouns. Concretely, we compare the translations of gendered vs. gender-neutral pronouns from English to five other languages (Danish, Farsi, French, German, Italian), and vice versa, from Danish to English. Our error analysis shows that the presence of a gender-neutral pronoun often leads to grammatical and semantic translation errors. Similarly, gender neutrality is often not preserved. By surveying the opinions of affected native speakers from diverse languages, we provide recommendations to address the issue in future MT research.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "As 3rd-person pronoun usage shifts to include novel forms, e.g., neopronouns, we need more research on identity-inclusive NLP. Exclusion is particularly harmful in one of the most popular NLP applications, machine translation (MT). Wrong pronoun translations can discriminate against marginalized groups, e.g., non-binary individuals (Dev et al., 2021).",
+          "Main Action": "shifts to include",
+          "Arguments": {
+            "Agent": [
+              "Third-person pronoun usage"
+            ],
+            "Object": {
+              "Primary Object": [
+                "novel forms"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "non-binary individuals (Dev et al., 2021)",
+              "wrong pronoun translations can discriminate against marginalized groups"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "incorrect pronoun translations are identified as problematic",
+              "discrimination against marginalized groups is highlighted"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "research on identity-inclusive NLP is lacking",
+              "one of the most popular NLP applications (machine translation) faces challenges due to incorrect pronoun translations"
+            ],
+            "Ethical": [
+              "discrimination against marginalized groups raises ethical concerns",
+              "understanding of pronoun usage in NLP applications is crucial for ethical communication"
+            ],
+            "Implications": [
+              "identity-inclusive language policies are necessary",
+              "future advancements in NLP require consideration of diverse gender identities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this “reality check”, we study how three commercial MT systems translate 3rd-person pronouns. Concretely, we compare the translations of gendered vs. gender-neutral pronouns from English to five other languages (Danish, Farsi, French, German, Italian), and vice versa, from Danish to English.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "from English to five other languages (Danish, Farsi, French, German, Italian), and vice versa, from Danish to English"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "comparing the translations of gendered vs. gender-neutral pronouns"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our error analysis shows that the presence of a gender-neutral pronoun often leads to grammatical and semantic translation errors. Similarly, gender neutrality is often not preserved.",
+          "Main Action": "presence of a gender-neutral pronoun often leads to",
+          "Arguments": {
+            "Agent": [
+              "error analysis shows"
+            ],
+            "Object": {
+              "Primary Object": [
+                "grammatical and semantic translation errors"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "similarly, gender neutrality is often not preserved"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "gender neutrality is often not preserved"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "By surveying the opinions of affected native speakers from diverse languages, we provide recommendations to address the issue in future MT research.",
+          "Main Action": "survey",
+          "Arguments": {
+            "Agent": [
+              "affected native speakers from diverse languages"
+            ],
+            "Object": {
+              "Primary Object": [
+                "opinions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "by surveying the opinions of affected native speakers from diverse languages"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "address the issue in future MT research"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

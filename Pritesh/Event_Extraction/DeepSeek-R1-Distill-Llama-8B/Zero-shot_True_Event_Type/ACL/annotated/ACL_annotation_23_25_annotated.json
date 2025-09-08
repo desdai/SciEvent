@@ -1,0 +1,289 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_783",
+      "abstract": "Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias the model’s predictions. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact. In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model’s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks. The gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Various design settings for in-context learning (ICL), such as the choice and order of the in-context examples, can bias the model’s predictions. While many studies discuss these design choices, there have been few systematic investigations into categorizing them and mitigating their impact.",
+          "Main Action": "Various design settings... can bias",
+          "Arguments": {
+            "Agent": [
+              "model"
+            ],
+            "Object": {
+              "Primary Object": [
+                "model's predictions"
+              ],
+              "Secondary Object": [
+                "design settings"
+              ]
+            },
+            "Context": [
+              "in-context learning"
+            ],
+            "Purpose": [
+              "understanding how design choices affect models and improving them"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "While many studies discuss these design choices, there have been few systematic investigations"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Understanding these design impacts helps improve AI systems"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we define a typology for three types of label biases in ICL for text classification: vanilla-label bias, context-label bias, and domain-label bias (which we conceptualize and detect for the first time). Our analysis demonstrates that prior label bias calibration methods fall short of addressing all three types of biases. Specifically, domain-label bias restricts LLMs to random-level performance on many tasks regardless of the choice of in-context examples. To mitigate the effect of these biases, we propose a simple bias calibration method that estimates a language model’s label bias using random in-domain words from the task corpus. After controlling for this estimated bias when making predictions, our novel domain-context calibration significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a simple bias calibration method"
+              ],
+              "Secondary Object": [
+                "random in-domain words from the task corpus"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "estimate a language model’s label bias using random in-domain words",
+              "apply to GPT-J and GPT-3"
+            ],
+            "Results": [
+              "significantly improves the ICL performance of GPT-J and GPT-3 on a wide range of tasks"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "he gain is substantial on tasks with large domain-label bias (up to 37% in Macro-F1). Furthermore, our results generalize to models with different scales, pretraining methods, and manually-designed task instructions, showing the prevalence of label biases in ICL.",
+          "Main Action": "The gain is substantial",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "tasks with large domain-label bias"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "models with different scales, pretraining methods, and manually-designed task instructions"
+            ],
+            "Purpose": [
+              "Understanding how label biases affect performance"
+            ],
+            "Method": [
+              "varying model sizes and training procedures"
+            ],
+            "Results": [
+              "substantial gain in Macro-F1 score (up to 37%)"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "label biases are prevalent in ICL"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_139",
+      "abstract": "Multimodal sarcasm detection is an important research topic in natural language processing and multimedia computing, and benefits a wide range of applications in multiple domains. Most existing studies regard the incongruity between image and text as the indicative clue in identifying multimodal sarcasm. To capture cross-modal incongruity, previous methods rely on fixed architectures in network design, which restricts the model from dynamically adjusting to diverse image-text pairs. Inspired by routing-based dynamic network, we model the dynamic mechanism in multimodal sarcasm detection and propose the Dynamic Routing Transformer Network (DynRT-Net). Our method utilizes dynamic paths to activate different routing transformer modules with hierarchical co-attention adapting to cross-modal incongruity. Experimental results on a public dataset demonstrate the effectiveness of our method compared to the state-of-the-art methods.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Multimodal sarcasm detection is an important research topic in natural language processing and multimedia computing, and benefits a wide range of applications in multiple domains. Most existing studies regard the incongruity between image and text as the indicative clue in identifying multimodal sarcasm. To capture cross-modal incongruity, previous methods rely on fixed architectures in network design, which restricts the model from dynamically adjusting to diverse image-text pairs.",
+          "Main Action": "regard",
+          "Arguments": {
+            "Agent": [
+              "existing studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "incongruity between image and text"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "to capture cross-modal incongruity"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "rely on fixed architectures in network design"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Inspired by routing-based dynamic network, we model the dynamic mechanism in multimodal sarcasm detection and propose the Dynamic Routing Transformer Network (DynRT-Net). Our method utilizes dynamic paths to activate different routing transformer modules with hierarchical co-attention adapting to cross-modal incongruity.",
+          "Main Action": "Proposing the Dynamic Routing Transformer Network",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Dynamic Routing Transformer Network (DynRT-Net)"
+              ],
+              "Secondary Object": [
+                "Multimodal sarcasm detection"
+              ]
+            },
+            "Context": [
+              "Inspired by routing-based dynamic network"
+            ],
+            "Purpose": [
+              "Improving multimodal sarcasm detection"
+            ],
+            "Method": [
+              "Utilizing dynamic paths",
+              "Activating different routing transformer modules",
+              "Hierarchical co-attention"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enhancing cross-modal interaction capabilities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results on a public dataset demonstrate the effectiveness of our method compared to the state-of-the-art methods.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a public dataset"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "compared to the state-of-the-art methods"
+            ],
+            "Purpose": [
+              "To compare the effectiveness of our method with state-of-the-art methods"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "Effectiveness of our method compared to the state-of-the-art methods"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Implications for future applications and research directions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

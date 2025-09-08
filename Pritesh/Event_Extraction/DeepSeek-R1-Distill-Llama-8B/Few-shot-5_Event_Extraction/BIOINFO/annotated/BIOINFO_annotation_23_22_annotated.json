@@ -1,0 +1,246 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_241",
+      "abstract": "Annotation of the mass signals is still the biggest bottleneck for the untargeted mass spectrometry analysis of complex mixtures. Molecular networks are being increasingly adopted by the mass spectrometry community as a tool to annotate large-scale experiments. We have previously shown that the process of propagating annotations from spectral library matches on molecular networks can be automated using Network Annotation Propagation (NAP). One of the limitations of NAP is that the information for the spectral matches is only propagated locally, to the first neighbor of a spectral match. Here, we show that annotation propagation can be expanded to nodes not directly connected to spectral matches using random walks on graphs, introducing the ChemWalker python library. Similarly to NAP, ChemWalker relies on combinatorial in silico fragmentation results, performed by MetFrag, searching biologically relevant databases. Departing from the combination of a spectral network and the structural similarity among candidate structures, we have used MetFusion Scoring function to create a weight function, producing a weighted graph. This graph was subsequently used by the random walk to calculate the probability of 'walking' through a set of candidates, departing from seed nodes (represented by spectral library matches). This approach allowed the information propagation to nodes not directly connected to the spectral library match. Compared with NAP, ChemWalker has a series of improvements, on running time, scalability and maintainability and is available as a standalone python package.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Annotation of the mass signals is still the biggest bottleneck for the untargeted mass spectrometry analysis of complex mixtures. Molecular networks are being increasingly adopted by the mass spectrometry community as a tool to annotate large-scale experiments. We have previously shown that the process of propagating annotations from spectral library matches on molecular networks can be automated using Network Annotation Propagation (NAP). One of the limitations of NAP is that the information for the spectral matches is only propagated locally, to the first neighbor of a spectral match.",
+          "Main Action": "become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we show that annotation propagation can be expanded to nodes not directly connected to spectral matches using random walks on graphs, introducing the ChemWalker python library. Similarly to NAP, ChemWalker relies on combinatorial in silico fragmentation results, performed by MetFrag, searching biologically relevant databases. Departing from the combination of a spectral network and the structural similarity among candidate structures, we have used MetFusion Scoring function to create a weight function, producing a weighted graph. This graph was subsequently used by the random walk to calculate the probability of 'walking' through a set of candidates, departing from seed nodes (represented by spectral library matches).",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE."
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "This approach allowed the information propagation to nodes not directly connected to the spectral library match. Compared with NAP, ChemWalker has a series of improvements, on running time, scalability and maintainability and is available as a standalone python package.",
+          "Main Action": "allowed the information propagation to nodes not directly connected to the spectral library match",
+          "Arguments": {
+            "Agent": [
+              "ChemWalker"
+            ],
+            "Object": {
+              "Primary Object": [
+                "information propagation to nodes not directly connected to the spectral library match"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Compared with NAP"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "running time",
+              "scalability",
+              "maintainability"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "improvements"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "available as a standalone python package"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_452",
+      "abstract": "With recent advances in sequencing technologies, it is now possible to obtain near-perfect complete bacterial chromosome assemblies cheaply and efficiently by combining a long-read-first assembly approach with short-read polishing. However, existing methods for assembling bacterial plasmids from long-read-first assemblies often misassemble or even miss bacterial plasmids entirely and accordingly require manual curation. Plassembler was developed to provide a tool that automatically assembles and outputs bacterial plasmids using a hybrid assembly approach. It achieves increased accuracy and computational efficiency compared to the existing gold standard tool Unicycler by removing chromosomal reads from the input read sets using a mapping approach.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With recent advances in sequencing technologies, it is now possible to obtain near-perfect complete bacterial chromosome assemblies cheaply and efficiently by combining a long-read-first assembly approach with short-read polishing. However, existing methods for assembling bacterial plasmids from long-read-first assemblies often misassemble or even miss bacterial plasmids entirely and accordingly require manual curation.",
+          "Main Action": "obtain",
+          "Arguments": {
+            "Agent": [
+              "near-perfect complete bacterial chromosome assemblies cheaply and efficiently"
+            ],
+            "Object": {
+              "Primary Object": [
+                "complete bacterial chromosome assemblies"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "by combining a long-read-first assembly approach with short-read polishing"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "existing methods for assembling bacterial plasmids from long-read-first assemblies often misassemble or even miss bacterial plasmids entirely"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "Plassembler was developed to provide a tool that automatically assembles and outputs bacterial plasmids using a hybrid assembly approach. It achieves increased accuracy and computational efficiency compared to the existing gold standard tool Unicycler by removing chromosomal reads from the input read sets using a mapping approach.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "RECONSTRUCTION_ERROR"
+        }
+      ]
+    }
+  ]
+}
