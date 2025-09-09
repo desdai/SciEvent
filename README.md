@@ -16,6 +16,7 @@ and each abstract is annotated with:
 
 Note that the blank entries means there is no such argument, we enforce such empty arguments to maintain structured format.
 
+We also provide raw abstracts we used, they are in SciEvent_data/raw/raw_abstracts folder.
 ## [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master)
 
 The following code assume your path at the repo's root ```./SciEvent```

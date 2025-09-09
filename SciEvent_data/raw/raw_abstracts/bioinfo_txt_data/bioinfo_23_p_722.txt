@@ -1,0 +1,1 @@
+While there are software packages that analyze Boolean, ternary, or other multi-state models, none compute the complete state space of function-based models over any finite set. Results: We propose Cyclone, a simple light-weight software package which simulates the complete state space for a finite dynamical system over any finite set.
