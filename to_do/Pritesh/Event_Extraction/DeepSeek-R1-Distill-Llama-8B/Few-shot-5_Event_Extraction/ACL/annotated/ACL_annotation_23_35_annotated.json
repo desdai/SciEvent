@@ -1,0 +1,288 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_314",
+      "abstract": "Massively multilingual language models have displayed strong performance in zero-shot (ZS-XLT) and few-shot (FS-XLT) cross-lingual transfer setups, where models fine-tuned on task data in a source language are transferred without any or with only a few annotated instances to the target language(s). However, current work typically overestimates model performance as fine-tuned models are frequently evaluated at model checkpoints that generalize best to validation instances in the target languages. This effectively violates the main assumptions of ‘true’ ZS-XLT and FS-XLT. Such XLT setups require robust methods that do not depend on labeled target language data for validation and model selection. In this work, aiming to improve the robustness of ‘true’ ZS-XLT and FS-XLT, we propose a simple and effective method that averages different checkpoints (i.e., model snapshots) during task fine-tuning. We conduct exhaustive ZS-XLT and FS-XLT experiments across higher-level semantic tasks (NLI, extractive QA) and lower-level token classification tasks (NER, POS). The results indicate that averaging model checkpoints yields systematic and consistent performance gains across diverse target languages in all tasks. Importantly, it simultaneously substantially desensitizes XLT to varying hyperparameter choices in the absence of target language validation. We also show that checkpoint averaging benefits performance when further combined with run averaging (i.e., averaging the parameters of models fine-tuned over independent runs).",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Massively multilingual language models have displayed strong performance in zero-shot (ZS-XLT) and few-shot (FS-XLT) cross-lingual transfer setups, where models fine-tuned on task data in a source language are transferred without any or with only a few annotated instances to the target language(s). However, current work typically overestimates model performance as fine-tuned models are frequently evaluated at model checkpoints that generalize best to validation instances in the target languages. This effectively violates the main assumptions of ‘true’ ZS-XLT and FS-XLT. Such XLT setups require robust methods that do not depend on labeled target language data for validation and model selection.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "RECONSTRUCTION_ERROR"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, aiming to improve the robustness of ‘true’ ZS-XLT and FS-XLT, we propose a simple and effective method that averages different checkpoints (i.e., model snapshots) during task fine-tuning. We conduct exhaustive ZS-XLT and FS-XLT experiments across higher-level semantic tasks (NLI, extractive QA) and lower-level token classification tasks (NER, POS).",
+          "Main Action": "average",
+          "Arguments": {
+            "Agent": [
+              "different checkpoint snapshots during task fine-tuning"
+            ],
+            "Object": {
+              "Primary Object": [
+                "improving the robustness of 'true' ZS-XLT and FS-XLT"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "exhaustive ZS-XLT and FS-XL experiments across higher-level semantic tasks (NLI, extractive QA) and lower-level token classification tasks (NER, POS)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "higher-level semantic tasks (NLI, extractive QA)",
+              "lower-level token classification tasks (NER, POS)"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The results indicate that averaging model checkpoints yields systematic and consistent performance gains across diverse target languages in all tasks. Importantly, it simultaneously substantially desensitizes XLT to varying hyperparameter choices in the absence of target language validation. We also show that checkpoint averaging benefits performance when further combined with run averaging (i.e., averaging the parameters of models fine-tuned over independent runs).",
+          "Main Action": "average",
+          "Arguments": {
+            "Agent": [
+              "model checkpoints"
+            ],
+            "Object": {
+              "Primary Object": [
+                "systematic and consistent performance gains"
+              ],
+              "Secondary Object": [
+                "across diverse target languages in all tasks"
+              ]
+            },
+            "Context": [
+              "Importantly, it simultaneously substantially desensitizes XLT to varying hyperparameter choices in the absence of target language validation"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "yields systematic and consistent performance gains"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_96",
+      "abstract": "Emotional support conversation (ESC) aims to provide emotional support (ES) to improve one’s mental state. Existing works stay at fitting grounded responses and responding strategies (e.g., question), which ignore the effect on ES and lack explicit goals to guide emotional positive transition. To this end, we introduce a new paradigm to formalize multi-turn ESC as a process of positive emotion elicitation. Addressing this task requires finely adjusting the elicitation intensity in ES as the conversation progresses while maintaining conversational goals like coherence. In this paper, we propose Supporter, a mixture-of-expert-based reinforcement learning model, and well design ES and dialogue coherence rewards to guide policy’s learning for responding. Experiments verify the superiority of Supporter in achieving positive emotion elicitation during responding while maintaining conversational goals including coherence.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Emotional support conversation (ESC) aims to provide emotional support (ES) to improve one’s mental state. Existing works stay at fitting grounded responses and responding strategies (e.g., question), which ignore the effect on ES and lack explicit goals to guide emotional positive transition.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "existing works"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "which ignore the effect on ES and lack explicit goals to guide emotional positive transition"
+            ],
+            "Challenge": [
+              "fitting grounded responses and responding strategies (e.g., question)"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To this end, we introduce a new paradigm to formalize multi-turn ESC as a process of positive emotion elicitation. Addressing this task requires finely adjusting the elicitation intensity in ES as the conversation progresses while maintaining conversational goals like coherence. In this paper, we propose Supporter, a mixture-of-expert-based reinforcement learning model, and well design ES and dialogue coherence rewards to guide policy’s learning for responding.",
+          "Main Action": "introduce",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new paradigm"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "formalize multi-turn ESC as a process of positive emotion elicitation"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Supporter, a mixture-of-expert-based reinforcement learning model"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "addressing this task requires finely adjusting the elicitation intensity in ES as the conversation progresses while maintaining conversational goals like coherence"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "well design ES and dialogue coherence rewards to guide policy’s learning for responding"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments verify the superiority of Supporter in achieving positive emotion elicitation during responding while maintaining conversational goals including coherence.",
+          "Main Action": "verify the superiority",
+          "Arguments": {
+            "Agent": [
+              "experiments"
+            ],
+            "Object": {
+              "Primary Object": [
+                "positive emotion elicitation during responding"
+              ],
+              "Secondary Object": [
+                "while maintaining conversational goals including coherence"
+              ]
+            },
+            "Context": [
+              "during responding while maintaining conversational goals including coherence"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "achieving positive emotion elicitation during responding while maintaining conversational goals including coherence"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

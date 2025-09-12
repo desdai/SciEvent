@@ -1,0 +1,9 @@
+{
+  "bioinfo_23_P_231": {
+    "abstract": "Leveraging local ancestry and haplotype information in genome-wide association studies and downstream analyses can improve the utility of genomics for individuals from diverse and recently admixed ancestries. However, most existing simulation, visualization and variant analysis frameworks are based on variant-level analysis and do not automatically handle these features. We present haptools, an open-source toolkit for performing local ancestry aware and haplotype-based analysis of complex traits. Haptools supports fast simulation of admixed genomes, visualization of admixture tracks, simulation of haplotype- and local ancestry-specific phenotype effects and a variety of file operations and statistics computed in a haplotype-aware manner.",
+    "[Background]": "Leveraging local ancestry and haplotype information in genome-wide association studies and downstream analyses can improve the utility of genomics for individuals from diverse and recently admixed ancestries. However, most existing simulation, visualization and variant analysis frameworks are based on variant-level analysis and do not automatically handle these features.",
+    "[Method]": "We present haptools, an open-source toolkit for performing local ancestry aware and haplotype-based analysis of complex traits. Haptools supports fast simulation of admixed genomes, visualization of admixture tracks, simulation of haplotype- and local ancestry-specific phenotype effects and a variety of file operations and statistics computed in a haplotype-aware manner.",
+    "[Results]": "<NONE>",
+    "[Implications]": "<NONE>"
+  }
+}

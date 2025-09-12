@@ -20,10 +20,10 @@ class Config:
     MODEL_NAME = "meta-llama/Meta-Llama-3-8B-Instruct"
     #MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
     MODEL_CACHE_DIR = "./model_cache"
-    
+
     # Folder structure
-    BASE_DIR = "./SciEvent_data"
-    INPUT_DIR = f"{BASE_DIR}/raw"
+    BASE_DIR = "./SciEvent_data/raw"
+    INPUT_DIR = f"{BASE_DIR}/domain_specific_unannotated"
     OUTPUT_BASE_DIR = "./output/event_segmentation"
     
     # Prompt template name

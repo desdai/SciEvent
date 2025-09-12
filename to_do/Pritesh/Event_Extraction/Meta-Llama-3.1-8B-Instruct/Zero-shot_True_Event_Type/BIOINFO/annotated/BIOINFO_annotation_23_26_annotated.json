@@ -1,0 +1,388 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_841",
+      "abstract": "Developing biochemical models in systems biology is a complex, knowledge-intensive activity. Some modelers (especially novices) benefit from model development tools with a graphical user interface. However, as with the development of complex software, text-based representations of models provide many benefits for advanced model development. At present, the tools for text-based model development are limited, typically just a textual editor that provides features such as copy, paste, find, and replace. Since these tools are not 'model aware,' they do not provide features for: (i) model building such as autocompletion of species names; (ii) model analysis such as hover messages that provide information about chemical species; and (iii) model translation to convert between model representations. We refer to these as BAT features. We present VSCode-Antimony, a tool for building, analyzing, and translating models written in the Antimony modeling language, a human-readable representation of Systems Biology Markup Language (SBML) models. VSCode-Antimony is a source editor, a tool with language-aware features. For example, there is autocompletion of variable names to assist with model building, hover messages that aid in model analysis, and translation between XML and Antimony representations of SBML models. These features result from making VSCode-Antimony model-aware by incorporating several sophisticated capabilities: analysis of the Antimony grammar (e.g., to identify model symbols and their types); a query system for accessing knowledge sources for chemical species and reactions; and automatic conversion between different model representations (e.g., between Antimony and SBML).",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Developing biochemical models in systems biology is a complex, knowledge-intensive activity. Some modelers (especially novices) benefit from model development tools with a graphical user interface. However, as with the development of complex software, text-based representations of models provide many benefits for advanced model development. At present, the tools for text-based model development are limited, typically just a textual editor that provides features such as copy, paste, find, and replace. Since these tools are not 'model aware,' they do not provide features for: (i) model building such as autocompletion of species names; (ii) model analysis such as hover messages that provide information about chemical species; and (iii) model translation to convert between model representations. We refer to these as BAT features.",
+          "Main Action": "benefit",
+          "Arguments": {
+            "Agent": [
+              "Some modelers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present VSCode-Antimony, a tool for building, analyzing, and translating models written in the Antimony modeling language, a human-readable representation of Systems Biology Markup Language (SBML) models. VSCode-Antimony is a source editor, a tool with language-aware features.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we",
+              "VSCode-Antimony"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a tool for building, analyzing, and translating models written in the Antimony modeling language,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "source editor, a tool with language-aware features."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "For example, there is autocompletion of variable names to assist with model building, hover messages that aid in model analysis, and translation between XML and Antimony representations of SBML models.",
+          "Main Action": "assist",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "with model building",
+              "in model analysis",
+              "between XML and Antimony representations of SBML models"
+            ],
+            "Purpose": [
+              "to assist with model building",
+              "to aid in model analysis"
+            ],
+            "Method": [
+              "autocompletion of variable names",
+              "hover messages",
+              "translation between XML and Antimony representations of SBML models"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "These features result from making VSCode-Antimony model-aware by incorporating several sophisticated capabilities: analysis of the Antimony grammar (e.g., to identify model symbols and their types); a query system for accessing knowledge sources for chemical species and reactions; and automatic conversion between different model representations (e.g., between Antimony and SBML).",
+          "Main Action": "making",
+          "Arguments": {
+            "Agent": [
+              "VSCode-Antimony"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "involving incorporation of several sophisticated capabilities"
+            ],
+            "Purpose": [
+              "to make VSCode-Antimony model-aware"
+            ],
+            "Method": [
+              "analysis of the Antimony grammar",
+              "a query system for accessing knowledge sources for chemical species and reactions",
+              "automatic conversion between different model representations"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_262",
+      "abstract": "To allow the comprehensive histological analysis of the whole intestine, it is often rolled to a spiral before imaging. This Swiss-rolling technique facilitates robust experimental procedures, but it limits the possibilities to comprehend changes along the intestine. Here, we present IntestLine, a Shiny-based open-source application for processing imaging data of (rolled) intestinal tissues and subsequent mapping onto a line. The visualization of the mapped data facilitates the assessment of the whole intestine in both proximal-distal and serosa-luminal axis, and enables the observation of location-specific cell types and markers. Accordingly, IntestLine can serve as a tool to characterize the intestine in multi-modal imaging studies.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "To allow the comprehensive histological analysis of the whole intestine, it is often rolled to a spiral before imaging. This Swiss-rolling technique facilitates robust experimental procedures, but it limits the possibilities to comprehend changes along the intestine.",
+          "Main Action": "rolled",
+          "Arguments": {
+            "Agent": [
+              "it"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a spiral"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we present IntestLine, a Shiny-based open-source application for processing imaging data of (rolled) intestinal tissues and subsequent mapping onto a line.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a Shiny-based open-source application for processing imaging data of (rolled) intestinal tissues and subsequent mapping onto a line."
+            ],
+            "Purpose": [
+              "processing imaging data of (rolled) intestinal tissues and subsequent mapping onto a line"
+            ],
+            "Method": [
+              "IntestLine"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The visualization of the mapped data facilitates the assessment of the whole intestine in both proximal-distal and serosa-luminal axis, and enables the observation of location-specific cell types and markers.",
+          "Main Action": "facilitates",
+          "Arguments": {
+            "Agent": [
+              "visualization"
+            ],
+            "Object": {
+              "Primary Object": [
+                "assessment"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "whole intestine",
+              "proximal-distal",
+              "serosa-luminal axis",
+              "location-specific cell types",
+              "markers"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Accordingly, IntestLine can serve as a tool to characterize the intestine in multi-modal imaging studies.",
+          "Main Action": "serve",
+          "Arguments": {
+            "Agent": [
+              "IntestLine"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "multi-modal imaging studies"
+            ],
+            "Purpose": [
+              "characterize the intestine"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

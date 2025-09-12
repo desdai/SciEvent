@@ -1,0 +1,379 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_60",
+      "abstract": "One-on-one tutoring is effective for learning computer science since a tutor can work alongside a student and provide tailored feedback on their code. However, translating this type of instruction to a remote setting is challenging. Traditional methods such as screensharing lack key pedagogical functionality and most available tools are designed for collaboration rather than instruction. To identify tools that can support remote tutoring, we conducted an experiment to assess two resources: synchronous editing and awareness tools. In our study, an instructor teaches a learner introductory programming concepts remotely, collaborating through screensharing alone, a shared notebook with real-time collaborative editing, or a shared notebook with additional awareness tools overlaid. To embed the awareness tools, we designed a Chrome extension that enables real-time sharing of gaze and cursor data. Our results show that synchronous editing combined with awareness tools significantly improved learning. The awareness tools also helped tutors better communicate with the student, track their understanding, and establish a sense of presence. As a final contribution, we also assessed the efficacy of gaze-sharing using a webcam eye-tracker. While the accuracy was not as precise as a dedicated sensor, instructors described instances when the gaze was useful for gauging student attention and establishing presence. We discuss implications for remote tutoring in computer science and scaling awareness technology.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "One-on-one tutoring is effective for learning computer science since a tutor can work alongside a student and provide tailored feedback on their code. However, translating this type of instruction to a remote setting is challenging. Traditional methods such as screensharing lack key pedagogical functionality and most available tools are designed for collaboration rather than instruction.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To identify tools that can support remote tutoring, we conducted an experiment to assess two resources: synchronous editing and awareness tools. In our study, an instructor teaches a learner introductory programming concepts remotely, collaborating through screensharing alone, a shared notebook with real-time collaborative editing, or a shared notebook with additional awareness tools overlaid. To embed the awareness tools, we designed a Chrome extension that enables real-time sharing of gaze and cursor data.",
+          "Main Action": "conducted an experiment",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "two resources: synchronous editing and awareness tools"
+              ],
+              "Secondary Object": [
+                "an instructor teaches a learner introductory programming concepts remotely"
+              ]
+            },
+            "Context": [
+              "In our study"
+            ],
+            "Purpose": [
+              "To identify tools that can support remote tutoring"
+            ],
+            "Method": [
+              "collaborating through screensharing alone",
+              "a shared notebook with real-time collaborative editing",
+              "or a shared notebook with additional awareness tools overlaid"
+            ],
+            "Results": [
+              "To embed the awareness tools, we designed a Chrome extension that enables real-time sharing of gaze and cursor data"
+            ],
+            "Analysis": [
+              "We assessed the effectiveness of these tools"
+            ],
+            "Challenge": [
+              "The design and implementation of awareness tools require technical expertise"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This approach enhances remote learning capabilities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results show that synchronous editing combined with awareness tools significantly improved learning. The awareness tools also helped tutors better communicate with the student, track their understanding, and establish a sense of presence. As a final contribution, we also assessed the efficacy of gaze-sharing using a webcam eye-tracker. While the accuracy was not as precise as a dedicated sensor, instructors described instances when the gaze was useful for gauging student attention and establishing presence.",
+          "Main Action": "synchronous editing combined with awareness tools significantly improved learning",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "learning"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "an educational setting involving tutors and students"
+            ],
+            "Purpose": [
+              "to improve communication between tutors and students, track their understanding, and establish a sense of presence"
+            ],
+            "Method": [
+              "using synchronous editing, awareness tools, and a webcam eye-tracker to assess gaze-sharing"
+            ],
+            "Results": [
+              "results showed significant improvement in learning"
+            ],
+            "Analysis": [
+              "while the accuracy wasn’t as precise as a dedicated sensor, instructors described instances when the gaze was useful for gauging student attention and establishing presence"
+            ],
+            "Challenge": [
+              "lower accuracy compared to dedicated sensors"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "despite limitations, the tools have potential for future research and applications in education"
+            ],
+            "Contradictions": [
+              "mixed feedback on the tool’s effectiveness"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss implications for remote tutoring in computer science and scaling awareness technology.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "discuss implications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_79",
+      "abstract": "Getting training data for machine learning (ML) prediction of mental illness on social media data is labor intensive. To work around this, ML teams will extrapolate proxy signals, or alternative signs from data to evaluate illness status and create training datasets. However, these signals' validity has not been determined, whether signals align with important contextual factors, and how proxy quality impacts downstream model integrity. We use ML and qualitative methods to evaluate whether a popular proxy signal, diagnostic self-disclosure, produces a conceptually sound ML model of mental illness. Our findings identify major conceptual errors only seen through a qualitative investigation — training data built from diagnostic disclosures encodes a narrow vision of diagnosis experiences that propagates into paradoxes in the downstream ML model. This gap is obscured by strong performance of the ML classifier (F1 = 0.91). We discuss the implications of conceptual gaps in creating training data for human-centered models, and make suggestions for improving research methods.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Getting training data for machine learning (ML) prediction of mental illness on social media data is labor intensive. To work around this, ML teams will extrapolate proxy signals, or alternative signs from data to evaluate illness status and create training datasets. However, these signals' validity has not been determined, whether signals align with important contextual factors, and how proxy quality impacts downstream model integrity.",
+          "Main Action": "extrapolate",
+          "Arguments": {
+            "Agent": [
+              "machine learning teams"
+            ],
+            "Object": {
+              "Primary Object": [
+                "training datasets"
+              ],
+              "Secondary Object": [
+                "social media data"
+              ]
+            },
+            "Context": [
+              "obtaining training data is labor-intensive"
+            ],
+            "Purpose": [
+              "predicting mental illness"
+            ],
+            "Method": [
+              "extrapolate proxy signals"
+            ],
+            "Results": [
+              "proxy signals"
+            ],
+            "Analysis": [
+              "whether signals align with important contextual factors and how proxy quality impacts downstream model integrity"
+            ],
+            "Challenge": [
+              "validity of signals"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "balancing accessibility against model reliability"
+            ],
+            "Contradictions": [
+              "existing assumptions about data quality"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We use ML and qualitative methods to evaluate whether a popular proxy signal, diagnostic self-disclosure, produces a conceptually sound ML model of mental illness.",
+          "Main Action": "Use ML and qualitative methods to evaluate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Diagnostic self-disclosure"
+              ],
+              "Secondary Object": [
+                "Conceptually sound ML model of mental illness"
+              ]
+            },
+            "Context": [
+              "ML and qualitative methods"
+            ],
+            "Purpose": [
+              "To determine if diagnostic self-disclosure produces a conceptually sound ML model of mental illness"
+            ],
+            "Method": [
+              "ML and qualitative methods"
+            ],
+            "Results": [
+              "Whether a popular proxy signal...produces a conceptually sound ML model of mental illness"
+            ],
+            "Analysis": [
+              "Comparison against established standards"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential for improving diagnosis and treatment of mental illness"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our findings identify major conceptual errors only seen through a qualitative investigation — training data built from diagnostic disclosures encodes a narrow vision of diagnosis experiences that propagates into paradoxes in the downstream ML model. This gap is obscured by strong performance of the ML classifier (F1 = 0.91).",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "training data built from diagnostic disclosures"
+            ],
+            "Analysis": [
+              "a narrow vision of diagnosis experiences",
+              "that propagates into paradoxes in the downstream ML model"
+            ],
+            "Challenge": [
+              "strong performance of the ML classifier (F1 = 0.91)"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss the implications of conceptual gaps in creating training data for human-centered models, and make suggestions for improving research methods.",
+          "Main Action": "Discuss",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Conceptual gaps in creating training data for human-centered models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Human-centered models"
+            ],
+            "Purpose": [
+              "Improving research methods"
+            ],
+            "Method": [
+              "Making suggestions for improving research methods"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Analyzing the implications of conceptual gaps"
+            ],
+            "Challenge": [
+              "Ensuring ethical considerations and avoiding biases in AI models"
+            ],
+            "Ethical": [
+              "Addressing potential biases and ethical concerns in AI models"
+            ],
+            "Implications": [
+              "Enhancing trustworthiness and reliability of AI systems"
+            ],
+            "Contradictions": [
+              "Recognizing limitations in current methodologies"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

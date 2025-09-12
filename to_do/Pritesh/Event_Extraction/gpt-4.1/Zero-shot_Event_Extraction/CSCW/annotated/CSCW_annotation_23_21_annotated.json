@@ -1,0 +1,338 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_151",
+      "abstract": "When groups of people are tasked with making a judgment, the issue of uncertainty often arises. Existing methods to reduce uncertainty typically focus on iteratively improving specificity in the overall task instruction. However, uncertainty can arise from multiple sources, such as ambiguity of the item being judged due to limited context, or disagreements among the participants due to different perspectives and an under-specified task. A one-size-fits-all intervention may be ineffective if it is not targeted to the right source of uncertainty. In this paper, we introduce a new workflow, Judgment Sieve, to reduce uncertainty in tasks involving group judgment in a targeted manner. By utilizing measurements that separate different sources of uncertainty during an initial round of judgment elicitation, we can then select a targeted intervention adding context or deliberation to most effectively reduce uncertainty on each item being judged. We test our approach on two tasks: rating word pair similarity and toxicity of online comments, showing that targeted interventions reduced uncertainty for the most uncertain cases. In the top 10% of cases, we saw an ambiguity reduction of 21.4% and 25.7%, and a disagreement reduction of 22.2% and 11.2% for the two tasks respectively. We also found through a simulation that our targeted approach reduced the average uncertainty scores for both sources of uncertainty as opposed to uniform approaches where reductions in average uncertainty from one source came with an increase for the other.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "When groups of people are tasked with making a judgment, the issue of uncertainty often arises. Existing methods to reduce uncertainty typically focus on iteratively improving specificity in the overall task instruction. However, uncertainty can arise from multiple sources, such as ambiguity of the item being judged due to limited context, or disagreements among the participants due to different perspectives and an under-specified task. A one-size-fits-all intervention may be ineffective if it is not targeted to the right source of uncertainty.",
+          "Main Action": "reduce uncertainty",
+          "Arguments": {
+            "Agent": [
+              "Existing methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "uncertainty"
+              ],
+              "Secondary Object": [
+                "the overall task instruction"
+              ]
+            },
+            "Context": [
+              "When groups of people are tasked with making a judgment, the issue of uncertainty often arises."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "iteratively improving specificity in the overall task instruction"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "uncertainty can arise from multiple sources, such as ambiguity of the item being judged due to limited context, or disagreements among the participants due to different perspectives and an under-specified task"
+            ],
+            "Challenge": [
+              "A one-size-fits-all intervention may be ineffective if it is not targeted to the right source of uncertainty."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we introduce a new workflow, Judgment Sieve, to reduce uncertainty in tasks involving group judgment in a targeted manner. By utilizing measurements that separate different sources of uncertainty during an initial round of judgment elicitation, we can then select a targeted intervention adding context or deliberation to most effectively reduce uncertainty on each item being judged.",
+          "Main Action": "introduce a new workflow, Judgment Sieve, to reduce uncertainty in tasks involving group judgment in a targeted manner",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new workflow, Judgment Sieve"
+              ],
+              "Secondary Object": [
+                "uncertainty in tasks involving group judgment"
+              ]
+            },
+            "Context": [
+              "In this paper"
+            ],
+            "Purpose": [
+              "to reduce uncertainty in tasks involving group judgment in a targeted manner"
+            ],
+            "Method": [
+              "By utilizing measurements that separate different sources of uncertainty during an initial round of judgment elicitation",
+              "select a targeted intervention adding context or deliberation to most effectively reduce uncertainty on each item being judged"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We test our approach on two tasks: rating word pair similarity and toxicity of online comments, showing that targeted interventions reduced uncertainty for the most uncertain cases. In the top 10% of cases, we saw an ambiguity reduction of 21.4% and 25.7%, and a disagreement reduction of 22.2% and 11.2% for the two tasks respectively. We also found through a simulation that our targeted approach reduced the average uncertainty scores for both sources of uncertainty as opposed to uniform approaches where reductions in average uncertainty from one source came with an increase for the other.",
+          "Main Action": "showing that targeted interventions reduced uncertainty for the most uncertain cases",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "uncertainty for the most uncertain cases"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "We test our approach on two tasks: rating word pair similarity and toxicity of online comments"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "targeted interventions",
+              "our targeted approach",
+              "simulation",
+              "uniform approaches"
+            ],
+            "Results": [
+              "In the top 10% of cases, we saw an ambiguity reduction of 21.4% and 25.7%, and a disagreement reduction of 22.2% and 11.2% for the two tasks respectively",
+              "our targeted approach reduced the average uncertainty scores for both sources of uncertainty as opposed to uniform approaches where reductions in average uncertainty from one source came with an increase for the other"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_136",
+      "abstract": "Our perception of emotion is highly contextual. Changes in the environment can affect our narrative framing, and thus augment our emotional perception of interlocutors. User environments are typically heavily suppressed due to the technical limitations of commercial videoconferencing platforms. As a result, there is often a lack of contextual awareness while participating in a video call, and this affects how we perceive the emotions of conversants. We present a videoconferencing module that visualizes the user's aural environment to enhance awareness between interlocutors. The system visualizes environmental sound based on its semantic and acoustic properties. We found that our visualization system was about 50% effective at eliciting emotional perceptions in users that was similar to the response elicited by environmental sound it replaced. The contributed system provides a unique approach to facilitate ambient awareness on an implicit emotional level in situations where multimodal environmental context is suppressed.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Our perception of emotion is highly contextual. Changes in the environment can affect our narrative framing, and thus augment our emotional perception of interlocutors. User environments are typically heavily suppressed due to the technical limitations of commercial videoconferencing platforms. As a result, there is often a lack of contextual awareness while participating in a video call, and this affects how we perceive the emotions of conversants.",
+          "Main Action": "affects",
+          "Arguments": {
+            "Agent": [
+              "this"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how we perceive the emotions of conversants"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "there is often a lack of contextual awareness while participating in a video call",
+              "User environments are typically heavily suppressed due to the technical limitations of commercial videoconferencing platforms"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "Changes in the environment can affect our narrative framing, and thus augment our emotional perception of interlocutors"
+            ],
+            "Challenge": [
+              "User environments are typically heavily suppressed due to the technical limitations of commercial videoconferencing platforms"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present a videoconferencing module that visualizes the user's aural environment to enhance awareness between interlocutors. The system visualizes environmental sound based on its semantic and acoustic properties.",
+          "Main Action": "present a videoconferencing module",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a videoconferencing module"
+              ],
+              "Secondary Object": [
+                "the user's aural environment"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to enhance awareness between interlocutors"
+            ],
+            "Method": [
+              "visualizes the user's aural environment",
+              "visualizes environmental sound based on its semantic and acoustic properties"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that our visualization system was about 50% effective at eliciting emotional perceptions in users that was similar to the response elicited by environmental sound it replaced.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that our visualization system was about 50% effective at eliciting emotional perceptions in users that was similar to the response elicited by environmental sound it replaced"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "our visualization system"
+            ],
+            "Results": [
+              "our visualization system was about 50% effective at eliciting emotional perceptions in users that was similar to the response elicited by environmental sound it replaced"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The contributed system provides a unique approach to facilitate ambient awareness on an implicit emotional level in situations where multimodal environmental context is suppressed.",
+          "Main Action": "provides a unique approach to facilitate ambient awareness on an implicit emotional level in situations where multimodal environmental context is suppressed",
+          "Arguments": {
+            "Agent": [
+              "The contributed system"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a unique approach to facilitate ambient awareness on an implicit emotional level in situations where multimodal environmental context is suppressed"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in situations where multimodal environmental context is suppressed"
+            ],
+            "Purpose": [
+              "to facilitate ambient awareness on an implicit emotional level"
+            ],
+            "Method": [
+              "a unique approach"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

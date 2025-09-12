@@ -1,0 +1,397 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_134",
+      "abstract": "Wearable sensor technologies have the potential to improve monitoring in people with multiple sclerosis (MS) and inform timely disease management decisions. Evidence of the utility of wearable sensor technologies in people with MS is accumulating but is generally limited to specific subgroups of patients, clinical or laboratory settings, and functional domains. This review aims to provide a comprehensive overview of all studies that have used wearable sensors to assess, monitor, and quantify motor function in people with MS during daily activities or in a controlled laboratory setting and to shed light on the technological advances over the past decades. We systematically reviewed studies on wearable sensors to assess the motor performance of people with MS. We scanned PubMed, Scopus, Embase, and Web of Science databases until December 31, 2022, considering search terms 'multiple sclerosis' and those associated with wearable technologies and included all studies assessing motor functions. The types of results from relevant studies were systematically mapped into 9 predefined categories (association with clinical scores or other measures; test-retest reliability; group differences, 3 types; responsiveness to change or intervention; and acceptability to study participants), and the reporting quality was determined through 9 questions. We followed the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) reporting guidelines. Of the 1251 identified publications, 308 were included: 176 (57.1%) in a real-world context, 107 (34.7%) in a laboratory context, and 25 (8.1%) in a mixed context. Most publications studied physical activity (196/308, 63.6%), followed by gait (81/308, 26.3%), dexterity or tremor (38/308, 12.3%), and balance (34/308, 11%). In the laboratory setting, outcome measures included (in addition to clinical severity scores) 2- and 6-minute walking tests, timed 25-foot walking test, timed up and go, stair climbing, balance tests, and finger-to-nose test, among others. The most popular anatomical landmarks for wearable placement were the waist, wrist, and lower back. Triaxial accelerometers were most commonly used (229/308, 74.4%). A surge in the number of sensors embedded in smartphones and smartwatches has been observed. Overall, the reporting quality was good. Continuous monitoring with wearable sensors could optimize the management of people with MS, but some hurdles still exist to full clinical adoption of digital monitoring. Despite a possible publication bias and vast heterogeneity in the outcomes reported, our review provides an overview of the current literature on wearable sensor technologies used for people with MS and highlights shortcomings, such as the lack of harmonization, transparency in reporting methods and results, and limited data availability for the research community. These limitations need to be addressed for the growing implementation of wearable sensor technologies in clinical routine and clinical trials, which is of utmost importance for further progress in clinical research and daily management of people with MS.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Wearable sensor technologies have the potential to improve monitoring in people with multiple sclerosis (MS) and inform timely disease management decisions. Evidence of the utility of wearable sensor technologies in people with MS is accumulating but is generally limited to specific subgroups of patients, clinical or laboratory settings, and functional domains.",
+          "Main Action": "have the potential to",
+          "Arguments": {
+            "Agent": [
+              "Wearable sensor technologies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "improve monitoring"
+              ],
+              "Secondary Object": [
+                "in people with multiple sclerosis (MS)"
+              ]
+            },
+            "Context": [
+              "Evidence of the utility..."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "accumulating but generally limited ..."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This review aims to provide a comprehensive overview of all studies that have used wearable sensors to assess, monitor, and quantify motor function in people with MS during daily activities or in a controlled laboratory setting and to shed light on the technological advances over the past decades. We systematically reviewed studies on wearable sensors to assess the motor performance of people with MS. We scanned PubMed, Scopus, Embase, and Web of Science databases until December 31, 2022, considering search terms 'multiple sclerosis' and those associated with wearable technologies and included all studies assessing motor functions. The types of results from relevant studies were systematically mapped into 9 predefined categories (association with clinical scores or other measures; test-retest reliability; group differences, 3 types; responsiveness to change or intervention; and acceptability to study participants), and the reporting quality was determined through 9 questions. We followed the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) reporting guidelines.",
+          "Main Action": "have extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Cross-linguistic transfer"
+            ],
+            "Object": {
+              "Primary Object": [
+                "their effects"
+              ],
+              "Secondary Object": [
+                "on the successful acquisition"
+              ]
+            },
+            "Context": [
+              "Positive (facilitating acquisition) or negative (impeding acquisition)",
+              "Effects of such transfer can be positive or negative"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Understanding these effects",
+              "Determining the underlying mechanisms",
+              "Predicting individual differences in transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Of the 1251 identified publications, 308 were included: 176 (57.1%) in a real-world context, 107 (34.7%) in a laboratory context, and 25 (8.1%) in a mixed context. Most publications studied physical activity (196/308, 63.6%), followed by gait (81/308, 26.3%), dexterity or tremor (38/308, 12.3%), and balance (34/308, 11%). In the laboratory setting, outcome measures included (in addition to clinical severity scores) 2- and 6-minute walking tests, timed 25-foot walking test, timed up and go, stair climbing, balance tests, and finger-to-nose test, among others. The most popular anatomical landmarks for wearable placement were the waist, wrist, and lower back. Triaxial accelerometers were most commonly used (229/308, 74.4%). A surge in the number of sensors embedded in smartphones and smartwatches has been observed. Overall, the reporting quality was good.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Continuous monitoring with wearable sensors could optimize the management of people with MS, but some hurdles still exist to full clinical adoption of digital monitoring. Despite a possible publication bias and vast heterogeneity in the outcomes reported, our review provides an overview of the current literature on wearable sensor technologies used for people with MS and highlights shortcomings, such as the lack of harmonization, transparency in reporting methods and results, and limited data availability for the research community. These limitations need to be addressed for the growing implementation of wearable sensor technologies in clinical routine and clinical trials, which is of utmost importance for further progress in clinical research and daily management of people with MS.",
+          "Main Action": "need to be addressed",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these limitations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "publication bias",
+              "vast heterogeneity in the outcomes reported",
+              "lack of harmonization",
+              "transparency in reporting methods and results",
+              "limited data availability"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Publication Bias",
+              "Vast Heterogeneity In Outcomes Reported",
+              "Lack Of Harmonization",
+              "Transparency In Reporting Methods And Results",
+              "Limited Data Availability"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "growing implementation of wearable sensor technologies in clinical routine and clinical trials"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_382",
+      "abstract": "Silent paroxysmal atrial fibrillation (AF) may be difficult to diagnose, and AF burden is hard to establish. In contrast to conventional diagnostic devices, photoplethysmography (PPG)–driven smartwatches or wristbands allow for long-term continuous heart rhythm assessment. However, most smartwatches lack an integrated PPG-AF algorithm. Adding a standalone PPG-AF algorithm to these wrist devices might open new possibilities for AF screening and burden assessment. The aim of this study was to assess the accuracy of a well-known standalone PPG-AF detection algorithm added to a popular wristband and smartwatch, with regard to discriminating AF and sinus rhythm, in a group of patients with AF before and after cardioversion (CV). Consecutive consenting patients with AF admitted for CV in a large academic hospital in Amsterdam, the Netherlands, were asked to wear a Biostrap wristband or Fitbit Ionic smartwatch with Fibricheck algorithm add-on surrounding the procedure. A set of 1-min PPG measurements and 12-lead reference electrocardiograms was obtained before and after CV. Rhythm assessment by the PPG device-software combination was compared with the 12-lead electrocardiogram. A total of 78 patients were included in the Biostrap-Fibricheck cohort (156 measurement sets) and 73 patients in the Fitbit-Fibricheck cohort (143 measurement sets). Of the measurement sets, 19/156 (12%) and 7/143 (5%), respectively, were not classifiable by the PPG algorithm due to bad quality. The diagnostic performance in terms of sensitivity, specificity, positive predictive value, negative predictive value, and accuracy was 98%, 96%, 96%, 99%, 97%, and 97%, 100%, 100%, 97%, and 99%, respectively, at an AF prevalence of ~50%. This study demonstrates that the addition of a well-known standalone PPG-AF detection algorithm to a popular PPG smartwatch and wristband without an integrated algorithm yields a high accuracy for the detection of AF, with an acceptable unclassifiable rate, in a semicontrolled environment.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Silent paroxysmal atrial fibrillation (AF) may be difficult to diagnose, and AF burden is hard to establish. In contrast to conventional diagnostic devices, photoplethysmography (PPG)–driven smartwatches or wristbands allow for long-term continuous heart rhythm assessment. However, most smartwatches lack an integrated PPG-AF algorithm. Adding a standalone PPG-AF algorithm to these wrist devices might open new possibilities for AF screening and burden assessment.",
+          "Main Action": "may be difficult to diagnose",
+          "Arguments": {
+            "Agent": [
+              "silent paroxysmal atrial fibrillation (AF)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "diagnosing"
+              ],
+              "Secondary Object": [
+                "hard to establish"
+              ]
+            },
+            "Context": [
+              "silient paroxysmal atrial fibrillation (AF)",
+              "photoplethysmography (PPG)-driven smartwatches or wristbands",
+              "most smartwatches lack an integrated PPG-AF algorithm"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "long-term continuous heart rhythm assessment"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "contrast to conventional diagnostic devices",
+              "adding a standalone PPG-AF algorithm to these wrist devices might open new possibilities for AF screening and burden assessment"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "new possibilities for AF screening and burden assessment"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The aim of this study was to assess the accuracy of a well-known standalone PPG-AF detection algorithm added to a popular wristband and smartwatch, with regard to discriminating AF and sinus rhythm, in a group of patients with AF before and after cardioversion (CV). Consecutive consenting patients with AF admitted for CV in a large academic hospital in Amsterdam, the Netherlands, were asked to wear a Biostrap wristband or Fitbit Ionic smartwatch with Fibricheck algorithm add-on surrounding the procedure. A set of 1-min PPG measurements and 12-lead reference electrocardiograms was obtained before and after CV. Rhythm assessment by the PPG device-software combination was compared with the 12-lead electrocardiogram.",
+          "Main Action": "assess",
+          "Arguments": {
+            "Agent": [
+              "the accuracy of a well-known standalone PPG-AF detection algorithm added to a popular wristband and smartwatch"
+            ],
+            "Object": {
+              "Primary Object": [
+                "AF and sinus rhythm discrimination"
+              ],
+              "Secondary Object": [
+                "patients with AF before and after cardioversion (CV)"
+              ]
+            },
+            "Context": [
+              "in a group of patients with AF before and after cardioversion (CV)",
+              "consecutive consenting patients with AF admitted for CV in a large academic hospital in Amsterdam, the Netherlands, were asked to wear a Biostrap wristband or Fitbit Ionic smartwatch with Fibricheck algorithm add-on surrounding the procedure",
+              "A set of 1-min PPG measurements and 12-lead reference electrocardiograms was obtained before and after CV.",
+              "Rhythm assessment by the PPG device-software combination was compared with the 12-lead electrocardiogram."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "PPG measurements were collected from consecutive consenting patients with AF before and after CV",
+              "rhythms assessed by the PPG device-software combination were compared against those determined by 12-lead ECG"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "A total of 78 patients were included in the Biostrap-Fibricheck cohort (156 measurement sets) and 73 patients in the Fitbit-Fibricheck cohort (143 measurement sets). Of the measurement sets, 19/156 (12%) and 7/143 (5%), respectively, were not classifiable by the PPG algorithm due to bad quality. The diagnostic performance in terms of sensitivity, specificity, positive predictive value, negative predictive value, and accuracy was 98%, 96%, 96%, 99%, 97%, and 97%, 100%, 100%, 97%, and 99%, respectively, at an AF prevalence of ~50%.",
+          "Main Action": "included in the Biostrap-Fibricheck cohort",
+          "Arguments": {
+            "Agent": [
+              "156 measurement sets"
+            ],
+            "Object": {
+              "Primary Object": [
+                "78 patients"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Fitbit-Fibricheck cohort"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "19/156 (12%)",
+              "7/143 (5%)"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "bad quality",
+              "measurement set classification failed"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This study demonstrates that the addition of a well-known standalone PPG-AF detection algorithm to a popular PPG smartwatch and wristband without an integrated algorithm yields a high accuracy for the detection of AF, with an acceptable unclassifiable rate, in a semicontrolled environment.",
+          "Main Action": "addition of a well-known standalone PPG-AF detection algorithm to a popular PPG smartwatch and wristband",
+          "Arguments": {
+            "Agent": [
+              "This study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "PPG-AF detection algorithm"
+              ],
+              "Secondary Object": [
+                "popular PPG smartwatch and wristband"
+              ]
+            },
+            "Context": [
+              "in a semicontrolled environment"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "high accuracy for the detection of AF",
+              "acceptable unclassifiable rate"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

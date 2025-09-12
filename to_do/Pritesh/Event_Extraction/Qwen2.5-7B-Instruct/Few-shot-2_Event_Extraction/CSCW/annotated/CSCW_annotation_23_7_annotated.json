@@ -1,0 +1,382 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_143",
+      "abstract": "A conversational agent (CA) effectively facilitates online group discussions at scale. However, users may have expectations about how well the CA would perform that do not match with the actual performance, compromising technology acceptance. We built a facilitator CA that detects a member who has low contribution during a synchronous group chat discussion and asks the person to participate more. We designed three techniques to set end-user expectations about how accurately the CA identifies an under-contributing member: 1) information: explicitly communicating the accuracy of the detection algorithm, 2) explanation: providing an overview of the algorithm and the data used for the detection, and 3) adjustment: enabling users to gain a feeling of control over the algorithm. We conducted an online experiment with 163 crowdworkers in which each group completed a collaborative decision-making task and experienced one of the techniques. Through surveys and interviews, we found that the explanation technique was the most effective strategy overall as it reduced user embarrassment, increased the perceived intelligence of the CA, and helped users better understand the detection algorithm. In contrast, the information technique reduced members' contributions, and the adjustment technique led to a more negative perceived discussion experience. We also discovered that the interactions with other team members diluted the effects of the techniques on users' performance expectations and acceptance of the CA. We discuss implications for better designing expectation-setting techniques for AI-team collaboration such as ways to improve collaborative decision outcomes and quality of contributions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "A conversational agent (CA) effectively facilitates online group discussions at scale. However, users may have expectations about how well the CA would perform that do not match with the actual performance, compromising technology acceptance.",
+          "Main Action": "may have",
+          "Arguments": {
+            "Agent": [
+              "users"
+            ],
+            "Object": {
+              "Primary Object": [
+                "expectations about how well the CA would perform"
+              ],
+              "Secondary Object": [
+                "that do not match with the actual performance"
+              ]
+            },
+            "Context": [
+              "online group discussions at scale facilitated by a conversational agent (CA)",
+              "technology acceptance compromised"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We built a facilitator CA that detects a member who has low contribution during a synchronous group chat discussion and asks the person to participate more. We designed three techniques to set end-user expectations about how accurately the CA identifies an under-contributing member: 1) information: explicitly communicating the accuracy of the detection algorithm, 2) explanation: providing an overview of the algorithm and the data used for the detection, and 3) adjustment: enabling users to gain a feeling of control over the algorithm. We conducted an online experiment with 163 crowdworkers in which each group completed a collaborative decision-making task and experienced one of the techniques.",
+          "Main Action": "built",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a facilitator CA"
+              ],
+              "Secondary Object": [
+                "detecting a member who has low contribution during a synchronous group chat discussion and asking the person to participate more"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "designing three techniques to set end-user expectations about how accurately the CA identifies an under-contributing member"
+            ],
+            "Method": [
+              "setting end-user expectations through information, explanation, and adjustment"
+            ],
+            "Results": [
+              "conducting an online experiment with 163 crowdworkers where groups completed a collaborative decision-making task and experienced one of the techniques"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through surveys and interviews, we found that the explanation technique was the most effective strategy overall as it reduced user embarrassment, increased the perceived intelligence of the CA, and helped users better understand the detection algorithm. In contrast, the information technique reduced members' contributions, and the adjustment technique led to a more negative perceived discussion experience. We also discovered that the interactions with other team members diluted the effects of the techniques on users' performance expectations and acceptance of the CA.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that the explanation technique was the most effective strategy overall as it reduced user embarrassment, increased the perceived intelligence of the CA, and helped users better understand the detection algorithm"
+              ],
+              "Secondary Object": [
+                "In contrast, the information technique reduced members' contributions, and the adjustment technique led to a more negative perceived discussion experience"
+              ]
+            },
+            "Context": [
+              "through surveys and interviews"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "surveys and interviews"
+            ],
+            "Results": [
+              "reduced user embarrassment, increased the perceived intelligence of the CA, and helped users better understand the detection algorithm; reduced members' contributions; led to a more negative perceived discussion experience"
+            ],
+            "Analysis": [
+              "interactions with other team members diluted the effects of the techniques on users' performance expectations and acceptance of the CA"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss implications for better designing expectation-setting techniques for AI-team collaboration such as ways to improve collaborative decision outcomes and quality of contributions.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "implications"
+              ],
+              "Secondary Object": [
+                "for the design of live streaming systems to support streamers in protecting bystanders' privacy"
+              ]
+            },
+            "Context": [
+              "Applying the theoretical lens of collective privacy management"
+            ],
+            "Purpose": [
+              "support streamers in protecting bystanders' privacy"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_211",
+      "abstract": "The COVID-19 pandemic transformed many aspects of health and daily life. A subset of people who were infected with the virus have ongoing chronic health issues that range in type of symptom and severity. In this study, we conducted a qualitative assessment of self-reported post-COVID symptoms from patients' electronic health records (EHR, n=564) and a randomized collection of Reddit and Twitter posts (n=500 for each). We show the inconsistencies in what types of symptoms are shared between platforms in addition to assessing the severity of the symptoms and how social media characterizations of post-COVID do not tell a complete story of this phenomenon. This research contributes to CSCW health literature by connecting digital traces of post-COVID with EHR data, critiquing the use of social media as a health proxy and points to its potential to add context to the analysis of traditional health data extracted from the EHR.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The COVID-19 pandemic transformed many aspects of health and daily life. A subset of people who were infected with the virus have ongoing chronic health issues that range in type of symptom and severity.",
+          "Main Action": "<transformed>",
+          "Arguments": {
+            "Agent": [
+              "The COVID-19 pandemic"
+            ],
+            "Object": {
+              "Primary Object": [
+                "many aspects of health and daily life"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "ongoing chronic health issues that range in type of symptom and severity"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we conducted a qualitative assessment of self-reported post-COVID symptoms from patients' electronic health records (EHR, n=564) and a randomized collection of Reddit and Twitter posts (n=500 for each).",
+          "Main Action": "conducting",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a qualitative assessment"
+              ],
+              "Secondary Object": [
+                "self-reported post-COVID symptoms",
+                "patients' electronic health records (EHR)",
+                "Reddit and Twitter posts"
+              ]
+            },
+            "Context": [
+              "from EHR (n=564)",
+              "and a randomized collection of Reddit and Twitter posts (n=500 for each)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "qualitative assessment"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We show the inconsistencies in what types of symptoms are shared between platforms in addition to assessing the severity of the symptoms and how social media characterizations of post-COVID do not tell a complete story of this phenomenon.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "inconsistencies in what types of symptoms are shared between platforms",
+                "severity of the symptoms",
+                "social media characterizations of post-COVID"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "post-COVID phenomenon"
+            ],
+            "Purpose": [
+              "assessing the severity of the symptoms and how social media characterizations of post-COVID do not tell a complete story of this phenomenon"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This research contributes to CSCW health literature by connecting digital traces of post-COVID with EHR data, critiquing the use of social media as a health proxy and points to its potential to add context to the analysis of traditional health data extracted from the EHR.",
+          "Main Action": "connect",
+          "Arguments": {
+            "Agent": [
+              "this research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "digital traces of post-COVID with EHR data"
+              ],
+              "Secondary Object": [
+                "critiquing the use of social media as a health proxy"
+              ]
+            },
+            "Context": [
+              "contributing to CSCW health literature"
+            ],
+            "Purpose": [
+              "points to its potential to add context to the analysis of traditional health data extracted from the EHR"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

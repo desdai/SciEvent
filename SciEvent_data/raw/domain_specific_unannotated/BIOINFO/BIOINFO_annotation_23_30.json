@@ -1,0 +1,175 @@
+[
+  {
+    "paper_code": "bioinfo_23_P_317",
+    "abstract": "There is widespread interest in identifying genetic variants that exhibit parent-of-origin effects (POEs) wherein the effect of an allele on phenotype expression depends on its parental origin. POEs can arise from different phenomena including genomic imprinting and have been documented for many complex traits. Traditional tests for POEs require family data to determine parental origins of transmitted alleles. As most genome-wide association studies (GWAS) sample unrelated individuals (where allelic parental origin is unknown), the study of POEs in such datasets requires sophisticated statistical methods that exploit genetic patterns we anticipate observing when POEs exist. We propose a method to improve discovery of POE variants in large-scale GWAS samples that leverages potential pleiotropy among multiple correlated traits often collected in such studies. Our method compares the phenotypic covariance matrix of heterozygotes to homozygotes based on a Robust Omnibus Test. We refer to our method as the Parent of Origin Inference using Robust Omnibus Test (POIROT) of multiple quantitative traits. Through simulation studies, we compared POIROT to a competing univariate variance-based method which considers separate analysis of each phenotype. We observed POIROT to be well-calibrated with improved power to detect POEs compared to univariate methods. POIROT is robust to non-normality of phenotypes and can adjust for population stratification and other confounders. Finally, we applied POIROT to GWAS data from the UK Biobank using BMI and two cholesterol phenotypes. We identified 338 genome-wide significant loci for follow-up investigation.",
+    "events": [
+      {
+        "Background/Introduction": "",
+        "Text": "There is widespread interest in identifying genetic variants that exhibit parent-of-origin effects (POEs) wherein the effect of an allele on phenotype expression depends on its parental origin. POEs can arise from different phenomena including genomic imprinting and have been documented for many complex traits. Traditional tests for POEs require family data to determine parental origins of transmitted alleles. As most genome-wide association studies (GWAS) sample unrelated individuals (where allelic parental origin is unknown), the study of POEs in such datasets requires sophisticated statistical methods that exploit genetic patterns we anticipate observing when POEs exist.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "",
+        "Text": "We propose a method to improve discovery of POE variants in large-scale GWAS samples that leverages potential pleiotropy among multiple correlated traits often collected in such studies. Our method compares the phenotypic covariance matrix of heterozygotes to homozygotes based on a Robust Omnibus Test. We refer to our method as the Parent of Origin Inference using Robust Omnibus Test (POIROT) of multiple quantitative traits. Through simulation studies, we compared POIROT to a competing univariate variance-based method which considers separate analysis of each phenotype.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "",
+        "Text": "We observed POIROT to be well-calibrated with improved power to detect POEs compared to univariate methods. POIROT is robust to non-normality of phenotypes and can adjust for population stratification and other confounders. Finally, we applied POIROT to GWAS data from the UK Biobank using BMI and two cholesterol phenotypes. We identified 338 genome-wide significant loci for follow-up investigation.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "bioinfo_23_P_703",
+    "abstract": "The Tapestri platform offers DNA and protein analysis at the single-cell level. Integrating both types of data is beneficial for studying multiple cell populations in heterogeneous microenvironments, such as tumor tissues. Here, we present optima, an R package for the processing and analysis of data generated from the Tapestri platform. This package provides streamlined functionality for raw data filtering, integration, normalization, transformation, and visualization. Insights gained from the optima package help users to identify unique cell populations and uncover surface protein expression patterns. The results generated by optima help researchers elucidate dynamic changes at the single-cell level in heterogeneous microenvironments.",
+    "events": [
+      {
+        "Background/Introduction": "",
+        "Text": "The Tapestri platform offers DNA and protein analysis at the single-cell level. Integrating both types of data is beneficial for studying multiple cell populations in heterogeneous microenvironments, such as tumor tissues.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "",
+        "Text": "Here, we present optima, an R package for the processing and analysis of data generated from the Tapestri platform. This package provides streamlined functionality for raw data filtering, integration, normalization, transformation, and visualization.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "",
+        "Text": "Insights gained from the optima package help users to identify unique cell populations and uncover surface protein expression patterns.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "",
+        "Text": "The results generated by optima help researchers elucidate dynamic changes at the single-cell level in heterogeneous microenvironments.",
+        "Main Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Primary Modifier": "",
+            "Secondary Object": "",
+            "Secondary Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_02",
+      "abstract": "One of the main challenges open-domain end-to-end dialogue systems, or chatbots, face is the prevalence of unsafe behavior, such as toxic languages and harmful suggestions. However, existing dialogue datasets do not provide enough annotation to explain and correct such unsafe behavior. In this work, we construct a new dataset called SafeConv for the research of conversational safety: (1) Besides the utterance-level safety labels, SafeConv also provides unsafe spans in an utterance, information able to indicate which words contribute to the detected unsafe behavior; (2) SafeConv provides safe alternative responses to continue the conversation when unsafe behavior detected, guiding the conversation to a gentle trajectory. By virtue of the comprehensive annotation of SafeConv, we benchmark three powerful models for the mitigation of conversational unsafe behavior, including a checker to detect unsafe utterances, a tagger to extract unsafe spans, and a rewriter to convert an unsafe response to a safe version. Moreover, we explore the huge benefits brought by combining the models for explaining the emergence of unsafe behavior and detoxifying chatbots. Experiments show that the detected unsafe behavior could be well explained with unsafe spans and popular chatbots could be detoxified by a huge extent.",
+      "events": [
+        {
+          "Background/Introduction": "Challenges faced by open domain end to end dialogue systems and chatbots",
+          "Text": "One of the main challenges open-domain end-to-end dialogue systems, or chatbots, face is the prevalence of unsafe behavior, such as toxic languages and harmful suggestions. However, existing dialogue datasets do not provide enough annotation to explain and correct such unsafe behavior.",
+          "Main Action": "is",
+          "Arguments": {
+            "Agent": [
+              "One of the main challenges"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the prevalence of unsafe behavior"
+              ],
+              "Primary Modifier": [
+                "such as toxic languages and harmful suggestions"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "However, existing dialogue datasets do not provide enough annotation to explain and correct such unsafe behavior"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Construction and purpose of new dataset - SafeConv",
+          "Text": "In this work, we construct a new dataset called SafeConv for the research of conversational safety: (1) Besides the utterance-level safety labels, SafeConv also provides unsafe spans in an utterance, information able to indicate which words contribute to the detected unsafe behavior; (2) SafeConv provides safe alternative responses to continue the conversation when unsafe behavior detected, guiding the conversation to a gentle trajectory. By virtue of the comprehensive annotation of SafeConv, we benchmark three powerful models for the mitigation of conversational unsafe behavior, including a checker to detect unsafe utterances, a tagger to extract unsafe spans, and a rewriter to convert an unsafe response to a safe version. Moreover, we explore the huge benefits brought by combining the models for explaining the emergence of unsafe behavior and detoxifying chatbots.",
+          "Main Action": "construct",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a new dataset"
+              ],
+              "Primary Modifier": [
+                "called SafeConv for the research of conversational safety"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "By virtue of the comprehensive annotation of SafeConv, we benchmark three powerful models for the mitigation of conversational unsafe behavior, including a checker to detect unsafe utterances, a tagger to extract unsafe spans, and a rewriter to convert an unsafe response to a safe version",
+              "Moreover, we explore the huge benefits brought by combining the models for explaining the emergence of unsafe behavior and detoxifying chatbots."
+            ],
+            "Results": [
+              "Besides the utterance-level safety labels, SafeConv also provides unsafe spans in an utterance, information able to indicate which words contribute to the detected unsafe behavior",
+              "SafeConv provides safe alternative responses to continue the conversation when unsafe behavior detected, guiding the conversation to a gentle trajectory"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Results of experiments on detected unsafe behavior and popular chatbots",
+          "Text": "Experiments show that the detected unsafe behavior could be well explained with unsafe spans and popular chatbots could be detoxified by a huge extent.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experiments"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the detected unsafe behavior could be well explained with unsafe spans"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "popular chatbots could be detoxified by a huge extent"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_85",
+      "abstract": "Out-of-distribution (OOD) detection, a fundamental task vexing real-world applications, has attracted growing attention in the NLP community. Recently fine-tuning based methods have made promising progress. However, it could be costly to store fine-tuned models for each scenario. In this paper, we depart from the classic fine-tuning based OOD detection toward a parameter-efficient alternative, and propose an unsupervised prefix-tuning based OOD detection framework termed PTO. Additionally, to take advantage of optional training data labels and targeted OOD data, two practical extensions of PTO are further proposed. Overall, PTO and its extensions offer several key advantages of being lightweight, easy-to-reproduce, and theoretically justified. Experimental results show that our methods perform comparably to, even better than, existing fine-tuning based OOD detection approaches under a wide range of metrics, detection settings, and OOD types.",
+      "events": [
+        {
+          "Background/Introduction": "OOD detection and challenges to store fine tuned models",
+          "Text": "Out-of-distribution (OOD) detection, a fundamental task vexing real-world applications, has attracted growing attention in the NLP community. Recently fine-tuning based methods have made promising progress. However, it could be costly to store fine-tuned models for each scenario.",
+          "Main Action": "attracted",
+          "Arguments": {
+            "Agent": [
+              "Out-of-distribution (OOD) detection, a fundamental task vexing real-world applications"
+            ],
+            "Object": {
+              "Primary Object": [
+                "growing attention"
+              ],
+              "Primary Modifier": [
+                "in the NLP community"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Recently fine-tuning based methods have made promising progress"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "However, it could be costly to store fine-tuned models for each scenario"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Alternative of the classic fine-tuned based OOD detection",
+          "Text": "In this paper, we depart from the classic fine-tuning based OOD detection toward a parameter-efficient alternative, and propose an unsupervised prefix-tuning based OOD detection framework termed PTO. Additionally, to take advantage of optional training data labels and targeted OOD data, two practical extensions of PTO are further proposed. Overall, PTO and its extensions offer several key advantages of being lightweight, easy-to-reproduce, and theoretically justified.",
+          "Main Action": "depart from",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the classic fine-tuning based OOD detection"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [
+                "toward a parameter-efficient alternative"
+              ],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [
+              "to take advantage of optional training data labels and targeted OOD data"
+            ],
+            "Method": [
+              "propose an unsupervised prefix-tuning based OOD detection framework termed PTO",
+              "two practical extensions of PTO are further proposed"
+            ],
+            "Results": [
+              "PTO and its extensions offer several key advantages of being lightweight, easy-to-reproduce, and theoretically justified"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Method performance compared to existing OOD detection approaches",
+          "Text": "Experimental results show that our methods perform comparably to, even better than, existing fine-tuning based OOD detection approaches under a wide range of metrics, detection settings, and OOD types.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "Experimental results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "our methods perform comparably to, even better than, existing fine-tuning based OOD detection approaches"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "under a wide range of metrics, detection settings, and OOD types"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

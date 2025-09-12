@@ -1,0 +1,291 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_247",
+      "abstract": "We make decisions by reacting to changes in the real world, particularly the emergence and disappearance of impermanent entities such as restaurants, services, and events. Because we want to avoid missing out on opportunities or making fruitless actions after those entities have disappeared, it is important to know when entities disappear as early as possible. We thus tackle the task of detecting disappearing entities from microblogs where various information is shared timely. The major challenge is detecting uncertain contexts of disappearing entities from noisy microblog posts. To collect such disappearing contexts, we design time-sensitive distant supervision, which utilizes entities from the knowledge base and time-series posts. Using this method, we actually build large-scale Twitter datasets of disappearing entities. To ensure robust detection in noisy environments, we refine pretrained word embeddings for the detection model on microblog streams in a timely manner. Experimental results on the Twitter datasets confirmed the effectiveness of the collected labeled data and refined word embeddings; the proposed method outperformed a baseline in terms of accuracy, and more than 70% of the detected disappearing entities in Wikipedia are discovered earlier than the update on Wikipedia, with the average lead-time over one month.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "We make decisions by reacting to changes in the real world, particularly the emergence and disappearance of impermanent entities such as restaurants, services, and events. Because we want to avoid missing out on opportunities or making fruitless actions after those entities have disappeared, it is important to know when entities disappear as early as possible. We thus tackle the task of detecting disappearing entities from microblogs where various information is shared timely. The major challenge is detecting uncertain contexts of disappearing entities from noisy microblog posts.",
+          "Main Action": "Detecting disappearing entities",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "disappearing entities"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "various information is shared timely",
+              "noisy microblog posts"
+            ],
+            "Purpose": [
+              "knowing when entities disappear as early as possible"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "detecting uncertain contexts of disappearing entities from noisy microblog posts"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "To collect such disappearing contexts, we design time-sensitive distant supervision, which utilizes entities from the knowledge base and time-series posts. Using this method, we actually build large-scale Twitter datasets of disappearing entities. To ensure robust detection in noisy environments, we refine pretrained word embeddings for the detection model on microblog streams in a timely manner.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results on the Twitter datasets confirmed the effectiveness of the collected labeled data and refined word embeddings; the proposed method outperformed a baseline in terms of accuracy, and more than 70% of the detected disappearing entities in Wikipedia are discovered earlier than the update on Wikipedia, with the average lead-time over one month.",
+          "Main Action": "Experimental results confirmed the effectiveness...",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "collected labeled data and refined word embeddings"
+              ],
+              "Secondary Object": [
+                "baseline"
+              ]
+            },
+            "Context": [
+              "detecting disappearing entities in Wikipedia"
+            ],
+            "Purpose": [
+              "improve entity detection accuracy and understand disappearance rates"
+            ],
+            "Method": [
+              "collecting labeled data and refining word embeddings"
+            ],
+            "Results": [
+              "proposed method outperformed baseline",
+              "more than 70% detected entities discovered earlier"
+            ],
+            "Analysis": [
+              "average lead-time over one month"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader significance for entity tracking and updating processes"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_464",
+      "abstract": "Weakly supervised vision-and-language pre-training (WVLP), which learns cross-modal representations with limited cross-modal supervision, has been shown to effectively reduce the data cost of pre-training while maintaining decent performance on downstream tasks. However, current WVLP methods use only local descriptions of images, i.e., object tags, as cross-modal anchors to construct weakly-aligned image-text pairs for pre-training. This affects the data quality and thus the effectiveness of pre-training. In this paper, we propose to directly take a small number of aligned image-text pairs as anchors, and represent each unaligned image and text by its similarities to these anchors, i.e., relative representations. We build a WVLP framework based on the relative representations, namely RELIT, which collects high-quality weakly-aligned image-text pairs from large-scale image-only and text-only data for pre-training through relative representation-based retrieval and generation. Experiments on four downstream tasks show that RELIT achieves new state-of-the-art results under the weakly supervised setting.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Weakly supervised vision-and-language pre-training (WVLP), which learns cross-modal representations with limited cross-modal supervision, has been shown to effectively reduce the data cost of pre-training while maintaining decent performance on downstream tasks. However, current WVLP methods use only local descriptions of images, i.e., object tags, as cross-modal anchors to construct weakly-aligned image-text pairs for pre-training. This affects the data quality and thus the effectiveness of pre-training.",
+          "Main Action": "learns cross-modal representations with limited cross-modal supervision",
+          "Arguments": {
+            "Agent": [
+              "Weakly supervised vision-and-language pre-training (WVLP)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-modal representations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "reduces the data cost of pre-training while maintaining decent performance on downstream tasks"
+            ],
+            "Purpose": [
+              "addresses the limitations of current WVLP methods"
+            ],
+            "Method": [
+              "uses only local descriptions of images, i.e., object tags, as cross-modal anchors"
+            ],
+            "Results": [
+              "effective reduction of the data cost",
+              "decent performance on downstream tasks"
+            ],
+            "Analysis": [
+              "maintaining decent performance on downstream tasks despite reduced data usage"
+            ],
+            "Challenge": [
+              "current WVLP methods use only local descriptions of images, i.e., object tags, as cross-modal anchors"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enabling widespread adoption and improving model performance through reduced computational requirements"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we propose to directly take a small number of aligned image-text pairs as anchors, and represent each unaligned image and text by its similarities to these anchors, i.e., relative representations. We build a WVLP framework based on the relative representations, namely RELIT, which collects high-quality weakly-aligned image-text pairs from large-scale image-only and text-only data for pre-training through relative representation-based retrieval and generation.",
+          "Main Action": "Propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "small number of aligned image-text pairs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Collecting high-quality weakly-aligned image-text pairs from large-scale image-only and text-only data"
+            ],
+            "Purpose": [
+              "Building a WVLP framework based on the relative representations, namely RELIT"
+            ],
+            "Method": [
+              "Using relative representation-based retrieval and generation"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Future applications like pre-training through relative representation-based retrieval and generation"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experiments on four downstream tasks show that RELIT achieves new state-of-the-art results under the weakly supervised setting.",
+          "Main Action": "achieves",
+          "Arguments": {
+            "Agent": [
+              "RELIT"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new state-of-the-art results"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "evaluate RELIT's performance under weakly supervised settings"
+            ],
+            "Method": [
+              "conduct experiments on four downstream tasks",
+              "use weakly supervised setting"
+            ],
+            "Results": [
+              "achieve new state-of-the-art results"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improve natural language processing performance"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

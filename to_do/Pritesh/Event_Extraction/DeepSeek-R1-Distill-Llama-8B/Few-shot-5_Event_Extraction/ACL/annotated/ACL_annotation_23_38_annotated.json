@@ -1,0 +1,351 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_893",
+      "abstract": "Understanding Transformer-based models has attracted significant attention, as they lie at the heart of recent technological advances across machine learning. While most interpretability methods rely on running models over inputs, recent work has shown that a zero-pass approach, where parameters are interpreted directly without a forward/backward pass is feasible for some Transformer parameters, and for two-layer attention networks. In this work, we present a theoretical analysis where all parameters of a trained Transformer are interpreted by projecting them into the embedding space, that is, the space of vocabulary items they operate on. We derive a simple theoretical framework to support our arguments and provide ample evidence for its validity. First, an empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space. Second, we present two applications of our framework: (a) aligning the parameters of different models that share a vocabulary, and (b) constructing a classifier without training by “translating” the parameters of a fine-tuned classifier to parameters of a different model that was only pretrained. Overall, our findings open the door to interpretation methods that, at least in part, abstract away from model specifics and operate in the embedding space only.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Understanding Transformer-based models has attracted significant attention, as they lie at the heart of recent technological advances across machine learning. While most interpretability methods rely on running models over inputs, recent work has shown that a zero-pass approach, where parameters are interpreted directly without a forward/backward pass is feasible for some Transformer parameters, and for two-layer attention networks.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we present a theoretical analysis where all parameters of a trained Transformer are interpreted by projecting them into the embedding space, that is, the space of vocabulary items they operate on. We derive a simple theoretical framework to support our arguments and provide ample evidence for its validity.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "all parameters of a trained Transformer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "that is, the space of vocabulary items they operate on"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "derive a simple theoretical framework"
+            ],
+            "Results": [
+              "support our arguments and provide ample evidence for its validity"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "First, an empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space. Second, we present two applications of our framework: (a) aligning the parameters of different models that share a vocabulary, and (b) constructing a classifier without training by “translating” the parameters of a fine-tuned classifier to parameters of a different model that was only pretrained.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Overall, our findings open the door to interpretation methods that, at least in part, abstract away from model specifics and operate in the embedding space only.",
+          "Main Action": "have extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Cross-linguistic transfer"
+            ],
+            "Object": {
+              "Primary Object": [
+                "patterns of both positive and negative transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "language family distance predicts more negative transfer"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it",
+              "Current streaming platforms lack features that help streamers seamlessly manage bystanders' privacy and involve bystanders into their privacy decision-making"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_431",
+      "abstract": "Coherence is an important aspect of text quality, and various approaches have been applied to coherence modeling. However, existing methods solely focus on a single document’s coherence patterns, ignoring the underlying correlation between documents. We investigate a GCN-based coherence model that is capable of capturing structural similarities between documents. Our model first creates a graph structure for each document, from where we mine different subgraph patterns. We then construct a heterogeneous graph for the training corpus, connecting documents based on their shared subgraphs. Finally, a GCN is applied to the heterogeneous graph to model the connectivity relationships. We evaluate our method on two tasks, assessing discourse coherence and automated essay scoring. Results show that our GCN-based model outperforms all baselines, achieving a new state-of-the-art on both tasks.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Coherence is an important aspect of text quality, and various approaches have been applied to coherence modeling. However, existing methods solely focus on a single document’s coherence patterns, ignoring the underlying correlation between documents.",
+          "Main Action": "have been applied",
+          "Arguments": {
+            "Agent": [
+              "various approaches"
+            ],
+            "Object": {
+              "Primary Object": [
+                "single document’s coherence patterns"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "coherence is an important aspect of text quality",
+              "effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "language family distance predicts more negative transfer"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We investigate a GCN-based coherence model that is capable of capturing structural similarities between documents. Our model first creates a graph structure for each document, from where we mine different subgraph patterns. We then construct a heterogeneous graph for the training corpus, connecting documents based on their shared subgraphs. Finally, a GCN is applied to the heterogeneous graph to model the connectivity relationships.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "structural similarities between documents"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "creates a graph structure for each document",
+              "mines different subgraph patterns",
+              "constructs a heterogeneous graph for the training corpus",
+              "applies a GCN to the heterogeneous graph"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "create",
+              "mine",
+              "connect",
+              "apply"
+            ],
+            "Results": [
+              "capturing structural similarities between documents",
+              "heterogeneous graph",
+              "GCN",
+              "connectivity relationships"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "coverage-preserving",
+              "diploid genomes",
+              "polyploid genomes",
+              "metagenomes",
+              "risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We evaluate our method on two tasks, assessing discourse coherence and automated essay scoring. Results show that our GCN-based model outperforms all baselines, achieving a new state-of-the-art on both tasks.",
+          "Main Action": "evaluate",
+          "Arguments": {
+            "Agent": [
+              "methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "their effectiveness"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in improving computational efficiency and reducing memory usage"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

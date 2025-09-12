@@ -1,0 +1,291 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_23_P_36",
+      "abstract": "The premise of this article is that a basic understanding of the composition and functioning of large language models is critically urgent. To that end, we extract a representational map of OpenAI's GPT-2 with what we articulate as two classes of deep learning code, that which pertains to the model and that which underwrites applications built around the model. We then verify this map through case studies of two popular GPT-2 applications: the text adventure game, AI Dungeon, and the language art project, This Word Does Not Exist. Such an exercise allows us to test the potential of Critical Code Studies when the object of study is deep learning code and to demonstrate the validity of code as an analytical focus for researchers in the subfields of Critical Artificial Intelligence and Critical Machine Learning Studies. More broadly, however, our work draws attention to the means by which ordinary users might interact with, and even direct, the behavior of deep learning systems, and by extension works toward demystifying some of the auratic mystery of “AI.” What is at stake is the possibility of achieving an informed sociotechnical consensus about the responsible applications of large language models, as well as a more expansive sense of their creative capabilities — indeed, understanding how and where engagement occurs allows all of us to become more active participants in the development of machine learning systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The premise of this article is that a basic understanding of the composition and functioning of large language models is critically urgent. To that end, we extract a representational map of OpenAI's GPT-2 with what we articulate as two classes of deep learning code, that which pertains to the model and that which underwrites applications built around the model.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We then verify this map through case studies of two popular GPT-2 applications: the text adventure game, AI Dungeon, and the language art project, This Word Does Not Exist. Such an exercise allows us to test the potential of Critical Code Studies when the object of study is deep learning code and to demonstrate the validity of code as an analytical focus for researchers in the subfields of Critical Artificial Intelligence and Critical Machine Learning Studies.",
+          "Main Action": "verify",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "this map"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "case studies of two popular GPT-2 applications:",
+              "AI Dungeon,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "More broadly, however, our work draws attention to the means by which ordinary users might interact with, and even direct, the behavior of deep learning systems, and by extension works toward demystifying some of the auratic mystery of “AI.” What is at stake is the possibility of achieving an informed sociotechnical consensus about the responsible applications of large language models, as well as a more expansive sense of their creative capabilities — indeed, understanding how and where engagement occurs allows all of us to become more active participants in the development of machine learning systems.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_23_P_18",
+      "abstract": "This article examines the technical development and afterlives of two projects, the CURSUS project (2000-2003) and the William Godwin's Diary project (2007-2010) to undertake case studies in problems relating to hosting and storage of digital humanities projects. In both cases, a combination of outside events or project decisions negatively impacted the project. This was discussed as part of a symposium for the Endings Principles for Digital Longevity and reflects on whether following these principles would have benefited these projects. Overall, the case is made that we should always be planning for events that could affect the sustainability of digital research projects.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This article examines the technical development and afterlives of two projects, the CURSUS project (2000-2003) and the William Godwin's Diary project (2007-2010) to undertake case studies in problems relating to hosting and storage of digital humanities projects.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "This article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "examine the impact of native CDS",
+              "effects of such transfer can be positive (facilitating acquisition)",
+              "negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "understand the impact of native CDS"
+            ],
+            "Method": [
+              "evaluate possible privacy violations to bystanders from several perspectives"
+            ],
+            "Results": [
+              "primary reliance on technical, behavioral, and collaborative strategies",
+              "introduction of 50 coverage gaps on average by ignoring contained reads from nanopore datasets"
+            ],
+            "Analysis": [
+              "collective privacy management",
+              "direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "gap exists in understanding how streamers consider bystanders' privacy"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "support streamers in protecting bystanders' privacy"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In both cases, a combination of outside events or project decisions negatively impacted the project. This was discussed as part of a symposium for the Endings Principles for Digital Longevity and reflects on whether following these principles would have benefited these projects.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Overall, the case is made that we should always be planning for events that could affect the sustainability of digital research projects.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Case"
+            ],
+            "Object": {
+              "Primary Object": [
+                "events that could affect the sustainability of digital research projects"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

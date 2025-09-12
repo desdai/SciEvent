@@ -1,0 +1,290 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_168",
+      "abstract": "Claims of election fraud throughout the 2020 U.S. Presidential Election and during the lead-up to the January 6, 2021 insurrection attempt have drawn attention to the urgent need to better understand how people interpret and act on disinformation. In this work, we present three primary contributions: (1) a framework for understanding the interaction between participatory disinformation and informal and tactical mobilization; (2) three case studies from the 2020 U.S. election analyzed using detailed temporal, content, and thematic analysis; and (3) a qualitative coding scheme for understanding how digital disinformation functions to mobilize online audiences. We combine resource mobilization theory with previous work examining participatory disinformation campaigns and 'deep stories' to show how false or misleading information functioned to mobilize online audiences before, during, and after election day. Our analysis highlights how users on Twitter collaboratively construct and amplify alleged evidence of fraud that is used to facilitate action, both online and off. We find that mobilization is dependent on the selective amplification of false or misleading tweets by influencers, the framing around those claims, as well as the perceived credibility of their source. These processes are a self-reinforcing cycle where audiences collaborate in the construction of a misleading version of reality, which in turn leads to offline actions that are used to further reinforce a manufactured reality. Through this work, we hope to better inform future interventions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Claims of election fraud throughout the 2020 U.S. Presidential Election and during the lead-up to the January 6, 2021 insurrection attempt have drawn attention to the urgent need to better understand how people interpret and act on disinformation.",
+          "Main Action": "have extensively studied",
+          "Arguments": {
+            "Agent": [
+              "claims of election fraud"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how people interpret and act on disinformation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "throughout the 2020 U.S. Presidential Election"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we present three primary contributions: (1) a framework for understanding the interaction between participatory disinformation and informal and tactical mobilization; (2) three case studies from the 2020 U.S. election analyzed using detailed temporal, content, and thematic analysis; and (3) a qualitative coding scheme for understanding how digital disinformation functions to mobilize online audiences. We combine resource mobilization theory with previous work examining participatory disinformation campaigns and 'deep stories' to show how false or misleading information functioned to mobilize online audiences before, during, and after election day.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three primary contributions"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "second language acquisition (sla) research has extensively studied cross-linguistic transfer",
+              "effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "nlp literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our analysis highlights how users on Twitter collaboratively construct and amplify alleged evidence of fraud that is used to facilitate action, both online and off. We find that mobilization is dependent on the selective amplification of false or misleading tweets by influencers, the framing around those claims, as well as the perceived credibility of their source. These processes are a self-reinforcing cycle where audiences collaborate in the construction of a misleading version of reality, which in turn leads to offline actions that are used to further reinforce a manufactured reality.",
+          "Main Action": "highlight",
+          "Arguments": {
+            "Agent": [
+              "analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "how users on Twitter collaboratively construct and amplify alleged evidence of fraud"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "that is used to facilitate action, both online and off"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "These processes are a self-reinforcing cycle where audiences collaborate in the construction of a misleading version of reality,"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Through this work, we hope to better inform future interventions.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a collaborative project"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "communities interested in Gə'əz language texts",
+              "other under-resourced manuscript traditions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "an easy-to-use open-source tool"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_212",
+      "abstract": "Ubiquitous computing encapsulates the idea for technology to be interwoven into the fabric of everyday life. As computing blends into everyday physical artifacts, powerful opportunities open up for social connection. Prior connected media objects span a broad spectrum of design combinations. Such diversity suggests that people have varying needs and preferences for staying connected to one another. However, since these designs have largely been studied in isolation, we do not have a holistic understanding around how people would configure and behave within a ubiquitous social ecosystem of physically-grounded artifacts. In this paper, we create a technology probe called Social Wormholes, that lets people configure their own home ecosystem of connected artifacts. Through a field study with 24 participants, we report on patterns of behaviors that emerged naturally in the context of their daily lives and shine a light on how ubiquitous computing could be leveraged for social computing.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Ubiquitous computing encapsulates the idea for technology to be interwoven into the fabric of everyday life. As computing blends into everyday physical artifacts, powerful opportunities open up for social connection. Prior connected media objects span a broad spectrum of design combinations. Such diversity suggests that people have varying needs and preferences for staying connected to one another. However, since these designs have largely been studied in isolation, we do not have a holistic understanding around how people would configure and behave within a ubiquitous social ecosystem of physically-grounded artifacts.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we create a technology probe called Social Wormholes, that lets people configure their own home ecosystem of connected artifacts. Through a field study with 24 participants, we report on patterns of behaviors that emerged naturally in the context of their daily lives and shine a light on how ubiquitous computing could be leveraged for social computing",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_148",
+      "abstract": "The prevalence of Parkinson disease (PD) is becoming an increasing concern owing to the aging population in the United Kingdom. Wearable devices have the potential to improve the clinical care of patients with PD while reducing health care costs. Consequently, exploring the features of these wearable devices is important to identify the limitations and further areas of investigation of how wearable devices are currently used in clinical care in the United Kingdom. In this scoping review, we aimed to explore the features of wearable devices used for PD in hospitals in the United Kingdom. A scoping review of the current research was undertaken and reported according to the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines. The literature search was undertaken on June 6, 2022, and publications were obtained from MEDLINE or PubMed, Embase, and the Cochrane Library. Eligible publications were initially screened by their titles and abstracts. Publications that passed the initial screening underwent a full review. The study characteristics were extracted from the final publications, and the evidence was synthesized using a narrative approach. Any queries were reviewed by the first and second authors. Of the 4543 publications identified, 39 (0.86%) publications underwent a full review, and 20 (0.44%) publications were included in the scoping review. Most studies (11/20, 55%) were conducted at the Newcastle upon Tyne Hospitals NHS Foundation Trust, with sample sizes ranging from 10 to 418. Most study participants were male individuals with a mean age ranging from 57.7 to 78.0 years. The AX3 was the most popular device brand used, and it was commercially manufactured by Axivity. Common wearable device types included body-worn sensors, inertial measurement units, and smartwatches that used accelerometers and gyroscopes to measure the clinical features of PD. Most wearable device primary measures involved the measured gait, bradykinesia, and dyskinesia. The most common wearable device placements were the lumbar region, head, and wrist. Furthermore, 65% (13/20) of the studies used artificial intelligence or machine learning to support PD data analysis. This study demonstrated that wearable devices could help provide a more detailed analysis of PD symptoms during the assessment phase and personalize treatment. Using machine learning, wearable devices could differentiate PD from other neurodegenerative diseases. The identified evidence gaps include the lack of analysis of wearable device cybersecurity and data management. The lack of cost-effectiveness analysis and large-scale participation in studies resulted in uncertainty regarding the feasibility of the widespread use of wearable devices. The uncertainty around the identified research gaps was further exacerbated by the lack of medical regulation of wearable devices for PD, particularly in the United Kingdom where regulations were changing due to the political landscape.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The prevalence of Parkinson disease (PD) is becoming an increasing concern owing to the aging population in the United Kingdom. Wearable devices have the potential to improve the clinical care of patients with PD while reducing health care costs. Consequently, exploring the features of these wearable devices is important to identify the limitations and further areas of investigation of how wearable devices are currently used in clinical care in the United Kingdom.",
+          "Main Action": "exploring the features of these wearable devices is important to identify the limitations and further areas of investigation of how wearable devices are currently used in clinical care in the United Kingdom",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the features of these wearable devices"
+              ],
+              "Secondary Object": [
+                "the limitations and further areas of investigation of how wearable devices are currently used in clinical care in the United Kingdom"
+              ]
+            },
+            "Context": [
+              "The prevalence of Parkinson disease (PD) is becoming an increasing concern owing to the aging population in the United Kingdom",
+              "Wearable devices have the potential to improve the clinical care of patients with PD while reducing health care costs"
+            ],
+            "Purpose": [
+              "to identify the limitations and further areas of investigation of how wearable devices are currently used in clinical care in the United Kingdom"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this scoping review, we aimed to explore the features of wearable devices used for PD in hospitals in the United Kingdom. A scoping review of the current research was undertaken and reported according to the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines. The literature search was undertaken on June 6, 2022, and publications were obtained from MEDLINE or PubMed, Embase, and the Cochrane Library. Eligible publications were initially screened by their titles and abstracts. Publications that passed the initial screening underwent a full review. The study characteristics were extracted from the final publications, and the evidence was synthesized using a narrative approach. Any queries were reviewed by the first and second authors.",
+          "Main Action": "was undertaken",
+          "Arguments": {
+            "Agent": [
+              "A scoping review of the current research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the current research"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In this scoping review",
+              "according to the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines",
+              "The literature search was undertaken on June 6, 2022"
+            ],
+            "Purpose": [
+              "to explore the features of wearable devices used for PD in hospitals in the United Kingdom"
+            ],
+            "Method": [
+              "reported according to the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines",
+              "publications were obtained from MEDLINE or PubMed, Embase, and the Cochrane Library",
+              "Eligible publications were initially screened by their titles and abstracts",
+              "Publications that passed the initial screening underwent a full review",
+              "The study characteristics were extracted from the final publications",
+              "the evidence was synthesized using a narrative approach",
+              "Any queries were reviewed by the first and second authors"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Of the 4543 publications identified, 39 (0.86%) publications underwent a full review, and 20 (0.44%) publications were included in the scoping review. Most studies (11/20, 55%) were conducted at the Newcastle upon Tyne Hospitals NHS Foundation Trust, with sample sizes ranging from 10 to 418. Most study participants were male individuals with a mean age ranging from 57.7 to 78.0 years. The AX3 was the most popular device brand used, and it was commercially manufactured by Axivity. Common wearable device types included body-worn sensors, inertial measurement units, and smartwatches that used accelerometers and gyroscopes to measure the clinical features of PD. Most wearable device primary measures involved the measured gait, bradykinesia, and dyskinesia. The most common wearable device placements were the lumbar region, head, and wrist. Furthermore, 65% (13/20) of the studies used artificial intelligence or machine learning to support PD data analysis.",
+          "Main Action": "were conducted",
+          "Arguments": {
+            "Agent": [
+              "Most studies (11/20, 55%)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "at the Newcastle upon Tyne Hospitals NHS Foundation Trust"
+              ],
+              "Secondary Object": [
+                "with sample sizes ranging from 10 to 418"
+              ]
+            },
+            "Context": [
+              "Of the 4543 publications identified, 39 (0.86%) publications underwent a full review, and 20 (0.44%) publications were included in the scoping review."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "The AX3 was the most popular device brand used",
+              "it was commercially manufactured by Axivity",
+              "Common wearable device types included body-worn sensors, inertial measurement units, and smartwatches that used accelerometers and gyroscopes to measure the clinical features of PD",
+              "The most common wearable device placements were the lumbar region, head, and wrist",
+              "65% (13/20) of the studies used artificial intelligence or machine learning to support PD data analysis"
+            ],
+            "Results": [
+              "Most study participants were male individuals with a mean age ranging from 57.7 to 78.0 years",
+              "Most wearable device primary measures involved the measured gait, bradykinesia, and dyskinesia"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "This study demonstrated that wearable devices could help provide a more detailed analysis of PD symptoms during the assessment phase and personalize treatment. Using machine learning, wearable devices could differentiate PD from other neurodegenerative diseases. The identified evidence gaps include the lack of analysis of wearable device cybersecurity and data management. The lack of cost-effectiveness analysis and large-scale participation in studies resulted in uncertainty regarding the feasibility of the widespread use of wearable devices. The uncertainty around the identified research gaps was further exacerbated by the lack of medical regulation of wearable devices for PD, particularly in the United Kingdom where regulations were changing due to the political landscape.",
+          "Main Action": "resulted in uncertainty regarding the feasibility of the widespread use of wearable devices",
+          "Arguments": {
+            "Agent": [
+              "The lack of cost-effectiveness analysis and large-scale participation in studies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "uncertainty regarding the feasibility of the widespread use of wearable devices"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The identified evidence gaps include the lack of analysis of wearable device cybersecurity and data management",
+              "The uncertainty around the identified research gaps was further exacerbated by the lack of medical regulation of wearable devices for PD, particularly in the United Kingdom where regulations were changing due to the political landscape"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "the lack of analysis of wearable device cybersecurity and data management",
+              "The lack of cost-effectiveness analysis and large-scale participation in studies",
+              "the lack of medical regulation of wearable devices for PD, particularly in the United Kingdom where regulations were changing due to the political landscape"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "uncertainty regarding the feasibility of the widespread use of wearable devices"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_205",
+      "abstract": "Social media platforms are increasingly being used to disseminate messages about prenatal health. However, to date, we lack a systematic assessment of how to evaluate the impact of official prenatal health messaging and campaigns using social media data. This study aims to review both the published and gray literature on how official prenatal health messaging and campaigns have been evaluated to date in terms of impact, acceptability, effectiveness, and unintended consequences, using social media data. A total of 6 electronic databases were searched and supplemented with the hand-searching of reference lists. Both published and gray literature were eligible for review. Data were analyzed using content analysis for descriptive data and a thematic synthesis approach to summarize qualitative evidence. A quality appraisal tool, designed especially for use with social media data, was used to assess the quality of the included articles. A total of 11 studies were eligible for the review. The results showed that the most common prenatal health behavior targeted was alcohol consumption, and Facebook was the most commonly used source of social media data. The majority (n=6) of articles used social media data for descriptive purposes only. The results also showed that there was a lack of evaluation of the effectiveness, acceptability, and unintended consequences of the prenatal health message or campaign. Social media is a widely used and potentially valuable resource for communicating and evaluating prenatal health messaging. However, this review suggests that there is a need to develop and adopt sound methodology on how to evaluate prenatal health messaging using social media data, for the benefit of future research and to inform public health practice.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Social media platforms are increasingly being used to disseminate messages about prenatal health. However, to date, we lack a systematic assessment of how to evaluate the impact of official prenatal health messaging and campaigns using social media data.",
+          "Main Action": "we lack a systematic assessment",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a systematic assessment"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Social media platforms are increasingly being used to disseminate messages about prenatal health."
+            ],
+            "Purpose": [
+              "to evaluate the impact of official prenatal health messaging and campaigns using social media data"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study aims to review both the published and gray literature on how official prenatal health messaging and campaigns have been evaluated to date in terms of impact, acceptability, effectiveness, and unintended consequences, using social media data. A total of 6 electronic databases were searched and supplemented with the hand-searching of reference lists. Both published and gray literature were eligible for review. Data were analyzed using content analysis for descriptive data and a thematic synthesis approach to summarize qualitative evidence. A quality appraisal tool, designed especially for use with social media data, was used to assess the quality of the included articles.",
+          "Main Action": "review",
+          "Arguments": {
+            "Agent": [
+              "This study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "both the published and gray literature on how official prenatal health messaging and campaigns have been evaluated to date in terms of impact, acceptability, effectiveness, and unintended consequences, using social media data"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "A total of 6 electronic databases were searched and supplemented with the hand-searching of reference lists.",
+              "Both published and gray literature were eligible for review."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Data were analyzed using content analysis for descriptive data",
+              "a thematic synthesis approach to summarize qualitative evidence",
+              "A quality appraisal tool, designed especially for use with social media data, was used to assess the quality of the included articles."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "A total of 11 studies were eligible for the review. The results showed that the most common prenatal health behavior targeted was alcohol consumption, and Facebook was the most commonly used source of social media data. The majority (n=6) of articles used social media data for descriptive purposes only. The results also showed that there was a lack of evaluation of the effectiveness, acceptability, and unintended consequences of the prenatal health message or campaign.",
+          "Main Action": "showed",
+          "Arguments": {
+            "Agent": [
+              "The results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that the most common prenatal health behavior targeted was alcohol consumption",
+                "that there was a lack of evaluation of the effectiveness, acceptability, and unintended consequences of the prenatal health message or campaign"
+              ],
+              "Secondary Object": [
+                "that Facebook was the most commonly used source of social media data",
+                "that the majority (n=6) of articles used social media data for descriptive purposes only"
+              ]
+            },
+            "Context": [
+              "A total of 11 studies were eligible for the review"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "that the most common prenatal health behavior targeted was alcohol consumption",
+              "that Facebook was the most commonly used source of social media data",
+              "that the majority (n=6) of articles used social media data for descriptive purposes only",
+              "that there was a lack of evaluation of the effectiveness, acceptability, and unintended consequences of the prenatal health message or campaign"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "that there was a lack of evaluation of the effectiveness, acceptability, and unintended consequences of the prenatal health message or campaign"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Social media is a widely used and potentially valuable resource for communicating and evaluating prenatal health messaging. However, this review suggests that there is a need to develop and adopt sound methodology on how to evaluate prenatal health messaging using social media data, for the benefit of future research and to inform public health practice.",
+          "Main Action": "there is a need to develop and adopt sound methodology on how to evaluate prenatal health messaging using social media data",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "sound methodology on how to evaluate prenatal health messaging using social media data"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Social media is a widely used and potentially valuable resource for communicating and evaluating prenatal health messaging"
+            ],
+            "Purpose": [
+              "for the benefit of future research",
+              "to inform public health practice"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "this review suggests that"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "social media is a widely used and potentially valuable resource for communicating and evaluating prenatal health messaging"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

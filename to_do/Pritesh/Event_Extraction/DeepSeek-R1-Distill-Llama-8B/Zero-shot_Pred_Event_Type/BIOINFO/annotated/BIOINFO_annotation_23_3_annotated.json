@@ -1,0 +1,302 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_570",
+      "abstract": "The task of predicting drug-target interactions (DTIs) plays a significant role in facilitating the development of novel drug discovery. Compared with laboratory-based approaches, computational methods proposed for DTI prediction are preferred due to their high-efficiency and low-cost advantages. Recently, much attention has been attracted to apply different graph neural network (GNN) models to discover underlying DTIs from heterogeneous biological information network (HBIN). Although GNN-based prediction methods achieve better performance, they are prone to encounter the over-smoothing simulation when learning the latent representations of drugs and targets with their rich neighborhood information in HBIN, and thereby reduce the discriminative ability in DTI prediction. In this work, an improved graph representation learning method, namely iGRLDTI, is proposed to address the above issue by better capturing more discriminative representations of drugs and targets in a latent feature space. Specifically, iGRLDTI first constructs an HBIN by integrating the biological knowledge of drugs and targets with their interactions. After that, it adopts a node-dependent local smoothing strategy to adaptively decide the propagation depth of each biomolecule in HBIN, thus significantly alleviating over-smoothing by enhancing the discriminative ability of feature representations of drugs and targets. Finally, a Gradient Boosting Decision Tree classifier is used by iGRLDTI to predict novel DTIs. Experimental results demonstrate that iGRLDTI yields better performance than several state-of-the-art computational methods on the benchmark dataset. Besides, our case study indicates that iGRLDTI can successfully identify novel DTIs with more distinguishable features of drugs and targets.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The task of predicting drug-target interactions (DTIs) plays a significant role in facilitating the development of novel drug discovery. Compared with laboratory-based approaches, computational methods proposed for DTI prediction are preferred due to their high-efficiency and low-cost advantages. Recently, much attention has been attracted to apply different graph neural network (GNN) models to discover underlying DTIs from heterogeneous biological information network (HBIN). Although GNN-based prediction methods achieve better performance, they are prone to encounter the over-smoothing simulation when learning the latent representations of drugs and targets with their rich neighborhood information in HBIN, and thereby reduce the discriminative ability in DTI prediction.",
+          "Main Action": "encounter",
+          "Arguments": {
+            "Agent": [
+              "graph neural network (GNN)-based prediction methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "over-smoothing simulation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "computational methods...are preferred due to their high-efficiency and low-cost advantages",
+              "heterogeneous biological information network (HBIN)"
+            ],
+            "Purpose": [
+              "improve upon these methods"
+            ],
+            "Method": [
+              "graph neural network (GNN)",
+              "training on HBIN data"
+            ],
+            "Results": [
+              "achieve better performance",
+              "reduce the discriminative ability in DTI prediction"
+            ],
+            "Analysis": [
+              "Although GNN-based prediction methods achieve better performance",
+              "they are prone to encounter the over-smoothing simulation"
+            ],
+            "Challenge": [
+              "over-smoothing simulation",
+              "reduces the discriminative ability in DTI prediction"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for future applications/research"
+            ],
+            "Contradictions": [
+              "initial assumption that GNNs are effective",
+              "contradicting that effectiveness somewhat"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, an improved graph representation learning method, namely iGRLDTI, is proposed to address the above issue by better capturing more discriminative representations of drugs and targets in a latent feature space. Specifically, iGRLDTI first constructs an HBIN by integrating the biological knowledge of drugs and targets with their interactions. After that, it adopts a node-dependent local smoothing strategy to adaptively decide the propagation depth of each biomolecule in HBIN, thus significantly alleviating over-smoothing by enhancing the discriminative ability of feature representations of drugs and targets. Finally, a Gradient Boosting Decision Tree classifier is used by iGRLDTI to predict novel DTIs.",
+          "Main Action": "proposing an improved graph representation learning method",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "iGRLDTI"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "addressing the issue of better capturing more discriminative representations of drugs and targets in a latent feature space"
+            ],
+            "Purpose": [
+              "improving drug and target representations and predicting novel DTIs"
+            ],
+            "Method": [
+              "constructing an HBIN by integrating the biological knowledge of drugs and targets with their interactions",
+              "adopting a node-dependent local smoothing strategy to adaptively decide the propagation depth of each biomolecule in HBIN",
+              "using a Gradient Boosting Decision Tree classifier"
+            ],
+            "Results": [
+              "significantly alleviating over-smoothing by enhancing the discriminative ability of feature representations of drugs and targets",
+              "successfully predicting novel DTIs"
+            ],
+            "Analysis": [
+              "interpreting the results by explaining that the method effectively addresses previous limitations"
+            ],
+            "Challenge": [
+              "challenges like computational complexity exist"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "broader impact on drug discovery and personalized medicine",
+              "potential for future applications in therapeutic strategies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Experimental results demonstrate that iGRLDTI yields better performance than several state-of-the-art computational methods on the benchmark dataset. Besides, our case study indicates that iGRLDTI can successfully identify novel DTIs with more distinguishable features of drugs and targets.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "benchmark dataset"
+              ],
+              "Secondary Object": [
+                "state-of-the-art computational methods"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To evaluate the performance of iGRLDTI compared to state-of-the-art methods on the benchmark dataset"
+            ],
+            "Method": [
+              "benchmark dataset",
+              "iGRLDTI"
+            ],
+            "Results": [
+              " Experimental results demonstrate that iGRLDTI yields better performance than several state-of-the-art computational methods on the benchmark dataset.",
+              " our case study indicates that iGRLDTI can successfully identify novel DTIs with more distinguishable features of drugs and targets."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Improved performance of iGRLDTI suggests advancements in drug discovery and therapeutic development"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_142",
+      "abstract": "Construction of high-quality fragment libraries by segmenting organic compounds is an important part of the drug discovery paradigm. This article presents a new method, MacFrag, for efficient molecule fragmentation. MacFrag utilized a modified version of BRICS rules to break chemical bonds and introduced an efficient subgraphs extraction algorithm for rapid enumeration of the fragment space. The evaluation results with ChEMBL dataset exhibited that MacFrag was overall faster than BRICS implemented in RDKit and modified molBLOCKS. Meanwhile, the fragments acquired through MacFrag were more compliant with the 'Rule of Three'.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "Construction of high-quality fragment libraries by segmenting organic compounds is an important part of the drug discovery paradigm.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This article presents a new method, MacFrag, for efficient molecule fragmentation. MacFrag utilized a modified version of BRICS rules to break chemical bonds and introduced an efficient subgraphs extraction algorithm for rapid enumeration of the fragment space.",
+          "Main Action": "utilized",
+          "Arguments": {
+            "Agent": [
+              "MacFrag"
+            ],
+            "Object": {
+              "Primary Object": [
+                "chemical bonds"
+              ],
+              "Secondary Object": [
+                "fragment space"
+              ]
+            },
+            "Context": [
+              "molecule fragmentation"
+            ],
+            "Purpose": [
+              "efficiently break chemical bonds and rapidly enumerate fragment space"
+            ],
+            "Method": [
+              "modified version of BRICS rules",
+              "efficient subgraphs extraction algorithm"
+            ],
+            "Results": [
+              "introduced MacFrag"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The evaluation results with ChEMBL dataset exhibited that MacFrag was overall faster than BRICS implemented in RDKit and modified molBLOCKS. Meanwhile, the fragments acquired through MacFrag were more compliant with the 'Rule of Three'.",
+          "Main Action": "evaluation results with ChEMBL dataset",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "MacFrag"
+              ],
+              "Secondary Object": [
+                "BRICS implemented in RDKit and modified molBLOCKS"
+              ]
+            },
+            "Context": [
+              "ChEMBL dataset"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "MacFrag",
+              "BRICS implemented in RDKit and modified molBLOCKS"
+            ],
+            "Results": [
+              "MacFrag was overall faster than BRICS implemented in RDKit and modified molBLOCKS",
+              "fragments acquired through MacFrag were more compliant with the 'Rule of Three'"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

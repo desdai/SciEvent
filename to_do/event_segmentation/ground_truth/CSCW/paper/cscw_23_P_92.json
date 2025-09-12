@@ -1,0 +1,9 @@
+{
+  "cscw_23_P_92": {
+    "abstract": "Group deliberation enables people to collaborate and solve problems, however, it is understudied due to a lack of resources. To this end, we introduce the first publicly available dataset containing collaborative conversations on solving a well-established cognitive task, consisting of 500 group dialogues and 14k utterances. In 64% of these conversations, the group members are able to find a better solution than they had identified individually, and in 43.8% of the groups who had a correct answer as their final solution, none of the participants had solved the task correctly by themselves. Furthermore, we propose a novel annotation schema that captures deliberation cues and release all 14k utterances annotated with it. Finally, we use the proposed dataset to develop and evaluate two methods for generating deliberation utterances.",
+    "[Background]": "Group deliberation enables people to collaborate and solve problems, however, it is understudied due to a lack of resources.",
+    "[Method]": "To this end, we introduce the first publicly available dataset containing collaborative conversations on solving a well-established cognitive task, consisting of 500 group dialogues and 14k utterances. In 64% of these conversations, the group members are able to find a better solution than they had identified individually, and in 43.8% of the groups who had a correct answer as their final solution, none of the participants had solved the task correctly by themselves. Furthermore, we propose a novel annotation schema that captures deliberation cues and release all 14k utterances annotated with it. Finally, we use the proposed dataset to develop and evaluate two methods for generating deliberation utterances.",
+    "[Results]": "<NONE>",
+    "[Implications]": "<NONE>"
+  }
+}

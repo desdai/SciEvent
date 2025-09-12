@@ -1,0 +1,388 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_742",
+      "abstract": "There is a growing number of available protein sequences, but only a limited amount has been manually annotated. For example, only 0.25% of all entries of UniProtKB are reviewed by human annotators. Further developing automatic tools to infer protein function from sequence alone can alleviate part of this gap. In this article, we investigate the potential of Transformer deep neural networks on a specific case of functional sequence annotation: the prediction of enzymatic classes. We show that our EnzBert transformer models, trained to predict Enzyme Commission (EC) numbers by specialization of a protein language model, outperforms state-of-the-art tools for monofunctional enzyme class prediction based on sequences only. Accuracy is improved from 84% to 95% on the prediction of EC numbers at level two on the EC40 benchmark. To evaluate the prediction quality at level four, the most detailed level of EC numbers, we built two new time-based benchmarks for comparison with state-of-the-art methods ECPred and DeepEC: the macro-F1 score is respectively improved from 41% to 54% and from 20% to 26%. Finally, we also show that using a simple combination of attention maps is on par with, or better than, other classical interpretability methods on the EC prediction task. More specifically, important residues identified by attention maps tend to correspond to known catalytic sites. Quantitatively, we report a max F-Gain score of 96.05%, while classical interpretability methods reach 91.44% at best.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "There is a growing number of available protein sequences, but only a limited amount has been manually annotated. For example, only 0.25% of all entries of UniProtKB are reviewed by human annotators. Further developing automatic tools to infer protein function from sequence alone can alleviate part of this gap.",
+          "Main Action": "developing",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "automatic tools",
+              "infer protein function from sequence alone",
+              "gap between available protein sequences and their manual annotation"
+            ],
+            "Purpose": [
+              "alleviate part of this gap"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "future development of automatic tools will help address the issue of underannotation in UniProtKB."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this article, we investigate the potential of Transformer deep neural networks on a specific case of functional sequence annotation: the prediction of enzymatic classes. We show that our EnzBert transformer models, trained to predict Enzyme Commission (EC) numbers by specialization of a protein language model, outperforms state-of-the-art tools for monofunctional enzyme class prediction based on sequences only.",
+          "Main Action": "investigate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "potential of Transformer deep neural networks on a specific case of functional sequence annotation"
+            ],
+            "Purpose": [
+              "prediction of enzymatic classes"
+            ],
+            "Method": [
+              "EnzBert transformer models, trained to predict Enzyme Commission (EC) numbers by specialization of a protein language model"
+            ],
+            "Results": [
+              "outperform state-of-the-art tools for monofunctional enzyme class prediction based on sequences only"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Accuracy is improved from 84% to 95% on the prediction of EC numbers at level two on the EC40 benchmark. To evaluate the prediction quality at level four, the most detailed level of EC numbers, we built two new time-based benchmarks for comparison with state-of-the-art methods ECPred and DeepEC: the macro-F1 score is respectively improved from 41% to 54% and from 20% to 26%. Finally, we also show that using a simple combination of attention maps is on par with, or better than, other classical interpretability methods on the EC prediction task. More specifically, important residues identified by attention maps tend to correspond to known catalytic sites. Quantitatively, we report a max F-Gain score of 96.05%, while classical interpretability methods reach 91.44% at best.",
+          "Main Action": "improved",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "accuracy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "on the prediction of EC numbers at level two on the EC40 benchmark."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "building two new time-based benchmarks"
+            ],
+            "Results": [
+              "from 84% to 95%",
+              "respectively improved from 41% to 54%"
+            ],
+            "Analysis": [
+              "important residues identified by attention maps tend to correspond to known catalytic sites.",
+              "Quantitatively,"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "More specifically,"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_277",
+      "abstract": "Sequence alignment is a memory bound computation whose performance in modern systems is limited by the memory bandwidth bottleneck. Processing-in-memory (PIM) architectures alleviate this bottleneck by providing the memory with computing competencies. We propose Alignment-in-Memory (AIM), a framework for high-throughput sequence alignment using PIM, and evaluate it on UPMEM, the first publicly available general-purpose programmable PIM system. Our evaluation shows that a real PIM system can substantially outperform server-grade multi-threaded CPU systems running at full-scale when performing sequence alignment for a variety of algorithms, read lengths, and edit distance thresholds. We hope that our findings inspire more work on creating and accelerating bioinformatics algorithms for such real PIM systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Sequence alignment is a memory bound computation whose performance in modern systems is limited by the memory bandwidth bottleneck. Processing-in-memory (PIM) architectures alleviate this bottleneck by providing the memory with computing competencies.",
+          "Main Action": "Processing-in-memory",
+          "Arguments": {
+            "Agent": [
+              "modern systems"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "provide the memory with computing competencies"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose Alignment-in-Memory (AIM), a framework for high-throughput sequence alignment using PIM, and evaluate it on UPMEM, the first publicly available general-purpose programmable PIM system",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Alignment-in-Memory (AIM)",
+                "framework",
+                "UPMEM",
+                "general-purpose programmable PIM system"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "high-throughput sequence alignment"
+            ],
+            "Method": [
+              "PIM",
+              "techniques"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our evaluation shows that a real PIM system can substantially outperform server-grade multi-threaded CPU systems running at full-scale when performing sequence alignment for a variety of algorithms, read lengths, and edit distance thresholds.",
+          "Main Action": "shows",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "evaluation",
+              "real",
+              "PIM",
+              "system",
+              "can",
+              "substantially",
+              "outperform",
+              "server-grade",
+              "multi-threaded",
+              "CPU",
+              "systems",
+              "running",
+              "at",
+              "full-scale",
+              "when",
+              "performing",
+              "sequence",
+              "alignment",
+              "for",
+              "a",
+              "variety",
+              "of",
+              "algorithms,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "techniques",
+              "experimental",
+              "setups",
+              "frameworks",
+              "datasets"
+            ],
+            "Results": [
+              "that",
+              "a",
+              "real",
+              "PIM",
+              "system",
+              "can",
+              "substantially",
+              "outperform",
+              "server-grade",
+              "multi-threaded",
+              "CPU",
+              "systems",
+              "running",
+              "at",
+              "full-scale",
+              "when",
+              "performing",
+              "sequence",
+              "alignment",
+              "for",
+              "a",
+              "variety",
+              "of",
+              "algorithms,"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We hope that our findings inspire more work on creating and accelerating bioinformatics algorithms for such real PIM systems.",
+          "Main Action": "hope",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "inspire more work"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+[
+    {
+      "paper_code": "dh_21_P_24",
+      "abstract": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way. From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge. As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way.",
+          "Main Action": "",
+          "Arguments": {
+            "Agent": "",
+            "Object": {
+              "Primary Object": "",
+              "Primary Modifier": "",
+              "Secondary Object": "",
+              "Secondary Modifier": ""
+            },
+            "Context": "",
+            "Purpose": "",
+            "Method": "",
+            "Results": "",
+            "Analysis": "",
+            "Challenge": "",
+            "Ethical": "",
+            "Implications": "",
+            "Contradictions": ""
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge.",
+          "Main Action": "",
+          "Arguments": {
+            "Agent": "",
+            "Object": {
+              "Primary Object": "",
+              "Primary Modifier": "",
+              "Secondary Object": "",
+              "Secondary Modifier": ""
+            },
+            "Context": "",
+            "Purpose": "",
+            "Method": "",
+            "Results": "",
+            "Analysis": "",
+            "Challenge": "",
+            "Ethical": "",
+            "Implications": "",
+            "Contradictions": ""
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
+          "Main Action": "",
+          "Arguments": {
+            "Agent": "",
+            "Object": {
+              "Primary Object": "",
+              "Primary Modifier": "",
+              "Secondary Object": "",
+              "Secondary Modifier": ""
+            },
+            "Context": "",
+            "Purpose": "",
+            "Method": "",
+            "Results": "",
+            "Analysis": "",
+            "Challenge": "",
+            "Ethical": "",
+            "Implications": "",
+            "Contradictions": ""
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_41",
+      "abstract": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation. It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results. The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution, and the dangers in assuming that such human entailments are native to digital computers.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation.",
+          "Main Action": "",
+          "Arguments": {
+            "Agent": "",
+            "Object": {
+              "Primary Object": "",
+              "Primary Modifier": "",
+              "Secondary Object": "",
+              "Secondary Modifier": ""
+            },
+            "Context": "",
+            "Purpose": "",
+            "Method": "",
+            "Results": "",
+            "Analysis": "",
+            "Challenge": "",
+            "Ethical": "",
+            "Implications": "",
+            "Contradictions": ""
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results.",
+          "Main Action": "",
+          "Arguments": {
+            "Agent": "",
+            "Object": {
+              "Primary Object": "",
+              "Primary Modifier": "",
+              "Secondary Object": "",
+              "Secondary Modifier": ""
+            },
+            "Context": "",
+            "Purpose": "",
+            "Method": "",
+            "Results": "",
+            "Analysis": "",
+            "Challenge": "",
+            "Ethical": "",
+            "Implications": "",
+            "Contradictions": ""
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution. It discusses the dangers in assuming that such human entailments are native to digital computers.",
+          "Main Action": "",
+          "Arguments": {
+            "Agent": "",
+            "Object": {
+              "Primary Object": "",
+              "Primary Modifier": "",
+              "Secondary Object": "",
+              "Secondary Modifier": ""
+            },
+            "Context": "",
+            "Purpose": "",
+            "Method": "",
+            "Results": "",
+            "Analysis": "",
+            "Challenge": "",
+            "Ethical": "",
+            "Implications": "",
+            "Contradictions": ""
+          }
+        }
+      ]
+    }
+  ]
+  

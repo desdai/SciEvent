@@ -1,0 +1,384 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_20",
+      "abstract": "In the system and network administration domain, gender diversity remains a distant target. The experiences and perspectives of sysadmins who belong to marginalized genders (non cis-men) are not well understood beyond the fact that sysadmin work environments are generally not equitable. We address this knowledge gap in our study by focusing on the ways in which sysadmins from marginalized genders manage their work in men-dominated sysadmin work spaces and by understanding what an inclusive workplace would look like. Using a feminist research approach, we engaged with a group of 16 sysadmins who are not cis-men via six online focus groups. We found that managing the impact of gender identity in the sysadmin workplace means demonstrating excellence and going above and beyond in system administration tasks, and also requires performing additional care work not expected from cis men. Furthermore, our participants handle additional layers of work due to gender considerations and to actively find community in the workplace. We found that sysadmins manage by going above and beyond in their tasks, performing care work and doing extra layers of work because of gender considerations, and finding community in the workplace. To mitigate this additional workload, we recommend more care for care work. For future research, we recommend the use of feminist lenses when studying sysadmin work in order to provide more equitable solutions that ultimately contribute to improving system security by fostering a just workplace.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In the system and network administration domain, gender diversity remains a distant target. The experiences and perspectives of sysadmins who belong to marginalized genders (non cis-men) are not well understood beyond the fact that sysadmin work environments are generally not equitable. We address this knowledge gap in our study by focusing on the ways in which sysadmins from marginalized genders manage their work in men-dominated sysadmin work spaces and by understanding what an inclusive workplace would look like.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "knowledge gap"
+              ],
+              "Secondary Object": [
+                "sysadmins from marginalized genders",
+                "inclusive workplace"
+              ]
+            },
+            "Context": [
+              "gender diversity remains a distant target",
+              "experiences and perspectives of sysadmins who belong to marginalized genders (non cis-men) are not well understood"
+            ],
+            "Purpose": [
+              "addressing the knowledge gap"
+            ],
+            "Method": [
+              "focusing on the ways in which sysadmins from marginalized genders manage their work in men-dominated sysadmin work spaces and by understanding what an inclusive workplace would look like"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Using a feminist research approach, we engaged with a group of 16 sysadmins who are not cis-men via six online focus groups.",
+          "Main Action": "engaged",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a group of 16 sysadmins who are not cis-men"
+              ],
+              "Secondary Object": [
+                "via six online focus groups"
+              ]
+            },
+            "Context": [
+              "using a feminist research approach"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that managing the impact of gender identity in the sysadmin workplace means demonstrating excellence and going above and beyond in system administration tasks, and also requires performing additional care work not expected from cis men. Furthermore, our participants handle additional layers of work due to gender considerations and to actively find community in the workplace. We found that sysadmins manage by going above and beyond in their tasks, performing care work and doing extra layers of work because of gender considerations, and finding community in the workplace.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "sysadmins"
+            ],
+            "Object": {
+              "Primary Object": [
+                "going above and beyond in their tasks",
+                "performing care work",
+                "doing extra layers of work",
+                "finding community in the workplace"
+              ],
+              "Secondary Object": [
+                "gender considerations"
+              ]
+            },
+            "Context": [
+              "managing the impact of gender identity in the sysadmin workplace"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "To mitigate this additional workload, we recommend more care for care work. For future research, we recommend the use of feminist lenses when studying sysadmin work in order to provide more equitable solutions that ultimately contribute to improving system security by fostering a just workplace.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "more care for care work"
+              ],
+              "Secondary Object": [
+                "feminist lenses when studying sysadmin work"
+              ]
+            },
+            "Context": [
+              "To mitigate this additional workload",
+              "For future research"
+            ],
+            "Purpose": [
+              "to provide more equitable solutions that ultimately contribute to improving system security by fostering a just workplace"
+            ],
+            "Method": [
+              "use of feminist lenses"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "improving system security by fostering a just workplace"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_236",
+      "abstract": "In many real world contexts, successful human-AI collaboration requires humans to productively integrate complementary sources of information into AI-informed decisions. However, in practice, human decision-makers often lack understanding of what information an AI model has access to, in relation to themselves. There are few available guidelines regarding how to effectively communicate about unobservables: features that may influence the outcome, but which are unavailable to the model. In this work, we conducted an online experiment to understand whether and how explicitly communicating potentially relevant unobservables influences how people integrate model outputs and unobservables when making predictions. Our findings indicate that presenting prompts about unobservables can change how humans integrate model outputs and unobservables, but do not necessarily lead to improved performance. Furthermore, the impacts of these prompts can vary depending on decision-makers' prior domain expertise. We conclude by discussing implications for future research and design of AI-based decision support tools.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In many real world contexts, successful human-AI collaboration requires humans to productively integrate complementary sources of information into AI-informed decisions. However, in practice, human decision-makers often lack understanding of what information an AI model has access to, in relation to themselves. There are few available guidelines regarding how to effectively communicate about unobservables: features that may influence the outcome, but which are unavailable to the model.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "human decision-maker"
+            ],
+            "Object": {
+              "Primary Object": [
+                "unobservable feature"
+              ],
+              "Secondary Object": [
+                "model's access to information"
+              ]
+            },
+            "Context": [
+              "real-world contexts",
+              "successful human-AI collaboration"
+            ],
+            "Purpose": [
+              "effective communication about unobservables"
+            ],
+            "Method": [
+              "few available guidelines"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "features that may influence the outcome, but which are unavailable to the model"
+            ],
+            "Challenge": [
+              "lack of understanding of what information an AI model has access to, in relation to oneself"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "importance, impact, applications, or future work"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we conducted an online experiment to understand whether and how explicitly communicating potentially relevant unobservables influences how people integrate model outputs and unobservables when making predictions.",
+          "Main Action": "conducted",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an online experiment"
+              ],
+              "Secondary Object": [
+                "whether and how explicitly communicating potentially relevant unobservables influences how people integrate model outputs and unobservables when making predictions"
+              ]
+            },
+            "Context": [
+              "in this work"
+            ],
+            "Purpose": [
+              "to understand"
+            ],
+            "Method": [
+              "online experiment"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our findings indicate that presenting prompts about unobservables can change how humans integrate model outputs and unobservables, but do not necessarily lead to improved performance. Furthermore, the impacts of these prompts can vary depending on decision-makers' prior domain expertise.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Our findings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "presenting prompts about unobservables",
+                "how humans integrate model outputs and unobservables"
+              ],
+              "Secondary Object": [
+                "improved performance"
+              ]
+            },
+            "Context": [
+              "Furthermore, the impacts of these prompts can vary depending on decision-makers' prior domain expertise."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "presenting prompts about unobservables can change how humans integrate model outputs and unobservables, but do not necessarily lead to improved performance"
+            ],
+            "Analysis": [
+              "the impacts of these prompts can vary depending on decision-makers' prior domain expertise"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We conclude by discussing implications for future research and design of AI-based decision support tools.",
+          "Main Action": "discussing",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "implications"
+              ],
+              "Secondary Object": [
+                "future research and design of AI-based decision support tools"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "for future research and design of AI-based decision support tools"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

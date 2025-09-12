@@ -1,0 +1,250 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_67",
+      "abstract": "This essay details the development and current NEH-funded research goals of The Media Ecology Project (MEP), directed by Prof. Mark Williams and designed by Dr. John Bell at Dartmouth. The virtuous cycle of access, research, and preservation that MEP realizes is built upon a foundation of technological advance (software development) plus large-scale partnership networks with scholars, students, and institutions of historical memory such as moving image archives. The development of our Onomy vocabulary tool and NEH-funded Semantic Annotation Tool (SAT) are detailed, including their application in two advancement grants from the NEH regarding 1) early cinema history, and 2) television newsfilm that covered the civil rights movement in the U.S. MEP is fundamentally 1) a sustainability project that 2) develops literacies of moving image and visual culture history, and 3) functions as a collaborative incubator that fosters new research questions and methods ranging from traditional Arts and Humanities close-textual analysis to computational distant reading. New research questions in relation to these workflows will literally transform the value of media archives and support the development of interdisciplinary research and pedagogy/curricular goals (e.g., media literacy) regarding the study of visual culture history and its legacies in the 21st century.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This essay details the development and current NEH-funded research goals of The Media Ecology Project (MEP), directed by Prof. Mark Williams and designed by Dr. John Bell at Dartmouth. The virtuous cycle of access, research, and preservation that MEP realizes is built upon a foundation of technological advance (software development) plus large-scale partnership networks with scholars, students, and institutions of historical memory such as moving image archives.",
+          "Main Action": "detailing",
+          "Arguments": {
+            "Agent": [
+              "Prof. Mark Williams",
+              "Dr. John Bell"
+            ],
+            "Object": {
+              "Primary Object": [
+                "development",
+                "NEH-funded research goals"
+              ],
+              "Secondary Object": [
+                "The Media Ecology Project (MEP)"
+              ]
+            },
+            "Context": [
+              "technological advance (software development)",
+              "large-scale partnership networks"
+            ],
+            "Purpose": [
+              "NEH-funded research goals"
+            ],
+            "Method": [
+              "software development",
+              "partnership networks"
+            ],
+            "Results": [
+              "research goals"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "future applications",
+              "further research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The development of our Onomy vocabulary tool and NEH-funded Semantic Annotation Tool (SAT) are detailed, including their application in two advancement grants from the NEH regarding 1) early cinema history, and 2) television newsfilm that covered the civil rights movement in the U.S. MEP is fundamentally 1) a sustainability project that 2) develops literacies of moving image and visual culture history, and 3) functions as a collaborative incubator that fosters new research questions and methods ranging from traditional Arts and Humanities close-textual analysis to computational distant reading.",
+          "Main Action": "are detailed",
+          "Arguments": {
+            "Agent": [
+              "Our Onomy vocabulary tool and NEH-funded Semantic Annotation Tool (SAT)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "two advancement grants from the NEH regarding 1) early cinema history, and 2) television newsfilm that covered the civil rights movement in the U.S."
+              ],
+              "Secondary Object": [
+                "MEP is fundamentally [...]"
+              ]
+            },
+            "Context": [
+              "MEP is fundamentally 1) a sustainability project that 2) develops literacies of moving image and visual culture history, and 3) functions as a collaborative incubator that fosters new research questions and methods ranging from traditional Arts and Humanities close-textual analysis to computational distant reading."
+            ],
+            "Purpose": [
+              "fostering new research questions and methods ranging from traditional Arts and Humanities close-textual analysis to computational distant reading."
+            ],
+            "Method": [
+              "their application in two advancement grants from the NEH regarding [...]",
+              "traditional Arts and Humanities close-textual analysis to computational distant reading."
+            ],
+            "Results": [
+              "successful application in two advancement grants from the NEH regarding [...]",
+              "functions as a collaborative incubator that fosters new research questions and methods [...]"
+            ],
+            "Analysis": [
+              "develops literacies of moving image and visual culture history"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "New research questions in relation to these workflows will literally transform the value of media archives and support the development of interdisciplinary research and pedagogy/curricular goals (e.g., media literacy) regarding the study of visual culture history and its legacies in the 21st century.",
+          "Main Action": "will literally transform",
+          "Arguments": {
+            "Agent": [
+              "media archives"
+            ],
+            "Object": {
+              "Primary Object": [
+                "value of media archives"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "study of visual culture history and its legacies in the 21st century"
+            ],
+            "Purpose": [
+              "supporting the development of interdisciplinary research and pedagogical goals (e.g., media literacy)"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "changes in media archives' value"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "transformation of media archives' value and support for interdisciplinary research and pedagogical goals"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_47",
+      "abstract": "This paper examines musical artificial intelligence (AI) algorithms that can not only learn from big data, but learn in ways that would be familiar to a musician or music theorist. This paper aims to find more effective links between music-related big data and artificial intelligence algorithms by incorporating principles with a strong grounding in music theory. We show that it is possible to increase the accuracy of two common algorithms (mode prediction and key prediction) by using music-theory-based techniques during the data preparation process. We offer methods to alter often-used Krumhansl Kessler profiles [Krumhansl and Kessler 1982], and the manner in which they are employed during preprocessing, to aid the connection of musical big data and mode or key predicting algorithms.",
+      "events": [
+        {
+          "Background/Introduction": "ERROR",
+          "Text": "This paper examines musical artificial intelligence (AI) algorithms that can not only learn from big data, but learn in ways that would be familiar to a musician or music theorist. This paper aims to find more effective links between music-related big data and artificial intelligence algorithms by incorporating principles with a strong grounding in music theory.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We show that it is possible to increase the accuracy of two common algorithms (mode prediction and key prediction) by using music-theory-based techniques during the data preparation process. We offer methods to alter often-used Krumhansl Kessler profiles [Krumhansl and Kessler 1982], and the manner in which they are employed during preprocessing, to aid the connection of musical big data and mode or key predicting algorithms.",
+          "Main Action": "offer methods to alter often-used Krumhansl Kessler profiles",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "often-used Krumhansl Kessler profiles"
+              ],
+              "Secondary Object": [
+                "musical big data"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to aid the connection of musical big data and mode or key predicting algorithms"
+            ],
+            "Method": [
+              "alter often-used Krumhansl Kessler profiles",
+              "employ them during preprocessing"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

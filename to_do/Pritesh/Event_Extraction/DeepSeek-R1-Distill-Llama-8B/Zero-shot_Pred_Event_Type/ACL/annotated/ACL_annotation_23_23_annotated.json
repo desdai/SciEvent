@@ -1,0 +1,339 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_37",
+      "abstract": "Due to the rapid upgrade of social platforms, most of today’s fake news is published and spread in a multi-modal form. Most existing multi-modal fake news detection methods neglect the fact that some label-specific features learned from the training set cannot generalize well to the testing set, thus inevitably suffering from the harm caused by the latent data bias. In this paper, we analyze and identify the psycholinguistic bias in the text and the bias of inferring news label based on only image features. We mitigate these biases from a causality perspective and propose a Causal intervention and Counterfactual reasoning based Debiasing framework (CCD) for multi-modal fake news detection. To achieve our goal, we first utilize causal intervention to remove the psycholinguistic bias which introduces the spurious correlations between text features and news label. And then, we apply counterfactual reasoning by imagining a counterfactual world where each news has only image features for estimating the direct effect of the image. Therefore, we can eliminate the image-only bias by deducting the direct effect of the image from the total effect on labels. Extensive experiments on two real-world benchmark datasets demonstrate the effectiveness of our framework for improving multi-modal fake news detection.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Due to the rapid upgrade of social platforms, most of today’s fake news is published and spread in a multi-modal form. Most existing multi-modal fake news detection methods neglect the fact that some label-specific features learned from the training set cannot generalize well to the testing set, thus inevitably suffering from the harm caused by the latent data bias.",
+          "Main Action": "neglect",
+          "Arguments": {
+            "Agent": [
+              "existing multi-modal fake news detection methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "label-specific features"
+              ],
+              "Secondary Object": [
+                "testing set"
+              ]
+            },
+            "Context": [
+              "rapid upgrade of social platforms"
+            ],
+            "Purpose": [
+              "improve detection accuracy"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "latent data bias"
+            ],
+            "Analysis": [
+              "inevitably suffering from the harm caused by the latent data bias"
+            ],
+            "Challenge": [
+              "failure to generalize well"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for improved detection accuracy"
+            ],
+            "Contradictions": [
+              "current methods are flawed"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we analyze and identify the psycholinguistic bias in the text and the bias of inferring news label based on only image features. We mitigate these biases from a causality perspective and propose a Causal intervention and Counterfactual reasoning based Debiasing framework (CCD) for multi-modal fake news detection. To achieve our goal, we first utilize causal intervention to remove the psycholinguistic bias which introduces the spurious correlations between text features and news label. And then, we apply counterfactual reasoning by imagining a counterfactual world where each news has only image features for estimating the direct effect of the image. Therefore, we can eliminate the image-only bias by deducting the direct effect of the image from the total effect on labels.",
+          "Main Action": "Propose",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Causal intervention and Counterfactual reasoning based Debiasing framework (CCD)"
+              ],
+              "Secondary Object": [
+                "Multi-modal fake news detection"
+              ]
+            },
+            "Context": [
+              "Psycholinguistic bias in the text and the bias of inferring news label based on only image features"
+            ],
+            "Purpose": [
+              "Improving multi-modal fake news detection and reducing biases"
+            ],
+            "Method": [
+              "Causal intervention",
+              "Counterfactual reasoning"
+            ],
+            "Results": [
+              "Reduced psycholinguistic bias",
+              "Eliminated image-only bias"
+            ],
+            "Analysis": [
+              "Understanding the limitations of current methodologies",
+              "Effectiveness of proposed framework"
+            ],
+            "Challenge": [
+              "Potential limitations in dataset size",
+              "Real-world complexities affecting performance"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Broader impact on media literacy",
+              "Contributions to computational research"
+            ],
+            "Contradictions": [
+              "Disagreements with existing assumptions about bias mitigation strategies"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Extensive experiments on two real-world benchmark datasets demonstrate the effectiveness of our framework for improving multi-modal fake news detection.",
+          "Main Action": "Extensive experiments",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "two real-world benchmark datasets"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "testing something"
+            ],
+            "Purpose": [
+              "showing effectiveness"
+            ],
+            "Method": [
+              "experiments on datasets"
+            ],
+            "Results": [
+              "effectiveness demonstrated"
+            ],
+            "Analysis": [
+              "interpretations"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enhancing detection capabilities"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_507",
+      "abstract": "We present WinoQueer: a benchmark specifically designed to measure whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community. The benchmark is community-sourced, via application of a novel method that generates a bias benchmark from a community survey. We apply our benchmark to several popular LLMs and find that off-the-shelf models generally do exhibit considerable anti-queer bias. Finally, we show that LLM bias against a marginalized community can be somewhat mitigated by finetuning on data written about or by members of that community, and that social media text written by community members is more effective than news text written about the community by non-members. Our method for community-in-the-loop benchmark development provides a blueprint for future researchers to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "We present WinoQueer: a benchmark specifically designed to measure whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community.",
+          "Main Action": "We present",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "WinoQueer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a benchmark specifically designed to measure whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community"
+            ],
+            "Purpose": [
+              "to assess whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The benchmark is community-sourced, via application of a novel method that generates a bias benchmark from a community survey. We apply our benchmark to several popular LLMs and find that off-the-shelf models generally do exhibit considerable anti-queer bias.",
+          "Main Action": "We apply our benchmark",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "several popular LLMs"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "community-sourced",
+              "via application of a novel method that generates a bias benchmark from a community survey"
+            ],
+            "Purpose": [
+              "to assess anti-queer bias in AI models"
+            ],
+            "Method": [
+              "application of a novel method that generates a bias benchmark from a community survey",
+              "testing against several popular LLMs"
+            ],
+            "Results": [
+              "off-the-shelf models generally do exhibit considerable anti-queer bias"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "consideration of bias in AI affecting marginalized communities"
+            ],
+            "Implications": [
+              "understanding and addressing biases in large language models improves AI fairness and inclusion"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Finally, we show that LLM bias against a marginalized community can be somewhat mitigated by finetuning on data written about or by members of that community, and that social media text written by community members is more effective than news text written about the community by non-members.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our method for community-in-the-loop benchmark development provides a blueprint for future researchers to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities.",
+          "Main Action": "provides",
+          "Arguments": {
+            "Agent": [
+              "our method"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a blueprint"
+              ],
+              "Secondary Object": [
+                "benchmarks for other marginalized communities"
+              ]
+            },
+            "Context": [
+              "for future researchers to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities"
+            ],
+            "Purpose": [
+              "to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "provides a blueprint"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

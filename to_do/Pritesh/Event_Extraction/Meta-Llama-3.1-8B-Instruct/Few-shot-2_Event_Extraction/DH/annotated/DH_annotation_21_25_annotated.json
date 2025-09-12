@@ -1,0 +1,243 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_32",
+      "abstract": "This paper presents a prototype ontology developed in the field of Iranian architectural history. The paper’s central arguments offer a response to questions regarding how to create an ontology in Iranian architectural history, what considerations must be addressed here, and how to resolve problematic issues in developing an ontology in a field such as Iranian architectural history, which lacks a formalized knowledge. The paper is organized into two parts. It primarily presents a discussion on the specific domain of architectural history and what it encompasses and moves on to examine why it is deemed complicated. After that, the process of creating Iranian architectural history ontology and the methodology applied to match the intended domain is explained. In the second part of the paper, the content of the developed ontology is discussed, which includes various parts of the ontology and what it implies to illustrate how the structure of ontology helps in logically representing the domain in a machine-readable format.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper presents a prototype ontology developed in the field of Iranian architectural history. The paper’s central arguments offer a response to questions regarding how to create an ontology in Iranian architectural history, what considerations must be addressed here, and how to resolve problematic issues in developing an ontology in a field such as Iranian architectural history, which lacks a formalized knowledge.",
+          "Main Action": "presents",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "prototype ontology"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The paper is organized into two parts. It primarily presents a discussion on the specific domain of architectural history and what it encompasses and moves on to examine why it is deemed complicated. After that, the process of creating Iranian architectural history ontology and the methodology applied to match the intended domain is explained. In the second part of the paper, the content of the developed ontology is discussed, which includes various parts of the ontology and what it implies to illustrate how the structure of ontology helps in logically representing the domain in a machine-readable format.",
+          "Main Action": "is organized into two parts.",
+          "Arguments": {
+            "Agent": [
+              "it"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "It primarily presents a discussion on the specific domain of architectural history and what it encompasses ",
+              "and moves on to examine why it is deemed complicated."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "After that, the process of creating Iranian architectural history ontology and the methodology applied to match the intended domain is explained"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_53",
+      "abstract": "This paper offers a case study of the development of Hands-On Reading (https://hands-on-reading.atnu.ncl.ac.uk/login), a web app that explores the interconnections between digital reading and writing. The app was created as part of the AHRC-funded project “Manuscripts after Print c.1450-1550: Producing and Reading Books during Technological Change,” which ran at Newcastle University between February 2019 and July 2020. It was initially designed to enable the project to ask two crucial questions: why does handwriting have an enduring relevance in a digital age; can a more hands-on approach to reading lead to a deeper engagement with a digital text? However, as this paper will show, the creation and testing of this app also raised a number of conceptual issues and technical challenges of broader relevance to the DH community, relating in particular to the question of whether reading and writing practices can be translated to the digital world.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "This paper offers a case study of the development of Hands-On Reading (https://hands-on-reading.atnu.ncl.ac.uk/login), a web app that explores the interconnections between digital reading and writing. The app was created as part of the AHRC-funded project “Manuscripts after Print c.1450-1550: Producing and Reading Books during Technological Change,” which ran at Newcastle University between February 2019 and July 2020.",
+          "Main Action": "offers",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a case study"
+              ],
+              "Secondary Object": [
+                "of the development of Hands-On Reading"
+              ]
+            },
+            "Context": [
+              "The app was created as part of the AHRC-funded project ",
+              "which ran at Newcastle University between February 2019 and July 2020"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "It was initially designed to enable the project to ask two crucial questions: why does handwriting have an enduring relevance in a digital age; can a more hands-on approach to reading lead to a deeper engagement with a digital text?",
+          "Main Action": "was initially designed",
+          "Arguments": {
+            "Agent": [
+              "it"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "enable the project to ask two crucial questions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "However, as this paper will show, the creation and testing of this app also raised a number of conceptual issues and technical challenges of broader relevance to the DH community, relating in particular to the question of whether reading and writing practices can be translated to the digital world.",
+          "Main Action": "creation and testing",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "raised a number of conceptual issues"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "technical challenges of broader relevance"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "relating in particular to the question of whether reading and writing practices can be translated to the digital world."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

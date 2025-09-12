@@ -16,7 +16,7 @@ and each abstract is annotated with:
 
 Note that the blank entries means there is no such argument, we enforce such empty arguments to maintain structured format.
 
-We also provide raw abstracts we used, they are in ``SciEvent_data/raw_abstracts`` folder.
+We also provide raw abstracts we used, they are in ``SciEvent_data/raw_abstracts`` folder. Unannotated JSON for each venue are also provided in ``SciEvent_data/raw/domain_specific_unannotated`` folder, you can load each of these JSON files on the Render interface for annotation.
 
 # Tuning-Based Models:
 Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 

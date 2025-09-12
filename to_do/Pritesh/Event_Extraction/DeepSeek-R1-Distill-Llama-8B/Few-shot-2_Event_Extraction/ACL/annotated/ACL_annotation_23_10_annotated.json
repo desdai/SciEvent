@@ -1,0 +1,294 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_312",
+      "abstract": "Event schemas are a form of world knowledge about the typical progression of events. Recent methods for event schema induction use information extraction systems to construct a large number of event graph instances from documents, and then learn to generalize the schema from such instances. In contrast, we propose to treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs). This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way. Since event schemas have complex graph structures, we design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification. Compared to directly using LLMs to generate a linearized graph, IncSchema can generate large and complex schemas with 7.2% F1 improvement in temporal relations and 31.0% F1 improvement in hierarchical relations. In addition, compared to the previous state-of-the-art closed-domain schema induction model, human assessors were able to cover ~10% more events when translating the schemas into coherent stories and rated our schemas 1.3 points higher (on a 5-point scale) in terms of readability.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Event schemas are a form of world knowledge about the typical progression of events. Recent methods for event schema induction use information extraction systems to construct a large number of event graph instances from documents, and then learn to generalize the schema from such instances.",
+          "Main Action": "have become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In contrast, we propose to treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs). This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way. Since event schemas have complex graph structures, we design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way.",
+              "Since event schemas have complex graph structures, we design an incremental prompting and verification method IncPrompt to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "IncPrompt"
+            ],
+            "Results": [
+              "allows us to handle both hierarchical relations and temporal relations between events in a straightforward way",
+              "break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "negative transfer",
+              "positive transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Compared to directly using LLMs to generate a linearized graph, IncSchema can generate large and complex schemas with 7.2% F1 improvement in temporal relations and 31.0% F1 improvement in hierarchical relations. In addition, compared to the previous state-of-the-art closed-domain schema induction model, human assessors were able to cover ~10% more events when translating the schemas into coherent stories and rated our schemas 1.3 points higher (on a 5-point scale) in terms of readability.",
+          "Main Action": "generate",
+          "Arguments": {
+            "Agent": [
+              "IncSchema"
+            ],
+            "Object": {
+              "Primary Object": [
+                "large and complex schemas"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "compared to directly using LLMs to generate a linearized graph",
+              "temporal relations",
+              "hierarchical relations"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "7.2% F1 improvement in temporal relations",
+              "31.0% F1 improvement in hierarchical relations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_550",
+      "abstract": "Large language models (LLMs) have been widely studied for their ability to store and utilize positive knowledge. However, negative knowledge, such as “lions don’t live in the ocean”, is also ubiquitous in the world but rarely mentioned explicitly in text. What do LLMs know about negative knowledge?This work examines the ability of LLMs on negative commonsense knowledge. We design a constrained keywords-to-sentence generation task (CG) and a Boolean question answering task (QA) to probe LLMs. Our experiments reveal that LLMs frequently fail to generate valid sentences grounded in negative commonsense knowledge, yet they can correctly answer polar yes-or-no questions. We term this phenomenon the belief conflict of LLMs. Our further analysis shows that statistical shortcuts and negation reporting bias from language modeling pre-training cause this conflict.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Large language models (LLMs) have been widely studied for their ability to store and utilize positive knowledge. However, negative knowledge, such as “lions don’t live in the ocean”, is also ubiquitous in the world but rarely mentioned explicitly in text. What do LLMs know about negative knowledge?This work examines the ability of LLMs on negative commonsense knowledge.",
+          "Main Action": "have been widely studied",
+          "Arguments": {
+            "Agent": [
+              "Large language models (LLMs)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "their ability to store and utilize positive knowledge"
+              ],
+              "Secondary Object": [
+                "negative knowledge"
+              ]
+            },
+            "Context": [
+              "However, negative knowledge, such as 'lions don't live in the ocean', is also ubiquitous in the world but rarely mentioned explicitly in text."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "What do LLMs know about negative knowledge?"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "This work examines the ability of LLMs on negative commonsense knowledge."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We design a constrained keywords-to-sentence generation task (CG) and a Boolean question answering task (QA) to probe LLMs.",
+          "Main Action": "design",
+          "Arguments": {
+            "Agent": [
+              "a constrained keywords-to-sentence generation task (CG) and a Boolean question answering task (QA) to probe LLMs."
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our experiments reveal that LLMs frequently fail to generate valid sentences grounded in negative commonsense knowledge, yet they can correctly answer polar yes-or-no questions. We term this phenomenon the belief conflict of LLMs. Our further analysis shows that statistical shortcuts and negation reporting bias from language modeling pre-training cause this conflict.",
+          "Main Action": "reveal",
+          "Arguments": {
+            "Agent": [
+              "our experiments"
+            ],
+            "Object": {
+              "Primary Object": [
+                "negative commonsense knowledge"
+              ],
+              "Secondary Object": [
+                "LLMs"
+              ]
+            },
+            "Context": [
+              "statistical shortcuts and negation reporting bias from language modeling pre-training"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "statistical shortcuts and negation reporting bias from language modeling pre-training"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

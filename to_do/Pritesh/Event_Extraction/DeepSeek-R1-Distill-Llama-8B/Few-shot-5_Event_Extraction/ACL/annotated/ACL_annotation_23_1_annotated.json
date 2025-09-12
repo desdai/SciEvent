@@ -1,0 +1,286 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_726",
+      "abstract": "Languages differ in how they divide up the world into concepts and words; e.g., in contrast to English, Swahili has a single concept for ‘belly’ and ‘womb’. We investigate these differences in conceptualization across 1,335 languages by aligning concepts in a parallel corpus. To this end, we propose Conceptualizer, a method that creates a bipartite directed alignment graph between source language concepts and sets of target language strings. In a detailed linguistic analysis across all languages for one concept (‘bird’) and an evaluation on gold standard data for 32 Swadesh concepts, we show that Conceptualizer has good alignment accuracy. We demonstrate the potential of research on conceptualization in NLP with two experiments. (1) We define crosslingual stability of a concept as the degree to which it has 1-1 correspondences across languages, and show that concreteness predicts stability. (2) We represent each language by its conceptualization pattern for 83 concepts, and define a similarity measure on these representations. The resulting measure for the conceptual similarity between two languages is complementary to standard genealogical, typological, and surface similarity measures. For four out of six language families, we can assign languages to their correct family based on conceptual similarity with accuracies between 54% and 87%",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Languages differ in how they divide up the world into concepts and words; e.g., in contrast to English, Swahili has a single concept for ‘belly’ and ‘womb’. We investigate these differences in conceptualization across 1,335 languages by aligning concepts in a parallel corpus.",
+          "Main Action": "investigate these differences in conceptualization across 1,335 languages",
+          "Arguments": {
+            "Agent": [
+              "by aligning concepts in a parallel corpus"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these differences in conceptualization across 1,335 languages"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in contrast to English, Swahili has a single concept for 'belly' and 'womb'"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a single concept for 'belly' and 'womb'"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To this end, we propose Conceptualizer, a method that creates a bipartite directed alignment graph between source language concepts and sets of target language strings. In a detailed linguistic analysis across all languages for one concept (‘bird’) and an evaluation on gold standard data for 32 Swadesh concepts, we show that Conceptualizer has good alignment accuracy. We demonstrate the potential of research on conceptualization in NLP with two experiments. (1) We define crosslingual stability of a concept as the degree to which it has 1-1 correspondences across languages, and show that concreteness predicts stability. (2) We represent each language by its conceptualization pattern for 83 concepts, and define a similarity measure on these representations.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The resulting measure for the conceptual similarity between two languages is complementary to standard genealogical, typological, and surface similarity measures. For four out of six language families, we can assign languages to their correct family based on conceptual similarity with accuracies between 54% and 87%.",
+          "Main Action": "have been extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Research on genealogical relationships"
+            ],
+            "Object": {
+              "Primary Object": [
+                "conceptual similarity between languages"
+              ],
+              "Secondary Object": [
+                "standard genealogical, typological, and surface similarity measures"
+              ]
+            },
+            "Context": [
+              "For four out of six language families, we can assign languages to their correct family based on conceptual similarity with accuracies between 54% and 87%."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "accuracies between 54% and 87%"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "four out of six language families"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_790",
+      "abstract": "The out-of-vocabulary (OOV) words are difficult to represent while critical to the performance of embedding-based downstream models. Prior OOV word embedding learning methods failed to model complex word formation well. In this paper, we propose a novel graph-based relation mining method, namely GRM, for OOV word embedding learning. We first build a Word Relationship Graph (WRG) based on word formation and associate OOV words with their semantically relevant words, which can mine the relational information inside word structures. Subsequently, our GRM can infer high-quality embeddings for OOV words through passing and aggregating semantic attributes and relational information in the WRG, regardless of contextual richness. Extensive experiments demonstrate that our model significantly outperforms state-of-the-art baselines on both intrinsic and downstream tasks when faced with OOV words.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The out-of-vocabulary (OOV) words are difficult to represent while critical to the performance of embedding-based downstream models. Prior OOV word embedding learning methods failed to model complex word formation well.",
+          "Main Action": "are difficult to represent",
+          "Arguments": {
+            "Agent": [
+              "Out-of-vocabulary (OOV) words"
+            ],
+            "Object": {
+              "Primary Object": [
+                "critical to the performance of embedding-based downstream models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "While prior OOV word embedding learning methods failed to model complex word formation well"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Prior OOV word embedding learning methods failed to model complex word formation well"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we propose a novel graph-based relation mining method, namely GRM, for OOV word embedding learning. We first build a Word Relationship Graph (WRG) based on word formation and associate OOV words with their semantically relevant words, which can mine the relational information inside word structures. Subsequently, our GRM can infer high-quality embeddings for OOV words through passing and aggregating semantic attributes and relational information in the WRG, regardless of contextual richness.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "novel theoretical framework"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Extensive experiments demonstrate that our model significantly outperforms state-of-the-art baselines on both intrinsic and downstream tasks when faced with OOV words.",
+          "Main Action": "demonstrate",
+          "Arguments": {
+            "Agent": [
+              "extensive experiments"
+            ],
+            "Object": {
+              "Primary Object": [
+                "significant outperformance of state-of-the-art baselines"
+              ],
+              "Secondary Object": [
+                "both intrinsic and downstream tasks"
+              ]
+            },
+            "Context": [
+              "when faced with OOV words"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

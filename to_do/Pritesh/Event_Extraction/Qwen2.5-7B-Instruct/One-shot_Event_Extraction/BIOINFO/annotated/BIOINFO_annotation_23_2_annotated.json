@@ -1,0 +1,286 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_780",
+      "abstract": "Common human diseases result from the interplay of genes and their biologically associated pathways. Genetic pathway analyses provide more biological insight as compared to conventional gene-based analysis. In this article, we propose a framework combining genetic data into pathway structure and using an ensemble of convolutional neural networks (CNNs) along with a Canonical Correlation Regularizer layer for comprehensive prediction of disease risk. The novelty of our approach lies in our two-step framework: (i) utilizing the CNN's effectiveness to extract the complex gene associations within individual genetic pathways and (ii) fusing features from ensemble of CNNs through Canonical Correlation Regularization layer to incorporate the interactions between pathways which share common genes. During prediction, we also address the important issues of interpretability of neural network models, and identifying the pathways and genes playing an important role in prediction. Implementation of our methodology into three real cancer genetic datasets for different prediction tasks validates our model's generalizability and robustness. Comparing with conventional models, our methodology provides consistently better performance with AUC improvement of 11% on predicting early/late-stage kidney cancer, 10% on predicting kidney versus liver cancer type and 7% on predicting survival status in ovarian cancer as compared to the next best conventional machine learning model. The robust performance of our deep learning algorithm indicates that disease prediction using neural networks in multiple functionally related genes across different pathways improves genetic data-based prediction and understanding molecular mechanisms of diseases.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Common human diseases result from the interplay of genes and their biologically associated pathways. Genetic pathway analyses provide more biological insight as compared to conventional gene-based analysis.",
+          "Main Action": "provide",
+          "Arguments": {
+            "Agent": [
+              "Genetic pathway analyses"
+            ],
+            "Object": {
+              "Primary Object": [
+                "more biological insight"
+              ],
+              "Secondary Object": [
+                "compared to conventional gene-based analysis"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this article, we propose a framework combining genetic data into pathway structure and using an ensemble of convolutional neural networks (CNNs) along with a Canonical Correlation Regularizer layer for comprehensive prediction of disease risk. The novelty of our approach lies in our two-step framework: (i) utilizing the CNN's effectiveness to extract the complex gene associations within individual genetic pathways and (ii) fusing features from ensemble of CNNs through Canonical Correlation Regularization layer to incorporate the interactions between pathways which share common genes. During prediction, we also address the important issues of interpretability of neural network models, and identifying the pathways and genes playing an important role in prediction.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a framework"
+              ],
+              "Secondary Object": [
+                "genetic data into pathway structure and using an ensemble of convolutional neural networks (CNNs) along with a Canonical Correlation Regularizer layer"
+              ]
+            },
+            "Context": [
+              "comprehensive prediction of disease risk"
+            ],
+            "Purpose": [
+              "to predict disease risk comprehensively"
+            ],
+            "Method": [
+              "utilizing the CNN's effectiveness to extract the complex gene associations within individual genetic pathways; fusing features from ensemble of CNNs through Canonical Correlation Regularization layer to incorporate the interactions between pathways which share common genes"
+            ],
+            "Results": [
+              "addressing the important issues of interpretability of neural network models, and identifying the pathways and genes playing an important role in prediction"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Implementation of our methodology into three real cancer genetic datasets for different prediction tasks validates our model's generalizability and robustness. Comparing with conventional models, our methodology provides consistently better performance with AUC improvement of 11% on predicting early/late-stage kidney cancer, 10% on predicting kidney versus liver cancer type and 7% on predicting survival status in ovarian cancer as compared to the next best conventional machine learning model.",
+          "Main Action": "validates",
+          "Arguments": {
+            "Agent": [
+              "our methodology"
+            ],
+            "Object": {
+              "Primary Object": [
+                "generalizability and robustness"
+              ],
+              "Secondary Object": [
+                "three real cancer genetic datasets for different prediction tasks"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "implementation of our methodology"
+            ],
+            "Results": [
+              "consistently better performance with AUC improvement of 11% on predicting early/late-stage kidney cancer, 10% on predicting kidney versus liver cancer type and 7% on predicting survival status in ovarian cancer as compared to the next best conventional machine learning model"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The robust performance of our deep learning algorithm indicates that disease prediction using neural networks in multiple functionally related genes across different pathways improves genetic data-based prediction and understanding molecular mechanisms of diseases.",
+          "Main Action": "indicates",
+          "Arguments": {
+            "Agent": [
+              "our deep learning algorithm"
+            ],
+            "Object": {
+              "Primary Object": [
+                "robust performance"
+              ],
+              "Secondary Object": [
+                "disease prediction using neural networks in multiple functionally related genes across different pathways"
+              ]
+            },
+            "Context": [
+              "genetic data-based prediction and understanding molecular mechanisms of diseases"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "neural networks"
+            ],
+            "Results": [
+              "improves genetic data-based prediction and understanding molecular mechanisms of diseases"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_122",
+      "abstract": "Phylodynamic methods are central to studies of the geographic and demographic history of disease outbreaks. Inference under discrete-geographic phylodynamic models — which involve many parameters that must be inferred from minimal information — is inherently sensitive to our prior beliefs about the model parameters. We present an interactive utility, PrioriTree, to help researchers identify and accommodate prior sensitivity in discrete-geographic inferences. Specifically, PrioriTree provides a suite of functions to generate input files for — and summarize output from — BEAST analyses for performing robust Bayesian inference, data-cloning analyses and assessing the relative and absolute fit of candidate discrete-geographic (prior) models to empirical datasets.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Phylodynamic methods are central to studies of the geographic and demographic history of disease outbreaks. Inference under discrete-geographic phylodynamic models — which involve many parameters that must be inferred from minimal information — is inherently sensitive to our prior beliefs about the model parameters.",
+          "Main Action": "are central to",
+          "Arguments": {
+            "Agent": [
+              "phylodynamic methods"
+            ],
+            "Object": {
+              "Primary Object": [
+                "studies of the geographic and demographic history of disease outbreaks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Inference under discrete-geographic phylodynamic models — which involve many parameters that must be inferred from minimal information — is inherently sensitive to our prior beliefs about the model parameters"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "inference under discrete-geographic phylodynamic models"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "is inherently sensitive to our prior beliefs about the model parameters"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present an interactive utility, PrioriTree, to help researchers identify and accommodate prior sensitivity in discrete-geographic inferences. Specifically, PrioriTree provides a suite of functions to generate input files for — and summarize output from — BEAST analyses for performing robust Bayesian inference, data-cloning analyses and assessing the relative and absolute fit of candidate discrete-geographic (prior) models to empirical datasets.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an interactive utility, PrioriTree"
+              ],
+              "Secondary Object": [
+                "researchers"
+              ]
+            },
+            "Context": [
+              "to help researchers identify and accommodate prior sensitivity in discrete-geographic inferences"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "provides a suite of functions to generate input files for – and summarize output from – BEAST analyses for performing robust Bayesian inference, data-cloning analyses and assessing the relative and absolute fit of candidate discrete-geographic (prior) models to empirical datasets"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

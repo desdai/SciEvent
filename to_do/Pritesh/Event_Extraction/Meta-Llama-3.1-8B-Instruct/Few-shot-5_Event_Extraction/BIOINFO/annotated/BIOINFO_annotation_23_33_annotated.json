@@ -1,0 +1,335 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_147",
+      "abstract": "Quality assessment (QA) of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques for generating highly confident tertiary structures for most proteins, it is important to explore corresponding QA strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods. We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently. Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2. It performs even better than the model QA scores provided by AlphaFold2 itself. The results illustrate that the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. Integrating AlphaFold2 features with other complementary sequence and structural features is important for improving protein model QA.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Quality assessment (QA) of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques for generating highly confident tertiary structures for most proteins, it is important to explore corresponding QA strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods.",
+          "Main Action": "plays",
+          "Arguments": {
+            "Agent": [
+              "Read-overlap-based graph data structures"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a central role"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Most long-read assemblers use Myers's string graph model to sparsify overlap graphs."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method-AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently.",
+          "Main Action": "develop",
+          "Arguments": {
+            "Agent": [
+              "EnQA"
+            ],
+            "Object": {
+              "Primary Object": [
+                "novel graph-based 3D-equivariant neural network method"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method-AlphaFold2. It performs even better than the model QA scores provided by AlphaFold2 itself.",
+          "Main Action": "achieves",
+          "Arguments": {
+            "Agent": [
+              "Our approach"
+            ],
+            "Object": {
+              "Primary Object": [
+                "state-of-the-art performance"
+              ],
+              "Secondary Object": [
+                "on protein structural models"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "It performs even better than the model QA scores provided by AlphaFold2 itself"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The results illustrate that the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. Integrating AlphaFold2 features with other complementary sequence and structural features is important for improving protein model QA.",
+          "Main Action": "illustrate",
+          "Arguments": {
+            "Agent": [
+              "The results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Integrating AlphaFold2 features with other complementary sequence and structural features is important for improving protein model QA"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Improving protein model QA"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_78",
+      "abstract": "Whole-exome and targeted sequencing are widely utilized both in translational cancer genomics and in the setting of precision medicine. The benchmarking of computational methods and tools that are in continuous development is fundamental for the correct interpretation of somatic genomic profiling results. To this aim we developed synggen, a tool for the fast generation of large-scale realistic and heterogeneous cancer whole-exome and targeted sequencing synthetic datasets, which enables the incorporation of phased germline single nucleotide polymorphisms and complex allele-specific somatic genomic events. Synggen performances and effectiveness in generating synthetic cancer data are shown across different scenarios and considering different platforms with distinct characteristics.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Whole-exome and targeted sequencing are widely utilized both in translational cancer genomics and in the setting of precision medicine. The benchmarking of computational methods and tools that are in continuous development is fundamental for the correct interpretation of somatic genomic profiling results.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To this aim we developed synggen, a tool for the fast generation of large-scale realistic and heterogeneous cancer whole-exome and targeted sequencing synthetic datasets, which enables the incorporation of phased germline single nucleotide polymorphisms and complex allele-specific somatic genomic events.",
+          "Main Action": "has become",
+          "Arguments": {
+            "Agent": [
+              "Live streaming"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a popular activity world-wide"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "bystanders' privacy",
+              "prior work has studied bystanders' privacy concerns",
+              "streamers' considerations towards bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"
+            ],
+            "Challenge": [
+              "a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Synggen performances and effectiveness in generating synthetic cancer data are shown across different scenarios and considering different platforms with distinct characteristics.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

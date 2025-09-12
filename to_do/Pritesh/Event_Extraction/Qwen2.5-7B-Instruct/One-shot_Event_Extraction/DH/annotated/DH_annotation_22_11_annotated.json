@@ -1,0 +1,241 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_11",
+      "abstract": "Knowledge mapping combines network analysis and data visualization to summarize research domains and illustrate their structure. In this paper, we present a framework for ethical and effective visualization of knowledge networks, which we developed while building a knowledge map of climate communication research. Using the climate communication knowledge map as an example, we highlight the practical and ethical challenges encountered in creating such visualizations and show how they can be navigated in ways that produce more trustworthy and more useful products. Our recommendations balance tensions between qualitative and quantitative and objective and subjective aspects of knowledge mapping. They demonstrate the importance of critical practices in the development of knowledge maps, illustrate the intertwined nature of analysis and results in such projects, and emphasize the constructedness of the resulting visualization. We argue that the only way to produce an effective knowledge map is to produce an ethical one, which requires attention to the ways trust and accountability can be produced at every step of analysis and production. This extends the literature on ethical visualization in digital humanities projects by offering a clear example of the utility of a critical approach for a traditional, science-oriented knowledge mapping project.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Knowledge mapping combines network analysis and data visualization to summarize research domains and illustrate their structure.",
+          "Main Action": "combines",
+          "Arguments": {
+            "Agent": [
+              "knowledge mapping"
+            ],
+            "Object": {
+              "Primary Object": [
+                "network analysis and data visualization"
+              ],
+              "Secondary Object": [
+                "research domains and their structure"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In this paper, we present a framework for ethical and effective visualization of knowledge networks, which we developed while building a knowledge map of climate communication research. Using the climate communication knowledge map as an example, we highlight the practical and ethical challenges encountered in creating such visualizations and show how they can be navigated in ways that produce more trustworthy and more useful products. Our recommendations balance tensions between qualitative and quantitative and objective and subjective aspects of knowledge mapping. They demonstrate the importance of critical practices in the development of knowledge maps, illustrate the intertwined nature of analysis and results in such projects, and emphasize the constructedness of the resulting visualization.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a framework for ethical and effective visualization of knowledge networks"
+              ],
+              "Secondary Object": [
+                "building a knowledge map of climate communication research"
+              ]
+            },
+            "Context": [
+              "Using the climate communication knowledge map as an example"
+            ],
+            "Purpose": [
+              "highlight the practical and ethical challenges encountered in creating such visualizations and show how they can be navigated in ways that produce more trustworthy and more useful products"
+            ],
+            "Method": [
+              "developed...and showed...in ways that produce more trustworthy and more useful products"
+            ],
+            "Results": [
+              "show how they can be navigated in ways that produce more trustworthy and more useful products"
+            ],
+            "Analysis": [
+              "demonstrate the importance of critical practices in the development of knowledge maps, illustrate the intertwined nature of analysis and results in such projects, and emphasize the constructedness of the resulting visualization"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "ethical considerations in developing these visualizations"
+            ],
+            "Implications": [
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We argue that the only way to produce an effective knowledge map is to produce an ethical one, which requires attention to the ways trust and accountability can be produced at every step of analysis and production. This extends the literature on ethical visualization in digital humanities projects by offering a clear example of the utility of a critical approach for a traditional, science-oriented knowledge mapping project.",
+          "Main Action": "argue",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an effective knowledge map"
+              ],
+              "Secondary Object": [
+                "an ethical one"
+              ]
+            },
+            "Context": [
+              "which requires attention to the ways trust and accountability can be produced at every step of analysis and production"
+            ],
+            "Purpose": [
+              "to produce"
+            ],
+            "Method": [
+              "offering a clear example of the utility of a critical approach for a traditional, science-oriented knowledge mapping project"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<EXTEND THE ETHICAL CONSIDERATION TO PRODUCE TRUST AND ACCOUNTABILITY AT EVERY STEP OF ANALYSIS AND PRODUCTION."
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_53",
+      "abstract": "The relative youth of Black DH as a field has allowed it to be born radical. While some fields have more conservative traditions that they must break free from, Black DH has been able to forge a more inclusive path. The focus of Black DH and this special issue is not to define Black DH, but rather spotlight the limitless, interdisciplinary nature of Black DH and Black scholarship. Both article and metareflection authors alike build upon lineages of Black studies, feminist, queer, and womanist scholars, forging new paths using their innovative methodologies as they examine, construct, and reimagine innovative communities and people.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The relative youth of Black DH as a field has allowed it to be born radical. While some fields have more conservative traditions that they must break free from, Black DH has been able to forge a more inclusive path.",
+          "Main Action": "allows",
+          "Arguments": {
+            "Agent": [
+              "relative youth of Black DH as a field"
+            ],
+            "Object": {
+              "Primary Object": [
+                "it"
+              ],
+              "Secondary Object": [
+                "to be born radical"
+              ]
+            },
+            "Context": [
+              "While some fields have more conservative traditions that they must break free from"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Black DH has been able to forge a more inclusive path"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "The focus of Black DH and this special issue is not to define Black DH, but rather spotlight the limitless, interdisciplinary nature of Black DH and Black scholarship. Both article and metareflection authors alike build upon lineages of Black studies, feminist, queer, and womanist scholars, forging new paths using their innovative methodologies as they examine, construct, and reimagine innovative communities and people.",
+          "Main Action": "forge",
+          "Arguments": {
+            "Agent": [
+              "article and metareflection authors alike"
+            ],
+            "Object": {
+              "Primary Object": [
+                "new paths"
+              ],
+              "Secondary Object": [
+                "using their innovative methodologies"
+              ]
+            },
+            "Context": [
+              "build upon lineages of Black studies, feminist, queer, and womanist scholars"
+            ],
+            "Purpose": [
+              "examine, construct, and reimagine innovative communities and people"
+            ],
+            "Method": [
+              "using their innovative methodologies"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "spotlight the limitless, interdisciplinary nature of Black DH and Black scholarship"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

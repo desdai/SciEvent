@@ -1,0 +1,286 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_230",
+      "abstract": "Volunteer moderators have the power to shape society through their influence on online discourse. However, the growing scale of online interactions increasingly presents significant hurdles for meaningful moderation. Furthermore, there are only limited tools available to assist volunteers with their work. Our work aims to meaningfully explore the potential of AI-driven, automated moderation tools for social media to assist volunteer moderators. One key aspect is to investigate the degree to which tools must become personalizable and context-sensitive in order to not just delete unsavory content and ban trolls, but to adapt to the millions of online communities on social media mega-platforms that rely on volunteer moderation. In this study, we conduct semi-structured interviews with 26 Facebook Group moderators in order to better understand moderation tasks and their associated challenges. Through qualitative analysis of the interview data, we identify and address the most pressing themes in the challenges they face daily. Using interview insights, we conceptualize three tools with automated features that assist them in their most challenging tasks and problems. We then evaluate the tools for usability and acceptance using a survey drawing on the technology acceptance literature with 22 of the same moderators. Qualitative and descriptive analyses of the survey data show that context-sensitive, agency-maintaining tools in addition to trial experience are key to mass adoption by volunteer moderators in order to build trust in the validity of the moderation technology.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Volunteer moderators have the power to shape society through their influence on online discourse. However, the growing scale of online interactions increasingly presents significant hurdles for meaningful moderation. Furthermore, there are only limited tools available to assist volunteers with their work.",
+          "Main Action": "have the power to shape",
+          "Arguments": {
+            "Agent": [
+              "volunteer moderators"
+            ],
+            "Object": {
+              "Primary Object": [
+                "society"
+              ],
+              "Secondary Object": [
+                "online discourse"
+              ]
+            },
+            "Context": [
+              "The growing scale of online interactions increasingly presents significant hurdles for meaningful moderation."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "There are only limited tools available to assist volunteers with their work."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Our work aims to meaningfully explore the potential of AI-driven, automated moderation tools for social media to assist volunteer moderators. One key aspect is to investigate the degree to which tools must become personalizable and context-sensitive in order to not just delete unsavory content and ban trolls, but to adapt to the millions of online communities on social media mega-platforms that rely on volunteer moderation. In this study, we conduct semi-structured interviews with 26 Facebook Group moderators in order to better understand moderation tasks and their associated challenges. Through qualitative analysis of the interview data, we identify and address the most pressing themes in the challenges they face daily.",
+          "Main Action": "conduct",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "semi-structured interviews with 26 Facebook Group moderators"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "In this study, we want to better understand moderation tasks and their associated challenges"
+            ],
+            "Purpose": [
+              "better understand moderation tasks and their associated challenges"
+            ],
+            "Method": [
+              "qualitative analysis of the interview data"
+            ],
+            "Results": [
+              "identify and address the most pressing themes in the challenges they face daily"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Using interview insights, we conceptualize three tools with automated features that assist them in their most challenging tasks and problems. We then evaluate the tools for usability and acceptance using a survey drawing on the technology acceptance literature with 22 of the same moderators. Qualitative and descriptive analyses of the survey data show that context-sensitive, agency-maintaining tools in addition to trial experience are key to mass adoption by volunteer moderators in order to build trust in the validity of the moderation technology.",
+          "Main Action": "conceptualize",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "three tools with automated features"
+              ],
+              "Secondary Object": [
+                "their most challenging tasks and problems"
+              ]
+            },
+            "Context": [
+              "Using interview insights"
+            ],
+            "Purpose": [
+              "assisting them in their most challenging tasks and problems"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "qualitative and descriptive analyses of the survey data show that context-sensitive, agency-maintaining tools in addition to trial experience are key to mass adoption by volunteer moderators in order to build trust in the validity of the moderation technology"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_260",
+      "abstract": "Interdependent privacy (IDP) violations occur when users share personal information about others without permission, resulting in potential embarrassment, reputation loss, or harassment. There are several strategies that can be applied to protect IDP, but little is known regarding how social media users perceive IDP threats or how they prefer to respond to them. We utilized a mixed-method approach with a replication study to examine user beliefs about various government-, platform-, and user-level strategies for managing IDP violations. Participants reported that IDP represented a 'serious' online threat, and identified themselves as primarily responsible for responding to violations. IDP strategies that felt more familiar and provided greater perceived control over violations (e.g., flagging, blocking, unfriending) were rated as more effective than platform or government driven interventions. Furthermore, we found users were more willing to share on social media if they perceived their interactions as protected. Findings are discussed in relation to control paradox theory.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Interdependent privacy (IDP) violations occur when users share personal information about others without permission, resulting in potential embarrassment, reputation loss, or harassment. There are several strategies that can be applied to protect IDP, but little is known regarding how social media users perceive IDP threats or how they prefer to respond to them.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "There are several strategies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "protecting interdependent privacy"
+              ],
+              "Secondary Object": [
+                "social media users"
+              ]
+            },
+            "Context": [
+              "little is known regarding how social media users perceive IDP threats or how they prefer to respond to them"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We utilized a mixed-method approach with a replication study to examine user beliefs about various government-, platform-, and user-level strategies for managing IDP violations.",
+          "Main Action": "utilized",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a mixed-method approach with a replication study"
+              ],
+              "Secondary Object": [
+                "user beliefs about various government-, platform-, and user-level strategies for managing IDP violations"
+              ]
+            },
+            "Context": [
+              "examining"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Participants reported that IDP represented a 'serious' online threat, and identified themselves as primarily responsible for responding to violations. IDP strategies that felt more familiar and provided greater perceived control over violations (e.g., flagging, blocking, unfriending) were rated as more effective than platform or government driven interventions. Furthermore, we found users were more willing to share on social media if they perceived their interactions as protected. Findings are discussed in relation to control paradox theory.",
+          "Main Action": "reported",
+          "Arguments": {
+            "Agent": [
+              "Participants"
+            ],
+            "Object": {
+              "Primary Object": [
+                "IDP represented a 'serious' online threat"
+              ],
+              "Secondary Object": [
+                "identified themselves as primarily responsible for responding to violations"
+              ]
+            },
+            "Context": [
+              "IDP strategies that felt more familiar and provided greater perceived control over violations (e.g., flagging, blocking, unfriending) were rated as more effective than platform or government driven interventions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "users were more willing to share on social media if they perceived their interactions as protected"
+            ],
+            "Analysis": [
+              "findings are discussed in relation to control paradox theory"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

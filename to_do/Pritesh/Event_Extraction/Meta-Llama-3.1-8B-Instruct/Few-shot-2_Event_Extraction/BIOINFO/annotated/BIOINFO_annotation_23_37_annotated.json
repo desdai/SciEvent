@@ -1,0 +1,291 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_495",
+      "abstract": "The spectacular recent advances in protein and protein complex structure prediction hold promise for reconstructing interactomes at large-scale and residue resolution. Beyond determining the 3D arrangement of interacting partners, modeling approaches should be able to unravel the impact of sequence variations on the strength of the association. In this work, we report on Deep Local Analysis, a novel and efficient deep learning framework that relies on a strikingly simple deconstruction of protein interfaces into small locally oriented residue-centered cubes and on 3D convolutions recognizing patterns within cubes. Merely based on the two cubes associated with the wild-type and the mutant residues, DLA accurately estimates the binding affinity change for the associated complexes. It achieves a Pearson correlation coefficient of 0.735 on about 400 mutations on unseen complexes. Its generalization capability on blind datasets of complexes is higher than the state-of-the-art methods. We show that taking into account the evolutionary constraints on residues contributes to predictions. We also discuss the influence of conformational variability on performance. Beyond the predictive power on the effects of mutations, DLA is a general framework for transferring the knowledge gained from the available non-redundant set of complex protein structures to various tasks. For instance, given a single partially masked cube, it recovers the identity and physicochemical class of the central residue. Given an ensemble of cubes representing an interface, it predicts the function of the complex.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The spectacular recent advances in protein and protein complex structure prediction hold promise for reconstructing interactomes at large-scale and residue resolution. Beyond determining the 3D arrangement of interacting partners, modeling approaches should be able to unravel the impact of sequence variations on the strength of the association.",
+          "Main Action": "hold promise",
+          "Arguments": {
+            "Agent": [
+              "recent advances in protein and protein complex structure prediction"
+            ],
+            "Object": {
+              "Primary Object": [
+                "reconstructing interactomes at large-scale and residue resolution"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Beyond determining the 3D arrangement of interacting partners,"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "unravel the impact of sequence variations on the strength of the association"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we report on Deep Local Analysis, a novel and efficient deep learning framework that relies on a strikingly simple deconstruction of protein interfaces into small locally oriented residue-centered cubes and on 3D convolutions recognizing patterns within cubes. Merely based on the two cubes associated with the wild-type and the mutant residues, DLA accurately estimates the binding affinity change for the associated complexes.",
+          "Main Action": "report",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Deep Local Analysis"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a novel and efficient deep learning framework",
+              "that relies on a strikingly simple deconstruction of protein interfaces into small locally oriented residue-centered cubes"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "on 3D convolutions recognizing patterns within cubes",
+              "Merely based on the two cubes associated with the wild-type and the mutant residues"
+            ],
+            "Results": [
+              "DLA accurately estimates the binding affinity change for the associated complexes"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "It achieves a Pearson correlation coefficient of 0.735 on about 400 mutations on unseen complexes. Its generalization capability on blind datasets of complexes is higher than the state-of-the-art methods. We show that taking into account the evolutionary constraints on residues contributes to predictions. We also discuss the influence of conformational variability on performance. Beyond the predictive power on the effects of mutations, DLA is a general framework for transferring the knowledge gained from the available non-redundant set of complex protein structures to various tasks. For instance, given a single partially masked cube, it recovers the identity and physicochemical class of the central residue. Given an ensemble of cubes representing an interface, it predicts the function of the complex.",
+          "Main Action": "achieves",
+          "Arguments": {
+            "Agent": [
+              "DLA"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Pearson correlation coefficient"
+              ],
+              "Secondary Object": [
+                "about 400 mutations on unseen complexes"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Its generalization capability on blind datasets of complexes is higher than the state-of-the-art methods."
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Beyond the predictive power on the effects of mutations,"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "it is a general framework for transferring the knowledge gained from the available non-redundant set of complex protein structures to various tasks.",
+              "Given a single partially masked cube, it recovers the identity and physicochemical class of the central residue.",
+              "Given an ensemble of cubes representing an interface, it predicts the function of the complex."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_606",
+      "abstract": "Protein thermostability is of great interest, both in theory and in practice. This study compared orthologous proteins with different cellular thermostability. A large number of physicochemical properties of protein were calculated and used to develop a series of machine learning models for predicting cellular thermostability differences between orthologous proteins. Most of the important features in these models are also highly correlated to relative cellular thermostability. A comparison between the present study with previous comparison of orthologous proteins from thermophilic and mesophilic organisms found that most highly correlated features are consistent in these studies, suggesting they may be important to protein thermostability.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Protein thermostability is of great interest, both in theory and in practice.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This study compared orthologous proteins with different cellular thermostability. A large number of physicochemical properties of protein were calculated and used to develop a series of machine learning models for predicting cellular thermostability differences between orthologous proteins.",
+          "Main Action": "compared",
+          "Arguments": {
+            "Agent": [
+              "this study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "orthologous proteins"
+              ],
+              "Secondary Object": [
+                "different cellular thermostability"
+              ]
+            },
+            "Context": [
+              "with various physicochemical properties"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "calculated a large number of physicochemical properties of protein"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Most of the important features in these models are also highly correlated to relative cellular thermostability. A comparison between the present study with previous comparison of orthologous proteins from thermophilic and mesophilic organisms found that most highly correlated features are consistent in these studies, suggesting they may be important to protein thermostability.",
+          "Main Action": "have extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "The effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "Previous comparisons were made between orthologous proteins from thermophilic and mesophilic organisms"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Negative transfer was overlooked in NLP literature."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

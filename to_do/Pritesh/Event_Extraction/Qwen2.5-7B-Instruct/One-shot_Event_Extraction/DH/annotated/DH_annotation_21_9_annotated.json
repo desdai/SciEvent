@@ -1,0 +1,245 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_21_P_01",
+      "abstract": "Handwritten character recognition is a challenging pattern recognition problem due to the inconsistency of the handwritten scripts and the lack of accurate labeled data. Historical documents written in cursive are even more challenging as characters have unique and varying shapes. Frequently, words are linked by lines and ornamental doodles. When historical documents are digitized, the images contain various types of noise and degradation, which further complicates the recognition of characters. In this paper, we present an empirical study of how well state-of-the-art convolutional neural networks (CNNs) for image classification perform for the task of recognizing handwritten characters in seventeenth-century Spanish American notarial scripts. Professional historians, paleography experts, and trained labelers were involved in preparing the labeled dataset of Spanish characters for training the CNNs. The labeled dataset used in this experiment was created from the manuscripts written by one of the multiple scribes that contributed to the collection of approximately 220,000 digitized images of notary records housed at the Archivo General de la Nación Argentina (National Archives). We removed the noise in these images by applying standard image processing techniques. After training different CNNs, we computed the classification accuracy for all the characters. We observed that ResNet-50 achieved a promising accuracy of 97.08% compared to InceptionResnet-V2, Inception-V3, and VGG-16, which achieved 96.66%, 96.33%, and 70.91%, respectively.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Handwritten character recognition is a challenging pattern recognition problem due to the inconsistency of the handwritten scripts and the lack of accurate labeled data. Historical documents written in cursive are even more challenging as characters have unique and varying shapes. Frequently, words are linked by lines and ornamental doodles. When historical documents are digitized, the images contain various types of noise and degradation, which further complicates the recognition of characters.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "Historical documents"
+            ],
+            "Object": {
+              "Primary Object": [
+                "are digitized"
+              ],
+              "Secondary Object": [
+                "images"
+              ]
+            },
+            "Context": [
+              "contain various types of noise and degradation"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "characters are recognized more complicatedly"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "characters have unique and varying shapes",
+              "words are linked by lines and ornamental doodles"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we present an empirical study of how well state-of-the-art convolutional neural networks (CNNs) for image classification perform for the task of recognizing handwritten characters in seventeenth-century Spanish American notarial scripts. Professional historians, paleography experts, and trained labelers were involved in preparing the labeled dataset of Spanish characters for training the CNNs. The labeled dataset used in this experiment was created from the manuscripts written by one of the multiple scribes that contributed to the collection of approximately 220,000 digitized images of notary records housed at the Archivo General de la Nación Argentina (National Archives). We removed the noise in these images by applying standard image processing techniques.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an empirical study"
+              ],
+              "Secondary Object": [
+                "state-of-the-art convolutional neural networks (CNNs) for image classification",
+                "recognizing handwritten characters in seventeenth-century Spanish American notarial scripts"
+              ]
+            },
+            "Context": [
+              "from the manuscripts written by one of the multiple scribes that contributed to the collection of approximately 220,000 digitized images of notary records housed at the Archivo General de la Nación Argentina (National Archives)",
+              "by applying standard image processing techniques"
+            ],
+            "Purpose": [
+              "to determine how well state-of-the-art CNNs perform for character recognition tasks involving historical documents"
+            ],
+            "Method": [
+              "applying professional historians, paleography experts, and trained labelers in preparing the labeled dataset of Spanish characters for training the CNNs"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "After training different CNNs, we computed the classification accuracy for all the characters. We observed that ResNet-50 achieved a promising accuracy of 97.08% compared to InceptionResnet-V2, Inception-V3, and VGG-16, which achieved 96.66%, 96.33%, and 70.91%, respectively.",
+          "Main Action": "computed",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "classification accuracy for all the characters"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "After training different CNNs"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "ResNet-50 achieved a promising accuracy of 97.08%",
+              "InceptionResnet-V2, Inception-V3, and VGG-16 achieved accuracies of 96.66%, 96.33%, and 70.91% respectively"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_21_P_43",
+      "abstract": "Drawing from the largest and first fully-searchable digital archive of non-fiction essays by incarcerated people writing about their experience inside US prisons and jails, the article proposes that there exists a broad, well-established, but underappreciated mid-range manner of reading that stands between traditional close reading and computer-aided distant reading of first-person witness testimony. This mid-range or “cellular” reading method attends both to the singularity of each text and ventures widely enough to grasp that each text gains credence and expository authority as one among aggregates of witness testimony. It is, moreover, in facilitating such mid-range reading that DH can provide readers with the foundation for moving from secondary witness and into acting for social change.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Drawing from the largest and first fully-searchable digital archive of non-fiction essays by incarcerated people writing about their experience inside US prisons and jails, the article proposes that there exists a broad, well-established, but underappreciated mid-range manner of reading that stands between traditional close reading and computer-aided distant reading of first-person witness testimony.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "the article"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that there exists a broad, well-established, but underappreciated mid-range manner of reading that stands between traditional close reading and computer-aided distant reading of first-person witness testimony"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "drawing from the largest and first fully-searchable digital archive of non-fiction essays by incarcerated people writing about their experience inside US prisons and jails"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This mid-range or “cellular” reading method attends both to the singularity of each text and ventures widely enough to grasp that each text gains credence and expository authority as one among aggregates of witness testimony. It is, moreover, in facilitating such mid-range reading that DH can provide readers with the foundation for moving from secondary witness and into acting for social change.",
+          "Main Action": "provide",
+          "Arguments": {
+            "Agent": [
+              "DH"
+            ],
+            "Object": {
+              "Primary Object": [
+                "readers with the foundation for moving from secondary witness and into acting for social change"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "It is, moreover, in facilitating such mid-range reading that DH can provide readers with the foundation for moving from secondary witness and into acting for social change"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "attends both to the singularity of each text and ventures widely enough to grasp that each text gains credence and expository authority as one among aggregates of witness testimony"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

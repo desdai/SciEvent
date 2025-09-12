@@ -1,0 +1,203 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_204",
+      "abstract": "Mass Spectrometry Imaging (MSI) analyzes complex biological samples such as tissues. It simultaneously characterizes the ions present in the tissue in the form of mass spectra, and the spatial distribution of the ions across the tissue in the form of ion images. Unsupervised clustering of ion images facilitates the interpretation in the spectral domain, by identifying groups of ions with similar spatial distributions. Unfortunately, many current methods for clustering ion images ignore the spatial features of the images, and are therefore unable to learn these features for clustering purposes. Alternative methods extract spatial features using deep neural networks pre-trained on natural image tasks; however, this is often inadequate since ion images are substantially noisier than natural images. We contribute a deep clustering approach for ion images that accounts for both spatial contextual features and noise. In evaluations on a simulated dataset and on four experimental datasets of different tissue types, the proposed method grouped ions from the same source into a same cluster more frequently than existing methods. We further demonstrated that using ion image clustering as a pre-processing step facilitated the interpretation of a subsequent spatial segmentation as compared to using either all the ions or one ion at a time. As a result, the proposed approach facilitated the interpretability of MSI data in both the spectral domain and the spatial domain.",
+      "events": [
+        {
+          "Background/Introduction": "Mass Spectrometry Imaging features and challenges with current methods to cluster ion images",
+          "Text": "Mass Spectrometry Imaging (MSI) analyzes complex biological samples such as tissues. It simultaneously characterizes the ions present in the tissue in the form of mass spectra, and the spatial distribution of the ions across the tissue in the form of ion images. Unsupervised clustering of ion images facilitates the interpretation in the spectral domain, by identifying groups of ions with similar spatial distributions. Unfortunately, many current methods for clustering ion images ignore the spatial features of the images, and are therefore unable to learn these features for clustering purposes. Alternative methods extract spatial features using deep neural networks pre-trained on natural image tasks; however, this is often inadequate since ion images are substantially noisier than natural images.",
+          "Main Action": "analyzes",
+          "Arguments": {
+            "Agent": [
+              "Mass Spectrometry Imaging (MSI)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "complex biological samples"
+              ],
+              "Primary Modifier": [
+                "such as tissues"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "It simultaneously characterizes the ions present in the tissue in the form of mass spectra, and the spatial distribution of the ions across the tissue in the form of ion images",
+              "Unsupervised clustering of ion images facilitates the interpretation in the spectral domain, by identifying groups of ions with similar spatial distributions"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "many current methods for clustering ion images ignore the spatial features of the images, and are therefore unable to learn these features for clustering purposes",
+              "Alternative methods extract spatial features using deep neural networks pre-trained on natural image tasks; however, this is often inadequate since ion images are substantially noisier than natural images"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "A deep clustering approach for spatial contextual features and noise",
+          "Text": "We contribute a deep clustering approach for ion images that accounts for both spatial contextual features and noise.",
+          "Main Action": "contribute",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a deep clustering approach"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Results/Findings": "Performance of proposed method and demonstration of ion image clustering as pre processing step",
+          "Text": "In evaluations on a simulated dataset and on four experimental datasets of different tissue types, the proposed method grouped ions from the same source into a same cluster more frequently than existing methods. We further demonstrated that using ion image clustering as a pre-processing step facilitated the interpretation of a subsequent spatial segmentation as compared to using either all the ions or one ion at a time.",
+          "Main Action": "further demonstrated",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "using ion image clustering as a pre-processing step facilitated the interpretation of a subsequent spatial segmentation as compared to using either all the ions or one ion at a time"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "In evaluations on a simulated dataset and on four experimental datasets of different tissue types"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [
+              "the proposed method grouped ions from the same source into a same cluster more frequently than existing methods",
+              "using ion image clustering as a pre-processing step facilitated the interpretation of a subsequent spatial segmentation as compared to using either all the ions or one ion at a time"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Conclusions/Implications": "Facilitation of interpretability of MSI data",
+          "Text": "As a result, the proposed approach facilitated the interpretability of MSI data in both the spectral domain and the spatial domain.",
+          "Main Action": "facilitated",
+          "Arguments": {
+            "Agent": [
+              "the proposed approach"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the interpretability of MSI data in both the spectral domain and the spatial domain"
+              ],
+              "Primary Modifier": [],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_758",
+      "abstract": "Phecodes are widely used and easily adapted phenotypes based on International Classification of Diseases codes. The current version of phecodes (v1.2) was designed primarily to study common/complex diseases diagnosed in adults; however, there are numerous limitations in the codes and their structure. Here, we present phecodeX, an expanded version of phecodes with a revised structure and 1,761 new codes. PhecodeX adds granularity to phenotypes in key disease domains that are under-represented in the current phecode structure — including infectious disease, pregnancy, congenital anomalies, and neonatology — and is a more robust representation of the medical phenome for global use in discovery research.",
+      "events": [
+        {
+          "Background/Introduction": "Intro to Phecodes and the primary reason they were designed",
+          "Text": "Phecodes are widely used and easily adapted phenotypes based on International Classification of Diseases codes. The current version of phecodes (v1.2) was designed primarily to study common/complex diseases diagnosed in adults; however, there are numerous limitations in the codes and their structure.",
+          "Main Action": "was designed",
+          "Arguments": {
+            "Agent": [
+              "the current version of phecodes (v1.2)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "primarily to study common/complex diseases"
+              ],
+              "Primary Modifier": [
+                "diagnosed in adults"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [
+              "Phecodes are widely used and easily adapted phenotypes based on International Classification of Diseases codes"
+            ],
+            "Purpose": [],
+            "Method": [],
+            "Results": [],
+            "Analysis": [],
+            "Challenge": [
+              "there are numerous limitations in the codes and their structure"
+            ],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        },
+        {
+          "Methods/Approach": "Granularity added by phecodeX to phenotypes in key disease domains",
+          "Text": "Here, we present phecodeX, an expanded version of phecodes with a revised structure and 1,761 new codes. PhecodeX adds granularity to phenotypes in key disease domains that are under-represented in the current phecode structure — including infectious disease, pregnancy, congenital anomalies, and neonatology — and is a more robust representation of the medical phenome for global use in discovery research.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "phecodeX"
+              ],
+              "Primary Modifier": [
+                "an expanded version of phecodes with a revised structure and 1,761 new code"
+              ],
+              "Secondary Object": [],
+              "Secondary Modifier": []
+            },
+            "Context": [],
+            "Purpose": [],
+            "Method": [
+              "PhecodeX adds granularity to phenotypes in key disease domains that are under-represented in the current phecode structure — including infectious disease, pregnancy, congenital anomalies, and neonatology"
+            ],
+            "Results": [
+              "more robust representation of the medical phenome for global use in discovery research"
+            ],
+            "Analysis": [],
+            "Challenge": [],
+            "Ethical": [],
+            "Implications": [],
+            "Contradictions": []
+          }
+        }
+      ]
+    }
+  ]
+}

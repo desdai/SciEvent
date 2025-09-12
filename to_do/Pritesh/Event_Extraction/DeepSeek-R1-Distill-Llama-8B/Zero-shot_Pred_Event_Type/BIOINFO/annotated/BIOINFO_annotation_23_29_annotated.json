@@ -1,0 +1,307 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_36",
+      "abstract": "Dynamic mechanistic modelling in systems biology has been hampered by the complexity and variability associated with the underlying interactions, and by uncertain and sparse experimental measurements. Ensemble modelling, a concept initially developed in statistical mechanics, has been introduced in biological applications with the aim of mitigating those issues. Ensemble modelling uses a collection of different models compatible with the observed data to describe the phenomena of interest. However, since systems biology models often suffer from a lack of identifiability and observability, ensembles of models are particularly unreliable when predicting non-observable states. We present a strategy to assess and improve the reliability of a class of model ensembles. In particular, we consider kinetic models described using ordinary differential equations with a fixed structure. Our approach builds an ensemble with a selection of the parameter vectors found when performing parameter estimation with a global optimization metaheuristic. This technique enforces diversity during the sampling of parameter space and it can quantify the uncertainty in the predictions of state trajectories. We couple this strategy with structural identifiability and observability analysis, and when these tests detect possible prediction issues, we obtain model reparameterizations that surmount them. The end result is an ensemble of models with the ability to predict the internal dynamics of a biological process. We demonstrate our approach with models of glucose regulation, cell division, circadian oscillations, and the JAK-STAT signalling pathway.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Dynamic mechanistic modelling in systems biology has been hampered by the complexity and variability associated with the underlying interactions, and by uncertain and sparse experimental measurements. Ensemble modelling, a concept initially developed in statistical mechanics, has been introduced in biological applications with the aim of mitigating those issues. Ensemble modelling uses a collection of different models compatible with the observed data to describe the phenomena of interest. However, since systems biology models often suffer from a lack of identifiability and observability, ensembles of models are particularly unreliable when predicting non-observable states.",
+          "Main Action": "has been introducing ensemble modelling",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "biological applications",
+                "systems biology models"
+              ],
+              "Secondary Object": [
+                "non-observable states"
+              ]
+            },
+            "Context": [
+              "dynamic mechanistic modelling",
+              "complexity and variability",
+              "uncertain and sparse experimental measurements"
+            ],
+            "Purpose": [
+              "mitigating issues"
+            ],
+            "Method": [
+              "collection of different models",
+              "compatible with observed data"
+            ],
+            "Results": [
+              "ensemble of models",
+              "predicting non-observable states"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "lack of identifiability and observability"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "promising approach for handling complex systems",
+              "future research directions"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present a strategy to assess and improve the reliability of a class of model ensembles. In particular, we consider kinetic models described using ordinary differential equations with a fixed structure. Our approach builds an ensemble with a selection of the parameter vectors found when performing parameter estimation with a global optimization metaheuristic. This technique enforces diversity during the sampling of parameter space and it can quantify the uncertainty in the predictions of state trajectories. We couple this strategy with structural identifiability and observability analysis, and when these tests detect possible prediction issues, we obtain model reparameterizations that surmount them.",
+          "Main Action": "We present",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a strategy to assess and improve the reliability of a class of model ensembles"
+              ],
+              "Secondary Object": [
+                "kinetic models described using ordinary differential equations with a fixed structure"
+              ]
+            },
+            "Context": [
+              "The problem of ensuring reliable predictions in complex biological systems"
+            ],
+            "Purpose": [
+              "To enhance the predictability and reduce uncertainty in model-based analyses"
+            ],
+            "Method": [
+              "Building an ensemble with a selection of parameter vectors found when performing parameter estimation with a global optimization metaheuristic",
+              "Enforcing diversity during the sampling of parameter space",
+              "Coupling this strategy with structural identifiability and observability analysis"
+            ],
+            "Results": [
+              "Improving the quantification of uncertainty in the predictions of state trajectories"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Ensuring diverse yet reliable parameter samples"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Enhancing confidence in model-based predictions across biological systems"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The end result is an ensemble of models with the ability to predict the internal dynamics of a biological process. We demonstrate our approach with models of glucose regulation, cell division, circadian oscillations, and the JAK-STAT signalling pathway.",
+          "Main Action": "We demonstrate our approach",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "glucose regulation",
+                "cell division",
+                "circadian oscillations",
+                "JAK-STAT signaling pathway"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "ensemble of models",
+              "models of glucose regulation",
+              "models of cell division",
+              "models of circadian oscillations",
+              "models of the JAK-STAT signaling pathway"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_157",
+      "abstract": "Protein-to-genome alignment is critical to annotating genes in non-model organisms. While there are a few tools for this purpose, all of them were developed over 10 years ago and did not incorporate the latest advances in alignment algorithms. They are inefficient and could not keep up with the rapid production of new genomes and quickly growing protein databases. Here, we describe miniprot, a new aligner for mapping protein sequences to a complete genome. Miniprot integrates recent techniques such as k-mer sketch and vectorized dynamic programming. It is tens of times faster than existing tools while achieving comparable accuracy on real data.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Protein-to-genome alignment is critical to annotating genes in non-model organisms. While there are a few tools for this purpose, all of them were developed over 10 years ago and did not incorporate the latest advances in alignment algorithms. They are inefficient and could not keep up with the rapid production of new genomes and quickly growing protein databases.",
+          "Main Action": "Protein-to-genome alignment",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Genes"
+              ],
+              "Secondary Object": [
+                "Proteins"
+              ]
+            },
+            "Context": [
+              "While there are a few tools for this purpose",
+              "all of them were developed over 10 years ago"
+            ],
+            "Purpose": [
+              "To address the adequacy of existing tools"
+            ],
+            "Method": [
+              "Advanced alignment algorithms"
+            ],
+            "Results": [
+              "Existing tools are inefficient and cannot keep up with rapidly produced genomes and growing protein databases"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Rapid growth of genome data and protein databases pose challenges"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Importance of incorporating latest alignment algorithms for accurate gene annotations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we describe miniprot, a new aligner for mapping protein sequences to a complete genome. Miniprot integrates recent techniques such as k-mer sketch and vectorized dynamic programming.",
+          "Main Action": "Integrates",
+          "Arguments": {
+            "Agent": [
+              "miniprot"
+            ],
+            "Object": {
+              "Primary Object": [
+                "k-mer sketch",
+                "vectorized dynamic programming"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "mapping protein sequences to a complete genome",
+              "research gap"
+            ],
+            "Purpose": [
+              "creating a better aligner"
+            ],
+            "Method": [
+              "k-mer sketch",
+              "vectorized dynamic programming"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enhancing proteomic alignment efficiency"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "It is tens of times faster than existing tools while achieving comparable accuracy on real data.",
+          "Main Action": "It is tens of times faster than existing tools while achieving comparable accuracy on real data.",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "existing tools"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "real data"
+            ],
+            "Purpose": [
+              "to assess the tool's effectiveness"
+            ],
+            "Method": [
+              "testing on real data"
+            ],
+            "Results": [
+              "tens of times faster",
+              "comparable accuracy"
+            ],
+            "Analysis": [
+              "improved efficiency meets user needs"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "advancements in AI tools",
+              "significantly impacting technology development"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

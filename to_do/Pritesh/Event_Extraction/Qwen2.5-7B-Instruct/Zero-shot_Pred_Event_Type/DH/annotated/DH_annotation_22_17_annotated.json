@@ -1,0 +1,260 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_12",
+      "abstract": "The process of making digital objects available and discoverable demands a great deal of labor, from digitization, to creating metadata, to preservation, to importing it into a digital asset management system, and finally to presenting it. We begin this essay with a case study of one such system, called 'Vault,' in the University of Victoria Libraries, and the work required to migrate from a Software as a Service (SAAS) model (called ContentDM) to a free and open-source software (FOSS) model (a customized instance of Samvera). Vault illustrates what we call 'minimal computing from the labor perspective,' which seeks to reduce the opacity of software through 'low-tech' practices such as pseudocode, thereby reducing the alienation of practitioners from their projects. Drawing from feminist ecological work on capitalism, affective labor, and care, we advocate for the 'degrowth' of digital projects by resisting tendencies to reinvest surplus labor and value into increased productivity. Instead, degrowth as minimal computing prompts practitioners to articulate a project’s needs and desires; what work is required and from whom; and how or whether to sustain this labor for the future.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The process of making digital objects available and discoverable demands a great deal of labor, from digitization, to creating metadata, to preservation, to importing it into a digital asset management system, and finally to presenting it.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "The process"
+            ],
+            "Object": {
+              "Primary Object": [
+                "making digital objects available and discoverable"
+              ],
+              "Secondary Object": [
+                "from digitization",
+                "creating metadata",
+                "preservation",
+                "importing it into a digital asset management system",
+                "presenting it"
+              ]
+            },
+            "Context": [
+              "a great deal of labor"
+            ],
+            "Purpose": [
+              "to make digital objects available and discoverable"
+            ],
+            "Method": [
+              "demanding a great deal of labor"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We begin this essay with a case study of one such system, called 'Vault,' in the University of Victoria Libraries, and the work required to migrate from a Software as a Service (SAAS) model (called ContentDM) to a free and open-source software (FOSS) model (a customized instance of Samvera). Vault illustrates what we call 'minimal computing from the labor perspective,' which seeks to reduce the opacity of software through 'low-tech' practices such as pseudocode, thereby reducing the alienation of practitioners from their projects.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "case study",
+                "University of Victoria Libraries",
+                "'Vault'",
+                "migrate from SAAS model to FOSS model",
+                "customized instance of Samvera"
+              ],
+              "Secondary Object": [
+                "Software as a Service (ContentDM)",
+                "free and open-source software (FOSS)"
+              ]
+            },
+            "Context": [
+              "one such system",
+              "labor perspective",
+              "reduce the opacity of software through low-tech practices such as pseudocode"
+            ],
+            "Purpose": [
+              "illustrate minimal computing",
+              "reduce the alienation of practitioners from their projects"
+            ],
+            "Method": [
+              "case study",
+              "migration process"
+            ],
+            "Results": [
+              "not explicitly mentioned"
+            ],
+            "Analysis": [
+              "not explicitly mentioned"
+            ],
+            "Challenge": [
+              "not explicitly mentioned"
+            ],
+            "Ethical": [
+              "not explicitly mentioned"
+            ],
+            "Implications": [
+              "not explicitly mentioned"
+            ],
+            "Contradictions": [
+              "not explicitly mentioned"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Drawing from feminist ecological work on capitalism, affective labor, and care, we advocate for the 'degrowth' of digital projects by resisting tendencies to reinvest surplus labor and value into increased productivity. Instead, degrowth as minimal computing prompts practitioners to articulate a project’s needs and desires; what work is required and from whom; and how or whether to sustain this labor for the future.",
+          "Main Action": "advocate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "for the 'degrowth' of digital projects"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Drawing from feminist ecological work on capitalism, affective labor, and care"
+            ],
+            "Purpose": [
+              "resisting tendencies to reininvest surplus labor and value into increased productivity"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "prompts practitioners to articulate a project’s needs and desires; what work is required and from whom; and how or whether to sustain this labor for the future."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_25",
+      "abstract": "In this paper, we explore the material conditions of scholarship and digital editorial work that make uncovering nineteenth-century women’s lives possible in the twenty-first century. Taking our project, Digital Dinah Craik, a TEI-edition of the letters of the bestselling Victorian author, as a case study, we discuss research methods that combine digital scholarly editing with genealogy and prosopography. We argue that by combining research tools aimed at scholars, such as the Text Encoding Initiative (TEI), and the Oxford Dictionary of National Biography, with research tools aimed at a more general audience, such as Ancestry.com and the British Newspaper Archive, we can develop more creative and inclusive research methods and in turn, gain a fuller picture of women’s and working-class lives.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In this paper, we explore the material conditions of scholarship and digital editorial work that make uncovering nineteenth-century women’s lives possible in the twenty-first century.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "material conditions of scholarship and digital editorial work"
+              ],
+              "Secondary Object": [
+                "nineteenth-century women's lives"
+              ]
+            },
+            "Context": [
+              "that make uncovering",
+              "possible in the twenty-first century"
+            ],
+            "Purpose": [
+              "uncovering nineteenth-century women's lives"
+            ],
+            "Method": [
+              "exploring"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Taking our project, Digital Dinah Craik, a TEI-edition of the letters of the bestselling Victorian author, as a case study, we discuss research methods that combine digital scholarly editing with genealogy and prosopography. We argue that by combining research tools aimed at scholars, such as the Text Encoding Initiative (TEI), and the Oxford Dictionary of National Biography, with research tools aimed at a more general audience, such as Ancestry.com and the British Newspaper Archive, we can develop more creative and inclusive research methods and in turn, gain a fuller picture of women’s and working-class lives.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "research methods",
+                "Digital Dinah Craik",
+                "letters of the bestselling Victorian author"
+              ],
+              "Secondary Object": [
+                "genealogy and prosopography",
+                "scholars' research tools like the Text Encoding Initiative (TEI)",
+                "general audience's research tools like Ancestry.com and the British Newspaper Archive"
+              ]
+            },
+            "Context": [
+              "project, Digital Dinah Craik, a TEI-edition of the letters of the bestselling Victorian author"
+            ],
+            "Purpose": [
+              "develop more creative and inclusive research methods",
+              "gain a fuller picture of women’s and working-class lives"
+            ],
+            "Method": [
+              "combine research tools aimed at scholars, such as the Text Encoding Initiative (TEI), and the Oxford Dictionary of National Biography, with research tools aimed at a more general audience, such as Ancestry.com and the British Newspaper Archive"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

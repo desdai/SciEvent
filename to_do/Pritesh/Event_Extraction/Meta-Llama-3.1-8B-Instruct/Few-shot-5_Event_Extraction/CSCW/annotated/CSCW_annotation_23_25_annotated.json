@@ -1,0 +1,290 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_107",
+      "abstract": "In recent years, industry leaders and researchers have proposed to use technical provenance standards to address visual misinformation spread through digitally altered media. By adding immutable and secure provenance information such as authorship and edit date to media metadata, social media users could potentially better assess the validity of the media they encounter. However, it is unclear how end users would respond to provenance information, or how to best design provenance indicators to be understandable to laypeople. We conducted an online experiment with 595 participants from the US and UK to investigate how provenance information altered users' accuracy perceptions and trust in visual content shared on social media. We found that provenance information often lowered trust and caused users to doubt deceptive media, particularly when it revealed that the media was composited. We additionally tested conditions where the provenance information itself was shown to be incomplete or invalid, and found that these states have a significant impact on participants' accuracy perceptions and trust in media, leading them, in some cases, to disbelieve honest media. Our findings show that provenance, although enlightening, is still not a concept well-understood by users, who confuse media credibility with the orthogonal (albeit related) concept of provenance credibility. We discuss how design choices may contribute to provenance (mis)understanding, and conclude with implications for usable provenance systems, including clearer interfaces and user education.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In recent years, industry leaders and researchers have proposed to use technical provenance standards to address visual misinformation spread through digitally altered media. By adding immutable and secure provenance information such as authorship and edit date to media metadata, social media users could potentially better assess the validity of the media they encounter. However, it is unclear how end users would respond to provenance information, or how to best design provenance indicators to be understandable to laypeople.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We conducted an online experiment with 595 participants from the US and UK to investigate how provenance information altered users' accuracy perceptions and trust in visual content shared on social media.",
+          "Main Action": "conduct",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "an interview study"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "live streaming has become almost ubiquitous in both public and private spaces"
+            ],
+            "Purpose": [
+              "to understand their considerations and practices regarding bystanders' privacy in live streaming"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "We found that provenance information often lowered trust and caused users to doubt deceptive media, particularly when it revealed that the media was composited. We additionally tested conditions where the provenance information itself was shown to be incomplete or invalid, and found that these states have a significant impact on participants' accuracy perceptions and trust in media, leading them, in some cases, to disbelieve honest media.",
+          "Main Action": "found",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that streamers cared about bystanders' privacy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "To protect bystanders from privacy violations"
+            ],
+            "Method": [
+              "evaluated possible privacy violations to bystanders from several perspectives"
+            ],
+            "Results": [
+              "streamers primarily relied on technical, behavioral, and collaborative strategies",
+              "current streaming platforms lacked features"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our findings show that provenance, although enlightening, is still not a concept well-understood by users, who confuse media credibility with the orthogonal (albeit related) concept of provenance credibility. We discuss how design choices may contribute to provenance (mis)understanding, and conclude with implications for usable provenance systems, including clearer interfaces and user education.",
+          "Main Action": "describe",
+          "Arguments": {
+            "Agent": [
+              "This paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a collaborative project"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "communities interested in Gə'əz language texts",
+              "other under-resourced manuscript traditions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "an easy-to-use open-source tool"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_15",
+      "abstract": "While commercial conversational agents (CA) (i.e. Google assistant, Siri, Alexa) are widely used, these systems have limitations in error-handling, flexibility, personalization, and overall dialogue management that are amplified in care coordination settings. In this paper, we synthesize and articulate these limitations through quantitative and qualitative analysis of 56 older adults interacting with a commercial CA deployed in their home for a 10-week period. We look at the CA as a compensatory technology in an older adult's care network. We argue that the CA limitations are rooted in the rigid cue-and-response style of task-oriented interactions common in CAs. We then propose a redesign for CA conversation flow to favor flexibility and personalization that is nonetheless viable within the limitations of current AI and machine learning technologies. We explore design tradeoffs to better support the usability needs of older adults compared to current design optimizations driven by efficiency and privacy goals.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "While commercial conversational agents (CA) (i.e. Google Assistant, Siri, Alexa) are widely used, these systems have limitations in error-handling, flexibility, personalization, and overall dialogue management that are amplified in care coordination settings.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we synthesize and articulate these limitations through quantitative and qualitative analysis of 56 older adults interacting with a commercial CA deployed in their home for a 10-week period. We look at the CA as a compensatory technology in an older adult's care network. We argue that the CA limitations are rooted in the rigid cue-and-response style of task-oriented interactions common in CAs. We then propose a redesign for CA conversation flow to favor flexibility and personalization that is nonetheless viable within the limitations of current AI and machine learning technologies. We explore design tradeoffs to better support the usability needs of older adults compared to current design optimizations driven by efficiency and privacy goals.",
+          "Main Action": "synthesize",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these limitations"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "quantitative and qualitative analysis of 56 older adults interacting with a commercial CA deployed in their home for a 10-week period"
+            ],
+            "Purpose": [
+              "throughout the paper"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "rigid cue-and-response style of task-oriented interactions common in CAs"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "proposed a redesign for CA conversation flow to favor flexibility and personalization"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

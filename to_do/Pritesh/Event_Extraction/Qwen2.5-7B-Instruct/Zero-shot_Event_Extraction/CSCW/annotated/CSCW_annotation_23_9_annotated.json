@@ -1,0 +1,390 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_97",
+      "abstract": "The spread of misinformation on social media is a pressing societal problem that platforms, policymakers, and researchers continue to grapple with. As a countermeasure, recent works have proposed to employ non-expert fact-checkers in the crowd to fact-check social media content. While experimental studies suggest that crowds might be able to accurately assess the veracity of social media content, an understanding of how crowd fact-checked (mis-)information spreads is missing. In this work, we empirically analyze the spread of misleading vs. not misleading community fact-checked posts on social media. For this purpose, we employ a dataset of community-created fact-checks from Twitter's 'Birdwatch' pilot and map them to resharing cascades on Twitter. Different from earlier studies analyzing the spread of misinformation listed on third-party fact-checking websites (e.g., snopes.com), we find that community fact-checked misinformation is less viral. Specifically, misleading posts are estimated to receive 36.62% fewer retweets than not misleading posts. A partial explanation may lie in differences in the fact-checking targets: community fact-checkers tend to fact-check posts from influential user accounts with many followers, while expert fact-checks tend to target posts that are shared by less influential users. We further find that there are significant differences in virality across different sub-types of misinformation (e.g., factual errors, missing context, manipulated media). Moreover, we conduct a user study to assess the perceived reliability of (real-world) community-created fact-checks. Here, we find that users, to a large extent, agree with community-created fact-checks. Altogether, our findings offer insights into how misleading vs. not misleading posts spread and highlight the crucial role of sample selection when studying misinformation on social media.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "The spread of misinformation on social media is a pressing societal problem that platforms, policymakers, and researchers continue to grapple with. As a countermeasure, recent works have proposed to employ non-expert fact-checkers in the crowd to fact-check social media content. While experimental studies suggest that crowds might be able to accurately assess the veracity of social media content, an understanding of how crowd fact-checked (mis-)information spreads is missing.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "recent works"
+            ],
+            "Object": {
+              "Primary Object": [
+                "crowds"
+              ],
+              "Secondary Object": [
+                "social media content"
+              ]
+            },
+            "Context": [
+              "spread of misinformation on social media",
+              "platforms, policymakers, and researchers continue to grapple with"
+            ],
+            "Purpose": [
+              "employ non-expert fact-checkers in the crowd to fact-check social media content"
+            ],
+            "Method": [
+              "propose"
+            ],
+            "Results": [
+              "experimental studies suggest that crowds might be able to accurately assess the veracity of social media content"
+            ],
+            "Analysis": [
+              "an understanding of how crowd fact-checked (mis)-information spreads is missing"
+            ],
+            "Challenge": [
+              "missing"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we empirically analyze the spread of misleading vs. not misleading community fact-checked posts on social media. For this purpose, we employ a dataset of community-created fact-checks from Twitter's 'Birdwatch' pilot and map them to resharing cascades on Twitter. Different from earlier studies analyzing the spread of misinformation listed on third-party fact-checking websites (e.g., snopes.com), we find that community fact-checked misinformation is less viral.",
+          "Main Action": "empirically analyze",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the spread of misleading vs. not misleading community fact-checked posts on social media"
+              ],
+              "Secondary Object": [
+                "resharing cascades on Twitter"
+              ]
+            },
+            "Context": [
+              "a dataset of community-created fact-checks from Twitter's 'Birdwatch' pilot"
+            ],
+            "Purpose": [
+              "to map them to resharing cascades on Twitter"
+            ],
+            "Method": [
+              "employ a dataset of community-created fact-checks from Twitter's 'Birdwatch' pilot and map them to resharing cascades on Twitter"
+            ],
+            "Results": [
+              "community fact-checked misinformation is less viral"
+            ],
+            "Analysis": [
+              "different from earlier studies analyzing the spread of misinformation listed on third-party fact-checking websites (e.g., snopes.com)"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Specifically, misleading posts are estimated to receive 36.62% fewer retweets than not misleading posts. A partial explanation may lie in differences in the fact-checking targets: community fact-checkers tend to fact-check posts from influential user accounts with many followers, while expert fact-checks tend to target posts that are shared by less influential users. We further find that there are significant differences in virality across different sub-types of misinformation (e.g., factual errors, missing context, manipulated media). Moreover, we conduct a user study to assess the perceived reliability of (real-world) community-created fact-checks. Here, we find that users, to a large extent, agree with community-created fact-checks.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "user study",
+                "misleading posts",
+                "not misleading posts",
+                "community-created fact-checks"
+              ],
+              "Secondary Object": [
+                "perceived reliability",
+                "virality",
+                "differences in fact-checking targets",
+                "different sub-types of misinformation"
+              ]
+            },
+            "Context": [
+              "misleading posts",
+              "fact-checking targets",
+              "influential user accounts with many followers",
+              "less influential users"
+            ],
+            "Purpose": [
+              "conduct a user study",
+              "assess the perceived reliability of (real-world) community-created fact-checks"
+            ],
+            "Method": [
+              "conducted a user study"
+            ],
+            "Results": [
+              "(users) to a large extent, agree with community-created fact-checks",
+              "there are significant differences in virality across different sub-types of misinformation"
+            ],
+            "Analysis": [
+              "A partial explanation may lie in differences in the fact-checking targets"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Altogether, our findings offer insights into how misleading vs. not misleading posts spread and highlight the crucial role of sample selection when studying misinformation on social media.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "our findings"
+            ],
+            "Object": {
+              "Primary Object": [
+                "insights into how misleading vs. not misleading posts spread"
+              ],
+              "Secondary Object": [
+                "the crucial role of sample selection when studying misinformation on social media"
+              ]
+            },
+            "Context": [
+              "studying misinformation on social media"
+            ],
+            "Purpose": [
+              "highlighting"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "offer insights"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_29",
+      "abstract": "Understanding the values that collaborators bring to a collaboration is important for the design of new systems. In collaborative systems, understanding differing values could help design solutions to mitigate conflicts and more effectively coordinate collaboration. We review prior studies of Commons-Based Peer Production (CBPP) identifying four common value dimensions previously noted as present in CBPP: usage value, social value, ideological value, and monetary value. We use this synthetic framework to analyze a dataset of 32 interviews with contributors to Wikimedia Commons and editors of Wikipedia who use Commons resources. Our analysis supports the prior values categories while expanding how some dimensions are expressed by participants. We also highlight four additional value dimensions that were not previously identified in CBPP: cultural heritage value, rarity value, aesthetic value, and administrative value. We discuss the implications of our findings for the design of collaborative systems.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Understanding the values that collaborators bring to a collaboration is important for the design of new systems. In collaborative systems, understanding differing values could help design solutions to mitigate conflicts and more effectively coordinate collaboration.",
+          "Main Action": "<UNDERSTANDING>",
+          "Arguments": {
+            "Agent": [
+              "collaborators"
+            ],
+            "Object": {
+              "Primary Object": [
+                "values"
+              ],
+              "Secondary Object": [
+                "differing values"
+              ]
+            },
+            "Context": [
+              "In collaborative systems"
+            ],
+            "Purpose": [
+              "to design new systems",
+              "could help design solutions to mitigate conflicts and more effectively coordinate collaboration"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We review prior studies of Commons-Based Peer Production (CBPP) identifying four common value dimensions previously noted as present in CBPP: usage value, social value, ideological value, and monetary value. We use this synthetic framework to analyze a dataset of 32 interviews with contributors to Wikimedia Commons and editors of Wikipedia who use Commons resources.",
+          "Main Action": "review",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "prior studies of Commons-Based Peer Production (CBPP)"
+              ],
+              "Secondary Object": [
+                "four common value dimensions"
+              ]
+            },
+            "Context": [
+              "identifying",
+              "in CBPP"
+            ],
+            "Purpose": [
+              "to analyze a dataset of 32 interviews with contributors to Wikimedia Commons and editors of Wikipedia who use Commons resources"
+            ],
+            "Method": [
+              "using this synthetic framework"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our analysis supports the prior values categories while expanding how some dimensions are expressed by participants. We also highlight four additional value dimensions that were not previously identified in CBPP: cultural heritage value, rarity value, aesthetic value, and administrative value.",
+          "Main Action": "supports",
+          "Arguments": {
+            "Agent": [
+              "our analysis"
+            ],
+            "Object": {
+              "Primary Object": [
+                "prior values categories"
+              ],
+              "Secondary Object": [
+                "four additional value dimensions"
+              ]
+            },
+            "Context": [
+              "while expanding how some dimensions are expressed by participants"
+            ],
+            "Purpose": [
+              "highlighting"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "expanding how some dimensions are expressed by participants"
+            ],
+            "Analysis": [
+              "highlighting four additional value dimensions that were not previously identified in CBPP"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss the implications of our findings for the design of collaborative systems.",
+          "Main Action": "discuss",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "implications"
+              ],
+              "Secondary Object": [
+                "design of collaborative systems"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

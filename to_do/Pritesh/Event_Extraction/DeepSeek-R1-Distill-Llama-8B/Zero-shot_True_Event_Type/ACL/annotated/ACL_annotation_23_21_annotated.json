@@ -1,0 +1,386 @@
+{
+  "papers": [
+    {
+      "paper_code": "ACL_23_P_657",
+      "abstract": "Second language acquisition (SLA) research has extensively studied cross-linguistic transfer, the influence of linguistic structure of a speaker’s native language [L1] on the successful acquisition of a foreign language [L2]. Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition). We find that NLP literature has not given enough attention to the phenomenon of negative transfer. To understand patterns of both positive and negative transfer between L1 and L2, we model sequential second language acquisition in LMs. Further, we build a Multilingual Age Ordered CHILDES (MAO-CHILDES)—a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese—to understand the degree to which native Child-Directed Speech (CDS) [L1] can help or conflict with English language acquisition [L2]. To examine the impact of native CDS, we use the TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020) and find that, as in human SLA, language family distance predicts more negative transfer. Additionally, we find that conversational speech data shows greater facilitation for language acquisition than scripted speech data. Our findings call for further research using our novel Transformer-based SLA models and we would like to encourage it by releasing our code, data, and models.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Second language acquisition (SLA) research has extensively studied cross-linguistic transfer, the influence of linguistic structure of a speaker’s native language [L1] on the successful acquisition of a foreign language [L2]. Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition). We find that NLP literature has not given enough attention to the phenomenon of negative transfer.",
+          "Main Action": "find",
+          "Arguments": {
+            "Agent": [
+              "NLP literature"
+            ],
+            "Object": {
+              "Primary Object": [
+                "negative transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "second language acquisition (SLA) research",
+              "cross-linguistic transfer",
+              "foreign language [L2]",
+              "positive (facilitating acquisition)",
+              "negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "We find that NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)",
+              "We find that NLP literature has not given enough attention to the phenomenon of negative transfer"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To understand patterns of both positive and negative transfer between L1 and L2, we model sequential second language acquisition in LMs. Further, we build a Multilingual Age Ordered CHILDES (MAO-CHILDES)—a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese—to understand the degree to which native Child-Directed Speech (CDS) [L1] can help or conflict with English language acquisition [L2].",
+          "Main Action": "model sequential second language acquisition",
+          "Arguments": {
+            "Agent": [
+              "large-scale models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "sequential second language acquisition"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Multilingual Age Ordered CHILDES (MAO-CHILDES)--a dataset consisting of 5 typologically diverse languages"
+            ],
+            "Purpose": [
+              "understand the degree to which native Child-Directed Speech (CDS) can help or conflict with English language acquisition"
+            ],
+            "Method": [
+              "building a Multilingual Age Ordered CHILDES (MAO-CHILDES) dataset"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "To examine the impact of native CDS, we use the TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020) and find that, as in human SLA, language family distance predicts more negative transfer. Additionally, we find that conversational speech data shows greater facilitation for language acquisition than scripted speech data.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "Our findings call for further research using our novel Transformer-based SLA models and we would like to encourage it by releasing our code, data, and models.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "ACL_23_P_334",
+      "abstract": "Despite significant progress having been made in question answering on tabular data (Table QA), it’s unclear whether, and to what extent existing Table QA models are robust to task-specific perturbations, e.g., replacing key question entities or shuffling table columns. To systematically study the robustness of Table QA models, we propose a benchmark called RobuT, which builds upon existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA) and includes human-annotated adversarial perturbations in terms of table header, table content, and question. Our results indicate that both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets. We propose to address this problem by using large language models to generate adversarial examples to enhance training, which significantly improves the robustness of Table QA models.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Despite significant progress having been made in question answering on tabular data (Table QA), it’s unclear whether, and to what extent existing Table QA models are robust to task-specific perturbations, e.g., replacing key question entities or shuffling table columns.",
+          "Main Action": "It's unclear whether, and to what extent existing Table QA models are robust to task-specific perturbations",
+          "Arguments": {
+            "Agent": [
+              "Existing Table QA models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Robustness of the models"
+              ],
+              "Secondary Object": [
+                "Task-specific perturbations"
+              ]
+            },
+            "Context": [
+              "Despite significant progress having been made in question answering on tabular data"
+            ],
+            "Purpose": [
+              "Understanding whether and to what extent existing Table QA models are robust to task-specific perturbations"
+            ],
+            "Method": [
+              "Testing or evaluating the models against perturbations"
+            ],
+            "Results": [
+              "Unclearness regarding the robustness of the models"
+            ],
+            "Analysis": [
+              "Interpretation suggesting potential lack of robustness"
+            ],
+            "Challenge": [
+              "Ensuring models are truly robust requires comprehensive testing"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Future applications and research directions in Table QA"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To systematically study the robustness of Table QA models, we propose a benchmark called RobuT, which builds upon existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA) and includes human-annotated adversarial perturbations in terms of table header, table content, and question.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "RobuT"
+              ],
+              "Secondary Object": [
+                "existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA)"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to systematically study the robustness of Table QA models"
+            ],
+            "Method": [
+              "includes human-annotated adversarial perturbations in terms of table header, table content, and question"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Our results indicate that both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets.",
+          "Main Action": "Both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets",
+          "Arguments": {
+            "Agent": [
+              "state-of-the-art Table QA models",
+              "large language models (e.g., GPT-3)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "these adversarial sets"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We propose to address this problem by using large language models to generate adversarial examples to enhance training, which significantly improves the robustness of Table QA models.",
+          "Main Action": "Propose to address this problem",
+          "Arguments": {
+            "Agent": [
+              "Large language models"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Table QA models"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "Improve the robustness of Table QA models"
+            ],
+            "Method": [
+              "Using large language models",
+              "Generate adversarial examples",
+              "Enhance training"
+            ],
+            "Results": [
+              "Significantly improves the robustness of Table QA models"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

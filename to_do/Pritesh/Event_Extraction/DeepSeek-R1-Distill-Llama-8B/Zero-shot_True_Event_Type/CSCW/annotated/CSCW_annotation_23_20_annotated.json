@@ -1,0 +1,384 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_116",
+      "abstract": "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies. Less is known about the last mile of the computer-vision machine-learning pipeline: on-the-ground integration into the real world. In this paper, I analyze facial verification technology (FVT) through its use as account verification in ride-hail work. Using a sociotechnical framework combined with empirical qualitative research methods, including interviews and analysis of an online community of workers, this research is a deep dive into recognition technologies at the level of local practice. Findings reveal the high-stakes articulation labor demanded of workers to be recognized by these systems, including maintaining multiple mobile devices, repeatedly uploading requisite images, spending time and resources visiting customer-service centers, and making physical changes to their bodies and environments. These strategies constitute repairs to the failures of computer vision in dynamic environments and are required to successfully engage in the sociotechnical interaction protocols demanded by FVT. Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations 'face work.' Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable have significant implications for relations between identity and power in spaces of security and work, as well as for the integration of machine-learning systems into safety-critical infrastructures. Ultimately, this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies. Less is known about the last mile of the computer-vision machine-learning pipeline: on-the-ground integration into the real world. In this paper, I analyze facial verification technology (FVT) through its use as account verification in ride-hail work.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Using a sociotechnical framework combined with empirical qualitative research methods, including interviews and analysis of an online community of workers, this research is a deep dive into recognition technologies at the level of local practice.",
+          "Main Action": "Combining a sociotechnical framework with empirical qualitative research methods",
+          "Arguments": {
+            "Agent": [
+              "Researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Recognition technologies"
+              ],
+              "Secondary Object": [
+                "Online community of workers"
+              ]
+            },
+            "Context": [
+              "At the level of local practice"
+            ],
+            "Purpose": [
+              "A deep dive into recognition technologies"
+            ],
+            "Method": [
+              "Sociotechnical framework",
+              "Empirical qualitative research methods",
+              "Interviews",
+              "Analysis of an online community"
+            ],
+            "Results": [
+              "Insights into recognition technologies"
+            ],
+            "Analysis": [
+              "Interpretations of findings"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential for future applications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Findings reveal the high-stakes articulation labor demanded of workers to be recognized by these systems, including maintaining multiple mobile devices, repeatedly uploading requisite images, spending time and resources visiting customer-service centers, and making physical changes to their bodies and environments. These strategies constitute repairs to the failures of computer vision in dynamic environments and are required to successfully engage in the sociotechnical interaction protocols demanded by FVT.",
+          "Main Action": "constitute repairs",
+          "Arguments": {
+            "Agent": [
+              "strategies"
+            ],
+            "Object": {
+              "Primary Object": [
+                "failures of computer vision in dynamic environments"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "ERROR",
+          "Text": "Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations 'face work.' Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable have significant implications for relations between identity and power in spaces of security and work, as well as for the integration of machine-learning systems into safety-critical infrastructures. Ultimately, this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_139",
+      "abstract": "How do Millennial and Gen-Z young adults decide between competing social media when choosing where to post? Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media. To evaluate this model, 19 participants were given different self-presentation scenarios and asked to choose between Twitter, Snapchat, Instagram, and TikTok. Participants also constructed a flowchart to represent their mental model of factors influencing their choices. Data suggest revisions to the model; rather than reflecting Affordances and Features, we found that Social Norms and Goals primarily drove participants' choices. Participants choose media based on a direct match between Goals and existing Social Norms. Only when they failed to detect such a match did participants consider Affordances and Features. We present a revised conceptual model based on these results and discuss social media design and theory implications.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "How do Millennial and Gen-Z young adults decide between competing social media when choosing where to post? Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media.",
+          "Main Action": "Decide",
+          "Arguments": {
+            "Agent": [
+              "Millennial and Gen-Z young adults"
+            ],
+            "Object": {
+              "Primary Object": [
+                "competing social media"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media."
+            ],
+            "Purpose": [
+              "To understand how Millennial and Gen-Z young adults make platform choices"
+            ],
+            "Method": [
+              "Analyzing Goals, Affordances, Features, and Social Norms"
+            ],
+            "Results": [
+              "Decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Understanding these preferences may enhance platform targeting and engagement strategies"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To evaluate this model, 19 participants were given different self-presentation scenarios and asked to choose between Twitter, Snapchat, Instagram, and TikTok. Participants also constructed a flowchart to represent their mental model of factors influencing their choices.",
+          "Main Action": "Evaluate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "model"
+              ],
+              "Secondary Object": [
+                "self-presentation scenarios",
+                "Twitter, Snapchat, Instagram, and TikTok"
+              ]
+            },
+            "Context": [
+              "self-presentation"
+            ],
+            "Purpose": [
+              "assess performance"
+            ],
+            "Method": [
+              "experiments involving participants making choices",
+              "constructing flowcharts"
+            ],
+            "Results": [
+              "choices made by participants"
+            ],
+            "Analysis": [
+              "interpretations of results"
+            ],
+            "Challenge": [
+              "sample size bias"
+            ],
+            "Ethical": [
+              "informed consent"
+            ],
+            "Implications": [
+              "understanding self-presentation behavior",
+              "marketing strategies"
+            ],
+            "Contradictions": [
+              "previous theories"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "Data suggest revisions to the model; rather than reflecting Affordances and Features, we found that Social Norms and Goals primarily drove participants' choices. Participants choose media based on a direct match between Goals and existing Social Norms. Only when they failed to detect such a match did participants consider Affordances and Features.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We present a revised conceptual model based on these results and discuss social media design and theory implications.",
+          "Main Action": "Present",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a revised conceptual model"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "social media design and theory implications"
+            ],
+            "Purpose": [
+              "to advance theoretical understanding"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "based on these results"
+            ],
+            "Analysis": [
+              "impacts on social media theory"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "design and theory implications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

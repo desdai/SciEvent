@@ -1,0 +1,383 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_109",
+      "abstract": "Prior work has identified a resilient phenomenon that threatens the performance of human-AI decision-making teams: overreliance, when people agree with an AI, even when it is incorrect. Surprisingly, overreliance does not reduce when the AI produces explanations for its predictions, compared to only providing predictions. Some have argued that overreliance results from cognitive biases or uncalibrated trust, attributing overreliance to an inevitability of human cognition. By contrast, our paper argues that people strategically choose whether or not to engage with an AI explanation, demonstrating empirically that there are scenarios where AI explanations reduce overreliance. To achieve this, we formalize this strategic choice in a cost-benefit framework, where the costs and benefits of engaging with the task are weighed against the costs and benefits of relying on the AI. We manipulate the costs and benefits in a maze task, where participants collaborate with a simulated AI to find the exit of a maze. Through 5 studies (N = 731), we find that costs such as task difficulty (Study 1), explanation difficulty (Study 2, 3), and benefits such as monetary compensation (Study 4) affect overreliance. Finally, Study 5 adapts the Cognitive Effort Discounting paradigm to quantify the utility of different explanations, providing further support for our framework. Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Prior work has identified a resilient phenomenon that threatens the performance of human-AI decision-making teams: overreliance, when people agree with an AI, even when it is incorrect. Surprisingly, overreliance does not reduce when the AI produces explanations for its predictions, compared to only providing predictions. Some have argued that overreliance results from cognitive biases or uncalibrated trust, attributing overreliance to an inevitability of human cognition. By contrast, our paper argues that people strategically choose whether or not to engage with an AI explanation, demonstrating empirically that there are scenarios where AI explanations reduce overreliance.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To achieve this, we formalize this strategic choice in a cost-benefit framework, where the costs and benefits of engaging with the task are weighed against the costs and benefits of relying on the AI. We manipulate the costs and benefits in a maze task, where participants collaborate with a simulated AI to find the exit of a maze.",
+          "Main Action": "formalize",
+          "Arguments": {
+            "Agent": [
+              "this strategic choice"
+            ],
+            "Object": {
+              "Primary Object": [
+                "in a cost-benefit framework"
+              ],
+              "Secondary Object": [
+                "where the costs and benefits of engaging with the task are weighed against the costs and benefits of relying on the AI"
+              ]
+            },
+            "Context": [
+              "effects of such transfer can be positive (facilitating acquisition)",
+              "negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "manipulate the costs and benefits in a maze task"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through 5 studies (N = 731), we find that costs such as task difficulty (Study 1), explanation difficulty (Study 2, 3), and benefits such as monetary compensation (Study 4) affect overreliance. Finally, Study 5 adapts the Cognitive Effort Discounting paradigm to quantify the utility of different explanations, providing further support for our framework.",
+          "Main Action": "find",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that streamers cared about bystanders' privacy"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "While prior work has studied bystanders' privacy concerns",
+              "a gap exists in understanding how streamers consider bystanders' privacy"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "evaluated possible privacy violations to bystanders from several perspectives"
+            ],
+            "Results": [
+              "streamers primarily relied on technical, behavioral, and collaborative strategies",
+              "current streaming platforms lacked features"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our results suggest that some of the null effects found in literature could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction.",
+          "Main Action": "suggest",
+          "Arguments": {
+            "Agent": [
+              "Some of the null effects found in literature"
+            ],
+            "Object": {
+              "Primary Object": [
+                "could be due in part to the explanation not sufficiently reducing the costs of verifying the AI's prediction"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "null effects found in literature"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_142",
+      "abstract": "For peer production communities to be sustainable, they must attract and retain new contributors. Studies have identified social and technical barriers to entry and discovered some potential solutions, but these solutions have typically focused on a single highly successful community, the English Wikipedia, been tested in isolation, and rarely evaluated through controlled experiments. We propose the Newcomer Homepage, a central place where newcomers can learn how peer production works and find opportunities to contribute, as a solution for attracting and retaining newcomers. The homepage was built upon existing research and designed in collaboration with partner communities. Through a large-scale controlled experiment spanning 27 non-English Wikipedia wikis, we evaluate the homepage and find modest gains, and that having a positive effect on the newcomer experience depends on the newcomer's context. We discuss how this impacts interventions that aim to improve the newcomer experience in peer production communities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "For peer production communities to be sustainable, they must attract and retain new contributors. Studies have identified social and technical barriers to entry and discovered some potential solutions, but these solutions have typically focused on a single highly successful community, the English Wikipedia, been tested in isolation, and rarely evaluated through controlled experiments.",
+          "Main Action": "has extensively studied",
+          "Arguments": {
+            "Agent": [
+              "Second language acquisition (SLA) research"
+            ],
+            "Object": {
+              "Primary Object": [
+                "cross-linguistic transfer"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We propose the Newcomer Homepage, a central place where newcomers can learn how peer production works and find opportunities to contribute, as a solution for attracting and retaining newcomers. The homepage was built upon existing research and designed in collaboration with partner communities.",
+          "Main Action": "proposes",
+          "Arguments": {
+            "Agent": [
+              "Newcomer Homepage"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a central place"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "where newcomers can learn how peer production works"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Through a large-scale controlled experiment spanning 27 non-English Wikipedia wikis, we evaluate the homepage and find modest gains, and that having a positive effect on the newcomer experience depends on the newcomer's context.",
+          "Main Action": "evaluate",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "possible privacy violations to bystanders from several perspectives"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "live streaming has become almost ubiquitous in both public and private spaces in many countries"
+            ],
+            "Purpose": [
+              "To protect bystanders from privacy violations"
+            ],
+            "Method": [
+              "technical, behavioral, and collaborative strategies"
+            ],
+            "Results": [
+              "streamers primarily relied on these strategies",
+              "current streaming platforms lacked features"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "applying the theoretical lens of collective privacy management"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We discuss how this impacts interventions that aim to improve the newcomer experience in peer production communities.",
+          "Main Action": "has discussed",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "the challenges faced by researchers working with endangered languages"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "obtaining high-quality recordings",
+              "creating large-scale corpora"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "proposing solutions based on machine learning algorithms"
+            ],
+            "Results": [
+              "improved accuracy rates"
+            ],
+            "Analysis": [
+              "highlighting limitations of previous methods"
+            ],
+            "Challenge": [
+              "data scarcity"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "increased accessibility of endangered languages"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

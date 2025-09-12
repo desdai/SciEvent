@@ -1,0 +1,305 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_246",
+      "abstract": "Protein function annotation is fundamental to understanding biological mechanisms. The abundant genome-scale protein-protein interaction (PPI) networks, together with other protein biological attributes, provide rich information for annotating protein functions. As PPI networks and biological attributes describe protein functions from different perspectives, it is highly challenging to cross-fuse them for protein function prediction. Recently, several methods combine the PPI networks and protein attributes via the graph neural networks (GNNs). However, GNNs may inherit or even magnify the bias caused by noisy edges in PPI networks. Besides, GNNs with stacking of many layers may cause the over-smoothing problem of node representations. We develop a novel protein function prediction method, CFAGO, to integrate single-species PPI networks and protein biological attributes via a multi-head attention mechanism. CFAGO is first pre-trained with an encoder-decoder architecture to capture the universal protein representation of the two sources. It is then fine-tuned to learn more effective protein representations for protein function prediction. Benchmark experiments on human and mouse datasets show CFAGO outperforms state-of-the-art single-species network-based methods by at least 7.59%, 6.90%, 11.68% in terms of m-AUPR, M-AUPR, and Fmax, respectively, demonstrating cross-fusion by multi-head attention mechanism can greatly improve the protein function prediction. We further evaluate the quality of captured protein representations in terms of Davies Bouldin Score, whose results show that cross-fused protein representations by multi-head attention mechanism are at least 2.7% better than that of original and concatenated representations. We believe CFAGO is an effective tool for protein function prediction.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Protein function annotation is fundamental to understanding biological mechanisms. The abundant genome-scale protein-protein interaction (PPI) networks, together with other protein biological attributes, provide rich information for annotating protein functions. As PPI networks and biological attributes describe protein functions from different perspectives, it is highly challenging to cross-fuse them for protein function prediction. Recently, several methods combine the PPI networks and protein attributes via the graph neural networks (GNNs). However, GNNs may inherit or even magnify the bias caused by noisy edges in PPI networks. Besides, GNNs with stacking of many layers may cause the over-smoothing problem of node representations.",
+          "Main Action": "challenging to cross-fuse",
+          "Arguments": {
+            "Agent": [
+              "researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "protein function prediction"
+              ],
+              "Secondary Object": [
+                "protein-protein interaction networks"
+              ]
+            },
+            "Context": [
+              "understanding biological mechanisms",
+              "genome-scale protein-protein interaction networks"
+            ],
+            "Purpose": [
+              "improving protein function prediction"
+            ],
+            "Method": [
+              "graph neural networks (GNNs)",
+              "stacking of many layers"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "noisy edges",
+              "over-smoothing problem"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "better methods",
+              "improved annotations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We develop a novel protein function prediction method, CFAGO, to integrate single-species PPI networks and protein biological attributes via a multi-head attention mechanism. CFAGO is first pre-trained with an encoder-decoder architecture to capture the universal protein representation of the two sources. It is then fine-tuned to learn more effective protein representations for protein function prediction.",
+          "Main Action": "develop",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "CFAGO"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "single-species PPI networks",
+              "protein biological attributes",
+              "multi-head attention mechanism"
+            ],
+            "Purpose": [
+              "integrate",
+              "learn more effective protein representations"
+            ],
+            "Method": [
+              "encoder-decoder architecture",
+              "pre-trained",
+              "fine-tuned"
+            ],
+            "Results": [
+              "universal protein representation",
+              "effective protein representations"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Benchmark experiments on human and mouse datasets show CFAGO outperforms state-of-the-art single-species network-based methods by at least 7.59%, 6.90%, 11.68% in terms of m-AUPR, M-AUPR, and Fmax, respectively, demonstrating cross-fusion by multi-head attention mechanism can greatly improve the protein function prediction. We further evaluate the quality of captured protein representations in terms of Davies Bouldin Score, whose results show that cross-fused protein representations by multi-head attention mechanism are at least 2.7% better than that of original and concatenated representations.",
+          "Main Action": "Show",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "State-of-the-art single-species network-based methods"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Comparison of CFAGO with traditional models"
+            ],
+            "Purpose": [
+              "Demonstrate the effectiveness of cross-fusion by multi-head attention mechanism"
+            ],
+            "Method": [
+              "Benchmark experiments on human and mouse datasets",
+              "Evaluation in terms of m-AUPR, M-AUPR, and Fmax",
+              "Davies Bouldin Score evaluation"
+            ],
+            "Results": [
+              "CFAGO outperforms state-of-the-art single-species network-based methods by at least 7.59%, 6.90%, 11.68%",
+              "Cross-fused protein representations are at least 2.7% better"
+            ],
+            "Analysis": [
+              "Improvement supports multi-head attention enhancing model performance"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Advancement may enhance protein function prediction accuracy"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "We believe CFAGO is an effective tool for protein function prediction.",
+          "Main Action": "is an effective tool",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "CFAGO"
+              ],
+              "Secondary Object": [
+                "protein function prediction"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to demonstrate the effectiveness of CFAGO as a protein function prediction tool"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "is effective for protein function prediction"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "can help improve protein function prediction accuracy"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_642",
+      "abstract": "Identifying and tracking recombinant strains of SARS-CoV-2 is critical to understanding the evolution of the virus and controlling its spread. But confidently identifying SARS-CoV-2 recombinants from thousands of new genome sequences that are being shared online every day is quite challenging, causing many recombinants to be missed or suffer from weeks of delay in being formally identified while undergoing expert curation. We present RIVET — a software pipeline and visual platform that takes advantage of recent algorithmic advances in recombination inference to comprehensively and sensitively search for potential SARS-CoV-2 recombinants and organize the relevant information in a web interface that would help greatly accelerate the process of identifying and tracking recombinants.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Identifying and tracking recombinant strains of SARS-CoV-2 is critical to understanding the evolution of the virus and controlling its spread. But confidently identifying SARS-CoV-2 recombinants from thousands of new genome sequences that are being shared online every day is quite challenging, causing many recombinants to be missed or suffer from weeks of delay in being formally identified while undergoing expert curation.",
+          "Main Action": "Identifying recombinant strains",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "SARS-CoV-2 recombinant strains"
+              ],
+              "Secondary Object": [
+                "Thousands of new genome sequences"
+              ]
+            },
+            "Context": [
+              "Understanding the evolution of the virus and controlling its spread"
+            ],
+            "Purpose": [
+              "To understand the evolution of the virus and controlling its spread"
+            ],
+            "Method": [
+              "Using genome sequences"
+            ],
+            "Results": [
+              "Many recombinants are missed or suffer from weeks of delay"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Overwhelming number of new genome sequences"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Public health risk if recombinant strains go undetected"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present RIVET — a software pipeline and visual platform that takes advantage of recent algorithmic advances in recombination inference to comprehensively and sensitively search for potential SARS-CoV-2 recombinants and organize the relevant information in a web interface that would help greatly accelerate the process of identifying and tracking recombinants.",
+          "Main Action": "We present RIVET — a software pipeline and visual platform",
+          "Arguments": {
+            "Agent": [
+              "The researchers"
+            ],
+            "Object": {
+              "Primary Object": [
+                "RIVET — a software pipeline and visual platform"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Recent algorithmic advances in recombination inference",
+              "SARS-CoV-2 recombinants",
+              "web interface"
+            ],
+            "Purpose": [
+              "to help greatly accelerate the process of identifying and tracking recombinants"
+            ],
+            "Method": [
+              "software pipeline",
+              "visual platform",
+              "recent algorithmic advances in recombination inference",
+              "web interface"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "accelerating the process of identifying and tracking recombinants",
+              "broader significance or potential for future applications/research"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

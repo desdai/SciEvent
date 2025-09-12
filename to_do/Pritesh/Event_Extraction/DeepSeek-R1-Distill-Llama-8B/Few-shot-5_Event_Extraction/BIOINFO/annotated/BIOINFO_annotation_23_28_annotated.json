@@ -1,0 +1,253 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_525",
+      "abstract": "With the rapid advances of RNA sequencing and microarray technologies in non-coding RNA (ncRNA) research, functional tools that perform enrichment analysis for ncRNAs are needed. On the one hand, because of the rapidly growing interest in circRNAs, snoRNAs, and piRNAs, it is essential to develop tools for enrichment analysis for these newly emerged ncRNAs. On the other hand, due to the key role of ncRNAs' interacting targets in the determination of their function, the interactions between ncRNA and its corresponding target should be fully considered in functional enrichment. Based on the ncRNA-mRNA/protein-function strategy, some tools have been developed to functionally analyze a single type of ncRNA (the majority focuses on miRNA); in addition, some tools adopt predicted target data and lead to only low-confidence results. Herein, an online tool named RNAenrich was developed to enable the comprehensive and accurate enrichment analysis of ncRNAs. It is unique in (i) realizing the enrichment analysis for various RNA types in humans and mice, such as miRNA, lncRNA, circRNA, snoRNA, piRNA, and mRNA; (ii) extending the analysis by introducing millions of experimentally validated data of RNA-target interactions as a built-in database; and (iii) providing a comprehensive interacting network among various ncRNAs and targets to facilitate the mechanistic study of ncRNA function. Importantly, RNAenrich led to a more comprehensive and accurate enrichment analysis in a COVID-19-related miRNA case, which was largely attributed to its coverage of comprehensive ncRNA-target interactions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "With the rapid advances of RNA sequencing and microarray technologies in non-coding RNA (ncRNA) research, functional tools that perform enrichment analysis for ncRNAs are needed. On the one hand, because of the rapidly growing interest in circRNAs, snoRNAs, and piRNAs, it is essential to develop tools for enrichment analysis for these newly emerged ncRNAs. On the other hand, due to the key role of ncRNAs' interacting targets in the determination of their function, the interactions between ncRNA and its corresponding target should be fully considered in functional enrichment.",
+          "Main Action": "have been identified",
+          "Arguments": {
+            "Agent": [
+              "Non-coding RNAs (ncRNAs)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "key roles in gene regulation"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "their importance in various biological processes",
+              "new insights into their functions and mechanisms"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Based on the ncRNA-mRNA/protein-function strategy, some tools have been developed to functionally analyze a single type of ncRNA (the majority focuses on miRNA); in addition, some tools adopt predicted target data and lead to only low-confidence results. Herein, an online tool named RNAenrich was developed to enable the comprehensive and accurate enrichment analysis of ncRNAs. It is unique in (i) realizing the enrichment analysis for various RNA types in humans and mice, such as miRNA, lncRNA, circRNA, snoRNA, piRNA, and mRNA; (ii) extending the analysis by introducing millions of experimentally validated data of RNA-target interactions as a built-in database; and (iii) providing a comprehensive interacting network among various ncRNAs and targets to facilitate the mechanistic study of ncRNA function.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "graph sparsification improves assembly contiguity by removing spurious and redundant connections",
+              "it must ensure that there exist walks in the graph that spell all chromosomes, given sufficient sequencing coverage",
+              "diploid genomes, polyploid genomes, and metagenomes where there is a risk of losing haplotype-specific information"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a graph model must be coverage-preserving",
+              "a risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Importantly, RNAenrich led to a more comprehensive and accurate enrichment analysis in a COVID-19-related miRNA case, which was largely attributed to its coverage of comprehensive ncRNA-target interactions.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "comprehensive ncRNA-target interactions"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "a coverage-preserving graph model must be ensured",
+              "risk of losing haplotype-specific information"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_428",
+      "abstract": "Native top-down proteomics (nTDP) integrates native mass spectrometry (nMS) with top-down proteomics (TDP) to provide comprehensive analysis of protein complexes together with proteoform identification and characterization. Despite significant advances in nMS and TDP software developments, a unified and user-friendly software package for analysis of nTDP data remains lacking. We have developed MASH Native to provide a unified solution for nTDP to process complex datasets with database searching capabilities in a user-friendly interface. MASH Native supports various data formats and incorporates multiple options for deconvolution, database searching, and spectral summing to provide a 'one-stop shop' for characterizing both native protein complexes and proteoforms.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Native top-down proteomics (nTDP) integrates native mass spectrometry (nMS) with top-down proteomics (TDP) to provide comprehensive analysis of protein complexes together with proteoform identification and characterization. Despite significant advances in nMS and TDP software developments, a unified and user-friendly software package for analysis of nTDP data remains lacking.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "comprehensive analysis of protein complexes",
+              "proteoform identification and characterization"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "development of a unified and user-friendly software package"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "unified and user-friendly software package for analysis of nTDP data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We have developed MASH Native to provide a unified solution for nTDP to process complex datasets with database searching capabilities in a user-friendly interface. MASH Native supports various data formats and incorporates multiple options for deconvolution, database searching, and spectral summing to provide a 'one-stop shop' for characterizing both native protein complexes and proteoforms.",
+          "Main Action": "have developed",
+          "Arguments": {
+            "Agent": [
+              "MASH Native"
+            ],
+            "Object": {
+              "Primary Object": [
+                "provide a unified solution"
+              ],
+              "Secondary Object": [
+                "process complex datasets with database searching capabilities in a user-friendly interface"
+              ]
+            },
+            "Context": [
+              "Read-overlap-based graph data structures play a central role in computing de novo genome assembly.",
+              "Most long-read assemblers use Myers's string graph model to sparsify overlap graphs."
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "Develop a novel theoretical framework under which the coverage-preserving properties of a graph model can be analyzed.",
+              "Prove that de Bruijn graph and overlap graph models are guaranteed to be coverage-preserving.",
+              "Show that the standard string graph model lacks this guarantee."
+            ],
+            "Results": [
+              "De Bruijn graph and overlap graph models are guaranteed to be coverage-preserving",
+              "Standard string graph model lacks this guarantee"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Coverage preservation is crucial for ensuring continuity in assembled sequences.",
+              "Ensuring comprehensive representation of genomic diversity while maintaining computational efficiency remains a significant challenge."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "The proposed framework contributes to advancing the field of computational genomics.",
+              "Improved algorithms may reduce costs and increase accuracy in genome assembly processes."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "papers": [
+    {
+      "paper_code": "cscw_23_P_267",
+      "abstract": "Past work has explored various ways for online platforms to leverage crowd wisdom for misinformation detection and moderation. Yet, platforms often relegate governance to their communities, and limited research has been done from the perspective of these communities and their moderators. How is misinformation currently moderated in online communities that are heavily self-governed? What role does the crowd play in this process, and how can this process be improved? In this study, we answer these questions through semi-structured interviews with Reddit moderators. We focus on a case study of COVID-19 misinformation. First, our analysis identifies a general moderation workflow model encompassing various processes participants use for handling COVID-19 misinformation. Further, we show that the moderation workflow revolves around three elements: content facticity, user intent, and perceived harm. Next, our interviews reveal that Reddit moderators rely on two types of crowd wisdom for misinformation detection. Almost all participants are heavily reliant on reports from crowds of ordinary users to identify potential misinformation. A second crowd--participants' own moderation teams and expert moderators of other communities--provide support when participants encounter difficult, ambiguous cases. Finally, we use design probes to better understand how different types of crowd signals---from ordinary users and moderators---readily available on Reddit can assist moderators with identifying misinformation. We observe that nearly half of all participants preferred these cues over labels from expert fact-checkers because these cues can help them discern user intent. Additionally, a quarter of the participants distrust professional fact-checkers, raising important concerns about misinformation moderation.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Past work has explored various ways for online platforms to leverage crowd wisdom for misinformation detection and moderation. Yet, platforms often relegate governance to their communities, and limited research has been done from the perspective of these communities and their moderators. How is misinformation currently moderated in online communities that are heavily self-governed? What role does the crowd play in this process, and how can this process be improved?",
+          "Main Action": "has explored",
+          "Arguments": {
+            "Agent": [
+              "various ways"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "online platforms",
+              "to leverage crowd wisdom",
+              "for misinformation detection and moderation"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this study, we answer these questions through semi-structured interviews with Reddit moderators. We focus on a case study of COVID-19 misinformation. First, our analysis identifies a general moderation workflow model encompassing various processes participants use for handling COVID-19 misinformation. Further, we show that the moderation workflow revolves around three elements: content facticity, user intent, and perceived harm.",
+          "Main Action": "answer",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "through semi-structured interviews with Reddit moderators.",
+              "a case study of COVID-19 misinformation."
+            ],
+            "Purpose": [
+              "to identify a general moderation workflow model",
+              "show that the moderation workflow revolves around three elements: content facticity, user intent, and perceived harm"
+            ],
+            "Method": [
+              "semi-structured interviews",
+              "analysis"
+            ],
+            "Results": [
+              "identifies a general moderation workflow model",
+              "shows that the moderation workflow revolves around three elements: content facticity, user intent, and perceived harm"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Next, our interviews reveal that Reddit moderators rely on two types of crowd wisdom for misinformation detection. Almost all participants are heavily reliant on reports from crowds of ordinary users to identify potential misinformation. A second crowd--participants' own moderation teams and expert moderators of other communities--provide support when participants encounter difficult, ambiguous cases. Finally, we use design probes to better understand how different types of crowd signals---from ordinary users and moderators---readily available on Reddit can assist moderators with identifying misinformation. We observe that nearly half of all participants preferred these cues over labels from expert fact-checkers because these cues can help them discern user intent. Additionally, a quarter of the participants distrust professional fact-checkers, raising important concerns about misinformation moderation.",
+          "Main Action": "reveal",
+          "Arguments": {
+            "Agent": [
+              "our interviews",
+              "Reddit moderators"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "misinformation detection",
+              "crowd wisdom"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "design probes",
+              "reports from crowds of ordinary users",
+              "moderation teams and expert moderators of other communities"
+            ],
+            "Results": [
+              "identify potential misinformation",
+              "discern user intent"
+            ],
+            "Analysis": [
+              "raise important concerns about misinformation moderation"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "cscw_23_P_206",
+      "abstract": "Traditional wall-sized displays mostly only support side-by-side co-located collaboration, while transparent displays naturally support face-to-face interaction. Many previous works assume transparent displays support collaboration. Yet it is unknown how exactly its afforded face-to-face interaction can support loose or close collaboration, especially compared to the side-by-side configuration offered by traditional large displays. In this paper, we used an established experimental task that operationalizes different collaboration coupling and layout locality, to compare pairs of participants collaborating side-by-side versus face-to-face in each collaborative situation. We compared quantitative measures and collected interview and observation data to further illustrate and explain our observed user behavior patterns. The results showed that the unique face-to-face collaboration brought by transparent display can result in more efficient task performance, different territorial behavior, and both positive and negative collaborative factors. Our findings provided empirical understanding about the collaborative experience supported by wall-sized transparent displays and shed light on its future design.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Traditional wall-sized displays mostly only support side-by-side co-located collaboration, while transparent displays naturally support face-to-face interaction. Many previous works assume transparent displays support collaboration. Yet it is unknown how exactly its afforded face-to-face interaction can support loose or close collaboration, especially compared to the side-by-side configuration offered by traditional large displays.",
+          "Main Action": "<NONE>",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Many previous works",
+              "transparent displays"
+            ],
+            "Purpose": [
+              "it is unknown",
+              "how exactly its afforded face-to-face interaction can support loose or close collaboration,"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "especially compared to the side-by-side configuration offered by traditional large displays."
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this paper, we used an established experimental task that operationalizes different collaboration coupling and layout locality, to compare pairs of participants collaborating side-by-side versus face-to-face in each collaborative situation. We compared quantitative measures and collected interview and observation data to further illustrate and explain our observed user behavior patterns.",
+          "Main Action": "used",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "an established experimental task",
+              "operationalize different collaboration coupling and layout locality"
+            ],
+            "Purpose": [
+              "compare pairs of participants collaborating side-by-side versus face-to-face in each collaborative situation"
+            ],
+            "Method": [
+              "quantitative measures",
+              "interview and observation data"
+            ],
+            "Results": [
+              "illustrate and explain our observed user behaviour patterns"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The results showed that the unique face-to-face collaboration brought by transparent display can result in more efficient task performance, different territorial behavior, and both positive and negative collaborative factors.",
+          "Main Action": "showed",
+          "Arguments": {
+            "Agent": [
+              "results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "that the unique face-to-face collaboration brought by transparent display can result in more efficient task performance, different territorial behavior, and both positive and negative collaborative factors."
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Our findings provided empirical understanding about the collaborative experience supported by wall-sized transparent displays and shed light on its future design.",
+          "Main Action": "provided empirical understanding",
+          "Arguments": {
+            "Agent": [
+              "our"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "about the collaborative experience supported by wall-sized transparent displays"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "empirical understanding about the collaborative experience supported by wall-sized transparent displays"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "shed light on its future design"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_490",
+      "abstract": "Deep learning-based molecule generation becomes a new paradigm of de novo molecule design since it enables fast and directional exploration in the vast chemical space. However, it is still an open issue to generate molecules, which bind to specific proteins with high-binding affinities while owning desired drug-like physicochemical properties. To address these issues, we elaborate a novel framework for controllable protein-oriented molecule generation, named CProMG, which contains a 3D protein embedding module, a dual-view protein encoder, a molecule embedding module, and a novel drug-like molecule decoder. Based on fusing the hierarchical views of proteins, it enhances the representation of protein binding pockets significantly by associating amino acid residues with their comprising atoms. Through jointly embedding molecule sequences, their drug-like properties, and binding affinities w.r.t. proteins, it autoregressively generates novel molecules having specific properties in a controllable manner by measuring the proximity of molecule tokens to protein residues and atoms. The comparison with state-of-the-art deep generative methods demonstrates the superiority of our CProMG. Furthermore, the progressive control of properties demonstrates the effectiveness of CProMG when controlling binding affinity and drug-like properties. After that, the ablation studies reveal how its crucial components contribute to the model respectively, including hierarchical protein views, Laplacian position encoding as well as property control. Last, a case study w.r.t. protein illustrates the novelty of CProMG and the ability to capture crucial interactions between protein pockets and molecules. It's anticipated that this work can boost de novo molecule design.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Deep learning-based molecule generation becomes a new paradigm of de novo molecule design since it enables fast and directional exploration in the vast chemical space. However, it is still an open issue to generate molecules, which bind to specific proteins with high-binding affinities while owning desired drug-like physicochemical properties.",
+          "Main Action": "deep learning-based molecule generation",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "molecules"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "becoming a new paradigm...enabling fast and directional exploration"
+            ],
+            "Purpose": [
+              "fast and directional exploration in the vast chemical space"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "generating molecules [...] with high-binding affinities while owning desired drug-like physicochemical properties"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "changing the landscape of de novo molecule design and facilitating drug discovery"
+            ],
+            "Contradictions": [
+              "contradicts traditional methods"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "To address these issues, we elaborate a novel framework for controllable protein-oriented molecule generation, named CProMG, which contains a 3D protein embedding module, a dual-view protein encoder, a molecule embedding module, and a novel drug-like molecule decoder. Based on fusing the hierarchical views of proteins, it enhances the representation of protein binding pockets significantly by associating amino acid residues with their comprising atoms. Through jointly embedding molecule sequences, their drug-like properties, and binding affinities w.r.t. proteins, it autoregressively generates novel molecules having specific properties in a controllable manner by measuring the proximity of molecule tokens to protein residues and atoms.",
+          "Main Action": "Elaborate a novel framework for controllable protein-oriented molecule generation",
+          "Arguments": {
+            "Agent": [
+              "We"
+            ],
+            "Object": {
+              "Primary Object": [
+                "CProMG",
+                "protein-oriented molecule generation"
+              ],
+              "Secondary Object": [
+                "proteins",
+                "molecules"
+              ]
+            },
+            "Context": [
+              "Addressing these issues"
+            ],
+            "Purpose": [
+              "Developing a controllable framework for protein-oriented molecule generation"
+            ],
+            "Method": [
+              "A 3D protein embedding module",
+              "A dual-view protein encoder",
+              "A molecule embedding module",
+              "A novel drug-like molecule decoder"
+            ],
+            "Results": [
+              "Enhancing the representation of protein binding pockets",
+              "Generating novel molecules with specific properties"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential applications in drug discovery and molecular design"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The comparison with state-of-the-art deep generative methods demonstrates the superiority of our CProMG. Furthermore, the progressive control of properties demonstrates the effectiveness of CProMG when controlling binding affinity and drug-like properties. After that, the ablation studies reveal how its crucial components contribute to the model respectively, including hierarchical protein views, Laplacian position encoding as well as property control.",
+          "Main Action": "The comparison with state-of-the-art deep generative methods demonstrates the superiority of our CProMG",
+          "Arguments": {
+            "Agent": [
+              "CProMG"
+            ],
+            "Object": {
+              "Primary Object": [
+                "state-of-the-art deep generative methods"
+              ],
+              "Secondary Object": [
+                "binding affinity and drug-like properties"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Last, a case study w.r.t. protein illustrates the novelty of CProMG and the ability to capture crucial interactions between protein pockets and molecules. It's anticipated that this work can boost de novo molecule design.",
+          "Main Action": "It's anticipated that this work can boost",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "de novo molecule design"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "CProMG [...] was able to capture crucial interactions between protein pockets and molecules"
+            ],
+            "Purpose": [
+              "improving molecular understanding and enabling novel compound designs"
+            ],
+            "Method": [
+              "application of CProMG to predict interactions"
+            ],
+            "Results": [
+              "demonstrated improved prediction accuracy compared to conventional methods"
+            ],
+            "Analysis": [
+              "suggesting broad applicability across diverse chemical contexts"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "enhanced efficiency in drug discovery workflows"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_127",
+      "abstract": "Recent innovations in single-cell chromatin accessibility sequencing (scCAS) have revolutionized the characterization of epigenomic heterogeneity. Estimation of the number of cell types is a crucial step for downstream analyses and biological implications. However, efforts to perform estimation specifically for scCAS data are limited. Here, we propose ASTER, an ensemble learning-based tool for accurately estimating the number of cell types in scCAS data. ASTER outperformed baseline methods in systematic evaluation on 27 datasets of various protocols, sizes, numbers of cell types, degrees of cell-type imbalance, cell states and qualities, providing valuable guidance for scCAS data analysis.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Recent innovations in single-cell chromatin accessibility sequencing (scCAS) have revolutionized the characterization of epigenomic heterogeneity. Estimation of the number of cell types is a crucial step for downstream analyses and biological implications. However, efforts to perform estimation specifically for scCAS data are limited.",
+          "Main Action": "Recent innovations in single-cell chromatin accessibility sequencing (scCAS) have revolutionized the characterization of epigenomic heterogeneity",
+          "Arguments": {
+            "Agent": [
+              "single-cell chromatin accessibility sequencing (scCAS)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "epigenomic heterogeneity"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Estimation of the number of cell types is a crucial step for downstream analyses",
+              "biological implications"
+            ],
+            "Purpose": [
+              "filling the gap in methods for scCAS data"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Efforts to perform estimation specifically for scCAS data are limited"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "downstream analyses and biological implications"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Here, we propose ASTER, an ensemble learning-based tool for accurately estimating the number of cell types in scCAS data.",
+          "Main Action": "proposing ASTER",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ASTER",
+                "scCAS data"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "to accurately estimate the number of cell types in scCAS data"
+            ],
+            "Method": [
+              "an ensemble learning-based tool"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "ERROR",
+          "Text": "ASTER outperformed baseline methods in systematic evaluation on 27 datasets of various protocols, sizes, numbers of cell types, degrees of cell-type imbalance, cell states and qualities, providing valuable guidance for scCAS data analysis.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        }
+      ]
+    }
+  ]
+}

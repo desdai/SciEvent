@@ -1,0 +1,293 @@
+{
+  "papers": [
+    {
+      "paper_code": "dh_22_P_62",
+      "abstract": "Drawing on software studies, data feminism, digital rhetoric studies, information science, and the history of computing, this paper foregrounds Markdown as a cultural object to analyze the social, cultural, and political pressures surrounding the digital humanities. Rather than beginning with contemporary discourse, it draws parallels between Markdown and Donald Knuth's TeX. From the 1970s to 1990s, academic researchers used TeX to construct plain-text scholarship in mathematics and the hard sciences to enhance typography. Most academics saw these concerns as holding marginal importance and quickly abandoned the approach for WYSIWYG word processors. Drawing on queer theorist Michael Warner, I argue that the community surrounding TeX responded reactionarily to these transformations by forming a counterpublic constituted through a circulation of texts bemoaning word processors [Warner 2002]. This counterpublic persisted well into the 2000s but only made headway amongst niche users. This plain-text focused counterpublic mutated in response to the neoliberalization of higher ed. Rather than viewing plain-text as 'sustainable scholarship,' academic lifehacking and minimal computing embraced what David Golumbia calls 'computationalism,' an ideological construct postulating social, political, economic, and cultural ills as cybernetic systems to be optimized — or 'hacked.' Minimal computing’s fetishization and casting of plain-text as transformative mirrors similar discourses amongst older lifehacking enthusiasts. Although plain-text scholarship is not representative of minimal computing as a totality, minimal computing's emphasis on workflows leads to few of the supposed benefits advocates profess, and in many cases, worsens inequalities.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Drawing on software studies, data feminism, digital rhetoric studies, information science, and the history of computing, this paper foregrounds Markdown as a cultural object to analyze the social, cultural, and political pressures surrounding the digital humanities. Rather than beginning with contemporary discourse, it draws parallels between Markdown and Donald Knuth's TeX. From the 1970s to 1990s, academic researchers used TeX to construct plain-text scholarship in mathematics and the hard sciences to enhance typography. Most academics saw these concerns as holding marginal importance and quickly abandoned the approach for WYSIWYG word processors.",
+          "Main Action": "foregrounds",
+          "Arguments": {
+            "Agent": [
+              "this paper"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Markdown"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "software studies",
+              "data feminism",
+              "digital rhetoric studies",
+              "information science",
+              "the history of computing"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "drawing parallels between Markdown and Donald Knuth's TeX",
+              "From the 1970s to 1990s, academic researchers used TeX"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "Most academics saw these concerns as holding marginal importance and quickly abandoned the approach for WYSIWYG word processors."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "Drawing on queer theorist Michael Warner, I argue that the community surrounding TeX responded reactionarily to these transformations by forming a counterpublic constituted through a circulation of texts bemoaning word processors [Warner 2002]. This counterpublic persisted well into the 2000s but only made headway amongst niche users.",
+          "Main Action": "argue",
+          "Arguments": {
+            "Agent": [
+              "I"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that the community surrounding TeX responded reactionarily to these transformations"
+              ],
+              "Secondary Object": [
+                "by forming a counterpublic constituted through a circulation of texts"
+              ]
+            },
+            "Context": [
+              "drawing on queer theorist Michael Warner"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "This counterpublic persisted well into the 2000s but only made headway amongst niche users."
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "This plain-text focused counterpublic mutated in response to the neoliberalization of higher ed. Rather than viewing plain-text as 'sustainable scholarship,' academic lifehacking and minimal computing embraced what David Golumbia calls 'computationalism,' an ideological construct postulating social, political, economic, and cultural ills as cybernetic systems to be optimized — or 'hacked.' Minimal computing’s fetishization and casting of plain-text as transformative mirrors similar discourses amongst older lifehacking enthusiasts.",
+          "Main Action": "mutated",
+          "Arguments": {
+            "Agent": [
+              "plain-text focused counterpublic"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in response to the neoliberalization of higher ed.",
+              "Rather than viewing plain-text as'sustainable scholarship',"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "academic lifehacking and minimal computing"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "what David Golumbia calls 'computationalism'"
+            ],
+            "Challenge": [
+              "Minimal computing’s fetishization and casting of plain-text as transformative mirrors similar discourses amongst older lifehacking enthusiasts"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "Although plain-text scholarship is not representative of minimal computing as a totality, minimal computing's emphasis on workflows leads to few of the supposed benefits advocates profess, and in many cases, worsens inequalities.",
+          "Main Action": "leads to",
+          "Arguments": {
+            "Agent": [
+              "minimal computing's emphasis on workflows"
+            ],
+            "Object": {
+              "Primary Object": [
+                "few of the supposed benefits advocates profess"
+              ],
+              "Secondary Object": [
+                "worsen inequalities"
+              ]
+            },
+            "Context": [
+              "plain-text scholarship is not representative of minimal computing as a totality"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "in many cases"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "dh_22_P_16",
+      "abstract": "Caravans of Gold is a multilingual digital exhibit that was built as both a static website and Progressive Web App (PWA). This case study describes the process of developing Caravans of Gold, situating PWAs as minimal computing technologies. PWAs are websites with mobile app features that specifically help disseminate digital content to people who rely on mobile devices for access to the internet. Caravans of Gold was built using Wax, a Jekyll-based framework, and demonstrates the similarities between PWA requirements and minimal computing approaches.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Caravans of Gold is a multilingual digital exhibit that was built as both a static website and Progressive Web App (PWA).",
+          "Main Action": "was built",
+          "Arguments": {
+            "Agent": [
+              "both a static website and Progressive Web App (PWA)"
+            ],
+            "Object": {
+              "Primary Object": [
+                "<NONE>"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "<NONE>"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This case study describes the process of developing Caravans of Gold, situating PWAs as minimal computing technologies. PWAs are websites with mobile app features that specifically help disseminate digital content to people who rely on mobile devices for access to the internet. Caravans of Gold was built using Wax, a Jekyll-based framework, and demonstrates the similarities between PWA requirements and minimal computing approaches.",
+          "Main Action": "describes",
+          "Arguments": {
+            "Agent": [
+              "this case study"
+            ],
+            "Object": {
+              "Primary Object": [
+                "process of developing Caravans of Gold"
+              ],
+              "Secondary Object": [
+                "PWAs as minimal computing technologies"
+              ]
+            },
+            "Context": [
+              "situating PWAs as minimal computing technologies",
+              "Caravans of Gold was built using Wax"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "built using Wax, a Jekyll-based framework"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

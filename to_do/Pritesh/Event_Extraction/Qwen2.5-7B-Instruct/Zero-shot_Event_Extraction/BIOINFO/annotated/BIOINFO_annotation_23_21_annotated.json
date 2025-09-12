@@ -1,0 +1,241 @@
+{
+  "papers": [
+    {
+      "paper_code": "bioinfo_23_P_572",
+      "abstract": "Survival analysis is an important tool for modeling time-to-event data, e.g., to predict the survival time of a patient after a cancer diagnosis or a certain treatment. While deep neural networks work well in standard prediction tasks, it is still unclear how to best utilize these deep models in survival analysis due to the difficulty of modeling right censored data, especially for multi-omics data. Although existing methods have shown the advantage of multi-omics integration in survival prediction, it remains challenging to extract complementary information from different omics and improve the prediction accuracy. In this work, we propose a novel multi-omics deep survival prediction approach by dually fused graph convolutional network (GCN) named FGCNSurv. Our FGCNSurv is a complete generative model from multi-omics data to survival outcome of patients, including feature fusion by a factorized bilinear model, graph fusion of multiple graphs, higher-level feature extraction by GCN, and survival prediction by a Cox proportional hazard model. The factorized bilinear model enables to capture cross-omics features and quantify complex relations from multi-omics data. By fusing single-omics features and the cross-omics features, and simultaneously fusing multiple graphs from different omics, GCN with the generated dually fused graph could capture higher-level features for computing the survival loss in the Cox-PH model. Comprehensive experimental results on real-world datasets with gene expression and microRNA expression data show that the proposed FGCNSurv method outperforms existing survival prediction methods, and imply its ability to extract complementary information for survival prediction from multi-omics data.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Survival analysis is an important tool for modeling time-to-event data, e.g., to predict the survival time of a patient after a cancer diagnosis or a certain treatment. While deep neural networks work well in standard prediction tasks, it is still unclear how to best utilize these deep models in survival analysis due to the difficulty of modeling right censored data, especially for multi-omics data. Although existing methods have shown the advantage of multi-omics integration in survival prediction, it remains challenging to extract complementary information from different omics and improve the prediction accuracy.",
+          "Main Action": "work well",
+          "Arguments": {
+            "Agent": [
+              "deep neural networks"
+            ],
+            "Object": {
+              "Primary Object": [
+                "standard prediction tasks"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "survival analysis is an important tool for modeling time-to-event data"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "it is still unclear how to best utilize these deep models in survival analysis due to the difficulty of modeling right censored data, especially for multi-omics data"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "although existing methods have shown the advantage of multi-omics integration in survival prediction, it remains challenging to extract complementary information from different omics and improve the prediction accuracy"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "In this work, we propose a novel multi-omics deep survival prediction approach by dually fused graph convolutional network (GCN) named FGCNSurv. Our FGCNSurv is a complete generative model from multi-omics data to survival outcome of patients, including feature fusion by a factorized bilinear model, graph fusion of multiple graphs, higher-level feature extraction by GCN, and survival prediction by a Cox proportional hazard model. The factorized bilinear model enables to capture cross-omics features and quantify complex relations from multi-omics data. By fusing single-omics features and the cross-omics features, and simultaneously fusing multiple graphs from different omics, GCN with the generated dually fused graph could capture higher-level features for computing the survival loss in the Cox-PH model.",
+          "Main Action": "propose",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a novel multi-omics deep survival prediction approach by dually fused graph convolutional network (FGCNSurv)"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "in this work,"
+            ],
+            "Purpose": [
+              "to predict survival outcome of patients from multi-omics data"
+            ],
+            "Method": [
+              "including feature fusion by a factorized bilinear model, graph fusion of multiple graphs, higher-level feature extraction by GCN, and survival prediction by a Cox proportional hazard model"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "The factorized bilinear model enables to capture cross-omics features and quantify complex relations from multi-omics data. By fusing single-omics features and the cross-omics features, and simultaneously fusing multiple graphs from different omics, GCN with the generated dually fused graph could capture higher-level features for computing the survival loss in the Cox-PH model."
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "Comprehensive experimental results on real-world datasets with gene expression and microRNA expression data show that the proposed FGCNSurv method outperforms existing survival prediction methods, and imply its ability to extract complementary information for survival prediction from multi-omics data.",
+          "Main Action": "show",
+          "Arguments": {
+            "Agent": [
+              "comprehensive experimental results"
+            ],
+            "Object": {
+              "Primary Object": [
+                "that the proposed FGCNSurv method outperforms existing survival prediction methods"
+              ],
+              "Secondary Object": [
+                "its ability to extract complementary information for survival prediction from multi-omics data"
+              ]
+            },
+            "Context": [
+              "on real-world datasets with gene expression and microRNA expression data"
+            ],
+            "Purpose": [
+              "<NONE>"
+            ],
+            "Method": [
+              "<NONE>"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "imply...from multi-omics data"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "bioinfo_23_P_668",
+      "abstract": "In functional imaging studies, accurately synchronizing the time course of experimental manipulations and stimulus presentations with resulting imaging data is crucial for analysis. Current software tools lack such functionality, requiring manual processing of the experimental and imaging data, which is error-prone and potentially non-reproducible. We present VoDEx, an open-source Python library that streamlines the data management and analysis of functional imaging data. VoDEx synchronizes the experimental timeline and events (e.g., presented stimuli, recorded behavior) with imaging data. VoDEx provides tools for logging and storing the timeline annotation, and enables retrieval of imaging data based on specific time-based and manipulation-based experimental conditions.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "In functional imaging studies, accurately synchronizing the time course of experimental manipulations and stimulus presentations with resulting imaging data is crucial for analysis. Current software tools lack such functionality, requiring manual processing of the experimental and imaging data, which is error-prone and potentially non-reproducible.",
+          "Main Action": "accurately synchronizing",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "time course of experimental manipulations and stimulus presentations with resulting imaging data"
+              ],
+              "Secondary Object": [
+                "analysis"
+              ]
+            },
+            "Context": [
+              "in functional imaging studies"
+            ],
+            "Purpose": [
+              "for accurate analysis"
+            ],
+            "Method": [
+              "current software tools lack such functionality, requiring manual processing of the experimental and imaging data"
+            ],
+            "Results": [
+              "error-prone and potentially non-reproducible"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "We present VoDEx, an open-source Python library that streamlines the data management and analysis of functional imaging data. VoDEx synchronizes the experimental timeline and events (e.g., presented stimuli, recorded behavior) with imaging data. VoDEx provides tools for logging and storing the timeline annotation, and enables retrieval of imaging data based on specific time-based and manipulation-based experimental conditions.",
+          "Main Action": "present",
+          "Arguments": {
+            "Agent": [
+              "we"
+            ],
+            "Object": {
+              "Primary Object": [
+                "VoDEx, an open-source Python library"
+              ],
+              "Secondary Object": [
+                "functional imaging data"
+              ]
+            },
+            "Context": [
+              "streamline the data management and analysis of functional imaging data"
+            ],
+            "Purpose": [
+              "synchronize the experimental timeline and events with imaging data"
+            ],
+            "Method": [
+              "provide tools for logging and storing the timeline annotation, enable retrieval of imaging data based on specific time-based and manipulation-based experimental conditions"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

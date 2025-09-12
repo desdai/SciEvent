@@ -1,0 +1,406 @@
+{
+  "papers": [
+    {
+      "paper_code": "jmir_23_P_115",
+      "abstract": "Obstetric brachial palsy (OBP) is a pathology caused by complications during childbirth because of cervical spine elongation, affecting the motor and sensory innervation of the upper limbs. The most common lesion occurs on the C5 and C6 nerve branches, known as Erb-Duchenne palsy. The least common lesion is when all nerve roots are affected (C5-T1), which has the worst prognosis. Virtual reality (VR) is commonly used in neurological rehabilitation for the evaluation and treatment of physical deficits. This systematic review aims to assess the efficacy of VR in the rehabilitation of upper limb function in patients with OBP. A search was performed according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 2020 guidelines in several scientific databases—PubMed, Web of Science, PEDro, Cochrane, MEDLINE, Scopus, and CINAHL—without language or date restrictions and including articles published up to April 2023. The inclusion criteria were established according to the population, intervention, comparison, outcome, and study (PICOS) design framework: children aged <18 years diagnosed with OBP, VR therapy used in addition to conventional therapy or isolated, VR therapy compared with conventional therapy, outcomes related to OBP rehabilitation therapy, and randomized controlled trials (RCTs). The PEDro scale was used to assess the methodological quality of the RCTs, and the Cochrane Collaboration tool was used to assess the risk of bias. The Review Manager statistical software (version 5.4; The Cochrane Collaboration) was used to conduct the meta-analysis. The results were synthesized through information extraction and presented in tables and forest plots. In total, 5 RCTs were included in this systematic review, with 3 (60%) providing information for the meta-analysis. A total of 138 participants were analyzed. All the studies used semi-immersive or nonimmersive VR systems. The statistical analysis showed no favorable results for all outcomes except for the hand-to-mouth subtest of the Mallet scoring system (functional activity; standardized mean difference −0.97, 95% CI −1.67 to −0.27; P=.007). The evidence for the use of VR therapy for upper limb rehabilitation outcomes in patients with OBP was insufficient to support its efficacy and strongly recommend its use. Nevertheless, scientific literature supports the use of VR technologies for rehabilitation as it provides several advantages, such as enhancing the patient’s motivation, providing direct feedback, and focusing the patient’s attention during the intervention. Thus, the use of VR for upper limb rehabilitation in patients with OBP is still in its first stages. Small sample sizes; limited long-term analysis; lack of testing of different doses; and absence of International Classification of Functioning, Disability, and Health–related outcomes were present in the included RCTs, so further research is needed to fully understand the potential of VR technologies as a therapeutic approach for patients with OBP.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "Obstetric brachial palsy (OBP) is a pathology caused by complications during childbirth because of cervical spine elongation, affecting the motor and sensory innervation of the upper limbs. The most common lesion occurs on the C5 and C6 nerve branches, known as Erb-Duchenne palsy. The least common lesion is when all nerve roots are affected (C5-T1), which has the worst prognosis. Virtual reality (VR) is commonly used in neurological rehabilitation for the evaluation and treatment of physical deficits.",
+          "Main Action": "Virtual reality (VR) is commonly used",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "patients"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "Obstetric brachial palsy (OBP) is a pathology caused by complications during childbirth because of cervical spine elongation, affecting the motor and sensory innervation of the upper limbs.",
+              "The most common lesion occurs on the C5 and C6 nerve branches, known as Erb-Duchenne palsy. The least common lesion is when all nerve roots are affected (C5-T1), which has the worst prognosis."
+            ],
+            "Purpose": [
+              "for the evaluation and treatment of physical deficits"
+            ],
+            "Method": [
+              "neurological rehabilitation using virtual reality"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "",
+          "Text": "This systematic review aims to assess the efficacy of VR in the rehabilitation of upper limb function in patients with OBP. A search was performed according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 2020 guidelines in several scientific databases—PubMed, Web of Science, PEDro, Cochrane, MEDLINE, Scopus, and CINAHL—without language or date restrictions and including articles published up to April 2023. The inclusion criteria were established according to the population, intervention, comparison, outcome, and study (PICOS) design framework: children aged <18 years diagnosed with OBP, VR therapy used in addition to conventional therapy or isolated, VR therapy compared with conventional therapy, outcomes related to OBP rehabilitation therapy, and randomized controlled trials (RCTs). The PEDro scale was used to assess the methodological quality of the RCTs, and the Cochrane Collaboration tool was used to assess the risk of bias. The Review Manager statistical software (version 5.4; The Cochrane Collaboration) was used to conduct the meta-analysis. The results were synthesized through information extraction and presented in tables and forest plots.",
+          "Main Action": "aims to assess the efficacy",
+          "Arguments": {
+            "Agent": [
+              "this systematic review"
+            ],
+            "Object": {
+              "Primary Object": [
+                "VR in the rehabilitation of upper limb function in patients with OBP"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "a search was performed according to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) 2020 guidelines in several scientific databases—PubMed, Web of Science, PEDro, Cochrane, MEDLINE, Scopus, and CINAHL—without language or date restrictions and including articles published up to April 2023.",
+              "The inclusion criteria were established according to the population, intervention, comparison, outcome, and study (PICOS) design framework"
+            ],
+            "Purpose": [
+              "to evaluate the effectiveness of VR therapy in enhancing upper limb function recovery among OBP patients"
+            ],
+            "Method": [
+              "using PRISMA guidelines for systematic review reporting",
+              "applying PICOS framework for inclusion criteria",
+              "utilizing PEDro scale for RCT quality assessment",
+              "employing Cochrane Collaboration tool for risk of bias evaluation",
+              "conducting meta-analysis with Review Manager software version 5.4"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "results were synthesized through information extraction",
+              "presented in tables and forest plots"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential clinical applications of VR in OBP rehabilitation",
+              "possible changes in treatment protocols"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Results/Findings": "",
+          "Text": "In total, 5 RCTs were included in this systematic review, with 3 (60%) providing information for the meta-analysis. A total of 138 participants were analyzed. All the studies used semi-immersive or nonimmersive VR systems. The statistical analysis showed no favorable results for all outcomes except for the hand-to-mouth subtest of the Mallet scoring system (functional activity; standardized mean difference −0.97, 95% CI −1.67 to −0.27; P=.007).",
+          "Main Action": "Statistical analysis",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Mallet scoring system"
+              ],
+              "Secondary Object": [
+                "Functional activity"
+              ]
+            },
+            "Context": [
+              "five RCTs",
+              "three providing information for the meta-analysis",
+              "138 participants",
+              "semi-immersive or nonimmersive VR systems"
+            ],
+            "Purpose": [
+              "Evaluating the effect of VR systems on functional activities"
+            ],
+            "Method": [
+              "Analyzing data from included studies",
+              "Using the Mallet scoring system",
+              "Meta-analytic framework",
+              "Semi-immersive and nonimmersive VR systems",
+              "138 participants"
+            ],
+            "Results": [
+              "No favorable results for all outcomes",
+              "Favorable results for the hand-to-mouth subtest of the Mallet scoring system",
+              "Standardized mean difference −0.97",
+              "95% CI −1.67 to −0.27",
+              "P = .007"
+            ],
+            "Analysis": [
+              "Significant negative impact on functional activity"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Differential effects of VR systems based on application and measurement",
+              "Need for nuanced evaluations"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The evidence for the use of VR therapy for upper limb rehabilitation outcomes in patients with OBP was insufficient to support its efficacy and strongly recommend its use. Nevertheless, scientific literature supports the use of VR technologies for rehabilitation as it provides several advantages, such as enhancing the patient’s motivation, providing direct feedback, and focusing the patient’s attention during the intervention. Thus, the use of VR for upper limb rehabilitation in patients with OBP is still in its first stages. Small sample sizes; limited long-term analysis; lack of testing of different doses; and absence of International Classification of Functioning, Disability, and Health–related outcomes were present in the included RCTs, so further research is needed to fully understand the potential of VR technologies as a therapeutic approach for patients with OBP.",
+          "Main Action": "The evidence for the use of VR therapy for upper limb rehabilitation outcomes in patients with OBP was insufficient",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "VR therapy"
+              ],
+              "Secondary Object": [
+                "patients with OBP"
+              ]
+            },
+            "Context": [
+              "scientific literature supports the use of VR technologies for rehabilitation as it provides several advantages, such as enhancing the patient’s motivation, providing direct feedback, and focusing the patient’s attention during the intervention"
+            ],
+            "Purpose": [
+              "To assess whether VR is effective for upper limb rehabilitation outcomes in patients with OBP"
+            ],
+            "Method": [
+              "Small sample sizes; limited long-term analysis; lack of testing of different doses; and absence of International Classification of Functioning, Disability, and Health–related outcomes were present in the included RCTs"
+            ],
+            "Results": [
+              "The evidence was insufficient to support its efficacy"
+            ],
+            "Analysis": [
+              "Despite literature supporting VR's benefits, current research lags in certain areas"
+            ],
+            "Challenge": [
+              "Small sample sizes; limited long-term analysis; lack of testing of different doses; and absence of International Classification of Functioning, Disability, and Health–related outcomes"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Further research is needed to fully understand the potential of VR technologies as a therapeutic approach for patients with OBP"
+            ],
+            "Contradictions": [
+              "Evidence insufficient vs. literature supporting VR benefits"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "paper_code": "jmir_23_P_877",
+      "abstract": "An artificial intelligence (AI) model using chest radiography (CXR) may provide good performance in making prognoses for COVID-19. We aimed to develop and validate a prediction model using CXR based on an AI model and clinical variables to predict clinical outcomes in patients with COVID-19. This retrospective longitudinal study included patients hospitalized for COVID-19 at multiple COVID-19 medical centers between February 2020 and October 2020. Patients at Boramae Medical Center were randomly classified into training, validation, and internal testing sets (at a ratio of 8:1:1, respectively). An AI model using initial CXR images as input, a logistic regression model using clinical information, and a combined model using the output of the AI model (as CXR score) and clinical information were developed and trained to predict hospital length of stay (LOS) ≤2 weeks, need for oxygen supplementation, and acute respiratory distress syndrome (ARDS). The models were externally validated in the Korean Imaging Cohort of COVID-19 data set for discrimination and calibration. The AI model using CXR and the logistic regression model using clinical variables were suboptimal to predict hospital LOS ≤2 weeks or the need for oxygen supplementation but performed acceptably in the prediction of ARDS (AI model area under the curve [AUC] 0.782, 95% CI 0.720-0.845; logistic regression model AUC 0.878, 95% CI 0.838-0.919). The combined model performed better in predicting the need for oxygen supplementation (AUC 0.704, 95% CI 0.646-0.762) and ARDS (AUC 0.890, 95% CI 0.853-0.928) compared to the CXR score alone. Both the AI and combined models showed good calibration for predicting ARDS (P=.079 and P=.859). The combined prediction model, comprising the CXR score and clinical information, was externally validated as having acceptable performance in predicting severe illness and excellent performance in predicting ARDS in patients with COVID-19.",
+      "events": [
+        {
+          "Background/Introduction": "",
+          "Text": "An artificial intelligence (AI) model using chest radiography (CXR) may provide good performance in making prognoses for COVID-19. We aimed to develop and validate a prediction model using CXR based on an AI model and clinical variables to predict clinical outcomes in patients with COVID-19.",
+          "Main Action": "aim to develop and validate",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "a prediction model"
+              ],
+              "Secondary Object": [
+                "<NONE>"
+              ]
+            },
+            "Context": [
+              "COVID-19"
+            ],
+            "Purpose": [
+              "predict clinical outcomes in patients with COVID-19"
+            ],
+            "Method": [
+              "an AI model and clinical variables"
+            ],
+            "Results": [
+              "<NONE>"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "<NONE>"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        },
+        {
+          "Methods/Approach": "ERROR",
+          "Text": "This retrospective longitudinal study included patients hospitalized for COVID-19 at multiple COVID-19 medical centers between February 2020 and October 2020. Patients at Boramae Medical Center were randomly classified into training, validation, and internal testing sets (at a ratio of 8:1:1, respectively). An AI model using initial CXR images as input, a logistic regression model using clinical information, and a combined model using the output of the AI model (as CXR score) and clinical information were developed and trained to predict hospital length of stay (LOS) ≤2 weeks, need for oxygen supplementation, and acute respiratory distress syndrome (ARDS). The models were externally validated in the Korean Imaging Cohort of COVID-19 data set for discrimination and calibration.",
+          "Main Action": "ERROR",
+          "Arguments": {
+            "Agent": [
+              "ERROR"
+            ],
+            "Object": {
+              "Primary Object": [
+                "ERROR"
+              ],
+              "Secondary Object": [
+                "ERROR"
+              ]
+            },
+            "Context": [
+              "ERROR"
+            ],
+            "Purpose": [
+              "ERROR"
+            ],
+            "Method": [
+              "ERROR"
+            ],
+            "Results": [
+              "ERROR"
+            ],
+            "Analysis": [
+              "ERROR"
+            ],
+            "Challenge": [
+              "ERROR"
+            ],
+            "Ethical": [
+              "ERROR"
+            ],
+            "Implications": [
+              "ERROR"
+            ],
+            "Contradictions": [
+              "ERROR"
+            ]
+          },
+          "Error_Type": "NO_JSON_FOUND"
+        },
+        {
+          "Results/Findings": "",
+          "Text": "The AI model using CXR and the logistic regression model using clinical variables were suboptimal to predict hospital LOS ≤2 weeks or the need for oxygen supplementation but performed acceptably in the prediction of ARDS (AI model area under the curve [AUC] 0.782, 95% CI 0.720-0.845; logistic regression model AUC 0.878, 95% CI 0.838-0.919). The combined model performed better in predicting the need for oxygen supplementation (AUC 0.704, 95% CI 0.646-0.762) and ARDS (AUC 0.890, 95% CI 0.853-0.928) compared to the CXR score alone. Both the AI and combined models showed good calibration for predicting ARDS (P=.079 and P=.859).",
+          "Main Action": "Comparing predictive ability",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "Hospital Length of Stay (LOS)",
+                "Need for Oxygen Supplementation"
+              ],
+              "Secondary Object": [
+                "Acute Respiratory Distress Syndrome (ARDS)"
+              ]
+            },
+            "Context": [
+              "Timeframe (≤2 weeks)",
+              "Combined Model Approach"
+            ],
+            "Purpose": [
+              "Evaluating predictive accuracy of AI models"
+            ],
+            "Method": [
+              "AI Models (CXR and Logistic Regression)",
+              "Area Under Curve (AUC) Scores",
+              "Combining Predictive Methods"
+            ],
+            "Results": [
+              "Combined Model Performs Better (Higher AUC Values)",
+              "ARS Score Improvements"
+            ],
+            "Analysis": [
+              "Multi-Model Approaches Show Enhanced Performance",
+              "Better Calibration for ARDS Prediction"
+            ],
+            "Challenge": [
+              "Models Not Perfect Yet",
+              "Complexity of Integration"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "Potential for Multi-Model Enhancements",
+              "Clinical Decision Support"
+            ],
+            "Contradictions": [
+              "Initial Assumptions vs Reality",
+              "Performance Against Traditional Models"
+            ]
+          }
+        },
+        {
+          "Conclusions/Implications": "",
+          "Text": "The combined prediction model, comprising the CXR score and clinical information, was externally validated as having acceptable performance in predicting severe illness and excellent performance in predicting ARDS in patients with COVID-19.",
+          "Main Action": "was externally validated",
+          "Arguments": {
+            "Agent": [
+              "<NONE>"
+            ],
+            "Object": {
+              "Primary Object": [
+                "combined prediction model"
+              ],
+              "Secondary Object": [
+                "severe illness and ARDS in patients with COVID-19"
+              ]
+            },
+            "Context": [
+              "patients with COVID-19"
+            ],
+            "Purpose": [
+              "to predict severe illness and ARDS"
+            ],
+            "Method": [
+              "external validation"
+            ],
+            "Results": [
+              "acceptable performance in predicting severe illness and excellent performance in predicting ARDS"
+            ],
+            "Analysis": [
+              "<NONE>"
+            ],
+            "Challenge": [
+              "<NONE>"
+            ],
+            "Ethical": [
+              "<NONE>"
+            ],
+            "Implications": [
+              "potential for clinical application and improvement in patient care"
+            ],
+            "Contradictions": [
+              "<NONE>"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
