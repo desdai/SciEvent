@@ -1,5 +1,5 @@
 # SciEvent
-Raw data is saved in SciEvent_data/raw folder, it consist of all raw annotations in JSON format. 
+Raw annotated data is saved in ``SciEvent_data/raw`` folder, it consist of all raw annotations in JSON format. 
 The SciEvent dataset contains 500 scientific abstracts across 5 venues of different domains:
 - 100 abstracts from the Association for Computational Linguistics (ACL), Natural Language Processing
 - 100 abstracts from the ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), Social Computing
@@ -16,7 +16,7 @@ and each abstract is annotated with:
 
 Note that the blank entries means there is no such argument, we enforce such empty arguments to maintain structured format.
 
-We also provide raw abstracts we used, they are in SciEvent_data/raw/raw_abstracts folder.
+We also provide raw abstracts we used, they are in ``SciEvent_data/raw_abstracts`` folder.
 
 # Tuning-Based Models:
 Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 
@@ -274,14 +274,14 @@ LLMs are given same input as human to ensure fair evaluation, and all LLMs share
 Run these two files, to first preprocess the raw input:
 
 ```bash 
-bash baselines/LLM/evaluation_code/prepare_for_eval.sh
+bash baselines/LLM/evaluation_scripts/prepare_for_eval.sh
 
-python baselines/LLM/evaluation_code/filter_subset.py \
+python baselines/LLM/evaluation_scripts/filter_subset.py \
     --input SciEvent_data/LLM/data/human/human_eval/gold_event_level.json \
     --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
     --output SciEvent_data/LLM/data/human/human_eval/filtered_gold_event_level.json
 
-python baselines/LLM/evaluation_code/filter_subset.py \
+python baselines/LLM/evaluation_scripts/filter_subset.py \
     --input SciEvent_data/LLM/data/human/human_eval/pred_event_level.json \
     --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
     --output SciEvent_data/LLM/data/human/human_eval/filtered_pred_event_level.json
@@ -289,7 +289,7 @@ python baselines/LLM/evaluation_code/filter_subset.py \
 
 and then evaluate:
 
-```bash baselines/LLM/evaluation_code/EM_overlap_eval.sh```
+```bash baselines/LLM/evaluation_scripts/EM_overlap_eval.sh```
 
 results will be saved to default ```baselines/LLM/LLM_results```
 
