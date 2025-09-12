@@ -17,6 +17,10 @@ and each abstract is annotated with:
 Note that the blank entries means there is no such argument, we enforce such empty arguments to maintain structured format.
 
 We also provide raw abstracts we used, they are in SciEvent_data/raw/raw_abstracts folder.
+
+# Tuning-Based Models:
+Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 
+
 ## [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master)
 
 The following code assume your path at the repo's root ```./SciEvent```
@@ -46,8 +50,7 @@ To prepare for ablation study, we remove domain data from the training split wit
 # Default folder to save outputs "SciEvent_data/DEGREE/ablation"
 python data_scripts/DEGREE/ablate_by_domain.py
 ```
-### Model Training
-We adapt from [DEGREE's](https://github.com/PlusLabNLP/DEGREE/tree/master) E2E (End2end) training procedure with modifications. We deeply thank the contribution from the authors of the paper. 
+### Training
 
 Use following commands for training DEGREE on SciEVENT data:
 
