@@ -838,7 +838,7 @@ def main():
     print("="*80 + "\n")
     
     # --- NEW: load prompt file into the global PROMPT_TEMPLATE ---
-    PROMPT_DIR = "./baselines/LLM/prompts"  # fixed folder
+    PROMPT_DIR = "baselines/LLM/prompts"  # fixed folder
 
     def load_prompt_text(prompt_name: str, prompt_dir: str = PROMPT_DIR) -> str:
         """Return the prompt text from prompt_dir + prompt_name[.txt|.md]."""

@@ -267,10 +267,10 @@ python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/sci
 
 
 
-## LLMs & Human performance 
-LLMs are given same input as human to ensure fair evaluation, and all LLMs share same input format and output format, 
+# LLMs & Human performance 
+LLMs are given same input as human to ensure fair evaluation, and all LLMs share same input format and output format. 
 
-### Prompting
+## Prompting
 
 This section provides comprehensive guidance on running the SciEvent Large Language Model (LLM) pipeline for scientific event extraction tasks.
 
@@ -308,7 +308,7 @@ python baselines/LLM/scripts/Event_segmentation.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model meta-llama/Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --output-base-dir baselines/LLM/output/Event_segmentation \
+  --output-base-dir baselines/LLM/output/Event_Segmentation \
   --input-dir SciEvent_data/raw/domain_specific_unannotated \
   --clean-cache
 ```
@@ -316,12 +316,12 @@ python baselines/LLM/scripts/Event_segmentation.py \
 
 **OpenAI model:**
 ```bash
-python Event_segmentation_openai.py \
+python baselines/LLM/scripts/Event_segmentation_openai.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model "gpt-4.1" \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --output-base-dir ./baselines/LLM/output/Event_Segmentation \
-  --input-dir ./SciEvent_data/raw/domain_specific_unannotated \
+  --output-base-dir baselines/LLM/output/Event_Segmentation \
+  --input-dir SciEvent_data/raw/domain_specific_unannotated \
   --api-key "YOUR_API_KEY" \
   --max-concurrent 5
 ```
@@ -330,15 +330,15 @@ python Event_segmentation_openai.py \
 
 After generating raw output, extract the structured segments:
 
+Here the supported model names is the sub-directory of above model names, namely: ``"Qwen2.5-7B-Instruct"``, ``"Meta-Llama-3.1-8B-Instruct"``, ``"DeepSeek-R1-Distill-Llama-8B"`` or ``gpt-4.1``
 ```bash
-python LLM_ES_extraction.py \
+python baselines/LLM/scripts/LLM_ES_extraction.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model-name Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
   --base-dir ./baselines/LLM/output/Event_Segmentation \
   --input-dir ./SciEvent_data/raw/domain_specific_unannotated
 ```
-
 
 ### 2. Event Extraction
 
@@ -350,24 +350,25 @@ Choose one approach:
 
 Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"``
 
+Prompts choices are any prompt ending with ``_Event_Extraction.txt`` in this folder ``baselines/LLM/prompts``
+
 ```bash
-python Event_extraction.py \
+python baselines/LLM/scripts/Event_extraction.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model "meta-llama/Meta-Llama-3.1-8B-Instruct"\
   --prompt "Few-shot-2_Event_Extraction" \
-  --output-base-dir ./baselines/LLM/output/Event_Extraction \
-  --input-dir ./SciEvent_data/raw/domain_specific_unannotated
+  --output-base-dir baselines/LLM/output/Event_Extraction \
+  --input-dir SciEvent_data/raw/domain_specific_unannotated
 ```
-
 
 **Standard Event Extraction (OpenAI):**
 ```bash
-python Event_extraction_openai.py \
+python baselines/LLM/scripts/Event_extraction_openai.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model "gpt-4.1" \
   --prompt "Few-shot-2_Event_Extraction" \
-  --output-base-dir ./baselines/LLM/output/Event_Extraction \
-  --input-dir ./SciEvent_data/raw/domain_specific_unannotated
+  --output-base-dir baselines/LLM/output/Event_Extraction \
+  --input-dir SciEvent_data/raw/domain_specific_unannotated
   --api-key "YOUR_API_KEY" \
   --max-concurrent 5
 ```
@@ -382,7 +383,7 @@ Only ``gpt-4.1``is experimented using ``MODEL_TYPE = openai``. If the API call s
 
 **Predicting Event Type and Extraction:**
 ```bash
-  python Pred_Event_Type.py \
+  python baselines/LLM/scripts/Pred_Event_Type.py \
     --domains ACL BIOINFO CSCW DH JMIR \
     --model "meta-llama/Meta-Llama-3.1-8B-Instruct" \
     --model-type huggingface \
@@ -392,7 +393,7 @@ Only ``gpt-4.1``is experimented using ``MODEL_TYPE = openai``. If the API call s
 
 **Providing True Event Type and Extraction:**
 ```bash
-  python True_Event_type.py \
+  python baselines/LLM/scripts/True_Event_type.py \
     --domains ACL BIOINFO CSCW DH JMIR \
     --model "meta-llama/Meta-Llama-3.1-8B-Instruct" \
     --model-type huggingface \
@@ -405,7 +406,7 @@ Only ``gpt-4.1``is experimented using ``MODEL_TYPE = openai``. If the API call s
 All event extraction approaches generate raw text files that must be processed into structured JSON format:
 
 ```bash
-python LLM_EE_extraction.py \
+python baselines/LLM/scripts/LLM_EE_extraction.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --prompt-template [PROMPT_TEMPLATE] \
   --model-name "meta-llama/Meta-Llama-3.1-8B-Instruct"
@@ -419,7 +420,7 @@ Default input folder: ``./SciEvent_data/raw/domain_specific_unannotated``, defau
 
 ### LLM Evaluation:
 
-We collected the above output into data folder ``SciEvent_data/LLM/data`` for your easier access, the data is identical. We deliberately keep data in both LLM output path ``baselines/LLM/output`` and data storage path ``SciEvent_data/LLM/data`` to allow skipping prompting and directly running evaluation.
+We collected the above output into data folder ``SciEvent_data/LLM`` for your easier access, the data is identical. We deliberately keep data in both LLM output path ``baselines/LLM/output`` and data storage path ``SciEvent_data/LLM`` to allow skipping prompting and directly running evaluation.
 
 You can verify these by checking the JSON files under the same model and prompting method.
 
@@ -436,14 +437,14 @@ Results are by default in ``baselines/LLM/LLM_results/Event_Segmentation``.
 Run these two files, to first preprocess the raw input:
 
 ```bash 
-bash baselines/LLM/evaluation_scripts/prepare_for_eval.sh
+bash baselines/LLM/extraction_eval/prepare_for_eval.sh
 
-python baselines/LLM/evaluation_scripts/filter_subset.py \
+python baselines/LLM/extraction_eval/filter_subset.py \
     --input SciEvent_data/LLM/Event_Extraction/human/human_eval/gold_event_level.json \
     --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
     --output SciEvent_data/LLM/Event_Extraction/human/human_eval/filtered_gold_event_level.json
 
-python baselines/LLM/evaluation_scripts/filter_subset.py \
+python baselines/LLM/extraction_eval/filter_subset.py \
     --input SciEvent_data/LLM/Event_Extraction/human/human_eval/pred_event_level.json \
     --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
     --output SciEvent_data/LLM/Event_Extraction/human/human_eval/filtered_pred_event_level.json
@@ -451,7 +452,7 @@ python baselines/LLM/evaluation_scripts/filter_subset.py \
 
 and then evaluate:
 
-```bash baselines/LLM/evaluation_scripts/EM_overlap_eval.sh```
+```bash baselines/LLM/extraction_eval/EM_overlap_eval.sh```
 
 results will be saved to default ```baselines/LLM/LLM_results/Event_Extraction```
 

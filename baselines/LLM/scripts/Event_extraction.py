@@ -40,7 +40,7 @@ class Config:
     OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Extraction"
 
     # Prompt template name
-    # PROMPT_DIR = "./baselines/LLM/prompts"
+    # PROMPT_DIR = "baselines/LLM/prompts"
     PROMPT_TEMPLATE_NAME = "Few-shot-2_Event_Extraction" # change the prompt template name as per your requirement 
     
     # Logging
@@ -1061,7 +1061,7 @@ def main():
     print("="*80 + "\n")
     
     # --- NEW: load prompt file into the global PROMPT_TEMPLATE ---
-    PROMPT_DIR = "./baselines/LLM/prompts"  # fixed folder
+    PROMPT_DIR = "baselines/LLM/prompts"  # fixed folder
 
     def load_prompt_text(prompt_name: str, prompt_dir: str = PROMPT_DIR) -> str:
         """Return the prompt text from prompt_dir + prompt_name[.txt|.md]."""

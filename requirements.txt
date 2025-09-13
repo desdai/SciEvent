@@ -6,6 +6,6 @@ sentencepiece==0.2.0  # Required for tokenization
 protobuf==4.25.3  # Required for model loading
 safetensors==0.4.2  # Faster model loading
 typing-extensions>=4.12.2  # Required by pydantic
-xformers==0.0.29.post3  # For efficient attention computation
+# xformers==0.0.29.post3  # For efficient attention computation
 pydantic>=2.10.6  # For data validation
 tqdm>=4.65.0 
