@@ -49,12 +49,14 @@ class Config:
     MODEL_CACHE_DIR = "./model_cache"
     
     # Folder structure
-    BASE_DIR = "./SciEvent_data"
-    INPUT_DIR = f"{BASE_DIR}/raw"
-    OUTPUT_BASE_DIR = "./output/event_extraction"
-    
+    # BASE_DIR = "./SciEvent_data"
+    # INPUT_DIR = f"{BASE_DIR}/raw"
+    # OUTPUT_BASE_DIR = "./output/event_extraction"
+    INPUT_DIR = "./SciEvent_data/raw/domain_specific_unannotated"
+    OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Extraction"
+
     # Prompt template name
-    PROMPT_TEMPLATE_NAME = "True_Event_Type" # change the prompt template as per requirement 
+    PROMPT_TEMPLATE_NAME = "Zero-shot_True_Event_Type" # change the prompt template as per requirement 
     
     # Logging
     LOG_LEVEL = logging.INFO
@@ -253,7 +255,7 @@ class RawOutputExtractor:
         """Create the directory structure for outputs."""
         # Create base output directory structure
         model_name = self.config.OPENAI_MODEL if self.config.MODEL_TYPE == "openai" else self.config.MODEL_NAME.split('/')[-1]
-        self.output_dir = Path(f"{self.config.OUTPUT_BASE_DIR}/{self.config.PROMPT_TEMPLATE_NAME}/{model_name}/{self.domain}")
+        self.output_dir = Path(f"{self.config.OUTPUT_BASE_DIR}/{model_name}/{self.config.PROMPT_TEMPLATE_NAME}/{self.domain}")
         
         # Create raw output and logs directories - using same structure as original
         self.raw_output_dir = self.output_dir / "raw_output"

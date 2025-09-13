@@ -26,12 +26,14 @@ class Config:
     MODEL_NAME = "gpt-4.1"  # Default model, can be changed.
     
     # Folder structure
-    BASE_DIR = "./SciEvent_data" # check the input data file location
-    INPUT_DIR = f"{BASE_DIR}/raw"
-    OUTPUT_BASE_DIR = "./output/event_extraction"
+    # BASE_DIR = "./SciEvent_data/raw"
+    # INPUT_DIR = f"{BASE_DIR}/domain_specific_unannotated"
+    # OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Extraction"
+    INPUT_DIR = "./SciEvent_data/raw/domain_specific_unannotated"
+    OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Extraction"
     
     # Prompt template name
-    PROMPT_TEMPLATE_NAME = "Fewshot-2" # you can change the name of the prompt template
+    PROMPT_TEMPLATE_NAME = "Few-shot-2_Event_Extraction" # you can change the name of the prompt template
     
     # Logging
     LOG_LEVEL = logging.INFO
@@ -44,264 +46,264 @@ class Config:
 
 # Prompt template
 
-PROMPT_TEMPLATE = """
-You are an expert argument annotator. Given a part of a scientific abstract, you need to identify the key trigger for the event (the main verb or action that signals an important research activity) and annotate the abstract with the corresponding argument components related to this trigger. Extractions should capture complete phrases around this key trigger and be organized in a single JSON format, containing only what is explicitly stated in the text without adding any interpretation.
+# PROMPT_TEMPLATE = """
+# You are an expert argument annotator. Given a part of a scientific abstract, you need to identify the key trigger for the event (the main verb or action that signals an important research activity) and annotate the abstract with the corresponding argument components related to this trigger. Extractions should capture complete phrases around this key trigger and be organized in a single JSON format, containing only what is explicitly stated in the text without adding any interpretation.
 
-### Abstract Segment to Analyze:
+# ### Abstract Segment to Analyze:
 
-{abstract}
+# {abstract}
 
-### Argument Components to Extract:
+# ### Argument Components to Extract:
 
-Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
+# Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
 
-Agent: Who or what is performing this main action? 
+# Agent: Who or what is performing this main action? 
 
-Object:
-- Primary Object: What is directly receiving or affected by the main action? 
-- Secondary Object: What is a secondary entity also receiving the main action?
+# Object:
+# - Primary Object: What is directly receiving or affected by the main action? 
+# - Secondary Object: What is a secondary entity also receiving the main action?
 
-Context: What provides foundational or situational information of the event?
+# Context: What provides foundational or situational information of the event?
 
-Purpose: What is the purpose or aim of the event?
+# Purpose: What is the purpose or aim of the event?
 
-Method: What techniques, tools, approaches, or frameworks are used in the event?
+# Method: What techniques, tools, approaches, or frameworks are used in the event?
 
-Results: What are the outcomes, observations or findings of the event?
+# Results: What are the outcomes, observations or findings of the event?
 
-Analysis: What are the interpretations or explanations of other arguments?
+# Analysis: What are the interpretations or explanations of other arguments?
 
-Challenge: What are the constraints or weaknesses of the event?
+# Challenge: What are the constraints or weaknesses of the event?
 
-Ethical: What are the ethical concerns, justifications or implications of the event?
+# Ethical: What are the ethical concerns, justifications or implications of the event?
 
-Implications: What is the broader significance or potential for future applications/research?
+# Implications: What is the broader significance or potential for future applications/research?
 
-Contradictions: What are the disagreements with existing knowledge?
+# Contradictions: What are the disagreements with existing knowledge?
 
-### Extraction Rules:
+# ### Extraction Rules:
 
-1. Extract complete phrases, not just single words.
-2. Only extract elements that are explicitly present. Mark missing elements as ["<NONE>"].
-3. Use the exact text from the abstract.
-4. Break down sentences when different parts fit different arguments.
-5. NEVER use the same span of text for multiple arguments - each piece of text must be assigned to exactly one argument type. However, multiple text spans can be part of the same argument (e.g., ["text span 1", "text span 2".....] can be used for a single argument type) if different parts of the text contribute to the same argument.
-6. If text could fit multiple arguments, prioritize in this order: Results > Purpose > Method > Analysis > Implication > Challenge > Contradiction > Context > Ethical
+# 1. Extract complete phrases, not just single words.
+# 2. Only extract elements that are explicitly present. Mark missing elements as ["<NONE>"].
+# 3. Use the exact text from the abstract.
+# 4. Break down sentences when different parts fit different arguments.
+# 5. NEVER use the same span of text for multiple arguments - each piece of text must be assigned to exactly one argument type. However, multiple text spans can be part of the same argument (e.g., ["text span 1", "text span 2".....] can be used for a single argument type) if different parts of the text contribute to the same argument.
+# 6. If text could fit multiple arguments, prioritize in this order: Results > Purpose > Method > Analysis > Implication > Challenge > Contradiction > Context > Ethical
 
-Here are the few-shot examples from diffrent abstracts:
+# Here are the few-shot examples from diffrent abstracts:
 
-Example 1: 
+# Example 1: 
 
-Background/Introduction Event
-For abstract: "Second language acquisition (SLA) research has extensively studied cross-linguistic transfer, the influence of linguistic structure of a speaker's native language [L1] on the successful acquisition of a foreign language [L2]. Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition). We find that NLP literature has not given enough attention to the phenomenon of negative transfer."
+# Background/Introduction Event
+# For abstract: "Second language acquisition (SLA) research has extensively studied cross-linguistic transfer, the influence of linguistic structure of a speaker's native language [L1] on the successful acquisition of a foreign language [L2]. Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition). We find that NLP literature has not given enough attention to the phenomenon of negative transfer."
 
-Output:
-{
-  "Main Action": "has extensively studied",
-  "Agent": ["Second language acquisition (SLA) research"],
-  "Object": {
-    "Primary Object": ["cross-linguistic transfer"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"],
-  "Purpose": ["<NONE>"],
-  "Method": ["<NONE>"],
-  "Results": ["<NONE>"],
-  "Analysis": ["<NONE>"],
-  "Challenge": ["NLP literature has not given enough attention to the phenomenon of negative transfer"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "has extensively studied",
+#   "Agent": ["Second language acquisition (SLA) research"],
+#   "Object": {
+#     "Primary Object": ["cross-linguistic transfer"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"],
+#   "Purpose": ["<NONE>"],
+#   "Method": ["<NONE>"],
+#   "Results": ["<NONE>"],
+#   "Analysis": ["<NONE>"],
+#   "Challenge": ["NLP literature has not given enough attention to the phenomenon of negative transfer"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Methods/Approach Event
-For abstract: "To understand patterns of both positive and negative transfer between L1 and L2, we model sequential second language acquisition in LMs. Further, we build a Multilingual Age Ordered CHILDES (MAO-CHILDES) — a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese — to understand the degree to which native Child-Directed Speech (CDS) [L1] can help or conflict with English language acquisition [L2]."
+# Methods/Approach Event
+# For abstract: "To understand patterns of both positive and negative transfer between L1 and L2, we model sequential second language acquisition in LMs. Further, we build a Multilingual Age Ordered CHILDES (MAO-CHILDES) — a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese — to understand the degree to which native Child-Directed Speech (CDS) [L1] can help or conflict with English language acquisition [L2]."
 
-Output:
-{
-  "Main Action": "model",
-  "Agent": ["we"],
-  "Object": {
-    "Primary Object": ["sequential second language acquisition in LMs"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["<NONE>"],
-  "Purpose": ["To understand patterns of both positive and negative transfer between L1 and L2"],
-  "Method": ["we build a Multilingual Age Ordered CHILDES (MAO-CHILDES)"],
-  "Results": ["<NONE>"],
-  "Analysis": ["a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese"],
-  "Challenge": ["<NONE>"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "model",
+#   "Agent": ["we"],
+#   "Object": {
+#     "Primary Object": ["sequential second language acquisition in LMs"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["<NONE>"],
+#   "Purpose": ["To understand patterns of both positive and negative transfer between L1 and L2"],
+#   "Method": ["we build a Multilingual Age Ordered CHILDES (MAO-CHILDES)"],
+#   "Results": ["<NONE>"],
+#   "Analysis": ["a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese"],
+#   "Challenge": ["<NONE>"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Results/Findings Event
-For abstract: "To examine the impact of native CDS, we use the TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020) and find that, as in human SLA, language family distance predicts more negative transfer. Additionally, we find that conversational speech data shows greater facilitation for language acquisition than scripted speech data."
+# Results/Findings Event
+# For abstract: "To examine the impact of native CDS, we use the TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020) and find that, as in human SLA, language family distance predicts more negative transfer. Additionally, we find that conversational speech data shows greater facilitation for language acquisition than scripted speech data."
 
-Output:
-{
-  "Main Action": "use",
-  "Agent": ["we"],
-  "Object": {
-    "Primary Object": ["the TILT-based cross lingual transfer learning approach"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["<NONE>"],
-  "Purpose": ["To examine the impact of native CDS"],
-  "Method": ["<NONE>"],
-  "Results": ["as in human SLA, language family distance predicts more negative transfer", "conversational speech data shows greater facilitation for language acquisition than scripted speech data"],
-  "Analysis": ["<NONE>"],
-  "Challenge": ["<NONE>"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "use",
+#   "Agent": ["we"],
+#   "Object": {
+#     "Primary Object": ["the TILT-based cross lingual transfer learning approach"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["<NONE>"],
+#   "Purpose": ["To examine the impact of native CDS"],
+#   "Method": ["<NONE>"],
+#   "Results": ["as in human SLA, language family distance predicts more negative transfer", "conversational speech data shows greater facilitation for language acquisition than scripted speech data"],
+#   "Analysis": ["<NONE>"],
+#   "Challenge": ["<NONE>"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Conclusions/Implications Event
-For abstract: "Our findings call for further research using our novel Transformer-based SLA models and we would like to encourage it by releasing our code, data, and models."
+# Conclusions/Implications Event
+# For abstract: "Our findings call for further research using our novel Transformer-based SLA models and we would like to encourage it by releasing our code, data, and models."
 
-Output:
-{
-  "Main Action": "call for",
-  "Agent": ["Our findings"],
-  "Object": {
-    "Primary Object": ["further research"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["<NONE>"],
-  "Purpose": ["<NONE>"],
-  "Method": ["using our novel Transformer-based SLA models"],
-  "Results": ["<NONE>"],
-  "Analysis": ["<NONE>"],
-  "Challenge": ["<NONE>"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["we would like to encourage it by releasing our code, data, and models"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "call for",
+#   "Agent": ["Our findings"],
+#   "Object": {
+#     "Primary Object": ["further research"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["<NONE>"],
+#   "Purpose": ["<NONE>"],
+#   "Method": ["using our novel Transformer-based SLA models"],
+#   "Results": ["<NONE>"],
+#   "Analysis": ["<NONE>"],
+#   "Challenge": ["<NONE>"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["we would like to encourage it by releasing our code, data, and models"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Example 2: 
+# Example 2: 
 
-Background/Introduction Event
-For abstract: "Live streaming has become a popular activity world-wide that has warranted research attention on its privacy related issues. For instance, bystanders' privacy, or the privacy of third-parties captured by streamers, has been increasingly studied as live streaming has become almost ubiquitous in both public and private spaces in many countries. While prior work has studied bystanders' privacy concerns, a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it. Understanding streamers' considerations towards bystanders' privacy is vital because streamers are the ones who have direct control over whether and how bystanders' information is disclosed."
+# Background/Introduction Event
+# For abstract: "Live streaming has become a popular activity world-wide that has warranted research attention on its privacy related issues. For instance, bystanders' privacy, or the privacy of third-parties captured by streamers, has been increasingly studied as live streaming has become almost ubiquitous in both public and private spaces in many countries. While prior work has studied bystanders' privacy concerns, a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it. Understanding streamers' considerations towards bystanders' privacy is vital because streamers are the ones who have direct control over whether and how bystanders' information is disclosed."
 
-Output:
-{
-  "Main Action": "has become",
-  "Agent": ["Live streaming"],
-  "Object": {
-    "Primary Object": ["a popular activity world-wide"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["bystanders' privacy", "prior work has studied bystanders' privacy concerns", "streamers' considerations towards bystanders' privacy"],
-  "Purpose": ["<NONE>"],
-  "Method": ["<NONE>"],
-  "Results": ["<NONE>"],
-  "Analysis": ["because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"],
-  "Challenge": ["a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "has become",
+#   "Agent": ["Live streaming"],
+#   "Object": {
+#     "Primary Object": ["a popular activity world-wide"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["bystanders' privacy", "prior work has studied bystanders' privacy concerns", "streamers' considerations towards bystanders' privacy"],
+#   "Purpose": ["<NONE>"],
+#   "Method": ["<NONE>"],
+#   "Results": ["<NONE>"],
+#   "Analysis": ["because streamers are the ones who have direct control over whether and how bystanders' information is disclosed"],
+#   "Challenge": ["a gap exists in understanding how streamers consider bystanders' privacy and the steps they take (or do not take) to preserve it"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Methods/Approach Event
-For abstract: "To address this gap, we conducted an interview study with 25 Chinese streamers to understand their considerations and practices regarding bystanders' privacy in live streaming."
+# Methods/Approach Event
+# For abstract: "To address this gap, we conducted an interview study with 25 Chinese streamers to understand their considerations and practices regarding bystanders' privacy in live streaming."
 
-Output:
-{
-  "Main Action": "conducted",
-  "Agent": ["we"],
-  "Object": {
-    "Primary Object": ["an interview study"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["<NONE>"],
-  "Purpose": ["to understand their considerations and practices regarding bystanders' privacy in live streaming"],
-  "Method": ["<NONE>"],
-  "Results": ["<NONE>"],
-  "Analysis": ["<NONE>"],
-  "Challenge": ["<NONE>"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "conducted",
+#   "Agent": ["we"],
+#   "Object": {
+#     "Primary Object": ["an interview study"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["<NONE>"],
+#   "Purpose": ["to understand their considerations and practices regarding bystanders' privacy in live streaming"],
+#   "Method": ["<NONE>"],
+#   "Results": ["<NONE>"],
+#   "Analysis": ["<NONE>"],
+#   "Challenge": ["<NONE>"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Results/Findings Event
-For abstract: "We found that streamers cared about bystanders' privacy and evaluated possible privacy violations to bystanders from several perspectives. To protect bystanders from privacy violations, streamers primarily relied on technical, behavioral, and collaborative strategies. Our results also indicated that current streaming platforms lacked features that helped streamers seamlessly manage bystanders' privacy and involved bystanders into their privacy decision-making."
+# Results/Findings Event
+# For abstract: "We found that streamers cared about bystanders' privacy and evaluated possible privacy violations to bystanders from several perspectives. To protect bystanders from privacy violations, streamers primarily relied on technical, behavioral, and collaborative strategies. Our results also indicated that current streaming platforms lacked features that helped streamers seamlessly manage bystanders' privacy and involved bystanders into their privacy decision-making."
 
-Output:
-{
-  "Main Action": "found",
-  "Agent": ["We"],
-  "Object": {
-    "Primary Object": ["streamers cared about bystanders' privacy"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["<NONE>"],
-  "Purpose": ["To protect bystanders from privacy violations"],
-  "Method": ["evaluated possible privacy violations to bystanders from several perspectives"],
-  "Results": ["streamers primarily relied on technical, behavioral, and collaborative strategies", "current streaming platforms lacked features"],
-  "Analysis": ["<NONE>"],
-  "Challenge": ["<NONE>"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "found",
+#   "Agent": ["We"],
+#   "Object": {
+#     "Primary Object": ["streamers cared about bystanders' privacy"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["<NONE>"],
+#   "Purpose": ["To protect bystanders from privacy violations"],
+#   "Method": ["evaluated possible privacy violations to bystanders from several perspectives"],
+#   "Results": ["streamers primarily relied on technical, behavioral, and collaborative strategies", "current streaming platforms lacked features"],
+#   "Analysis": ["<NONE>"],
+#   "Challenge": ["<NONE>"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
-Conclusions/Implications Event
-For abstract: "Applying the theoretical lens of collective privacy management, we discuss implications for the design of live streaming systems to support streamers in protecting bystanders' privacy."
+# Conclusions/Implications Event
+# For abstract: "Applying the theoretical lens of collective privacy management, we discuss implications for the design of live streaming systems to support streamers in protecting bystanders' privacy."
 
-Output:
-{
-  "Main Action": "discuss",
-  "Agent": ["we"],
-  "Object": {
-    "Primary Object": ["implications"],
-    "Secondary Object": ["<NONE>"]
-  },
-  "Context": ["Applying the theoretical lens of collective privacy management"],
-  "Purpose": ["to support streamers in protecting bystanders' privacy"],
-  "Method": ["<NONE>"],
-  "Results": ["<NONE>"],
-  "Analysis": ["<NONE>"],
-  "Challenge": ["<NONE>"],
-  "Ethical": ["<NONE>"],
-  "Implications": ["<NONE>"],
-  "Contradictions": ["<NONE>"]
-}
+# Output:
+# {
+#   "Main Action": "discuss",
+#   "Agent": ["we"],
+#   "Object": {
+#     "Primary Object": ["implications"],
+#     "Secondary Object": ["<NONE>"]
+#   },
+#   "Context": ["Applying the theoretical lens of collective privacy management"],
+#   "Purpose": ["to support streamers in protecting bystanders' privacy"],
+#   "Method": ["<NONE>"],
+#   "Results": ["<NONE>"],
+#   "Analysis": ["<NONE>"],
+#   "Challenge": ["<NONE>"],
+#   "Ethical": ["<NONE>"],
+#   "Implications": ["<NONE>"],
+#   "Contradictions": ["<NONE>"]
+# }
 
 
-### Output Format:
-{
-  "Main Action": "EXACT TEXT or <NONE>",
-  "Agent": ["EXACT TEXT or <NONE>"],
-   "Object": {
-    "Primary Object": ["EXACT TEXT or <NONE>"],
-    "Secondary Object": ["EXACT TEXT or <NONE>"]
-  },
-  "Context": ["EXACT TEXT or <NONE>"],
-  "Purpose": ["EXACT TEXT or <NONE>"],
-  "Method": ["EXACT TEXT or <NONE>"],
-  "Results": ["EXACT TEXT or <NONE>"],
-  "Analysis": ["EXACT TEXT or <NONE>"],
-  "Challenge": ["EXACT TEXT or <NONE>"],
-  "Ethical": ["EXACT TEXT or <NONE>"],
-  "Implications": ["EXACT TEXT or <NONE>"],
-  "Contradictions": ["EXACT TEXT or <NONE>"]
-}
+# ### Output Format:
+# {
+#   "Main Action": "EXACT TEXT or <NONE>",
+#   "Agent": ["EXACT TEXT or <NONE>"],
+#    "Object": {
+#     "Primary Object": ["EXACT TEXT or <NONE>"],
+#     "Secondary Object": ["EXACT TEXT or <NONE>"]
+#   },
+#   "Context": ["EXACT TEXT or <NONE>"],
+#   "Purpose": ["EXACT TEXT or <NONE>"],
+#   "Method": ["EXACT TEXT or <NONE>"],
+#   "Results": ["EXACT TEXT or <NONE>"],
+#   "Analysis": ["EXACT TEXT or <NONE>"],
+#   "Challenge": ["EXACT TEXT or <NONE>"],
+#   "Ethical": ["EXACT TEXT or <NONE>"],
+#   "Implications": ["EXACT TEXT or <NONE>"],
+#   "Contradictions": ["EXACT TEXT or <NONE>"]
+# }
 
-### IMPORTANT INSTRUCTIONS:
-- You MUST return ONLY ONE JSON structure.
-- NO explanation text, thinking, or commentary before or after the JSON.
-- NEVER repeat the JSON structure.
-- ALL fields must use arrays with ["<NONE>"] for missing arguments.
-- Follow the EXACT format shown in the template.
-- ONLY extract arguments that are explicitly present in the text. DO NOT hallucinate or add any information not found in the abstract.
-- Carefully study the few-shot examples to understand how arguments should be correctly annotated from the text across different domains and event types.
+# ### IMPORTANT INSTRUCTIONS:
+# - You MUST return ONLY ONE JSON structure.
+# - NO explanation text, thinking, or commentary before or after the JSON.
+# - NEVER repeat the JSON structure.
+# - ALL fields must use arrays with ["<NONE>"] for missing arguments.
+# - Follow the EXACT format shown in the template.
+# - ONLY extract arguments that are explicitly present in the text. DO NOT hallucinate or add any information not found in the abstract.
+# - Carefully study the few-shot examples to understand how arguments should be correctly annotated from the text across different domains and event types.
 
-### Output (JSON only)
+# ### Output (JSON only)
 
-"""
+# """
 class RawOutputExtractor:
     def __init__(self, config: Config, domain: str):
         """Initialize the raw output extractor with configuration and domain."""
@@ -330,7 +332,7 @@ class RawOutputExtractor:
     def _setup_directories(self):
         """Create the directory structure for outputs."""
         # Create base output directory structure
-        self.output_dir = Path(f"{self.config.OUTPUT_BASE_DIR}/{self.config.PROMPT_TEMPLATE_NAME}/{self.config.MODEL_NAME}/{self.domain}")
+        self.output_dir = Path(f"{self.config.OUTPUT_BASE_DIR}/{self.config.MODEL_NAME}/{self.config.PROMPT_TEMPLATE_NAME}/{self.domain}")
         
         # Create raw output and logs directories - using same structure as original
         self.raw_output_dir = self.output_dir / "raw_output"
@@ -806,6 +808,10 @@ def main():
     parser.add_argument("--domain", type=str, required=True, help="Domain to process (e.g., ACL, JMIR, CSCW)")
     parser.add_argument("--model", type=str, default=Config.MODEL_NAME, help="OpenAI model name (e.g., gpt-3.5-turbo, gpt-4)")
     parser.add_argument("--prompt", type=str, default=Config.PROMPT_TEMPLATE_NAME, help="Name of the prompt template")
+    parser.add_argument("--output-base-dir", type=str, default=Config.OUTPUT_BASE_DIR,
+                    help="Base directory for all outputs (default: ./baselines/LLM/output/Event_Extraction)")
+    parser.add_argument("--input-dir", type=str, default=Config.INPUT_DIR,
+                    help="Base directory for domain-specific input JSON files (default: ./SciEvent_data/raw/domain_specific_unannotated)")
     parser.add_argument("--api-key", type=str, help="OpenAI API key (overrides config)")
     
     args = parser.parse_args()
@@ -814,7 +820,9 @@ def main():
     config = Config()
     config.MODEL_NAME = args.model
     config.PROMPT_TEMPLATE_NAME = args.prompt
-    
+    config.OUTPUT_BASE_DIR = args.output_base_dir
+    config.INPUT_DIR = args.input_dir
+
     # Override API key if provided
     if args.api_key:
         config.OPENAI_API_KEY = args.api_key
@@ -829,6 +837,40 @@ def main():
     print(f"API URL:           {config.OPENAI_API_URL}")
     print("="*80 + "\n")
     
+    # --- NEW: load prompt file into the global PROMPT_TEMPLATE ---
+    PROMPT_DIR = "./baselines/LLM/prompts"  # fixed folder
+
+    def load_prompt_text(prompt_name: str, prompt_dir: str = PROMPT_DIR) -> str:
+        """Return the prompt text from prompt_dir + prompt_name[.txt|.md]."""
+        from pathlib import Path
+        base = Path(prompt_dir)
+        name = prompt_name
+
+        # if user passed an explicit extension, use it
+        if Path(name).suffix:
+            p = base / name
+            if p.exists():
+                return p.read_text(encoding="utf-8")
+            raise FileNotFoundError(f"Prompt file not found: {p}")
+
+        # otherwise try common extensions
+        for cand in (base / f"{name}.txt", base / f"{name}.md"):
+            if cand.exists():
+                return cand.read_text(encoding="utf-8")
+
+        raise FileNotFoundError(
+            f"Prompt template '{name}' not found in {base} "
+            f"(tried .txt and .md)."
+        )
+
+    global PROMPT_TEMPLATE
+    PROMPT_TEMPLATE = load_prompt_text(config.PROMPT_TEMPLATE_NAME)
+
+    # (Optional) sanity check
+    if "{abstract}" not in PROMPT_TEMPLATE:
+        print("[WARN] Prompt template missing '{abstract}' placeholder.")
+    # --- END NEW ---
+
     # Check if API key is set
     if not config.OPENAI_API_KEY or config.OPENAI_API_KEY == "your_api_key_here":
         print("ERROR: OpenAI API key not set. Please set it in the config or provide it with --api-key.")

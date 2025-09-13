@@ -270,7 +270,165 @@ python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/sci
 ## LLMs & Human performance 
 LLMs are given same input as human to ensure fair evaluation, and all LLMs share same input format and output format, 
 
-### Evaluation:
+### Prompting
+
+This section provides comprehensive guidance on running the SciEvent Large Language Model (LLM) pipeline for scientific event extraction tasks.
+
+The pipeline consists of two main tasks:
+1. **Event Segmentation** - Breaking abstracts into semantic segments
+2. **Event Extraction** - Extracting argument structures from events
+
+Each task requires running a script to generate raw output, followed by a post-processing script to extract structured results.
+
+---
+
+### Installation
+
+Install the required dependencies:
+
+```bash
+# Install dependencies using pip
+pip install -r requirements.txt
+```
+
+---
+
+### 1. Event Segmentation
+
+**Step 1a: Generate Raw Segmentation Output**
+
+Choose one approach:
+
+**Open-source model:**
+
+Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"``
+
+```bash
+python Event_segmentation.py \
+  --domains ACL BIOINFO CSCW DH JMIR \
+  --model meta-llama/Meta-Llama-3.1-8B-Instruct \
+  --prompt-template Zero-Shot_Event_Segmentation \
+  --output-base-dir ./baselines/LLM/output/Event_segmentation \
+  --input-dir ./SciEvent_data/raw/domain_specific_unannotated \
+  --clean-cache
+```
+
+
+**OpenAI model:**
+```bash
+python Event_segmentation_openai.py \
+  --domains ACL BIOINFO CSCW DH JMIR \
+  --model "gpt-4.1" \
+  --prompt-template Zero-Shot_Event_Segmentation \
+  --output-base-dir ./baselines/LLM/output/Event_Segmentation \
+  --input-dir ./SciEvent_data/raw/domain_specific_unannotated \
+  --api-key "YOUR_API_KEY" \
+  --max-concurrent 5
+```
+
+**Step 1b: Process Raw Segmentation Output**
+
+After generating raw output, extract the structured segments:
+
+```bash
+python LLM_ES_extraction.py \
+  --domains ACL BIOINFO CSCW DH JMIR \
+  --model-name Meta-Llama-3.1-8B-Instruct \
+  --prompt-template Zero-Shot_Event_Segmentation \
+  --base-dir ./baselines/LLM/output/Event_Segmentation \
+  --input-dir ./SciEvent_data/raw/domain_specific_unannotated
+```
+
+
+### 2. Event Extraction
+
+**Step 2a: Generate Raw Extraction Output**
+
+Choose one approach:
+
+**Standard Event Extraction (open-source):**
+
+Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"``
+
+```bash
+python Event_extraction.py \
+  --domains ACL BIOINFO CSCW DH JMIR \
+  --model "meta-llama/Meta-Llama-3.1-8B-Instruct"\
+  --prompt "Few-shot-2_Event_Extraction" \
+  --output-base-dir ./baselines/LLM/output/Event_Extraction \
+  --input-dir ./SciEvent_data/raw/domain_specific_unannotated
+```
+
+
+**Standard Event Extraction (OpenAI):**
+```bash
+python Event_extraction_openai.py \
+  --domains ACL BIOINFO CSCW DH JMIR \
+  --model "gpt-4.1" \
+  --prompt "Few-shot-2_Event_Extraction" \
+  --output-base-dir ./baselines/LLM/output/Event_Extraction \
+  --input-dir ./SciEvent_data/raw/domain_specific_unannotated
+  --api-key "YOUR_API_KEY" \
+  --max-concurrent 5
+```
+
+#### Event Type Ablation
+
+Following use same input and output folder as above.
+
+Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"`` if ``MODEL_TYPE = huggingface``.
+
+Only ``gpt-4.1``is experimented using ``MODEL_TYPE = openai``. If the API call supports, you can change into any other LLMs.
+
+**Predicting Event Type and Extraction:**
+```bash
+  python Pred_Event_Type.py \
+    --domains ACL BIOINFO CSCW DH JMIR \
+    --model "meta-llama/Meta-Llama-3.1-8B-Instruct" \
+    --model-type huggingface \
+    --prompt "Pred_Event_Type" \
+    --clean-cache
+```
+
+**Providing True Event Type and Extraction:**
+```bash
+  python True_Event_type.py \
+    --domains ACL BIOINFO CSCW DH JMIR \
+    --model "meta-llama/Meta-Llama-3.1-8B-Instruct" \
+    --model-type huggingface \
+    --prompt "True_Event_Type" \
+    --clean-cache
+```
+
+**Step 2b: Process Raw Extraction Output**
+
+All event extraction approaches generate raw text files that must be processed into structured JSON format:
+
+```bash
+python LLM_EE_extraction.py \
+  --domains ACL BIOINFO CSCW DH JMIR \
+  --prompt-template [PROMPT_TEMPLATE] \
+  --model-name "meta-llama/Meta-Llama-3.1-8B-Instruct"
+```
+
+Where `[PROMPT_TEMPLATE]` should match the prompt template used in Step 2a:
+- For Event_extraction.py or Event_extraction_openai.py: Use `"One-Shot_Event_Extraction"` or other extraction templates
+- For Pred_Event_Type.py: Use `"Zero-shot_Pred_Event_Type"`
+- For True_Event_type.py: Use `"Zero-shot_True_Event_Type"`
+Default input folder: ``./SciEvent_data/raw/domain_specific_unannotated``, default base folder: ``./baselines/LLM/output/Event_Extraction``
+
+### LLM Evaluation:
+
+
+<!-- todo write an intermediator code from the baselines/LLM/output -> SciEvent_data/LLM/data -->
+
+### 1. Event Segmentation
+
+
+
+
+
+### 2. Event Extraction
 Run these two files, to first preprocess the raw input:
 
 ```bash 
@@ -294,6 +452,3 @@ and then evaluate:
 results will be saved to default ```baselines/LLM/LLM_results```
 
 ```baselines/LLM/LLM_results/human.txt``` is the default path for human performance, this is compared to previous models' human_subset to demonstrate both finetuned and LLMs baselines's gap with human performance. LLMs' subset results are saved in ```baselines/LLM/LLM_results``` as well, ending with ```-subset.txt```
-
-# LLM Prompting
-

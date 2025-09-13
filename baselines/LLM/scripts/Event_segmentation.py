@@ -17,17 +17,19 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"  # Use GPU 1
 class Config:
     # Model settings - add you models
     #MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
-    MODEL_NAME = "meta-llama/Meta-Llama-3-8B-Instruct"
+    MODEL_NAME = "meta-llama/Meta-Llama-3.1-8B-Instruct"
     #MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
     MODEL_CACHE_DIR = "./model_cache"
 
     # Folder structure
-    BASE_DIR = "./SciEvent_data/raw"
-    INPUT_DIR = f"{BASE_DIR}/domain_specific_unannotated"
-    OUTPUT_BASE_DIR = "./output/event_segmentation"
+    # BASE_DIR = "./SciEvent_data/raw"
+    # INPUT_DIR = f"{BASE_DIR}/domain_specific_unannotated"
+    # OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Segmentation"
+    INPUT_DIR = "./SciEvent_data/raw/domain_specific_unannotated"
+    OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Segmentation"
     
     # Prompt template name
-    PROMPT_TEMPLATE_NAME = "MP" # change the prompt template as per requirement 
+    PROMPT_TEMPLATE_NAME = "Zero-Shot_Event_Segmentation"
     
     # Logging
     LOG_LEVEL = logging.INFO
@@ -141,7 +143,7 @@ class RawChunkOutputExtractor:
     def _setup_directories(self):
         """Create the directory structure for outputs."""
         # Create base output directory structure
-        self.output_dir = Path(f"{self.config.OUTPUT_BASE_DIR}/{self.config.PROMPT_TEMPLATE_NAME}/{self.config.MODEL_NAME.split('/')[-1]}/{self.domain}")
+        self.output_dir = Path(f"{self.config.OUTPUT_BASE_DIR}/{self.config.MODEL_NAME.split('/')[-1]}/{self.config.PROMPT_TEMPLATE_NAME}/{self.domain}")
         
         # Create raw output directories
         self.raw_output_dir = self.output_dir / "raw_output"
@@ -637,6 +639,12 @@ def main():
     parser.add_argument("--domains", type=str, nargs='+', default=["JMIR", "DH"],
                         help="Domains to process (default: all five domains)")
     parser.add_argument("--model", type=str, default=Config.MODEL_NAME, help="HuggingFace model name")
+    parser.add_argument("--prompt-template", type=str, default=Config.PROMPT_TEMPLATE_NAME,
+                    help="Name of the prompt template (used in output folder structure)")
+    parser.add_argument("--output-base-dir", type=str, default=Config.OUTPUT_BASE_DIR,
+                    help="Base directory for all outputs (default: ./baselines/LLM/output/Event_Segmentation)")
+    parser.add_argument("--input-dir", type=str, default=Config.INPUT_DIR,
+                    help="Base directory for domain-specific input JSON files (default: ./SciEvent_data/raw/domain_specific_unannotated)")
     parser.add_argument("--clean-cache", action="store_true", help="Force redownload the model")
     
     args = parser.parse_args()
@@ -644,6 +652,9 @@ def main():
     # Update config with command line arguments
     config = Config()
     config.MODEL_NAME = args.model
+    config.PROMPT_TEMPLATE_NAME = args.prompt_template
+    config.OUTPUT_BASE_DIR = args.output_base_dir
+    config.INPUT_DIR = args.input_dir
     
     # Print banner
     print("\n" + "="*80)
