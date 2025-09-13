@@ -1,4 +1,5 @@
-# SciEvent
+# SciEvent (EMNLP-2025)
+
 Raw annotated data is saved in ``SciEvent_data/raw`` folder, it consist of all raw annotations in JSON format. 
 The SciEvent dataset contains 500 scientific abstracts across 5 venues of different domains:
 - 100 abstracts from the Association for Computational Linguistics (ACL), Natural Language Processing
