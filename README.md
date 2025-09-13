@@ -458,3 +458,6 @@ and then evaluate:
 results will be saved to default ```baselines/LLM/LLM_results/Event_Extraction```
 
 ```baselines/LLM/LLM_results/Event_Extraction/human.txt``` is the default path for human performance, this is compared to previous models' human_subset to demonstrate both finetuned and LLMs baselines's gap with human performance. LLMs' subset results are saved in ```baselines/LLM/LLM_results/Event_Extraction``` as well, ending with ```-subset.txt```
+
+# Annotation Tool
+Following is the link to our annotation tool: ``https://annotation-demo.onrender.com/`` you can annotate data by loading any of the unannotated JSON in this path ``SciEvent_data/raw/domain_specific_unannotated``, but you need to first creat an account to use it.
