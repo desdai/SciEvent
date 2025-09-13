@@ -1,0 +1,42 @@
+
+Strict (EM + Class) Evaluation:
+  Precision: 0.3867
+  Recall: 0.3170
+  F1-score: 0.3484
+  Counts: Counter({'INC': 816, 'COR': 594, 'MIS': 464, 'SPU': 126})
+
+IoU + Class Evaluation:
+  Precision: 0.6204
+  Recall: 0.5085
+  F1-score: 0.5589
+  Counts: Counter({'COR': 953, 'MIS': 464, 'INC': 457, 'SPU': 126})
+
+=== EVENT-TYPE-WISE PERFORMANCE ===
+
+[Exact Match]
+Background   | P: 0.2683 R: 0.2628 F1: 0.2656 | {'INC': 336, 'COR': 128, 'MIS': 23, 'SPU': 13}
+Method       | P: 0.1993 R: 0.1185 F1: 0.1486 | {'COR': 59, 'INC': 235, 'MIS': 204, 'SPU': 2}
+Results      | P: 0.4045 R: 0.3956 F1: 0.4000 | {'COR': 178, 'INC': 212, 'SPU': 50, 'MIS': 60}
+Implications | P: 0.7090 R: 0.5216 F1: 0.6010 | {'COR': 229, 'MIS': 177, 'SPU': 61, 'INC': 33}
+
+[IoU Match]
+Background   | P: 0.5828 R: 0.5708 F1: 0.5768 | {'INC': 186, 'COR': 278, 'MIS': 23, 'SPU': 13}
+Method       | P: 0.5169 R: 0.3072 F1: 0.3854 | {'COR': 153, 'MIS': 204, 'INC': 141, 'SPU': 2}
+Results      | P: 0.6205 R: 0.6067 F1: 0.6135 | {'COR': 273, 'INC': 117, 'SPU': 50, 'MIS': 60}
+Implications | P: 0.7709 R: 0.5672 F1: 0.6535 | {'COR': 249, 'MIS': 177, 'SPU': 61, 'INC': 13}
+
+=== DOMAIN-WISE PERFORMANCE ===
+
+[Exact Match]
+ACL          | P: 0.3950 R: 0.3852 F1: 0.3900 | {'INC': 182, 'COR': 141, 'SPU': 34, 'MIS': 43}
+cscw         | P: 0.2780 R: 0.2048 F1: 0.2358 | {'INC': 176, 'MIS': 123, 'COR': 77, 'SPU': 24}
+dh           | P: 0.5142 R: 0.3978 F1: 0.4486 | {'MIS': 128, 'INC': 146, 'COR': 181, 'SPU': 25}
+jmir         | P: 0.2778 R: 0.1881 F1: 0.2243 | {'MIS': 104, 'INC': 155, 'COR': 60, 'SPU': 1}
+bioinfo      | P: 0.4042 R: 0.3771 F1: 0.3902 | {'INC': 157, 'COR': 135, 'SPU': 42, 'MIS': 66}
+
+[IoU Match]
+ACL          | P: 0.6359 R: 0.6202 F1: 0.6279 | {'INC': 96, 'COR': 227, 'SPU': 34, 'MIS': 43}
+cscw         | P: 0.4910 R: 0.3617 F1: 0.4165 | {'INC': 117, 'MIS': 123, 'COR': 136, 'SPU': 24}
+dh           | P: 0.6562 R: 0.5077 F1: 0.5725 | {'MIS': 128, 'INC': 96, 'COR': 231, 'SPU': 25}
+jmir         | P: 0.7083 R: 0.4796 F1: 0.5720 | {'MIS': 104, 'INC': 62, 'COR': 153, 'SPU': 1}
+bioinfo      | P: 0.6168 R: 0.5754 F1: 0.5954 | {'INC': 86, 'COR': 206, 'SPU': 42, 'MIS': 66}

@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_495
+
+[Background]: The spectacular recent advances in protein and protein complex structure prediction hold promise for reconstructing interactomes at large-scale and residue resolution.
+
+[Method]: Beyond determining the 3D arrangement of interacting partners, modeling approaches should be able to unravel the impact of sequence variations on the strength of the association. In this work, we report on Deep Local Analysis, a novel and efficient deep learning framework that relies on a strikingly simple deconstruction of protein interfaces into small locally oriented residue-centered cubes and on 3D convolutions recognizing patterns within cubes.
+
+[Results]: Merely based on the two cubes associated with the wild-type and the mutant residues, DLA accurately estimates the binding affinity change for the associated complexes. It achieves a Pearson correlation coefficient of 0.735 on about 400 mutations on unseen complexes. Its generalization capability on blind datasets of complexes is higher than the state-of-the-art methods. We show that taking into account the evolutionary constraints on residues contributes to predictions. We also discuss the influence of conformational variability on performance.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_606
+
+[Background]: Protein thermostability is of great interest, both in theory and in practice.
+
+[Method]: This study compared orthologous proteins with different cellular thermostability. A large number of physicochemical properties of protein were calculated and used to develop a series of machine learning models for predicting cellular thermostability differences between orthologous proteins.
+
+[Results]: Most of the important features in these models are also highly correlated to relative cellular thermostability.
+
+[Implications]: <NONE>
+

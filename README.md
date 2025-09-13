@@ -304,12 +304,12 @@ Choose one approach:
 Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"``
 
 ```bash
-python Event_segmentation.py \
+python baselines/LLM/scripts/Event_segmentation.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model meta-llama/Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --output-base-dir ./baselines/LLM/output/Event_segmentation \
-  --input-dir ./SciEvent_data/raw/domain_specific_unannotated \
+  --output-base-dir baselines/LLM/output/Event_segmentation \
+  --input-dir SciEvent_data/raw/domain_specific_unannotated \
   --clean-cache
 ```
 
@@ -419,13 +419,17 @@ Default input folder: ``./SciEvent_data/raw/domain_specific_unannotated``, defau
 
 ### LLM Evaluation:
 
+We collected the above output into data folder ``SciEvent_data/LLM/data`` for your easier access, the data is identical. We deliberately keep data in both LLM output path ``baselines/LLM/output`` and data storage path ``SciEvent_data/LLM/data`` to allow skipping prompting and directly running evaluation.
 
-<!-- todo write an intermediator code from the baselines/LLM/output -> SciEvent_data/LLM/data -->
+You can verify these by checking the JSON files under the same model and prompting method.
 
 ### 1. Event Segmentation
 
+First run ``bash baselines/LLM/segmentation_eval/segmentation_prepare.sh `` to prepare input evaluation.
 
+Then run ``bash baselines/LLM/segmentation_eval/segmentation_eval.sh`` to evaluate. 
 
+Results are by default in ``baselines/LLM/LLM_results/Event_Segmentation``.
 
 
 ### 2. Event Extraction
@@ -435,20 +439,20 @@ Run these two files, to first preprocess the raw input:
 bash baselines/LLM/evaluation_scripts/prepare_for_eval.sh
 
 python baselines/LLM/evaluation_scripts/filter_subset.py \
-    --input SciEvent_data/LLM/data/human/human_eval/gold_event_level.json \
+    --input SciEvent_data/LLM/Event_Extraction/human/human_eval/gold_event_level.json \
     --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
-    --output SciEvent_data/LLM/data/human/human_eval/filtered_gold_event_level.json
+    --output SciEvent_data/LLM/Event_Extraction/human/human_eval/filtered_gold_event_level.json
 
 python baselines/LLM/evaluation_scripts/filter_subset.py \
-    --input SciEvent_data/LLM/data/human/human_eval/pred_event_level.json \
+    --input SciEvent_data/LLM/Event_Extraction/human/human_eval/pred_event_level.json \
     --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
-    --output SciEvent_data/LLM/data/human/human_eval/filtered_pred_event_level.json
+    --output SciEvent_data/LLM/Event_Extraction/human/human_eval/filtered_pred_event_level.json
 ```
 
 and then evaluate:
 
 ```bash baselines/LLM/evaluation_scripts/EM_overlap_eval.sh```
 
-results will be saved to default ```baselines/LLM/LLM_results```
+results will be saved to default ```baselines/LLM/LLM_results/Event_Extraction```
 
-```baselines/LLM/LLM_results/human.txt``` is the default path for human performance, this is compared to previous models' human_subset to demonstrate both finetuned and LLMs baselines's gap with human performance. LLMs' subset results are saved in ```baselines/LLM/LLM_results``` as well, ending with ```-subset.txt```
+```baselines/LLM/LLM_results/Event_Extraction/human.txt``` is the default path for human performance, this is compared to previous models' human_subset to demonstrate both finetuned and LLMs baselines's gap with human performance. LLMs' subset results are saved in ```baselines/LLM/LLM_results/Event_Extraction``` as well, ending with ```-subset.txt```

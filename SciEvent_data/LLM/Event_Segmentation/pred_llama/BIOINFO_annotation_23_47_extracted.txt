@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_246
+
+[Background]: Protein function annotation is fundamental to understanding biological mechanisms. The abundant genome-scale protein-protein interaction (PPI) networks, together with other protein biological attributes, provide rich information for annotating protein functions. As PPI networks and biological attributes describe protein functions from different perspectives, it is highly challenging to cross-fuse them for protein function prediction.
+
+[Method]: We develop a novel protein function prediction method, CFAGO, to integrate single-species PPI networks and protein biological attributes via a multi-head attention mechanism. CFAGO is first pre-trained with an encoder-decoder architecture to capture the universal protein representation of the two sources. It is then fine-tuned to learn more effective protein representations for protein function prediction.
+
+[Results]: Benchmark experiments on human and mouse datasets show CFAGO outperforms state-of-the-art single-species network-based methods by at least 7.59%, 6.90%, 11.68% in terms of m-AUPR, M-AUPR, and Fmax, respectively, demonstrating cross-fusion by multi-head attention mechanism can greatly improve the protein function prediction. We further evaluate the quality of captured protein representations in terms of Davies Bouldin Score, whose results show that cross-fused protein representations by multi-head attention mechanism are at least 2.7% better than that of original and concatenated representations.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_642
+
+[Background]: Identifying and tracking recombinant strains of SARS-CoV-2 is critical to understanding the evolution of the virus and controlling its spread.
+
+[Method]: <NONE>
+
+[Results]: We present RIVET — a software pipeline and visual platform that takes advantage of recent algorithmic advances in recombination inference to comprehensively and sensitively search for potential SARS-CoV-2 recombinants and organize the relevant information in a web interface that would help greatly accelerate the process of identifying and tracking recombinants.
+
+[Implications]: <NONE>
+

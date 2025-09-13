@@ -1,0 +1,42 @@
+
+Strict (EM + Class) Evaluation:
+  Precision: 0.3126
+  Recall: 0.3413
+  F1-score: 0.3263
+  Counts: Counter({'INC': 939, 'COR': 573, 'SPU': 321, 'MIS': 167})
+
+IoU + Class Evaluation:
+  Precision: 0.5897
+  Recall: 0.6438
+  F1-score: 0.6156
+  Counts: Counter({'COR': 1081, 'INC': 431, 'SPU': 321, 'MIS': 167})
+
+=== EVENT-TYPE-WISE PERFORMANCE ===
+
+[Exact Match]
+Background   | P: 0.4277 R: 0.4189 F1: 0.4232 | {'COR': 204, 'INC': 260, 'MIS': 23, 'SPU': 13}
+Method       | P: 0.2022 R: 0.1918 F1: 0.1968 | {'COR': 93, 'INC': 352, 'MIS': 40, 'SPU': 15}
+Results      | P: 0.3478 R: 0.3543 F1: 0.3510 | {'INC': 214, 'MIS': 63, 'COR': 152, 'SPU': 71}
+Implications | P: 0.2702 R: 0.4460 F1: 0.3365 | {'COR': 124, 'INC': 113, 'SPU': 222, 'MIS': 41}
+
+[IoU Match]
+Background   | P: 0.7526 R: 0.7372 F1: 0.7448 | {'COR': 359, 'INC': 105, 'MIS': 23, 'SPU': 13}
+Method       | P: 0.6522 R: 0.6186 F1: 0.6349 | {'COR': 300, 'MIS': 40, 'INC': 145, 'SPU': 15}
+Results      | P: 0.5881 R: 0.5991 F1: 0.5935 | {'COR': 257, 'MIS': 63, 'INC': 109, 'SPU': 71}
+Implications | P: 0.3595 R: 0.5935 F1: 0.4478 | {'COR': 165, 'SPU': 222, 'MIS': 41, 'INC': 72}
+
+=== DOMAIN-WISE PERFORMANCE ===
+
+[Exact Match]
+jmir         | P: 0.3218 R: 0.2952 F1: 0.3079 | {'COR': 93, 'INC': 191, 'MIS': 31, 'SPU': 5}
+bioinfo      | P: 0.2950 R: 0.3610 F1: 0.3247 | {'COR': 113, 'INC': 183, 'MIS': 17, 'SPU': 87}
+dh           | P: 0.2679 R: 0.3052 F1: 0.2854 | {'COR': 112, 'INC': 193, 'MIS': 62, 'SPU': 113}
+ACL          | P: 0.2766 R: 0.3471 F1: 0.3079 | {'INC': 199, 'SPU': 86, 'COR': 109, 'MIS': 6}
+cscw         | P: 0.4183 R: 0.3946 F1: 0.4061 | {'COR': 146, 'INC': 173, 'SPU': 30, 'MIS': 51}
+
+[IoU Match]
+jmir         | P: 0.8131 R: 0.7460 F1: 0.7781 | {'COR': 235, 'MIS': 31, 'INC': 49, 'SPU': 5}
+bioinfo      | P: 0.5300 R: 0.6486 F1: 0.5833 | {'COR': 203, 'MIS': 17, 'SPU': 87, 'INC': 93}
+dh           | P: 0.4187 R: 0.4768 F1: 0.4459 | {'COR': 175, 'MIS': 62, 'SPU': 113, 'INC': 130}
+ACL          | P: 0.5787 R: 0.7261 F1: 0.6441 | {'INC': 80, 'SPU': 86, 'COR': 228, 'MIS': 6}
+cscw         | P: 0.6877 R: 0.6486 F1: 0.6676 | {'COR': 240, 'INC': 79, 'SPU': 30, 'MIS': 51}

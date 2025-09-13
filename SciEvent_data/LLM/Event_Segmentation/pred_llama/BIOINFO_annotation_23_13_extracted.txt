@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_275
+
+[Background]: Researchers usually conduct statistical analyses based on models built on raw data collected from individual participants (individual-level data).
+
+[Method]: However, combining high-dimensional summary data with individual-level data using existing integrative procedures can be challenging due to various numeric issues in optimizing an objective function over a large number of unknown parameters.
+
+[Results]: We demonstrate the advantage of the proposed methods through simulations and an application to the study of the effect on pancreatic cancer risk by the polygenic risk score defined by BMI-associated genetic markers.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_352
+
+[Background]: We describe a compression scheme for BUS files and an implementation of the algorithm in the BUStools software.
+
+[Method]: <NONE>
+
+[Results]: Our compression algorithm yields smaller file sizes than gzip, at significantly faster compression and decompression speeds. We evaluated our algorithm on 533 BUS files from scRNA-seq experiments with a total size of 1TB. Our compression is 2.2x faster than the fastest gzip option, 35% slower than the fastest zstd option, and results in 1.5x smaller files than both methods. This amounts to an 8.3x reduction in the file size, resulting in a compressed size of 122GB for the dataset.
+
+[Implications]: <NONE>
+

@@ -1,9 +1,0 @@
-{
-  "bioinfo_23_P_30": {
-    "abstract": "STRIKE-GOLDD is a toolbox that analyses the structural identifiability and observability of possibly non-linear, non-rational ODE models that may have known and unknown inputs. Its broad applicability comes at the expense of a lower computational efficiency than other tools. STRIKE-GOLDD 4.0 includes a new algorithm, ProbObsTest, specifically designed for the analysis of rational models. ProbObsTest is significantly faster than the previously available FISPO algorithm when applied to computationally expensive models. Providing both algorithms in the same toolbox allows combining generality and computational efficiency. STRIKE-GOLDD 4.0 is implemented as a Matlab toolbox with a user-friendly graphical interface.",
-    "[Background]": "STRIKE-GOLDD is a toolbox that analyses the structural identifiability and observability of possibly non-linear, non-rational ODE models that may have known and unknown inputs. Its broad applicability comes at the expense of a lower computational efficiency than other tools.",
-    "[Method]": "STRIKE-GOLDD 4.0 includes a new algorithm, ProbObsTest, specifically designed for the analysis of rational models. ProbObsTest is significantly faster than the previously available FISPO algorithm when applied to computationally expensive models. Providing both algorithms in the same toolbox allows combining generality and computational efficiency. STRIKE-GOLDD 4.0 is implemented as a Matlab toolbox with a user-friendly graphical interface.",
-    "[Results]": "<NONE>",
-    "[Implications]": "<NONE>"
-  }
-}

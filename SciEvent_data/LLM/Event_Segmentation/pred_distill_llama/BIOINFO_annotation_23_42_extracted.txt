@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_24
+
+[Background]: The compartmentalization of biochemical reactions involved in the activation of gene expression in the eukaryotic nucleus leads to the formation of membraneless bodies through liquid-liquid phase separation. These formations, called transcriptional condensates, appear to play important roles in gene regulation as they are assembled through the association of multiple enhancer regions in 3D genomic space.
+
+[Method]: We present SEGCOND, a computational framework aimed at identifying genomic regions involved in the formation of transcriptional condensates. This framework combines multiple genomic datasets related to enhancer activity and chromatin accessibility for genome segmentation. It detects highly transcriptionally active regions and integrates Hi-C data to identify regions of putative transcriptional condensates by detecting areas where multiple enhancer elements coalesce in 3D space.
+
+[Results]: Applying SEGCOND to data from a well-defined system of B-cell to macrophage transdifferentiation identified previously unreported genes that may have a role in the process.
+
+[Implications]: The results suggest that SEGCOND can efficiently identify new regulatory elements contributing to transcriptional condensate formation, offering insights into gene regulation mechanisms across various biological systems.
+
+
+Paper Code: bioinfo_23_P_202
+
+[Background]: As the FAIR (Findable, Accessible, Interoperable, Reusable) principles have become widely accepted in the proteomics field, under the guidance of ProteomeXchange and The Human Proteome Organization Proteomics Standards Initiative, proteomics public databases have been providing Application Programming Interfaces for programmatic access.
+
+[Method]: We present Patpat, an extensible framework for searching public datasets, merging results from multiple databases to help researchers find their proteins of interest in the vast mass spectrometry. Patpat's 2D strategy of combining results from multiple databases allows users to provide only protein identifiers to obtain metadata for relevant datasets.
+
+[Results]: This approach improves the 'Findable' of proteomics data by enabling efficient retrieval of information across diverse sources without requiring prior knowledge of specific database structures or formats.
+
+[Implications]: The development of Patpat addresses key challenges in data accessibility and interoperability within proteomics research, facilitating more effective discovery and utilization of proteomic resources.
+

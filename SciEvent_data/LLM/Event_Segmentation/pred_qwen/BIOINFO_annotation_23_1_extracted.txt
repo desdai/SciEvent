@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_499
+
+[Background]: Synthetic lethality (SL) is a promising strategy for anticancer therapy, as inhibiting SL partners of genes with cancer-specific mutations can selectively kill the cancer cells without harming the normal cells. Wet-lab techniques for SL screening have issues like high cost and off-target effects. Computational methods can help address these issues.
+
+[Method]: Previous machine learning methods leverage known SL pairs, and the use of knowledge graphs (KGs) can significantly enhance the prediction performance. However, the subgraph structures of KG have not been fully explored. Besides, most machine learning methods lack interpretability, which is an obstacle for wide applications of machine learning to SL identification. We present a model named KR4SL to predict SL partners for a given primary gene. It captures the structural semantics of a KG by efficiently constructing and learning from relational digraphs in the KG. To encode the semantic information of the relational digraphs, we fuse textual semantics of entities into propagated messages and enhance the sequential semantics of paths using a recurrent neural network. Moreover, we design an attentive aggregator to identify critical subgraph structures that contribute the most to the SL prediction as explanations.
+
+[Results]: Extensive experiments under different settings show that KR4SL significantly outperforms all the baselines. The explanatory subgraphs for the predicted gene pairs can unveil prediction process and mechanisms underlying synthetic lethality. The improved predictive power and interpretability indicate that deep learning is practically useful for SL-based cancer drug target discovery.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_110
+
+[Background]: We present a multi-sequence generalization of Variational Information Bottleneck and call the resulting model Attentive Variational Information Bottleneck (AVIB).
+
+[Method]: Our AVIB model leverages multi-head self-attention to implicitly approximate a posterior distribution over latent encodings conditioned on multiple input sequences.
+
+[Results]: Experimental results on various datasets show that AVIB significantly outperforms state-of-the-art methods for TCR-peptide interaction prediction.
+
+[Implications]: <NONE>
+

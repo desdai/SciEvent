@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_803
+
+[Background]: Dynamic networks, e.g., Dynamic Convolution (DY-Conv) and the Mixture of Experts (MoE), have been extensively explored as they can considerably improve the model’s representation power with acceptable computational cost.
+
+[Method]: The common practice in implementing dynamic networks is to convert the given static layers into fully dynamic ones where all parameters are dynamic (at least within a single layer) and vary with the input. However, such a fully dynamic setting may cause redundant parameters and high deployment costs, limiting the applicability of dynamic networks to a broader range of tasks and models.
+
+[Results]: <NONE>
+
+[Implications]: The main contributions of our work are challenging the basic commonsense in dynamic networks and proposing a partially dynamic network, namely PAD-Net, to transform the redundant dynamic parameters into static ones. Also, we further design Iterative Mode Partition to partition dynamic and static parameters efficiently.
+
+
+Paper Code: ACL_23_P_241
+
+[Background]: Commonsense reasoning is omnipresent in human communications and thus is an important feature for open-domain dialogue systems. Evaluating commonsense in dialogue systems is still an open challenge. We take the first step by focusing on event commonsense that considers events and their relations, and is crucial in both dialogues and general commonsense reasoning.
+
+[Method]: We propose ACCENT, an event commonsense evaluation metric powered by commonsense knowledge bases (CSKBs). ACCENT first extracts event-relation tuples from a dialogue, and then evaluates the response by scoring the tuples in terms of their compatibility with the CSKB. To evaluate ACCENT, we construct the first public event commonsense evaluation dataset for open-domain dialogues.
+
+[Results]: Our experiments show that ACCENT is an efficient metric for event commonsense evaluation, which achieves higher correlations with human judgments than existing baselines.
+
+[Implications]: The implications of this work include advancing the field of commonsense evaluation in dialogue systems, providing new tools for analyzing event understanding, and potentially enhancing the capabilities of conversational AI systems through better handling of real-world scenarios.
+

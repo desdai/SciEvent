@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_893
+
+[Background]: Understanding Transformer-based models has attracted significant attention, as they lie at the heart of recent technological advances across machine learning. While most interpretability methods rely on running models over inputs, recent work has shown that a zero-pass approach, where parameters are interpreted directly without a forward/backward pass is feasible for some Transformer parameters, and for two-layer attention networks.
+
+[Method]: In this work, we present a theoretical analysis where all parameters of a trained Transformer are interpreted by projecting them into the embedding space, that is, the space of vocabulary items they operate on. We derive a simple theoretical framework to support our arguments and provide ample evidence for its validity.
+
+[Results]: First, an empirical analysis showing that parameters of both pretrained and fine-tuned models can be interpreted in embedding space. Second, we present two applications of our framework: (a) aligning the parameters of different models that share a vocabulary, and (b) constructing a classifier without training by \"translating\" the parameters of a fine-tuned classifier to parameters of a different model that was only pretrained.
+
+[Implications]: Overall, our findings open the door to interpretation methods that, at least in part, abstract away from model specifics and operate in the embedding space only.
+
+
+Paper Code: ACL_23_P_431
+
+[Background]: The problem arises because existing methods for measuring text coherence primarily analyze individual texts without considering how these texts relate to each other. This lack of consideration leads to incomplete models that fail to capture broader patterns across documents.
+
+[Method]: To address this issue, we propose a novel approach using Graph Convolutional Networks (GCNs) to model inter-document relationships. First, we create a graph representation for each document by identifying its local structures through subgraph mining. Next, we build a heterogeneous graph that connects documents sharing similar substructures. Finally, we employ a GCN to learn the connections within this heterogeneous graph.
+
+[Results]: Our experiments demonstrate significant improvements over previous methods. On the discourse coherence task, our model achieves a 15% absolute improvement compared to the best baseline. In automated essay scoring, it reduces error rates by 20%, establishing a new state-of-the-art performance.
+
+[Implications]: These results suggest that incorporating inter-document relationships into coherence models can significantly enhance text understanding and evaluation. Our GCN-based approach provides a more comprehensive framework for analyzing and connecting texts, opening new possibilities for advanced natural language processing tasks.
+

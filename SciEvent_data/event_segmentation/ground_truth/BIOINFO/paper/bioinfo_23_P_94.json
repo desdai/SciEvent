@@ -1,9 +1,0 @@
-{
-  "bioinfo_23_P_94": {
-    "abstract": "We present vembrane as a command line variant call format (VCF)/binary call format (BCF) filtering tool that consolidates and extends the filtering functionality of previous software to meet any imaginable filtering use case. vembrane exposes the VCF/BCF file type specification and its unofficial extensions by the annotation tools VEP and SnpEff as Python data structures. vembrane filter enables filtration by Python expressions, requiring only basic knowledge of the Python programming language. vembrane table allows users to generate tables from subsets of annotations or functions thereof. Finally, it is fast, by using pysam and relying on lazy evaluation.",
-    "[Background]": "<NONE>",
-    "[Method]": "We present vembrane as a command line variant call format (VCF)/binary call format (BCF) filtering tool that consolidates and extends the filtering functionality of previous software to meet any imaginable filtering use case. vembrane exposes the VCF/BCF file type specification and its unofficial extensions by the annotation tools VEP and SnpEff as Python data structures. vembrane filter enables filtration by Python expressions, requiring only basic knowledge of the Python programming language. vembrane table allows users to generate tables from subsets of annotations or functions thereof. Finally, it is fast, by using pysam and relying on lazy evaluation.",
-    "[Results]": "<NONE>",
-    "[Implications]": "<NONE>"
-  }
-}

@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_866
+
+[Background]: The ability of commonsense reasoning (CR) determines whether a neural machine translation (NMT) model can go beyond pattern recognition. Although NMT has advanced rapidly and uses pretraining to improve models, research on CR in NMT remains underdeveloped, leaving many areas unexplored regarding effective training of NMT models with high CR capabilities and establishing reliable automatic evaluation metrics.
+
+[Method]: For training, we validate the efficiency of integrating pre-trained knowledge into NMT models and then using these trained models as sturdy testing platforms to investigate CR in NMT. For evaluation, we introduce an innovative entity-aware evaluation approach that considers both the NMT candidate and significant entities within it, aligning more closely with human judgment.
+
+[Results]: Using this solid framework and evaluation methods, we identified challenges in training NMT models with high CR abilities and suggested potential avenues for enhancing them through additional unlabeled data usage and improved model designs.
+
+[Implications]: Our techniques and findings aim to advance research on CR in NMT, contributing to better understanding and application of such technologies.
+
+
+Paper Code: ACL_23_P_377
+
+[Background]: A series of datasets and models have been proposed for summaries generated for well-formatted documents such as news articles.
+
+[Method]: We define fine-grained factual error detection as a sentence-level multi-label classification problem and evaluate two state-of-the-art (SOTA) models on our dataset.
+
+[Results]: Both models yield sub-optimal results, with a macro-averaged F1 score of around 0.25 over 6 error classes.
+
+[Implications]: We further propose an unsupervised model ENDERANKER via candidate ranking using pretrained encoder-decoder models. Our model performs on par with the SOTA models while requiring fewer resources.
+

@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_399
+
+[Background]: Bone marrow (BM) examination is one of the most important indicators in diagnosing hematologic disorders and is typically performed under the microscope via oil-immersion objective lens with a total 100× objective magnification.
+
+[Method]: Fully automated BM examination and mitotic figure examination from whole-slide images is highly demanded but challenging and poorly explored.
+
+[Results]: The experimental results demonstrate the robustness and generalizability of the proposed CW-Net on a large BM WSI dataset with 16,456 annotated cells of 19 BM cell types and a large-scale WSI dataset for mitotic figure assessment with 262,481 annotated cells of five cell types.
+
+[Implications]: This article presents an efficient and fully automatic CW-Net approach to address the three issues mentioned above and demonstrates its superior performance on both BM examination and mitotic figure examination.
+
+
+Paper Code: bioinfo_23_P_82
+
+[Background]: ManyFold is a flexible library for protein structure prediction with deep learning that
+
+[Method]: [Results]: A proof-of-concept pLM-based model, pLMFold, is trained from scratch to obtain reasonable results with reduced computational overheads in comparison to AlphaFold.
+
+[Results]: A proof-of-concept pLM-based model, pLMFold, is trained from scratch to obtain reasonable results with reduced computational overheads in comparison to AlphaFold.
+
+[Implications]: ```
+

@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_502
+
+[Background]: Structural variation (SV) is a class of genetic diversity whose importance is increasingly revealed by genome resequencing, especially with long-read technologies. One crucial problem when analyzing and comparing SVs in several individuals is their accurate genotyping, that is determining whether a described SV is present or absent in one sequenced individual, and if present, in how many copies. There are only a few methods dedicated to SV genotyping with long-read data, and all either suffer from a bias toward the reference allele by not representing equally all alleles, or have difficulties genotyping close or overlapping SVs due to a linear representation of the alleles.
+
+[Method]: We present SVJedi-graph, a novel method for SV genotyping that relies on a variation graph to represent in a single data structure all alleles of a set of SVs. The long reads are mapped on the variation graph and the resulting alignments that cover allele-specific edges in the graph are used to estimate the most likely genotype for each SV.
+
+[Results]: Running SVJedi-graph on simulated sets of close and overlapping deletions showed that this graph model prevents the bias toward the reference alleles and allows maintaining high genotyping accuracy whatever the SV proximity, contrary to other state-of-the-art genotypers. On the human gold standard HG002 dataset, SVJedi-graph obtained the best performances, genotyping 99.5% of the high-confidence SV callset with an accuracy of 95% in less than 30 min.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_92
+
+[Background]: Microbiome datasets with taxa linked to the functions (e.g., genes) they encode are becoming more common as metagenomics sequencing approaches improve. However, these data are challenging to analyze due to their complexity. Summary metrics, such as the alpha and beta diversity of taxa contributing to each function (i.e., contributional diversity), represent one approach to investigate these data, but currently there are no straightforward methods for doing so.
+
+[Method]: We addressed this gap by developing FuncDiv, which efficiently performs these computations.
+
+[Results]: <NONE>
+
+[Implications]: <NONE>
+

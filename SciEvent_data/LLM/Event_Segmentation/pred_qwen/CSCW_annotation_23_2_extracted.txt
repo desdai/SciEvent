@@ -1,0 +1,21 @@
+Paper Code: cscw_23_P_41
+
+[Background]: We present an exploration of cultural norms surrounding online disclosure of information about one's interpersonal relationships (such as information about family members, colleagues, friends, or lovers) on Twitter.
+
+[Method]: The literature identifies the cultural dimension of individualism versus collectivism as being a major determinant of offline communication differences in terms of emotion, topic, and content disclosed. We decided to study whether such differences also occur online in context of Twitter when comparing tweets posted in an individualistic (U.S.) versus a collectivist (India) society. We collected more than 2 million tweets posted in the U.S. and India over a 3-month period which contain interpersonal relationship keywords. A card-sort study was used to develop this culturally-sensitive saturated taxonomy of keywords that represent interpersonal relationships (e.g., ma, mom, mother).
+
+[Results]: Then we developed a high-accuracy interpersonal disclosure detector based on dependency-parsing (F1-score: 86%) to identify when the words refer to a personal relationship of the poster (e.g., 'my mom' as opposed to 'a mom'). This allowed us to identify the 400K+ tweets in our dataset which actually disclose information about the poster's interpersonal relationships. We used a mixed-methods approach to analyze these tweets (e.g., comparing the amount of joy expressed about one's family) and found differences in emotion, topic, and content disclosed between tweets from the U.S. versus India.
+
+[Implications]: <NONE>
+
+
+Paper Code: cscw_23_P_147
+
+[Background]: Users face security folklore in their daily lives in the form of security advice, myths, and word-of-mouth stories.
+
+[Method]: Following the Theory of Reasoned Action, we investigated the phenomenon with three studies:
+
+[Results]: (1) we quantified the behavior on real-world Tor traffic and measured a prevalence of 6.23%; (2) we surveyed users' intentions and beliefs, discovering that they try to protect themselves from the Tor network or increase their general security; and (3) we analyzed online information sources, suggesting that perceived norms and ease-of-use play a significant role while behavioral beliefs about the purpose and effect are less crucial in spreading security folklore.
+
+[Implications]: <NONE>
+

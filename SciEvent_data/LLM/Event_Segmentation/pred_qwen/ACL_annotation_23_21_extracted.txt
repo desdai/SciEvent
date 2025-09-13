@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_657
+
+[Background]: To understand patterns of both positive and negative transfer between L1 and L2, we model sequential second language acquisition in LMs.
+
+[Method]: To examine the impact of native CDS, we use the TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020).
+
+[Results]: Additionally, we find that conversational speech data shows greater facilitation for language acquisition than scripted speech data.
+
+[Implications]: Our findings call for further research using our novel Transformer-based SLA models.
+
+
+Paper Code: ACL_23_P_334
+
+[Background]: Despite significant progress having been made in question answering on tabular data (Table QA), it's unclear whether, and to what extent existing Table QA models are robust to task-specific perturbations, e.g., replacing key question entities or shuffling table columns.
+
+[Method]: To systematically study the robustness of Table QA models, we propose a benchmark called RobuT, which builds upon existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA) and includes human-annotated adversarial perturbations in terms of table header, table content, and question.
+
+[Results]: Our results indicate that both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets.
+
+[Implications]: <NONE>
+

@@ -1,0 +1,19 @@
+Paper Code: cscw_23_P_60
+
+[Background]: One-on-one tutoring is effective for learning computer science since a tutor can work alongside a student and provide tailored feedback on their code. However, translating this type of instruction to a remote setting is challenging. Traditional methods such as screensharing lack key pedagogical functionality and most available tools are designed for collaboration rather than instruction.
+
+[Method]: To identify tools that can support remote tutoring, we conducted an experiment to assess two resources: synchronous editing and awareness tools. In our study, an instructor teaches a learner introductory programming concepts remotely, collaborating through screensharing alone, a shared notebook with real-time collaborative editing, or a shared notebook with additional awareness tools overlaid. To embed the awareness tools, we designed a Chrome extension that enables real-time sharing of gaze and cursor data.
+
+[Results]: Our results show that synchronous editing combined with awareness tools significantly improved learning. The awareness tools also helped tutors better communicate with the student, track their understanding, and establish a sense of presence. As a final contribution, we also assessed the efficacy of gaze-sharing using a webcam eye-tracker. While the accuracy was not as precise as a dedicated sensor, instructors described instances when the gaze was useful for gauging student attention and establishing presence.
+
+[Implications]: We discuss implications for remote tutoring in computer science and scaling awareness technology.
+
+Paper Code: cscw_23_P_79
+
+[Background]: Getting training data for machine learning (ML) prediction of mental illness on social media data is labor intensive. To work around this, ML teams will extrapolate proxy signals, or alternative signs from data to evaluate illness status and create training datasets. However, these signals' validity has not been determined, whether signals align with important contextual factors, and how proxy quality impacts downstream model integrity.
+
+[Method]: We use ML and qualitative methods to evaluate whether a popular proxy signal, diagnostic self-disclosure, produces a conceptually sound ML model of mental illness.
+
+[Results]: Our findings identify major conceptual errors only seen through a qualitative investigation — training data built from diagnostic disclosures encodes a narrow vision of diagnosis experiences that propagates into paradoxes in the downstream ML model. This gap is obscured by strong performance of the ML classifier (F1 = 0.91).
+
+[Implications]: We discuss the implications of conceptual gaps in creating training data for human-centered models, and make suggestions for improving research methods.

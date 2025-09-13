@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_891
+
+[Background]: Multitask prompted finetuning (MTF) has been shown to help large language models generalize to new tasks in a zero-shot setting, but so far explorations of MTF have focused on English data and models.
+
+[Method]: We apply MTF to the pretrained multilingual BLOOM and mT5 model families to produce finetuned variants called BLOOMZ and mT0.
+
+[Results]: Finetuning large multilingual language models on English tasks with English prompts allows for task generalization to non-English languages that appear only in the pretraining corpus. Finetuning on multilingual tasks with English prompts further improves performance on English and non-English tasks leading to various state-of-the-art zero-shot results. We also investigate finetuning on multilingual tasks with prompts that have been machine-translated from English to match the language of each dataset. We find training on these machine-translated prompts leads to better performance on human-written prompts in the respective languages. Surprisingly, we find models are capable of zero-shot generalization to tasks in languages they have never intentionally seen.
+
+[Implications]: <NONE>
+
+
+Paper Code: ACL_23_P_697
+
+[Background]: In the last five years, there has been a significant focus in Natural Language Processing (NLP) on developing larger Pretrained Language Models (PLMs) and introducing benchmarks such as SuperGLUE and SQuAD to measure their abilities in language understanding, reasoning, and reading comprehension.
+
+[Method]: <NONE>
+
+[Results]: These PLMs have achieved impressive results on these benchmarks, even surpassing human performance in some cases.
+
+[Implications]: <NONE>
+

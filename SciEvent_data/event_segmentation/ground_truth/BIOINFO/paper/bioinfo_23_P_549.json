@@ -1,9 +1,0 @@
-{
-  "bioinfo_23_P_549": {
-    "abstract": "Access pathways in enzymes are crucial for the passage of substrates and products of catalyzed reactions. The process can be studied by computational means with variable degrees of precision. Our in-house approximative method CaverDock provides a fast and easy way to set up and run ligand binding and unbinding calculations through protein tunnels and channels. Here we introduce pyCaverDock, a Python3 API designed to improve user experience with the tool and further facilitate the ligand transport analyses. The API enables users to simplify the steps needed to use CaverDock, from automatizing setup processes to designing screening pipelines.",
-    "[Background]": "Access pathways in enzymes are crucial for the passage of substrates and products of catalyzed reactions. The process can be studied by computational means with variable degrees of precision. Our in-house approximative method CaverDock provides a fast and easy way to set up and run ligand binding and unbinding calculations through protein tunnels and channels.",
-    "[Method]": "Here we introduce pyCaverDock, a Python3 API designed to improve user experience with the tool and further facilitate the ligand transport analyses. The API enables users to simplify the steps needed to use CaverDock, from automatizing setup processes to designing screening pipelines.",
-    "[Results]": "<NONE>",
-    "[Implications]": "<NONE>"
-  }
-}

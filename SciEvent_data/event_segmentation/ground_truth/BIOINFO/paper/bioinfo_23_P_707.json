@@ -1,9 +1,0 @@
-{
-  "bioinfo_23_P_707": {
-    "abstract": "The alevin-fry ecosystem provides a robust and growing suite of programs for single-cell data processing. However, as new single-cell technologies are introduced, as the community continues to adjust best practices for data processing, and as the alevin-fry ecosystem itself expands and grows, it is becoming increasingly important to manage the complexity of alevin-fry's single-cell preprocessing workflows while retaining the performance and flexibility that make these tools enticing. We introduce simpleaf, a program that simplifies the processing of single-cell data using tools from the alevin-fry ecosystem, and adds new functionality and capabilities, while retaining the flexibility and performance of the underlying tools.",
-    "[Background]": "The alevin-fry ecosystem provides a robust and growing suite of programs for single-cell data processing. However, as new single-cell technologies are introduced, as the community continues to adjust best practices for data processing, and as the alevin-fry ecosystem itself expands and grows, it is becoming increasingly important to manage the complexity of alevin-fry's single-cell preprocessing workflows while retaining the performance and flexibility that make these tools enticing.",
-    "[Method]": "We introduce simpleaf, a program that simplifies the processing of single-cell data using tools from the alevin-fry ecosystem, and adds new functionality and capabilities, while retaining the flexibility and performance of the underlying tools.",
-    "[Results]": "<NONE>",
-    "[Implications]": "<NONE>"
-  }
-}

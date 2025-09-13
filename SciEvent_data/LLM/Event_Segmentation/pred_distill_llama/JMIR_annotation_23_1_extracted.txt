@@ -1,0 +1,21 @@
+Paper Code: jmir_23_P_619
+
+[Background]: Substance use disorder involves distinct cognitive processes and emotional experiences tied to the relapse and recovery cycles of drug use. Web-based communities like Reddit provide valuable resources for studying these subjective experiences, which might otherwise be difficult to capture in controlled settings. This study aims to explore the emotional profiles associated with substance cessation by comparing posts from forums dedicated to drug cessation with those addressing other conditions highly comorbid with addiction, such as social anxiety and attention-deficit/hyperactivity disorder.
+
+[Method]: Data were collected from two million posts spanning two years (fall 2019 and fall 2020) across 394 Reddit forums. Posts were analyzed to quantify emotion word frequencies in three substance cessation forums (alcohol, nicotine, cannabis), comparing these to general forums. Emotions were categorized and represented as multidimensional vectors. Cosine similarity was used to assess how similar these emotion profiles were across different forums. Additionally, posts reporting the time since last substance use were examined to identify patterns in emotion usage over varying abstinence durations.
+
+[Results]: Cessation posts exhibited higher frequencies of anxiety, disgust, pride, and gratitude compared to general forums. Anxiety-related words decreased significantly after longer than 100 days of abstinence. Analysis revealed a consistent emotion profile across substance cessations, with some overlap in emotional characteristics seen in social anxiety and ADHD posts. These findings were replicated across both data sets and distinguished by their focus on emotional language rather than non-emotional terms.
+
+[Implications]: These findings highlight a unique emotional phenotype associated with substance cessation, offering insights into potential risk factors and intervention targets. By leveraging web-based data, researchers can develop targeted mental health outreach strategies, potentially aiding in early detection and personalized treatment approaches for vulnerable populations.
+
+
+Paper Code: jmir_23_P_624
+
+[Background]: The web-based health question-and-answer (Q&A) community has become the primary and handy way for people to access health information and knowledge directly.
+
+[Method]: Full-scale data on health consultations were acquired from the Metafilter Q&A community. These variables were designed in terms of context, content, and contributors. Negative binomial regression models were used to examine the influence of these variables on the favorite and comment counts of a health-related post. A total of 18,099 post records were collected from a well-known Q&A community.
+
+[Results]: Content-related variables have a strong impact on both the answerability and popularity of posts. Notably, sentiment values were positively related to favorite counts and negatively associated with comment counts. User-related variables significantly affected the answerability and popularity of posts. Specifically, participation intensity was positively related to comment count and negatively associated with favorite count. Sociability breadth only had a significant impact on comment count. Context-related variables have a more substantial influence on the popularity of posts than on their answerability. The topic diversity variable exhibits an inverse correlation with the comment count while manifesting a positive correlation with the favorite count. Nevertheless, topic intensity has a significant effect only on favorite count.
+
+[Implications]: The research results not only reveal the factors influencing the answerability and popularity of health-related posts, which can help them obtain high-quality answers more efficiently, but also provide a theoretical basis for platform operators to enhance user engagement within health Q&A communities.
+

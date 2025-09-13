@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_664
+
+[Background]: Supervised visual captioning models typically require a large scale of images or videos paired with descriptions in a specific language (i.e., the vision-caption pairs) for training. However, collecting and labeling large-scale datasets is time-consuming and expensive for many scenarios and languages. Therefore, sufficient labeled pairs are usually not available.
+
+[Method]: We present a simple yet effective zero-shot approach called MultiCapCLIP that generates visual captions for different scenarios and languages without requiring any labeled vision-caption pairs. In the training stage, MultiCapCLIP uses text data as input and performs two main steps: 1) retrieving concept prompts that preserve the corresponding domain knowledge of new scenarios; 2) auto-encoding these prompts to learn writing styles suitable for generating captions in a desired language. During testing, MultiCapCLIP processes visual data directly to retrieve concept prompts and produce the final visual descriptions.
+
+[Results]: Extensive experiments conducted on image and video captioning tasks using four benchmark datasets and across four languages (English, Chinese, German, and French) demonstrate the effectiveness of our approach. Our method outperforms existing state-of-the-art zero-shot and weakly-supervised techniques by achieving 4.8% and 21.5% absolute improvements in terms of BLEU@4 and CIDEr metrics respectively.
+
+[Implications]: This advancement addresses the critical challenge of limited labeled data in cross-lingual and scenario-specific visual captioning tasks. By leveraging textual information effectively, MultiCapCLIP offers a versatile solution for generating accurate and diverse visual descriptions across various domains and languages, potentially expanding the applicability of automated visual description systems in real-world scenarios where annotated datasets may be scarce or impractical to obtain.
+
+
+Paper Code: ACL_23_P_605
+
+[Background]: Knowledge distillation (KD) is the process of transferring knowledge from a large model to a small one. It has gained increasing attention in the natural language processing community, driven by the demands of compressing ever-growing language models.
+
+[Method]: We propose an FDISTILL framework, which formulates sequence-level knowledge distillation as minimizing a generalized f-divergence function. We propose four distilling variants under our framework and show that existing SeqKD and ENGINE approaches are approximations of our FDISTILL methods. We further derive step-wise decomposition for our FDISTILL, reducing intractable sequence-level divergence to word-level losses that can be computed in a tractable manner.
+
+[Results]: Experiments across four datasets show that our methods outperform existing KD approaches, and that our symmetric distilling losses can better force the student to learn from the teacher distribution.
+
+[Implications]: The importance of our work lies in providing a more comprehensive understanding of knowledge distillation through the formulation of sequence-level tasks and deriving efficient computational strategies to implement them effectively.
+

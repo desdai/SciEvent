@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_725
+
+[Background]: Backdoor attacks have become an emerging threat to NLP systems. By providing poisoned training data, the adversary can embed a “backdoor” into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary’s choice.
+
+[Method]: [Results]: Experiments on four text classification datasets show that our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness, raising alarm on the usage of untrusted training data. We further propose a defense method named DeBITE based on potential trigger word removal, which outperforms existing methods in defending against BITE and generalizes well to handling other backdoor attacks.
+
+[Results]: Experiments on four text classification datasets show that our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness, raising alarm on the usage of untrusted training data. We further propose a defense method named DeBITE based on potential trigger word removal, which outperforms existing methods in defending against BITE and generalizes well to handling other backdoor attacks.
+
+[Implications]: ```
+
+
+Paper Code: ACL_23_P_702
+
+[Background]: Similes play an imperative role in creative writing such as story and dialogue generation.
+
+[Method]: [Results]: However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation.
+
+[Results]: However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation.
+
+[Implications]: <NONE>
+

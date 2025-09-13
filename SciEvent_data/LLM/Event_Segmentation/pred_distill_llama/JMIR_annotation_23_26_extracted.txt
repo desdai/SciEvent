@@ -1,0 +1,21 @@
+Paper Code: jmir_23_P_881
+
+[Background]: Since the onset of the COVID-19 pandemic, vaccines have been an important topic in public discourse. The discussions around vaccines are polarized, as some see them as an important measure to end the pandemic, and others are hesitant or find them harmful. A substantial portion of these discussions occurs openly on social media platforms. This allows us to closely monitor the opinions of different groups and their changes over time.
+
+[Method]: A dataset of 16,713,238 English tweets related to COVID-19 vaccines was collected, covering the period from March 1, 2020, to July 31, 2021. We used the scikit-learn Python library to apply a support vector machine classifier to identify the tweets with a negative stance toward COVID-19 vaccines. A total of 5163 tweets were used to train the classifier, of which a subset of 2484 tweets was manually annotated by us and made publicly available along with this paper. We used the BERTopic model to extract the topics discussed within the negative tweets and investigate them, including how they changed over time.
+
+[Results]: We showed that the negativity with respect to COVID-19 vaccines has decreased over time along with the vaccine rollouts. We identified 37 topics of discussion and presented their respective importance over time. We showed that popular topics not only consisted of conspiratorial discussions, such as 5G towers and microchips, but also contained legitimate concerns around vaccination safety and side effects as well as concerns about policies. The most prevalent topic among vaccine-hesitant tweets was related to the use of messenger RNA and fears about its speculated negative effects on our DNA.
+
+[Implications]: Understanding the concerns, the discussed topics, and how they change over time is essential for policy makers and public health authorities to provide better in-time information and policies to facilitate the vaccination of the population in future similar crises.
+
+
+Paper Code: jmir_23_P_358
+
+[Background]: Workers with flexible work designs (FWDs) face specific challenges, such as difficulties in detaching from work, setting boundaries between work and private life, and recovering from work.
+
+[Method]: This study evaluated the effectiveness of an intervention in improving the recovery, work-life balance, and well-being of workers with FWDs compared with a waitlist control group. It also compares the effectiveness of a web-based training format and blended training format. In the web-based training format, participants individually completed 6 web-based modules and daily tasks over 6 weeks, learning self-regulation strategies to meet the particular challenges of FWDs. In the blended training format, participants attended 3 group sessions in addition to completing the 6 web-based modules. In a randomized controlled trial, participants were assigned to a web-based intervention group (196/575, 34.1%), blended intervention group (198/575, 34.4%), or waitlist control group (181/575, 31.5%). Study participants self-assessed their levels of primary outcomes (psychological detachment, satisfaction with work-life balance, and well-being) before the intervention, after the intervention, at a 4-week follow-up, and at a 6-month follow-up. The final sample included 373 participants (web-based intervention group: n=107, 28.7%; blended intervention group: n=129, 34.6%; and control group: n=137, 36.7%). Compliance was assessed as a secondary outcome.
+
+[Results]: The results of multilevel analyses were in line with our hypothesis that both training formats would improve psychological detachment, satisfaction with work-life balance, and well-being. We expected blended training to reinforce these effects, but blended training participants did not profit more from the intervention than web-based training participants. However, they reported to have had more social exchange, and blended training participants were more likely to adhere to the training. Both web-based and blended training are effective tools for improving the recovery, work-life balance, and well-being of workers with FWDs. Group sessions can increase the likelihood of participants actively participating in web-based modules and exercises.
+
+[Implications]: <NONE>
+

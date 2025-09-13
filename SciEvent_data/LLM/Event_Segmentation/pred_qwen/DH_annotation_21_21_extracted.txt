@@ -1,0 +1,21 @@
+Paper Code: dh_21_P_24
+
+[Background]: With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner.
+
+[Method]: In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way.
+
+[Results]: The advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge.
+
+[Implications]: <NONE>
+
+
+Paper Code: dh_21_P_41
+
+[Background]: By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli's nineteenth-century method for making stylistic attributions of old master paintings
+
+[Method]: it begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli's method
+
+[Results]: and then presents our own computational techniques and results.
+
+[Implications]: <NONE>
+

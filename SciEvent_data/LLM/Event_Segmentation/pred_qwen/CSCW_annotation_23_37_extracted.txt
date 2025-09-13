@@ -1,0 +1,21 @@
+Paper Code: cscw_23_P_262
+
+[Background]: Visualizations play a considerable role in explaining trends or providing evidence when consuming data online. Whether those visualizations are shared on news outlets or social networks, platforms usually allow readers to discuss their stories in comments sections. For the scope of this work, we studied the online community r/dataisbeautiful on Reddit. We found that chart creators were using a variety of authoring tools to share their content. Readers of these posts, commenters, used text mainly to discuss and critique the visual content. We noticed a need for a richer mode of communication that would show instead of telling authors what to do.
+
+[Method]: Based on our findings, we introduced Vizdat, a lightweight tool and extension to allow users to visualize and reproduce charts in the comments sections of data stories. We used Vizdat as a technology probe with 11 Reddit users to create data visualization and discuss charts on r/dataisbeautiful. During the four-week field deployment period, we observed how Vizdat was used and interviewed the participants.
+
+[Results]: During the four-week field deployment period, we observed how Vizdat was used and interviewed the participants. We found that commenters saw value in accessing the visualization specifications through Vizdat and used those charts to structure their replies with richer modalities. Visualization authors appreciated the feedback and less toxic discussion provided through comments embedded with modified versions of their charts.
+
+[Implications]: In our paper, we share these findings and other insights to understand the dynamics of forum discussion around charts.
+
+
+Paper Code: cscw_23_P_246
+
+[Background]: Recent interest in design through the artificial intelligence (AI) lens is rapidly increasing.
+
+[Method]: Via a systematic literature review of 93 papers.
+
+[Results]: The analysis first provides a bird's eye view of overall patterns in this area. The analysis also reveals three themes interpreted from the paper corpus associated with AI for design, including AI assisting designers, designers assisting AI, and characterizing designer-AI collaboration.
+
+[Implications]: <NONE>
+

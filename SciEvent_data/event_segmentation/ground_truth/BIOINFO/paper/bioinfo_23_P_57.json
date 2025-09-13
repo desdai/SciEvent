@@ -1,9 +1,0 @@
-{
-  "bioinfo_23_P_57": {
-    "abstract": "Intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology. In order to get a more clear view of these interspersed repeats encompassing a coding sequence, we have developed EDIR (Exome Database of Interspersed Repeats) which contains the positions of these structures within the human exome. EDIR has been calculated by an inductive strategy, rather than by a brute force approach and can be queried through an R/Bioconductor package or a web interface allowing the per-gene rapid extraction of homology-flanked sequences throughout the exome.",
-    "[Background]": "Intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology. In order to get a more clear view of these interspersed repeats encompassing a coding sequence, we have developed EDIR (Exome Database of Interspersed Repeats) which contains the positions of these structures within the human exome.",
-    "[Method]": "EDIR has been calculated by an inductive strategy, rather than by a brute force approach and can be queried through an R/Bioconductor package or a web interface allowing the per-gene rapid extraction of homology-flanked sequences throughout the exome.",
-    "[Results]": "<NONE>",
-    "[Implications]": "<NONE>"
-  }
-}

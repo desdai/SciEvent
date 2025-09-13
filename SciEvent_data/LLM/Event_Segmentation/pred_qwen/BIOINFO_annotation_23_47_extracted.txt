@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_246
+
+[Background]: The development of deep learning models has revolutionized various fields including bioinformatics.
+
+[Method]: In particular, Graph Neural Networks (GNNs), which have been successfully applied to predict molecular properties such as drug efficacy and toxicity, offer promising solutions for predicting protein-ligand binding affinity. This study introduces a new approach called ProBindNet, designed specifically for this task using a combination of structural features extracted from ligands and proteins along with their pairwise interactions. Our model leverages both atom-level details and spatial relationships between atoms
+
+[Results]: Experimental evaluations demonstrate significant improvements compared to existing baselines across diverse benchmark datasets, highlighting its potential utility in drug discovery processes.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_642
+
+[Background]: Identifying and tracking recombinant strains of SARS-CoV-2 is critical to understanding the evolution of the virus and controlling its spread.
+
+[Method]: We present RIVET — a software pipeline and visual platform that takes advantage of recent algorithmic advances in recombination inference to comprehensively and sensitively search for potential SARS-CoV-2 recombinants and organize the relevant information in a web interface.
+
+[Results]: <NONE>
+
+[Implications]: <NONE>
+

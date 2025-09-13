@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_570
+
+[Background]: The task of predicting drug-target interactions (DTIs) plays a significant role in facilitating the development of novel drug discovery. Compared with laboratory-based approaches, computational methods proposed for DTI prediction are preferred due to their high-efficiency and low-cost advantages.
+
+[Method]: <NONE>
+
+[Results]: Experimental results demonstrate that iGRLDTI yields better performance than several state-of-the-art computational methods on the benchmark dataset. Besides, our case study indicates that iGRLDTI can successfully identify novel DTIs with more distinguishable features of drugs and targets.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_142
+
+[Background]: Construction of high-quality fragment libraries by segmenting organic compounds is an important part of the drug discovery paradigm.
+
+[Method]: Construction of high-quality fragment libraries by segmenting organic compounds is an important part of the drug discovery paradigm. This article presents a new method, MacFrag, for efficient molecule fragmentation. MacFrag utilized a modified version of BRICS rules to break chemical bonds and introduced an efficient subgraphs extraction algorithm for rapid enumeration of the fragment space.
+
+[Results]: The evaluation results with ChEMBL dataset exhibited that MacFrag was overall faster than BRICS implemented in RDKit and modified molBLOCKS. Meanwhile, the fragments acquired through MacFrag were more compliant with the 'Rule of Three'.
+
+[Implications]: <NONE>
+

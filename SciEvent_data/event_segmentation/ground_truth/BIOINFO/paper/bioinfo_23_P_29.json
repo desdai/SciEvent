@@ -1,9 +1,0 @@
-{
-  "bioinfo_23_P_29": {
-    "abstract": "GREAT (Genomic Regions Enrichment of Annotations Tool) is a widely used tool for functional enrichment on genomic regions. However, as an online tool, it has limitations of outdated annotation data, small numbers of supported organisms and gene set collections, and not being extensible for users. Here, we developed a new R/Bioconductor package named rGREAT which implements the GREAT algorithm locally. rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users. Additionally, it implements a general method for dealing with background regions.",
-    "[Background]": "GREAT (Genomic Regions Enrichment of Annotations Tool) is a widely used tool for functional enrichment on genomic regions. However, as an online tool, it has limitations of outdated annotation data, small numbers of supported organisms and gene set collections, and not being extensible for users.",
-    "[Method]": "Here, we developed a new R/Bioconductor package named rGREAT which implements the GREAT algorithm locally. rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users. Additionally, it implements a general method for dealing with background regions.",
-    "[Results]": "<NONE>",
-    "[Implications]": "<NONE>"
-  }
-}

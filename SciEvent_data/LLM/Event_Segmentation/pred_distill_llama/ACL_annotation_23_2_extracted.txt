@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_420
+
+[Background]: The paper begins by introducing the concept of controllable pushdown automata (PDAs) derived from Weir's framework on language hierarchies. It adapts the idea of controllable CFGs to define labeled distinguished PDAs, establishing three distinct characterizations of L2 through different control mechanisms between formal systems.
+
+[Method]: The methodology involves adapting existing theories of controllable CFGs to PDAs, resulting in novel definitions for labeled distinguished PDAs. The approach uses hierarchical control structures and comparative analysis across various formal systems to determine equivalences and necessary innovations like the Pushdown Adjoining Automaton.
+
+[Results]: The key finding is the demonstration of strong equivalence among the formal systems under specific control conditions, revealing that certain combinations yield well-defined automata while others require new constructs. The results also confirm that the proposed PAA fills a gaps in current theoretical frameworks.
+
+[Implications]: The implications highlight the importance of understanding these equivalences for advancing computational linguistics and parsing technologies. The introduction of the PAA suggests potential applications in areas requiring sophisticated parsing capabilities beyond traditional automata models. Future research directions may explore the practical implementation of PAAs and their integration into broader linguistic systems.
+
+
+Paper Code: ACL_23_P_216
+
+[Background]: End-to-end Speech Translation (E2E ST) aims to directly translate source speech into target text. Existing ST methods perform poorly when only extremely small speech-text data are available for training.
+
+[Method]: We propose Word-Aligned COntrastive learning (WACO), a simple and effective method for extremely low-resource speech-to-text translation. Our key idea is bridging word-level representations for both speech and text modalities via contrastive learning.
+
+[Results]: We evaluate WACO and other methods on the MuST-C dataset, a widely used ST benchmark, and on a low-resource direction Maltese-English from IWSLT 2023. Our experiments demonstrate that WACO outperforms the best baseline by 9+ BLEU points with only 1-hour parallel ST data.
+
+[Implications]: Our results suggest that WACO can significantly improve speech-to-text translation efficiency even with minimal training data, potentially enabling more efficient cross-language communication tools.
+

@@ -1,0 +1,21 @@
+Paper Code: dh_21_P_01
+
+[Background]: Handwritten character recognition is a challenging pattern recognition problem due to the inconsistency of the handwritten scripts and the lack of accurate labeled data. Historical documents written in cursive are even more challenging as characters have unique and varying shapes. Frequently, words are linked by lines and ornamental doodles.
+
+[Method]: The labeled dataset used in this experiment was created from the manuscripts written by one of the multiple scribes that contributed to the collection of approximately 220,000 digitized images of notary records housed at the Archivo General de la Nación Argentina (National Archives). We removed the noise in these images by applying standard image processing techniques. After training different CNNs, we computed the classification accuracy for all the characters.
+
+[Results]: We observed that ResNet-50 achieved a promising accuracy of 97.08% compared to InceptionResnet-V2, Inception-V3, and VGG-16, which achieved 96.66%, 96.33%, and 70.91%, respectively.
+
+[Implications]: These results demonstrate the effectiveness of state-of-the-art convolutional neural networks for recognizing handwritten characters in seventeenth-century Spanish American notarial scripts, highlighting the potential for automated analysis of historical documents.
+
+
+Paper Code: dh_21_P_43
+
+[Background]: Drawing from the largest and first fully-searchable digital archive of non-fiction essays by incarcerated people writing about their experience inside US prisons and jails, the article proposes that there exists a broad, well-established, but underappreciated mid-range manner of reading that stands between traditional close reading and computer-aided distant reading of first-person witness testimony.
+
+[Method]: The proposed \"cellular\" reading method attends both to the singularity of each text and ventures widely enough to grasp that each text gains credence and expository authority as one among aggregates of witness testimony.
+
+[Results]: It is, moreover, in facilitating such mid-range reading that DH can provide readers with the foundation for moving from secondary witness and into acting for social change.
+
+[Implications]: The mid-range or \"cellular\" reading method is identified as a valuable tool for understanding first-person witness testimony, offering a balance between traditional close reading and distant reading techniques enabled by digital humanities (DH).
+

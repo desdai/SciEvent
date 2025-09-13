@@ -1,0 +1,21 @@
+Paper Code: bioinfo_23_P_432
+
+[Background]: Recently, interpretable deep learning models that incorporate signaling pathways have been proposed for drug response prediction (DRP).
+
+[Method]: <NONE>
+
+[Results]: Our results showed that models that explicitly incorporate pathway information in the form of a latent layer perform worse compared to models that incorporate this information implicitly. However, in most evaluation setups, the best performance was achieved using a black-box multilayer perceptron, and the performance of a random forests baseline was comparable to those of the interpretable models. Replacing the signaling pathways with randomly generated pathways showed a comparable performance for the majority of the models. Finally, the performance of all models deteriorated when applied to an independent dataset.
+
+[Implications]: <NONE>
+
+
+Paper Code: bioinfo_23_P_838
+
+[Background]: In whole genome sequencing data, polymerase chain reaction amplification results in duplicate DNA fragments coming from the same location in the genome. The process of preparing a whole genome bisulfite sequencing (WGBS) library, on the other hand, can create two DNA fragments from the same location that should not be considered duplicates.
+
+[Method]: [Results]:
+
+[Results]: <NONE>
+
+[Implications]: <NONE>
+

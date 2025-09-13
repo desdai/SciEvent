@@ -1,0 +1,21 @@
+Paper Code: ACL_23_P_528
+
+[Background]: Text generation often involves producing coherent and grammatically correct texts that also satisfy a given set of semantic constraints. While most approaches for conditional text generation have primarily focused on lexical constraints, they often struggle to effectively incorporate syntactic constraints, which provide a richer language for approximating semantic constraints.
+
+[Method]: We build NeuroStructural Decoding on the NeuroLogic Decoding (Lu et al. 2021) algorithm, which enables language generation models to produce fluent text while satisfying complex lexical constraints. Our algorithm is powerful and scalable. It tracks lexico-syntactic constraints (e.g., we need to observe dog as subject and ball as object) during decoding by parsing the partial generations at each step. To this end, we adapt a dependency parser to generate parses for incomplete sentences.
+
+[Results]: Our approach is evaluated on three different language generation tasks, and the results show improved performance in both lexical and syntactic metrics compared to previous methods.
+
+[Implications]: The results suggest this is a promising solution for integrating fine-grained controllable generation into the conventional beam search decoding.
+
+
+Paper Code: ACL_23_P_872
+
+[Background]: Direct speech-to-speech translation (S2ST) is advantageous over cascaded approaches as it allows for faster inference with a simpler pipeline.
+
+[Method]: We introduce a novel two-pass direct S2ST architecture called UnitY. The system consists of generating textual representations followed by predicting discrete acoustic units. Performance improvements include subword prediction in the first-pass decoder, an advanced two-pass decoder architecture, and enhanced training regularization. Additionally, we leverage large amounts of unlabeled text data by pre-training the first-pass text decoder using a self-supervised denoising auto-encoding task.
+
+[Results]: Our experiments on benchmark datasets across different data scales reveal that UnitY surpasses a single-pass speech-to-unit translation model by achieving 2.5-4.2 ASR-BLEU scores while providing a 2.83x decoding speed-up. Furthermore, our method demonstrates improved performance when predicting spectrograms during the second pass, though this approach offers a slower decoding speed-up of approximately 2.51x compared to other configurations.
+
+[Implications]: The proposed techniques significantly enhance both the efficiency and effectiveness of direct S2ST models, paving the way for more efficient real-time applications and further advancements in natural language processing.
+
