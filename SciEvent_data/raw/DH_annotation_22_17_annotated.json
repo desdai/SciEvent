@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "process of making digital objects available and discoverable",
           "Text": "The process of making digital objects available and discoverable demands a great deal of labor, from digitization, to creating metadata, to preservation, to importing it into a digital asset management system, and finally to presenting it.",
-          "Main Action": "demands",
+          "Action": "demands",
           "Arguments": {
             "Agent": [
               "The process of making digital objects available and discoverable"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "a great deal of labor,"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "digitization",
@@ -39,7 +37,7 @@
         {
           "Methods/Approach": "case study of valut migration",
           "Text": "We begin this essay with a case study of one such system, called 'Vault,' in the University of Victoria Libraries, and the work required to migrate from a Software as a Service (SAAS) model (called ContentDM) to a free and open-source software (FOSS) model (a customized instance of Samvera). Vault illustrates what we call 'minimal computing from the labor perspective,' which seeks to reduce the opacity of software through 'low-tech' practices such as pseudocode, thereby reducing the alienation of practitioners from their projects.",
-          "Main Action": "begin",
+          "Action": "begin",
           "Arguments": {
             "Agent": [
               "We"
@@ -48,9 +46,7 @@
               "Primary Object": [
                 "this essay with a case study of one such system, called 'Vault,' in the University of Victoria Libraries"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the work required to migrate from a Software as a Service (SAAS) model (called ContentDM) to a free and open-source software (FOSS) model (a customized instance of Samvera)",
@@ -72,7 +68,7 @@
         {
           "Conclusions/Implications": "degrowth from feminist ecological work",
           "Text": "Drawing from feminist ecological work on capitalism, affective labor, and care, we advocate for the 'degrowth' of digital projects by resisting tendencies to reinvest surplus labor and value into increased productivity. Instead, degrowth as minimal computing prompts practitioners to articulate a project’s needs and desires; what work is required and from whom; and how or whether to sustain this labor for the future.",
-          "Main Action": "advocate for",
+          "Action": "advocate for",
           "Arguments": {
             "Agent": [
               "we"
@@ -81,9 +77,7 @@
               "Primary Object": [
                 "the 'degrowth' of digital projects"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "feminist ecological work on capitalism, affective labor, and care",
@@ -114,7 +108,7 @@
         {
           "Background/Introduction": "material conditions of scholarship and digital editorial work",
           "Text": "In this paper, we explore the material conditions of scholarship and digital editorial work that make uncovering nineteenth-century women’s lives possible in the twenty-first century.",
-          "Main Action": "explore",
+          "Action": "explore",
           "Arguments": {
             "Agent": [
               "we"
@@ -123,9 +117,7 @@
               "Primary Object": [
                 "the material conditions of scholarship and digital editorial work"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "uncovering nineteenth-century women’s lives",
@@ -144,7 +136,7 @@
         {
           "Methods/Approach": "research methods that combine digital scholarly editing",
           "Text": "Taking our project, Digital Dinah Craik, a TEI-edition of the letters of the bestselling Victorian author, as a case study, we discuss research methods that combine digital scholarly editing with genealogy and prosopography. We argue that by combining research tools aimed at scholars, such as the Text Encoding Initiative (TEI), and the Oxford Dictionary of National Biography, with research tools aimed at a more general audience, such as Ancestry.com and the British Newspaper Archive, we can develop more creative and inclusive research methods and in turn, gain a fuller picture of women’s and working-class lives.",
-          "Main Action": "discuss",
+          "Action": "discuss",
           "Arguments": {
             "Agent": [
               "we"
@@ -153,9 +145,7 @@
               "Primary Object": [
                 "research methods that combine digital scholarly editing with genealogy and prosopography"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "our project, Digital Dinah Craik, a TEI-edition of the letters of the bestselling Victorian author",

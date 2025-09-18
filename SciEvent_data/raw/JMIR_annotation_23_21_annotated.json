@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Human factors are crucial in healthcare cybersecurity, requiring targeted interventions.",
           "Text": "Cyber threats are increasing across all business sectors, with health care being a prominent domain. In response to the ever-increasing threats, health care organizations (HOs) are enhancing the technical measures with the use of cybersecurity controls and other advanced solutions for further protection. Despite the need for technical controls, humans are evidently the weakest link in the cybersecurity posture of HOs. This suggests that addressing the human aspects of cybersecurity is a key step toward managing cyber-physical risks. In practice, HOs are required to apply general cybersecurity and data privacy guidelines that focus on human factors. However, there is limited literature on the methodologies and procedures that can assist in successfully mapping these guidelines to specific controls (interventions), including awareness activities and training programs, with a measurable impact on personnel. To this end, tools and structured methodologies for assisting higher management in selecting the minimum number of required controls that will be most effective on the health care workforce are highly desirable.",
-          "Main Action": "are",
+          "Action": "are",
           "Arguments": {
             "Agent": [
               "humans"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "the weakest link"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Cyber threats are increasing across all business sectors, with health care being a prominent domain",
@@ -43,7 +41,7 @@
         {
           "Methods/Approach": "Purpose and details of the CH method.",
           "Text": "This study aimed to introduce a cyber hygiene (CH) methodology that uses a unique survey-based risk assessment approach for raising the cybersecurity and data privacy awareness of different employee groups in HOs. The main objective was to identify the most effective strategy for managing cybersecurity and data privacy risks and recommend targeted human-centric controls that are tailored to organization-specific needs. The CH methodology relied on a cross-sectional, exploratory survey study followed by a proposed risk-based survey data analysis approach. First, survey data were collected from 4 different employee groups across 3 European HOs, covering 7 categories of cybersecurity and data privacy risks. Next, survey data were transcribed and fitted into a proposed risk-based approach matrix that translated risk levels to strategies for managing the risks. A list of human-centric controls and implementation levels was created. These controls were associated with risk categories, mapped to risk strategies for managing the risks related to all employee groups. Our mapping empowered the computation and subsequent recommendation of subsets of human-centric controls to implement the identified strategy for managing the overall risk of the HOs. An indicative example demonstrated the application of the CH methodology in a simple scenario.",
-          "Main Action": "aimed to introduce",
+          "Action": "aimed to introduce",
           "Arguments": {
             "Agent": [
               "This study"
@@ -52,9 +50,7 @@
               "Primary Object": [
                 "a cyber hygiene (CH) methodology"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "CH methodology relied on a cross-sectional, exploratory survey study followed by a proposed risk-based survey data analysis approach"
@@ -82,7 +78,7 @@
         {
           "Results/Findings": "The CH methodology identified risks, strategies, and controls for HOs.",
           "Text": "Finally, by applying the CH methodology in the health care sector, we obtained results in the form of risk markings; identified strategies to manage the risks; and recommended controls for each of the 3 HOs, each employee group, and each risk category.",
-          "Main Action": "obtained",
+          "Action": "obtained",
           "Arguments": {
             "Agent": [
               "we"
@@ -91,11 +87,7 @@
               "Primary Object": [
                 "results"
               ],
-              "Primary Modifier": [
-                "in the form of risk markings"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -116,7 +108,7 @@
         {
           "Conclusions/Implications": "The CH methodology enhances personnel behavior and provides human-centric risk controls.",
           "Text": "The proposed CH methodology improves the CH perception and behavior of personnel in the health care sector and provides risk strategies together with a list of recommended human-centric controls for managing a wide range of cybersecurity and data privacy risks related to health care employees.",
-          "Main Action": "improves",
+          "Action": "improves",
           "Arguments": {
             "Agent": [
               "CH methodology"
@@ -125,9 +117,7 @@
               "Primary Object": [
                 "CH perception and behavior of personnel"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "in the health care sector"
@@ -153,7 +143,7 @@
         {
           "Background/Introduction": "Addressing missing healthcare data ensures AI accuracy, growth, and equity.",
           "Text": "Missingness in health care data poses significant challenges in the development and implementation of artificial intelligence (AI) and machine learning solutions. Identifying and addressing these challenges is critical to ensuring the continued growth and accuracy of these models as well as their equitable and effective use in health care settings.",
-          "Main Action": "is critical to",
+          "Action": "is critical to",
           "Arguments": {
             "Agent": [
               "identifying and addressing these challenges"
@@ -162,11 +152,9 @@
               "Primary Object": [
                 "ensuring the continued growth and accuracy of these models"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "as well as their equitable and effective use in health care settings"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -184,7 +172,7 @@
         {
           "Methods/Approach": "Study explores AI data missingness via digital conference, thematic analysis.",
           "Text": "This study aims to explore the challenges, opportunities, and potential solutions related to missingness in health care data for AI applications through the conduct of a digital conference and thematic analysis of conference proceedings. A digital conference was held in September 2022, attracting 861 registered participants, with 164 (19%) attending the live event. The conference featured presentations and panel discussions by experts in AI, machine learning, and health care. Transcripts of the event were analyzed using the stepwise framework of Braun and Clark to identify key themes related to missingness in health care data.",
-          "Main Action": "aims to explore",
+          "Action": "aims to explore",
           "Arguments": {
             "Agent": [
               "This study"
@@ -193,11 +181,7 @@
               "Primary Object": [
                 "the challenges, opportunities, and potential solutions"
               ],
-              "Primary Modifier": [
-                "related to missingness in health care data for AI applications"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "A digital conference was held in September 2022, attracting 861 registered participants, with 164 (19%) attending the live event",
@@ -219,7 +203,7 @@
         {
           "Results/Findings": "Key themes: data quality, human input, trust, and privacy in AI.",
           "Text": "Three principal themes—data quality and bias, human input in model development, and trust and privacy — emerged from the analysis. Topics included the accuracy of predictive models, lack of inclusion of underrepresented communities, partnership with physicians and other populations, challenges with sensitive health care data, and fostering trust with patients and the health care community.",
-          "Main Action": "emerged from",
+          "Action": "emerged from",
           "Arguments": {
             "Agent": [
               "Three principal themes—data quality and bias, human input in model development, and trust and privacy"
@@ -228,9 +212,7 @@
               "Primary Object": [
                 "the analysis"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "accuracy of predictive models",
@@ -252,16 +234,14 @@
         {
           "Conclusions/Implications": "Improving data, collaboration, and ethics ensures AI’s responsible healthcare use.",
           "Text": "Addressing the challenges of data quality, human input, and trust is vital when devising and using machine learning algorithms in health care. Recommendations include expanding data collection efforts to reduce gaps and biases, involving medical professionals in the development and implementation of AI models, and developing clear ethical guidelines to safeguard patient privacy. Further research and ongoing discussions are needed to ensure these conclusions remain relevant as health care and AI continue to evolve.",
-          "Main Action": "is vital",
+          "Action": "is vital",
           "Arguments": {
             "Agent": [
               "Addressing the challenges of data quality, human input, and trust"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "devising and using machine learning algorithms in health care"

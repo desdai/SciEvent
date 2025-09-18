@@ -7,16 +7,14 @@
         {
           "Background/Introduction": "Discussing hallucination problems in neural machine translation and potential solutions",
           "Text": "While the problem of hallucinations in neural machine translation has long been recognized, so far the progress on its alleviation is very little. Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative. It means that internal characteristics of the model can give much more information than we expect, and before using external models and measures, we first need to ask: how far can we go if we use nothing but the translation model itself?",
-          "Main Action": "has long been recognized",
+          "Action": "has long been recognized",
           "Arguments": {
             "Agent": [
               "the problem of hallucinations in neural machine translation"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative"
@@ -36,7 +34,7 @@
         {
           "Methods/Approach": "Proposing a method to detect hallucinations by measuring source contribution percentage",
           "Text": "We propose to use a method that evaluates the percentage of the source contribution to a generated translation. Intuitively, hallucinations are translations “detached” from the source, hence they can be identified by low source contribution.",
-          "Main Action": "propose to use",
+          "Action": "propose to use",
           "Arguments": {
             "Agent": [
               "We"
@@ -45,11 +43,7 @@
               "Primary Object": [
                 "a method"
               ],
-              "Primary Modifier": [
-                "that evaluates the percentage of the source contribution to a generated translation"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -67,7 +61,7 @@
         {
           "Results/Findings": "Method improves hallucination detection accuracy and performance comparable to external models",
           "Text": "This method improves detection accuracy for the most severe hallucinations by a factor of 2 and is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models. Next, if we move away from internal model characteristics and allow external tools, we show that using sentence similarity from cross-lingual embeddings further improves these results.",
-          "Main Action": "improves",
+          "Action": "improves",
           "Arguments": {
             "Agent": [
               "This method"
@@ -76,11 +70,7 @@
               "Primary Object": [
                 "detection accuracy"
               ],
-              "Primary Modifier": [
-                "for the most severe hallucinations by a factor of 2"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -105,7 +95,7 @@
         {
           "Background/Introduction": "Social media opportunities and challenges for under-represented language communities",
           "Text": "The wide accessibility of social media has provided linguistically under-represented communities with an extraordinary opportunity to create content in their native languages. This, however, comes with certain challenges in script normalization, particularly where the speakers of a language in a bilingual community rely on another script or orthography to write their native language.",
-          "Main Action": "has provided",
+          "Action": "has provided",
           "Arguments": {
             "Agent": [
               "The wide accessibility of social media"
@@ -114,12 +104,8 @@
               "Primary Object": [
                 "linguistically under-represented communities"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "with an extraordinary opportunity"
-              ],
-              "Secondary Modifier": [
-                "to create content in their native languages"
               ]
             },
             "Context": [],
@@ -138,7 +124,7 @@
         {
           "Methods/Approach": "Addressing script normalization using synthetic data and transformer models",
           "Text": "This paper addresses the problem of script normalization for several such languages that are mainly written in a Perso-Arabic script. Using synthetic data with various levels of noise and a transformer-based model, we demonstrate that the problem can be effectively remediated. We conduct a small-scale evaluation of real data as well.",
-          "Main Action": "addresses",
+          "Action": "addresses",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -147,11 +133,7 @@
               "Primary Object": [
                 "the problem of script normalization"
               ],
-              "Primary Modifier": [
-                "for several such languages that are mainly written in a Perso-Arabic script"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -172,7 +154,7 @@
         {
           "Results/Findings": "Script normalization benefits downstream NLP tasks",
           "Text": "Our experiments indicate that script normalization is also beneficial to improve the performance of downstream tasks such as machine translation and language identification.",
-          "Main Action": "indicate",
+          "Action": "indicate",
           "Arguments": {
             "Agent": [
               "Our experiments"
@@ -181,11 +163,7 @@
               "Primary Object": [
                 "script normalization is also beneficial"
               ],
-              "Primary Modifier": [
-                "to improve the performance of downstream tasks such as machine translation and language identification"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

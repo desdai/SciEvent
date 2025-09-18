@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Increasing use of information visualization techniques and rise of digital reading on the web",
           "Text": "There is an increasing use of information visualization techniques in Digital Humanities to support the analysis of literary works. On the other hand, the rise of digital reading on the web as well as the development of dedicated e-book readers has triggered a variety of hardware and software solutions to provide new reading environments and new material engagements with textual forms.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "There"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "an increasing use"
               ],
-              "Primary Modifier": [
-                "of information visualization techniques in Digital Humanities"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the rise of digital reading on the web as well as the development of dedicated e-book readers"
@@ -42,7 +38,7 @@
         {
           "Methods/Approach": "Proposal of new metaphor - in Out In metaphor",
           "Text": "In this paper, we propose a new metaphor, In-Out-In metaphor, to support the reading of literary works in a digital medium. Our model integrates information visualization techniques with plain text reading into the reading flow. This approach differs from the well-known dichotomy between close and distant reading because its emphasis is not on supporting the analysis of the texts being read, but on providing a smooth flow between focus and digression, which naturally occurs during a reading experience.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -51,11 +47,7 @@
               "Primary Object": [
                 "a new metaphor"
               ],
-              "Primary Modifier": [
-                "In-Out-In metaphor"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "naturally occurs during a reading experience"
@@ -80,7 +72,7 @@
         {
           "Results/Findings": "Solution to read the book Disquiet",
           "Text": "We present a solution to read and explore the Book of Disquiet by Fernando Pessoa, an unfinished book composed of a set of modular texts that have been edited in different sequences and which can be read multi-sequentially. The research and design decisions for the visual reader of the Book of Disquiet are meant to provide an appealing, rich and interactive online reading experience through a web-based application, LdoD Visual. The implemented features apply information visualization techniques with an emphasis on exploring the modular nature of the book. Since this is a fragmentary literary work, its reading can be fragmentary as well, but providing a smooth multiple flow reading experience.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -89,9 +81,7 @@
               "Primary Object": [
                 "a solution"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "an unfinished book composed of a set of modular texts that have been edited in different sequences and which can be read multi-sequentially",
@@ -125,7 +115,7 @@
         {
           "Methods/Approach": "Interview by Stefania Scagliola",
           "Text": "They are interviewed by Stefania Scagliola (Centre for Contemporary and Digital History), who co-founded the group and is a co-editor of this special issue.",
-          "Main Action": "are interviewed by",
+          "Action": "are interviewed by",
           "Arguments": {
             "Agent": [
               "They"
@@ -134,11 +124,7 @@
               "Primary Object": [
                 "Stefania Scagliola"
               ],
-              "Primary Modifier": [
-                "(Centre for Contemporary and Digital History)"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "co-founded the group",

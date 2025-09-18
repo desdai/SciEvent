@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Challenges in utilizing deep models for survival analysis",
           "Text": "Survival analysis is an important tool for modeling time-to-event data, e.g., to predict the survival time of a patient after a cancer diagnosis or a certain treatment. While deep neural networks work well in standard prediction tasks, it is still unclear how to best utilize these deep models in survival analysis due to the difficulty of modeling right censored data, especially for multi-omics data. Although existing methods have shown the advantage of multi-omics integration in survival prediction, it remains challenging to extract complementary information from different omics and improve the prediction accuracy.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Survival analysis"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "an important tool"
               ],
-              "Primary Modifier": [
-                "for modeling time-to-event data"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "deep neural networks work well in standard prediction tasks",
@@ -44,7 +40,7 @@
         {
           "Methods/Approach": "methods of multi-omics deep survival prediction approach",
           "Text": "In this work, we propose a novel multi-omics deep survival prediction approach by dually fused graph convolutional network (GCN) named FGCNSurv. Our FGCNSurv is a complete generative model from multi-omics data to survival outcome of patients, including feature fusion by a factorized bilinear model, graph fusion of multiple graphs, higher-level feature extraction by GCN, and survival prediction by a Cox proportional hazard model. The factorized bilinear model enables to capture cross-omics features and quantify complex relations from multi-omics data. By fusing single-omics features and the cross-omics features, and simultaneously fusing multiple graphs from different omics, GCN with the generated dually fused graph could capture higher-level features for computing the survival loss in the Cox-PH model.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -53,9 +49,7 @@
               "Primary Object": [
                 "a novel multi-omics deep survival prediction approach"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -77,7 +71,7 @@
         {
           "Results/Findings": "observations of the experimental result on real world datasets",
           "Text": "Comprehensive experimental results on real-world datasets with gene expression and microRNA expression data show that the proposed FGCNSurv method outperforms existing survival prediction methods, and imply its ability to extract complementary information for survival prediction from multi-omics data.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Comprehensive experimental results"
@@ -86,9 +80,7 @@
               "Primary Object": [
                 "the proposed FGCNSurv method outperforms existing survival prediction methods"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -112,7 +104,7 @@
         {
           "Background/Introduction": "Background of synchronizing time course and its challenges",
           "Text": "In functional imaging studies, accurately synchronizing the time course of experimental manipulations and stimulus presentations with resulting imaging data is crucial for analysis. Current software tools lack such functionality, requiring manual processing of the experimental and imaging data, which is error-prone and potentially non-reproducible.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "accurately synchronizing the time course"
@@ -121,9 +113,7 @@
               "Primary Object": [
                 "crucial for analysis"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -141,7 +131,7 @@
         {
           "Methods/Approach": "Introduction of VoDEx and its methods",
           "Text": "We present VoDEx, an open-source Python library that streamlines the data management and analysis of functional imaging data. VoDEx synchronizes the experimental timeline and events (e.g., presented stimuli, recorded behavior) with imaging data. VoDEx provides tools for logging and storing the timeline annotation, and enables retrieval of imaging data based on specific time-based and manipulation-based experimental conditions.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -150,11 +140,7 @@
               "Primary Object": [
                 "VoDEx"
               ],
-              "Primary Modifier": [
-                "an open-source Python library that streamlines the data management and analysis of functional imaging data"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

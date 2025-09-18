@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "AI as tool and probe for respiratory care innovation",
           "Text": "This paper combines design, machine learning and social computing to explore generative deep learning as both tool and probe for respiratory care.",
-          "Main Action": "combines",
+          "Action": "combines",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "design, machine learning and social computing"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -36,7 +34,7 @@
         {
           "Methods/Approach": "GANspire: AI-generated breathing waveforms probe respiratory care insights",
           "Text": "We first present GANspire, a deep learning tool that generates fine-grained breathing waveforms, which we crafted in collaboration with one respiratory physician, attending to joint materialities of human breathing data and deep generative models. We then relate a probe, produced with breathing waveforms generated with GANspire, and led with a group of ten respiratory care experts, responding to its material attributes. Qualitative annotations showed that respiratory care experts interpreted both realistic and ambiguous attributes of breathing waveforms generated with GANspire, according to subjective aspects of physiology, activity and emotion. Semi-structured interviews also revealed experts' broader perceptions, expectations and ethical concerns on AI technology, based on their clinical practice of respiratory care, and reflexive analysis of GANspire.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -45,11 +43,7 @@
               "Primary Object": [
                 "GANspire"
               ],
-              "Primary Modifier": [
-                "a deep learning tool that generates fine-grained breathing waveforms"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -71,7 +65,7 @@
         {
           "Results/Findings": "Ambiguous AI outputs aid respiratory care design and research",
           "Text": "These findings suggest design implications for technological aids in respiratory care, and show how ambiguity of deep generative models can be leveraged as a resource for qualitative inquiry, enabling socio-material research with generative deep learning.",
-          "Main Action": "suggest",
+          "Action": "suggest",
           "Arguments": {
             "Agent": [
               "These findings"
@@ -80,11 +74,7 @@
               "Primary Object": [
                 "design implications"
               ],
-              "Primary Modifier": [
-                "for technological aids in respiratory care"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -103,7 +93,7 @@
         {
           "Conclusions/Implications": "Contributions to the CSCW community and a probe to prove open conversations",
           "Text": "Our paper contributes to the CSCW community by broadening how generative deep learning may be approached not only as a tool to design human-computer interactions, but also as a probe to provoke open conversations with communities of practice about their current and speculative uses of AI technology.",
-          "Main Action": "contributes to",
+          "Action": "contributes to",
           "Arguments": {
             "Agent": [
               "Our paper"
@@ -112,9 +102,7 @@
               "Primary Object": [
                 "the CSCW community"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -138,7 +126,7 @@
         {
           "Background/Introduction": "XAI sociotechnical gap analysis enhances explainability design insights",
           "Text": "Explainable AI (XAI) systems are sociotechnical in nature; thus, they are subject to the sociotechnical gap — divide between the technical affordances and the social needs. However, charting this gap is challenging. In the context of XAI, we argue that charting the gap improves our problem understanding, which can reflexively provide actionable insights to improve explainability.",
-          "Main Action": "argue",
+          "Action": "argue",
           "Arguments": {
             "Agent": [
               "we"
@@ -147,9 +135,7 @@
               "Primary Object": [
                 "charting the gap improves our problem understanding, which can reflexively provide actionable insights to improve explainability"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Explainable AI (XAI) systems are sociotechnical in nature; thus, they are subject to the sociotechnical gap — divide between the technical affordances and the social needs"
@@ -169,7 +155,7 @@
         {
           "Methods/Approach": "Case studies yield XAI framework to bridge sociotechnical gaps across domains",
           "Text": "Utilizing two case studies in distinct domains, we empirically derive a framework that facilitates systematic charting of the sociotechnical gap by connecting AI guidelines in the context of XAI and elucidating how to use them to address the gap. We apply the framework to a third case in a new domain, showcasing its affordances.",
-          "Main Action": "derive",
+          "Action": "derive",
           "Arguments": {
             "Agent": [
               "we"
@@ -178,11 +164,7 @@
               "Primary Object": [
                 "a framework"
               ],
-              "Primary Modifier": [
-                "that facilitates systematic charting of the sociotechnical gap"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Utilizing two case studies in distinct domains"
@@ -203,7 +185,7 @@
         {
           "Conclusions/Implications": "Framework bridges XAI's sociotechnical gap, enabling adaptable design",
           "Text": "Finally, we discuss conceptual implications of the framework, share practical considerations in its operationalization, and offer guidance on transferring it to new contexts. By making conceptual and practical contributions to understanding the sociotechnical gap in XAI, the framework expands the XAI design space.",
-          "Main Action": "discuss",
+          "Action": "discuss",
           "Arguments": {
             "Agent": [
               "we"
@@ -212,9 +194,7 @@
               "Primary Object": [
                 "conceptual implications of the framework"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

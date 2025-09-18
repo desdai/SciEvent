@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Read-overlap graphs sparsify but must preserve coverage for accurate assembly",
           "Text": "Read-overlap-based graph data structures play a central role in computing de novo genome assembly. Most long-read assemblers use Myers's string graph model to sparsify overlap graphs. Graph sparsification improves assembly contiguity by removing spurious and redundant connections. However, a graph model must be coverage-preserving, i.e. it must ensure that there exist walks in the graph that spell all chromosomes, given sufficient sequencing coverage. This property becomes even more important for diploid genomes, polyploid genomes, and metagenomes where there is a risk of losing haplotype-specific information.",
-          "Main Action": "play",
+          "Action": "play",
           "Arguments": {
             "Agent": [
               "Read-overlap-based graph data structures"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a central role"
               ],
-              "Primary Modifier": [
-                "in computing de novo genome assembly"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Graph sparsification improves assembly contiguity by removing spurious and redundant connections"
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "New framework proves de Bruijn/overlap graphs preserve coverage; string graphs don’t",
           "Text": "We develop a novel theoretical framework under which the coverage-preserving properties of a graph model can be analyzed. We first prove that de Bruijn graph and overlap graph models are guaranteed to be coverage-preserving. We next show that the standard string graph model lacks this guarantee.",
-          "Main Action": "develop",
+          "Action": "develop",
           "Arguments": {
             "Agent": [
               "We"
@@ -50,11 +46,7 @@
               "Primary Object": [
                 "a novel theoretical framework"
               ],
-              "Primary Modifier": [
-                "under which the coverage-preserving properties of a graph model can be analyzed"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -74,7 +66,7 @@
         {
           "Results/Findings": "Ignoring contained reads creates coverage gaps in string graphs",
           "Text": "The latter result is consistent with prior work suggesting that removal of contained reads, i.e., the reads that are substrings of other reads, can lead to coverage gaps during string graph construction. Our experiments done using simulated long reads from HG002 human diploid genome show that 50 coverage gaps are introduced on average by ignoring contained reads from nanopore datasets.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Our experiments"
@@ -83,9 +75,7 @@
               "Primary Object": [
                 "50 coverage gaps are introduced on average by ignoring contained reads from nanopore datasets"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -103,7 +93,7 @@
         {
           "Conclusions/Implications": "Retaining key contained reads fixes most string graph coverage gaps",
           "Text": "To remedy this, we propose practical heuristics that are well-supported by our theoretical results and are useful to decide which contained reads should be retained to avoid coverage gaps. Our method retains a small fraction of contained reads (1-2%) and closes majority of the coverage gaps.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -112,11 +102,7 @@
               "Primary Object": [
                 "practical heuristics"
               ],
-              "Primary Modifier": [
-                "that are well-supported by our theoretical results"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -140,7 +126,7 @@
         {
           "Background/Introduction": "KEGG database lacks flexible visualization and network analysis tools",
           "Text": "The Kyoto Encyclopedia of Genes and Genomes (KEGG) database serves as a valuable systems biology resource and is widely utilized in diverse research fields. However, existing software does not allow flexible visualization and network analyses of the vast and complex KEGG data.",
-          "Main Action": "serves as",
+          "Action": "serves as",
           "Arguments": {
             "Agent": [
               "The Kyoto Encyclopedia of Genes and Genomes (KEGG) database"
@@ -149,9 +135,7 @@
               "Primary Object": [
                 "a valuable systems biology resource"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -169,7 +153,7 @@
         {
           "Methods/Approach": "ggkegg enhances KEGG data visualization and network analysis in R",
           "Text": "We developed ggkegg, an R package that integrates KEGG information with ggplot2 and ggraph. ggkegg enables enhanced visualization and network analyses of KEGG data. We demonstrate the utility of the package by providing examples of its application in single-cell, bulk transcriptome, and microbiome analyses.",
-          "Main Action": "developed",
+          "Action": "developed",
           "Arguments": {
             "Agent": [
               "We"
@@ -178,11 +162,7 @@
               "Primary Object": [
                 "ggkegg"
               ],
-              "Primary Modifier": [
-                "an R package that integrates KEGG information with ggplot2 and ggraph"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -201,7 +181,7 @@
         {
           "Conclusions/Implications": "ggkegg empowers researchers to analyze and visualize biological networks effectively",
           "Text": "ggkegg may empower researchers to analyze complex biological networks and present their results effectively.",
-          "Main Action": "empower",
+          "Action": "empower",
           "Arguments": {
             "Agent": [
               "ggkegg"
@@ -210,9 +190,7 @@
               "Primary Object": [
                 "researchers"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

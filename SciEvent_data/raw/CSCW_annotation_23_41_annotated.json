@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Social media: entrepreneurial lifeline but identity challenge",
           "Text": "Social media offers an alternative source for entrepreneurs to expand their social networks and obtain relevant resources to support their ambitions. Aspiring entrepreneurs with limited access to resources and social networks might rely more on the opportunities that social media tools offer. Aspiring entrepreneurs navigate social media to realize their economic dreams. Yet, those who face financial constraints often face challenges. Because aspiring entrepreneurs are transitioning to entrepreneurship, they must construct and even adapt to new work-role identities and new requisite skills, behaviors, attitudes, and patterns of interactions.",
-          "Main Action": "offers",
+          "Action": "offers",
           "Arguments": {
             "Agent": [
               "Social media"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "an alternative source"
               ],
-              "Primary Modifier": [
-                "for entrepreneurs to expand their social networks and obtain relevant resources to support their ambitions"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Aspiring entrepreneurs navigate social media to realize their economic dreams.",
@@ -42,7 +38,7 @@
         {
           "Methods/Approach": "Online support helps constrained aspiring entrepreneurs transition successfully",
           "Text": "In a re-analysis of a sub-sample of data from two empirical studies, this work examines how aspiring entrepreneurs living in a financially constrained environment seek informational, social, and emotional support online and navigate their transition to entrepreneurship.",
-          "Main Action": "examines",
+          "Action": "examines",
           "Arguments": {
             "Agent": [
               "this work"
@@ -51,9 +47,7 @@
               "Primary Object": [
                 "how aspiring entrepreneurs living in a financially constrained environment seek informational, social, and emotional support online and navigate their transition to entrepreneurship"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -71,7 +65,7 @@
         {
           "Results/Findings": "Entrepreneurs learn online but rarely share needs",
           "Text": "These entrepreneurs obtained informational and emotional resources from observing other members' posts in online communities, including the next steps needed to adapt to their desired small business work roles. However, few publicly disclosed their informational or emotional needs online.",
-          "Main Action": "obtained",
+          "Action": "obtained",
           "Arguments": {
             "Agent": [
               "These entrepreneurs"
@@ -80,11 +74,9 @@
               "Primary Object": [
                 "informational and emotional resources"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "from observing other members' posts in online communities"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -103,7 +95,7 @@
         {
           "Conclusions/Implications": "Social media use restricts entrepreneurial feedback seeking",
           "Text": "We extend existing research on financially-constrained entrepreneurs' use of social media, contributing insights into how these resource-seeking practices limit their exploration of alternative entrepreneurial identities and feedback. We also contribute design implications to facilitate their online disclosure practices, including offering suggestions about ways to respond to questions and other disclosures in ways that restore trust and mitigate identity threats.",
-          "Main Action": "extend",
+          "Action": "extend",
           "Arguments": {
             "Agent": [
               "We"
@@ -112,11 +104,9 @@
               "Primary Object": [
                 "existing research"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "on financially-constrained entrepreneurs' use of social media"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -142,7 +132,7 @@
         {
           "Background/Introduction": "Protected Twitter accounts limit unintended disclosures",
           "Text": "Twitter accounts are public by default, but Twitter gives the option to create protected accounts, where only approved followers can see their tweets. The publicly visible information changes based on the account type and the visibility of tweets also depends solely on the poster's account type which can cause unintended disclosures especially when users interact.",
-          "Main Action": "are",
+          "Action": "are",
           "Arguments": {
             "Agent": [
               "Twitter accounts"
@@ -151,9 +141,7 @@
               "Primary Object": [
                 "public by default"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Twitter gives the option to create protected accounts, where only approved followers can see their tweets",
@@ -174,7 +162,7 @@
         {
           "Methods/Approach": "Protected Twitter accounts limit unintended disclosures",
           "Text": "We surveyed 336 Twitter users to understand users' awareness of account information visibility, as well as the tweet visibility when users interact.",
-          "Main Action": "surveyed",
+          "Action": "surveyed",
           "Arguments": {
             "Agent": [
               "We"
@@ -183,9 +171,7 @@
               "Primary Object": [
                 "336 Twitter users"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -203,7 +189,7 @@
         {
           "Results/Findings": "Users misunderstand Twitter's visibility rules, even when protected",
           "Text": "We find that our participants are aware of the visibility of their profile information and individual tweets. However, the visibility of followed topics, lists, and interactions with protected accounts is confusing. Only 31% of the participants were aware that a reply by a public account to a protected account's tweet would be publicly visible. Surprisingly, having a protected account does not result in a better understanding of the account information or tweet visibility.",
-          "Main Action": "find",
+          "Action": "find",
           "Arguments": {
             "Agent": [
               "We"
@@ -212,9 +198,7 @@
               "Primary Object": [
                 "our participants are aware of the visibility of their profile information and individual tweets"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

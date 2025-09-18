@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Force-directed networks reveal—but distort—historical social hierarchies",
           "Text": "Network representation is a crucial topic in historical social network analysis. The debate around their value and connotations, led by humanist scholars, is today more relevant than ever, seeing how common these representations are as support for historical analysis. Force-directed networks, in particular, are popular as they can be developed relatively quickly, and reveal patterns and structures in data. The underlying algorithms, although powerful in revealing hidden patterns, do not retain meaningful structure and existing hierarchies within historical social networks.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Network representation"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a crucial topic"
               ],
-              "Primary Modifier": [
-                "in historical social network analysis"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the debate around their value and connotations",
@@ -45,7 +41,7 @@
         {
           "Methods/Approach": "Force-directed network visualizations distort historical hierarchies",
           "Text": "In this article, we question the foreign aspect of this structure that force-directed layouts create in historical datasets. We explore the importance of hierarchy in social networks, and investigate whether hierarchies - strongly present within our models of social structure - affect our perception of social network data.",
-          "Main Action": "question",
+          "Action": "question",
           "Arguments": {
             "Agent": [
               "we"
@@ -54,11 +50,7 @@
               "Primary Object": [
                 "the foreign aspect"
               ],
-              "Primary Modifier": [
-                "of this structure that force-directed layouts create in historical datasets."
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "force-directed layouts",
@@ -81,7 +73,7 @@
         {
           "Results/Findings": "Network viz isn't neutral—it flattens history's complexities",
           "Text": "Results from our user evaluation indicate that hierarchical network representations reduce cognitive load and lead to more frequent and deeper insights into historical social networks. We also find that users report a preference for the hierarchical graph representation.",
-          "Main Action": "indicate",
+          "Action": "indicate",
           "Arguments": {
             "Agent": [
               "Results from our user evaluation"
@@ -90,9 +82,7 @@
               "Primary Object": [
                 "that hierarchical network representations reduce cognitive load and lead to more frequent and deeper insights into historical social networks"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -110,7 +100,7 @@
         {
           "Conclusions/Implications": "Rethinking force-directed networks' role in humanities research",
           "Text": "We analyse these findings in light of the broader discussion on the value of force-directed network representations within humanistic research, and introduce open questions for future work in this line of research.",
-          "Main Action": "analyse",
+          "Action": "analyse",
           "Arguments": {
             "Agent": [
               "We"
@@ -119,11 +109,7 @@
               "Primary Object": [
                 "these findings"
               ],
-              "Primary Modifier": [
-                "in light of the broader discussion"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -148,7 +134,7 @@
         {
           "Background/Introduction": "DH conference: ADHO's unifying hub for global collaboration",
           "Text": "The annual, international Digital Humanities conference is what originally brought ADHO (the Alliance of Digital Humanities Organizations) together. Many see it as a cornerstone of our collective identity which enables collaboration, networking, and the international dissemination of scholarship in the field.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "the annual, international Digital Humanities conference"
@@ -157,9 +143,7 @@
               "Primary Object": [
                 "what originally brought ADHO (the Alliance of Digital Humanities Organizations) together"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "our collective identity",
@@ -178,7 +162,7 @@
         {
           "Methods/Approach": "Responding to critiques, ADHO outlines DH conference reforms",
           "Text": "This response to 'The circus we deserve? A front row look at the organization of the annual academic conference for the Digital Humanities' by Laura Estill, Jennifer Guiliano, Élika Ortega, Melissa Terras, Deb Verhoeven and Glen Layne-Worthey engages with its call for ADHO to improve its processes and practices surrounding the DH conference by describing the work that has been done to date, and initiatives ADHO is now undertaking.",
-          "Main Action": "engages with",
+          "Action": "engages with",
           "Arguments": {
             "Agent": [
               "This response"
@@ -187,9 +171,7 @@
               "Primary Object": [
                 "its call for ADHO"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "'The circus we deserve? A front row look at the organization of the annual academic conference for the Digital Humanities'"

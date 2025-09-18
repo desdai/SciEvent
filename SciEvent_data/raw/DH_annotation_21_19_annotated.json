@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "annotation process of sign language",
           "Text": "The annotation process of sign language corpora in terms of glosses, is a highly labor-intensive task, but a condition for a reliable quantitative analysis. During the annotation process the researcher typically defines the precise time slot in which a sign occurs and then enters the appropriate gloss for the sign.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "The annotation process"
@@ -16,11 +16,9 @@
               "Primary Object": [
                 "a highly labor-intensive task"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "condition for a reliable quantitative analysis"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [
               "sign language corpora in terms of glosses",
@@ -41,7 +39,7 @@
         {
           "Methods/Approach": "tools developed for this study",
           "Text": "The aim of this project is to develop a set of tools to assist the annotation of the signs and their formal features in a video irrespectively of its content and quality. Recent advances in the field of deep learning have led to the development of accurate and fast pose estimation frameworks. In this study, such a framework (namely OpenPose) has been used to develop three different methods and tools to facilitate the annotation process. The first tool estimates the span of a sign sequence and creates empty slots in an annotation file. The second tool detects whether a sign is one- or two-handed. The last tool recognizes the different handshapes presented in a video sample.",
-          "Main Action": "is to develop",
+          "Action": "is to develop",
           "Arguments": {
             "Agent": [
               "The aim of this project"
@@ -50,9 +48,7 @@
               "Primary Object": [
                 "a set of tools"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "recent advances in the field of deep learning",
@@ -84,7 +80,7 @@
         {
           "Conclusions/Implications": "tools can be retrained according to the need",
           "Text": "All tools can be easily re-trained to fit the needs of the researcher.",
-          "Main Action": "re-trained to fit",
+          "Action": "re-trained to fit",
           "Arguments": {
             "Agent": [
               "All tools"
@@ -93,9 +89,7 @@
               "Primary Object": [
                 "the needs of the researcher"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -117,7 +111,7 @@
         {
           "Background/Introduction": "understand natural and virtual museums",
           "Text": "Since there has been a recent trend to establishing virtual museums, which various institutions have swiftly responded to, the objective of this paper is to understand the nature of virtual and/or digital museums by focusing on their particular characteristics.",
-          "Main Action": "is to understand",
+          "Action": "is to understand",
           "Arguments": {
             "Agent": [
               "the objective of this paper"
@@ -126,9 +120,7 @@
               "Primary Object": [
                 "the nature of virtual and/or digital museums"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "a recent trend to establishing virtual museums",
@@ -148,7 +140,7 @@
         {
           "Methods/Approach": "methods addressed in this study",
           "Text": "In this approach, the paper proceeds from the assumption that museum representations in the virtual space and/or virtual museums could extend conventional or physical museum space, leading to enhanced visitor attraction and experience. The paper thus focuses on the virtual museum as an interdisciplinary and transdisciplinary object of investigation from the perspective of museology and digital humanities and seeks to ascertain whether scholarly and practical impacts are achieved. It also analyses the expected impacts on practical museum work and visitor needs, especially with respect to the tasks museums are required to fulfil in times of crisis.",
-          "Main Action": "proceeds from",
+          "Action": "proceeds from",
           "Arguments": {
             "Agent": [
               "the paper"
@@ -157,11 +149,7 @@
               "Primary Object": [
                 "the assumption "
               ],
-              "Primary Modifier": [
-                "that museum representations in the virtual space and/or virtual museums could extend conventional or physical museum space"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the virtual museum",

@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Challenges with collecting and labelling large scale datasets",
           "Text": "Supervised visual captioning models typically require a large scale of images or videos paired with descriptions in a specific language (i.e., the vision-caption pairs) for training. However, collecting and labeling large-scale datasets is time-consuming and expensive for many scenarios and languages. Therefore, sufficient labeled pairs are usually not available.",
-          "Main Action": "require",
+          "Action": "require",
           "Arguments": {
             "Agent": [
               "Supervised visual captioning models"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a large scale of images or videos"
               ],
-              "Primary Modifier": [
-                "paired with descriptions in a specific language (i.e., the vision-caption pairs) for training"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -39,7 +35,7 @@
         {
           "Methods/Approach": "Introduction to a zero shot approach - MultiCapCLIP",
           "Text": "To deal with the label shortage problem, we present a simple yet effective zero-shot approach MultiCapCLIP that can generate visual captions for different scenarios and languages without any labeled vision-caption pairs of downstream datasets. In the training stage, MultiCapCLIP only requires text data for input. Then it conducts two main steps: 1) retrieving concept prompts that preserve the corresponding domain knowledge of new scenarios; 2) auto-encoding the prompts to learn writing styles to output captions in a desired language. In the testing stage, MultiCapCLIP instead takes visual data as input directly to retrieve the concept prompts to generate the final visual descriptions.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -48,11 +44,7 @@
               "Primary Object": [
                 "MultiCapCLIP"
               ],
-              "Primary Modifier": [
-                "a simple yet effective zero-shot approach"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -76,7 +68,7 @@
         {
           "Results/Findings": "Experiments on image and video captioning",
           "Text": "The extensive experiments on image and video captioning across four benchmarks and four languages (i.e., English, Chinese, German, and French) confirm the effectiveness of our approach. Compared with state-of-the-art zero-shot and weakly-supervised methods, our method achieves 4.8% and 21.5% absolute improvements in terms of BLEU@4 and CIDEr metrics.",
-          "Main Action": "achieves",
+          "Action": "achieves",
           "Arguments": {
             "Agent": [
               "our method"
@@ -85,9 +77,7 @@
               "Primary Object": [
                 "4.8% and 21.5% absolute improvements"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -111,7 +101,7 @@
         {
           "Background/Introduction": "Knowledge distillation and demands of compressing ever growing language models",
           "Text": "Knowledge distillation (KD) is the process of transferring knowledge from a large model to a small one. It has gained increasing attention in the natural language processing community, driven by the demands of compressing ever-growing language models.",
-          "Main Action": "has gained",
+          "Action": "has gained",
           "Arguments": {
             "Agent": [
               "It"
@@ -120,11 +110,7 @@
               "Primary Object": [
                 "increasing attention"
               ],
-              "Primary Modifier": [
-                "in the natural language processing community"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Knowledge distillation (KD) is the process of transferring knowledge from a large model to a small one"
@@ -142,7 +128,7 @@
         {
           "Methods/Approach": "Proposal of FDISTILL framwork and 4 distilling variants",
           "Text": "In this work, we propose an FDISTILL framework, which formulates sequence-level knowledge distillation as minimizing a generalized f-divergence function. We propose four distilling variants under our framework and show that existing SeqKD and ENGINE approaches are approximations of our FDISTILL methods. We further derive step-wise decomposition for our FDISTILL, reducing intractable sequence-level divergence to word-level losses that can be computed in a tractable manner.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -151,11 +137,7 @@
               "Primary Object": [
                 "an FDISTILL framework"
               ],
-              "Primary Modifier": [
-                "which formulates sequence-level knowledge distillation as minimizing a generalized f-divergence function"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -174,7 +156,7 @@
         {
           "Results/Findings": "Results of experimentations across 4 datasets",
           "Text": "Experiments across four datasets show that our methods outperform existing KD approaches, and that our symmetric distilling losses can better force the student to learn from the teacher distribution.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Experiments across four datasets"
@@ -183,9 +165,7 @@
               "Primary Object": [
                 "our methods outperform existing KD approaches"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

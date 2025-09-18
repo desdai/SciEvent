@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "diploid assembly",
           "Text": "Diploid assembly, or determining sequences of homologous chromosomes separately, is essential to elucidate genetic differences between haplotypes. One approach is to call and phase single nucleotide variants (SNVs) on a reference sequence. However, this approach becomes unstable on large segmental duplications (SDs) or structural variations (SVs) because the alignments of reads deriving from these regions tend to be unreliable. Another approach is to use highly accurate PacBio HiFi reads to output diploid assembly directly. Nonetheless, HiFi reads cannot phase homozygous regions longer than their length and require Oxford Nanopore Technology (ONT) reads or Hi-C to produce a fully phased assembly. Is a single long-read sequencing technology sufficient to create an accurate diploid assembly?",
-          "Main Action": "is essential to elucidate",
+          "Action": "is essential to elucidate",
           "Arguments": {
             "Agent": [
               "Diploid assembly, or determining sequences of homologous chromosomes separately"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "genetic differences between haplotypes"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "One approach is to call and phase single nucleotide variants (SNVs) on a reference sequence",
@@ -41,7 +39,7 @@
         {
           "Methods/Approach": "JTK a megabase scale diploid genome assembler",
           "Text": "Here, we present JTK, a megabase-scale diploid genome assembler. It first randomly samples kilobase-scale sequences (called 'chunks') from the long reads, phases variants found on them, and produces two haplotypes. The novel idea of JTK is to utilize chunks to capture SNVs and SVs simultaneously.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -50,11 +48,7 @@
               "Primary Object": [
                 "JTK"
               ],
-              "Primary Modifier": [
-                "a megabase-scale diploid genome assembler"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -73,7 +67,7 @@
         {
           "Results/Findings": "results and analysis of JTK",
           "Text": "From 60-fold ONT reads on the HG002 and a Japanese sample, it fully assembled two haplotypes with approximately 99.9% accuracy on the histocompatibility complex (MHC) and the leukocyte receptor complex (LRC) regions, which was impossible by the reference-based approach. In addition, in the LRC region on a Japanese sample, JTK output an assembly of better contiguity than those built from high-coverage HiFi+Hi-C.",
-          "Main Action": "assembled",
+          "Action": "assembled",
           "Arguments": {
             "Agent": [
               "it"
@@ -82,11 +76,9 @@
               "Primary Object": [
                 "two haplotypes"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "with approximately 99.9% accuracy"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [
               "From 60-fold ONT reads on the HG002 and a Japanese sample"
@@ -106,7 +98,7 @@
         {
           "Conclusions/Implications": "Fututre prospects of JTK",
           "Text": "In the coming age of pan-genomics, JTK would complement the reference-based phasing method to assemble the difficult-to-assemble but medically important regions.",
-          "Main Action": "would complement",
+          "Action": "would complement",
           "Arguments": {
             "Agent": [
               "JTK"
@@ -115,9 +107,7 @@
               "Primary Object": [
                 "the reference-based phasing method"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "In the coming age of pan-genomics"
@@ -141,7 +131,7 @@
         {
           "Background/Introduction": "GREAT an annotation tool for genomic regions",
           "Text": "GREAT (Genomic Regions Enrichment of Annotations Tool) is a widely used tool for functional enrichment on genomic regions. However, as an online tool, it has limitations of outdated annotation data, small numbers of supported organisms and gene set collections, and not being extensible for users.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "GREAT (Genomic Regions Enrichment of Annotations Tool)"
@@ -150,9 +140,7 @@
               "Primary Object": [
                 "a widely used tool for functional enrichment on genomic regions"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -170,7 +158,7 @@
         {
           "Methods/Approach": "rGREAT package",
           "Text": "Here, we developed a new R/Bioconductor package named rGREAT which implements the GREAT algorithm locally. rGREAT by default supports more than 600 organisms and a large number of gene set collections, as well as self-provided gene sets and organisms from users. Additionally, it implements a general method for dealing with background regions.",
-          "Main Action": "developed",
+          "Action": "developed",
           "Arguments": {
             "Agent": [
               "we"
@@ -179,11 +167,7 @@
               "Primary Object": [
                 "a new R/Bioconductor package"
               ],
-              "Primary Modifier": [
-                "named rGREAT which implements the GREAT algorithm locally"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

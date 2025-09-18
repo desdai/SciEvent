@@ -100,6 +100,8 @@ def main():
              open(struct_path, "w", encoding="utf-8") as f_struct:
             step2_structure_args(f_best, f_gold, f_struct)
 
+        os.makedirs(os.path.dirname(args.final_out), exist_ok=True)
+        
         with open(struct_path, "r", encoding="utf-8") as f_struct, \
              open(args.trig_pred, "r", encoding="utf-8") as f_trig, \
              open(args.final_out, "w", encoding="utf-8") as f_out:

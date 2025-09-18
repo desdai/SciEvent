@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "conversational moves",
           "Text": "During interpersonal interactions, conversational moves can help people establish common ground —a shared frame of reference to support communication. Neurodiverse conversation dyads that include autistic and non-autistic members can experience challenges in creating and maintaining such a shared frame of reference due to differing communication and cognitive styles.",
-          "Main Action": "can help",
+          "Action": "can help",
           "Arguments": {
             "Agent": [
               "conversational moves"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "people"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -36,7 +34,7 @@
         {
           "Methods/Approach": "a design study",
           "Text": "We conducted a design study to understand conversational patterns among neurodiverse dyads and then used those patterns to co-design concepts for supporting the creation and maintenance of common ground by those conversation pairs. Our study involved two activities with participants: (1) a paired interview with autistic adults and a trusted conversation partner that used a novel swimlane visual elicitation activity, and (2) a remote design study during which the autistic participants designed a game intended to visualize and support neurodiverse conversation dynamics.",
-          "Main Action": "conducted",
+          "Action": "conducted",
           "Arguments": {
             "Agent": [
               "We"
@@ -45,9 +43,7 @@
               "Primary Object": [
                 "a design study"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -69,7 +65,7 @@
         {
           "Results/Findings": "communication technology",
           "Text": "We found that communication technology can scaffold neurodiverse dyads in locating common ground by supporting crucial individual and joint decision-making; clarification of language and emotions; and embodied sense-making of identity, relationships, and shared information.",
-          "Main Action": "found",
+          "Action": "found",
           "Arguments": {
             "Agent": [
               "We"
@@ -78,9 +74,7 @@
               "Primary Object": [
                 "communication technology can scaffold neurodiverse dyads"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -102,7 +96,7 @@
         {
           "Conclusions/Implications": "insights gained during the study",
           "Text": "This project generated insights related to two distinct aspects of designing assistive Information and Communication Technology (ICT) to support autistic individuals: (1) the ability for visual elicitation activities to help autistic individuals recognize interaction patterns, gain a deeper understanding of other's perspectives, and imagine more desirable alternatives, and (2) the importance of recognizing and supporting multi-dimensional aspects of communication practices (i.e., social, emotional, sensory) in establishing and maintaining shared points of reference for neurodiverse conversation dyads.",
-          "Main Action": "generated",
+          "Action": "generated",
           "Arguments": {
             "Agent": [
               "This project"
@@ -111,11 +105,7 @@
               "Primary Object": [
                 "insights"
               ],
-              "Primary Modifier": [
-                "related to two distinct aspects of designing assistive Information and Communication Technology (ICT)"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -140,7 +130,7 @@
         {
           "Background/Introduction": "digital data shape work",
           "Text": "Digital data shape work practices as they travel through space, time, and social situations. In turn, workers shape the materiality of data through different data-oriented activities. In this paper, we draw on the theory of data journeys to develop and present a conceptual framework of four data-intensive activities: Producing, mobilising, processing, and re-purposing. Together, those activities capture entanglements of data transformations and data-intensive practices.",
-          "Main Action": "draw on",
+          "Action": "draw on",
           "Arguments": {
             "Agent": [
               "we"
@@ -149,11 +139,7 @@
               "Primary Object": [
                 "the theory"
               ],
-              "Primary Modifier": [
-                "of data journeys"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Digital data shape work practices as they travel through space, time, and social situations",
@@ -174,7 +160,7 @@
         {
           "Methods/Approach": "a framework through qualitative study",
           "Text": "We develop the framework through a qualitative study of digitisation in Environmental Assessment (EA) practice. EA practitioners reflect on their experiences working with digital environmental data through ten semi-structured and two interactive interviews.",
-          "Main Action": "develop",
+          "Action": "develop",
           "Arguments": {
             "Agent": [
               "We"
@@ -183,9 +169,7 @@
               "Primary Object": [
                 "the framework"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -206,7 +190,7 @@
         {
           "Results/Findings": "a data journey thertoical framework",
           "Text": "The paper offers two main contributions. First, we develop a data journey theoretical framework and show that it is useful as a unit of analysis for uncovering tensions in data-oriented activities. Second, we use these insights to outline a set of tensions for future design activities in the area of data work practices",
-          "Main Action": "develop",
+          "Action": "develop",
           "Arguments": {
             "Agent": [
               "we"
@@ -215,9 +199,7 @@
               "Primary Object": [
                 "a data journey theoretical framework"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "The paper offers two main contributions"

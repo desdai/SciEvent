@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Background on concept migration using word vector models across historical newspapers",
           "Text": "Linking large digitized newspaper corpora in different languages that have become available in national and state libraries opens up new possibilities for the computational analysis of patterns of information flow across national and linguistic boundaries. The significant contribution this article presents is to demonstrate how word vector models can be used to explore the way concepts have shifted in meaning over time, as they migrated across space, by comparing newspapers from different countries published between 1840 and 1914.",
-          "Main Action": "is to demonstrate",
+          "Action": "is to demonstrate",
           "Arguments": {
             "Agent": [
               "The significant contribution"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "how word vector models can be used to explore the way concepts have shifted in meaning over time"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "large digitized newspaper corpora in different languages",
@@ -39,7 +37,7 @@
         {
           "Methods/Approach": "methodology for analyzing conceptual changes in historical discourse.",
           "Text": "We define a concept, rather pragmatically, as a key term or core idea that has been used in historical discourse: an abstraction or mental representation that has served as a building block for thoughts and beliefs. We use historical newspapers in English, Finnish, German and Swedish from collections in the UK, US, Germany, and Finland, as well as the Europeana collection. As use cases, we analyze how the different conceptual constructs of 'nation' and 'illness' emerged and changed between 1840 and 1920. Conceptual change over time is simulated by creating a series of overlapping word vector models, each spanning ten years. Historical vocabularies are retrieved on the basis of vector space proximity. Conceptual change across space is simulated by comparing the historical change of vocabularies in newspaper collections from different nations in several languages.",
-          "Main Action": "define",
+          "Action": "define",
           "Arguments": {
             "Agent": [
               "We"
@@ -48,11 +46,7 @@
               "Primary Object": [
                 "a concept"
               ],
-              "Primary Modifier": [
-                "a key term or core idea that has been used in historical discourse: an abstraction or mental representation that has served as a building block for thoughts and beliefs"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "historical newspapers in English, Finnish, German and Swedish from collections in the UK, US, Germany, and Finland",
@@ -77,7 +71,7 @@
         {
           "Conclusions/Implications": "Computational approach identifies discourse patterns across time and borders",
           "Text": "This computational approach to conceptual history opens up new ways to identify patterns in public discourse over longer periods of time and across borders.",
-          "Main Action": "opens up",
+          "Action": "opens up",
           "Arguments": {
             "Agent": [
               "computational approach"
@@ -86,9 +80,7 @@
               "Primary Object": [
                 "new ways to identify patterns in public discourse"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "conceptual history",
@@ -114,7 +106,7 @@
         {
           "Background/Introduction": "Examination of Black DH genealogy and its role in digital humanities.",
           "Text": "This reflection provides a brief examination of Black DH genealogy. Focusing on a set of significant moments and events in the origin of Black DH provides an opportunity to showcase how it has been central to the development of the broader digital humanities field.",
-          "Main Action": "provides",
+          "Action": "provides",
           "Arguments": {
             "Agent": [
               "This reflection"
@@ -123,11 +115,7 @@
               "Primary Object": [
                 "a brief examination"
               ],
-              "Primary Modifier": [
-                "of Black DH genealogy"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "significant moments and events in the origin of Black DH"
@@ -147,7 +135,7 @@
         {
           "Results/Findings": "Survey reveals Black DH uses recovery tech for social justice.",
           "Text": "Moreover, this select survey of Black DH reveals a pattern of work that utilizes a 'technology of recovery' to restore the humanity of Black people through digital projects that center social justice but neglect joy and pleasure.",
-          "Main Action": "reveals",
+          "Action": "reveals",
           "Arguments": {
             "Agent": [
               "this select survey of Black DH"
@@ -156,9 +144,7 @@
               "Primary Object": [
                 "a pattern of work"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [

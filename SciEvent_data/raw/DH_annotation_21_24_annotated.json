@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "presenting reflections on hermeneutic data visualization",
           "Text": "In this article, we present our reflections on hermeneutic data visualizations for digital literary studies. Hermeneutic approaches in the digital humanities have been rather agnostic about the epistemological premises of hermeneutic theory. These can be summarized as (1) differentiation author/text, (2) hermeneutic circle and (3) dependency text/recipient.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "our reflections on hermeneutic data visualizations"
               ],
-              "Primary Modifier": [
-                "for digital literary studies"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "hermeneutic approaches in the digital humanities",
@@ -43,7 +39,7 @@
         {
           "Methods/Approach": "Arguing that digital humanities can meet hermeneutic demands",
           "Text": "In this article, we present the concept of hermeneutic visualization as a means of bridging the gap between 'classic' literary hermeneutics and the emerging practice of digital literary hermeneutics. Since data visualization is based on epistemological premises stemming from the natural or social sciences, it is not well-equipped to meet hermeneutic demands. In this article, we argue that the digital humanities can meet hermeneutic demands through a critical interface and visualization concept. We discuss four postulates that can be used as guidelines and help transform 'more traditional' data visualization into hermeneutic visualization, while respecting the epistemological foundations of hermeneutic theory.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -52,11 +48,7 @@
               "Primary Object": [
                 "the concept of hermeneutic visualization"
               ],
-              "Primary Modifier": [
-                "a means of bridging the gap between 'classic' literary hermeneutics and the emerging practice of digital literary hermeneutics"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "epistemological premises stemming from the natural or social sciences",
@@ -81,7 +73,7 @@
         {
           "Results/Findings": "Demonstrating the usefulness of postulates",
           "Text": "We demonstrate the usefulness of the postulates with an interactive prototype Stereoscope designed to support them.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "We"
@@ -90,9 +82,7 @@
               "Primary Object": [
                 "usefulness of the postulates"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -116,7 +106,7 @@
         {
           "Background/Introduction": "impact of series of archives unleashed datathon events",
           "Text": "This article explores the impact that a series of Archives Unleashed datathon events have had on community engagement both within the web archiving field, and more specifically, on the professional practices of attendees.",
-          "Main Action": "explores",
+          "Action": "explores",
           "Arguments": {
             "Agent": [
               "This article"
@@ -125,11 +115,7 @@
               "Primary Object": [
                 "the impact"
               ],
-              "Primary Modifier": [
-                "that a series of Archives Unleashed datathon events have had"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "community engagement",
@@ -149,7 +135,7 @@
         {
           "Methods/Approach": "summarizing results/insights from survey",
           "Text": "We present results from surveyed datathon participants, in addition to related evidence from our events, to discuss how our participants saw the datathons as dramatically impacting both their professional practices as well as the broader web archiving community. Drawing on and adapting two leading community engagement models, we combine them to introduce a new understanding of how to build and engage users in an open-source digital humanities project.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -158,9 +144,7 @@
               "Primary Object": [
                 "results from surveyed datathon participants"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "addition to related evidence from our events"
@@ -184,7 +168,7 @@
         {
           "Results/Findings": "implications of the model",
           "Text": "Our model illustrates both the activities undertaken by our project as well as the related impact they have on the field. The model can be broadly applied to other digital humanities projects seeking to engage their communities.",
-          "Main Action": "illustrates",
+          "Action": "illustrates",
           "Arguments": {
             "Agent": [
               "Our model"
@@ -193,11 +177,9 @@
               "Primary Object": [
                 "both the activities undertaken by our project"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "as well as the related impact they have on the field"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],

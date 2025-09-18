@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Smart homes offer convenience but collect private data.",
           "Text": "Fueled by Internet-of-Things technologies and spanning a wide range of sensors, speakers, and cameras, smart homes promise to make our lives easier and automate routine tasks. From speakers to security cameras, smart home devices (SHDs) answer our questions, monitor our home environment, and conserve energy. They also collect significant data, ranging from on/off commands to audio and video data, and they do this in some of our most private spaces.",
-          "Main Action": "promise to make",
+          "Action": "promise to make",
           "Arguments": {
             "Agent": [
               "smart homes"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "our lives easier"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "automate routine tasks",
@@ -39,7 +37,7 @@
         {
           "Methods/Approach": "Study explores privacy risks and mitigation by smart home power users",
           "Text": "In this paper, we explore the privacy risks associated with SHDs by focusing on privacy-conscious smart home power users—those who spend significant time and money to research, install, and integrate devices throughout their homes and engage in advanced device and network management strategies to mitigate privacy concerns. Drawing on data from 10 focus groups with 32 privacy-conscious power users, we identify the key privacy risks they perceive from this technology, as well as how they mitigate those risks through increasingly complex strategies.",
-          "Main Action": "explore",
+          "Action": "explore",
           "Arguments": {
             "Agent": [
               "we"
@@ -48,11 +46,7 @@
               "Primary Object": [
                 "the privacy risks"
               ],
-              "Primary Modifier": [
-                "associated with SHDs"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Drawing on data from 10 focus groups with 32 privacy-conscious power users"
@@ -74,7 +68,7 @@
         {
           "Results/Findings": "Smart home data management is complex even for expert users",
           "Text": "Our findings reveal that navigating the technical landscape that makes up the smart home environment—including what data is collected, what options are available for managing or restricting data flows, and who has access to data collected by SHDs—is complex and often confusing, even for people who spend significant time researching devices and integration options.",
-          "Main Action": "reveal",
+          "Action": "reveal",
           "Arguments": {
             "Agent": [
               "Our findings"
@@ -83,9 +77,7 @@
               "Primary Object": [
                 "navigating the technical landscape that makes up the smart home environment—including what data is collected, what options are available for managing or restricting data flows, and who has access to data collected by SHDs—is complex and often confusing"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "even for people who spend significant time researching devices and integration options"
@@ -103,7 +95,7 @@
         {
           "Conclusions/Implications": "Findings support need for transparent, user-friendly privacy tools",
           "Text": "We use these findings to argue for further development of tools that are transparent, easy to use, and aligned with the privacy needs of a diverse userbase.",
-          "Main Action": "use",
+          "Action": "use",
           "Arguments": {
             "Agent": [
               "We"
@@ -112,9 +104,7 @@
               "Primary Object": [
                 "these findings"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -138,7 +128,7 @@
         {
           "Background/Introduction": "Social media in disasters well-studied, non-social technologies under-researched",
           "Text": "Hurricanes can cause catastrophic damage; it is critical for those affected to access information about conditions, loved ones, and resources. Prior work in the HCI and CSCW communities has focused on how social media can be vital during natural disasters; non-social media technologies have been under-researched.",
-          "Main Action": "cause",
+          "Action": "cause",
           "Arguments": {
             "Agent": [
               "Hurricanes"
@@ -147,9 +137,7 @@
               "Primary Object": [
                 "catastrophic damage"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "it is critical for those affected to access information about conditions, loved ones, and resources",
@@ -170,7 +158,7 @@
         {
           "Methods/Approach": "Study examines non-social media technology use during hurricanes",
           "Text": "To understand how technology other than social media can support or harm people during crises, we explore hurricane survivors' use and disuse of multiple kinds of technologies in online surveys with 138 US participants.",
-          "Main Action": "explore",
+          "Action": "explore",
           "Arguments": {
             "Agent": [
               "we"
@@ -179,11 +167,7 @@
               "Primary Object": [
                 "hurricane survivors' use and disuse"
               ],
-              "Primary Modifier": [
-                "of multiple kinds of technologies"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -203,7 +187,7 @@
         {
           "Results/Findings": "Non-social media technologies help survivors but fail during outages",
           "Text": "We find substantial technology use supporting survivors' comfort and safety other than social media. We also observe that designing technologies for high-resource environments—as with many mainstream apps—causes users to decrease use of potentially critical technologies during utility outages, which are common during hurricanes.",
-          "Main Action": "find",
+          "Action": "find",
           "Arguments": {
             "Agent": [
               "We"
@@ -212,9 +196,7 @@
               "Primary Object": [
                 "substantial technology use supporting survivors' comfort and safety other than social media"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -232,7 +214,7 @@
         {
           "Conclusions/Implications": "Study recommends designs to empower hurricane-prone communities",
           "Text": "With themes of both (a) broad technology use and (b) conditions preventing technology use, we make recommendations for technical design, policy, and research to empower communities susceptible to hurricanes.",
-          "Main Action": "make",
+          "Action": "make",
           "Arguments": {
             "Agent": [
               "we"
@@ -241,11 +223,7 @@
               "Primary Object": [
                 "recommendations"
               ],
-              "Primary Modifier": [
-                "for technical design, policy, and research"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "With themes of both (a) broad technology use and (b) conditions preventing technology use"

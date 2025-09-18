@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "DH thrives on interdisciplinary brokering across fields",
           "Text": "Interdisciplinary collaboration within digital humanities research requires brokering and boundary-crossing work. This article maps interdisciplinary exchanges between computer scientists, media scholars and information scientists to explicate how interdisciplinary brokering affects knowledge and tool production in the digital humanities.",
-          "Main Action": "requires",
+          "Action": "requires",
           "Arguments": {
             "Agent": [
               "Interdisciplinary collaboration within digital humanities research"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "brokering and boundary-crossing work"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "interdisciplinary exchanges between computer scientists, media scholars and information scientists"
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "Study tracks 122 humanities scholars' LOD search patterns, shaping team collaboration",
           "Text": "The analysis of qualitative data collected during a 17 month-long digital humanities research pilot - set to collaboratively test a digital Linked Open Data (LOD) search tool - provides insights into the exploratory search behaviour of a total of 122 (digital) humanities scholars, and how these insights informed brokering work within an interdisciplinary research team.",
-          "Main Action": "provides",
+          "Action": "provides",
           "Arguments": {
             "Agent": [
               "The analysis"
@@ -47,9 +45,7 @@
               "Primary Object": [
                 "insights"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "qualitative data collected during a 17 month-long digital humanities research pilot",
@@ -71,7 +67,7 @@
         {
           "Results/Findings": "Interdisciplinary DH thrives when disciplines are first recognized, then bridged",
           "Text": "The article argues that interdisciplinary collaboration first and foremost requires disciplinary recognition in order to succeed, and demonstrates how practical, empirical research insights - in this case about user research - mobilize interdisciplinary decision-making processes.",
-          "Main Action": "argues",
+          "Action": "argues",
           "Arguments": {
             "Agent": [
               "The article"
@@ -80,9 +76,7 @@
               "Primary Object": [
                 "interdisciplinary collaboration first and foremost requires disciplinary recognition in order to succeed"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -100,7 +94,7 @@
         {
           "Conclusions/Implications": "DH success needs both tools and cross-disciplinary translation",
           "Text": "Conclusions indicate in what ways computational tools and collaboration affect knowledge production, and suggest that understanding the stakes of digital humanities research with digital audio-visual sources requires an integrated perspective characterized by both theoretical interdisciplinary discussions and their empirical, practical application. The article furthermore concludes that digital humanities brokering and boundary work should not only revolve around tool development, but also requires self-reflexivity in aligning epistemological chasms between disciplines by means of collaborative translation practices.",
-          "Main Action": "indicate",
+          "Action": "indicate",
           "Arguments": {
             "Agent": [
               "Conclusions"
@@ -109,9 +103,7 @@
               "Primary Object": [
                 "in what ways computational tools and collaboration affect knowledge production"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -136,7 +128,7 @@
         {
           "Background/Introduction": "Digital literary studies split: big-data history vs avant-garde close reads",
           "Text": "Digital literary studies constitutes a broad church. However, the field tends to divide into, at one pole, quantitative, macro-level studies of historical literary texts and, at the other pole, close-readings of individual born-digital literary works, typically hyper-avant-garde in conception. There is, in practice, little interplay between the two groupings.",
-          "Main Action": "constitutes",
+          "Action": "constitutes",
           "Arguments": {
             "Agent": [
               "Digital literary studies"
@@ -145,9 +137,7 @@
               "Primary Object": [
                 "a broad church"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "quantitative, macro-level studies of historical literary texts",
@@ -168,7 +158,7 @@
         {
           "Methods/Approach": "Bridging DH's gap: A 'meso' study of digital-age literary ecosystems",
           "Text": "This article sketches a proposed 'meso space' in between the two extant levels. Drawing on methods from book history, literary sociology, cultural studies, and digital media theory, this mid-level approach examines digital technology’s role in recasting the institutions of contemporary mainstream literature: the impact of powerful new digital intermediaries; the blurring of author/reader/reviewer roles; and the continued existence of print artefacts within online environments.",
-          "Main Action": "sketches",
+          "Action": "sketches",
           "Arguments": {
             "Agent": [
               "This article"
@@ -177,11 +167,7 @@
               "Primary Object": [
                 "a proposed 'meso space'"
               ],
-              "Primary Modifier": [
-                "in between the two extant levels"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "methods from book history, literary sociology, cultural studies, and digital media theory"

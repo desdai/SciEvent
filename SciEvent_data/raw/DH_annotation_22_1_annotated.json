@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Academic conferences' role and impact in digital humanities scholarship.",
           "Text": "Academic conferences are considered central to the dissemination of research and play a key role in the prestige systems of academia. And yet the organization of these, and the power systems they maintain, have been little discussed. What is a conference supposed to achieve? Who and what is it for? The annual Alliance of Digital Humanities Organization (ADHO)’s Digital Humanities conference is a central occasion in the digital humanities academic calendar, and, as an international, interdisciplinary, regular, long-standing, large-scale event, it provides an ideal locus to consider various aspects of contemporary academic conference organization, and how this impacts the shape and definition of a scholarly field.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "The annual Alliance of Digital Humanities Organization (ADHO)’s Digital Humanities conference"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "a central occasion in the digital humanities academic calendar"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "academic conferences",
@@ -43,7 +41,7 @@
         {
           "Methods/Approach": "Reflection based approach to analyze DH Conferences' impact",
           "Text": "Examining this annual event allows us to clarify ADHO’s policies and procedures to consider how they frame the digital humanities at large. This paper approaches the annual Digital Humanities conference via a Reflection-in-Action and Reflection-on-Action approach encompassing the experiences of various people formally involved in organizing the conference over the past decade. Considering the last seven years of the conference as well as its broader history, we argue that conferences are central mechanisms for agenda setting and fostering a community of digital humanities practitioners.",
-          "Main Action": "allows",
+          "Action": "allows",
           "Arguments": {
             "Agent": [
               "examining this annual event"
@@ -52,9 +50,7 @@
               "Primary Object": [
                 "us"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the annual Digital Humanities conference",
@@ -82,7 +78,7 @@
         {
           "Results/Findings": "Conference processes inadequately address representation, diversity, multilingualism, and concerns.",
           "Text": "Through analyses of the selection of Program Committees, the choosing of conference themes, the preparation of calls for papers, the peer review process, and the selection of keynotes, we contend that existing structures and processes inadequately address concerns around representation, diversity, multilingualism, and labor.",
-          "Main Action": "contend",
+          "Action": "contend",
           "Arguments": {
             "Agent": [
               "we"
@@ -91,9 +87,7 @@
               "Primary Object": [
                 "that existing structures and processes inadequately address concerns"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "analyses of the selection of Program Committees",
@@ -120,7 +114,7 @@
         {
           "Conclusions/Implications": "Recommendations for inclusive conference organizing.",
           "Text": "Our recommendations, including aligning the conference budget with its priorities, fostering fair labor practices, and creating accountability structures will be useful to those organizing future Digital Humanities events, and conference organizers throughout academia interested in making academic conferences more inclusive, welcoming environments that encourage a plurality of voices to fully partake in academic discourse.",
-          "Main Action": "will be useful to",
+          "Action": "will be useful to",
           "Arguments": {
             "Agent": [
               "Our recommendations"
@@ -129,11 +123,9 @@
               "Primary Object": [
                 "those organizing future Digital Humanities events"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "conference organizers"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -159,7 +151,7 @@
         {
           "Background/Introduction": "Study of augmented reality comic using Possible Worlds Theory",
           "Text": "This article presents a close reading of the augmented reality (AR) comic Modern Polaxis, which was created by Stuart Campbell. Possible Worlds Theory was applied to discuss how fiction, which creates its own possible worlds, integrates the additional layer(s) of AR into its storyworld.",
-          "Main Action": "presents",
+          "Action": "presents",
           "Arguments": {
             "Agent": [
               "This article"
@@ -168,11 +160,7 @@
               "Primary Object": [
                 "a close reading"
               ],
-              "Primary Modifier": [
-                "of the augmented reality (AR) comic Modern Polaxis"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -192,7 +180,7 @@
         {
           "Results/Findings": "Analysis shows effects of augmented layer on reader experience.",
           "Text": "The analysis additionally sheds light on the reader’s position and how the augmented layer may affect the literary experience.",
-          "Main Action": "sheds light on",
+          "Action": "sheds light on",
           "Arguments": {
             "Agent": [
               "The analysis"
@@ -201,11 +189,9 @@
               "Primary Object": [
                 "the reader’s position"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "and how the augmented layer may affect the literary experience"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -221,7 +207,7 @@
         {
           "Conclusions/Implications": "Discussion of AR interface contributions to digital literature.",
           "Text": "We also discuss how the AR interface may contribute to digital literature more generally.",
-          "Main Action": "discuss",
+          "Action": "discuss",
           "Arguments": {
             "Agent": [
               "We"
@@ -230,9 +216,7 @@
               "Primary Object": [
                 "how the AR interface may contribute to digital literature more generally"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

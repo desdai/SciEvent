@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Health chatbots for migrant workers need tailored design research",
           "Text": "Economically disadvantaged migrant workers are one of the most vulnerable groups in healthcare. Studies have shown that chatbots can help patients and health professionals in healthcare settings. However, the design of health chatbots for migrant workers has not been thoroughly investigated.",
-          "Main Action": "have shown",
+          "Action": "have shown",
           "Arguments": {
             "Agent": [
               "Studies"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "chatbots can help patients and health professionals in healthcare settings"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Economically disadvantaged migrant workers are one of the most vulnerable groups in healthcare"
@@ -38,16 +36,14 @@
         {
           "Methods/Approach": "Examination of how thai workers and stakeholders seek healthcare and obtain information",
           "Text": "Scenario-based interviews with nineteen participants, including ten economically disadvantaged Thai migrant workers and nine relevant stakeholders, were conducted to examine how they seek healthcare, obtain health information, and communicate with health professionals to gain a deeper understanding of the barriers that migrant workers encounter in healthcare.",
-          "Main Action": "were conducted",
+          "Action": "were conducted",
           "Arguments": {
             "Agent": [
               "Scenario-based interviews"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "nineteen participants, including ten economically disadvantaged Thai migrant workers and nine relevant stakeholders"
@@ -67,7 +63,7 @@
         {
           "Results/Findings": "Chatbots aid migrant workers' healthcare access challenges",
           "Text": "The findings of the interview show that migrant workers face a variety of barriers, such as a lack of familiarity with the healthcare system in the host country, language barriers, cultural barriers to seeking healthcare, and communication barriers with health professionals. Then, the technological design strategies and the benefits of health chatbots from the perspective of migrant workers were discussed, including their potential to help migrant workers navigate the healthcare system step-by-step, obtain reliable health information, improve their health literacy, and facilitate communication with health professionals.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "The findings"
@@ -76,9 +72,7 @@
               "Primary Object": [
                 "migrant workers face a variety of barriers"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -100,16 +94,14 @@
         {
           "Conclusions/Implications": "Chatbot designs can improve migrant workers' healthcare access",
           "Text": "Finally, five design implications for chatbots were proposed to guide future development of health chatbots to help migrant workers. Policymakers and health professionals can benefit from the design implications of migrant worker-centered health chatbots when they develop health chatbots that promote the health and well-being of migrant workers.",
-          "Main Action": "were proposed",
+          "Action": "were proposed",
           "Arguments": {
             "Agent": [
               "five design implications"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -135,7 +127,7 @@
         {
           "Background/Introduction": "Fukushima wastewater tweets reveal global crisis response insights",
           "Text": "The 2011 Fukushima Daiichi nuclear disaster has led to worldwide disruptive discussions related to crisis. In April 2021, the news that the Japanese Cabinet decided to discharge the stored wastewater into the Pacific Ocean drew global attention once again. Social media platforms like Twitter are ubiquitously used to gain information and exchange opinions during and after a crisis. Analyzing crisis-related tweets can help capture insights for public situational awareness development, crisis global response coordination, and post-disaster policy-making.",
-          "Main Action": "has led to",
+          "Action": "has led to",
           "Arguments": {
             "Agent": [
               "The 2011 Fukushima Daiichi nuclear disaster"
@@ -144,11 +136,7 @@
               "Primary Object": [
                 "worldwide disruptive discussions"
               ],
-              "Primary Modifier": [
-                "related to crisis"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "In April 2021, the news that the Japanese Cabinet decided to discharge the stored wastewater into the Pacific Ocean drew global attention once again",
@@ -168,7 +156,7 @@
         {
           "Methods/Approach": "Twitter analysis tracks Fukushima discourse shifts via NLP",
           "Text": "We examined corresponding Twitter discourse in different languages about the nuclear disaster in 2011 and the follow-up discharge of the stored water until 2021. We utilized NLP techniques including topic modeling and sentiment analysis to identify the dominant topics related to the nuclear disaster, the post-disaster discourses, and the public attitudes towards these topics in different time phases.",
-          "Main Action": "examined",
+          "Action": "examined",
           "Arguments": {
             "Agent": [
               "We"
@@ -177,13 +165,9 @@
               "Primary Object": [
                 "corresponding Twitter discourse"
               ],
-              "Primary Modifier": [
-                "in different languages about the nuclear disaster in 2011"
-              ],
               "Secondary Object": [
                 "the follow-up discharge of the stored water until 2021"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [
@@ -203,7 +187,7 @@
         {
           "Results/Findings": "Multilingual Twitter data shows regional Fukushima response disparities",
           "Text": "Our work revealed multilingual disparities of post-disaster discourse dynamics and the regional public attitudes towards the post-disaster management in the long run.",
-          "Main Action": "revealed",
+          "Action": "revealed",
           "Arguments": {
             "Agent": [
               "Our work"
@@ -212,11 +196,9 @@
               "Primary Object": [
                 "multilingual disparities of post-disaster discourse dynamics"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "the regional public attitudes towards the post-disaster management in the long run"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],

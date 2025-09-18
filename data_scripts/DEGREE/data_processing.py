@@ -39,7 +39,7 @@ def find_token_span(phrase: str, tokens: List[str]) -> Tuple[int, int]:
 def align_trigger_and_arguments(entry: Dict, event_dict: Dict, event_type: str) -> Dict:
     tokens = entry["tokens"]
     wnd_id = entry["wnd_id"]
-    trigger_text = event_dict.get("Main Action", "").strip()
+    trigger_text = event_dict.get("Action", "").strip()
 
     trigger_start, trigger_end = find_token_span(trigger_text, tokens)
     if trigger_start == -1:
@@ -112,7 +112,7 @@ def extract_event_chunks(papers, tokenizer):
         for idx, event in enumerate(paper["events"]):
             raw_text = event.get("Text", "")
             tokens, pieces, token_lens = tokenize_with_bert(raw_text, tokenizer)
-            event_type = next(iter(event.keys() - {"Text", "Main Action", "Arguments"}), "Unknown")
+            event_type = next(iter(event.keys() - {"Text", "Action", "Arguments"}), "Unknown")
 
             entry = {
                 "doc_id": paper_id,

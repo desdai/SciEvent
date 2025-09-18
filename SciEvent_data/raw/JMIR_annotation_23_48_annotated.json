@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Data stewardship enables health research through proper data management practices",
           "Text": "Thorough data stewardship is a key enabler of comprehensive health research. Processes such as data collection, storage, access, sharing, and analytics require researchers to follow elaborate data management strategies properly and consistently. Studies have shown that findable, accessible, interoperable, and reusable (FAIR) data leads to improved data sharing in different scientific domains.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Thorough data stewardship"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "a key enabler of comprehensive health research"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Processes such as data collection, storage, access, sharing, and analytics",
@@ -42,7 +40,7 @@
         {
           "Methods/Approach": "Scoping review of FAIR health data using structured methodology and databases",
           "Text": "This scoping review identifies and discusses concepts, approaches, implementation experiences, and lessons learned in FAIR initiatives in health research data. The Arksey and O’Malley stage-based methodological framework for scoping reviews was applied. PubMed, Web of Science, and Google Scholar were searched to access relevant publications. Articles written in English, published between 2014 and 2020, and addressing FAIR concepts or practices in the health domain were included. The 3 data sources were deduplicated using a reference management software. In total, 2 independent authors reviewed the eligibility of each article based on defined inclusion and exclusion criteria. A charting tool was used to extract information from the full-text papers. The results were reported using the PRISMA-ScR (Preferred Reporting Items for Systematic Reviews and Meta-Analyses extension for Scoping Reviews) guidelines.",
-          "Main Action": "identifies and discusses",
+          "Action": "identifies and discusses",
           "Arguments": {
             "Agent": [
               "This scoping review"
@@ -51,11 +49,7 @@
               "Primary Object": [
                 "concepts, approaches, implementation experiences, and lessons learned"
               ],
-              "Primary Modifier": [
-                "in FAIR initiatives in health research data"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "PubMed",
@@ -84,7 +78,7 @@
         {
           "Results/Findings": "Review found FAIRification approaches, challenges, and disease applications worldwide",
           "Text": "A total of 2.18% (34/1561) of the screened articles were included in the final review. The authors reported FAIRification approaches, which include interpolation, inclusion of comprehensive data dictionaries, repository design, semantic interoperability, ontologies, data quality, linked data, and requirement gathering for FAIRification tools. Challenges and mitigation strategies associated with FAIRification, such as high setup costs, data politics, technical and administrative issues, privacy concerns, and difficulties encountered in sharing health data despite its sensitive nature were also reported. We found various workflows, tools, and infrastructures designed by different groups worldwide to facilitate the FAIRification of health research data. We also uncovered a wide range of problems and questions that researchers are trying to address by using the different workflows, tools, and infrastructures. Although the concept of FAIR data stewardship in the health research domain is relatively new, almost all continents have been reached by at least one network trying to achieve health data FAIRness. Documented outcomes of FAIRification efforts include peer-reviewed publications, improved data sharing, facilitated data reuse, return on investment, and new treatments. Successful FAIRification of data has informed the management and prognosis of various diseases such as cancer, cardiovascular diseases, and neurological diseases. Efforts to FAIRify data on a wider variety of diseases have been ongoing since the COVID-19 pandemic.",
-          "Main Action": "reported",
+          "Action": "reported",
           "Arguments": {
             "Agent": [
               "The authors"
@@ -93,11 +87,7 @@
               "Primary Object": [
                 "FAIRification approaches"
               ],
-              "Primary Modifier": [
-                "which include interpolation, inclusion of comprehensive data dictionaries, repository design, semantic interoperability, ontologies, data quality, linked data, and requirement gathering for FAIRification tools"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "2.18% (34/1561) of the screened articles"
@@ -129,7 +119,7 @@
         {
           "Conclusions/Implications": "FAIR health data implementation improves research management and transparency",
           "Text": "This work summarises projects, tools, and workflows for the FAIRification of health research data. The comprehensive review shows that implementing the FAIR concept in health data stewardship carries the promise of improved research data management and transparency in the era of big data and open research publishing.",
-          "Main Action": "summarises",
+          "Action": "summarises",
           "Arguments": {
             "Agent": [
               "This work"
@@ -138,11 +128,7 @@
               "Primary Object": [
                 "projects, tools, and workflows"
               ],
-              "Primary Modifier": [
-                "for the FAIRification of health research data"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -167,7 +153,7 @@
         {
           "Background/Introduction": "Digital health financing interventions can improve systems despite adoption challenges",
           "Text": "Digital interventions for health financing, if implemented at scale, have the potential to improve health system performance by reducing transaction costs and improving data-driven decision-making. However, many interventions never reach sustainability, and evidence on success factors for scale is scarce. The Insurance Management Information System (IMIS) is a digital intervention for health financing, designed to manage an insurance scheme and already implemented on a national scale in Tanzania. A previous study found that the IMIS claim function was poorly adopted by health care workers (HCWs), questioning its potential to enable strategic purchasing and succeed at scale.",
-          "Main Action": "the potential to improve",
+          "Action": "the potential to improve",
           "Arguments": {
             "Agent": [
               "Digital interventions for health financing"
@@ -176,9 +162,7 @@
               "Primary Object": [
                 "health system performance"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "transaction costs",
@@ -203,7 +187,7 @@
         {
           "Methods/Approach": "Interviews assessed IMIS claim adoption using framework method and ecological model",
           "Text": "This study aimed to understand why the adoption of the IMIS claim function by HCWs remained low in Tanzania and to assess implications for use at scale. We conducted 21 semistructured interviews with HCWs and management staff in 4 districts where IMIS was first implemented. We sampled respondents by using a maximum variation strategy. We used the framework method for data analysis, applying a combination of inductive and deductive coding to organize codes in a socioecological model. Finally, we related emerging themes to a framework for digital health interventions for scale.",
-          "Main Action": "aimed to understand",
+          "Action": "aimed to understand",
           "Arguments": {
             "Agent": [
               "This study"
@@ -212,9 +196,7 @@
               "Primary Object": [
                 "why the adoption of the IMIS claim function by HCWs remained low"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Tanzania",
@@ -242,7 +224,7 @@
         {
           "Results/Findings": "Respondents valued IMIS for claim management despite adoption barriers",
           "Text": "Respondents appreciated IMIS’s intrinsic software characteristics and technical factors and acknowledged IMIS as a valuable tool to simplify claim management. Human factors, extrinsic ecosystem, and health care ecosystem were considered as barriers to widespread adoption.",
-          "Main Action": "appreciated",
+          "Action": "appreciated",
           "Arguments": {
             "Agent": [
               "Respondents"
@@ -251,9 +233,7 @@
               "Primary Object": [
                 "IMIS’s intrinsic software characteristics and technical factors"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -275,7 +255,7 @@
         {
           "Conclusions/Implications": "Digital health financing requires proper environment to achieve scale and potential",
           "Text": "Digital interventions for health financing, such as IMIS, may have the potential for scale if careful consideration is given to the environment in which they are placed. Without a sustainable health financing environment, sufficient infrastructure, and human capacity, they cannot unfold their full potential to improve health financing functions and ultimately contribute to universal health coverage.",
-          "Main Action": "may have the potential for",
+          "Action": "may have the potential for",
           "Arguments": {
             "Agent": [
               "Digital interventions for health financing, such as IMIS"
@@ -284,9 +264,7 @@
               "Primary Object": [
                 "scale"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the environment in which they are placed"

@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "SL as a promising strategy for anticancer therapy",
           "Text": "Synthetic lethality (SL) is a promising strategy for anticancer therapy, as inhibiting SL partners of genes with cancer-specific mutations can selectively kill the cancer cells without harming the normal cells. Wet-lab techniques for SL screening have issues like high cost and off-target effects. Computational methods can help address these issues. Previous machine learning methods leverage known SL pairs, and the use of knowledge graphs (KGs) can significantly enhance the prediction performance. However, the subgraph structures of KG have not been fully explored. Besides, most machine learning methods lack interpretability, which is an obstacle for wide applications of machine learning to SL identification.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Synthetic lethality (SL)"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a promising strategy"
               ],
-              "Primary Modifier": [
-                "for anticancer therapy"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Computational methods can help address these issues",
@@ -45,7 +41,7 @@
         {
           "Methods/Approach": "KR4SL being used to predict SL partners for a primary gene and how it works",
           "Text": "We present a model named KR4SL to predict SL partners for a given primary gene. It captures the structural semantics of a KG by efficiently constructing and learning from relational digraphs in the KG. To encode the semantic information of the relational digraphs, we fuse textual semantics of entities into propagated messages and enhance the sequential semantics of paths using a recurrent neural network. Moreover, we design an attentive aggregator to identify critical subgraph structures that contribute the most to the SL prediction as explanations.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -54,9 +50,7 @@
               "Primary Object": [
                 "a model named KR4SL"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -76,7 +70,7 @@
         {
           "Results/Findings": "Performance of KR4SL on all baselines",
           "Text": "Extensive experiments under different settings show that KR4SL significantly outperforms all the baselines. The explanatory subgraphs for the predicted gene pairs can unveil prediction process and mechanisms underlying synthetic lethality.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Extensive experiments under different settings"
@@ -85,9 +79,7 @@
               "Primary Object": [
                 "KR4SL significantly outperforms all the baselines."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Extensive experiments under different settings"
@@ -108,7 +100,7 @@
         {
           "Conclusions/Implications": "Use of deep learning in SL based cancer drug target recovery",
           "Text": "The improved predictive power and interpretability indicate that deep learning is practically useful for SL-based cancer drug target discovery.",
-          "Main Action": "indicate",
+          "Action": "indicate",
           "Arguments": {
             "Agent": [
               "improved predictive power and interpretability"
@@ -117,9 +109,7 @@
               "Primary Object": [
                 "deep learning is practically useful for SL-based cancer drug target discovery"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -141,7 +131,7 @@
         {
           "Background/Introduction": "Multi sequence generalization of variational information bottleneck",
           "Text": "We present a multi-sequence generalization of Variational Information Bottleneck and call the resulting model Attentive Variational Information Bottleneck (AVIB).",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -150,11 +140,7 @@
               "Primary Object": [
                 "a multi-sequence generalization"
               ],
-              "Primary Modifier": [
-                "of Variational Information Bottleneck"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -170,7 +156,7 @@
         {
           "Methods/Approach": "Leveraging multi head self attention by AVIB model to approximate posterior distribution",
           "Text": "Our AVIB model leverages multi-head self-attention to implicitly approximate a posterior distribution over latent encodings conditioned on multiple input sequences. We apply AVIB to a fundamental immuno-oncology problem: predicting the interactions between T-cell receptors (TCRs) and peptides.",
-          "Main Action": "leverages",
+          "Action": "leverages",
           "Arguments": {
             "Agent": [
               "Our AVIB model"
@@ -179,9 +165,7 @@
               "Primary Object": [
                 "multi-head self-attention"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -199,7 +183,7 @@
         {
           "Results/Findings": "Results on datasets showing AVIB outperforms state of the art methods",
           "Text": "Experimental results on various datasets show that AVIB significantly outperforms state-of-the-art methods for TCR-peptide interaction prediction. Additionally, we show that the latent posterior distribution learned by AVIB is particularly effective for the unsupervised detection of out-of-distribution amino acid sequences.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Experimental results on various datasets"
@@ -208,9 +192,7 @@
               "Primary Object": [
                 "AVIB significantly outperforms state-of-the-art methods for TCR-peptide interaction prediction.="
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Experimental results on various datasets"

@@ -363,7 +363,7 @@ python LLM_EE_extraction.py --domains ACL BIOINFO CSCW DH JMIR --prompt-template
   "events": [
     {
       "Text": "Segmented event text...",
-      "Main Action": "introduces",
+      "Action": "introduces",
       "Arguments": {
         "Agent": ["We"],
         "Object": {

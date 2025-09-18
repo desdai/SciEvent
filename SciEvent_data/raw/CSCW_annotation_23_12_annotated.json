@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "sexist content",
           "Text": "Sexist content is widespread on social media and can reduce women's psychological well-being and their willingness to participate in online discourse, making it a societal issue. To counter these effects, social media platforms employ moderators. To date, little is known about the effectiveness of different forms of moderation in creating a safe space and their acceptance, in particular from the perspective of women as members of the targeted group and users in general (rather than perpetrators).",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Sexist content"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "widespread on social media"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "social media expirement",
           "Text": "In this research, we propose that some common forms of moderation can be systematized along two facets of visibility, namely visibility of sexist content and of counterspeech. In an online experiment (N = 839), we manipulated these two facets and tested how they shaped social norms, feelings of safety, and intent to participate, as well as fairness, trustworthiness, and efficacy evaluations.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -47,11 +45,7 @@
               "Primary Object": [
                 "some common forms of moderation can be systematized along two facets of visibility"
               ],
-              "Primary Modifier": [
-                "namely visibility of sexist content and of counterspeech"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -69,7 +63,7 @@
         {
           "Results/Findings": "results of the expirement",
           "Text": "In line with our predictions, deletion of sexist content - i.e., its invisibility - and (public) counterspeech - i.e., its visibility - against visible sexist content contributed to creating a safe space. Looking at the underlying psychological mechanism, we found that these effects were largely driven by changes in what was perceived normative in the presented context. Interestingly, deletion of sexist content was judged as less fair than counterspeech against visible sexist content.",
-          "Main Action": "found",
+          "Action": "found",
           "Arguments": {
             "Agent": [
               "we"
@@ -78,9 +72,7 @@
               "Primary Object": [
                 "these effects were largely driven by changes in what was perceived normative in the presented context"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Looking at the underlying psychological mechanism"
@@ -102,7 +94,7 @@
         {
           "Conclusions/Implications": "research contribution",
           "Text": "Our research contributes to a growing body of literature that highlights the importance of norms in creating safer online environments and provides practical implications for moderators for selecting actions that can be effective and accepted.",
-          "Main Action": "contributes to",
+          "Action": "contributes to",
           "Arguments": {
             "Agent": [
               "Our research"
@@ -111,11 +103,7 @@
               "Primary Object": [
                 "a growing body of literature"
               ],
-              "Primary Modifier": [
-                "that highlights the importance of norms in creating safer online environments"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -139,7 +127,7 @@
         {
           "Background/Introduction": "",
           "Text": "News sharing has become prevalent on many social media platforms. Users are not only exposed to news shared by others, but also actively share information with a diverse set of motivations.",
-          "Main Action": "has become prevalent on",
+          "Action": "has become prevalent on",
           "Arguments": {
             "Agent": [
               "News sharing"
@@ -148,9 +136,7 @@
               "Primary Object": [
                 "many social media platforms"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Users are not only exposed to news shared by others",
@@ -169,7 +155,7 @@
         {
           "Methods/Approach": "online expirement",
           "Text": "In this work, we propose five news sharing motivations based on the intrinsic and extrinsic factors found in prior literature. Through an online experiment, we further examine how a host of factors, including motivations, influence participants' decision to share news online. We then prompt participants to switch their original decision for extra compensation, observing how different news types, motivational and demographic factors may affect the switch.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -178,9 +164,7 @@
               "Primary Object": [
                 "five news sharing motivations based on the intrinsic and extrinsic factors found in prior literature."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -202,7 +186,7 @@
         {
           "Results/Findings": "analysis of the expirement",
           "Text": "Our analysis suggests that sharing decisions can be reversed when a strong external stimulus (higher bonus) is presented. Further, there are motivational factors that independently influence participants' reversal decisions.",
-          "Main Action": "suggests",
+          "Action": "suggests",
           "Arguments": {
             "Agent": [
               "Our analysis"
@@ -211,9 +195,7 @@
               "Primary Object": [
                 "sharing decisions can be reversed when a strong external stimulus (higher bonus) is presented."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -231,7 +213,7 @@
         {
           "Conclusions/Implications": "propose designs",
           "Text": "Finally, using our work as an empirical basis, we propose designs for future new sharing systems.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -240,9 +222,7 @@
               "Primary Object": [
                 "designs for future new sharing systems."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "using our work as an empirical basis,"

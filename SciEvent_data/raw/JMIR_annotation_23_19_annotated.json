@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Analysis of factors affecting SNF patient referral decisions",
           "Text": "Occupancy rates within skilled nursing facilities (SNFs) in the United States have reached a record low. Understanding drivers of occupancy, including admission decisions, is critical for assessing the recovery of the long-term care sector as a whole. We provide the first comprehensive analysis of financial, clinical, and operational factors that impact whether a patient referral to an SNF is accepted or denied, using a large health informatics database.",
-          "Main Action": "provide",
+          "Action": "provide",
           "Arguments": {
             "Agent": [
               "We"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "the first comprehensive analysis"
               ],
-              "Primary Modifier": [
-                "of financial, clinical, and operational factors that impact whether a patient referral to an SNF is accepted or denied"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Occupancy rates within skilled nursing facilities (SNFs) in the United States have reached a record low",
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "Study examining factors affecting SNF referral decisions using regression analysis",
           "Text": "Our key objectives were to describe the distribution of referrals sent to SNFs in terms of key referral- and facility-level features; analyze key financial, clinical, and operational variables and their relationship to admission decisions; and identify the key potential reasons behind referral decisions in the context of learning health systems. We extracted and cleaned referral data from 627 SNFs from January 2020 to March 2022, including information on SNF daily operations (occupancy and nursing hours), referral-level factors (insurance type and primary diagnosis), and facility-level factors (overall 5-star rating and urban versus rural status). We computed descriptive statistics and applied regression modeling to identify and describe the relationships between these factors and referral decisions, considering them individually and controlling for other factors to understand their impact on the decision-making process.",
-          "Main Action": "were to describe",
+          "Action": "were to describe",
           "Arguments": {
             "Agent": [
               "Our key objectives"
@@ -50,11 +46,7 @@
               "Primary Object": [
                 "the distribution of referrals"
               ],
-              "Primary Modifier": [
-                "sent to SNFs in terms of key referral- and facility-level features"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "referral data from 627 SNFs from January 2020 to March 2022"
@@ -82,7 +74,7 @@
         {
           "Results/Findings": "Analysis reveals factors affecting SNF referral acceptance rates",
           "Text": "When analyzing daily operation values, no significant relationship between SNF occupancy or nursing hours and referral acceptance was observed (P>.05). By analyzing referral-level factors, we found that the primary diagnosis category and insurance type of the patient were significantly related to referral acceptance (P<.05). Referrals with primary diagnoses within the category 'Diseases of the Musculoskeletal System' are least often denied whereas those with diagnoses within the 'Mental Illness' category are most often denied (compared with other diagnosis categories). Furthermore, private insurance holders are least often denied whereas 'Medicaid' holders are most often denied (compared with other insurance types). When analyzing facility-level factors, we found that the overall 5-star rating and urban versus rural status of an SNF are significantly related to referral acceptance (P<.05). We found a positive but nonmonotonic relationship between the 5-star rating and referral acceptance rates, with the highest acceptance rates found among 5-star facilities. In addition, we found that SNFs in urban areas have lower acceptance rates than their rural counterparts.",
-          "Main Action": "found",
+          "Action": "found",
           "Arguments": {
             "Agent": [
               "we"
@@ -91,11 +83,7 @@
               "Primary Object": [
                 "the primary diagnosis category and insurance type of the patient"
               ],
-              "Primary Modifier": [
-                "were significantly related to referral acceptance (P<.05)."
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -121,7 +109,7 @@
         {
           "Conclusions/Implications": "Diagnosis and financial factors drive SNF referral decisions",
           "Text": "While many factors may influence a referral acceptance, care challenges associated with individual diagnoses and financial challenges associated with different remuneration types were found to be the strongest drivers. Understanding these drivers is essential in being more intentional in the process of accepting or denying referrals. We have interpreted our results using an adaptive leadership framework and suggested how SNFs can be more purposeful with their decisions while striving to achieve appropriate occupancy levels in ways that meet their goals and patients’ needs.",
-          "Main Action": "have interpreted",
+          "Action": "have interpreted",
           "Arguments": {
             "Agent": [
               "We"
@@ -130,11 +118,7 @@
               "Primary Object": [
                 "our results"
               ],
-              "Primary Modifier": [
-                "using an adaptive leadership framework"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "While many factors may influence a referral acceptance"
@@ -163,7 +147,7 @@
         {
           "Background/Introduction": "Pandemic emphasizes nutrition information assessment on Twitter",
           "Text": "The COVID-19 pandemic has brought to the spotlight the critical role played by a balanced and healthy diet in bolstering the human immune system. There is burgeoning interest in nutrition-related information on social media platforms like Twitter. There is a critical need to assess and understand public opinion, attitudes, and sentiments toward nutrition-related information shared on Twitter.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "There"
@@ -172,11 +156,7 @@
               "Primary Object": [
                 "a critical need"
               ],
-              "Primary Modifier": [
-                "to assess and understand public opinion, attitudes, and sentiments toward nutrition-related information shared on Twitter"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "The COVID-19 pandemic",
@@ -195,7 +175,7 @@
         {
           "Methods/Approach": "Text mining analysis of nutrition-related tweets about COVID-19 immunity",
           "Text": "This study uses text mining to analyze nutrition-related messages on Twitter to identify and analyze how the general public perceives various food groups and diets for improving immunity to the SARS-CoV-2 virus. We gathered 71,178 nutrition-related tweets that were posted between January 01, 2020, and September 30, 2020. The Correlated Explanation text mining algorithm was used to identify frequently discussed topics that users mentioned as contributing to immunity building against SARS-CoV-2. We assessed the relative importance of these topics and performed a sentiment analysis. We also qualitatively examined the tweets to gain a closer understanding of nutrition-related topics and food groups.",
-          "Main Action": "uses",
+          "Action": "uses",
           "Arguments": {
             "Agent": [
               "This study"
@@ -204,11 +184,7 @@
               "Primary Object": [
                 "text mining"
               ],
-              "Primary Modifier": [
-                "to analyze nutrition-related messages on Twitter"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "71,178 nutrition-related tweets that were posted between January 01, 2020, and September 30, 2020"
@@ -234,7 +210,7 @@
         {
           "Results/Findings": "Text mining identified 10 frequently discussed nutrition topics on Twitter",
           "Text": "Text-mining yielded 10 topics that users discussed frequently on Twitter, viz proteins, whole grains, fruits, vegetables, dairy-related, spices and herbs, fluids, supplements, avoidable foods, and specialty diets. Supplements were the most frequently discussed topic (23,913/71,178, 33.6%) with a higher proportion (20,935/23,913, 87.75%) exhibiting a positive sentiment with a score of 0.41. Consuming fluids (17,685/71,178, 24.85%) and fruits (14,807/71,178, 20.80%) were the second and third most frequent topics with favorable, positive sentiments. Spices and herbs (8719/71,178, 12.25%) and avoidable foods (8619/71,178, 12.11%) were also frequently discussed. Negative sentiments were observed for a higher proportion of avoidable foods (7627/8619, 84.31%) with a sentiment score of –0.39.",
-          "Main Action": "yielded",
+          "Action": "yielded",
           "Arguments": {
             "Agent": [
               "Text-mining"
@@ -243,11 +219,7 @@
               "Primary Object": [
                 "10 topics"
               ],
-              "Primary Modifier": [
-                "that users discussed frequently on Twitter"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "viz proteins, whole grains, fruits, vegetables, dairy-related, spices and herbs, fluids, supplements, avoidable foods, and specialty diets"
@@ -271,7 +243,7 @@
         {
           "Conclusions/Implications": "Study findings help dieticians create immunity-boosting programs",
           "Text": "This study identified 10 important food groups and associated sentiments that users discussed as a means to improve immunity. Our findings can help dieticians and nutritionists to frame appropriate interventions and diet programs.",
-          "Main Action": "identified",
+          "Action": "identified",
           "Arguments": {
             "Agent": [
               "This study"
@@ -280,11 +252,7 @@
               "Primary Object": [
                 "10 important food groups and associated sentiments"
               ],
-              "Primary Modifier": [
-                "that users discussed as a means to improve immunity"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

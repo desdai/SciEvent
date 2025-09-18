@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "learners awarness of theri own affective states",
           "Text": "Learners' awareness of their own affective states (emotions) can improve their meta-cognition, which is a critical skill of being aware of and controlling one's cognitive, motivational, and affect, and adjusting their learning strategies and behaviors accordingly. To investigate the effect of peers' affects on learners' meta-cognition, we proposed two types of cues that aggregated peers' affects that were recognized via facial expression recognition: Locative cues (displaying the spikes of peers' emotions along a video timeline) and Temporal cues (showing the positivities of peers' emotions at different segments of a video).",
-          "Main Action": "improve",
+          "Action": "improve",
           "Arguments": {
             "Agent": [
               "Learners' awareness of their own affective states (emotions)"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "their meta-cognition"
               ],
-              "Primary Modifier": [
-                "which is a critical skill of being aware of and controlling one's cognitive, motivational, and affect, and adjusting their learning strategies and behaviors accordingly"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -42,7 +38,7 @@
         {
           "Methods/Approach": "a bewteen subject expirement",
           "Text": "We conducted a between-subject experiment with 42 college students through the use of think-aloud protocols, interviews, and surveys.",
-          "Main Action": "conducted",
+          "Action": "conducted",
           "Arguments": {
             "Agent": [
               "We"
@@ -51,11 +47,7 @@
               "Primary Object": [
                 "a between-subject experiment"
               ],
-              "Primary Modifier": [
-                "with 42 college students"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -73,7 +65,7 @@
         {
           "Results/Findings": "two types of cues improved participants meta cognition",
           "Text": "Our results showed that the two types of cues improved participants' meta-cognition differently. For example, interacting with the Temporal cues triggered the participants to compare their own affective responses with their peers and reflect more on why and how they had different emotions with the same video content. While the participants perceived the benefits of using AI-generated peers' cues to improve their awareness of their own learning affects, they also sought more explanations from their peers to understand the AI-generated results.",
-          "Main Action": "showed",
+          "Action": "showed",
           "Arguments": {
             "Agent": [
               "Our results"
@@ -82,9 +74,7 @@
               "Primary Object": [
                 "the two types of cues improved participants' meta-cognition differently"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -104,7 +94,7 @@
         {
           "Conclusions/Implications": "novel design implications for prompting learners",
           "Text": "Our findings not only provide novel design implications for promoting learners' meta-cognition with privacy-preserved social cues of peers' learning affects, but also suggest an expanded design framework for Explainable AI (XAI).",
-          "Main Action": "provide",
+          "Action": "provide",
           "Arguments": {
             "Agent": [
               "Our findings"
@@ -113,11 +103,7 @@
               "Primary Object": [
                 "novel design implications"
               ],
-              "Primary Modifier": [
-                "for promoting learners' meta-cognition with privacy-preserved social cues of peers' learning affects"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -141,7 +127,7 @@
         {
           "Background/Introduction": "the literature of social media",
           "Text": "This paper extends the literature on social media activism by foregrounding the invisible work of orchestrating it.",
-          "Main Action": "extends",
+          "Action": "extends",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -150,11 +136,7 @@
               "Primary Object": [
                 "the literature"
               ],
-              "Primary Modifier": [
-                "on social media activism"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -172,7 +154,7 @@
         {
           "Methods/Approach": "analyze the activities of a #Metoo group",
           "Text": "We analyze the activities of a #MeToo group in a Northern European country and characterize the group's efforts to catalog incidents of gender-based harassment and discrimination as an activist, platform-mediated participatory writing project.",
-          "Main Action": "analyze",
+          "Action": "analyze",
           "Arguments": {
             "Agent": [
               "We"
@@ -181,11 +163,7 @@
               "Primary Object": [
                 "the activities "
               ],
-              "Primary Modifier": [
-                "of a #MeToo group in a Northern European country"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -203,7 +181,7 @@
         {
           "Results/Findings": "the work of organizing this form of activism",
           "Text": "Our analysis details the work of organizing this form of activism, particularly: 1) the editorial work that underlies publishing personal stories on social media, 2) the emotional labor that unfolds as part of this form of writing, and 3) the work of creating publics. By drawing attention to these efforts, the paper frames activism as effortfully driven, sometimes in tension with the platform or evolving value positions.",
-          "Main Action": "details",
+          "Action": "details",
           "Arguments": {
             "Agent": [
               "Our analysis"
@@ -212,11 +190,7 @@
               "Primary Object": [
                 "the work"
               ],
-              "Primary Modifier": [
-                "of organizing this form of activism"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -237,7 +211,7 @@
         {
           "Conclusions/Implications": "discusiion on the role of social networking sites",
           "Text": "We conclude with a discussion on the role of social networking sites in organizing activism where writing is central, and with a set of sensitivities that can support designers and activists alike in designing socio-technical practices concerned with social change.",
-          "Main Action": "conclude with",
+          "Action": "conclude with",
           "Arguments": {
             "Agent": [
               "We"
@@ -246,14 +220,8 @@
               "Primary Object": [
                 "a discussion"
               ],
-              "Primary Modifier": [
-                "on the role of social networking sites in organizing activism where writing is central"
-              ],
               "Secondary Object": [
                 "a set of sensitivities"
-              ],
-              "Secondary Modifier": [
-                "that can support designers and activists alike in designing socio-technical practices concerned with social change"
               ]
             },
             "Context": [],

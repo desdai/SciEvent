@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "network science",
           "Text": "Identifying and prioritizing disease-related proteins is an important scientific problem to develop proper treatments. Network science has become an important discipline to prioritize such proteins. Multiple sclerosis, an autoimmune disease for which there is still no cure, is characterized by a damaging process called demyelination. Demyelination is the destruction of myelin, a structure facilitating fast transmission of neuron impulses, and oligodendrocytes, the cells producing myelin, by immune cells. Identifying the proteins that have special features on the network formed by the proteins of oligodendrocyte and immune cells can reveal useful information about the disease.",
-          "Main Action": "has become",
+          "Action": "has become",
           "Arguments": {
             "Agent": [
               "Network science"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "an important discipline"
               ],
-              "Primary Modifier": [
-                "to prioritize such proteins"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Identifying and prioritizing disease-related proteins is an important scientific problem to develop proper treatments",
@@ -43,7 +39,7 @@
         {
           "Methods/Approach": "analysis of the protein pairs using network analysis",
           "Text": "We investigated the most significant protein pairs that we define as bridges among the proteins providing the interaction between the two cells in demyelination, in the networks formed by the oligodendrocyte and each type of two immune cells (i.e. macrophage and T-cell) using network analysis techniques and integer programming. The reason we investigated these specialized hubs was that a problem related to these proteins might impose a bigger damage in the system.",
-          "Main Action": "investigated",
+          "Action": "investigated",
           "Arguments": {
             "Agent": [
               "We"
@@ -52,11 +48,7 @@
               "Primary Object": [
                 "the most significant protein pairs"
               ],
-              "Primary Modifier": [
-                "that we define as bridges among the proteins providing the interaction between the two cells in demyelination"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "in the networks formed by the oligodendrocyte and each type of two immune cells (i.e. macrophage and T-cell)"
@@ -78,7 +70,7 @@
         {
           "Results/Findings": "analysis and a new model named brifin",
           "Text": "We showed that 61%-100% of the proteins our model detected, depending on parameterization, have already been associated with multiple sclerosis. We further observed the mRNA expression levels of several proteins we prioritized significantly decreased in human peripheral blood mononuclear cells of multiple sclerosis patients. We therefore present a model, BriFin, which can be used for analyzing processes where interactions of two cell types play an important role.",
-          "Main Action": "showed",
+          "Action": "showed",
           "Arguments": {
             "Agent": [
               "We"
@@ -87,9 +79,7 @@
               "Primary Object": [
                 "61%-100% of the proteins our model detected, depending on parameterization, have already been associated with multiple sclerosis"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -116,7 +106,7 @@
         {
           "Background/Introduction": "the alevin fry ecosystem",
           "Text": "The alevin-fry ecosystem provides a robust and growing suite of programs for single-cell data processing. However, as new single-cell technologies are introduced, as the community continues to adjust best practices for data processing, and as the alevin-fry ecosystem itself expands and grows, it is becoming increasingly important to manage the complexity of alevin-fry's single-cell preprocessing workflows while retaining the performance and flexibility that make these tools enticing.",
-          "Main Action": "provides",
+          "Action": "provides",
           "Arguments": {
             "Agent": [
               "The alevin-fry ecosystem"
@@ -125,11 +115,7 @@
               "Primary Object": [
                 "a robust and growing suite of programs"
               ],
-              "Primary Modifier": [
-                "for single-cell data processing"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "as new single-cell technologies are introduced, as the community continues to adjust best practices for data processing, and as the alevin-fry ecosystem itself expands and grows"
@@ -149,7 +135,7 @@
         {
           "Methods/Approach": "a program called simplelaf",
           "Text": "We introduce simpleaf, a program that simplifies the processing of single-cell data using tools from the alevin-fry ecosystem, and adds new functionality and capabilities, while retaining the flexibility and performance of the underlying tools.",
-          "Main Action": "introduce",
+          "Action": "introduce",
           "Arguments": {
             "Agent": [
               "We"
@@ -158,11 +144,7 @@
               "Primary Object": [
                 "simpleaf"
               ],
-              "Primary Modifier": [
-                "a program that simplifies the processing of single-cell data using tools from the alevin-fry ecosystem, and adds new functionality and capabilities, while retaining the flexibility and performance of the underlying tools"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

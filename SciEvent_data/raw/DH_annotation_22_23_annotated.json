@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "ng dh to steam oriented and singaporean educational context",
           "Text": "This article explores the pedagogical challenges and opportunities of bringing the Digital Humanities into a STEM-orientated and Singaporean educational context. Teaching DH from the inside out — to computer scientists rather than humanists — has allowed us to see more clearly neglected areas of DH pedagogy that are in need of greater attention.",
-          "Main Action": "explores",
+          "Action": "explores",
           "Arguments": {
             "Agent": [
               "This article"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "the pedagogical challenges and opportunities of bringing the Digital Humanities into a STEM-orientated and Singaporean educational context"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -37,7 +35,7 @@
         {
           "Results/Findings": "dh is a field beyound traditional humanities",
           "Text": "Our experiences have shown us that if DH is to thrive as a field beyond traditional humanities departments in the U.S. and Europe, we need to better articulate and theorize the connections between humanities and computer scientific epistemologies. When teaching non-humanities students, in particular, we have found it necessary to pay more attention to humanities research methods and projects grounded in humanities research questions.",
-          "Main Action": "have shown",
+          "Action": "have shown",
           "Arguments": {
             "Agent": [
               "Our experiences"
@@ -46,9 +44,7 @@
               "Primary Object": [
                 "if DH is to thrive as a field beyond traditional humanities departments in the U.S. and Europe, we need to better articulate and theorize the connections between humanities and computer scientific epistemologies"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "When teaching non-humanities students"
@@ -68,7 +64,7 @@
         {
           "Conclusions/Implications": "dh should go beyond dhs cultural scope",
           "Text": "In developing a curriculum that reflects our Singaporean context too, we have found that diversity in global DH should go beyond simply broadening DH’s cultural scope but must involve a more open and global engagement with computational, cultural research that may not identify disciplinarily as DH.",
-          "Main Action": "have found",
+          "Action": "have found",
           "Arguments": {
             "Agent": [
               "we"
@@ -77,9 +73,7 @@
               "Primary Object": [
                 "diversity in global DH should go beyond simply broadening DH’s cultural scope"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "In developing a curriculum that reflects our Singaporean context"
@@ -105,7 +99,7 @@
         {
           "Background/Introduction": "wendy chuns book",
           "Text": "This review critically interrogates Wendy Chun’s book *Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition* (MIT Press, 2021) from the perspective of the digital medical or health humanities.",
-          "Main Action": "interrogates",
+          "Action": "interrogates",
           "Arguments": {
             "Agent": [
               "This review"
@@ -114,9 +108,7 @@
               "Primary Object": [
                 "Wendy Chun’s book *Discriminating Data: Correlation, Neighborhoods, and the New Politics of Recognition* (MIT Press, 2021)"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "perspective of the digital medical or health humanities"
@@ -134,7 +126,7 @@
         {
           "Results/Findings": "the monographs exploration",
           "Text": "The monograph’s exploration of predictive machine learning and big data’s propensity to encode segregation through their default assumptions about correlation raises important questions about machine learning’s growing uses in fields, such as medicine and pharmacology, where the stakes of such digital experimentation are particularly high.",
-          "Main Action": "raises",
+          "Action": "raises",
           "Arguments": {
             "Agent": [
               "The monograph’s exploration"
@@ -143,11 +135,7 @@
               "Primary Object": [
                 "important questions"
               ],
-              "Primary Modifier": [
-                "about machine learning’s growing uses in fields, such as medicine and pharmacology"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "predictive machine learning",
@@ -168,7 +156,7 @@
         {
           "Conclusions/Implications": "chuns exploration of the predective process",
           "Text": "Chun’s exploration of the predictive processes by which data analytics replicates 20th-century eugenics discourses makes an important contribution to the field of digital medical ethics and also offers unique insight into the mechanisms by which digital humanities scholars can disrupt and challenge the use and application of such predictive programs.",
-          "Main Action": "makes",
+          "Action": "makes",
           "Arguments": {
             "Agent": [
               "Chun’s exploration of the predictive processes by which data analytics replicates 20th-century eugenics discourses"
@@ -177,9 +165,7 @@
               "Primary Object": [
                 "an important contribution to the field of digital medical ethics"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

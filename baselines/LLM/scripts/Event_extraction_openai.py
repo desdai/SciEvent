@@ -55,13 +55,13 @@ class Config:
 
 # ### Argument Components to Extract:
 
-# Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
+# Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
 
-# Agent: Who or what is performing this main action? 
+# Agent: Who or what is performing this action? 
 
 # Object:
-# - Primary Object: What is directly receiving or affected by the main action? 
-# - Secondary Object: What is a secondary entity also receiving the main action?
+# - Primary Object: What is directly receiving or affected by the action? 
+# - Secondary Object: What is a secondary entity also receiving the action?
 
 # Context: What provides foundational or situational information of the event?
 
@@ -99,7 +99,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "has extensively studied",
+#   "Action": "has extensively studied",
 #   "Agent": ["Second language acquisition (SLA) research"],
 #   "Object": {
 #     "Primary Object": ["cross-linguistic transfer"],
@@ -121,7 +121,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "model",
+#   "Action": "model",
 #   "Agent": ["we"],
 #   "Object": {
 #     "Primary Object": ["sequential second language acquisition in LMs"],
@@ -143,7 +143,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "use",
+#   "Action": "use",
 #   "Agent": ["we"],
 #   "Object": {
 #     "Primary Object": ["the TILT-based cross lingual transfer learning approach"],
@@ -165,7 +165,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "call for",
+#   "Action": "call for",
 #   "Agent": ["Our findings"],
 #   "Object": {
 #     "Primary Object": ["further research"],
@@ -189,7 +189,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "has become",
+#   "Action": "has become",
 #   "Agent": ["Live streaming"],
 #   "Object": {
 #     "Primary Object": ["a popular activity world-wide"],
@@ -211,7 +211,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "conducted",
+#   "Action": "conducted",
 #   "Agent": ["we"],
 #   "Object": {
 #     "Primary Object": ["an interview study"],
@@ -233,7 +233,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "found",
+#   "Action": "found",
 #   "Agent": ["We"],
 #   "Object": {
 #     "Primary Object": ["streamers cared about bystanders' privacy"],
@@ -255,7 +255,7 @@ class Config:
 
 # Output:
 # {
-#   "Main Action": "discuss",
+#   "Action": "discuss",
 #   "Agent": ["we"],
 #   "Object": {
 #     "Primary Object": ["implications"],
@@ -275,7 +275,7 @@ class Config:
 
 # ### Output Format:
 # {
-#   "Main Action": "EXACT TEXT or <NONE>",
+#   "Action": "EXACT TEXT or <NONE>",
 #   "Agent": ["EXACT TEXT or <NONE>"],
 #    "Object": {
 #     "Primary Object": ["EXACT TEXT or <NONE>"],
@@ -617,7 +617,7 @@ class RawOutputExtractor:
                                 event_type = None
                                 try:
                                     for key in event.keys():
-                                        if key not in ["Text", "Main Action", "Arguments", "Summary"]:
+                                        if key not in ["Text", "Action", "Arguments", "Summary"]:
                                             event_type = key
                                             break
                                 except Exception as e:

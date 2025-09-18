@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "one on one tutoring",
           "Text": "One-on-one tutoring is effective for learning computer science since a tutor can work alongside a student and provide tailored feedback on their code. However, translating this type of instruction to a remote setting is challenging. Traditional methods such as screensharing lack key pedagogical functionality and most available tools are designed for collaboration rather than instruction.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "One-on-one tutoring"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "effective"
               ],
-              "Primary Modifier": [
-                "for learning computer science"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Traditional methods such as screensharing lack key pedagogical functionality and most available tools are designed for collaboration rather than instruction"
@@ -42,7 +38,7 @@
         {
           "Methods/Approach": "expirement to assess two resources synchronous editing and awarness tools",
           "Text": "To identify tools that can support remote tutoring, we conducted an experiment to assess two resources: synchronous editing and awareness tools. In our study, an instructor teaches a learner introductory programming concepts remotely, collaborating through screensharing alone, a shared notebook with real-time collaborative editing, or a shared notebook with additional awareness tools overlaid. To embed the awareness tools, we designed a Chrome extension that enables real-time sharing of gaze and cursor data.",
-          "Main Action": "conducted",
+          "Action": "conducted",
           "Arguments": {
             "Agent": [
               "we"
@@ -51,11 +47,7 @@
               "Primary Object": [
                 "an experiment"
               ],
-              "Primary Modifier": [
-                "to assess two resources: synchronous editing and awareness tools"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -76,7 +68,7 @@
         {
           "Results/Findings": "synchroonous editing and awarness tools combined",
           "Text": "Our results show that synchronous editing combined with awareness tools significantly improved learning. The awareness tools also helped tutors better communicate with the student, track their understanding, and establish a sense of presence. As a final contribution, we also assessed the efficacy of gaze-sharing using a webcam eye-tracker. While the accuracy was not as precise as a dedicated sensor, instructors described instances when the gaze was useful for gauging student attention and establishing presence.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Our results"
@@ -85,9 +77,7 @@
               "Primary Object": [
                 "synchronous editing combined with awareness tools significantly improved learning"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -108,7 +98,7 @@
         {
           "Conclusions/Implications": "implications of remote tutoring",
           "Text": "We discuss implications for remote tutoring in computer science and scaling awareness technology.",
-          "Main Action": "discuss",
+          "Action": "discuss",
           "Arguments": {
             "Agent": [
               "We"
@@ -117,11 +107,7 @@
               "Primary Object": [
                 "implications"
               ],
-              "Primary Modifier": [
-                "for remote tutoring in computer science and scaling awareness technology"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -143,7 +129,7 @@
         {
           "Background/Introduction": "getting dta for ml models for mental illness",
           "Text": "Getting training data for machine learning (ML) prediction of mental illness on social media data is labor intensive. To work around this, ML teams will extrapolate proxy signals, or alternative signs from data to evaluate illness status and create training datasets. However, these signals' validity has not been determined, whether signals align with important contextual factors, and how proxy quality impacts downstream model integrity.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Getting training data"
@@ -152,9 +138,7 @@
               "Primary Object": [
                 "labor intensive"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "for machine learning (ML) prediction of mental illness on social media data",
@@ -175,7 +159,7 @@
         {
           "Methods/Approach": "ML and qualitative methods",
           "Text": "We use ML and qualitative methods to evaluate whether a popular proxy signal, diagnostic self-disclosure, produces a conceptually sound ML model of mental illness.",
-          "Main Action": "use",
+          "Action": "use",
           "Arguments": {
             "Agent": [
               "We"
@@ -184,9 +168,7 @@
               "Primary Object": [
                 "ML and qualitative methods"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -204,7 +186,7 @@
         {
           "Results/Findings": "major conceptual errors",
           "Text": "Our findings identify major conceptual errors only seen through a qualitative investigation — training data built from diagnostic disclosures encodes a narrow vision of diagnosis experiences that propagates into paradoxes in the downstream ML model. This gap is obscured by strong performance of the ML classifier (F1 = 0.91).",
-          "Main Action": "identify",
+          "Action": "identify",
           "Arguments": {
             "Agent": [
               "Our findings"
@@ -213,11 +195,7 @@
               "Primary Object": [
                 "major conceptual errors"
               ],
-              "Primary Modifier": [
-                "only seen through a qualitative investigation"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -236,7 +214,7 @@
         {
           "Conclusions/Implications": "implication of the conceptual gaps",
           "Text": "We discuss the implications of conceptual gaps in creating training data for human-centered models, and make suggestions for improving research methods.",
-          "Main Action": "discuss",
+          "Action": "discuss",
           "Arguments": {
             "Agent": [
               "We"
@@ -245,11 +223,7 @@
               "Primary Object": [
                 "the implications"
               ],
-              "Primary Modifier": [
-                "of conceptual gaps"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "in creating training data for human-centered models"

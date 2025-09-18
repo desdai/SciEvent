@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "news articles and the way of presenting it",
           "Text": "The potential choices for news article headlines are enormous, and finding the right balance between conveying the essential message and capturing the reader’s attention is key to effective headlining. However, presenting the same news headline to all readers is a suboptimal strategy, because it does not take into account the different preferences and interests of diverse readers, who may be confused about why a particular article has been recommended to them and do not see a clear connection between their interests and the recommended article.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "presenting the same news headline to all readers"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "a suboptimal strategy"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "The potential choices for news article headlines are enormous, and finding the right balance between conveying the essential message and capturing the reader’s attention is key to effective headlining"
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "a novel framework to adresss the challenges in presenting hnews",
           "Text": "In this paper, we present a novel framework that addresses these challenges by incorporating user profiling to generate personalized headlines, and a combination of automated and human evaluation methods to determine user preference for personalized headlines. Our framework utilizes a learnable relevance function to assign personalized signature phrases to users based on their reading histories, which are then used to personalize headline generation.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -47,9 +45,7 @@
               "Primary Object": [
                 "a novel framework that addresses these challenges"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -68,7 +64,7 @@
         {
           "Results/Findings": "through extensive evaluation",
           "Text": "Through extensive evaluation, we demonstrate the effectiveness of our proposed framework in generating personalized headlines that meet the needs of a diverse audience.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "we"
@@ -77,11 +73,7 @@
               "Primary Object": [
                 "the effectiveness"
               ],
-              "Primary Modifier": [
-                "of our proposed framework"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -99,7 +91,7 @@
         {
           "Conclusions/Implications": "the potential of the framework",
           "Text": "Our framework has the potential to improve the efficacy of news recommendations and facilitate creation of personalized content.",
-          "Main Action": "has the potential to improve",
+          "Action": "has the potential to improve",
           "Arguments": {
             "Agent": [
               "Our framework"
@@ -108,11 +100,7 @@
               "Primary Object": [
                 "the efficacy"
               ],
-              "Primary Modifier": [
-                "of news recommendations and facilitate creation of personalized content"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -134,7 +122,7 @@
         {
           "Background/Introduction": "fact checking real world claims",
           "Text": "Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning.",
-          "Main Action": "requires",
+          "Action": "requires",
           "Arguments": {
             "Agent": [
               "Fact-checking real-world claims"
@@ -143,9 +131,7 @@
               "Primary Object": [
                 "collecting multiple pieces of evidence and applying complex multi-step reasoning"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -161,7 +147,7 @@
         {
           "Methods/Approach": "program guided fact checking program",
           "Text": "In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -170,11 +156,7 @@
               "Primary Object": [
                 "Program-Guided Fact-Checking (ProgramFC)"
               ],
-              "Primary Modifier": [
-                "a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -195,7 +177,7 @@
         {
           "Results/Findings": "evaluation of Program Fc",
           "Text": "We evaluate ProgramFC on two challenging fact-checking datasets and show that it outperforms seven fact-checking baselines across different settings of evidence availability, with explicit output programs that benefit human debugging.",
-          "Main Action": "evaluate",
+          "Action": "evaluate",
           "Arguments": {
             "Agent": [
               "We"
@@ -204,11 +186,9 @@
               "Primary Object": [
                 "ProgramFC"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "on two challenging fact-checking datasets"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],

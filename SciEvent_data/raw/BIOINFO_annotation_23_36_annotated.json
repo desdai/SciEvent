@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "WFA enables efficient long-read alignment but needs HPC optimization",
           "Text": "Advances in genomics and sequencing technologies demand faster and more scalable analysis methods that can process longer sequences with higher accuracy. However, classical pairwise alignment methods, based on dynamic programming (DP), impose impractical computational requirements to align long and noisy sequences like those produced by PacBio and Nanopore technologies. The recently proposed wavefront alignment (WFA) algorithm paves the way for more efficient alignment tools, improving time and memory complexity over previous methods. However, high-performance computing (HPC) platforms require efficient parallel algorithms and tools to exploit the computing resources available on modern accelerator-based architectures.",
-          "Main Action": "demand",
+          "Action": "demand",
           "Arguments": {
             "Agent": [
               "Advances"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "faster and more scalable analysis methods"
               ],
-              "Primary Modifier": [
-                "that can process longer sequences with higher accuracy"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "The recently proposed wavefront alignment (WFA) algorithm paves the way for more efficient alignment tools, improving time and memory complexity over previous methods"
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "WFA-GPU accelerates exact sequence alignment via CPU-GPU co-design",
           "Text": "This paper presents WFA-GPU, a GPU (graphics processing unit)-accelerated tool to compute exact gap-affine alignments based on the WFA algorithm. We present the algorithmic adaptations and performance optimizations that allow exploiting the massively parallel capabilities of modern GPU devices to accelerate the alignment computations. In particular, we propose a CPU-GPU co-design capable of performing inter-sequence and intra-sequence parallel sequence alignment, combining a succinct WFA-data representation with an efficient GPU implementation.",
-          "Main Action": "presents",
+          "Action": "presents",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -50,11 +46,7 @@
               "Primary Object": [
                 "WFA-GPU"
               ],
-              "Primary Modifier": [
-                "a GPU (graphics processing unit)-accelerated tool to compute exact gap-affine alignments based on the WFA algorithm"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -73,7 +65,7 @@
         {
           "Results/Findings": "WFA-GPU speeds alignment 29× over rivals, handles long reads uniquely",
           "Text": "As a result, we demonstrate that our implementation outperforms the original multi-threaded WFA implementation by up to 4.3× and up to 18.2× when using heuristic methods on long and noisy sequences. Compared to other state-of-the-art tools and libraries, the WFA-GPU is up to 29× faster than other GPU implementations and up to four orders of magnitude faster than other CPU implementations. Furthermore, WFA-GPU is the only GPU solution capable of correctly aligning long reads using a commodity GPU.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "we"
@@ -82,9 +74,7 @@
               "Primary Object": [
                 "our implementation outperforms the original multi-threaded WFA implementation by up to 4.3× and up to 18.2× when using heuristic methods on long and noisy sequences"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -110,7 +100,7 @@
         {
           "Background/Introduction": "Viral genome consensus assembly faces scaling challenges with growing data",
           "Text": "In viral molecular epidemiology, reconstruction of consensus genomes from sequence data is critical for tracking mutations and variants of concern. However, as the number of samples that are sequenced grows rapidly, compute resources needed to reconstruct consensus genomes can become prohibitively large.",
-          "Main Action": "is critical for",
+          "Action": "is critical for",
           "Arguments": {
             "Agent": [
               "reconstruction of consensus genomes from sequence data"
@@ -119,9 +109,7 @@
               "Primary Object": [
                 "tracking mutations and variants of concern"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -139,7 +127,7 @@
         {
           "Methods/Approach": "ViralConsensus efficiently calls viral genomes from alignment data",
           "Text": "ViralConsensus is a fast and memory-efficient tool for calling viral consensus genome sequences directly from read alignment data.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "ViralConsensus"
@@ -148,11 +136,7 @@
               "Primary Object": [
                 "a fast and memory-efficient tool"
               ],
-              "Primary Modifier": [
-                "for calling viral consensus genome sequences directly from read alignment data"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -168,7 +152,7 @@
         {
           "Results/Findings": "ViralConsensus is fastest, memory-efficient, and pipeline-friendly for viral genomes",
           "Text": "ViralConsensus is orders of magnitude faster and more memory-efficient than existing methods. Further, unlike existing methods, ViralConsensus can pipe data directly from a read mapper via standard input and performs viral consensus calling on-the-fly, making it an ideal tool for viral sequencing pipelines.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "ViralConsensus"
@@ -177,12 +161,8 @@
               "Primary Object": [
                 "orders of magnitude faster"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "and more memory-efficient"
-              ],
-              "Secondary Modifier": [
-                "than existing methods"
               ]
             },
             "Context": [],

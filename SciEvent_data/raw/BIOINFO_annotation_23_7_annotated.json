@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Dependence of evolutionary inference on the quality of MSA",
           "Text": "Evolutionary inference depends crucially on the quality of multiple sequence alignments (MSA), which is problematic for distantly related proteins. Since protein structure is more conserved than sequence, it seems natural to use structure alignments for distant homologs. However, structure alignments may not be suitable for inferring evolutionary relationships.",
-          "Main Action": "depends crucially ON",
+          "Action": "depends crucially ON",
           "Arguments": {
             "Agent": [
               "Evolutionary inference"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "the quality of multiple sequence alignments (MSA)"
               ],
-              "Primary Modifier": [
-                "which is problematic for distantly related proteins"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -40,7 +36,7 @@
         {
           "Methods/Approach": "Proposal of the new hybrid protein sequence and structure similarity score",
           "Text": "Here we examined four protein similarity measures that depend on sequence and structure (fraction of aligned residues, sequence identity, fraction of superimposed residues, and contact overlap), finding that they are intimately correlated but none of them provides a complete and unbiased picture of conservation in proteins. Therefore, we propose the new hybrid protein sequence and structure similarity score PC_sim based on their main principal component. The corresponding divergence measure PC_div shows the strongest correlation with divergences obtained from individual similarities, suggesting that it infers accurate evolutionary divergences. We developed the program PC_ali that constructs protein MSAs either de novo or modifying an input MSA, using a similarity matrix based on PC_sim. The program constructs a starting MSA based on the maximal cliques of the graph of these PAs and it refines it through progressive alignments along the tree reconstructed with PC_div.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -49,11 +45,7 @@
               "Primary Object": [
                 "the new hybrid protein sequence and structure similarity score PC_sim"
               ],
-              "Primary Modifier": [
-                "based on their main principal component"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -76,7 +68,7 @@
         {
           "Results/Findings": "Results of PC_ali against eight multiple structure and sequence alignment tools",
           "Text": "Compared with eight state-of-the-art multiple structure or sequence alignment tools, PC_ali achieves higher or equal aligned fraction and structural scores, sequence identity higher than structure aligners although lower than sequence aligners, highest score PC_sim, and highest similarity with the MSAs produced by other tools and with the reference MSA Balibase.",
-          "Main Action": "achieves",
+          "Action": "achieves",
           "Arguments": {
             "Agent": [
               "PC_ali"
@@ -85,9 +77,7 @@
               "Primary Object": [
                 "higher or equal aligned fraction and structural scores"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Compared with eight state-of-the-art multiple structure or sequence alignment tools"
@@ -115,7 +105,7 @@
         {
           "Background/Introduction": "Development of EDIR which contains the positions of the structures within the human exome",
           "Text": "Intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology. In order to get a more clear view of these interspersed repeats encompassing a coding sequence, we have developed EDIR (Exome Database of Interspersed Repeats) which contains the positions of these structures within the human exome.",
-          "Main Action": "have developed",
+          "Action": "have developed",
           "Arguments": {
             "Agent": [
               "we"
@@ -124,11 +114,7 @@
               "Primary Object": [
                 "EDIR (Exome Database of Interspersed Repeats)"
               ],
-              "Primary Modifier": [
-                "which contains the positions of these structures within the human exome"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Intragenic exonic deletions are known to contribute to genetic diseases and are often flanked by regions of homology"
@@ -148,7 +134,7 @@
         {
           "Methods/Approach": "Calculation of EDIR and method used",
           "Text": "EDIR has been calculated by an inductive strategy, rather than by a brute force approach and can be queried through an R/Bioconductor package or a web interface allowing the per-gene rapid extraction of homology-flanked sequences throughout the exome.",
-          "Main Action": "has been calculated by",
+          "Action": "has been calculated by",
           "Arguments": {
             "Agent": [
               "EDIR"
@@ -157,11 +143,7 @@
               "Primary Object": [
                 "an inductive strategy"
               ],
-              "Primary Modifier": [
-                "rather than by a brute force approach"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

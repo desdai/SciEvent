@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "interpretable deep learning models",
           "Text": "Interpretable deep learning (DL) models that can provide biological insights, in addition to accurate predictions, are of great interest to the biomedical community. Recently, interpretable DL models that incorporate signaling pathways have been proposed for drug response prediction (DRP). While these models improve interpretability, it is unclear whether this comes at the cost of less accurate DRPs, or a prediction improvement can also be obtained.",
-          "Main Action": "are of great interest to",
+          "Action": "are of great interest to",
           "Arguments": {
             "Agent": [
               "Interpretable deep learning (DL) models"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "the biomedical community."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "interpretable DL models that incorporate signaling pathways have been proposed for drug response prediction (DRP)",
@@ -39,7 +37,7 @@
         {
           "Methods/Approach": "dour foundational models using three pathway collections",
           "Text": "We comprehensively and systematically assessed four state-of-the-art interpretable DL models using three pathway collections to assess their ability in making accurate predictions on unseen samples from the same dataset, as well as their generalizability to an independent dataset.",
-          "Main Action": "assessed",
+          "Action": "assessed",
           "Arguments": {
             "Agent": [
               "We"
@@ -48,9 +46,7 @@
               "Primary Object": [
                 "four state-of-the-art interpretable DL models"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -68,7 +64,7 @@
         {
           "Results/Findings": "results of the expirement",
           "Text": "Our results showed that models that explicitly incorporate pathway information in the form of a latent layer perform worse compared to models that incorporate this information implicitly. However, in most evaluation setups, the best performance was achieved using a black-box multilayer perceptron, and the performance of a random forests baseline was comparable to those of the interpretable models. Replacing the signaling pathways with randomly generated pathways showed a comparable performance for the majority of the models. Finally, the performance of all models deteriorated when applied to an independent dataset.",
-          "Main Action": "showed",
+          "Action": "showed",
           "Arguments": {
             "Agent": [
               "Our results"
@@ -77,9 +73,7 @@
               "Primary Object": [
                 "models that explicitly incorporate pathway information in the form of a latent layer perform worse compared to models that incorporate this information implicitly"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -100,7 +94,7 @@
         {
           "Conclusions/Implications": "different evaluation setups",
           "Text": "These results highlight the importance of systematic evaluation of newly proposed models using carefully selected baselines. We provide different evaluation setups and baseline models that can be used to achieve this goal.",
-          "Main Action": "provide",
+          "Action": "provide",
           "Arguments": {
             "Agent": [
               "We"
@@ -109,9 +103,7 @@
               "Primary Object": [
                 "different evaluation setups and baseline models that can be used to achieve this goal."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -135,7 +127,7 @@
         {
           "Background/Introduction": "the process of preparing a whole genome bisulfate sequencing library",
           "Text": "In whole genome sequencing data, polymerase chain reaction amplification results in duplicate DNA fragments coming from the same location in the genome. The process of preparing a whole genome bisulfite sequencing (WGBS) library, on the other hand, can create two DNA fragments from the same location that should not be considered duplicates. Currently, only one WGBS-aware duplicate marking tool exists. However, it only works with the output from a single tool, does not accept streaming input or output, and requires a substantial amount of memory relative to the input size.",
-          "Main Action": "create",
+          "Action": "create",
           "Arguments": {
             "Agent": [
               "The process"
@@ -144,11 +136,7 @@
               "Primary Object": [
                 "two DNA fragments"
               ],
-              "Primary Modifier": [
-                "from the same location that should not be considered duplicates"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "In whole genome sequencing data, polymerase chain reaction amplification results in duplicate DNA fragments coming from the same location in the genome",
@@ -169,7 +157,7 @@
         {
           "Methods/Approach": "dupsifter provides a new tool",
           "Text": "Dupsifter provides an aligner-agnostic duplicate marking tool that is lightweight, has streaming capabilities, and is memory efficient.",
-          "Main Action": "provides",
+          "Action": "provides",
           "Arguments": {
             "Agent": [
               "Dupsifter"
@@ -178,11 +166,7 @@
               "Primary Object": [
                 "an aligner-agnostic duplicate marking tool"
               ],
-              "Primary Modifier": [
-                "that is lightweight, has streaming capabilities, and is memory efficient"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

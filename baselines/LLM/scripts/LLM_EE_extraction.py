@@ -472,7 +472,7 @@ def structure_arguments(parsed_json: Dict, logger: logging.Logger) -> Tuple[str,
         logger: Logger instance
 
     Returns:
-        Tuple of Main Action and structured arguments
+        Tuple of Action and structured arguments
     """
     # Define the standard structure with default values
     arguments = {
@@ -492,8 +492,8 @@ def structure_arguments(parsed_json: Dict, logger: logging.Logger) -> Tuple[str,
         "Contradictions": ["<NONE>"]
     }
 
-    # Extract Main Action (not part of the arguments dict itself)
-    main_action = parsed_json.get("Main Action", "<NONE>")
+    # Extract Action (not part of the arguments dict itself)
+    main_action = parsed_json.get("Action", "<NONE>")
     # Ensure main_action is a string, handle None or list cases defensively
     if isinstance(main_action, list):
          main_action = main_action[0] if main_action else "<NONE>"
@@ -657,13 +657,13 @@ def extract_json_from_raw_output(raw_output_path: str, logger: logging.Logger) -
             summary_match = re.search(r'"Summary"\s*:\s*"([^"]+)"', best_candidate)
             summary = summary_match.group(1) if summary_match else "<NONE>"
             
-            main_action_match = re.search(r'"Main Action"\s*:\s*"([^"]+)"', best_candidate)
+            main_action_match = re.search(r'"Action"\s*:\s*"([^"]+)"', best_candidate)
             main_action = main_action_match.group(1) if main_action_match else "<NONE>"
             
             # Construct completely new valid JSON
             reconstructed_json = f"""{{
   "Summary": "{summary}",
-  "Main Action": "{main_action}",
+  "Action": "{main_action}",
   "Agent": ["<NONE>"],
   "Object": {
     "Primary Object": ["<NONE>"],
@@ -713,7 +713,7 @@ def process_event(event_path: str, logger: logging.Logger, metrics: Dict) -> Tup
 
     Returns:
         Tuple containing:
-        - Main Action (str, "ERROR", or "<NONE>")
+        - Action (str, "ERROR", or "<NONE>")
         - Arguments dictionary (or None if extraction failed completely)
         - Summary (str, "ERROR", or "<NONE>")
         - has_error: Boolean indicating if a complete parsing error occurred
@@ -860,7 +860,7 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
             # Create a single event structure for the full abstract
             event = {
                 "Text": abstract,
-                "Main Action": main_action if not has_error else "ERROR",
+                "Action": main_action if not has_error else "ERROR",
                 # Use extracted arguments if successful, use error structure if complete failure
                 "Arguments": error_arguments if has_error else (arguments if arguments else default_arguments)
             }
@@ -897,7 +897,7 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
             
             event = {
                 "Text": abstract,
-                "Main Action": "ERROR",
+                "Action": "ERROR",
                 "Arguments": error_arguments,
                 "Error_Type": "MISSING_RAW_FILE"
             }
@@ -927,14 +927,14 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
                 if isinstance(event_data, str):
                     processed_events.append({
                         "Text": event_data,
-                        "Main Action": "ERROR",
+                        "Action": "ERROR",
                         "Arguments": error_arguments,
                         "Error_Type": "MALFORMED_EVENT_STRING"
                     })
                 else:
                     processed_events.append({
                         "Text": str(event_data),
-                        "Main Action": "ERROR",
+                        "Action": "ERROR",
                         "Arguments": error_arguments,
                         "Error_Type": "MALFORMED_EVENT_OBJECT"
                     })
@@ -954,7 +954,7 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
                 
                 # Add error markers for empty text events
                 updated_event = event_data.copy()
-                updated_event["Main Action"] = "ERROR"
+                updated_event["Action"] = "ERROR"
                 updated_event["Arguments"] = error_arguments
                 updated_event["Error_Type"] = "EMPTY_EVENT_TEXT"
                 processed_events.append(updated_event)
@@ -962,7 +962,7 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
 
             # Find the event type (if any specific key exists beyond standard ones)
             event_type_key = None
-            standard_keys = {"Text", "Main Action", "Arguments", "Summary"}
+            standard_keys = {"Text", "Action", "Arguments", "Summary"}
             for key in event_data.keys():
                 if key not in standard_keys:
                     event_type_key = key
@@ -982,7 +982,7 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
                 updated_event = event_data.copy()
 
                 # Update with extracted values, using ERROR markers for failures
-                updated_event["Main Action"] = main_action if not has_error else "ERROR"
+                updated_event["Action"] = main_action if not has_error else "ERROR"
                 
                 # Use ERROR markers if parsing failure occurred
                 if has_error:
@@ -1020,7 +1020,7 @@ def process_paper(paper_code: str, abstract: str, events: List, raw_output_dir: 
                 
                 # Append original event but mark with ERROR values and error type
                 updated_event = event_data.copy()
-                updated_event["Main Action"] = "ERROR" 
+                updated_event["Action"] = "ERROR" 
                 updated_event["Arguments"] = error_arguments
                 updated_event["Error_Type"] = "MISSING_RAW_FILE"
                 processed_events.append(updated_event)
@@ -1197,7 +1197,7 @@ def process_files(input_dir: str, raw_output_dir: str, logger: logging.Logger) -
                 # Check if paper has any errors to track it separately
                 paper_has_errors = False
                 for event in processed_paper.get("events", []):
-                    if event.get("Main Action") == "ERROR" or "Error_Type" in event:
+                    if event.get("Action") == "ERROR" or "Error_Type" in event:
                         paper_has_errors = True
                         break
                 

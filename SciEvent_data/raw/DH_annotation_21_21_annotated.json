@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Introduction of SCDAWGs as ideal basis of corpus exploration",
           "Text": "With suitable index structures many corpus exploration tasks can be solved in an efficient way without rescanning the text repository in an online manner. In this paper we show that symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "we"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "symmetric compacted directed acyclic word graphs (SCDAWGs) - a refinement of suffix trees - offer an ideal basis for corpus exploration, helping to answer many of the questions raised in DH research in an elegant way"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "corpus exploration tasks"
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "the two properties where advantages of SCDAWGs rely on",
           "Text": "From a simplified point of view, the advantages of SCDAWGs rely on two properties. First, needing linear computation time, the index offers a joint view on the similarities (in terms of common substrings) and differences between all text. Second, structural regularities of the index help to mine interesting portions of texts (such as phrases and concept names) and their relationship in a language-independent way without using prior linguistic knowledge.",
-          "Main Action": "rely on",
+          "Action": "rely on",
           "Arguments": {
             "Agent": [
               "the advantages of SCDAWGs"
@@ -47,9 +45,7 @@
               "Primary Object": [
                 "two properties"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "a simplified point of view"
@@ -73,7 +69,7 @@
         {
           "Results/Findings": "demonstration of power of these principles in text alignment and others",
           "Text": "As a demonstration of the power of these principles we look at text alignment, text reuse in distinct texts or between distinct authors, automated detection of concepts, temporal distribution of phrases in diachronic corpora, and related problems.",
-          "Main Action": "look at",
+          "Action": "look at",
           "Arguments": {
             "Agent": [
               "we"
@@ -82,14 +78,12 @@
               "Primary Object": [
                 "text alignment"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "text reuse in distinct texts or between distinct authors",
                 "automated detection of concepts",
                 "temporal distribution of phrases in diachronic corpora",
                 "related problems"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [
               "a demonstration of the power of these principles"
@@ -113,7 +107,7 @@
         {
           "Background/Introduction": "examination of claim making of humanists",
           "Text": "By bringing forward and interpreting the results from a collaborative research project that used contemporary computing techniques to investigate Giovanni Morelli’s nineteenth-century method for making stylistic attributions of old master paintings, this article examines how humanists make claims to knowledge and how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation.",
-          "Main Action": "examines",
+          "Action": "examines",
           "Arguments": {
             "Agent": [
               "this article"
@@ -122,11 +116,9 @@
               "Primary Object": [
                 "how humanists make claims to knowledge"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "how this process may or may not be modellable or mechanizable within the context of classical, deterministic, digital computation"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [
               "bringing forward and interpreting the results from a collaborative research project",
@@ -146,7 +138,7 @@
         {
           "Methods/Approach": "explains structure of explanation",
           "Text": "It begins with an explanation of the rationale behind choosing the Morellian practice of attribution, continues with a survey of another effort at computationally implementing Morelli’s method, and then presents our own computational techniques and results.",
-          "Main Action": "begins with",
+          "Action": "begins with",
           "Arguments": {
             "Agent": [
               "It"
@@ -155,11 +147,7 @@
               "Primary Object": [
                 "an explanation of the rationale"
               ],
-              "Primary Modifier": [
-                "behind choosing the Morellian practice of attribution"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -179,7 +167,7 @@
         {
           "Results/Findings": "Conclusion of the article",
           "Text": "The article concludes with what we have come to understand about the roles of responsibility, trust, and expertise in the social practice of art attribution. It discusses the dangers in assuming that such human entailments are native to digital computers.",
-          "Main Action": "concludes with",
+          "Action": "concludes with",
           "Arguments": {
             "Agent": [
               "The article"
@@ -188,9 +176,7 @@
               "Primary Object": [
                 "what we have come to understand"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "roles of responsibility, trust, and expertise",

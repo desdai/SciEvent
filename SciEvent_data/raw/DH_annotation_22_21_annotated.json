@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "case study of the ZHI project",
           "Text": "This essay offers a case study of the ZHI project, a digital craftsmanship project showcasing the beauty of traditional craftsmanship at three levels: knowing, making, and intelligence.",
-          "Main Action": "offers",
+          "Action": "offers",
           "Arguments": {
             "Agent": [
               "This essay"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a case study of the ZHI project"
               ],
-              "Primary Modifier": [
-                "a digital craftsmanship project showcasing the beauty of traditional craftsmanship at three levels: knowing, making, and intelligence"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -36,7 +32,7 @@
         {
           "Methods/Approach": "designer resudency program",
           "Text": "The project began with a Designer Residency Program and was developed to answer three crucial questions: (1) How could we bridge the gap between enthusiastic outsiders and little-known creators of intangible cultural heritage? (2) How could we help students understand and participate in craftwork? and (3) How could we facilitate sustainable knowledge production about intangible cultural heritage among the audiences, students, and craftsmen so everyone benefits and contributes? The ZHI project uses minimal computing strategies to encourage craftspeople to pass their skills and knowledge onto others, particularly younger generations, through digitization and online exhibitions that use minimal computing practices.",
-          "Main Action": "began with",
+          "Action": "began with",
           "Arguments": {
             "Agent": [
               "The project"
@@ -45,9 +41,7 @@
               "Primary Object": [
                 "a Designer Residency Program"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -71,7 +65,7 @@
         {
           "Results/Findings": "user friendly accesible information",
           "Text": "The project provides user-friendly, accessible information to researchers and craftspeople who do not possess expensive digital equipment or high-level technical skills. This offers them opportunities to virtually present their craft and research, share knowledge, and tell their own stories to audiences unfamiliar with craftsmanship.",
-          "Main Action": "provides",
+          "Action": "provides",
           "Arguments": {
             "Agent": [
               "The project"
@@ -80,11 +74,9 @@
               "Primary Object": [
                 "user-friendly, accessible information"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "to researchers and craftspeople who do not possess expensive digital equipment or high-level technical skills"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -110,7 +102,7 @@
         {
           "Background/Introduction": "a black DH",
           "Text": "Building on an earlier e-Black studies manifesto from the late aughts, this paper outlines a Black DH, that as a social movement and as a political project challenges without hesitation or apology a still white-dominated field of digital humanities – and is resolute concerning its commitment to racial justice. As Moya Bailey, Kim Gallon, and Jessica Marie Johnson have argued elsewhere, Black DH should be simultaneously experimental, analytical, computational, speculative, and have unique design capabilities as a series of practices and speculative exercises.",
-          "Main Action": "outlines",
+          "Action": "outlines",
           "Arguments": {
             "Agent": [
               "this paper"
@@ -119,11 +111,7 @@
               "Primary Object": [
                 "a Black DH"
               ],
-              "Primary Modifier": [
-                "that as a social movement and as a political project challenges without hesitation or apology a still white-dominated field of digital humanities – and is resolute concerning its commitment to racial justice"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "an earlier e-Black studies manifesto from the late aughts"
@@ -145,7 +133,7 @@
         {
           "Methods/Approach": "",
           "Text": "This paper proposes guidelines or principles to assist this and makes clear that the process of scholarly inquiry with Black knowledge-making, and discovery takes precedent over final product.",
-          "Main Action": "proposes",
+          "Action": "proposes",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -154,9 +142,7 @@
               "Primary Object": [
                 "guidelines or principles"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -175,7 +161,7 @@
         {
           "Conclusions/Implications": "promote collabarative co creation models",
           "Text": "This praxis is possible if we promote collaborative co-creation models of teaching, research, and service for the humanities in an interdisciplinary framework that centers and helps prioritize Black women and queer voices and perspectives in Black DH work.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "This praxis"
@@ -184,9 +170,7 @@
               "Primary Object": [
                 "possible"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "collaborative co-creation models of teaching, research, and service for the humanities",

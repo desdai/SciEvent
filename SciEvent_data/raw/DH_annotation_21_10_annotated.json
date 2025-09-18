@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Method that combines ethnography and computational soundscape analysis",
           "Text": "In this article, I outline a method of combining ethnography and computational soundscape analysis in order to listen to processes of gentrification in Washington, DC.",
-          "Main Action": "outline",
+          "Action": "outline",
           "Arguments": {
             "Agent": [
               "I"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a method"
               ],
-              "Primary Modifier": [
-                "of combining ethnography and computational soundscape analysis"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -38,7 +34,7 @@
         {
           "Methods/Approach": "Utilizing Kaleidescope pro to cluster points of tension in soundscape of Shaw",
           "Text": "I utilize Kaleidoscope Pro, a software suite built to visualize and cluster bioacoustic recordings (typically birds and bats) to cluster points of tension in the soundscape of Shaw, a rapidly gentrifying neighborhood in DC. Clustering and visualizing these sounds (which include car horns, sirens, public transportation, and music) makes audible the sonic markers of gentrification in Shaw.",
-          "Main Action": "utilize",
+          "Action": "utilize",
           "Arguments": {
             "Agent": [
               "I"
@@ -47,11 +43,7 @@
               "Primary Object": [
                 "Kaleidoscope Pro"
               ],
-              "Primary Modifier": [
-                "a software suite built to visualize and cluster bioacoustic recordings (typically birds and bats)"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -73,7 +65,7 @@
         {
           "Results/Findings": "Contribution of the work in the black digital humanities canon",
           "Text": "Furthermore, listening to gentrification is a call to engage with the sonic right to the city, histories of legislating sound, and sonorities of memory and nostalgia. This work contributes to the burgeoning black digital humanities canon by thinking through how computational methods can help us to hear black life.",
-          "Main Action": "contributes to",
+          "Action": "contributes to",
           "Arguments": {
             "Agent": [
               "This work"
@@ -82,9 +74,7 @@
               "Primary Object": [
                 "the burgeoning black digital humanities canon"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "listening to gentrification",
@@ -107,7 +97,7 @@
         {
           "Conclusions/Implications": "Paying attention to a changing neighborhood and to sound as a valid mode of knowledge production",
           "Text": "Although the digital humanities have turned to embrace the sonic in recent years, there is still much to be done in considering how to embrace the aural in DH work. This project invites us to listen closely to a changing neighborhood and emphasizes sound as a valid mode of knowledge production, questioning how a sonic rendering of gentrifying space through the digital might move us toward more equitable soundscapes.",
-          "Main Action": "invites",
+          "Action": "invites",
           "Arguments": {
             "Agent": [
               "This project"
@@ -116,9 +106,7 @@
               "Primary Object": [
                 "us"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "digital humanities have turned to embrace the sonic in recent years"
@@ -147,7 +135,7 @@
         {
           "Background/Introduction": "Challenge with heterogenous data making it hard to study collaboration networks across musical genre",
           "Text": "Studying collaboration in music is a prominent area of research in fields such as cultural studies, history, and musicology. For scholars interested in studying collaboration, network analysis has proven to be a viable methodological approach. Yet, a challenge is that heterogeneous data makes it difficult to study collaboration networks across music genres, which means that there are almost only studies on individual genres.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Studying collaboration in music"
@@ -156,9 +144,7 @@
               "Primary Object": [
                 "a prominent area"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "fields such as cultural studies, history, and musicology."
@@ -181,7 +167,7 @@
         {
           "Methods/Approach": "Proposal of a approach for studying properties of music collaboration network between genres",
           "Text": "To solve this problem, we propose a generalizable approach to studying the topological properties of music collaboration networks within and between genres that relies on data from the freely available Discogs database. To illustrate the approach, we provide a comparison of the genres Jazz and Hip Hop.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -190,9 +176,7 @@
               "Primary Object": [
                 "a generalizable approach"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "topological properties of music collaboration networks",

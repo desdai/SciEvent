@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "technologies in projects involving policy making",
           "Text": "Technologies are increasingly enrolled in projects to involve civilians in the work of policy-making, often under the label of 'civic technology'. But conventional forms of participation through transactions such as voting provide limited opportunities for engagement. In response, some civic tech groups organize around issues of shared concern to explore new forms of democratic technologies. How does their work affect the relationship between publics and public servants?",
-          "Main Action": "are increasingly enrolled in",
+          "Action": "are increasingly enrolled in",
           "Arguments": {
             "Agent": [
               "Technologies"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "projects"
               ],
-              "Primary Modifier": [
-                "to involve civilians in the work of policy-making, often under the label of 'civic technology'"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "some civic tech groups organize around issues of shared concern to explore new forms of democratic technologies"
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "civic tech toronto create a civic engagement",
           "Text": "This paper explores how a Civic Tech Toronto creates a platform for civic engagement through the maintenance of an autonomous community for civic engagement and participation that is casual, social, nonpartisan, experimental, and flexible. Based on two years of action research, including community organizing, interviews, and observations, this paper shows how this grassroots civic tech group creates a civic platform that places a diverse range of participants in contact with the work of public servants, helping to build capacities and relationships that prepare both publics and public servants for the work of participatory democracy.",
-          "Main Action": "explores",
+          "Action": "explores",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -50,9 +46,7 @@
               "Primary Object": [
                 "how a Civic Tech Toronto creates a platform for civic engagement"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "through the maintenance of an autonomous community for civic engagement and participation that is casual, social, nonpartisan, experimental, and flexible"
@@ -75,7 +69,7 @@
         {
           "Conclusions/Implications": "civic tech creates alternative mode of technologies",
           "Text": "The case shows that understanding civic tech requires a lens beyond the mere analysis or production of technical artifacts. As a practice for making technologies that is social and participatory, civic tech creates alternative modes of technology development and opportunities for experimentation and learning, and it can reconfigure the roles of democratic participants.",
-          "Main Action": "shows",
+          "Action": "shows",
           "Arguments": {
             "Agent": [
               "The case"
@@ -84,9 +78,7 @@
               "Primary Object": [
                 "understanding civic tech requires a lens beyond the mere analysis or production of technical artifacts"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "As a practice for making technologies that is social and participatory,"
@@ -112,7 +104,7 @@
         {
           "Background/Introduction": "AI based technologies into public sector",
           "Text": "Artificial Intelligence (AI) based technologies are increasingly being integrated into public sector programs to help with decision-support and effective distribution of constrained resources. The field of Computer Supported Cooperative Work (CSCW) has begun to examine how the resultant sociotechnical systems may be designed appropriately when targeting underserved populations.",
-          "Main Action": "are increasingly being integrated into",
+          "Action": "are increasingly being integrated into",
           "Arguments": {
             "Agent": [
               "Artificial Intelligence (AI) based technologies"
@@ -121,9 +113,7 @@
               "Primary Object": [
                 "public sector programs"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "The field of Computer Supported Cooperative Work (CSCW) has begun to examine how the resultant sociotechnical systems may be designed appropriately when targeting underserved populations"
@@ -143,7 +133,7 @@
         {
           "Methods/Approach": "ethnographic study",
           "Text": "We present an ethnographic study of a large-scale real-world integration of an AI system for resource allocation in a call-based maternal and child health program in India.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -152,11 +142,7 @@
               "Primary Object": [
                 "an ethnographic study"
               ],
-              "Primary Modifier": [
-                "of a large-scale real-world integration of an AI system"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -174,7 +160,7 @@
         {
           "Results/Findings": "commplexities from benifits of intervention",
           "Text": "Our findings uncover complexities around determining who benefits from the intervention, how the human-AI collaboration is managed, when intervention must take place in alignment with various priorities, and why the AI is sought, for what purpose.",
-          "Main Action": "uncover",
+          "Action": "uncover",
           "Arguments": {
             "Agent": [
               "Our findings"
@@ -183,9 +169,7 @@
               "Primary Object": [
                 "complexities"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -203,7 +187,7 @@
         {
           "Conclusions/Implications": "human centered Ai integration",
           "Text": "Our paper offers takeaways for human-centered AI integration in public health, drawing attention to the work done by the AI as actor, the work of configuring the human-AI partnership with multiple diverse stakeholders, and the work of aligning program goals for design and implementation through continual dialogue across stakeholders.",
-          "Main Action": "offers",
+          "Action": "offers",
           "Arguments": {
             "Agent": [
               "Our paper"
@@ -212,9 +196,7 @@
               "Primary Object": [
                 "takeaways for human-centered AI integration in public health"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Immigrant families",
           "Text": "Families strengthen bonds by collectively constructing social identity through sharing stories, language, and culture. For immigrant families, language and culture barriers disrupt the mechanisms for maintaining intergenerational connection. Immigrant grandparents and grandchildren are particularly at risk of disconnect.",
-          "Main Action": "strengthen",
+          "Action": "strengthen",
           "Arguments": {
             "Agent": [
               "Families"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "bonds"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "For immigrant families, language and culture barriers disrupt the mechanisms for maintaining intergenerational connection",
@@ -37,7 +35,7 @@
         {
           "Methods/Approach": "StoryTapestry",
           "Text": "In this paper, we investigate existing design guidelines using a tool (StoryTapestry) to explore the storytelling and crafting process of South-Asian immigrant grandparents and grandchildren. In this exploration, pairs used culturally-relevant images to create digital visual artifacts that tell their stories. Grandparent-grandchild pairs from 10 South-Asian immigrant families participated in this exploration of how the digital process fosters positive social connection, culture sharing, and co-construction.",
-          "Main Action": "investigate",
+          "Action": "investigate",
           "Arguments": {
             "Agent": [
               "we"
@@ -46,9 +44,7 @@
               "Primary Object": [
                 "existing design guidelines"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Grandparent-grandchild pairs from 10 South-Asian immigrant families participated in this exploration of how the digital process fosters positive social connection, culture sharing, and co-construction"
@@ -68,7 +64,7 @@
         {
           "Results/Findings": "thematic analysis",
           "Text": "A thematic analysis revealed how collaborative digital crafting encourages the crossing of language and culture barriers, knowledge sharing, and creativity. We contribute an understanding of interaction dynamics and socio-technical implications of intergenerational and cross-cultural collaboration by demonstrating (1) that collaborative digital crafting can reverse traditional educator and learner roles to create culture sharing opportunities, (2) that grandparents play a central role in maintaining social interaction, (3) that structure can guide grandparent-grandchild pairs to a shared goal, and (4) that flexibility encourages engagement from children.",
-          "Main Action": "revealed",
+          "Action": "revealed",
           "Arguments": {
             "Agent": [
               "A thematic analysis"
@@ -77,9 +73,7 @@
               "Primary Object": [
                 "how collaborative digital crafting encourages the crossing of language and culture barriers, knowledge sharing, and creativity"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "We contribute an understanding of interaction dynamics and socio-technical implications of intergenerational and cross-cultural collaboration"
@@ -102,7 +96,7 @@
         {
           "Conclusions/Implications": "ideas from migration and collabration research",
           "Text": "We synthesize ideas from migration and collaboration research, and we discuss how the culture, language, and generational dynamics in our study extend what is known about each of these spaces. Together, our design implications offer insight into building digital tools that promote engagement, knowledge sharing, and collaboration between immigrant grandparents and grandchildren navigating social disconnect post-migration.",
-          "Main Action": "synthesize",
+          "Action": "synthesize",
           "Arguments": {
             "Agent": [
               "We"
@@ -111,11 +105,7 @@
               "Primary Object": [
                 "ideas"
               ],
-              "Primary Modifier": [
-                "from migration and collaboration research"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "we discuss how the culture, language, and generational dynamics in our study extend what is known about each of these spaces"
@@ -141,7 +131,7 @@
         {
           "Background/Introduction": "benifits of learning by teaching LbT",
           "Text": "Benefits of learning by teaching (LbT) have been highlighted by previous studies from a pedagogical lens, as well as through computer-supported systems. However, the challenges that university students face in technology-mediated LbT—whether it be teaching oneself, teaching a peer, or teaching an agent—are not well understood. Furthermore, there is a gap in knowledge on the challenges that students encounter throughout the process of teaching (content selection, preparation, teaching, receiving and giving feedback, and reflection) despite its importance to the design of LbT platforms.",
-          "Main Action": "have been highlighted by",
+          "Action": "have been highlighted by",
           "Arguments": {
             "Agent": [
               "Benefits"
@@ -150,9 +140,7 @@
               "Primary Object": [
                 "previous studies"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "its importance to the design of LbT platforms"
@@ -173,7 +161,7 @@
         {
           "Methods/Approach": "study with univeristy students",
           "Text": "Thus, we conducted a study with 24 university students where they taught content they had not fully grasped, without guidance, and participated in a semi-structured interview.",
-          "Main Action": "conducted",
+          "Action": "conducted",
           "Arguments": {
             "Agent": [
               "we"
@@ -182,11 +170,7 @@
               "Primary Object": [
                 "a study"
               ],
-              "Primary Modifier": [
-                "with 24 university students"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -202,7 +186,7 @@
         {
           "Results/Findings": "results and the challenges",
           "Text": "Results demonstrate that participants encountered the following challenges: psychological barriers relating to self and others, and lack of know-how.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "Results"
@@ -211,9 +195,7 @@
               "Primary Object": [
                 "participants encountered the following challenges"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -231,7 +213,7 @@
         {
           "Conclusions/Implications": "design implications",
           "Text": "Furthermore, we illuminate design implications required to overcome these challenges and benefit from LbT without requiring prior training in pedagogy.",
-          "Main Action": "illuminate",
+          "Action": "illuminate",
           "Arguments": {
             "Agent": [
               "we"
@@ -240,11 +222,7 @@
               "Primary Object": [
                 "design implications"
               ],
-              "Primary Modifier": [
-                "required to overcome these challenges"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

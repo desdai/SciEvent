@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "detecting oscillations in time series",
           "Text": "Detecting oscillations in time series remains a challenging problem even after decades of research. In chronobiology, rhythms (for instance in gene expression, eclosion, egg-laying, and feeding) tend to be low amplitude, display large variations amongst replicates, and often exhibit varying peak-to-peak distances (non-stationarity). Most currently available rhythm detection methods are not specifically designed to handle such datasets, and are also limited by their use of P-values in detecting oscillations.",
-          "Main Action": "remains",
+          "Action": "remains",
           "Arguments": {
             "Agent": [
               "Detecting oscillations in time series"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "a challenging problem"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "In chronobiology, rhythms (for instance in gene expression, eclosion, egg-laying, and feeding) tend to be low amplitude, display large variations amongst replicates, and often exhibit varying peak-to-peak distances (non-stationarity)"
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "ODeGP a new method",
           "Text": "We introduce a new method, ODeGP (Oscillation Detection using Gaussian Processes), which combines Gaussian Process regression and Bayesian inference to incorporate measurement errors, non-uniformly sampled data, and a recently developed non-stationary kernel to improve detection of oscillations. By using Bayes factors, ODeGP models both the null (non-rhythmic) and the alternative (rhythmic) hypotheses, thus providing an advantage over P-values.",
-          "Main Action": "introduce",
+          "Action": "introduce",
           "Arguments": {
             "Agent": [
               "We"
@@ -47,11 +45,7 @@
               "Primary Object": [
                 "a new method"
               ],
-              "Primary Modifier": [
-                "ODeGP (Oscillation Detection using Gaussian Processes)"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -69,7 +63,7 @@
         {
           "Results/Findings": "ODEeGP results and its uses",
           "Text": "Using synthetic datasets, we first demonstrate that ODeGP almost always outperforms eight commonly used methods in detecting stationary as well as non-stationary symmetric oscillations. Next, by analyzing existing qPCR datasets, we demonstrate that our method is more sensitive compared to the existing methods at detecting weak and noisy oscillations. Finally, we generate new qPCR data on mouse embryonic stem cells. Surprisingly, we discover using ODeGP that increasing cell-density results in rapid generation of oscillations in the Bmal1 gene, thus highlighting our method's ability to discover unexpected and new patterns. In its current implementation, ODeGP is meant only for analyzing single or a few time-trajectories, not genome-wide datasets",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "we"
@@ -78,9 +72,7 @@
               "Primary Object": [
                 "ODeGP almost always outperforms eight commonly used methods in detecting stationary as well as non-stationary symmetric oscillations"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Using synthetic datasets",
@@ -113,7 +105,7 @@
         {
           "Methods/Approach": "phippery software for PhIP-Seq",
           "Text": "We present the phippery software suite for analyzing data from phage display methods that use immunoprecipitation and deep sequencing to capture antibody binding to peptides, often referred to as PhIP-Seq. It has three main components that can be used separately or in conjunction: (i) a Nextflow pipeline, phip-flow, to process raw sequencing data into a compact, multidimensional dataset format and allows for end-to-end automation of reproducible workflows. (ii) a Python API, phippery, which provides interfaces for tasks such as count normalization, enrichment calculation, multidimensional scaling, and more, and (iii) a Streamlit application, phip-viz, as an interactive interface for visualizing the data as a heatmap in a flexible manner.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -122,11 +114,7 @@
               "Primary Object": [
                 "the phippery software suite"
               ],
-              "Primary Modifier": [
-                "for analyzing data from phage display methods"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "inefficient inference",
           "Text": "Despite the excellent performance of Pre-trained Language Models on many text generation tasks, they suffer from inefficient inference on computation and memory due to their large-scale parameters and the universal autoregressive decoding paradigm.",
-          "Main Action": "suffer from",
+          "Action": "suffer from",
           "Arguments": {
             "Agent": [
               "they"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "inefficient inference on computation and memory"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "the excellent performance of Pre-trained Language Models on many text generation tasks"
@@ -36,7 +34,7 @@
         {
           "Methods/Approach": "a novel fine tuning method called DEER",
           "Text": "In this work, we propose a novel fine-tuning method DEER, which can make a single pre-trained model support Dynamic and Efficient infERence and achieve an adaptive trade-off between model performance and latency. In particular, our critical insight is to jointly utilize the non-autoregressive (NAR) generation and dynamic parameter pruning techniques, which can flexibly control the decoding iteration steps and model sizes according to memory and latency limitations. Besides, we also explore the effectiveness of the pre-trained MLMs (i.e., the BERT family) for text generation tasks since their bidirectional attention nature is more suitable for the NAR training objective.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -45,11 +43,7 @@
               "Primary Object": [
                 "a novel fine-tuning method DEER"
               ],
-              "Primary Modifier": [
-                "which can make a single pre-trained model support Dynamic and Efficient infERence and achieve an adaptive trade-off between model performance and latency"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -68,7 +62,7 @@
         {
           "Results/Findings": "expirements and results",
           "Text": "Extensive experiments on both monolingual and multilingual pre-trained MLMs demonstrate the effectiveness of our proposed DEER method by consistently achieving (1) higher BLEU scores than the strong autoregressive Transformer model on three neural machine translation tasks with 3 → 12 times speedup, (2) competitive performance (but with much faster inference speed) compared with the BART model on four GLGE benchmark tasks.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "Extensive experiments on both monolingual and multilingual pre-trained MLMs"
@@ -77,11 +71,7 @@
               "Primary Object": [
                 "the effectiveness"
               ],
-              "Primary Modifier": [
-                "of our proposed DEER method"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -106,7 +96,7 @@
         {
           "Background/Introduction": "abstarctive conversation summarization systems",
           "Text": "Recent abstractive conversation summarization systems generally rely on large-scale datasets with annotated summaries. However, collecting and annotating these conversations can be a time-consuming and labor-intensive task.",
-          "Main Action": "rely on",
+          "Action": "rely on",
           "Arguments": {
             "Agent": [
               "Recent abstractive conversation summarization systems"
@@ -115,9 +105,7 @@
               "Primary Object": [
                 "large-scale datasets with annotated summaries"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -135,7 +123,7 @@
         {
           "Methods/Approach": "sub structure level compostion data augmentation method called compo",
           "Text": "To address this issue, in this work, we present a sub-structure level compositional data augmentation method, Compo, for generating diverse and high-quality pairs of conversations and summaries. Specifically, Compo first extracts conversation structures like topic splits and action triples as basic units. Then we organize these semantically meaningful conversation snippets compositionally to create new training instances. Additionally, we explore noise-tolerant settings in both self-training and joint-training paradigms to make the most of these augmented samples.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "we"
@@ -144,11 +132,7 @@
               "Primary Object": [
                 "a sub-structure level compositional data augmentation method, Compo"
               ],
-              "Primary Modifier": [
-                "for generating diverse and high-quality pairs of conversations and summaries"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -170,7 +154,7 @@
         {
           "Results/Findings": "expirements and compo results",
           "Text": "Our experiments on benchmark datasets, SAMSum and DialogSum, show that Compo substantially outperforms prior baseline methods by achieving a nearly 10% increase of ROUGE scores with limited data.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Our experiments on benchmark datasets, SAMSum and DialogSum,"
@@ -179,9 +163,7 @@
               "Primary Object": [
                 "Compo substantially outperforms prior baseline methods by achieving a nearly 10% increase of ROUGE scores with limited data"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

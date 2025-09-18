@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "dimensions of project lifespans",
           "Text": "This paper considers the affective and narrative dimensions of considering project lifespans. How do collaborators feel about endings and how does that impact project outcomes and project planning? How might we consider digital projects as temporal and narrative forms deserving of analysis? How do professional relationships, team dynamics, and precarious labour conditions impact the longevity of projects?",
-          "Main Action": "considers",
+          "Action": "considers",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "the affective and narrative dimensions of considering project lifespans"
               ],
-              "Primary Modifier": [
-                "of considering project lifespans"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "DH projects from a literary perspective",
           "Text": "I argue in this paper that in addition to thoughtful sustainability planning on the technical side, there is value in thinking from a literary perspective about digital humanities projects, about the stories and relationships we are making along with the websites, digital archives, databases, tools, marked-up texts, maps, and innumerable other digital artifacts that arise from large-scale collaborations in this field.",
-          "Main Action": "argue",
+          "Action": "argue",
           "Arguments": {
             "Agent": [
               "I"
@@ -50,9 +46,7 @@
               "Primary Object": [
                 "there is value in thinking from a literary perspective about digital humanities projects"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "in addition to thoughtful sustainability planning on the technical side",
@@ -74,7 +68,7 @@
         {
           "Conclusions/Implications": "think beyond instutional repositories",
           "Text": "The provocation I offer is that applying some of the discursive analytical structures of literary genres to the construction of a digital project and foregrounding its human components of affect and relation can also show a team its ideal duration and ending. Thinking about these matters requires a multi-dimensional approach: we need to think beyond institutional repositories and mirror sites and consider the lived experience of project making and about the structure of the stories we tell about digital work. The paper uses examples from two collaborative projects of different types and durations that I have undertaken.",
-          "Main Action": "offer",
+          "Action": "offer",
           "Arguments": {
             "Agent": [
               "I"
@@ -83,9 +77,7 @@
               "Primary Object": [
                 "the provocation"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -119,7 +111,7 @@
         {
           "Background/Introduction": "study to examine use of AR",
           "Text": "This study examines the potential of using Augmented Reality to increase urban participation to deal with identified problems in Maputo city, Mozambique, southern Africa. The study's aim is twofold; first, it seeks to add to the nascent literature on Augmented Reality (AR) in Africa; second, to experiment with AR for public participation in urban Maputo to explore the affordances of AR and examine the possibility and limitations of deploying the technology for such purposes.",
-          "Main Action": "examines",
+          "Action": "examines",
           "Arguments": {
             "Agent": [
               "This study"
@@ -128,9 +120,7 @@
               "Primary Object": [
                 "the potential of using Augmented Reality"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "identified problems in Maputo city",
@@ -155,7 +145,7 @@
         {
           "Results/Findings": "benifits of AR",
           "Text": "The study concludes that AR can enhance public participation and engagement with public spaces in Maputo city.",
-          "Main Action": "concludes",
+          "Action": "concludes",
           "Arguments": {
             "Agent": [
               "The study"
@@ -164,9 +154,7 @@
               "Primary Object": [
                 "AR can enhance public participation and engagement with public spaces in Maputo city"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -182,16 +170,14 @@
         {
           "Conclusions/Implications": "considerations while deploying AR",
           "Text": "However, technical and economic limitations must be considered when designing projects to deploy AR technologies in the city.",
-          "Main Action": "must be considered",
+          "Action": "must be considered",
           "Arguments": {
             "Agent": [
               "technical and economic limitations"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "when designing projects to deploy AR technologies in the city"

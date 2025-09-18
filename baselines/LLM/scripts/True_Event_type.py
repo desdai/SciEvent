@@ -82,13 +82,13 @@ You are an expert argument annotator. Given a part of the text and the event typ
 
 ### Argument Components to Extract:
 
-Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
+Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
 
-Agent: Who or what is performing this main action? 
+Agent: Who or what is performing this action? 
 
 Object:
-- Primary Object: What is directly receiving or affected by the main action? 
-- Secondary Object: What is a secondary entity also receiving the main action?
+- Primary Object: What is directly receiving or affected by the action? 
+- Secondary Object: What is a secondary entity also receiving the action?
 
 Context: What provides foundational or situational information of the event?
 
@@ -120,7 +120,7 @@ Contradictions: What are the disagreements with existing knowledge?
 
 ### Output Format:
 {
-  "Main Action": "EXACT TEXT or <NONE>",
+  "Action": "EXACT TEXT or <NONE>",
   "Agent": ["EXACT TEXT or <NONE>"],
    "Object": {
     "Primary Object": ["EXACT TEXT or <NONE>"],
@@ -600,7 +600,7 @@ class RawOutputExtractor:
         {
             "Background/Introduction": "Exploring summarization models robustness against perturbations",
             "Text": "A robust summarization system should be able to capture...",
-            "Main Action": "explore",
+            "Action": "explore",
             "Arguments": {
                 "Agent": [...],
                 "Object": {...},
@@ -611,7 +611,7 @@ class RawOutputExtractor:
         We extract the event type key and map it to our standardized types.
         """
         # Standard keys that are not event types
-        standard_keys = {"Text", "Main Action", "Arguments", "Summary", "text", "main action", "arguments", "summary"}
+        standard_keys = {"Text", "Action", "Arguments", "Summary", "text", "action", "arguments", "summary"}
         
         # Find the event type key
         found_event_type = "Unknown"

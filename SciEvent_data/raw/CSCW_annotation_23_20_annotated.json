@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "facial verification technology",
           "Text": "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies. Less is known about the last mile of the computer-vision machine-learning pipeline: on-the-ground integration into the real world. In this paper, I analyze facial verification technology (FVT) through its use as account verification in ride-hail work.",
-          "Main Action": "analyze",
+          "Action": "analyze",
           "Arguments": {
             "Agent": [
               "I"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "facial verification technology (FVT)"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies",
@@ -39,7 +37,7 @@
         {
           "Methods/Approach": "deep dive into recognition technologies",
           "Text": "Using a sociotechnical framework combined with empirical qualitative research methods, including interviews and analysis of an online community of workers, this research is a deep dive into recognition technologies at the level of local practice.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "this research"
@@ -48,9 +46,7 @@
               "Primary Object": [
                 "a deep dive into recognition technologies at the level of local practice"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -68,7 +64,7 @@
         {
           "Results/Findings": "findings from the study",
           "Text": "Findings reveal the high-stakes articulation labor demanded of workers to be recognized by these systems, including maintaining multiple mobile devices, repeatedly uploading requisite images, spending time and resources visiting customer-service centers, and making physical changes to their bodies and environments. These strategies constitute repairs to the failures of computer vision in dynamic environments and are required to successfully engage in the sociotechnical interaction protocols demanded by FVT.",
-          "Main Action": "reveal",
+          "Action": "reveal",
           "Arguments": {
             "Agent": [
               "Findings"
@@ -77,11 +73,7 @@
               "Primary Object": [
                 "the high-stakes articulation labor"
               ],
-              "Primary Modifier": [
-                "demanded of workers to be recognized by these systems"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -103,7 +95,7 @@
         {
           "Conclusions/Implications": "drawing on erwing goffmans terminology",
           "Text": "Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations 'face work.' Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable have significant implications for relations between identity and power in spaces of security and work, as well as for the integration of machine-learning systems into safety-critical infrastructures. Ultimately, this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment.",
-          "Main Action": "emphasizes",
+          "Action": "emphasizes",
           "Arguments": {
             "Agent": [
               "this research"
@@ -112,11 +104,7 @@
               "Primary Object": [
                 "the crucial role"
               ],
-              "Primary Modifier": [
-                "of end users who create and maintain the conditions required for computer vision to produce judgment"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations 'face work.'"
@@ -142,7 +130,7 @@
         {
           "Background/Introduction": "millennial and genz young kids",
           "Text": "How do Millennial and Gen-Z young adults decide between competing social media when choosing where to post? Previous research argues that decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media.",
-          "Main Action": "argues",
+          "Action": "argues",
           "Arguments": {
             "Agent": [
               "Previous research"
@@ -151,9 +139,7 @@
               "Primary Object": [
                 "decisions can be modeled based on these users' Goals, and the Affordances, Features, and Social Norms of those media"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "How do Millennial and Gen-Z young adults decide between competing social media when choosing where to post"
@@ -171,7 +157,7 @@
         {
           "Methods/Approach": "methods to evaluate the model",
           "Text": "To evaluate this model, 19 participants were given different self-presentation scenarios and asked to choose between Twitter, Snapchat, Instagram, and TikTok. Participants also constructed a flowchart to represent their mental model of factors influencing their choices.",
-          "Main Action": "were given",
+          "Action": "were given",
           "Arguments": {
             "Agent": [
               "19 participants"
@@ -180,9 +166,7 @@
               "Primary Object": [
                 "different self-presentation scenarios"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "choose between Twitter, Snapchat, Instagram, and TikTok"
@@ -202,7 +186,7 @@
         {
           "Results/Findings": "analysis and results from the outcome of the model",
           "Text": "Data suggest revisions to the model; rather than reflecting Affordances and Features, we found that Social Norms and Goals primarily drove participants' choices. Participants choose media based on a direct match between Goals and existing Social Norms. Only when they failed to detect such a match did participants consider Affordances and Features.",
-          "Main Action": "found",
+          "Action": "found",
           "Arguments": {
             "Agent": [
               "we"
@@ -211,9 +195,7 @@
               "Primary Object": [
                 "Social Norms and Goals primarily drove participants' choices"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Data suggest revisions to the model",
@@ -235,7 +217,7 @@
         {
           "Conclusions/Implications": "a revised conceptual model",
           "Text": "We present a revised conceptual model based on these results and discuss social media design and theory implications.",
-          "Main Action": "present",
+          "Action": "present",
           "Arguments": {
             "Agent": [
               "We"
@@ -244,11 +226,7 @@
               "Primary Object": [
                 "a revised conceptual model"
               ],
-              "Primary Modifier": [
-                "based on these results and discuss social media design and theory implications"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

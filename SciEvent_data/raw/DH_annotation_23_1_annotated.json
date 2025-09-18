@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "The goals of project endings",
           "Text": "Project Endings is a collaborative SSHRC-funded project conducted by a team of faculty members, librarians, and programmers at the University of Victoria in BC, Canada, that explores questions about the ending and archiving of digital humanities (DH) projects. The main goals of Project Endings are to align the aims of faculty researchers and archivists in the long-term curation and preservation of DH projects, and to develop practical tools to assist with the archiving of both data and interactive elements of digital projects.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Project Endings"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a collaborative SSHRC-funded project"
               ],
-              "Primary Modifier": [
-                "conducted by a team of faculty members, librarians, and programmers at the University of Victoria in BC, Canada"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "questions about the ending and archiving of digital humanities (DH) projects"
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "Method to achieve the goals of Project Endings and summarizations of the paper",
           "Text": "To achieve these goals, we conducted a survey followed by a series of interviews with DH scholars across Canada and internationally about their experiences ending and archiving digital projects. In April 2021, we also hosted the Endings Symposium, where we brought together members of the Project Endings research team as well as a number of interview participants to further discuss some of the issues facing DH work. This paper will summarize the methodological foundations of the Project Endings interviews and illustrate how these foundations have been reflected in the interviews and subsequent analysis conducted by the Project Endings team. The interview process was guided by constructivist grounded theory, narrative inquiry, and phenomenology. These principles have allowed us to collaboratively co-construct knowledge with each other and with research participants.",
-          "Main Action": "will summarize",
+          "Action": "will summarize",
           "Arguments": {
             "Agent": [
               "this paper"
@@ -50,9 +46,7 @@
               "Primary Object": [
                 "the methodological foundations of the Project Endings interviews"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "a survey followed by a series of interviews with DH scholars across Canada and internationally about their experiences ending and archiving digital projects",
@@ -82,7 +76,7 @@
         {
           "Conclusions/Implications": "Discussion of the ways knowledge has been co-constructed over course of project endings",
           "Text": "This paper will discuss the ways in which knowledge has been co-constructed over the course of the Project Endings interviews and analysis, as well as through the 2021 Endings Symposium.",
-          "Main Action": "will discuss",
+          "Action": "will discuss",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -91,11 +85,7 @@
               "Primary Object": [
                 "the ways in which knowledge has been co-constructed over the course of the Project Endings interviews and analysis"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": [
-                "as well as through the 2021 Endings Symposium"
-              ]
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -117,7 +107,7 @@
         {
           "Background/Introduction": "Form taken on by Ontologies",
           "Text": "Ontologies, it is sometimes said, take the form of a hierarchy or tree: each class is subdivided into distinct subclasses with no cross classifications. But if the purpose of an ontology is to make possible useful inferences and to guide software users and developers, it is better to allow a more flexible structure.",
-          "Main Action": "take",
+          "Action": "take",
           "Arguments": {
             "Agent": [
               "Ontologies,"
@@ -126,9 +116,7 @@
               "Primary Object": [
                 "the form of a hierarchy or tree"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "each class is subdivided into distinct subclasses with no cross classifications"
@@ -151,7 +139,7 @@
         {
           "Methods/Approach": "Argument about how to structure ontologies",
           "Text": "Using text annotation as an example (with concrete reference to the CATMA annotation tool), we argue that it will be more useful to structure ontologies as lattices, not trees.",
-          "Main Action": "argue",
+          "Action": "argue",
           "Arguments": {
             "Agent": [
               "we"
@@ -160,9 +148,7 @@
               "Primary Object": [
                 "it will be more useful to structure ontologies as lattices, not trees"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "text annotation as an example (with concrete reference to the CATMA annotation tool)"

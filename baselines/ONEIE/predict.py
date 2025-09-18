@@ -108,6 +108,13 @@ def predict(model_path, input_path, output_path, log_path=None, cs_path=None,
     # load the model from file
     model, tokenizer, config = load_model(model_path, device=device, gpu=gpu,
                                           beam_size=beam_size)
+    
+    os.makedirs(output_path, exist_ok=True)
+    if cs_path:
+        os.makedirs(cs_path, exist_ok=True)
+    if log_path:
+        os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
+        
     # get the list of documents
     file_list = glob.glob(os.path.join(input_path, '*.{}'.format(file_extension)))
     # log writer

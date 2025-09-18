@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Threat of backdoor attacks to NLP systems",
           "Text": "Backdoor attacks have become an emerging threat to NLP systems. By providing poisoned training data, the adversary can embed a “backdoor” into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary’s choice.",
-          "Main Action": "become",
+          "Action": "become",
           "Arguments": {
             "Agent": [
               "Backdoor attacks"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "an emerging threat"
               ],
-              "Primary Modifier": [
-                "to NLP systems"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "By providing poisoned training data, the adversary can embed a “backdoor” into the victim model, which allows input instances satisfying certain textual patterns (e.g., containing a keyword) to be predicted as a target label of the adversary’s choice"
@@ -38,7 +34,7 @@
         {
           "Methods/Approach": "Proposal of BITE, which establishes strong correlation between target label and trigger words",
           "Text": "In this paper, we demonstrate that it is possible to design a backdoor attack that is both stealthy (i.e., hard to notice) and effective (i.e., has a high attack success rate). We propose BITE, a backdoor attack that poisons the training data to establish strong correlations between the target label and a set of “trigger words”. These trigger words are iteratively identified and injected into the target-label instances through natural word-level perturbations. The poisoned training data instruct the victim model to predict the target label on inputs containing trigger words, forming the backdoor.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "we"
@@ -47,9 +43,7 @@
               "Primary Object": [
                 "it is possible to design a backdoor attack that is both stealthy (i.e., hard to notice) and effective (i.e., has a high attack success rate)"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -69,7 +63,7 @@
         {
           "Results/Findings": "Result of experiment on 4 test classification datasets",
           "Text": "Experiments on four text classification datasets show that our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness, raising alarm on the usage of untrusted training data.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Experiments on four text classification datasets"
@@ -78,9 +72,7 @@
               "Primary Object": [
                 "our proposed attack is significantly more effective than baseline methods while maintaining decent stealthiness"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -98,7 +90,7 @@
         {
           "Conclusions/Implications": "Proposal of a defense method - DeBITE and its performance",
           "Text": "We further propose a defense method named DeBITE based on potential trigger word removal, which outperforms existing methods in defending against BITE and generalizes well to handling other backdoor attacks.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "We"
@@ -107,11 +99,7 @@
               "Primary Object": [
                 "a defense method"
               ],
-              "Primary Modifier": [
-                "named DeBITE"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -136,7 +124,7 @@
         {
           "Background/Introduction": "Role of similes in creative writing and metrics for simile generation",
           "Text": "Similes play an imperative role in creative writing such as story and dialogue generation. Proper evaluation metrics are like a beacon guiding the research of simile generation (SG). However, it remains under-explored as to what criteria should be considered, how to quantify each criterion into metrics, and whether the metrics are effective for comprehensive, efficient, and reliable SG evaluation.",
-          "Main Action": "play",
+          "Action": "play",
           "Arguments": {
             "Agent": [
               "Similes"
@@ -145,11 +133,7 @@
               "Primary Object": [
                 "an imperative role in creative writing"
               ],
-              "Primary Modifier": [
-                "such as story and dialogue generation"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Proper evaluation metrics are like a beacon guiding the research of simile generation (SG)"
@@ -169,7 +153,7 @@
         {
           "Methods/Approach": "Creation of HAUSER, a evaluation system for the SG task",
           "Text": "To address the issues, we establish HAUSER, a holistic and automatic evaluation system for the SG task, which consists of five criteria from three perspectives and automatic metrics for each criterion.",
-          "Main Action": "establish",
+          "Action": "establish",
           "Arguments": {
             "Agent": [
               "we"
@@ -178,11 +162,7 @@
               "Primary Object": [
                 "HAUSER"
               ],
-              "Primary Modifier": [
-                "a holistic and automatic evaluation system for the SG task"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -200,7 +180,7 @@
         {
           "Results/Findings": "Verification about the metrics and their correlation with human ratings",
           "Text": "Through extensive experiments, we verify that our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics.",
-          "Main Action": "verify",
+          "Action": "verify",
           "Arguments": {
             "Agent": [
               "we"
@@ -209,9 +189,7 @@
               "Primary Object": [
                 "our metrics are significantly more correlated with human ratings from each perspective compared with prior automatic metrics"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

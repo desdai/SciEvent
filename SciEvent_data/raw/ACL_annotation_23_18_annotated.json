@@ -7,16 +7,14 @@
         {
           "Background/Introduction": "key point analysis",
           "Text": "Key Point Analysis (KPA) has been recently proposed for deriving fine-grained insights from collections of textual comments. KPA extracts the main points in the data as a list of concise sentences or phrases, termed Key Points, and quantifies their prevalence. While key points are more expressive than word clouds and key phrases, making sense of a long, flat list of key points, which often express related ideas in varying levels of granularity, may still be challenging.",
-          "Main Action": " has been recently proposed",
+          "Action": " has been recently proposed",
           "Arguments": {
             "Agent": [
               "Key Point Analysis (KPA)"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "KPA extracts the main points in the data as a list of concise sentences or phrases, termed Key Points, and quantifies their prevalence"
@@ -36,7 +34,7 @@
         {
           "Methods/Approach": "method developed to address the limitation of kpa",
           "Text": "To address this limitation of KPA, we introduce the task of organizing a given set of key points into a hierarchy, according to their specificity. Such hierarchies may be viewed as a novel type of Textual Entailment Graph. We develop ThinkP, a high-quality benchmark dataset of key point hierarchies for business and product reviews, obtained by consolidating multiple annotations. We compare different methods for predicting pairwise relations between key points, and for inferring a hierarchy from these pairwise predictions.",
-          "Main Action": "introduce",
+          "Action": "introduce",
           "Arguments": {
             "Agent": [
               "we"
@@ -45,11 +43,7 @@
               "Primary Object": [
                 "the task of organizing a given set of key points into a hierarchy"
               ],
-              "Primary Modifier": [
-                "according to their specificity"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -72,7 +66,7 @@
         {
           "Results/Findings": "methods used to achieve the task",
           "Text": "In particular, for the task of computing pairwise key point relations, we achieve significant gains over existing strong baselines by applying directional distributional similarity methods to a novel distributional representation of key points, and further boost performance via weak supervision.",
-          "Main Action": "achieve",
+          "Action": "achieve",
           "Arguments": {
             "Agent": [
               "we"
@@ -81,11 +75,9 @@
               "Primary Object": [
                 "significant gains"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "over existing strong baselines"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [
               "for the task of computing pairwise key point relations"
@@ -112,7 +104,7 @@
         {
           "Background/Introduction": "dialogue models",
           "Text": "Dialogue models are often enriched with extensive external knowledge to provide informative responses through a retrieval-augmented pipeline. Nevertheless, retrieval-augmented approaches rely on finely annotated retrieval training data and knowledge-grounded response generation data, making it costly to transfer.",
-          "Main Action": "are",
+          "Action": "are",
           "Arguments": {
             "Agent": [
               "Dialogue models"
@@ -121,9 +113,7 @@
               "Primary Object": [
                 "enriched with extensive external knowledge"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -143,7 +133,7 @@
         {
           "Methods/Approach": "retrieval free aprroach KiDG",
           "Text": "To tackle this challenge, this paper proposes a retrieval-free approach, KiDG, by automatically turning knowledge documents into simulated multi-turn dialogues through a Multi-Document Traversal algorithm. The simulated knowledge-intensive dialogues constructed by KiDG in one domain can be easily used to train and enhance pre-trained dialogue models’ knowledge w.r.t. this domain without costly annotation.",
-          "Main Action": "proposes",
+          "Action": "proposes",
           "Arguments": {
             "Agent": [
               "this paper"
@@ -152,9 +142,7 @@
               "Primary Object": [
                 "a retrieval-free approach, KiDG"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -172,7 +160,7 @@
         {
           "Results/Findings": "resuluts of dialogue models enhanced with KiDG",
           "Text": "We conduct extensive experiments comparing retrieval-augmented models and a variety of retrieval-free models. We found that dialogue models enhanced with data simulated with KiDG largely outperform state-of-the-art retrieval-free methods, and it achieves comparable performance compared to retrieval-augmented methods while being better, and cheaper at domain transfer.",
-          "Main Action": "conduct",
+          "Action": "conduct",
           "Arguments": {
             "Agent": [
               "We"
@@ -181,11 +169,7 @@
               "Primary Object": [
                 "extensive experiments"
               ],
-              "Primary Modifier": [
-                "comparing retrieval-augmented models and a variety of retrieval-free models"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

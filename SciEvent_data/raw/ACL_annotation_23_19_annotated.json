@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "temporal reasoning",
           "Text": "Temporal reasoning is the task of predicting temporal relations of event pairs. While temporal reasoning models can perform reasonably well on in-domain benchmarks, we have little idea of these systems’ generalizability due to existing datasets’ limitations.",
-          "Main Action": "is",
+          "Action": "is",
           "Arguments": {
             "Agent": [
               "Temporal reasoning"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "task of predicting temporal relations of event pairs"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "temporal reasoning models can perform reasonably well on in-domain benchmarks"
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "novel task named today",
           "Text": "In this work, we introduce a novel task named TODAY that bridges this gap with temporal differential analysis, which, as the name suggests, evaluates whether systems can correctly understand the effect of incremental changes. Specifically, TODAY introduces slight contextual changes for given event pairs, and systems are asked to tell how this subtle contextual change would affect relevant temporal relation distributions. To facilitate learning, TODAY also annotates human explanations.",
-          "Main Action": "introduce",
+          "Action": "introduce",
           "Arguments": {
             "Agent": [
               "we"
@@ -47,11 +45,7 @@
               "Primary Object": [
                 "a novel task named TODAY"
               ],
-              "Primary Modifier": [
-                "that bridges this gap with temporal differential analysis"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -71,7 +65,7 @@
         {
           "Results/Findings": "TODAY's Results",
           "Text": "We show that existing models, including GPT-3.5, drop to random guessing on TODAY, suggesting that they heavily rely on spurious information rather than proper reasoning for temporal predictions. On the other hand, we show that TODAY’s supervision style and explanation annotations can be used in joint learning, encouraging models to use more appropriate signals during training and thus outperform across several benchmarks.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "We"
@@ -80,9 +74,7 @@
               "Primary Object": [
                 "existing models, including GPT-3.5, drop to random guessing on TODAY"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -100,16 +92,14 @@
         {
           "Conclusions/Implications": "TODAY's future goals",
           "Text": "TODAY can also be used to train models to solicit incidental supervision from noisy sources such as GPT-3.5, thus moving us more toward the goal of generic temporal reasoning systems.",
-          "Main Action": "can also be used",
+          "Action": "can also be used",
           "Arguments": {
             "Agent": [
               "TODAY"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -133,7 +123,7 @@
         {
           "Background/Introduction": "Continual relation extraction(RE)",
           "Text": "Continual relation extraction (RE) aims to learn constantly emerging relations while avoiding forgetting the learned relations. Existing works store a small number of typical samples to re-train the model for alleviating forgetting. However, repeatedly replaying these samples may cause the overfitting problem. We conduct an empirical study on existing works and observe that their performance is severely affected by analogous relations.",
-          "Main Action": "aims to learn",
+          "Action": "aims to learn",
           "Arguments": {
             "Agent": [
               "Continual relation extraction (RE)"
@@ -142,9 +132,7 @@
               "Primary Object": [
                 "constantly emerging relations"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Existing works store a small number of typical samples to re-train the model for alleviating forgetting"
@@ -166,7 +154,7 @@
         {
           "Methods/Approach": "a novel continual extraaction model",
           "Text": "To address this issue, we propose a novel continual extraction model for analogous relations. Specifically, we design memory-insensitive relation prototypes and memory augmentation to overcome the overfitting problem. We also introduce integrated training and focal knowledge distillation to enhance the performance on analogous relations.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -175,9 +163,7 @@
               "Primary Object": [
                 "a novel continual extraction model for analogous relations"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -196,7 +182,7 @@
         {
           "Results/Findings": "expiremental results of the model",
           "Text": "Experimental results show the superiority of our model and demonstrate its effectiveness in distinguishing analogous relations and overcoming overfitting.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Experimental results"
@@ -205,9 +191,7 @@
               "Primary Object": [
                 "the superiority of our model"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

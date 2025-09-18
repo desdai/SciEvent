@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Introduces limitations of chain-of-thought prompting in large language models",
           "Text": "Large language models (LMs) beyond a certain scale, demonstrate the emergent capability of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting. While CoT can yield dramatically improved performance, such gains are only observed for sufficiently large LMs. Even more concerning, there is little guarantee that the generated rationales are consistent with LM’s predictions or faithfully justify the decisions.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "Large language models (LMs) beyond a certain scale"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "the emergent capability"
               ],
-              "Primary Modifier": [
-                "of generating free-text rationales for their predictions via chain-of-thought (CoT) prompting"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -39,7 +35,7 @@
         {
           "Methods/Approach": "Introduces SCOTT method for faithful knowledge distillation of CoT models",
           "Text": "In this work, we propose SCOTT, a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger. To form better supervision, we elicit rationales supporting the gold answers from a large LM (teacher) by contrastive decoding, which encourages the teacher to generate tokens that become more plausible only when the answer is considered. To ensure faithful distillation, we use the teacher-generated rationales to learn a student LM with a counterfactual reasoning objective, which prevents the student from ignoring the rationales to make inconsistent predictions.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -48,11 +44,7 @@
               "Primary Object": [
                 "SCOTT"
               ],
-              "Primary Modifier": [
-                "a faithful knowledge distillation method to learn a small, self-consistent CoT model from a teacher model that is orders of magnitude larger"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -74,7 +66,7 @@
         {
           "Results/Findings": "SCOTT creates more faithful models that respect rationales and can be improved by refining rationale",
           "Text": "Experiments show that while yielding comparable performance, our method leads to a more faithful model than baselines. Further analysis shows that such a model respects the rationales more when making decisions; thus, we can improve its performance more by refining its rationales.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Experiments"
@@ -83,9 +75,7 @@
               "Primary Object": [
                 "while yielding comparable performance, our method leads to a more faithful model than baselines"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -111,7 +101,7 @@
         {
           "Background/Introduction": "Background on potential of GPT-3 for data annotation in NLP tasks",
           "Text": "Data annotation is the process of labeling data that could be used to train machine learning models. Having high quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output. GPT-3, a large-scale language model developed by OpenAI, has demonstrated impressive zero- and few-shot performance on a wide range of NLP tasks. It is therefore natural to wonder whether it can be used to effectively annotate data for NLP tasks.",
-          "Main Action": "has demonstrated",
+          "Action": "has demonstrated",
           "Arguments": {
             "Agent": [
               "GPT-3, a large-scale language model developed by OpenAI"
@@ -120,11 +110,7 @@
               "Primary Object": [
                 "impressive zero- and few-shot performance"
               ],
-              "Primary Modifier": [
-                "on a wide range of NLP tasks"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Data annotation is the process of labeling data that could be used to train machine learning models. Having high quality annotation is crucial, as it allows the model to learn the relationship between the input data and the desired output"
@@ -144,7 +130,7 @@
         {
           "Methods/Approach": "Evaluating GPT-3's performance as a data annotator through comparative analysis",
           "Text": " In this paper, we evaluate the performance of GPT-3 as a data annotator by comparing it with traditional data annotation methods and analyzing its output on a range of tasks. Through this analysis, we aim to provide insight into the potential of GPT-3 as a general-purpose data annotator in NLP.",
-          "Main Action": "evaluate",
+          "Action": "evaluate",
           "Arguments": {
             "Agent": [
               "we"
@@ -153,9 +139,7 @@
               "Primary Object": [
                 "the performance of GPT-3 as a data annotator"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [

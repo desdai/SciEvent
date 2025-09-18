@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Comparison of German remake of sketch - Un gars, une fille",
           "Text": "This article cross-culturally compares the German remake of the Quebec sketch comedy/sitcom series Un Gars, Une Fille ('A Guy and a Girl') the original version by correlating quantitative data derived from the Adobe Premiere Pro annotation function on the duration of narrative segments and incorporating these data into an interpretation of family conflict management strategies, gender roles and conflicts between the mother-in-law and the young 30-something couple as protagonists.",
-          "Main Action": "compares",
+          "Action": "compares",
           "Arguments": {
             "Agent": [
               "This article"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "German remake"
               ],
-              "Primary Modifier": [
-                "of the Quebec sketch comedy/sitcom series Un Gars, Une Fille ('A Guy and a Girl') the original version"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -39,7 +35,7 @@
         {
           "Methods/Approach": "Background of thinking behind the family relationship of german couples and relationships in",
           "Text": "The article examines a scene in which the daughter confronts her mother's trauma-inducing behavior on her as a young girl, and the boyfriend confronts the mother-in-law's animosity toward him. The article delves into the background for the transactional, belligerent, and obligational thinking behind the family relationship of the German couple compared to the more affectionate and conciliatory relationship in all other versions.",
-          "Main Action": "examines",
+          "Action": "examines",
           "Arguments": {
             "Agent": [
               "The article"
@@ -48,11 +44,7 @@
               "Primary Object": [
                 "a scene"
               ],
-              "Primary Modifier": [
-                "in which the daughter confronts her mother's trauma-inducing behavior on her as a young girl, and the boyfriend confronts the mother-in-law's animosity toward him"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "background for the transactional, belligerent, and obligational thinking behind the family relationship of the German couple",
@@ -71,7 +63,7 @@
         {
           "Results/Findings": "Claim made by the investigation about family relationships in German context",
           "Text": "The investigation postulates that the family relationships in the German context must be seen within the context of the Inability to Mourn, a major psychological study by Margarete and Alexander Mitscherlich in the 1960s of politically salient post World War 2 trauma among a large variety of social groups in West (and East) Germany.",
-          "Main Action": "postulates",
+          "Action": "postulates",
           "Arguments": {
             "Agent": [
               "The investigation"
@@ -80,9 +72,7 @@
               "Primary Object": [
                 "family relationships in the German context must be seen within the context of the Inability to Mourn"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "a major psychological study",
@@ -101,7 +91,7 @@
         {
           "Conclusions/Implications": "Discrepancy in emotional repression due to guilt and regressive dictatorships",
           "Text": "The emotional repression as a result of various forms of guilt, which never explicitly surfaced in the confrontations, was passed down from generation to generation, while this same, or similar social psychological contexts was seemingly not a factor in other countries, many of which had also experienced repressive dictatorships during World War 2 and afterwards, in which adaptations of these series were produced. Further collaborative investigations would be required to uncover the reasons for this discrepancy.",
-          "Main Action": "would be required to uncover",
+          "Action": "would be required to uncover",
           "Arguments": {
             "Agent": [
               "Further collaborative investigations"
@@ -110,9 +100,7 @@
               "Primary Object": [
                 "the reasons for this discrepancy"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -137,7 +125,7 @@
         {
           "Background/Introduction": "Reason for text alignment in digital environments",
           "Text": "This paper proposes text alignment in digital environments as a way to empower language learning.",
-          "Main Action": "proposes",
+          "Action": "proposes",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -146,11 +134,7 @@
               "Primary Object": [
                 "text alignment"
               ],
-              "Primary Modifier": [
-                "in digital environments"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -168,7 +152,7 @@
         {
           "Methods/Approach": "Principles and goals of text alignment in natural language processing",
           "Text": "It presents the principles and goals of text alignment in Natural Language Processing, and introduces Ugarit, a web-based translation alignment editor for the collection of aligned language pairs.",
-          "Main Action": "presents",
+          "Action": "presents",
           "Arguments": {
             "Agent": [
               "It"
@@ -177,11 +161,7 @@
               "Primary Object": [
                 "the principles and goals"
               ],
-              "Primary Modifier": [
-                "of text alignment"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Natural Language Processing"
@@ -201,7 +181,7 @@
         {
           "Results/Findings": "Observations of translation alignment at different universities",
           "Text": "Then, it reports observations on the application of translation alignment in historical language courses at Tufts and Furman University between 2017 and 2019.",
-          "Main Action": "reports",
+          "Action": "reports",
           "Arguments": {
             "Agent": [
               "it"
@@ -210,11 +190,7 @@
               "Primary Object": [
                 "observations"
               ],
-              "Primary Modifier": [
-                "on the application of translation alignment "
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "in historical language courses at Tufts and Furman University between 2017 and 2019."

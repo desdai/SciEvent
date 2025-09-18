@@ -25,7 +25,7 @@
     "relation_directional": false,
     "symmetric_relations": [],
   
-    "train_file": "SciEvent_data/ONEIE/all_splits/dev.oneie.json",
+    "train_file": "SciEvent_data/ONEIE/all_splits/train.oneie.json",
     "dev_file": "SciEvent_data/ONEIE/all_splits/dev.oneie.json",
     "test_file": "SciEvent_data/ONEIE/all_splits/test.oneie.json",
     "log_path": "baselines/ONEIE/output/scievent/full_data",

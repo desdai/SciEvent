@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "the nature of text",
           "Text": "Is hierarchical XML apt for the encoding of complex manuscript materials? Some scholars have argued that texts are non-hierarchical entities and that XML therefore is inadequate. This paper argues that the nature of text is such that it supports both hierarchical and non-hierarchical representations.",
-          "Main Action": "argues",
+          "Action": "argues",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "the nature of text is such that it supports both hierarchical and non-hierarchical representations"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "hierarchical XML",
@@ -39,16 +37,14 @@
         {
           "Methods/Approach": "text variations",
           "Text": "The paper distinguishes (1) texts from documents and document carriers, (2) writing from “texting”, (3) actions that can be performed by one agent only from actions that require at least two agents to come about (“shared actions”), (4) finite actions from potentially infinitely ongoing actions. Texts are described as potentially infinitely ongoing shared actions which are co-produced by author and reader agents.",
-          "Main Action": "distinguishes",
+          "Action": "distinguishes",
           "Arguments": {
             "Agent": [
               "The paper"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -70,7 +66,7 @@
         {
           "Results/Findings": "makes text into entities",
           "Text": "This makes texts into entities that are more akin to events than to objects or properties, and shows, moreover, that texts are dependent on human understanding and thus mind-dependent entities.",
-          "Main Action": "makes",
+          "Action": "makes",
           "Arguments": {
             "Agent": [
               "This"
@@ -79,11 +75,9 @@
               "Primary Object": [
                 "texts"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "into entities"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [],
             "Purpose": [],
@@ -102,7 +96,7 @@
         {
           "Conclusions/Implications": "text encoding",
           "Text": "One consequence from this is that text encoding needs to be recognized as an act participating in texting which in turn makes hierarchical XML as apt a markup for “text representation”, or rather: for texting, as non-hierarchical markup. The encoding practices of the Bergen Wittgenstein Archives (WAB) serve as the main touchstone for my discussion.",
-          "Main Action": "needs to be recognized as",
+          "Action": "needs to be recognized as",
           "Arguments": {
             "Agent": [
               "text encoding"
@@ -111,11 +105,7 @@
               "Primary Object": [
                 "an act"
               ],
-              "Primary Modifier": [
-                "participating in texting"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -141,7 +131,7 @@
         {
           "Background/Introduction": "case study of kinolab",
           "Text": "This article presents a case study of Kinolab, a digital platform for the analysis of narrative film language. It describes the need for a scholarly database of clips focusing on film language for cinema and media studies faculty and students, highlighting recent technological and legal advances that have created a favorable environment for this kind of digital humanities work.",
-          "Main Action": "presents",
+          "Action": "presents",
           "Arguments": {
             "Agent": [
               "This article"
@@ -150,9 +140,7 @@
               "Primary Object": [
                 "a case study"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Kinolab, a digital platform for the analysis of narrative film language",
@@ -174,7 +162,7 @@
         {
           "Methods/Approach": "developments in moving image annotation",
           "Text": "Discussion of the project is situated within the broader context of contemporary developments in moving image annotation and a discussion of the unique challenges posed by computationally-driven moving image analysis.",
-          "Main Action": "is situated within",
+          "Action": "is situated within",
           "Arguments": {
             "Agent": [
               "Discussion of the project"
@@ -183,14 +171,8 @@
               "Primary Object": [
                 "the broader context "
               ],
-              "Primary Modifier": [
-                "of contemporary developments in moving image annotation"
-              ],
               "Secondary Object": [
                 "discussion "
-              ],
-              "Secondary Modifier": [
-                "of the unique challenges"
               ]
             },
             "Context": [],
@@ -209,7 +191,7 @@
         {
           "Conclusions/Implications": "data model",
           "Text": "The article also argues for a universally accepted data model for film language to facilitate the academic crowdsourcing of film clips and the sharing of research and resources across the Semantic Web.",
-          "Main Action": "argues for",
+          "Action": "argues for",
           "Arguments": {
             "Agent": [
               "The article"
@@ -218,11 +200,7 @@
               "Primary Object": [
                 "a universally accepted data model"
               ],
-              "Primary Modifier": [
-                " for film language"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [

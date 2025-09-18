@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "collbarative project",
           "Text": "This paper describes a collaborative project designed to meet the needs of communities interested in Gə'əz language texts - and other under-resourced manuscript traditions - by developing an easy-to-use open-source tool that converts images of manuscript pages into a transcription using optical character recognition (OCR).",
-          "Main Action": "describes",
+          "Action": "describes",
           "Arguments": {
             "Agent": [
               "This paper"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "a collaborative project"
               ],
-              "Primary Modifier": [
-                "designed to meet the needs of communities interested in Gə'əz language texts - and other under-resourced manuscript traditions"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "communities interested in Gə'əz language texts",
@@ -41,7 +37,7 @@
         {
           "Methods/Approach": "computational tool",
           "Text": "Our computational tool incorporates a custom data curation process to address the language-specific facets of Gə'əz coupled with a Convolutional Recurrent Neural Network to perform the transcription. An open-source OCR transcription tool for digitized Gə'əz manuscripts can be used by students and scholars of Ethiopian manuscripts to create a substantial and computer-searchable corpus of transcribed and digitized Gə'əz texts, opening access to vital resources for sustaining the history and living culture of Ethiopia and its people.",
-          "Main Action": "incorporates",
+          "Action": "incorporates",
           "Arguments": {
             "Agent": [
               "Our computational tool"
@@ -50,14 +46,8 @@
               "Primary Object": [
                 "custom data curation process"
               ],
-              "Primary Modifier": [
-                "to address the language-specific facets of Gə'əz"
-              ],
               "Secondary Object": [
                 "with a Convolutional Recurrent Neural Network"
-              ],
-              "Secondary Modifier": [
-                "to perform the transcription"
               ]
             },
             "Context": [],
@@ -80,7 +70,7 @@
         {
           "Results/Findings": "the tool developed",
           "Text": "With suitable ground-truth, our open-source OCR transcription tool can also be retrained to read other under-resourced scripts. The tool we developed can be run without a graphics processing unit (GPU), meaning that it requires much less computing power than most other modern AI systems. It can be run offline from a personal computer, or accessed via a web client and potentially in the web browser of a smartphone.",
-          "Main Action": "can also be retrained to read",
+          "Action": "can also be retrained to read",
           "Arguments": {
             "Agent": [
               "open-source OCR transcription tool"
@@ -89,9 +79,7 @@
               "Primary Object": [
                 "other under-resourced scripts"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "With suitable ground-truth"
@@ -117,7 +105,7 @@
         {
           "Conclusions/Implications": "open source tool",
           "Text": "The paper describes our team's collaborative development of this first open-source tool for Gə'əz manuscript transcription that is both highly accurate and accessible to communities interested in Gə'əz books and the texts they contain.",
-          "Main Action": "describes",
+          "Action": "describes",
           "Arguments": {
             "Agent": [
               "The paper"
@@ -126,9 +114,7 @@
               "Primary Object": [
                 "our team's collaborative development"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -154,7 +140,7 @@
         {
           "Background/Introduction": "sentiment analysis tool",
           "Text": "The article sets up a critique of Sentiment Analysis (SA) tools in literary studies, both from a theoretical and a computational point of view.",
-          "Main Action": "sets up",
+          "Action": "sets up",
           "Arguments": {
             "Agent": [
               "The article"
@@ -163,11 +149,7 @@
               "Primary Object": [
                 "a critique"
               ],
-              "Primary Modifier": [
-                "of Sentiment Analysis (SA) tools in literary studies"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "both from a theoretical and a computational point of view"
@@ -185,16 +167,14 @@
         {
           "Methods/Approach": "use of SA in narratology",
           "Text": "In the first section, a possible use of SA in narratology and reader response studies is discussed, highlighting the gaps between literary theories and computational models, and suggesting possible solutions to fill them. In the second section, a stratified taxonomy of SA tools is proposed, which distinguishes: (1) the emotion theory adopted by the tool; (2) the method used to build the emotion resources; (3) the technique adopted to accomplish the analysis.",
-          "Main Action": "is discussed",
+          "Action": "is discussed",
           "Arguments": {
             "Agent": [
               "a possible use of SA in narratology and reader response studies"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -219,7 +199,7 @@
         {
           "Results/Findings": "criticial survey",
           "Text": "A critical survey of six representative SA tools for literary studies (Syuzhet, Vader, SentiArt, SEANCE, Stanford SA, and Transformers Pipelines) closes the article.",
-          "Main Action": "closes",
+          "Action": "closes",
           "Arguments": {
             "Agent": [
               "A critical survey"
@@ -228,9 +208,7 @@
               "Primary Object": [
                 "the article"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "six representative SA tools for literary studies (Syuzhet, Vader, SentiArt, SEANCE, Stanford SA, and Transformers Pipelines)"

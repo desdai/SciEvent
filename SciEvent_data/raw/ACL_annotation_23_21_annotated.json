@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Studies of SLA research",
           "Text": "Second language acquisition (SLA) research has extensively studied cross-linguistic transfer, the influence of linguistic structure of a speaker’s native language [L1] on the successful acquisition of a foreign language [L2]. Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition). We find that NLP literature has not given enough attention to the phenomenon of negative transfer.",
-          "Main Action": "has extensively studied",
+          "Action": "has extensively studied",
           "Arguments": {
             "Agent": [
               "Second language acquisition (SLA) research"
@@ -16,11 +16,7 @@
               "Primary Object": [
                 "cross-linguistic transfer"
               ],
-              "Primary Modifier": [
-                "the influence of linguistic structure of a speaker’s native language [L1] on the successful acquisition of a foreign language [L2]"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Effects of such transfer can be positive (facilitating acquisition) or negative (impeding acquisition)"
@@ -40,7 +36,7 @@
         {
           "Methods/Approach": "building model and dataset of SLA in LMs",
           "Text": "To understand patterns of both positive and negative transfer between L1 and L2, we model sequential second language acquisition in LMs. Further, we build a Multilingual Age Ordered CHILDES (MAO-CHILDES) — a dataset consisting of 5 typologically diverse languages, i.e., German, French, Polish, Indonesian, and Japanese — to understand the degree to which native Child-Directed Speech (CDS) [L1] can help or conflict with English language acquisition [L2].",
-          "Main Action": "model",
+          "Action": "model",
           "Arguments": {
             "Agent": [
               "we"
@@ -49,9 +45,7 @@
               "Primary Object": [
                 "sequential second language acquisition in LMs"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -73,7 +67,7 @@
         {
           "Results/Findings": "The impacts of native CDS examined by using TILT based cross lingual transfer learning approach",
           "Text": "To examine the impact of native CDS, we use the TILT-based cross lingual transfer learning approach established by Papadimitriou and Jurafsky (2020) and find that, as in human SLA, language family distance predicts more negative transfer. Additionally, we find that conversational speech data shows greater facilitation for language acquisition than scripted speech data.",
-          "Main Action": "use",
+          "Action": "use",
           "Arguments": {
             "Agent": [
               "we"
@@ -82,11 +76,7 @@
               "Primary Object": [
                 "the TILT-based cross lingual transfer learning approach"
               ],
-              "Primary Modifier": [
-                "established by Papadimitriou and Jurafsky (2020)"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -107,7 +97,7 @@
         {
           "Conclusions/Implications": "Implication of findings",
           "Text": "Our findings call for further research using our novel Transformer-based SLA models and we would like to encourage it by releasing our code, data, and models.",
-          "Main Action": "call for",
+          "Action": "call for",
           "Arguments": {
             "Agent": [
               "Our findings"
@@ -116,9 +106,7 @@
               "Primary Object": [
                 "further research"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -142,16 +130,14 @@
         {
           "Background/Introduction": "Intro to lack of clarity in robustness to task-specific perturbations of Table QA models",
           "Text": "Despite significant progress having been made in question answering on tabular data (Table QA), it’s unclear whether, and to what extent existing Table QA models are robust to task-specific perturbations, e.g., replacing key question entities or shuffling table columns.",
-          "Main Action": "having been made",
+          "Action": "having been made",
           "Arguments": {
             "Agent": [
               "progress"
             ],
             "Object": {
               "Primary Object": [],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -171,7 +157,7 @@
         {
           "Methods/Approach": "proposal of new benchmark to study robustness of Table QA models",
           "Text": "To systematically study the robustness of Table QA models, we propose a benchmark called RobuT, which builds upon existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA) and includes human-annotated adversarial perturbations in terms of table header, table content, and question.",
-          "Main Action": "propose",
+          "Action": "propose",
           "Arguments": {
             "Agent": [
               "we"
@@ -180,11 +166,7 @@
               "Primary Object": [
                 "a benchmark called RobuT"
               ],
-              "Primary Modifier": [
-                "which builds upon existing Table QA datasets (WTQ, WikiSQL-Weak, and SQA) and includes human-annotated adversarial perturbations in terms of table header, table content, and question"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -202,7 +184,7 @@
         {
           "Results/Findings": "Failure of both Table QA models and LLMs in these sets",
           "Text": "Our results indicate that both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets.",
-          "Main Action": "indicate",
+          "Action": "indicate",
           "Arguments": {
             "Agent": [
               "Our results"
@@ -211,9 +193,7 @@
               "Primary Object": [
                 "both state-of-the-art Table QA models and large language models (e.g., GPT-3) with few-shot learning falter in these adversarial sets."
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -229,7 +209,7 @@
         {
           "Conclusions/Implications": "Proposal to address the problem by using LLMs to generate adversarial examples",
           "Text": "We propose to address this problem by using large language models to generate adversarial examples to enhance training, which significantly improves the robustness of Table QA models.",
-          "Main Action": "propose to address",
+          "Action": "propose to address",
           "Arguments": {
             "Agent": [
               "We"
@@ -238,9 +218,7 @@
               "Primary Object": [
                 "this problem"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

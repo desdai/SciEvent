@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Task performance metrics of LM's and human utility",
           "Text": "Among the remarkable emergent capabilities of large language models (LMs) is free-text rationalization; beyond certain scale, large LMs are capable of generating seemingly useful rationalizations, which in turn, can dramatically enhance their performances on leaderboards. This phenomenon raises a question: can machine generated rationales also be useful for humans, especially when lay humans try to answer questions based on those machine rationales? We observe that human utility of existing rationales is far from satisfactory and expensive to estimate with human studies. Existing metrics like task performance of the LM generating the rationales or similarity between generated and gold rationales are not good indicators of their human utility. While we observe that certain properties of rationales like conciseness and novelty are correlated with their human utility, estimating them without human involvement is challenging.",
-          "Main Action": "observe",
+          "Action": "observe",
           "Arguments": {
             "Agent": [
               "We"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "human utility of existing rationales is far from satisfactory"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "Among the remarkable emergent capabilities of large language models (LMs) is free-text rationalization; beyond certain scale, large LMs are capable of generating seemingly useful rationalizations, which in turn, can dramatically enhance their performances on leaderboards.",
@@ -41,7 +39,7 @@
         {
           "Methods/Approach": "Measuring human utility and translating it into an automated score Gen-U",
           "Text": "We show that, by estimating a rationale’s helpfulness in answering similar unseen instances, we can measure its human utility to a better extent. We also translate this finding into an automated score, Gen-U, that we propose, which can help improve LMs’ ability to generate rationales with better human utility, while maintaining most of its task performance.",
-          "Main Action": "measure",
+          "Action": "measure",
           "Arguments": {
             "Agent": [
               "we"
@@ -50,11 +48,7 @@
               "Primary Object": [
                 "its human utility"
               ],
-              "Primary Modifier": [
-                "to a better extent"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -78,7 +72,7 @@
         {
           "Background/Introduction": "Comparing the ability of humans and pre-trained masked LM's",
           "Text": "Using psycholinguistic and computational experiments we compare the ability of humans and several pre-trained masked language models to correctly identify control dependencies in Spanish sentences such as ‘José le prometió/ordenó a María ser ordenado/a’ (‘Joseph promised/ordered Mary to be tidy’). These structures underlie complex anaphoric and agreement relations at the interface of syntax and semantics, allowing us to study lexically-guided antecedent retrieval processes.",
-          "Main Action": "compare",
+          "Action": "compare",
           "Arguments": {
             "Agent": [
               "we"
@@ -87,11 +81,9 @@
               "Primary Object": [
                 "the ability of humans"
               ],
-              "Primary Modifier": [],
               "Secondary Object": [
                 "several pre-trained masked language models"
-              ],
-              "Secondary Modifier": []
+              ]
             },
             "Context": [
               "These structures underlie complex anaphoric and agreement relations at the interface of syntax and semantics, allowing us to study lexically-guided antecedent retrieval processes"
@@ -111,7 +103,7 @@
         {
           "Results/Findings": "Results of language models to identify correct antecedent",
           "Text": "Our results show that while humans correctly identify the (un)acceptability of the strings, language models often fail to identify the correct antecedent in non-adjacent dependencies, showing their reliance on linearity. Additional experiments on Galician reinforce these conclusions.",
-          "Main Action": "show",
+          "Action": "show",
           "Arguments": {
             "Agent": [
               "Our results"
@@ -120,9 +112,7 @@
               "Primary Object": [
                 "language models often fail to identify the correct antecedent in non-adjacent dependencies"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -141,7 +131,7 @@
         {
           "Conclusions/Implications": "Importance of findings for evaluation of LM's",
           "Text": "Our findings are equally valuable for the evaluation of language models’ ability to capture linguistic generalizations, as well as for psycholinguistic theories of anaphor resolution.",
-          "Main Action": "are",
+          "Action": "are",
           "Arguments": {
             "Agent": [
               "Our findings"
@@ -150,9 +140,7 @@
               "Primary Object": [
                 "equally valuable"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

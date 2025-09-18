@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Website helps visualize erasure paths through network mapping",
           "Text": "In this paper, I develop an online website that assists users in answering the question, 'What do you need to remove in order to erase [thing] from [your life or society]?' through network visualization methods.",
-          "Main Action": "develop",
+          "Action": "develop",
           "Arguments": {
             "Agent": [
               "I"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "an online website"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "'What do you need to remove in order to erase [thing] from [your life or society]?'"
@@ -38,7 +36,7 @@
         {
           "Methods/Approach": "Project flips data viz—creation over representation, thinking over analysis",
           "Text": "This project subverts the typical data visualization strategy of working with extant data by encouraging users to produce data, demonstrating how data visualization techniques can constitute a way of thinking and creating rather than just analyzing and representing.",
-          "Main Action": "subverts",
+          "Action": "subverts",
           "Arguments": {
             "Agent": [
               "This project"
@@ -47,11 +45,7 @@
               "Primary Object": [
                 "the typical data visualization strategy"
               ],
-              "Primary Modifier": [
-                "of working with extant data"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -71,7 +65,7 @@
         {
           "Results/Findings": "Case study explores digital tools' sociological impact and data creation",
           "Text": "However, this tool and its affordances are primarily a case study for a sociological approach to critical design in the Digital Humanities: By critically examining the tool itself (as well as the process that created it), I am able to pose the broader questions of (1) how does the creation of digital tools and projects reflect a theoretical interpretation of the social world and its processes, and (2) how can these interpretations constitute the data of sociological studies?",
-          "Main Action": "are",
+          "Action": "are",
           "Arguments": {
             "Agent": [
               "this tool and its affordances"
@@ -80,11 +74,7 @@
               "Primary Object": [
                 "primarily a case study"
               ],
-              "Primary Modifier": [
-                "for a sociological approach to critical design in the Digital Humanities"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -105,7 +95,7 @@
         {
           "Conclusions/Implications": "Critical design merges theory, experiment, and data for sociological analysis",
           "Text": "In resolving these questions, I suggest that critical design can be viewed as theory, experiment, and data: designs constitute a social theory, data can be experimentally produced within this social theory, and encouraging reflective design can turn the social theories of design themselves into data.",
-          "Main Action": "suggest",
+          "Action": "suggest",
           "Arguments": {
             "Agent": [
               "I"
@@ -114,9 +104,7 @@
               "Primary Object": [
                 "critical design can be viewed as theory, experiment, and data"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -142,7 +130,7 @@
         {
           "Background/Introduction": "Ebook development began in the 1940s, not just the 1990s",
           "Text": "While popular histories of the ebook start in the 1990s, inventors were working on the form since at least the 1940s.",
-          "Main Action": "were working on",
+          "Action": "were working on",
           "Arguments": {
             "Agent": [
               "inventors"
@@ -151,9 +139,7 @@
               "Primary Object": [
                 "the form"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "since at least the 1940s",
@@ -172,7 +158,7 @@
         {
           "Methods/Approach": "Analyzes digital publishing patents to explore the ebook imagination",
           "Text": "In this article, I offer a media archaeological analysis of digital publishing patents to develop the ebook imagination, or the desires of readers and inventors for the future of reading on screen.",
-          "Main Action": "offer",
+          "Action": "offer",
           "Arguments": {
             "Agent": [
               "I"
@@ -181,11 +167,7 @@
               "Primary Object": [
                 "a media archaeological analysis"
               ],
-              "Primary Modifier": [
-                "of digital publishing patents"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [
@@ -203,7 +185,7 @@
         {
           "Results/Findings": "Ebook patents prioritized aesthetics over paper replication, influencing Kindle's success",
           "Text": "Through an analysis of a corpus of 98 patents relating to ebooks, I demonstrate how the ebook imagination focused on the aesthetics of the book over focusing on replicating paper via a screen, which would later lead to the success of Amazon's Kindle in 2007.",
-          "Main Action": "demonstrate",
+          "Action": "demonstrate",
           "Arguments": {
             "Agent": [
               "I"
@@ -212,9 +194,7 @@
               "Primary Object": [
                 "how the ebook imagination focused on the aesthetics of the book over focusing on replicating paper via a screen"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],

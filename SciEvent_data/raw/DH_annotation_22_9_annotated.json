@@ -7,7 +7,7 @@
         {
           "Background/Introduction": "Deep learning transcribes historical Ottoman Turkish newspapers",
           "Text": "Our study discusses the automated transcription with deep learning methods of a digital newspaper collection printed in a historical language, Arabic-script Ottoman Turkish (OT), dating to the late nineteenth- and early twentieth-century. We situate OT text collections within a larger history of digitization of periodicals, underscoring special challenges faced by Arabic script languages.",
-          "Main Action": "discusses",
+          "Action": "discusses",
           "Arguments": {
             "Agent": [
               "Our study"
@@ -16,9 +16,7 @@
               "Primary Object": [
                 "the automated transcription"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "a digital newspaper collection printed in a historical language, Arabic-script Ottoman Turkish (OT)",
@@ -43,7 +41,7 @@
         {
           "Methods/Approach": "Explores HTR for OT using Latin script, not Arabic",
           "Text": "Our paper approaches the question of automated transcription of non-Latin script languages, such as OT, from the broader perspective of debates surrounding OCR use for historical archives. In our study with OT, we have opted for training handwritten text recognition (HTR) models that generate transcriptions in the left-to-right, Latin writing system familiar to contemporary readers of Turkish, and not, as some scholars may expect, in right-to-left Arabic script text. As a one-to-one correspondence between the writing systems of OT and modern Turkish does not exist, we also discuss approaches to transcription and the creation of ground truth and argue that the challenges faced in the training of HTR models also draw into question straightforward notions of transcription, especially where divergent writing systems are involved.",
-          "Main Action": "approaches",
+          "Action": "approaches",
           "Arguments": {
             "Agent": [
               "Our paper"
@@ -52,11 +50,7 @@
               "Primary Object": [
                 "the question"
               ],
-              "Primary Modifier": [
-                "of automated transcription of non-Latin script languages, such as OT"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "our study with OT",
@@ -84,7 +78,7 @@
         {
           "Results/Findings": "Highlights HTR bias, script change, and language reform impact",
           "Text": "Finally, we reflect on potential domain bias of HTR models in other historical languages exhibiting spatio-temporal variance as well as the significance of working between writing systems for language communities that also have experienced language reform and script change.",
-          "Main Action": "reflect on",
+          "Action": "reflect on",
           "Arguments": {
             "Agent": [
               "we"
@@ -93,11 +87,7 @@
               "Primary Object": [
                 "potential domain bias"
               ],
-              "Primary Modifier": [
-                "of HTR models in other historical languages"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
@@ -122,7 +112,7 @@
         {
           "Background/Introduction": "Analyzes Ballets Espagnols’ national identity via modern dance",
           "Text": "This study presents the results of the research project on the Ballets Espagnols de Antonia Mercé La Argentina, a dance company active between 1927 and 1929 that adapted the model of Diaghilev's Ballets Russes to a repertoire based on the construction of a national identity through the modern and avant-garde aesthetics of interwar Europe.",
-          "Main Action": "presents",
+          "Action": "presents",
           "Arguments": {
             "Agent": [
               "This study"
@@ -131,11 +121,7 @@
               "Primary Object": [
                 "the results"
               ],
-              "Primary Modifier": [
-                "of the research project"
-              ],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [
               "a dance company active between 1927 and 1929",
@@ -156,7 +142,7 @@
         {
           "Methods/Approach": "Interactive maps revive and research lost Spanish dance heritage",
           "Text": "The systematisation of the preserved sources and their visualisation in interactive maps permits research to be carried out on one of the most brilliant episodes in the history of Spanish dance and to collaborate in the recovery of a forgotten dance heritage.",
-          "Main Action": "permits",
+          "Action": "permits",
           "Arguments": {
             "Agent": [
               "the systematisation"
@@ -165,9 +151,7 @@
               "Primary Object": [
                 "research to be carried out on one of the most brilliant episodes in the history of Spanish dance"
               ],
-              "Primary Modifier": [],
-              "Secondary Object": [],
-              "Secondary Modifier": []
+              "Secondary Object": []
             },
             "Context": [],
             "Purpose": [],
