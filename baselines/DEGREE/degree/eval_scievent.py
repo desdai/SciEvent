@@ -40,9 +40,6 @@ torch.backends.cudnn.enabled = False
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(message)s', datefmt='[%Y-%m-%d %H:%M:%S]')
 logger = logging.getLogger(__name__)
 
-
-
-#### addition
 def spans_overlap(pred_span, gold_span):
     return max(pred_span[0], gold_span[0]) < min(pred_span[1], gold_span[1])
 
@@ -63,8 +60,6 @@ def iou_overlap(pred_span, gold_span):
     intersection = inter_end - inter_start
     union = max(pred_span[1], gold_span[1]) - min(pred_span[0], gold_span[0])
     return intersection / union > 0.5
-#### addition ends
-# addition start
 
 """ test_pred_roles is a list of tuples:
 (
@@ -111,7 +106,6 @@ def compute_rolewise_f1_dual(gold_roles_all, pred_roles_all, overlap_fn=None):
                         break
 
     return stats_C
-
 
 def print_rolewise_stats(name, stats_C):
     print(f"\n[ROLE-WISE ARGUMENT CLASSIFICATION - {name}] ------------------------------------------")
@@ -300,33 +294,6 @@ def print_domain_stats_extended(name, stats_dict):
               f"{fields[1][0]:8.2f} | {fields[1][1]:8.2f} | {fields[1][2]:8.2f}")
     print("-" * 80)
 
-
-
-# overall average print call
-#without count:
-# def print_overlap_block(name, scores):
-#     print(f"[{name} MATCHING] ---------------------------------------------------")
-#     print('Trigger I  - P: {:6.2f}, R: {:6.2f}, F: {:6.2f}'.format(
-#         scores['tri_id'][3] * 100.0,
-#         scores['tri_id'][4] * 100.0,
-#         scores['tri_id'][5] * 100.0))
-    
-#     print('Trigger C  - P: {:6.2f}, R: {:6.2f}, F: {:6.2f}'.format(
-#         scores['tri_cls'][3] * 100.0,
-#         scores['tri_cls'][4] * 100.0,
-#         scores['tri_cls'][5] * 100.0))
-    
-#     print('Role I     - P: {:6.2f}, R: {:6.2f}, F: {:6.2f}'.format(
-#         scores['arg_id'][3] * 100.0,
-#         scores['arg_id'][4] * 100.0,
-#         scores['arg_id'][5] * 100.0))
-    
-#     print('Role C     - P: {:6.2f}, R: {:6.2f}, F: {:6.2f}'.format(
-#         scores['arg_cls'][3] * 100.0,
-#         scores['arg_cls'][4] * 100.0,
-#         scores['arg_cls'][5] * 100.0))
-    
-#     print("---------------------------------------------------------------------")
 # with count:
 def print_overlap_block(name, scores):
     print(f"[{name} MATCHING] ---------------------------------------------------")
@@ -351,7 +318,6 @@ def print_overlap_block(name, scores):
 
     print("---------------------------------------------------------------------")
 
-# addition end
 
 def get_span_idx(pieces, token_start_idxs, span, tokenizer, trigger_span=None):
     """
@@ -366,16 +332,6 @@ def get_span_idx(pieces, token_start_idxs, span, tokenizer, trigger_span=None):
     for s in span.split(' '):
         words.extend(tokenizer.encode(s, add_special_tokens=False))
     
-    ##### debug
-    # print("="*80)
-    # print("[get_span_idx DEBUG]")
-    # print(f"Original span text: '{span}'")
-    # print(f"Tokenized span (word pieces): {words}")
-    # print(f"Input pieces: {pieces}")
-    # print(f"Token start idxs: {token_start_idxs}")
-    # if trigger_span:
-    #     print(f"Trigger span: {trigger_span}")
-    # print("="*80)
 
     candidates = []
     for i in range(len(pieces)):
@@ -475,80 +431,6 @@ def cal_scores(gold_triggers, pred_triggers, gold_roles, pred_roles):
 
     return scores
 
-# #### addition
-# def cal_scores_overlap(gold_triggers, pred_triggers, gold_roles, pred_roles):
-#     assert len(gold_triggers) == len(pred_triggers)
-#     assert len(gold_roles) == len(pred_roles)
-
-#     gold_tri_id_num, pred_tri_id_num, match_tri_id_num = 0, 0, 0
-#     gold_tri_cls_num, pred_tri_cls_num, match_tri_cls_num = 0, 0, 0
-
-#     gold_arg_id_num, pred_arg_id_num, match_arg_id_num = 0, 0, 0
-#     gold_arg_cls_num, pred_arg_cls_num, match_arg_cls_num = 0, 0, 0
-
-#     for gold_trigs, pred_trigs, gold_roles_list, pred_roles_list in zip(gold_triggers, pred_triggers, gold_roles, pred_roles):
-#         # --- TRIGGER ID (span only)
-#         matched_tri_id = set()
-#         for g in gold_trigs:
-#             for p in pred_trigs:
-#                 if spans_overlap((g[0], g[1]), (p[0], p[1])):
-#                     matched_tri_id.add((g, p))
-#                     break
-#         gold_tri_id_num += len(gold_trigs)
-#         pred_tri_id_num += len(pred_trigs)
-#         match_tri_id_num += len(matched_tri_id)
-
-#         # --- TRIGGER CLS (span + type)
-#         matched_tri_cls = set()
-#         for g in gold_trigs:
-#             for p in pred_trigs:
-#                 if g[2] == p[2] and spans_overlap((g[0], g[1]), (p[0], p[1])):
-#                     matched_tri_cls.add((g, p))
-#                     break
-#         gold_tri_cls_num += len(gold_trigs)
-#         pred_tri_cls_num += len(pred_trigs)
-#         match_tri_cls_num += len(matched_tri_cls)
-
-#         # --- ARGUMENT ID
-#         gold_id_set = [(r[0][2], r[1][0], r[1][1]) for r in gold_roles_list]
-#         pred_id_set = [(r[0][2], r[1][0], r[1][1]) for r in pred_roles_list]
-#         matched_id = set()
-#         used_pred = set()
-#         for gid in gold_id_set:
-#             for i, pid in enumerate(pred_id_set):
-#                 if i in used_pred:
-#                     continue
-#                 if gid[0] == pid[0] and spans_overlap(gid[1:], pid[1:]):
-#                     matched_id.add((gid, pid))
-#                     used_pred.add(i)
-#                     break
-
-#         gold_arg_id_num += len(gold_id_set)
-#         pred_arg_id_num += len(pred_id_set)
-#         match_arg_id_num += len(matched_id)
-
-#         # --- ARGUMENT CLS
-#         gold_cls_set = [(r[0][2], r[1][0], r[1][1], r[1][2]) for r in gold_roles_list]
-#         pred_cls_set = [(r[0][2], r[1][0], r[1][1], r[1][2]) for r in pred_roles_list]
-#         matched_cls = set()
-#         for gcl in gold_cls_set:
-#             for pcl in pred_cls_set:
-#                 if gcl[0] == pcl[0] and gcl[3] == pcl[3] and spans_overlap(gcl[1:3], pcl[1:3]):
-#                     matched_cls.add((gcl, pcl))
-#                     break
-#         gold_arg_cls_num += len(gold_cls_set)
-#         pred_arg_cls_num += len(pred_cls_set)
-#         match_arg_cls_num += len(matched_cls)
-
-#     scores = {
-#         'tri_id': (gold_tri_id_num, pred_tri_id_num, match_tri_id_num) + compute_f1(pred_tri_id_num, gold_tri_id_num, match_tri_id_num),
-#         'tri_cls': (gold_tri_cls_num, pred_tri_cls_num, match_tri_cls_num) + compute_f1(pred_tri_cls_num, gold_tri_cls_num, match_tri_cls_num),
-#         'arg_id': (gold_arg_id_num, pred_arg_id_num, match_arg_id_num) + compute_f1(pred_arg_id_num, gold_arg_id_num, match_arg_id_num),
-#         'arg_cls': (gold_arg_cls_num, pred_arg_cls_num, match_arg_cls_num) + compute_f1(pred_arg_cls_num, gold_arg_cls_num, match_arg_cls_num),
-#     }
-#     return scores
-# #### addition ends
-
 ## addition
 def cal_scores_overlap_variant(gold_triggers, pred_triggers, gold_roles, pred_roles, overlap_fn):
     assert len(gold_triggers) == len(pred_triggers)
@@ -626,157 +508,15 @@ model.load_state_dict(torch.load(args.e2e_model, map_location=f'cuda:{config.gpu
 model.cuda(device=config.gpu_device)
 model.eval()
 
-# eval dev set
-# if not args.no_dev:
-#     progress = tqdm.tqdm(total=dev_batch_num, ncols=75, desc='Dev')
-#     dev_gold_triggers, dev_gold_roles, dev_pred_triggers, dev_pred_roles = [], [], [], []
-#     # #### addition
-#     # from collections import defaultdict
-#     # role_match_stats = defaultdict(lambda: {"matched": 0, "pred_total": 0, "gold_total": 0})
-#     # role_match_stats_overlap = defaultdict(lambda: {"matched": 0, "pred_total": 0, "gold_total": 0})
-#     # #### addition ends
-#     for batch in DataLoader(dev_set, batch_size=config.eval_batch_size, shuffle=False, collate_fn=dev_set.collate_fn):
-#         progress.update(1)
-        
-#         p_triggers = [[] for _ in range(len(batch.tokens))]
-#         p_roles = [[] for _ in range(len(batch.tokens))]
-#         for event_type in vocab['event_type_itos']:
-#             # replaced this (for our data to run)
-#             # theclass = getattr(sys.modules[template_file], event_type.replace(':', '_').replace('-', '_'), False)
-#             theclass = getattr(
-#                 sys.modules[template_file],
-#                 event_type.replace(':', '_').replace('-', '_').replace('/', '_'),
-#                 False
-#             )
-            
-#             inputs = []
-#             for tokens in batch.tokens:
-#                 template = theclass(config.input_style, config.output_style, tokens, event_type)
-#                 inputs.append(template.generate_input_str(''))
-            
-#             inputs = tokenizer(inputs, return_tensors='pt', padding=True, max_length=config.max_length)
-#             enc_idxs = inputs['input_ids'].cuda()
-#             enc_attn = inputs['attention_mask'].cuda()
-            
-#             outputs = model.model.generate(input_ids=enc_idxs, attention_mask=enc_attn, num_beams=config.beam_size, max_length=config.max_output_length)
-#             final_outputs = [tokenizer.decode(output, skip_special_tokens=True, clean_up_tokenization_spaces=True) for output in outputs]
-            
-#             for bid, (tokens, p_text) in enumerate(zip(batch.tokens, final_outputs)):
-#                 template = theclass(config.input_style, config.output_style, tokens, event_type)
-#                 pred_object = template.decode(p_text)
-                
-#                 pred_trigger_object = []
-#                 pred_argument_object = []
-#                 for obj in pred_object:
-#                     if obj[1] == event_type:
-#                         pred_trigger_object.append(obj)
-#                     else:
-#                         pred_argument_object.append(obj)
-                
-#                 # decode triggers
-#                 triggers_ = [mention + (event_type, kwargs) for span, _, kwargs in pred_trigger_object for mention in get_span_idx_tri(batch.piece_idxs[bid], batch.token_start_idxs[bid], span, tokenizer)]
-#                 triggers_ = [t for t in triggers_ if t[0] != -1]
-#                 p_triggers_ = [t[:-1] for t in triggers_]
-#                 # p_triggers_ = list(set(p_triggers_))
-#                 p_triggers[bid].extend(p_triggers_)
-                
-                
-#                 # decode arguments
-#                 tri_id2obj = {}
-#                 for t in triggers_:
-#                     try:
-#                         tri_id2obj[t[3]['tri counter']] = (t[0], t[1], t[2])
-#                     except:
-#                         ipdb.set_trace()
-                
-#                 roles_ = []
-#                 for span, role_type, kwargs in pred_argument_object:
-#                     corres_tri_id = kwargs['cor tri cnt']
-#                     if corres_tri_id in tri_id2obj.keys():
-#                         arg_span = get_span_idx(batch.piece_idxs[bid], batch.token_start_idxs[bid], span, tokenizer, tri_id2obj[corres_tri_id])
-#                         if arg_span[0] != -1:
-#                             roles_.append((tri_id2obj[corres_tri_id], (arg_span[0], arg_span[1], role_type)))
-#                     else:
-#                         arg_span = get_span_idx(batch.piece_idxs[bid], batch.token_start_idxs[bid], span, tokenizer)
-#                         if arg_span[0] != -1:
-#                             roles_.append(((0, 1, event_type), (arg_span[0], arg_span[1], role_type)))
-                
-#                 p_roles[bid].extend(roles_)
-        
-#         # Deduplicate p_triggers[bid] once per sentence (not per event_type!)
-#         for bid in range(len(p_triggers)):
-#             seen = set()
-#             deduped = []
-#             for s, e, t in p_triggers[bid]:
-#                 if (s, e) not in seen:
-#                     seen.add((s, e))
-#                     deduped.append((s, e, t))
-#             p_triggers[bid] = deduped
-
-#         p_roles = [list(set(role)) for role in p_roles]
-        
-#         dev_gold_triggers.extend(batch.triggers)
-#         dev_gold_roles.extend(batch.roles)
-#         dev_pred_triggers.extend(p_triggers)
-#         dev_pred_roles.extend(p_roles)
-                
-#     progress.close()
-    
-    # calculate scores
-    # dev_scores = cal_scores(dev_gold_triggers, dev_pred_triggers, dev_gold_roles, dev_pred_roles)
-
-    # #### addition
-    # dev_scores_overlap = cal_scores_overlap(dev_gold_triggers, dev_pred_triggers, dev_gold_roles, dev_pred_roles)
-    # #### addition ends
-    
-    # print("---------------------------------------------------------------------")
-    # print('Trigger I  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores['tri_id'][3] * 100.0, dev_scores['tri_id'][2], dev_scores['tri_id'][1], 
-    #     dev_scores['tri_id'][4] * 100.0, dev_scores['tri_id'][2], dev_scores['tri_id'][0], dev_scores['tri_id'][5] * 100.0))
-    # print('Trigger C  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores['tri_cls'][3] * 100.0, dev_scores['tri_cls'][2], dev_scores['tri_cls'][1], 
-    #     dev_scores['tri_cls'][4] * 100.0, dev_scores['tri_cls'][2], dev_scores['tri_cls'][0], dev_scores['tri_cls'][5] * 100.0))
-    # print("---------------------------------------------------------------------")
-    # print('Role I     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores['arg_id'][3] * 100.0, dev_scores['arg_id'][2], dev_scores['arg_id'][1], 
-    #     dev_scores['arg_id'][4] * 100.0, dev_scores['arg_id'][2], dev_scores['arg_id'][0], dev_scores['arg_id'][5] * 100.0))
-    # print('Role C     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores['arg_cls'][3] * 100.0, dev_scores['arg_cls'][2], dev_scores['arg_cls'][1], 
-    #     dev_scores['arg_cls'][4] * 100.0, dev_scores['arg_cls'][2], dev_scores['arg_cls'][0], dev_scores['arg_cls'][5] * 100.0))
-    # print("---------------------------------------------------------------------")
-    
-    # #### addition
-    # print("[OVERLAP MATCHING] ---------------------------------------------------")
-    # print('Trigger I  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores_overlap['tri_id'][3] * 100.0, dev_scores_overlap['tri_id'][2], dev_scores_overlap['tri_id'][1], 
-    #     dev_scores_overlap['tri_id'][4] * 100.0, dev_scores_overlap['tri_id'][2], dev_scores_overlap['tri_id'][0], dev_scores_overlap['tri_id'][5] * 100.0))
-    # print('Trigger C  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores_overlap['tri_cls'][3] * 100.0, dev_scores_overlap['tri_cls'][2], dev_scores_overlap['tri_cls'][1], 
-    #     dev_scores_overlap['tri_cls'][4] * 100.0, dev_scores_overlap['tri_cls'][2], dev_scores_overlap['tri_cls'][0], dev_scores_overlap['tri_cls'][5] * 100.0))
-    # print('Role I     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores_overlap['arg_id'][3] * 100.0, dev_scores_overlap['arg_id'][2], dev_scores_overlap['arg_id'][1], 
-    #     dev_scores_overlap['arg_id'][4] * 100.0, dev_scores_overlap['arg_id'][2], dev_scores_overlap['arg_id'][0], dev_scores_overlap['arg_id'][5] * 100.0))
-    # print('Role C     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-    #     dev_scores_overlap['arg_cls'][3] * 100.0, dev_scores_overlap['arg_cls'][2], dev_scores_overlap['arg_cls'][1], 
-    #     dev_scores_overlap['arg_cls'][4] * 100.0, dev_scores_overlap['arg_cls'][2], dev_scores_overlap['arg_cls'][0], dev_scores_overlap['arg_cls'][5] * 100.0))
-    # print("---------------------------------------------------------------------")
-    #### addition ends
-    
 # test set
 progress = tqdm.tqdm(total=test_batch_num, ncols=75, desc='Test')
 test_gold_triggers, test_gold_roles, test_pred_triggers, test_pred_roles = [], [], [], []
-# for domain wise
 all_test_wnd_ids = []
-# done for domain wise
 write_object = []
-all_test_tokens = []  # ⬅️ NEW: collect tokens for ROUGE L
+all_test_tokens = []  # NEW: collect tokens for ROUGE L
 
-
-#### addition
 role_match_stats = defaultdict(lambda: {"matched": 0, "pred_total": 0, "gold_total": 0})
 role_match_stats_overlap = defaultdict(lambda: {"matched": 0, "pred_total": 0, "gold_total": 0})
-
-#### addition ends
 
 
 for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=False, collate_fn=test_set.collate_fn):
@@ -785,8 +525,6 @@ for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=Fal
     p_roles = [[] for _ in range(len(batch.tokens))]
     p_texts = [[] for _ in range(len(batch.tokens))]
     for event_type in vocab['event_type_itos']:
-        #replaced this
-        # theclass = getattr(sys.modules[template_file], event_type.replace(':', '_').replace('-', '_'), False)
         theclass = getattr(
             sys.modules[template_file],
             event_type.replace(':', '_').replace('-', '_').replace('/', '_'),
@@ -822,7 +560,6 @@ for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=Fal
 
             triggers_ = [t for t in triggers_ if t[0] != -1]
             p_triggers_ = [t[:-1] for t in triggers_]
-            # p_triggers_ = list(set(p_triggers_))
             p_triggers[bid].extend(p_triggers_)
             
             # decode arguments
@@ -846,7 +583,7 @@ for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=Fal
             p_roles[bid].extend(roles_)
             p_texts[bid].append(p_text)
 
-    # Deduplicate p_triggers[bid] once per sentence (not per event_type!)
+    # post-process: remove duplicate triggers
     for bid in range(len(p_triggers)):
         seen = set()
         deduped = []
@@ -871,11 +608,8 @@ for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=Fal
 
     all_test_tokens.extend(batch.tokens)  # ROUGE L
 
-    # for domain wise
     all_test_wnd_ids.extend(batch.wnd_ids)
-    # for domain wise ends
 
-    #### addition --- Role-wise F1 stats ---
     # Accumulate per-role stats using raw argument text
     for bid in range(len(batch.tokens)):
         gold_roles_list = batch.roles[bid]
@@ -937,8 +671,6 @@ for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=Fal
                 role_match_stats_overlap[role]["pred_total"] += len(p_list)
                 role_match_stats_overlap[role]["matched"] += match_count
 
-    #### addition ends
-
     for gt, gr, pt, pr, te in zip(batch.triggers, batch.roles, p_triggers, p_roles, p_texts):
         write_object.append({
             "pred text": te,
@@ -949,13 +681,6 @@ for batch in DataLoader(test_set, batch_size=config.eval_batch_size, shuffle=Fal
         })
             
 progress.close()
-
-# print("Gold Triggers:", test_gold_triggers, "\n")
-# print("Pred Triggers:", test_pred_triggers, "\n")
-# print("Gold Roles:", test_gold_roles, "\n")
-# print("Pred Roles:", test_pred_roles, "\n")
-
-
 
 def compute_rouge_L_for_event_tuples(gold_roles_all, pred_roles_all, token_lists):
 
@@ -1102,7 +827,6 @@ def print_rouge_stats(name, stats):
 # calculate scores
 test_scores = cal_scores(test_gold_triggers, test_pred_triggers, test_gold_roles, test_pred_roles)
 
-#### addition
 test_scores_overlap = cal_scores_overlap(test_gold_triggers, test_pred_triggers, test_gold_roles, test_pred_roles)
 test_scores_scirex = cal_scores_scirex(test_gold_triggers, test_pred_triggers, test_gold_roles, test_pred_roles)
 test_scores_iou  = cal_scores_iou(test_gold_triggers, test_pred_triggers, test_gold_roles, test_pred_roles)
@@ -1131,7 +855,6 @@ domain_rouge_scores = compute_rouge_L_domain_wise(
 )
 
 print_rouge_stats("Domain", domain_rouge_scores)
-
 
 
 print("========= [EXACT MATCHING] ===========================================")
@@ -1190,273 +913,6 @@ domain_stats_iou_ext = compute_domain_f1_extended(
     test_gold_triggers, test_pred_triggers, test_gold_roles, test_pred_roles, all_test_wnd_ids, overlap_fn=iou_overlap)
 print_domain_stats_extended("IoU", domain_stats_iou_ext)
 
-#### addition ends
-
-# print("---------------------------------------------------------------------")
-# print('Trigger I  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores['tri_id'][3] * 100.0, test_scores['tri_id'][2], test_scores['tri_id'][1], 
-#     test_scores['tri_id'][4] * 100.0, test_scores['tri_id'][2], test_scores['tri_id'][0], test_scores['tri_id'][5] * 100.0))
-# print('Trigger C  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores['tri_cls'][3] * 100.0, test_scores['tri_cls'][2], test_scores['tri_cls'][1], 
-#     test_scores['tri_cls'][4] * 100.0, test_scores['tri_cls'][2], test_scores['tri_cls'][0], test_scores['tri_cls'][5] * 100.0))
-# print("---------------------------------------------------------------------")
-# print('Role I     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores['arg_id'][3] * 100.0, test_scores['arg_id'][2], test_scores['arg_id'][1], 
-#     test_scores['arg_id'][4] * 100.0, test_scores['arg_id'][2], test_scores['arg_id'][0], test_scores['arg_id'][5] * 100.0))
-# print('Role C     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores['arg_cls'][3] * 100.0, test_scores['arg_cls'][2], test_scores['arg_cls'][1], 
-#     test_scores['arg_cls'][4] * 100.0, test_scores['arg_cls'][2], test_scores['arg_cls'][0], test_scores['arg_cls'][5] * 100.0))
-# print("---------------------------------------------------------------------")
-# #### addition
-# print("[OVERLAP MATCHING] ---------------------------------------------------")
-# print('Trigger I  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores_overlap['tri_id'][3] * 100.0, test_scores_overlap['tri_id'][2], test_scores_overlap['tri_id'][1], 
-#     test_scores_overlap['tri_id'][4] * 100.0, test_scores_overlap['tri_id'][2], test_scores_overlap['tri_id'][0], test_scores_overlap['tri_id'][5] * 100.0))
-# print('Trigger C  - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores_overlap['tri_cls'][3] * 100.0, test_scores_overlap['tri_cls'][2], test_scores_overlap['tri_cls'][1], 
-#     test_scores_overlap['tri_cls'][4] * 100.0, test_scores_overlap['tri_cls'][2], test_scores_overlap['tri_cls'][0], test_scores_overlap['tri_cls'][5] * 100.0))
-# print('Role I     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores_overlap['arg_id'][3] * 100.0, test_scores_overlap['arg_id'][2], test_scores_overlap['arg_id'][1], 
-#     test_scores_overlap['arg_id'][4] * 100.0, test_scores_overlap['arg_id'][2], test_scores_overlap['arg_id'][0], test_scores_overlap['arg_id'][5] * 100.0))
-# print('Role C     - P: {:6.2f} ({:4d}/{:4d}), R: {:6.2f} ({:4d}/{:4d}), F: {:6.2f}'.format(
-#     test_scores_overlap['arg_cls'][3] * 100.0, test_scores_overlap['arg_cls'][2], test_scores_overlap['arg_cls'][1], 
-#     test_scores_overlap['arg_cls'][4] * 100.0, test_scores_overlap['arg_cls'][2], test_scores_overlap['arg_cls'][0], test_scores_overlap['arg_cls'][5] * 100.0))
-# print("---------------------------------------------------------------------")
-
-
-# print("[TEST STATS] Argument Role-wise F1 (aggregated):")
-# for role, stats in sorted(role_match_stats.items()):
-#     m = stats["matched"]
-#     p = stats["pred_total"]
-#     g = stats["gold_total"]
-#     prec = m / p if p > 0 else 0
-#     rec = m / g if g > 0 else 0
-#     f1 = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0
-#     print(f"  Role: {role:15s} | Match: {m:3d} | Pred: {p:3d} | Gold: {g:3d} | P: {prec:.2f} | R: {rec:.2f} | F1: {f1:.2f}")
-# print("---------------------------------------------------------------------")  
-
-# print("[TEST STATS] Argument Role-wise F1 (overlap span-based):")
-# for role, stats in sorted(role_match_stats_overlap.items()):
-#     m = stats["matched"]
-#     p = stats["pred_total"]
-#     g = stats["gold_total"]
-#     prec = m / p if p > 0 else 0
-#     rec = m / g if g > 0 else 0
-#     f1 = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0
-#     print(f"  Role: {role:15s} | Match: {m:3d} | Pred: {p:3d} | Gold: {g:3d} | P: {prec:.2f} | R: {rec:.2f} | F1: {f1:.2f}")
-# print("---------------------------------------------------------------------")
-#### addition ends
-
-
-
 if args.write_file:
     with open(args.write_file, 'w') as fw:
         json.dump(write_object, fw, indent=4)
-
-
-
-
-
-
-
-
-
-
-# # Matching strategies
-# def exact_match(a: str, b: str) -> bool:
-#     return a.strip().lower() == b.strip().lower()
-
-# def one_word_overlap(a: str, b: str) -> bool:
-#     return bool(set(a.lower().split()) & set(b.lower().split()))
-
-# def iou_match(a: str, b: str) -> bool:
-#     a_tokens = set(a.lower().split())
-#     b_tokens = set(b.lower().split())
-#     inter = len(a_tokens & b_tokens)
-#     union = len(a_tokens | b_tokens)
-#     return (inter / union) > 0.5 if union else False
-
-# # Types
-# Role = Tuple[Tuple[int, int, str], Tuple[int, int, str]]  # ((tri_s, tri_e, etype), (arg_s, arg_e, role))
-# RolesPerEvent = List[Role]
-
-# import copy
-
-# def compute_tuple_f1(
-#     gold_roles_all: List[List[List[Tuple]]],
-#     pred_roles_all: List[List[List[Tuple]]],
-#     tokens_all: List[List[str]],
-#     match_fn: Callable[[str, str], bool],
-#     verbose: bool = False
-# ) -> Tuple[float, float, float]:
-#     import copy
-#     gold_roles_all = copy.deepcopy(gold_roles_all)
-#     pred_roles_all = copy.deepcopy(pred_roles_all)
-#     tokens_all = copy.deepcopy(tokens_all)
-
-#     total_p = 0
-#     total_r = 0
-#     total_f1 = 0
-#     count = 0
-
-#     def extract_tuple_from_event(event: Any, tokens: List[str]) -> Tuple[str, str, str, str]:
-#         if not isinstance(event, list) or not isinstance(event[0], tuple):
-#             event = [event]  # wrap if needed
-
-#         parts = {"Agent": "", "PrimaryObject": "", "SecondaryObject": ""}
-#         trigger = ""
-
-#         # ✅ Sort by argument span: first by start, then by end
-#         event = sorted(event, key=lambda x: (x[1][0], x[1][1]))  # (rs, re)
-
-#         for trig_span, arg_span in event:
-#             ts, te, _ = trig_span
-#             rs, re, role = arg_span
-
-#             if not trigger:
-#                 trigger = " ".join(tokens[ts:te]).strip()
-#             if role in parts and not parts[role]:
-#                 parts[role] = " ".join(tokens[rs:re]).strip()
-
-#         return (
-#             parts["Agent"],
-#             trigger,
-#             parts["PrimaryObject"],
-#             parts["SecondaryObject"]
-#         )
-
-
-#     # Loop over examples
-#     for gold_evts, pred_evts, tokens in zip(gold_roles_all, pred_roles_all, tokens_all):
-#         n = min(len(gold_evts), len(pred_evts))  # only compare aligned event pairs
-#         for i in range(n):
-#             gold = extract_tuple_from_event(gold_evts[i], tokens)
-#             pred = extract_tuple_from_event(pred_evts[i], tokens)
-
-#             if all(not val for val in gold) and all(not val for val in pred):
-#                 continue
-
-#             match_vector = [match_fn(g, p) if g and p else False for g, p in zip(gold, pred)]
-#             match_count = sum(match_vector)
-#             pred_filled = sum(1 for p in pred if p)
-#             gold_filled = sum(1 for g in gold if g)
-
-#             if pred_filled == 0 or gold_filled == 0:
-#                 continue
-
-#             prec = match_count / pred_filled
-#             rec = match_count / gold_filled
-#             f1 = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0.0
-
-#             if verbose:
-#                 print(f"\n[Tuple {count + 1}]")
-#                 print(f"  GOLD: {gold}")
-#                 print(f"  PRED: {pred}")
-#                 print(f"  Match count: {match_count}, Precision: {prec:.4f}, Recall: {rec:.4f}, F1: {f1:.4f}")
-
-#             total_p += prec
-#             total_r += rec
-#             total_f1 += f1
-#             count += 1
-
-#     avg_p = total_p / count if count else 0.0
-#     avg_r = total_r / count if count else 0.0
-#     avg_f1 = total_f1 / count if count else 0.0
-#     return round(avg_p, 6), round(avg_r, 6), round(avg_f1, 6)
-
-# def compute_tuple_f1_global(
-#     gold_roles_all: List[List[List[Tuple]]],
-#     pred_roles_all: List[List[List[Tuple]]],
-#     tokens_all: List[List[str]],
-#     match_fn: Callable[[str, str], bool],
-#     verbose: bool = False
-# ) -> Tuple[float, float, float]:
-#     total_matched = 0
-#     total_pred = 0
-#     total_gold = 0
-
-#     def extract_tuple_from_event(event: Any, tokens: List[str]) -> Tuple[str, str, str, str]:
-#         if not isinstance(event, list) or not isinstance(event[0], tuple):
-#             event = [event]
-#         parts = {"Agent": "", "PrimaryObject": "", "SecondaryObject": ""}
-#         trigger = ""
-#         event = sorted(event, key=lambda x: (x[1][0], x[1][1]))
-#         for trig_span, arg_span in event:
-#             ts, te, _ = trig_span
-#             rs, re, role = arg_span
-#             if not trigger:
-#                 trigger = " ".join(tokens[ts:te]).strip()
-#             if role in parts and not parts[role]:
-#                 parts[role] = " ".join(tokens[rs:re]).strip()
-#         return parts["Agent"], trigger, parts["PrimaryObject"], parts["SecondaryObject"]
-
-#     for gold_evts, pred_evts, tokens in zip(gold_roles_all, pred_roles_all, tokens_all):
-#         n = min(len(gold_evts), len(pred_evts))
-#         for i in range(n):
-#             gold = extract_tuple_from_event(gold_evts[i], tokens)
-#             pred = extract_tuple_from_event(pred_evts[i], tokens)
-
-#             for g, p in zip(gold, pred):
-#                 if g:
-#                     total_gold += 1
-#                 if p:
-#                     total_pred += 1
-#                 if g and p and match_fn(g, p):
-#                     total_matched += 1
-
-#             if verbose:
-#                 print(f"\n[Tuple]")
-#                 print(f"  GOLD: {gold}")
-#                 print(f"  PRED: {pred}")
-#                 print(f"  Matched count: {total_matched}, Pred: {total_pred}, Gold: {total_gold}")
-
-#     precision = total_matched / total_pred if total_pred else 0.0
-#     recall    = total_matched / total_gold if total_gold else 0.0
-#     f1        = 2 * precision * recall / (precision + recall) if (precision + recall) else 0.0
-
-#     return round(precision, 6), round(recall, 6), round(f1, 6)
-
-
-# p_rouge, r_rouge, f1_rouge = compute_rouge_L_for_event_tuples(test_gold_roles, test_pred_roles, all_test_tokens)
-# print(f"[ROUGE-L Tuple Sequence] Precision: {p_rouge:.4f}, Recall: {r_rouge:.4f}, F1: {f1_rouge:.4f}")
-
-# def sort_roles(roles_list: List[List[Tuple]]) -> List[List[Tuple]]:
-#     return [sorted(roles, key=lambda x: (x[1][0], x[1][1], x[1][2])) for roles in roles_list]
-# test_gold_roles1 = sort_roles(test_gold_roles)
-# test_pred_roles1 = sort_roles(test_pred_roles)
-
-# p_em, r_em, f1_em = compute_tuple_f1(test_gold_roles1, test_pred_roles1, all_test_tokens, exact_match)
-# p_1w, r_1w, f1_1w = compute_tuple_f1(test_gold_roles1, test_pred_roles1, all_test_tokens, one_word_overlap)
-# p_iou, r_iou, f1_iou = compute_tuple_f1(test_gold_roles1, test_pred_roles1, all_test_tokens, iou_match)
-
-# print("\n📌 [Tuple Match - Exact]")
-# print(f"Precision: {p_em:.4f}")
-# print(f"Recall:    {r_em:.4f}")
-# print(f"F1:        {f1_em:.4f}")
-
-# print("\n📌 [Tuple Match - One-Word Overlap]")
-# print(f"Precision: {p_1w:.4f}")
-# print(f"Recall:    {r_1w:.4f}")
-# print(f"F1:        {f1_1w:.4f}")
-
-# print("\n📌 [Tuple Match - IoU > 0.5]")
-# print(f"Precision: {p_iou:.4f}")
-# print(f"Recall:    {r_iou:.4f}")
-# print(f"F1:        {f1_iou:.4f}")
-
-
-# p_em_g, r_em_g, f1_em_g = compute_tuple_f1_global(test_gold_roles, test_pred_roles, all_test_tokens, exact_match)
-# print("\n📌 [GLOBAL COUNT - Exact]")
-# print(f"Precision: {p_em_g:.4f}")
-# print(f"Recall:    {r_em_g:.4f}")
-# print(f"F1:        {f1_em_g:.4f}")
-# p_1w_g, r_1w_g, f1_1w_g = compute_tuple_f1_global(test_gold_roles, test_pred_roles, all_test_tokens, one_word_overlap)
-# print("\n📌 [GLOBAL COUNT - Exact]")
-# print(f"Precision: {p_1w_g:.4f}")
-# print(f"Recall:    {r_1w_g:.4f}")
-# print(f"F1:        {f1_1w_g:.4f}")
-# p_iou_g, r_iou_g, f1_iou_g = compute_tuple_f1_global(test_gold_roles, test_pred_roles, all_test_tokens, iou_match)
-# print("\n📌 [GLOBAL COUNT - Exact]")
-# print(f"Precision: {p_iou_g:.4f}")
-# print(f"Recall:    {r_iou_g:.4f}")
-# print(f"F1:        {f1_iou_g:.4f}")

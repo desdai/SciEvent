@@ -2,11 +2,10 @@ import json
 from collections import defaultdict
 from rouge_score import rouge_scorer
 
-# take wndid from test json from oneie format (stored in the DEGREE's path), for domain wise eval
+
 with open("SciEvent_data/DEGREE/all_splits/test.json", "r", encoding="utf-8") as f:
     oneie_wnd_ids = [json.loads(line)["wnd_id"] for line in f]
-# with open("baselines/eeqa/data/mydata/filtered_75.json", "r", encoding="utf-8") as f:
-#     oneie_wnd_ids = [json.loads(line)["wnd_id"] for line in f]
+
 
 def load_jsonl(path):
     with open(path, 'r', encoding='utf-8') as f:
@@ -208,8 +207,6 @@ def compute_eventtype_f1_dual(pred_roles, gold_roles, wnd_ids, overlap_fn=None):
     return stats_I, stats_C
 
 
-
-
 def print_eventtype_f1_dual(stats_I, stats_C, name="EXACT"):
     print(f"\n[EVENT-TYPE ARGUMENT MATCH - {name}] ----------------------------------")
     print(f"{'EventType':30s} | {'ArgI-P':>7s} | {'ArgI-R':>7s} | {'ArgI-F1':>8s} | {'ArgC-P':>7s} | {'ArgC-R':>7s} | {'ArgC-F1':>8s}")
@@ -230,9 +227,6 @@ def print_eventtype_f1_dual(stats_I, stats_C, name="EXACT"):
         pc, rc, f1c = calc_prf(sC)
 
         print(f"{etype:30s} | {pi:7.2f} | {ri:7.2f} | {f1i:8.2f} | {pc:7.2f} | {rc:7.2f} | {f1c:8.2f}")
-
-
-
 
 
 """
@@ -299,7 +293,6 @@ def print_domainwise_f1_dual(stats_I, stats_C, name="EXACT"):
         pc, rc, f1c = calc_p_r_f1(stats_C.get(domain, {}))
 
         print(f"{domain:12s} | {pi:7.2f} | {ri:7.2f} | {f1i:8.2f} | {pc:7.2f} | {rc:7.2f} | {f1c:8.2f}")
-
 
 
 def compute_f1(pred_dict, gold_dict):

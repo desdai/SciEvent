@@ -4,7 +4,7 @@ import re
 
 INPUT_STYLE_SET = ['event_type', 'event_type_sent', 'keywords', 'triggers', 'template']
 OUTPUT_STYLE_SET = ['trigger:sentence', 'argument:sentence']
-#'Agent': 'somebody or some organization', Removed from below to prevent duplicate
+
 ROLE_PH_MAP = {
     'Person': 'somebody',
     'Entity': 'some people or some organization',
@@ -213,20 +213,7 @@ class event_template():
             if isinstance(self.gold_event, list):
                 # end2end case
                 try:
-                    # we need this ``try'' because we cannot gurantee the model will be bug-free on the matching
                     cor_tri = pred_trigger[pred[2]['cor tri cnt']]
-                    #debug
-                    # try:
-                    #     cor_tri = pred_trigger[pred[2]['cor tri cnt']]
-                    # except IndexError:
-                    #     print("="*80)
-                    #     print("[EVALUATE ERROR] Trigger index out of range")
-                    #     print(f"predict_output: {predict_output}")
-                    #     print(f"pred_trigger: {pred_trigger}")
-                    #     print(f"cor tri cnt: {pred[2].get('cor tri cnt')}")
-                    #     print("="*80)
-                    #     continue
-
 
                     cor_tri_span = self.predstr2span(cor_tri[0])[0]
                     if cor_tri_span > -1:
@@ -3867,13 +3854,6 @@ class Background_Introduction(event_template):
         return input_str
 
     def generate_output_str(self, query_trigger):
-        # print(f"[DEBUG] Event Type: {self.event_type}")
-        # print(f"[DEBUG] Trigger Text: {self.trigger_text}")
-        # print(f"[DEBUG] Gold Arguments: {list(self.arguments[0].keys()) if self.arguments else []}")
-        # if not self.arguments or all(len(arg_set) == 0 for arg_set in self.arguments):
-        #     print("[DEBUG] No gold arguments for event type:", self.event_type)
-        #     print("[DEBUG] Trigger text:", self.trigger_text)
-        #     print("[DEBUG] All triggers:", self.trigger_span)
         output_str = f"<Trigger> {self.trigger_text or query_trigger} </Trigger>"
         gold_sample = False
 
@@ -3886,40 +3866,6 @@ class Background_Introduction(event_template):
 
         return output_str.strip(), gold_sample
 
-    # def generate_output_str(self, query_trigger):
-        
-
-    #     output_str = ''
-    #     gold_sample = False
-    #     if self.gold_event is not None:
-    #         for o_style in OUTPUT_STYLE_SET:
-    #             if o_style in self.output_style:
-    #                 if o_style == 'trigger:sentence':
-    #                     output_str += '\n Event trigger is {}'.format(self.trigger_text or '<Trigger>')
-    #                     gold_sample = gold_sample or bool(self.trigger_text)
-    #                 if o_style == 'argument:sentence':
-    #                     output_str += '\n' + self.output_template
-    #                     gold_sample = True
-    #     return output_str.strip(), gold_sample
-
-    # def decode(self, preds):
-    #     trigger = ""
-    #     args = {}
-
-    #     # Extract the trigger
-    #     trigger_match = re.search(r"<Trigger>(.*?)</Trigger>", preds)
-    #     if trigger_match:
-    #         trigger = trigger_match.group(1).strip()
-
-    #     # Extract arguments using all possible roles
-    #     for role in ['Agent', 'Analysis', 'Challenge', 'Context', 'Method', 'PrimaryObject',
-    #                 'SecondaryObject', 'Results', 'Purpose', 'Ethical', 'Implications', 'Contradictions']:
-    #         pattern = rf"<{role}>(.*?)</{role}>"
-    #         matches = re.findall(pattern, preds)
-    #         if matches:
-    #             args[role] = [m.strip() for m in matches]
-
-    #     return [(trigger, self.event_type, args)]
     def decode(self, preds):
         output = []
         tri_counter = 0
@@ -3944,14 +3890,6 @@ class Background_Introduction(event_template):
                 output.append((arg_text, role, {'cor tri cnt': 0}))  # assumes 1 trigger per instance
 
         return output
-
-
-
-
-
-
-
-
 
 class Methods_Approach(Background_Introduction):
     @classmethod
@@ -4017,183 +3955,3 @@ class Conclusions_Implications(Background_Introduction):
                 if i_style == 'template':
                     input_str += '\n {}'.format(self.output_template)
         return input_str
-
-
-
-
-
-
-
-
-# class Background_Introduction(event_template):
-#     def __init__(self, input_style, output_style, passage, event_type, gold_event=None):
-#         super().__init__(input_style, output_style, passage, event_type, gold_event)
-
-#     @classmethod
-#     def get_keywords(self):
-#         return ['introduce', 'motivate', 'study', 'explore']
-
-#     def get_output_template(self):
-#         output_template = ''
-#         for o_style in OUTPUT_STYLE_SET:
-#             if o_style in self.output_style:
-#                 if o_style == 'trigger:sentence':
-#                     output_template += '\n Event trigger is <Trigger>'
-#                 if o_style == 'argument:sentence':
-#                     output_template += '\n Somebody introduces a primary object in some context for some purpose, under constraints, ethics, or contradictions.'
-#         return output_template.strip()
-
-#     def generate_input_str(self, query_trigger):
-#         input_str = self.passage
-#         for i_style in INPUT_STYLE_SET:
-#             if i_style in self.input_style:
-#                 if i_style == 'event_type':
-#                     input_str += ' \n scientific event, background/introduction sub-type'
-#                 if i_style == 'event_type_sent':
-#                     input_str += ' \n The event introduces a research topic or motivation.'
-#                 if i_style == 'keywords':
-#                     input_str += ' \n Similar triggers such as {}'.format(', '.join(self.get_keywords()))
-#                 if i_style == 'triggers':
-#                     input_str += ' \n The event trigger word is {}'.format(query_trigger)
-#                 if i_style == 'template':
-#                     input_str += ' \n {}'.format(self.output_template)
-#         return input_str
-
-#     def generate_output_str(self, query_trigger):
-#         assert self.gold_event is not None
-#         output_str = ''
-#         gold_sample = False
-#         for o_style in OUTPUT_STYLE_SET:
-#             if o_style in self.output_style:
-#                 if o_style == 'trigger:sentence':
-#                     if self.trigger_text:
-#                         output_str += '\n Event trigger is {}'.format(self.trigger_text)
-#                         gold_sample = True
-#                     else:
-#                         output_str += '\n Event trigger is <Trigger>'
-#                 if o_style == 'argument:sentence':
-#                     output_texts = []
-#                     for argu in self.arguments:
-#                         filler = (
-#                             ' and '.join([a['argument text'] for a in argu.get('Agent', [])]) or ROLE_PH_MAP['Agent'],
-#                             ' and '.join([a['argument text'] for a in argu.get('PrimaryObject', [])]) or ROLE_PH_MAP['PrimaryObject'],
-#                             ' and '.join([a['argument text'] for a in argu.get('Context', [])]) or ROLE_PH_MAP['Context'],
-#                             ' and '.join([a['argument text'] for a in argu.get('Purpose', [])]) or ROLE_PH_MAP['Purpose'],
-#                             ' and '.join([a['argument text'] for a in argu.get('Constraint', [])]) or ROLE_PH_MAP.get('Constraint', 'some constraint'),
-#                             ' and '.join([a['argument text'] for a in argu.get('Ethical', [])]) or ROLE_PH_MAP.get('Ethical', 'some ethical concern'),
-#                             ' and '.join([a['argument text'] for a in argu.get('Contradictions', [])]) or ROLE_PH_MAP.get('Contradictions', 'some contradiction'),
-#                         )
-#                         output_texts.append("{} introduces {} in {} for {} under {}, {}, and {}.".format(*filler))
-#                         gold_sample = True
-#                     output_str += '\n {}'.format(' <sep> '.join(output_texts))
-#         return output_str.strip(), gold_sample
-
-#     def decode(self, preds):
-#         output = []
-#         for cnt, pred in enumerate(preds.split('\n')):
-#             used_o_cnt = 0
-#             full_pred = pred.strip()
-#             for o_style in OUTPUT_STYLE_SET:
-#                 if o_style in self.output_style:
-#                     if o_style == 'trigger:sentence':
-#                         if used_o_cnt == cnt:
-#                             try:
-#                                 triggers = full_pred.split('Event trigger is ', 1)[1].split(' and ')
-#                                 for t_cnt, t in enumerate(triggers):
-#                                     if t != '<Trigger>':
-#                                         output.append((t, self.event_type, {'tri counter': t_cnt}))
-#                             except:
-#                                 pass
-#                         used_o_cnt += 1
-#                     elif o_style == 'argument:sentence':
-#                         if used_o_cnt == cnt:
-#                             try:
-#                                 for a_cnt, prediction in enumerate(full_pred.split(' <sep> ')):
-#                                     segs = prediction.split(' introduces ')
-#                                     if len(segs) != 2: continue
-#                                     agent = segs[0].split(' and ')
-#                                     rest = segs[1]
-#                                     parts = rest.rsplit(' in ', 1)
-#                                     obj = parts[0].split(' and ')
-#                                     remain = parts[1].rsplit(' for ', 1)
-#                                     context = remain[0].split(' and ')
-#                                     remain = remain[1].rsplit(' under ', 1)
-#                                     purpose = remain[0].split(' and ')
-#                                     rest = remain[1].split(', ')
-#                                     constraint = rest[0].split(' and ')
-#                                     ethical = rest[1].split(' and ') if len(rest) > 1 else []
-#                                     contradiction = rest[2].split(' and ') if len(rest) > 2 else []
-
-#                                     for arg in agent:
-#                                         if arg != ROLE_PH_MAP['Agent']:
-#                                             output.append((arg, 'Agent', {'cor tri cnt': a_cnt}))
-#                                     for arg in obj:
-#                                         if arg != ROLE_PH_MAP['PrimaryObject']:
-#                                             output.append((arg, 'PrimaryObject', {'cor tri cnt': a_cnt}))
-#                                     for arg in context:
-#                                         if arg != ROLE_PH_MAP['Context']:
-#                                             output.append((arg, 'Context', {'cor tri cnt': a_cnt}))
-#                                     for arg in purpose:
-#                                         if arg != ROLE_PH_MAP['Purpose']:
-#                                             output.append((arg, 'Purpose', {'cor tri cnt': a_cnt}))
-#                                     for arg in constraint:
-#                                         if arg != ROLE_PH_MAP.get('Constraint', ''):
-#                                             output.append((arg, 'Constraint', {'cor tri cnt': a_cnt}))
-#                                     for arg in ethical:
-#                                         if arg != ROLE_PH_MAP.get('Ethical', ''):
-#                                             output.append((arg, 'Ethical', {'cor tri cnt': a_cnt}))
-#                                     for arg in contradiction:
-#                                         if arg != ROLE_PH_MAP.get('Contradictions', ''):
-#                                             output.append((arg, 'Contradictions', {'cor tri cnt': a_cnt}))
-#                             except:
-#                                 pass
-#                         used_o_cnt += 1
-#         return output
-
-
-# class Methods_Approach(Background_Introduction):
-#     @classmethod
-#     def get_keywords(self):
-#         return ['method', 'approach', 'propose', 'design']
-
-#     def get_output_template(self):
-#         template = ''
-#         for o_style in OUTPUT_STYLE_SET:
-#             if o_style in self.output_style:
-#                 if o_style == 'trigger:sentence':
-#                     template += '\n Event trigger is <Trigger>'
-#                 if o_style == 'argument:sentence':
-#                     template += '\n Some method was used by somebody in some context with some object or purpose.'
-#         return template.strip()
-
-
-# class Results_Findings(Background_Introduction):
-#     @classmethod
-#     def get_keywords(self):
-#         return ['find', 'show', 'observe', 'result']
-
-#     def get_output_template(self):
-#         template = ''
-#         for o_style in OUTPUT_STYLE_SET:
-#             if o_style in self.output_style:
-#                 if o_style == 'trigger:sentence':
-#                     template += '\n Event trigger is <Trigger>'
-#                 if o_style == 'argument:sentence':
-#                     template += '\n Somebody finds or reports results from some method on some object, with analysis.'
-#         return template.strip()
-
-
-# class Conclusions_Implications(Background_Introduction):
-#     @classmethod
-#     def get_keywords(self):
-#         return ['conclude', 'suggest', 'implicate', 'indicate']
-
-#     def get_output_template(self):
-#         template = ''
-#         for o_style in OUTPUT_STYLE_SET:
-#             if o_style in self.output_style:
-#                 if o_style == 'trigger:sentence':
-#                     template += '\n Event trigger is <Trigger>'
-#                 if o_style == 'argument:sentence':
-#                     template += '\n Based on results, someone concludes something with implications, challenges, or contradictions.'
-#         return template.strip()

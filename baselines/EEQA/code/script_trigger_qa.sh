@@ -2,10 +2,6 @@
 export CUDA_VISIBLE_DEVICES=0
 start_time=$(date +%s)
 
-echo "=========================================================================================="
-echo "                                          my query 2                                         "
-echo "=========================================================================================="
-
 python baselines/EEQA/code/run_trigger_qa.py \
   --train_file SciEvent_data/EEQA/all_splits/train.eeqa.json  \
   --dev_file SciEvent_data/EEQA/all_splits/dev.eeqa.json  \

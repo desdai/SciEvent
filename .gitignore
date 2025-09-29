@@ -3,6 +3,4 @@ cache/
 # Ignore Python cache
 __pycache__/
 *.py[cod]
-baselines/EEQA/code/script_args_qa_thresh_no_*.sh
-baselines/EEQA/code/script_trigger_qa_no_*.sh
 baselines/ONEIE/bert/

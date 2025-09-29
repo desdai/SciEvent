@@ -21,7 +21,6 @@ parser = ArgumentParser()
 parser.add_argument('-c', '--config', default='config/example.json')
 args = parser.parse_args()
 config = Config.from_json_file(args.config)
-# print(config.to_dict())
 
 # set GPU device
 use_gpu = config.use_gpu

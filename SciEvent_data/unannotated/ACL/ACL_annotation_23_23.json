@@ -1,0 +1,161 @@
+[
+  {
+    "paper_code": "ACL_23_P_37",
+    "abstract": "Due to the rapid upgrade of social platforms, most of today’s fake news is published and spread in a multi-modal form. Most existing multi-modal fake news detection methods neglect the fact that some label-specific features learned from the training set cannot generalize well to the testing set, thus inevitably suffering from the harm caused by the latent data bias. In this paper, we analyze and identify the psycholinguistic bias in the text and the bias of inferring news label based on only image features. We mitigate these biases from a causality perspective and propose a Causal intervention and Counterfactual reasoning based Debiasing framework (CCD) for multi-modal fake news detection. To achieve our goal, we first utilize causal intervention to remove the psycholinguistic bias which introduces the spurious correlations between text features and news label. And then, we apply counterfactual reasoning by imagining a counterfactual world where each news has only image features for estimating the direct effect of the image. Therefore, we can eliminate the image-only bias by deducting the direct effect of the image from the total effect on labels. Extensive experiments on two real-world benchmark datasets demonstrate the effectiveness of our framework for improving multi-modal fake news detection.",
+    "events": [
+      {
+        "Background/Introduction": "",
+        "Text": "Due to the rapid upgrade of social platforms, most of today’s fake news is published and spread in a multi-modal form. Most existing multi-modal fake news detection methods neglect the fact that some label-specific features learned from the training set cannot generalize well to the testing set, thus inevitably suffering from the harm caused by the latent data bias.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "",
+        "Text": "In this paper, we analyze and identify the psycholinguistic bias in the text and the bias of inferring news label based on only image features. We mitigate these biases from a causality perspective and propose a Causal intervention and Counterfactual reasoning based Debiasing framework (CCD) for multi-modal fake news detection. To achieve our goal, we first utilize causal intervention to remove the psycholinguistic bias which introduces the spurious correlations between text features and news label. And then, we apply counterfactual reasoning by imagining a counterfactual world where each news has only image features for estimating the direct effect of the image. Therefore, we can eliminate the image-only bias by deducting the direct effect of the image from the total effect on labels.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "",
+        "Text": "Extensive experiments on two real-world benchmark datasets demonstrate the effectiveness of our framework for improving multi-modal fake news detection.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "ACL_23_P_507",
+    "abstract": "We present WinoQueer: a benchmark specifically designed to measure whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community. The benchmark is community-sourced, via application of a novel method that generates a bias benchmark from a community survey. We apply our benchmark to several popular LLMs and find that off-the-shelf models generally do exhibit considerable anti-queer bias. Finally, we show that LLM bias against a marginalized community can be somewhat mitigated by finetuning on data written about or by members of that community, and that social media text written by community members is more effective than news text written about the community by non-members. Our method for community-in-the-loop benchmark development provides a blueprint for future researchers to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities.",
+    "events": [
+      {
+        "Background/Introduction": "",
+        "Text": "We present WinoQueer: a benchmark specifically designed to measure whether large language models (LLMs) encode biases that are harmful to the LGBTQ+ community.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "",
+        "Text": "The benchmark is community-sourced, via application of a novel method that generates a bias benchmark from a community survey. We apply our benchmark to several popular LLMs and find that off-the-shelf models generally do exhibit considerable anti-queer bias.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "",
+        "Text": "Finally, we show that LLM bias against a marginalized community can be somewhat mitigated by finetuning on data written about or by members of that community, and that social media text written by community members is more effective than news text written about the community by non-members.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "",
+        "Text": "Our method for community-in-the-loop benchmark development provides a blueprint for future researchers to develop community-driven, harms-grounded LLM benchmarks for other marginalized communities.",
+        "Action": "",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Primary Object": "",
+            "Secondary Object": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

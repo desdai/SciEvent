@@ -78,25 +78,15 @@ class InputFeatures(object):
     """A single set of features of data."""
 
     def __init__(self,
-                 # unique_id,
-                 # example_index,
-                 # doc_span_index,
                  sentence_id,
                  tokens,
-                 # token_to_orig_map,
-                 # token_is_max_context,
                  input_ids,
                  input_mask,
                  segment_ids,
                  in_sentence,
                  labels):
-        # self.unique_id = unique_id
-        # self.example_index = example_index
-        # self.doc_span_index = doc_span_index
         self.sentence_id = sentence_id
         self.tokens = tokens
-        # self.token_to_orig_map = token_to_orig_map
-        # self.token_is_max_context = token_is_max_context
         self.input_ids = input_ids
         self.input_mask = input_mask
         self.segment_ids = segment_ids
@@ -180,20 +170,14 @@ def read_ace_examples(nth_query, input_file, tokenizer, category_vocab, is_train
 
             features.append(
                 InputFeatures(
-                    # unique_id=unique_id,
-                    # example_index=example_index,
                     sentence_id=sentence_id,
                     tokens=tokens,
-                    # token_to_orig_map=token_to_orig_map,
-                    # token_is_max_context=token_is_max_context,
                     input_ids=input_ids,
                     input_mask=input_mask,
                     segment_ids=segment_ids,
                     in_sentence=in_sentence,
                     labels=labels))
             examples.append(example)
-            # if len(tokens) > 20 and sum(labels) > 0:
-                # import ipdb; ipdb.set_trace()
             sentence_id += 1
 
     return examples, features   
@@ -201,7 +185,6 @@ def read_ace_examples(nth_query, input_file, tokenizer, category_vocab, is_train
 
 
 def evaluate(args, eval_examples, category_vocab, model, device, eval_dataloader, pred_only=False):
-    # eval_examples, eval_features, na_prob_thresh=1.0, pred_only=False):
     all_results = []
     model.eval()
 
@@ -388,7 +371,6 @@ def main(args):
         all_in_sentence = torch.tensor([f.in_sentence for f in eval_features], dtype=torch.long)
         all_input_mask = torch.tensor([f.input_mask for f in eval_features], dtype=torch.long)
         all_labels = torch.tensor([f.labels for f in eval_features], dtype=torch.long)
-        # all_example_index = torch.arange(all_input_ids.size(0), dtype=torch.long)
         eval_data = TensorDataset(all_sentence_id, all_input_ids, all_segmend_ids, all_in_sentence, all_input_mask, all_labels)
         eval_dataloader = DataLoader(eval_data, batch_size=args.eval_batch_size)
 
@@ -429,7 +411,6 @@ def main(args):
                 model.half()
             model.to(device)
             if n_gpu > 1:
-                # model = torch.nn.DataParallel(model)
                 model = model.to(device)
 
             if not args.add_lstm:
@@ -480,16 +461,10 @@ def main(args):
                         batch = tuple(t.to(device) for t in batch)
                     input_ids, segment_ids, input_mask, labels = batch
 
-                    ########### addition
                     input_ids = input_ids.to(device)
                     segment_ids = segment_ids.to(device)
                     input_mask = input_mask.to(device)
                     labels = labels.to(device)
-                    ############ addition ends
-                    # print("input_ids:", input_ids.shape)
-                    # print("segment_ids:", segment_ids.shape)
-                    # print("input_mask:", input_mask.shape)
-                    # print("labels:", labels.shape)
 
                     loss = model(input_ids, token_type_ids = segment_ids, attention_mask = input_mask, labels = labels)
                     if n_gpu > 1:
@@ -515,11 +490,7 @@ def main(args):
                         optimizer.zero_grad()
                         global_step += 1
 
-                    # replaced from if (step + 1) % eval_step == 0 or step == 0:
                     if (step + 1) % eval_step == 0 or step == 0 or (step + 1) == len(train_batches):
-
-                        # logger.info('Epoch: {}, Step: {} / {}, used_time = {:.2f}s, loss = {:.6f}'.format(
-                        #     epoch, step + 1, len(train_batches), time.time() - start_time, tr_loss / nb_tr_steps))
 
                         save_model = False
                         if args.do_eval:
@@ -529,9 +500,6 @@ def main(args):
                             result['epoch'] = epoch
                             result['learning_rate'] = lr
                             result['batch_size'] = args.train_batch_size
-                                # debug logging
-                            # logger.info("Eval result at epoch %d step %d: f1_c = %.2f, best so far = %.2f", 
-                            #             epoch, step, result[args.eval_metric], best_result[args.eval_metric] if best_result else -1)
 
                             if args.add_lstm:
                                 logger.info("        p: %.2f, r: %.2f, f1: %.2f" % (result["prec"], result["recall"], result["f1"]))
@@ -544,22 +512,6 @@ def main(args):
                                             (args.eval_metric, str(lr), epoch, result["prec_c"], result["recall_c"], result["f1_c"], result["prec_i"], result["recall_i"], result["f1_i"]))
                         else:
                             save_model = True
-                        # replaced from
-                        # if (int(args.num_train_epochs)-epoch<3 and (step+1)/len(train_batches)>0.7) or step == 0:
-                        #     save_model = True
-                        # else:
-                        #     save_model = False
-                        # Only save if performance improves on the target eval metric
-                        # save_model = (result[args.eval_metric] > best_result[args.eval_metric]) if best_result else True
-                        # debug log
-                        # if save_model:
-                        #     logger.info(">>> Saving model at epoch %d step %d (best %s = %.2f)", epoch, step, args.eval_metric, result[args.eval_metric])
-                        
-                        # # addition Force save model if it matches best step from log
-                        # force_best_epoch = int(os.environ.get("FORCE_SAVE_EPOCH", -1))
-                        # force_best_step  = int(os.environ.get("FORCE_SAVE_STEP", -1))
-                        # if epoch == force_best_epoch and step == force_best_step:
-                        #     save_model = True
 
                         if save_model:
                             model_to_save = model.module if hasattr(model, 'module') else model

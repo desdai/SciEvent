@@ -63,7 +63,7 @@ def convert_dataset(input_file, output_file):
             converted = convert_to_eeqa_format(instance)
             fout.write(json.dumps(converted, ensure_ascii=False) + "\n")
 
-    print(f"✅ Saved converted EEQA-format data to {output_file} (JSONL)")
+    print(f"Saved converted EEQA-format data to {output_file} (JSONL)")
 
 
 if __name__ == "__main__":
@@ -73,4 +73,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     convert_dataset(args.input_file, args.output_file)
-

@@ -59,25 +59,6 @@ def extract_triggers_and_roles(data):
 
     return trigger_dict, role_dict
 
-
-
-
-# def compute_f1(pred, gold, match_fn):
-#     total_pred = sum(len(p) for p in pred)
-#     total_gold = sum(len(g) for g in gold)
-#     matched = 0
-#     for p_list, g_list in zip(pred, gold):
-#         matched_set = set()
-#         for p in p_list:
-#             for g in g_list:
-#                 if match_fn(p, g):
-#                     matched_set.add((p, g))
-#                     break
-#         matched += len(matched_set)
-#     prec = matched / total_pred if total_pred > 0 else 0
-#     rec = matched / total_gold if total_gold > 0 else 0
-#     f1 = 2 * prec * rec / (prec + rec) if prec + rec > 0 else 0
-#     return prec, rec, f1, matched, total_pred, total_gold
 def compute_f1(pred_dict, gold_dict, match_fn, label=""):
     """
     Computes F1 with matched, total_pred, total_gold.
@@ -354,70 +335,11 @@ def print_domain_f1_dual(stats_dict, name="EXACT"):
     print("-" * 80)
 
 
-
-
-
-# def main(pred_file, gold_file):
-#     pred_data = load_jsonl(pred_file)
-#     gold_data = load_jsonl(gold_file)
-
-#     pred_trigs, pred_roles = extract_triggers_and_roles(pred_data)
-#     gold_trigs, gold_roles = extract_triggers_and_roles(gold_data)
-
-#     print("== Exact Match Evaluation ==")
-#     exact_span_match = lambda x, y: x == y
-#     exact_trigger_id = compute_f1(pred_trigs, gold_trigs, lambda x, y: x[:2] == y[:2])
-#     exact_trigger_cls = compute_f1(pred_trigs, gold_trigs, exact_span_match)
-#     exact_arg_id = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][:2] == y[1][:2])
-#     exact_arg_cls = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1] == y[1])
-
-#     print("Trigger Identification (Exact): P {:.2f} R {:.2f} F1 {:.2f}".format(*exact_trigger_id[:3]))
-#     print("Trigger Classification (Exact): P {:.2f} R {:.2f} F1 {:.2f}".format(*exact_trigger_cls[:3]))
-#     print("Argument Identification (Exact): P {:.2f} R {:.2f} F1 {:.2f}".format(*exact_arg_id[:3]))
-#     print("Argument Classification (Exact): P {:.2f} R {:.2f} F1 {:.2f}".format(*exact_arg_cls[:3]))
-
-#     print("\n== Overlap Evaluation ==")
-#     overlap_trigger_id = compute_f1(pred_trigs, gold_trigs, lambda x, y: spans_overlap(x[:2], y[:2]))
-#     overlap_trigger_cls = compute_f1(pred_trigs, gold_trigs, lambda x, y: x[2] == y[2] and spans_overlap(x[:2], y[:2]))
-#     overlap_arg_id = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and spans_overlap(x[1][:2], y[1][:2]))
-#     overlap_arg_cls = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][2] == y[1][2] and spans_overlap(x[1][:2], y[1][:2]))
-
-#     print("Trigger Identification (Overlap): P {:.2f} R {:.2f} F1 {:.2f}".format(*overlap_trigger_id[:3]))
-#     print("Trigger Classification (Overlap): P {:.2f} R {:.2f} F1 {:.2f}".format(*overlap_trigger_cls[:3]))
-#     print("Argument Identification (Overlap): P {:.2f} R {:.2f} F1 {:.2f}".format(*overlap_arg_id[:3]))
-#     print("Argument Classification (Overlap): P {:.2f} R {:.2f} F1 {:.2f}".format(*overlap_arg_cls[:3]))
 def print_score(label, score_tuple):
     prec, rec, f1, match, pred_total, gold_total = score_tuple
     print(f"{label:<35} - P: {prec * 100:.2f} ({match}/{pred_total})  "
           f"R: {rec * 100:.2f} ({match}/{gold_total})  F1: {f1 * 100:.2f}")
 
-
-# def main(pred_file, gold_file):
-#     pred_data = load_jsonl(pred_file)
-#     gold_data = load_jsonl(gold_file)
-
-#     pred_trigs, pred_roles = extract_triggers_and_roles(pred_data)
-#     gold_trigs, gold_roles = extract_triggers_and_roles(gold_data)
-
-#     exact_trigger_id = compute_f1(pred_trigs, gold_trigs, lambda x, y: x[:2] == y[:2], label="Trigger_ID_Exact")
-#     exact_trigger_cls = compute_f1(pred_trigs, gold_trigs, lambda x, y: x == y, label="Trigger_CLS_Exact")
-#     exact_arg_id = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][:2] == y[1][:2], label="Arg_ID_Exact")
-#     exact_arg_cls = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1] == y[1], label="Arg_CLS_Exact")
-
-#     overlap_trigger_id = compute_f1(pred_trigs, gold_trigs, lambda x, y: spans_overlap(x[:2], y[:2]), label="Trigger_ID_Overlap")
-#     overlap_trigger_cls = compute_f1(pred_trigs, gold_trigs, lambda x, y: x[2] == y[2] and spans_overlap(x[:2], y[:2]), label="Trigger_CLS_Overlap")
-#     overlap_arg_id = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and spans_overlap(x[1][:2], y[1][:2]), label="Arg_ID_Overlap")
-#     overlap_arg_cls = compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][2] == y[1][2] and spans_overlap(x[1][:2], y[1][:2]), label="Arg_CLS_Overlap")
-
-#     print_score("Trigger Identification (Exact)", exact_trigger_id)
-#     print_score("Trigger Classification (Exact)", exact_trigger_cls)
-#     print_score("Argument Identification (Exact)", exact_arg_id)
-#     print_score("Argument Classification (Exact)", exact_arg_cls)
-#     print()
-#     print_score("Trigger Identification (Overlap)", overlap_trigger_id)
-#     print_score("Trigger Classification (Overlap)", overlap_trigger_cls)
-#     print_score("Argument Identification (Overlap)", overlap_arg_id)
-#     print_score("Argument Classification (Overlap)", overlap_arg_cls)
 
 from rouge_score import rouge_scorer
 
@@ -539,13 +461,6 @@ def print_rouge_stats(name, stats_dict):
     print("-" * 50)
 
 
-
-
-
-
-
-
-
 def main(pred_file, gold_file):
     pred_data = load_jsonl(pred_file)
     gold_data = load_jsonl(gold_file)
@@ -558,12 +473,6 @@ def main(pred_file, gold_file):
 
     pred_trigs, pred_roles = extract_triggers_and_roles(pred_data)
     gold_trigs, gold_roles = extract_triggers_and_roles(gold_data)
-    # print("p",pred_roles,"\n")
-    # print("g",gold_roles)
-
-    # print("\n[ROUGE-L Tuple]")
-    # p_r, r_r, f1_r = compute_rouge_L_oneie(gold_roles, pred_roles, tokens)
-    # print(f"Precision: {p_r:.4f}, Recall: {r_r:.4f}, F1: {f1_r:.4f}")
 
     sent_ids = list(gold_roles.keys())
     gold_roles_all = [gold_roles[sid] for sid in sent_ids]
@@ -581,13 +490,7 @@ def main(pred_file, gold_file):
     domain_stats = compute_rougeL_domain(gold_roles_all, pred_roles_all, token_lists, wnd_ids)
     print_rouge_stats("Domain", domain_stats)
 
-
-
-
-
     # === Exact Match ===
-    # print_score("Trigger Identification (Exact)", compute_f1(pred_trigs, gold_trigs, lambda x, y: x[:2] == y[:2], "Trigger_ID_Exact"))
-    # print_score("Trigger Classification (Exact)", compute_f1(pred_trigs, gold_trigs, lambda x, y: x == y, "Trigger_CLS_Exact"))
     print_score("Argument Identification (Exact)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][:2] == y[1][:2], "Arg_ID_Exact"))
     print_score("Argument Classification (Exact)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1] == y[1], "Arg_CLS_Exact"))
     # === Role-wise Scores ===
@@ -602,8 +505,6 @@ def main(pred_file, gold_file):
     print()
 
     # === Simple Overlap ===
-    # print_score("Trigger Identification (Overlap)", compute_f1(pred_trigs, gold_trigs, lambda x, y: spans_overlap(x[:2], y[:2]), "Trigger_ID_Overlap"))
-    # print_score("Trigger Classification (Overlap)", compute_f1(pred_trigs, gold_trigs, lambda x, y: x[2] == y[2] and spans_overlap(x[:2], y[:2]), "Trigger_CLS_Overlap"))
     print_score("Argument Identification (Overlap)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and spans_overlap(x[1][:2], y[1][:2]), "Arg_ID_Overlap"))
     print_score("Argument Classification (Overlap)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][2] == y[1][2] and spans_overlap(x[1][:2], y[1][:2]), "Arg_CLS_Overlap"))
     # === Role-wise Scores ===
@@ -616,9 +517,8 @@ def main(pred_file, gold_file):
     domain_stats = compute_domain_f1_dual(pred_roles, gold_roles, wnd_ids, overlap_fn=spans_overlap)
     print_domain_f1_dual(domain_stats, name="Overlap")
     print()
+
     # === SciREX Overlap ===
-    # print_score("Trigger Identification (SciREX)", compute_f1(pred_trigs, gold_trigs, lambda x, y: scirex_overlap(x[:2], y[:2]), "Trigger_ID_SciREX"))
-    # print_score("Trigger Classification (SciREX)", compute_f1(pred_trigs, gold_trigs, lambda x, y: x[2] == y[2] and scirex_overlap(x[:2], y[:2]), "Trigger_CLS_SciREX"))
     print_score("Argument Identification (SciREX)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and scirex_overlap(x[1][:2], y[1][:2]), "Arg_ID_SciREX"))
     print_score("Argument Classification (SciREX)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][2] == y[1][2] and scirex_overlap(x[1][:2], y[1][:2]), "Arg_CLS_SciREX"))
     # === Role-wise Scores ===
@@ -631,9 +531,8 @@ def main(pred_file, gold_file):
     domain_stats = compute_domain_f1_dual(pred_roles, gold_roles, wnd_ids, overlap_fn=lambda p, g: scirex_overlap(p, g))
     print_domain_f1_dual(domain_stats, name="SciREX")
     print()
+
     # === IoU Overlap ===
-    # print_score("Trigger Identification (IoU)", compute_f1(pred_trigs, gold_trigs, lambda x, y: iou_overlap(x[:2], y[:2]), "Trigger_ID_IoU"))
-    # print_score("Trigger Classification (IoU)", compute_f1(pred_trigs, gold_trigs, lambda x, y: x[2] == y[2] and iou_overlap(x[:2], y[:2]), "Trigger_CLS_IoU"))
     print_score("Argument Identification (IoU)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and iou_overlap(x[1][:2], y[1][:2]), "Arg_ID_IoU"))
     print_score("Argument Classification (IoU)", compute_f1(pred_roles, gold_roles, lambda x, y: x[0][2] == y[0][2] and x[1][2] == y[1][2] and iou_overlap(x[1][:2], y[1][:2]), "Arg_CLS_IoU"))
     # === Role-wise Scores ===
@@ -654,122 +553,3 @@ if __name__ == "__main__":
     parser.add_argument('--gold', required=True, help='Path to gold JSONL')
     args = parser.parse_args()
     main(args.pred, args.gold)
-
-# python EM_overlap_eval.py --pred oneie_preds_degree_format.json --gold processed_data/mydata/test.oneie.json
-
-
-
-
-# def compute_tuple_f1_avg_oneie(gold_roles, pred_roles, tokens, match_fn):
-#     total_p, total_r, total_f1, count = 0, 0, 0, 0
-
-#     for sent_id in gold_roles:
-#         g_roles = gold_roles.get(sent_id, [])
-#         p_roles = pred_roles.get(sent_id, [])
-#         toks = tokens[sent_id]
-
-#         def extract(roles):
-#             parts = {"Agent": "", "PrimaryObject": "", "SecondaryObject": ""}
-#             trigger = ""
-#             roles = sorted(roles, key=lambda x: (x[1][0], x[1][1]))
-#             for trig, arg in roles:
-#                 ts, te, _ = trig
-#                 rs, re, role = arg
-#                 if not trigger:
-#                     trigger = " ".join(toks[ts:te]).strip()
-#                 if role in parts and not parts[role]:
-#                     parts[role] = " ".join(toks[rs:re]).strip()
-#             return parts["Agent"], trigger, parts["PrimaryObject"], parts["SecondaryObject"]
-
-#         g = extract(g_roles)
-#         p = extract(p_roles)
-
-#         if all(not x for x in g) and all(not x for x in p):
-#             continue
-
-#         matches = [match_fn(gv, pv) if gv and pv else False for gv, pv in zip(g, p)]
-#         match_count = sum(matches)
-#         pred_filled = sum(1 for x in p if x)
-#         gold_filled = sum(1 for x in g if x)
-
-#         if pred_filled == 0 or gold_filled == 0:
-#             continue
-
-#         prec = match_count / pred_filled
-#         rec = match_count / gold_filled
-#         f1 = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0.0
-
-#         total_p += prec
-#         total_r += rec
-#         total_f1 += f1
-#         count += 1
-
-#     return total_p / count, total_r / count, total_f1 / count
-
-# def compute_tuple_f1_global_oneie(gold_roles, pred_roles, tokens, match_fn):
-#     total_matched = 0
-#     total_pred = 0
-#     total_gold = 0
-
-#     for sent_id in gold_roles:
-#         g_roles = gold_roles.get(sent_id, [])
-#         p_roles = pred_roles.get(sent_id, [])
-#         toks = tokens[sent_id]
-
-#         def extract(roles):
-#             parts = {"Agent": "", "PrimaryObject": "", "SecondaryObject": ""}
-#             trigger = ""
-#             roles = sorted(roles, key=lambda x: (x[1][0], x[1][1]))
-#             for trig, arg in roles:
-#                 ts, te, _ = trig
-#                 rs, re, role = arg
-#                 if not trigger:
-#                     trigger = " ".join(toks[ts:te]).strip()
-#                 if role in parts and not parts[role]:
-#                     parts[role] = " ".join(toks[rs:re]).strip()
-#             return parts["Agent"], trigger, parts["PrimaryObject"], parts["SecondaryObject"]
-
-#         g = extract(g_roles)
-#         p = extract(p_roles)
-
-#         for gv, pv in zip(g, p):
-#             if gv:
-#                 total_gold += 1
-#             if pv:
-#                 total_pred += 1
-#             if gv and pv and match_fn(gv, pv):
-#                 total_matched += 1
-
-#     precision = total_matched / total_pred if total_pred else 0.0
-#     recall = total_matched / total_gold if total_gold else 0.0
-#     f1 = 2 * precision * recall / (precision + recall) if (precision + recall) else 0.0
-#     return precision, recall, f1
-# per event
-    # print("\n[Tuple Match - Per Event Avg - Exact Match]")
-    # p2, r2, f12 = compute_tuple_f1_avg_oneie(gold_roles, pred_roles, tokens, exact_match)
-    # print(f"Precision: {p2:.4f}, Recall: {r2:.4f}, F1: {f12:.4f}")
-
-    # print("[Tuple Match - Per Event Avg - One Word Overlap]")
-    # p1, r1, f11 = compute_tuple_f1_avg_oneie(gold_roles, pred_roles, tokens, one_word_overlap)
-    # print(f"Precision: {p1:.4f}, Recall: {r1:.4f}, F1: {f11:.4f}")
-
-    # print("[Tuple Match - Per Event Avg - IoU > 0.5]")
-    # p3, r3, f13 = compute_tuple_f1_avg_oneie(gold_roles, pred_roles, tokens, iou_match)
-    # print(f"Precision: {p3:.4f}, Recall: {r3:.4f}, F1: {f13:.4f}")
-
-    # ### global
-    # print("\n[Tuple Match - Global Count - Exact Match]")
-    # pg2, rg2, f1g2 = compute_tuple_f1_global_oneie(gold_roles, pred_roles, tokens, exact_match)
-    # print(f"Precision: {pg2:.4f}, Recall: {rg2:.4f}, F1: {f1g2:.4f}")
-
-    # print("[Tuple Match - Global Count - One Word Overlap]")
-    # pg, rg, f1g = compute_tuple_f1_global_oneie(gold_roles, pred_roles, tokens, one_word_overlap)
-    # print(f"Precision: {pg:.4f}, Recall: {rg:.4f}, F1: {f1g:.4f}")
-
-    # print("[Tuple Match - Global Count - IoU > 0.5]")
-    # pg3, rg3, f1g3 = compute_tuple_f1_global_oneie(gold_roles, pred_roles, tokens, iou_match)
-    # print(f"Precision: {pg3:.4f}, Recall: {rg3:.4f}, F1: {f1g3:.4f}")
-    # print("")
-
-
-    

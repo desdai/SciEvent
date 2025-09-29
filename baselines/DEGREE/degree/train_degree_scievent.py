@@ -82,8 +82,6 @@ schedule = get_linear_schedule_with_warmup(optimizer,
                                            num_warmup_steps=train_batch_num*config.warmup_epoch,
                                            num_training_steps=train_batch_num*config.max_epoch)
 
-
-
 # start training
 logger.info("Start training ...")
 summarizer_step = 0
@@ -152,61 +150,16 @@ for epoch in range(1, config.max_epoch+1):
             
             # decode predictions
             pred_object = template.decode(p_text)
-            # debug
-            # try:
-            #     pred_object = template.decode(p_text)
-            # except Exception as e:
-            #     print("=" * 80)
-            #     print("[DECODE ERROR] Exception during decode()")
-            #     print(f"[Info] Event Type: {info[1]}")  # info[1] is the event_type
-            #     print(f"[Model Output] {p_text}")
-            #     print(f"[Tokens] {info[2]}")  # info[2] is the tokens/passage
-            #     print(f"[Error] {e}")
-            #     print("=" * 80)
-            #     continue  # skip this example
-
 
             gold_object = template.trigger_span + [_ for _ in template.get_converted_gold()]
             
             # calculate scores
             sub_scores = template.evaluate(pred_object)
-            # ############# for debug ##################
-            # print("="*80)
-            # print(f"[DEBUG] Event Type: {template.event_type}")
-            # print(f"[DEBUG] Trigger Text: {template.trigger_text}")
-            # # print(f"[DEBUG] Trigger Span: {template.trigger_span}")
-            # print(f"[DEBUG] Predicted Output:\n{pred_object}")
-            # print(f"[DEBUG] Gold Arguments: {template.arguments}")
-            # print("="*80)
 
             # ------------------ Accumulate per-role match stats ------------------ #
-            
 
             if 'role_match_stats' not in locals():
                 role_match_stats = defaultdict(lambda: {"matched": 0, "pred_total": 0, "gold_total": 0})
-
-            # Gold arg 
-            # debug
-            # if isinstance(template.arguments, list) and len(template.arguments) == 0:
-            #     print("=" * 80)
-            #     print("[❗EMPTY GOLD ARGUMENT LIST]")
-            #     print(f"Event Type   : {template.event_type}")
-            #     print(f"Trigger Text : {template.trigger_text}")
-            #     print(f"Input Text   : {i_text}")
-            #     print(f"Gold Text    : {g_text}")
-            #     print(f"Pred Text    : {p_text}")
-            #     print(f"Info         : {info}")
-            #     print("=" * 80)
-            #     raise ValueError("Empty argument list encountered.")
-
-            # debug replaced
-            # gold_args = template.arguments[0] if isinstance(template.arguments, list) else template.arguments
-            # gold_arg_texts = {
-            #     role: set(arg["argument text"] for arg in arg_list)
-            #     for role, arg_list in gold_args.items()
-            # }
-            # Use the DEGREE-style gold argument list
-            # debug replaced
 
             gold_arg_list = template.get_converted_gold()
 
@@ -214,8 +167,6 @@ for epoch in range(1, config.max_epoch+1):
             gold_arg_texts = defaultdict(set)
             for arg_text, role, _ in gold_arg_list:
                 gold_arg_texts[role].add(arg_text)
-
-            # debug replaced end
 
             # Predicted arg texts
             pred_args = defaultdict(set)
@@ -234,8 +185,6 @@ for epoch in range(1, config.max_epoch+1):
                 role_match_stats[role]["pred_total"] += len(pred_set)
                 role_match_stats[role]["gold_total"] += len(gold_set)
 
-
-
             dev_gold_tri_num += sub_scores['gold_tri_num']
             dev_pred_tri_num += sub_scores['pred_tri_num']
             dev_match_tri_num += sub_scores['match_tri_num']
@@ -253,19 +202,6 @@ for epoch in range(1, config.max_epoch+1):
                 'gold info': info
             })
     progress.close()
-
-    # ------------------ Final Per-Role F1 Across Dev Set ------------------ #
-    # print("[DEV STATS] Argument Role-wise F1 (aggregated):")
-    # for role, stats in sorted(role_match_stats.items(), key=lambda x: str(x[0])):
-    #     m = stats["matched"]
-    #     p = stats["pred_total"]
-    #     g = stats["gold_total"]
-    #     prec = m / p if p > 0 else 0
-    #     rec = m / g if g > 0 else 0
-    #     f1 = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0
-    #     print(f"  Role: {str(role):15} | Match: {m:3d} | Pred: {p:3d} | Gold: {g:3d} | P: {prec:.2f} | R: {rec:.2f} | F1: {f1:.2f}")
-    # print("---------------------------------------------------------------------")
-
     
     dev_scores = {
         'tri_id': compute_f1(dev_pred_tri_num, dev_gold_tri_num, dev_match_tri_num),
@@ -327,7 +263,6 @@ for epoch in range(1, config.max_epoch+1):
                 # calculate scores
                 sub_scores = template.evaluate(pred_object)
 
-
                 test_gold_tri_num += sub_scores['gold_tri_num']
                 test_pred_tri_num += sub_scores['pred_tri_num']
                 test_match_tri_num += sub_scores['match_tri_num']
@@ -378,4 +313,3 @@ for epoch in range(1, config.max_epoch+1):
         
 logger.info(log_path)
 logger.info("Done!")
-

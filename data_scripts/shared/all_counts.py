@@ -48,7 +48,7 @@ def count_all(filepath):
     return (total_events, total_roles, total_role_tokens,
             total_event_tokens, total_abstracts, total_abstract_tokens)
 
-# 📂 Directory path
+# Directory containing JSON files
 json_folder = "baselines/data_stat/ours/all_checked_data"
 
 # Accumulators
@@ -70,7 +70,7 @@ for filename in os.listdir(json_folder):
         total_abstracts += a
         total_abstract_tokens += at
 
-# 📊 Final Report
+# Final Report
 print(f"Total abstracts: {total_abstracts}")
 print(f"Total events: {total_events}")
 print(f"Total non-empty roles (filtered): {total_roles}")
@@ -82,4 +82,3 @@ print(f"Average tokens per event: {total_event_tokens / total_events:.2f}" if to
 print(f"Average tokens per abstract: {total_abstract_tokens / total_abstracts:.2f}" if total_abstracts else "N/A")
 
 print(f"Ratio of annotated tokens: {total_role_tokens / total_abstract_tokens:.2f}")
-# print(total_role_tokens)

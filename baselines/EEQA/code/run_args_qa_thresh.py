@@ -93,8 +93,6 @@ def read_ace_examples(input_file, is_training):
             sentence, events, s_start = example["sentence"], example["event"], example["s_start"]
             example = AceExample(sentence=sentence, events=events, s_start=s_start)
             examples.append(example)
-    #debug
-    # print("example in read ace examples:", example)
     return examples
 
 
@@ -400,9 +398,6 @@ def evaluate(args, model, device, eval_dataloader, eval_examples, gold_examples,
     new_preds = []
     new_all_gold = []
     for (example_id, _) in enumerate(gold_examples):
-        # print("==== DEBUG: example_id keys ====")
-        # print("Gold example_ids:", list(range(len(gold_examples))))
-        # print("Predicted example_ids:", sorted(preds.keys()))
 
         pred_arg = preds[example_id]
         gold_arg = all_gold[example_id]
@@ -453,7 +448,6 @@ def evaluate(args, model, device, eval_dataloader, eval_examples, gold_examples,
     else: f1_c = 0
     # import ipdb; ipdb.set_trace()
 
-    ################################################################################################################################################
     # get results (identification)
     final_new_preds_identification = []
     for item in final_new_preds:
@@ -467,10 +461,8 @@ def evaluate(args, model, device, eval_dataloader, eval_examples, gold_examples,
         new_item += item[1:] # offset and example_id
         new_all_gold_identification.append(new_item)
     
-    # addition === DE-DUPLICATION FIX ===
     final_new_preds_identification = list(set(tuple(x) for x in final_new_preds_identification))
     new_all_gold_identification = list(set(tuple(x) for x in new_all_gold_identification))
-
 
     gold_arg_n, pred_arg_n, pred_in_gold_n, gold_in_pred_n = 0, 0, 0, 0
     # pred_arg_n
@@ -540,20 +532,13 @@ def main(args):
 
     if args.do_train or (not args.eval_test):
         eval_examples = read_ace_examples(input_file=args.dev_file, is_training=False)
-        # debug
-        # gold_examples = read_ace_examples(input_file=args.gold_file, is_training=False)
         gold_examples = eval_examples
-        # print(f"[DEBUG] Number of gold examples: {len(gold_examples)}")
-        # print(f"[DEBUG] First gold example events: {gold_examples[0].events}")
-        #debug end
         eval_features = convert_examples_to_features(
             examples=eval_examples,
             tokenizer=tokenizer,
             query_templates=query_templates,
             nth_query=args.nth_query,
             is_training=False)
-        # print(f"[DEBUG] Number of eval_features: {len(eval_features)}")
-        # print(f"[DEBUG] Sample query: {tokenizer.convert_ids_to_tokens(eval_features[0].input_ids[:30])}")
 
         logger.info("***** Dev *****")
         logger.info("  Num orig examples = %d", len(eval_examples))
@@ -612,11 +597,7 @@ def main(args):
                 model = BertForQuestionAnswering_withIfTriggerEmbedding.from_pretrained(args.model, cache_dir=PYTORCH_PRETRAINED_BERT_CACHE)
             if args.fp16:
                 model.half()
-            # if n_gpu > 1:
-            #     model = torch.nn.DataParallel(model)
-            #### addition
             model.to(device)
-            #### addition ends
             param_optimizer = list(model.named_parameters())
             param_optimizer = [n for n in param_optimizer if 'pooler' not in n[0]]
             no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
@@ -645,14 +626,14 @@ def main(args):
                     if n_gpu == 1:
                         batch = tuple(t.to(device) for t in batch)
                     input_ids, input_mask, segment_ids, if_trigger_ids, start_positions, end_positions = batch
-                    ##### addition
+
                     input_ids = input_ids.to(device)
                     input_mask = input_mask.to(device)
                     segment_ids = segment_ids.to(device)
                     if_trigger_ids = if_trigger_ids.to(device)
                     start_positions = start_positions.to(device)
                     end_positions = end_positions.to(device)
-                    #### addition ends
+
                     if not args.add_if_trigger_embedding:
                         loss = model(input_ids, segment_ids, input_mask, start_positions, end_positions)
                     else:
@@ -675,7 +656,6 @@ def main(args):
                     if (step + 1) % eval_step == 0 or step == 0:
                         save_model = False
                         if args.do_eval:
-                            # result, _, _ = evaluate(args, model, device, eval_dataset, eval_dataloader, eval_examples, eval_features)
                             result, preds = evaluate(args, model, device, eval_dataloader, eval_examples, gold_examples, eval_features)
                             # import ipdb; ipdb.set_trace()
                             model.train()
@@ -689,8 +669,7 @@ def main(args):
                                 logger.info('Epoch: {}, Step: {} / {}, used_time = {:.2f}s, loss = {:.6f}'.format(
                                     epoch, step + 1, len(train_batches), time.time() - start_time, tr_loss / nb_tr_steps))
                                 logger.info("!!! Best dev %s (lr=%s, epoch=%d): p_c: %.2f, r_c: %.2f, f1_c: %.2f, p_i: %.2f, r_i: %.2f, f1_i: %.2f, best_na_thresh: %.5f" %
-                                # logger.info("!!! Best dev %s (lr=%s, epoch=%d): p_c: %.2f, r_c: %.2f, f1_c: %.2f, best_na_thresh: %.10f" %
-                                            # (args.eval_metric, str(lr), epoch, result["prec_c"], result["recall_c"], result["f1_c"], result["best_na_thresh"]))
+
                                             (args.eval_metric, str(lr), epoch, result["prec_c"], result["recall_c"], result["f1_c"], result["prec_i"], result["recall_i"], result["f1_i"], result["best_na_thresh"]))
                         else:
                             save_model = True
@@ -733,7 +712,7 @@ def main(args):
                                     os.replace(tmp_alias, alias_dir)                     # atomic swap
                                     logger.info("Updated best_args alias -> %s", target)
                                 except OSError:
-                                    # Fallback: real directory copy (works anywhere)
+
                                     if os.path.isdir(alias_dir):
                                         shutil.rmtree(alias_dir)
                                     shutil.copytree(subdir, alias_dir)
@@ -772,10 +751,7 @@ def main(args):
             model.half()
         model.to(device)
 
-
         result, preds = evaluate(args, model, device, eval_dataloader, eval_examples, gold_examples, eval_features, pred_only=True)
-
-
 
         with open(os.path.join(args.model_dir, "test_results.txt"), "w") as writer:
             for key in result:
@@ -783,8 +759,6 @@ def main(args):
         with open(os.path.join(args.model_dir, "arg_predictions.json"), "w") as writer:
             for key in preds:
                 writer.write(json.dumps(preds[key], default=int) + "\n")
-
-
 
 if __name__ == "__main__":
         parser = argparse.ArgumentParser()

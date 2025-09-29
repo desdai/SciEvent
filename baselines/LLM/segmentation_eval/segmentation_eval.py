@@ -225,33 +225,9 @@ if __name__ == "__main__":
 
     pred_folder = args.pred_folder
     true_folder = args.true_folder
-    
-    # --pred-folder SciEvent_data/LLM/Event_Segmentation/pred_distill_llama
-    # --true-folder SciEvent_data/LLM/Event_Segmentation/true
-    # --out baselines/LLM/LLM_results/Event_Segmentation/distill_llama.txt
-
-    # --pred-folder SciEvent_data/LLM/Event_Segmentation/pred_llama
-    # --true-folder SciEvent_data/LLM/Event_Segmentation/true
-    # --out baselines/LLM/LLM_results/Event_Segmentation/llama.txt
-
-    # --pred-folder SciEvent_data/LLM/Event_Segmentation/pred_qwen
-    # --true-folder SciEvent_data/LLM/Event_Segmentation/true
-    # --out baselines/LLM/LLM_results/Event_Segmentation/qwen.txt
-
-    # --pred-folder SciEvent_data/LLM/Event_Segmentation/pred_gpt
-    # --true-folder SciEvent_data/LLM/Event_Segmentation/true
-    # --out baselines/LLM/LLM_results/Event_Segmentation/gpt.txt 
-
-    # --pred-folder SciEvent_data/LLM/Event_Segmentation/human_subset
-    # --true-folder SciEvent_data/LLM/Event_Segmentation/true
-    # --out baselines/LLM/LLM_results/Event_Segmentation/human_subset.txt 
-
     strategies = {
         "Strict (EM + Class)": strict_match,
         "IoU + Class": iou_match
-        # "Exact": exact_match,
-        # "Partial": partial_match,
-        # "Type": type_match
     }
     with open(args.out, "w", encoding="utf-8") as f:
         # Overall results (multiple strategies)

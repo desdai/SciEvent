@@ -61,6 +61,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     grouped_preds = load_oneie_predictions(args.pred_dir)
     convert_to_degree_jsonl_format(grouped_preds, args.output_file)
-
-
-# python convert_oneie_to_degree_json.py --pred_dir output_json --output_file oneie_preds_degree_format.json

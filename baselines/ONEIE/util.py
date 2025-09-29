@@ -143,24 +143,6 @@ def read_ltf(path):
 
     return doc_tokens, doc_id
 
-
-# def read_txt(path, language='english'):
-#     doc_id = os.path.basename(path)
-#     data = open(path, 'r', encoding='utf-8').read()
-#     data = [s.strip() for s in data.split('\n') if s.strip()]
-#     sents = [l for ls in [sent_tokenize(line, language=language) for line in data]
-#              for l in ls]
-#     doc_tokens = []
-#     offset = 0
-#     for sent_idx, sent in enumerate(sents):
-#         sent_id = '{}-{}'.format(doc_id, sent_idx)
-#         tokens = word_tokenize(sent)
-#         tokens = [(token, offset + i, offset + i + 1)
-#                   for i, token in enumerate(tokens)]
-#         offset += len(tokens)
-#         doc_tokens.append((sent_id, tokens))
-#     return doc_tokens, doc_id
-#### above replaced with below
 def read_txt(path, language='english'):
     """
     Treats the entire text file as one single sentence (no splitting).

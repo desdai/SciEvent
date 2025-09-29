@@ -1,5 +1,4 @@
 #!/bin/sh
-# ✅ Reuse best model dir directly
 export CUDA_VISIBLE_DEVICES=1
 start_time=$(date +%s)
 
@@ -8,21 +7,9 @@ export BEST_TRIGGER_DIR=baselines/EEQA/scievent_trigger_qa_output/full_data/best
 export ARG_QUERY_FILE=baselines/EEQA/question_templates/arg_queries.csv
 export DES_QUERY_FILE=baselines/EEQA/question_templates/description_queries.csv
 
-# comparing. old is asking naively, SCIEVENT_simple is more human way, with example is ICL
 export SCIEVENT_SIMPLE_FILE=baselines/EEQA/question_templates/scievent_simple_template.csv
-# export SCIEVENT_SIMPLE_FILE=./question_templates/simple_temp.csv
-# export SCIEVENT_SIMPLE_FILE=./question_templates/scievent_with_example_templat.csv
 
 export SCIEVENT_DES_FILE=baselines/EEQA/question_templates/scievent_des_template.csv
-
-echo "**************************"
-echo "        do 2 and 3"
-echo "**************************"
-
-echo "=========================================================================================="
-echo "     arg_qa: using des_query + trigger verb, trigger dir = $BEST_TRIGGER_DIR"
-echo "=========================================================================================="
-echo "check SCIEVENT_example_template to choose nth_query"
 
 python baselines/EEQA/code/run_args_qa_thresh.py \
   --train_file SciEvent_data/EEQA/all_splits/train.eeqa.json  \

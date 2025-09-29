@@ -37,14 +37,6 @@ def generate_data(data_set, vocab, config):
     for data in data_set.data:
         event_template = eve_template_generator(data.tokens, data.triggers, data.roles, config.input_style, config.output_style, vocab, True)
         
-        # for template in event_template.event_templates:
-        #     print("\n====== DEBUG: TEMPLATE FOR EVENT TYPE ======")
-        #     print(f"[Event Type]: {template.event_type}")
-        #     print(f"[Trigger Text]: {template.trigger_text}")
-        #     print(f"[Input Template]:\n{template.generate_input_str(template.trigger_text)}")
-        #     print(f"[Output Template]:\n{template.generate_output_str(template.trigger_text)[0]}")
-        #     print("============================================\n")
-
         all_data_ = event_template.get_training_data()
         pos_data_ = [dt for dt in all_data_ if dt[3]]
         neg_data_ = [dt for dt in all_data_ if not dt[3]]
@@ -132,6 +124,3 @@ with open('{}/test_all.pkl'.format(config.finetune_dir), 'wb') as f:
         'target': test_targets,
         'all': test_events
     }, f)
-
-
-

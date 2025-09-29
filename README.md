@@ -1,6 +1,5 @@
 # SciEvent (EMNLP-2025)
 
-Raw annotated data is saved in ``SciEvent_data/raw`` folder, it consist of all raw annotations in JSON format. 
 The SciEvent dataset contains 500 scientific abstracts across 5 venues of different domains:
 - 100 abstracts from the Association for Computational Linguistics (ACL), Natural Language Processing
 - 100 abstracts from the ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), Social Computing
@@ -8,16 +7,12 @@ The SciEvent dataset contains 500 scientific abstracts across 5 venues of differ
 - 120 abstracts from Digital Humanities Quarterly (DH), Digital Humanities
 - 80 abstracts from the Journal of Medical Internet Research (JMIR), Medical Informatics
 
-Each file start with the venue abbreviation for classification. Each file includes two abstracts,
-and each abstract is annotated with:
-- Unique paper code
-- Event segments (Background, Methods, Results, Implications)
-- Trigger tuples (Agent, Main Action, Object)
-- Nine argument roles (Context, Purpose, Method, Results, Analysis, Challenge, Ethical, Implications, Contradictions)
 
-Note that the blank entries means there is no such argument, we enforce such empty arguments to maintain structured format.
+We provide segementation and annotation in ``SciEvent_data/annotated`` folder. We also provide raw abstracts (except for CSCW's, due to license limitation) we used, they are in ``SciEvent_data/abstract_texts`` folder.
 
-We also provide raw abstracts we used, they are in ``SciEvent_data/raw_abstracts`` folder. Unannotated JSON for each venue are also provided in ``SciEvent_data/raw/domain_specific_unannotated`` folder, you can load each of these JSON files on the Render interface for annotation.
+# Data Attribution:
+We give attribution to our used data in the ``SciEvent_data/metadata/SciEvent_metadata.csv`` file. We acknolwedge the titles, authors, doi (if applicable), url and license.
+
 
 # Tuning-Based Models:
 Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 
@@ -33,22 +28,17 @@ Setup virtual env: ```conda env create -f degree.yml```
 Please follow these code to preprocess SciEvent data for DEGREE format:
 
 ```bash
-python data_scripts/DEGREE/prepare_for_DEGREE.py
-# By default input path will be SciEvent_data/raw and output "all_data.json" will be save at SciEvent_data/DEGREE/processed
+bash data_scripts/shared/prepare_data.sh
+# By default output "all_data.json" will be save at SciEvent_data/DEGREE/processed
 
 # Split "all_data.json" for training, validation and testing
-python data_scripts/DEGREE/split_data.py
+python data_scripts/shared/split_data.py
 # Default output directory at SciEvent_data/DEGREE/all_splits
-# Output names will be train.json, dev.json, test.json.
+# Output names will be "train.json", "dev.json", and "test.json".
 ```
 
-To prepare for ablation study, we remove domain data from the training split with following code:
-```bash
-# Default input JSON file "SciEvent_data/DEGREE/all_splits/train.json"
-# Default folder to save outputs "SciEvent_data/DEGREE/ablation"
-python data_scripts/DEGREE/ablate_by_domain.py
-```
-You can treat these ablation in the same way as the training split (changing the training split path to these ablation training split path), this is also the same for later creating OneIE or EEQA data, then you will have the ablation results same as the paper.
+Please note here, we cannot provide abstracts for CSCw due to license limitations, so you will have to download it yourself. You can follow the "doc_id" in the metadata csv and download the corresponding abstracts. If you encounter any trouble, please contact bofudong@iu.edu.
+
 
 ### Training
 
@@ -73,7 +63,6 @@ Evaluate with following code:
 ```bash
 python baselines/DEGREE/degree/eval_scievent.py -c baselines/DEGREE/config/config_degree_scievent.json -e [path_to_your_mdl]
 ```
-<!-- python baselines/DEGREE/degree/eval_scievent.py -c baselines/DEGREE/config/config_degree_scievent.json -e baselines/DEGREE/output/degree_e2e_scievent/full_data/20250917_035015/best_model.mdl -->
 
 ## [OneIE](https://blender.cs.illinois.edu/software/oneie/)
 
@@ -101,15 +90,6 @@ python baselines/ONEIE/predict.py -m baselines/ONEIE/output/scievent/full_data/[
 python baselines/ONEIE/convert_oneie_to_degree_json.py --pred_dir baselines/ONEIE/output_json/full_data --output_file baselines/ONEIE/eval_data/full_data/oneie_preds_degree_format.json
 python baselines/ONEIE/EM_overlap_eval.py --pred baselines/ONEIE/eval_data/full_data/oneie_preds_degree_format.json --gold SciEvent_data/ONEIE/all_splits/test.oneie.json
 ```
-<!-- 20250917_133556
-20250421_140654
-20250917_165651 -->
-<!-- ```bash
-python baselines/ONEIE/json_to_txt_for_pred.py --input_jsonl baselines/ONEIE/output/scievent/full_data/20250917_165651/result.test.json --output_dir baselines/ONEIE/txt/full_data
-python baselines/ONEIE/predict.py -m baselines/ONEIE/output/scievent/full_data/20250917_165651/best.role.mdl -i baselines/ONEIE/txt/full_data -o baselines/ONEIE/output_json/full_data --format txt
-python baselines/ONEIE/convert_oneie_to_degree_json.py --pred_dir baselines/ONEIE/output_json/full_data --output_file baselines/ONEIE/eval_data/full_data/oneie_preds_degree_format.json
-python baselines/ONEIE/EM_overlap_eval.py --pred baselines/ONEIE/eval_data/full_data/oneie_preds_degree_format.json --gold SciEvent_data/ONEIE/all_splits/test.oneie.json
-``` -->
 
 ## [EEQA](https://github.com/xinyadu/eeqa/tree/master)
 
@@ -157,9 +137,7 @@ python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/sci
 ```
 
 
-# LLMs & Human performance 
-<!-- todo data structure cleaning and removing of unessary data, also clean other baseline data after -->
-LLMs are given same input as human to ensure fair evaluation, and all LLMs share same input format and output format. 
+# LLMs  performance 
 
 ## Prompting
 
@@ -200,10 +178,9 @@ python baselines/LLM/scripts/Event_segmentation.py \
   --model meta-llama/Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
   --output-base-dir baselines/LLM/output/Event_Segmentation \
-  --input-dir SciEvent_data/raw/domain_specific_unannotated \
+  --input-dir SciEvent_data/unannotated \
   --clean-cache
 ```
-
 
 **OpenAI model:**
 ```bash
@@ -212,7 +189,7 @@ python baselines/LLM/scripts/Event_segmentation_openai.py \
   --model "gpt-4.1" \
   --prompt-template Zero-Shot_Event_Segmentation \
   --output-base-dir baselines/LLM/output/Event_Segmentation \
-  --input-dir SciEvent_data/raw/domain_specific_unannotated \
+  --input-dir SciEvent_data/unannotated \
   --api-key "YOUR_API_KEY" \
   --max-concurrent 5
 ```
@@ -227,8 +204,8 @@ python baselines/LLM/scripts/LLM_ES_extraction.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model-name Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --base-dir ./baselines/LLM/output/Event_Segmentation \
-  --input-dir ./SciEvent_data/raw/domain_specific_unannotated
+  --base-dir baselines/LLM/output/Event_Segmentation \
+  --input-dir SciEvent_data/unannotated
 ```
 
 ### 2. Event Extraction
@@ -249,7 +226,7 @@ python baselines/LLM/scripts/Event_extraction.py \
   --model "meta-llama/Meta-Llama-3.1-8B-Instruct"\
   --prompt "Few-shot-2_Event_Extraction" \
   --output-base-dir baselines/LLM/output/Event_Extraction \
-  --input-dir SciEvent_data/raw/domain_specific_unannotated
+  --input-dir SciEvent_data/unannotated
 ```
 
 **Standard Event Extraction (OpenAI):**
@@ -259,7 +236,7 @@ python baselines/LLM/scripts/Event_extraction_openai.py \
   --model "gpt-4.1" \
   --prompt "Few-shot-2_Event_Extraction" \
   --output-base-dir baselines/LLM/output/Event_Extraction \
-  --input-dir SciEvent_data/raw/domain_specific_unannotated
+  --input-dir SciEvent_data/unannotated
   --api-key "YOUR_API_KEY" \
   --max-concurrent 5
 ```
@@ -307,7 +284,7 @@ Where `[PROMPT_TEMPLATE]` should match the prompt template used in Step 2a:
 - For Event_extraction.py or Event_extraction_openai.py: Use `"One-Shot_Event_Extraction"` or other extraction templates
 - For Pred_Event_Type.py: Use `"Zero-shot_Pred_Event_Type"`
 - For True_Event_type.py: Use `"Zero-shot_True_Event_Type"`
-Default input folder: ``./SciEvent_data/raw/domain_specific_unannotated``, default base folder: ``./baselines/LLM/output/Event_Extraction``
+Default input folder: ``SciEvent_data/unannotated``, default base folder: ``./baselines/LLM/output/Event_Extraction``
 
 ### LLM Evaluation:
 
@@ -325,21 +302,9 @@ Results are by default in ``baselines/LLM/LLM_results/Event_Segmentation``.
 
 
 ### 2. Event Extraction
-Run these two files, to first preprocess the raw input:
+First preprocess the raw input:
 
-```bash 
-bash baselines/LLM/extraction_eval/prepare_for_eval.sh
-
-python baselines/LLM/extraction_eval/filter_subset.py \
-    --input SciEvent_data/LLM/Event_Extraction/human/human_eval/gold_event_level.json \
-    --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
-    --output SciEvent_data/LLM/Event_Extraction/human/human_eval/filtered_gold_event_level.json
-
-python baselines/LLM/extraction_eval/filter_subset.py \
-    --input SciEvent_data/LLM/Event_Extraction/human/human_eval/pred_event_level.json \
-    --filter SciEvent_data/DEGREE/human_subset/test_subset.json \
-    --output SciEvent_data/LLM/Event_Extraction/human/human_eval/filtered_pred_event_level.json
-```
+```bash baselines/LLM/extraction_eval/prepare_for_eval.sh```
 
 and then evaluate:
 
@@ -347,7 +312,5 @@ and then evaluate:
 
 results will be saved to default ```baselines/LLM/LLM_results/Event_Extraction```
 
-```baselines/LLM/LLM_results/Event_Extraction/human.txt``` is the default path for human performance, this is compared to previous models' human_subset to demonstrate both finetuned and LLMs baselines's gap with human performance. LLMs' subset results are saved in ```baselines/LLM/LLM_results/Event_Extraction``` as well, ending with ```-subset.txt```
-
 # Annotation Tool
-Following is the link to our annotation tool: ``https://annotation-demo.onrender.com/`` you can annotate data by loading any of the unannotated JSON in this path ``SciEvent_data/raw/domain_specific_unannotated``, but you need to first creat an account to use it.
+Following is the link to our annotation tool: ``https://annotation-demo.onrender.com/`` you can annotate data by loading any of the unannotated JSON in this path ``SciEvent_data/unannotated``, but you need to first creat an account to use it.

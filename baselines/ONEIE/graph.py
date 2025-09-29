@@ -55,11 +55,6 @@ class Graph(object):
         relation_itos = {i: s for s, i in self.vocabs['relation_type'].items()}
         role_itos = {i: s for s, i in self.vocabs['role_type'].items()}
         mention_itos = {i: s for s, i in self.vocabs['mention_type'].items()}
-        
-        # entities = [[i, j, entity_itos[k], mention_itos[l]] for (i, j, k), (_, _, l) in zip(self.entities, self.mentions)]
-        # triggers = [[i, j, trigger_itos[k]] for i, j, k in self.triggers]
-        # relations = [[i, j, relation_itos[k]] for i, j, k in self.relations]
-        # roles = [[i, j, role_itos[k]] for i, j, k in self.roles]
 
         entities = [[i, j, entity_itos[k], mention_itos[l], s] for (i, j, k), (_, _, l), s in zip(self.entities, self.mentions, self.entity_scores)]
         triggers = [[i, j, trigger_itos[k], l] for (i, j, k), l in zip(self.triggers, self.trigger_scores)]
@@ -96,26 +91,11 @@ class Graph(object):
         return graph
 
     def clean(self, relation_directional=False, symmetric_relations=None):
-        # self.entities.sort(key=lambda x: (x[0], x[1]))
-        # self.triggers.sort(key=lambda x: (x[0], x[1]))
-        # self.relations.sort(key=lambda x: (x[0], x[1]))
-        # self.roles.sort(key=lambda x: (x[0], x[1]))
 
         entities = [(i, j, k, l) for (i, j, k), l in zip(self.entities, self.entity_scores)]
         triggers = [(i, j, k, l) for (i, j, k), l in zip(self.triggers, self.trigger_scores)]
         relations = [(i, j, k, l) for (i, j, k), l in zip(self.relations, self.relation_scores)]
         roles = [(i, j, k, l) for (i, j, k), l in zip(self.roles, self.role_scores)]
-
-        # coref_idx = self.vocabs['relation_type'].get('COREF', None)
-        # if coref_idx is not None:
-        #     relations, corefs = [], []
-        #     for i, j, k in self.relations:
-        #         if k == coref_idx:
-        #             corefs.append((i, j, k))
-        #         else:
-        #             relations.append((i, j, k))
-        #     self.relations = relations
-        #     self.corefs = corefs
 
         # clean relations
         if relation_directional and symmetric_relations:

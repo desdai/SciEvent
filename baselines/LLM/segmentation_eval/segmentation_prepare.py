@@ -65,11 +65,11 @@ for filename in os.listdir(input_folder):
 
     flush()
 
-    # 🔁 Rename: chunked.txt → extracted.txt
+    # Rename: chunked.txt → extracted.txt
     output_name = filename.replace("chunked.txt", "extracted.txt")
     output_path = os.path.join(output_folder, output_name)
 
     with open(output_path, "w", encoding="utf-8") as f_out:
         f_out.write("\n".join(output_lines))
 
-    print(f"✅ Saved: {output_path} ({len(output_lines)} lines)")
+    print(f"Saved: {output_path} ({len(output_lines)} lines)")
