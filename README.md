@@ -105,13 +105,14 @@ bash data_scripts/EEQA/convert_to_eeqa.sh
 
 ### Train and evaluate models
 
-**Trigger Detection**
+**Trigger Detection:**
 
 ``` bash baselines/EEQA/code/script_trigger_qa.sh ```
 
 Default output path: ```baselines/EEQA/scievent_trigger_qa_output/full_data```
 
-**Argument Extraction**
+**Argument Extraction:**
+
 SciEvent uses the best performing template and setting reported by EEQA and after preliminary experiment. 
 
 Full data With dynamic threshold:
@@ -311,4 +312,4 @@ and then evaluate:
 results will be saved to default ```baselines/LLM/LLM_results/Event_Extraction```
 
 # Annotation Tool
-Following is the link to our annotation tool: ``https://annotation-demo.onrender.com/`` you can annotate data by loading any of the unannotated JSON in this path ``SciEvent_data/unannotated``, but you need to first creat an account to use it.
+Following is the link to our annotation tool: ``https://annotation-demo.onrender.com/`` you can annotate data by loading any of the unannotated JSON in this path ``SciEvent_data/to_be_annotated``, but you need to first creat an account to use it.
