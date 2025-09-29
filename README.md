@@ -107,7 +107,9 @@ bash data_scripts/EEQA/convert_to_eeqa.sh
 
 **Trigger Detection:**
 
-``` bash baselines/EEQA/code/script_trigger_qa.sh ```
+```bash
+bash baselines/EEQA/code/script_trigger_qa.sh
+```
 
 Default output path: ```baselines/EEQA/scievent_trigger_qa_output/full_data```
 
@@ -117,7 +119,9 @@ SciEvent uses the best performing template and setting reported by EEQA and afte
 
 Full data With dynamic threshold:
   
-```bash baselines/EEQA/code/script_args_qa_thresh.sh```
+```bash
+bash baselines/EEQA/code/script_args_qa_thresh.sh
+```
 
 Default output path: ```baselines/EEQA/scievent_args_qa_thresh_output/full_data```
 
@@ -293,9 +297,15 @@ You can verify these by checking the JSON files under the same model and prompti
 
 ### 1. Event Segmentation
 
-First run ``bash baselines/LLM/segmentation_eval/segmentation_prepare.sh `` to prepare input evaluation.
+First prepare input evaluation: 
+```bash
+bash baselines/LLM/segmentation_eval/segmentation_prepare.sh
+```
 
-Then run ``bash baselines/LLM/segmentation_eval/segmentation_eval.sh`` to evaluate. 
+Then evaluate:
+```bash
+bash baselines/LLM/segmentation_eval/segmentation_eval.sh
+```
 
 Results are by default in ``baselines/LLM/LLM_results/Event_Segmentation``.
 
@@ -303,11 +313,15 @@ Results are by default in ``baselines/LLM/LLM_results/Event_Segmentation``.
 ### 2. Event Extraction
 First preprocess the raw input (we assume you run all prompts templates, but you can edit the shell scripts to remove certain prompts template, also please make sure the prompt template names used above mactch in these shell scripts):
 
-```bash baselines/LLM/extraction_eval/prepare_for_eval.sh```
+```bash
+bash baselines/LLM/extraction_eval/prepare_for_eval.sh
+```
 
-and then evaluate:
+Then evaluate:
 
-```bash baselines/LLM/extraction_eval/EM_overlap_eval.sh```
+```bash
+bash baselines/LLM/extraction_eval/EM_overlap_eval.sh
+```
 
 results will be saved to default ```baselines/LLM/LLM_results/Event_Extraction```
 
