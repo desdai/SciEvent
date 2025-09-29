@@ -1,0 +1,18 @@
+Paper Code: ACL_23_P_183
+
+[Background]: The potential choices for news article headlines are enormous, and finding the right balance between conveying the essential message and capturing the reader’s attention is key to effective headlining. However, presenting the same news headline to all readers is a suboptimal strategy, because it does not take into account the different preferences and interests of diverse readers, who may be confused about why a particular article has been recommended to them and do not see a clear connection between their interests and the recommended article.
+
+[Method]: In this paper, we present a novel framework that addresses these challenges by incorporating user profiling to generate personalized headlines, and a combination of automated and human evaluation methods to determine user preference for personalized headlines. Our framework utilizes a learnable relevance function to assign personalized signature phrases to users based on their reading histories, which are then used to personalize headline generation.
+
+[Results]: Through extensive evaluation, we demonstrate the effectiveness of our proposed framework in generating personalized headlines that meet the needs of a diverse audience.
+
+[Implications]: Our framework has the potential to improve the efficacy of news recommendations and facilitate creation of personalized content.
+Paper Code: ACL_23_P_386
+
+[Background]: Fact-checking real-world claims often requires collecting multiple pieces of evidence and applying complex multi-step reasoning.
+
+[Method]: In this paper, we present Program-Guided Fact-Checking (ProgramFC), a novel fact-checking model that decomposes complex claims into simpler sub-tasks that can be solved using a shared library of specialized functions. We first leverage the in-context learning ability of large language models to generate reasoning programs to guide the verification process. Afterward, we execute the program by delegating each sub-task to the corresponding sub-task handler. This process makes our model both explanatory and data-efficient, providing clear explanations of its reasoning process and requiring minimal training data.
+
+[Results]: We evaluate ProgramFC on two challenging fact-checking datasets and show that it outperforms seven fact-checking baselines across different settings of evidence availability, with explicit output programs that benefit human debugging.
+
+[Implications]: <NONE>

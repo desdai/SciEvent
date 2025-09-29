@@ -119,7 +119,13 @@ class EEDataset(Dataset):
             token_lens = inst['token_lens']
             
             piece_idxs = self.tokenizer.convert_tokens_to_ids(pieces)
-            assert sum(token_lens) == len(piece_idxs)
+
+            # assert sum(token_lens) == len(piece_idxs)
+            if sum(token_lens) != len(piece_idxs):
+                doc_id = inst.get("doc_id", "UNKNOWN")
+                print(f"[WARN] Skipping {doc_id}: sum(token_lens)={sum(token_lens)} "
+                    f"!= len(pieces)={len(piece_idxs)}")
+                continue
                         
             triggers = [(e['trigger']['start'], e['trigger']['end'], e['event_type']) for e in events]
             roles = get_role_list(entities, events, entity_id_map)

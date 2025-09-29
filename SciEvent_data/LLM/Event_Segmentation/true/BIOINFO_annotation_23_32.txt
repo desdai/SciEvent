@@ -1,0 +1,18 @@
+Paper Code: bioinfo_23_P_248
+
+[Background]: Read-overlap-based graph data structures play a central role in computing de novo genome assembly. Most long-read assemblers use Myers's string graph model to sparsify overlap graphs. Graph sparsification improves assembly contiguity by removing spurious and redundant connections. However, a graph model must be coverage-preserving, i.e. it must ensure that there exist walks in the graph that spell all chromosomes, given sufficient sequencing coverage. This property becomes even more important for diploid genomes, polyploid genomes, and metagenomes where there is a risk of losing haplotype-specific information.
+
+[Method]: We develop a novel theoretical framework under which the coverage-preserving properties of a graph model can be analyzed. We first prove that de Bruijn graph and overlap graph models are guaranteed to be coverage-preserving. We next show that the standard string graph model lacks this guarantee.
+
+[Results]: The latter result is consistent with prior work suggesting that removal of contained reads, i.e., the reads that are substrings of other reads, can lead to coverage gaps during string graph construction. Our experiments done using simulated long reads from HG002 human diploid genome show that 50 coverage gaps are introduced on average by ignoring contained reads from nanopore datasets.
+
+[Implications]: To remedy this, we propose practical heuristics that are well-supported by our theoretical results and are useful to decide which contained reads should be retained to avoid coverage gaps. Our method retains a small fraction of contained reads (1-2%) and closes majority of the coverage gaps.
+Paper Code: bioinfo_23_P_716
+
+[Background]: The Kyoto Encyclopedia of Genes and Genomes (KEGG) database serves as a valuable systems biology resource and is widely utilized in diverse research fields. However, existing software does not allow flexible visualization and network analyses of the vast and complex KEGG data.
+
+[Method]: We developed ggkegg, an R package that integrates KEGG information with ggplot2 and ggraph. ggkegg enables enhanced visualization and network analyses of KEGG data. We demonstrate the utility of the package by providing examples of its application in single-cell, bulk transcriptome, and microbiome analyses.
+
+[Results]: <NONE>
+
+[Implications]: ggkegg may empower researchers to analyze complex biological networks and present their results effectively.

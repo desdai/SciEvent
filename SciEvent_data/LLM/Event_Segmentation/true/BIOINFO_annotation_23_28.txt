@@ -1,0 +1,18 @@
+Paper Code: bioinfo_23_P_525
+
+[Background]: With the rapid advances of RNA sequencing and microarray technologies in non-coding RNA (ncRNA) research, functional tools that perform enrichment analysis for ncRNAs are needed. On the one hand, because of the rapidly growing interest in circRNAs, snoRNAs, and piRNAs, it is essential to develop tools for enrichment analysis for these newly emerged ncRNAs. On the other hand, due to the key role of ncRNAs' interacting targets in the determination of their function, the interactions between ncRNA and its corresponding target should be fully considered in functional enrichment.
+
+[Method]: Based on the ncRNA-mRNA/protein-function strategy, some tools have been developed to functionally analyze a single type of ncRNA (the majority focuses on miRNA); in addition, some tools adopt predicted target data and lead to only low-confidence results. Herein, an online tool named RNAenrich was developed to enable the comprehensive and accurate enrichment analysis of ncRNAs. It is unique in (i) realizing the enrichment analysis for various RNA types in humans and mice, such as miRNA, lncRNA, circRNA, snoRNA, piRNA, and mRNA; (ii) extending the analysis by introducing millions of experimentally validated data of RNA-target interactions as a built-in database; and (iii) providing a comprehensive interacting network among various ncRNAs and targets to facilitate the mechanistic study of ncRNA function.
+
+[Results]: Importantly, RNAenrich led to a more comprehensive and accurate enrichment analysis in a COVID-19-related miRNA case, which was largely attributed to its coverage of comprehensive ncRNA-target interactions.
+
+[Implications]: <NONE>
+Paper Code: bioinfo_23_P_428
+
+[Background]: Native top-down proteomics (nTDP) integrates native mass spectrometry (nMS) with top-down proteomics (TDP) to provide comprehensive analysis of protein complexes together with proteoform identification and characterization. Despite significant advances in nMS and TDP software developments, a unified and user-friendly software package for analysis of nTDP data remains lacking.
+
+[Method]: We have developed MASH Native to provide a unified solution for nTDP to process complex datasets with database searching capabilities in a user-friendly interface. MASH Native supports various data formats and incorporates multiple options for deconvolution, database searching, and spectral summing to provide a 'one-stop shop' for characterizing both native protein complexes and proteoforms.
+
+[Results]: <NONE>
+
+[Implications]: <NONE>

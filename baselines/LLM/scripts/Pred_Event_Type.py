@@ -41,11 +41,8 @@ class Config:
     MODEL_CACHE_DIR = "./model_cache"
     
     # Folder structure
-    # BASE_DIR = "./SciEvent_data"
-    # INPUT_DIR = f"{BASE_DIR}/raw"
-    # OUTPUT_BASE_DIR = "./output/event_extraction"
-    INPUT_DIR = "./SciEvent_data/raw/domain_specific_unannotated"
-    OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Extraction"
+    INPUT_DIR = "./SciEvent_data/raw/to_be_annotated"
+    OUTPUT_BASE_DIR = "./SciEvent_data/LLM/Event_Extraction"
 
     # Prompt template name
     PROMPT_TEMPLATE_NAME = "Zero-shot_Pred_Event_Type" # Change the prompt template name bassed onthe prompt

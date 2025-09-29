@@ -128,10 +128,10 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('--pred_folder', required=True)
-    parser.add_argument('--gold_folder', required=True)
+    # parser.add_argument('--gold_folder', required=True)
     parser.add_argument('--pred_out', default='pred_event_level.json')
-    parser.add_argument('--gold_out', default='gold_event_level.json')
+    # parser.add_argument('--gold_out', default='gold_event_level.json')
     args = parser.parse_args()
 
     process_folder(args.pred_folder, args.pred_out, is_true=False)
-    process_folder(args.gold_folder, args.gold_out, is_true=True)
+    # process_folder(args.gold_folder, args.gold_out, is_true=True)

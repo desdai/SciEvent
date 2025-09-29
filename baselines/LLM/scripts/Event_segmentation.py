@@ -22,11 +22,8 @@ class Config:
     MODEL_CACHE_DIR = "./model_cache"
 
     # Folder structure
-    # BASE_DIR = "./SciEvent_data/raw"
-    # INPUT_DIR = f"{BASE_DIR}/domain_specific_unannotated"
-    # OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Segmentation"
-    INPUT_DIR = "./SciEvent_data/raw/domain_specific_unannotated"
-    OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Segmentation"
+    INPUT_DIR = "./SciEvent_data/raw/to_be_annotated"
+    OUTPUT_BASE_DIR = "./SciEvent_data/LLM/Event_Segmentation"
     
     # Prompt template name
     PROMPT_TEMPLATE_NAME = "Zero-Shot_Event_Segmentation"
@@ -36,10 +33,6 @@ class Config:
     
     # Processing settings
     MAX_NEW_TOKENS = 1200
-    #TEMPERATURE = 0.3
-    #TOP_P = 0.9
-
-
 
 # Chunking prompt template
 CHUNK_PROMPT = """Extract the following abstract into four sections: Background, Method, Results, and Implications.
@@ -68,10 +61,6 @@ Ensure your answer strictly follows this structure:
 {abstract}
 Your Answer:
 """ 
-
-
-
-
 
 class StopOnSubsequence(StoppingCriteria):
     def __init__(self, tokenizer, stop_string):
@@ -644,7 +633,7 @@ def main():
     parser.add_argument("--output-base-dir", type=str, default=Config.OUTPUT_BASE_DIR,
                     help="Base directory for all outputs (default: ./baselines/LLM/output/Event_Segmentation)")
     parser.add_argument("--input-dir", type=str, default=Config.INPUT_DIR,
-                    help="Base directory for domain-specific input JSON files (default: ./SciEvent_data/raw/domain_specific_unannotated)")
+                    help="Base directory for domain-specific input JSON files (default: SciEvent_data/raw/to_be_annotated)")
     parser.add_argument("--clean-cache", action="store_true", help="Force redownload the model")
     
     args = parser.parse_args()

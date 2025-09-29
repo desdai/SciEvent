@@ -1393,13 +1393,13 @@ def main():
         )
     parser.add_argument("--domains", type=str, required=True, nargs='+',
                         help="List of domains to process (e.g., ACL BIOINFO). Used to find input/output subdirectories.")
-    parser.add_argument("--base-dir", type=str, default="./baselines/LLM/output/Event_Extraction",
+    parser.add_argument("--base-dir", type=str, default="./SciEvent_data/LLM/Event_Extraction",
                         help="Base directory where prompt/model/domain output structures reside.")
-    parser.add_argument("--input-dir", type=str, default="./SciEvent_data/raw/domain_specific_unannotated",
+    parser.add_argument("--input-dir", type=str, default="./SciEvent_data/raw/to_be_annotated",
                         help="Base directory containing domain-specific input JSON files (e.g., ./SciEvent_data/raw/ACL).")
-    parser.add_argument("--prompt-template", type=str, default="Oneshot",
+    parser.add_argument("--prompt-template", type=str, default="Zero-Shot_Event_Extraction",
                         help="Name of the prompt template used (subdirectory name under base-dir).")
-    parser.add_argument("--model-name", type=str, default="gpt-4.1", #Qwen2.5-7B-Instruct Meta-Llama-3-8B-Instruct DeepSeek-R1-Distill-Llama-8B DeepSeek-R1-Distill-Qwen-7B
+    parser.add_argument("--model-name", type=str, default="gpt-4.1", #Qwen2.5-7B-Instruct, Meta-Llama-3-8B-Instruct, DeepSeek-R1-Distill-Llama-8B
                         help="Name of the model used (subdirectory name under prompt-template).")
 
     args = parser.parse_args()
@@ -1410,7 +1410,7 @@ def main():
         # Input path for the specific domain
         domain_input_dir = os.path.join(args.input_dir, domain)
         # Base output path for this specific experiment run
-        output_base_dir = os.path.join(args.base_dir, args.model_name, args.prompt_template, domain)
+        output_base_dir = os.path.join(args.base_dir, args.model_name, args.prompt_template)
         # Specific subdirectories within the output base
         raw_output_dir = os.path.join(output_base_dir, "raw_output")
         log_dir = os.path.join(output_base_dir, "logs") # Logs stored within the specific run directory

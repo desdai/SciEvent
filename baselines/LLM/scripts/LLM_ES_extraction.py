@@ -1040,7 +1040,7 @@ def main():
         
         # Construct specific paths based on arguments
         domain_input_dir = os.path.join(args.input_dir, domain)
-        output_base_dir = os.path.join(args.base_dir, args.model_name, args.prompt_template, domain)
+        output_base_dir = os.path.join(args.base_dir, args.model_name, args.prompt_template)
         raw_output_dir = os.path.join(output_base_dir, "raw_output")
         log_dir = os.path.join(output_base_dir, "logs")
         

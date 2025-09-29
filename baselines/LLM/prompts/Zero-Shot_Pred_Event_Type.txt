@@ -11,13 +11,13 @@ You are an expert argument annotator. Given a part of the text from a scientific
 
 ### Argument Components to Extract:
 
-Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
+Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
 
-Agent: Who or what is performing this main action? 
+Agent: Who or what is performing this action? 
 
 Object:
-- Primary Object: What is directly receiving or affected by the main action? 
-- Secondary Object: What is a secondary entity also receiving the main action?
+- Primary Object: What is directly receiving or affected by the action? 
+- Secondary Object: What is a secondary entity also receiving the action?
 
 Context: What provides foundational or situational information of the event?
 
@@ -49,7 +49,7 @@ Contradictions: What are the disagreements with existing knowledge?
 
 ### Output Format:
 {
-  "Main Action": "EXACT TEXT or <NONE>",
+  "Action": "EXACT TEXT or <NONE>",
   "Agent": ["EXACT TEXT or <NONE>"],
    "Object": {
     "Primary Object": ["EXACT TEXT or <NONE>"],

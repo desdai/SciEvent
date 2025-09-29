@@ -8,16 +8,17 @@ The SciEvent dataset contains 500 scientific abstracts across 5 venues of differ
 - 80 abstracts from the Journal of Medical Internet Research (JMIR), Medical Informatics
 
 
-We provide segementation and annotation in ``SciEvent_data/annotated`` folder. We also provide raw abstracts (except for CSCW's, due to license limitation) we used, they are in ``SciEvent_data/abstract_texts`` folder.
+We provide segementation and annotation in ``SciEvent_data/annotated`` folder. We also provide raw abstracts that are invovled in the experiments (except for CSCW's, due to license limitation) we used, they are in ``SciEvent_data/abstract_texts`` folder.
 
 # Data Attribution:
-We give attribution to our used data in the ``SciEvent_data/metadata/SciEvent_metadata.csv`` file. We acknolwedge the titles, authors, doi (if applicable), url and license.
+We give attribution to all abstracts that contribute to building this work in the ``SciEvent_data/metadata/SciEvent_metadata.csv`` file. We acknolwedge the titles, authors, doi (if applicable), url and license.
 
+Please note, for all following baseline models and LLMs, we cannot provide abstracts for CSCW due to license limitations, and if you want to reproduce exact results as the paper, please prepare these abstracts yourself. You can follow the "doc_id" and "url" in the ``SciEvent_data/metadata/cscw_used_abstracts.xlsx`` and download the corresponding abstracts. We highly recommend download these abstracts. If you encounter any trouble, please contact bofudong@iu.edu.
 
 # Tuning-Based Models:
 Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 
 
-The following code assume your path at the repo's root ```./SciEvent```
+The following code assume your path at the Repository's root ```./SciEvent```
 
 ## [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master)
 
@@ -36,9 +37,6 @@ python data_scripts/shared/split_data.py
 # Default output directory at SciEvent_data/DEGREE/all_splits
 # Output names will be "train.json", "dev.json", and "test.json".
 ```
-
-Please note here, we cannot provide abstracts for CSCw due to license limitations, so you will have to download it yourself. You can follow the "doc_id" in the metadata csv and download the corresponding abstracts. If you encounter any trouble, please contact bofudong@iu.edu.
-
 
 ### Training
 
@@ -159,7 +157,6 @@ Install the required dependencies:
 # Install dependencies using pip
 pip install -r requirements.txt
 ```
-
 ---
 
 ### 1. Event Segmentation
@@ -177,8 +174,8 @@ python baselines/LLM/scripts/Event_segmentation.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model meta-llama/Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --output-base-dir baselines/LLM/output/Event_Segmentation \
-  --input-dir SciEvent_data/unannotated \
+  --output-base-dir SciEvent_data/LLM/Event_Segmentation \
+  --input-dir SciEvent_data/to_be_annotated \
   --clean-cache
 ```
 
@@ -188,8 +185,8 @@ python baselines/LLM/scripts/Event_segmentation_openai.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model "gpt-4.1" \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --output-base-dir baselines/LLM/output/Event_Segmentation \
-  --input-dir SciEvent_data/unannotated \
+  --output-base-dir SciEvent_data/LLM/Event_Segmentation \
+  --input-dir SciEvent_data/to_be_annotated \
   --api-key "YOUR_API_KEY" \
   --max-concurrent 5
 ```
@@ -204,8 +201,8 @@ python baselines/LLM/scripts/LLM_ES_extraction.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model-name Meta-Llama-3.1-8B-Instruct \
   --prompt-template Zero-Shot_Event_Segmentation \
-  --base-dir baselines/LLM/output/Event_Segmentation \
-  --input-dir SciEvent_data/unannotated
+  --base-dir SciEvent_data/LLM/Event_Segmentation \
+  --input-dir SciEvent_data/to_be_annotated
 ```
 
 ### 2. Event Extraction
@@ -218,15 +215,15 @@ Choose one approach:
 
 Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"``
 
-Prompts choices are any prompt ending with ``_Event_Extraction.txt`` in this folder ``baselines/LLM/prompts``
+Prompts choices are `"Zero-Shot_Event_Extraction"`, `"One-Shot_Event_Extraction"`, `"Few-shot-5_Event_Extraction"` or `"Few-shot-2_Event_Extraction"` in this folder ``baselines/LLM/prompts``
 
 ```bash
 python baselines/LLM/scripts/Event_extraction.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model "meta-llama/Meta-Llama-3.1-8B-Instruct"\
   --prompt "Few-shot-2_Event_Extraction" \
-  --output-base-dir baselines/LLM/output/Event_Extraction \
-  --input-dir SciEvent_data/unannotated
+  --output-base-dir SciEvent_data/LLM/Event_Extraction \
+  --input-dir SciEvent_data/to_be_annotated
 ```
 
 **Standard Event Extraction (OpenAI):**
@@ -235,15 +232,15 @@ python baselines/LLM/scripts/Event_extraction_openai.py \
   --domains ACL BIOINFO CSCW DH JMIR \
   --model "gpt-4.1" \
   --prompt "Few-shot-2_Event_Extraction" \
-  --output-base-dir baselines/LLM/output/Event_Extraction \
-  --input-dir SciEvent_data/unannotated
+  --output-base-dir SciEvent_data/LLM/Event_Extraction \
+  --input-dir SciEvent_data/to_be_annotated
   --api-key "YOUR_API_KEY" \
   --max-concurrent 5
 ```
 
 #### Event Type Ablation
 
-Following use same input and output folder as above.
+Following use same input and output folder as above. This is to see how model perform if they are asked to consider the event type information when extracting. 
 
 Model choices are: ``"Qwen/Qwen2.5-7B-Instruct"``, ``"meta-llama/Meta-Llama-3.1-8B-Instruct"``, ``"deepseek-ai/DeepSeek-R1-Distill-Llama-8B"`` if ``MODEL_TYPE = huggingface``.
 
@@ -271,7 +268,7 @@ Only ``gpt-4.1``is experimented using ``MODEL_TYPE = openai``. If the API call s
 
 **Step 2b: Process Raw Extraction Output**
 
-All event extraction approaches generate raw text files that must be processed into structured JSON format:
+All event extraction approaches generate raw text files that are processed into structured JSON format:
 
 ```bash
 python baselines/LLM/scripts/LLM_EE_extraction.py \
@@ -281,10 +278,11 @@ python baselines/LLM/scripts/LLM_EE_extraction.py \
 ```
 
 Where `[PROMPT_TEMPLATE]` should match the prompt template used in Step 2a:
-- For Event_extraction.py or Event_extraction_openai.py: Use `"One-Shot_Event_Extraction"` or other extraction templates
+- For Event_extraction.py or Event_extraction_openai.py: Use `"Zero-Shot_Event_Extraction"`, `"One-Shot_Event_Extraction"`, `"Few-shot-5_Event_Extraction"` or `"Few-shot-2_Event_Extraction"`
 - For Pred_Event_Type.py: Use `"Zero-shot_Pred_Event_Type"`
 - For True_Event_type.py: Use `"Zero-shot_True_Event_Type"`
-Default input folder: ``SciEvent_data/unannotated``, default base folder: ``./baselines/LLM/output/Event_Extraction``
+
+Default input folder: ``SciEvent_data/to_be_annotated``, default base folder: ``./SciEvent_data/LLM/Event_Extraction``
 
 ### LLM Evaluation:
 
@@ -302,7 +300,7 @@ Results are by default in ``baselines/LLM/LLM_results/Event_Segmentation``.
 
 
 ### 2. Event Extraction
-First preprocess the raw input:
+First preprocess the raw input (we assume you run all prompts templates, but you can edit the shell scripts to remove certain prompts template, also please make sure the prompt template names used above mactch in these shell scripts):
 
 ```bash baselines/LLM/extraction_eval/prepare_for_eval.sh```
 

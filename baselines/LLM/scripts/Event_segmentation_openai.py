@@ -21,11 +21,8 @@ class Config:
     MODEL_NAME = "gpt-4.1"  # ChatGPT 4.1 model name
     
     # Folder structure
-    # BASE_DIR = "./SciEvent_data/raw"
-    # INPUT_DIR = f"{BASE_DIR}/domain_specific_unannotated"
-    # OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Segmentation"
-    INPUT_DIR = "./SciEvent_data/raw/domain_specific_unannotated"
-    OUTPUT_BASE_DIR = "./baselines/LLM/output/Event_Segmentation"
+    INPUT_DIR = "./SciEvent_data/raw/to_be_annotated"
+    OUTPUT_BASE_DIR = "./SciEvent_data/LLM/Event_Segmentation"
 
     # Prompt template name
     PROMPT_TEMPLATE_NAME = "Zero-Shot_Event_Segmentation"
@@ -542,7 +539,7 @@ def main():
     parser.add_argument("--output-base-dir", type=str, default=Config.OUTPUT_BASE_DIR,
                     help="Base directory for all outputs (default: ./baselines/LLM/output/Event_Segmentation)")
     parser.add_argument("--input-dir", type=str, default=Config.INPUT_DIR,
-                    help="Base directory for domain-specific input JSON files (default: ./SciEvent_data/raw/domain_specific_unannotated)")
+                    help="Base directory for domain-specific input JSON files (default: SciEvent_data/to_be_annotated)")
     parser.add_argument("--model", type=str, default=Config.MODEL_NAME, 
                         help="OpenAI model name (default: gpt-4-1106-preview)")
     parser.add_argument("--max-concurrent", type=int, default=10,

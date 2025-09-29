@@ -6,13 +6,13 @@ You are an expert argument annotator. Given a part of a scientific abstract, you
 
 ### Argument Components to Extract:
 
-Main Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
+Action: What is the SINGLE most representative trigger (verb or verb phrase) in the segment? 
 
-Agent: Who or what is performing this main action? 
+Agent: Who or what is performing this action? 
 
 Object:
-- Primary Object: What is directly receiving or affected by the main action? 
-- Secondary Object: What is a secondary entity also receiving the main action?
+- Primary Object: What is directly receiving or affected by the action? 
+- Secondary Object: What is a secondary entity also receiving the action?
 
 Context: What provides foundational or situational information of the event?
 
@@ -50,7 +50,7 @@ For abstract: "Second language acquisition (SLA) research has extensively studie
 
 Output:
 {
-  "Main Action": "has extensively studied",
+  "Action": "has extensively studied",
   "Agent": ["Second language acquisition (SLA) research"],
   "Object": {
     "Primary Object": ["cross-linguistic transfer"],
@@ -72,7 +72,7 @@ For abstract: "To understand patterns of both positive and negative transfer bet
 
 Output:
 {
-  "Main Action": "model",
+  "Action": "model",
   "Agent": ["we"],
   "Object": {
     "Primary Object": ["sequential second language acquisition in LMs"],
@@ -94,7 +94,7 @@ For abstract: "To examine the impact of native CDS, we use the TILT-based cross 
 
 Output:
 {
-  "Main Action": "use",
+  "Action": "use",
   "Agent": ["we"],
   "Object": {
     "Primary Object": ["the TILT-based cross lingual transfer learning approach"],
@@ -116,7 +116,7 @@ For abstract: "Our findings call for further research using our novel Transforme
 
 Output:
 {
-  "Main Action": "call for",
+  "Action": "call for",
   "Agent": ["Our findings"],
   "Object": {
     "Primary Object": ["further research"],
@@ -140,7 +140,7 @@ For abstract: "Read-overlap-based graph data structures play a central role in c
 
 Output:
 {
-  "Main Action": "play",
+  "Action": "play",
   "Agent": ["Read-overlap-based graph data structures"],
   "Object": {
     "Primary Object": ["a central role"],
@@ -162,7 +162,7 @@ For abstract: "We develop a novel theoretical framework under which the coverage
 
 Output:
 {
-  "Main Action": "develop",
+  "Action": "develop",
   "Agent": ["We"],
   "Object": {
     "Primary Object": ["a novel theoretical framework"],
@@ -184,7 +184,7 @@ For abstract: "The latter result is consistent with prior work suggesting that r
 
 Output:
 {
-  "Main Action": "show",
+  "Action": "show",
   "Agent": ["Our experiments"],
   "Object": {
     "Primary Object": ["50 coverage gaps are introduced on average by ignoring contained reads from nanopore datasets"],
@@ -206,7 +206,7 @@ For abstract: "To remedy this, we propose practical heuristics that are well-sup
 
 Output:
 {
-  "Main Action": "propose",
+  "Action": "propose",
   "Agent": ["we"],
   "Object": {
     "Primary Object": ["practical heuristics"],
@@ -230,7 +230,7 @@ For abstract: "Live streaming has become a popular activity world-wide that has 
 
 Output:
 {
-  "Main Action": "has become",
+  "Action": "has become",
   "Agent": ["Live streaming"],
   "Object": {
     "Primary Object": ["a popular activity world-wide"],
@@ -252,7 +252,7 @@ For abstract: "To address this gap, we conducted an interview study with 25 Chin
 
 Output:
 {
-  "Main Action": "conducted",
+  "Action": "conducted",
   "Agent": ["we"],
   "Object": {
     "Primary Object": ["an interview study"],
@@ -274,7 +274,7 @@ For abstract: "We found that streamers cared about bystanders' privacy and evalu
 
 Output:
 {
-  "Main Action": "found",
+  "Action": "found",
   "Agent": ["We"],
   "Object": {
     "Primary Object": ["streamers cared about bystanders' privacy"],
@@ -296,7 +296,7 @@ For abstract: "Applying the theoretical lens of collective privacy management, w
 
 Output:
 {
-  "Main Action": "discuss",
+  "Action": "discuss",
   "Agent": ["we"],
   "Object": {
     "Primary Object": ["implications"],
@@ -320,7 +320,7 @@ For abstract: "This paper describes a collaborative project designed to meet the
 
 Output:
 {
-  "Main Action": "describes",
+  "Action": "describes",
   "Agent": ["This paper"],
   "Object": {
     "Primary Object": ["a collaborative project"],
@@ -342,7 +342,7 @@ For abstract: "Our computational tool incorporates a custom data curation proces
 
 Output:
 {
-  "Main Action": "incorporates",
+  "Action": "incorporates",
   "Agent": ["Our computational tool"],
   "Object": {
     "Primary Object": ["custom data curation process"],
@@ -364,7 +364,7 @@ For abstract: "With suitable ground-truth, our open-source OCR transcription too
 
 Output:
 {
-  "Main Action": "can also be retrained to read",
+  "Action": "can also be retrained to read",
   "Agent": ["open-source OCR transcription tool"],
   "Object": {
     "Primary Object": ["other under-resourced scripts"],
@@ -386,7 +386,7 @@ For abstract: "The paper describes our team's collaborative development of this 
 
 Output:
 {
-  "Main Action": "describes",
+  "Action": "describes",
   "Agent": ["The paper"],
   "Object": {
     "Primary Object": ["our team's collaborative development"],
@@ -410,7 +410,7 @@ For abstract: "Obstetric brachial palsy (OBP) is a pathology caused by complicat
 
 Output:
 {
-  "Main Action": "is",
+  "Action": "is",
   "Agent": ["Obstetric brachial palsy (OBP)"],
   "Object": {
     "Primary Object": ["a pathology"],
@@ -432,7 +432,7 @@ For abstract: "This systematic review aims to assess the efficacy of VR in the r
 
 Output:
 {
-  "Main Action": "aims to assess",
+  "Action": "aims to assess",
   "Agent": ["This systematic review"],
   "Object": {
     "Primary Object": ["the efficacy of VR"],
@@ -454,7 +454,7 @@ For abstract: "In total, 5 RCTs were included in this systematic review, with 3 
 
 Output:
 {
-  "Main Action": "showed",
+  "Action": "showed",
   "Agent": ["The statistical analysis"],
   "Object": {
     "Primary Object": ["no favorable results"],
@@ -476,7 +476,7 @@ For abstract: "The evidence for the use of VR therapy for upper limb rehabilitat
 
 Output:
 {
-  "Main Action": "was insufficient to support",
+  "Action": "was insufficient to support",
   "Agent": ["The evidence for the use of VR therapy"],
   "Object": {
     "Primary Object": ["its efficacy"],
@@ -495,7 +495,7 @@ Output:
 
 ### Output Format:
 {
-  "Main Action": "EXACT TEXT or <NONE>",
+  "Action": "EXACT TEXT or <NONE>",
   "Agent": ["EXACT TEXT or <NONE>"],
    "Object": {
     "Primary Object": ["EXACT TEXT or <NONE>"],
