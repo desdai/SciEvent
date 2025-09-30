@@ -1,5 +1,26 @@
 # SciEvent (EMNLP-2025)
 
+SciEvent: Benchmarking Multi-domain Scientific Event Extraction
+
+[Paper link](https://arxiv.org/abs/2509.15620)
+
+<p align='center'>
+  <img src='scievent_example.png' width="800px">
+</p>
+
+If you find this benchmark and code useful, please cite:
+
+    @inproceedings{
+        dong2025scievent,
+        title={SciEvent: Benchmarking Multi-domain Scientific Event Extraction},
+        author={Bofu Dong and Pritesh Shah and Sumedh Sonawane and Tiyasha Banerjee and Erin Brady and Xinya Du and Ming Jiang},
+        booktitle={The 2025 Conference on Empirical Methods in Natural Language Processing},
+        year={2025},
+        url={https://openreview.net/forum?id=JGyZidxFiC}
+    }
+
+Feel free to ask questions at: bofudong@iu.edu
+
 The SciEvent dataset contains 500 scientific abstracts across 5 venues of different domains:
 - 100 abstracts from the Association for Computational Linguistics (ACL), Natural Language Processing
 - 100 abstracts from the ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), Social Computing
@@ -15,7 +36,7 @@ We also provide raw abstracts that are invovled in the experiments we used (exce
 # Data Attribution:
 We give attribution to all abstracts that contribute to building this work in the ``SciEvent_data/metadata/SciEvent_metadata.csv`` file. We acknolwedge the titles, authors, doi (if applicable), url and license.
 
-Please note, for all following baseline models and LLMs, we cannot provide abstracts for CSCW due to license limitations, and if you want to reproduce exact results as the paper, please prepare these abstracts yourself. We highly recommend download these abstracts. If you encounter any trouble, please contact bofudong@iu.edu.
+Please note, for all following baseline models and LLMs, we cannot provide abstracts for CSCW due to license limitations, and if you want to reproduce exact results as the paper, please prepare these abstracts yourself. We highly recommend download these abstracts.
 
 # Tuning-Based Models:
 Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 
@@ -142,5 +163,5 @@ python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/sci
 ```
 
 
-# LLMs  performance 
+# LLM Prompts
 We provide our prompt templates in ```baselines/LLM/prompts```. Using the abstract texts and these templates, you can evaluate LLMs on provided and downloded abstracts.
