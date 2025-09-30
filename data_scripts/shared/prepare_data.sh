@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
-# rebuild_all.sh
-# One-shot: build texts_only (temp) + reconstruct all_data.json with your paths.
 
 set -euo pipefail
 
 # ---- Inputs ----
 ABSTRACT_DIR="SciEvent_data/abstracts_texts"
-ANNOTATION="SciEvent_data/annotated/annotation.jsonl"
+ANNOTATION="SciEvent_data/annotated/event_extraction_finetune_model.jsonl"
 EVENT_SEG="SciEvent_data/annotated/event_seg.jsonl"
 
 # ---- Output ----

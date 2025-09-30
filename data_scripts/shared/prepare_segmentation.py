@@ -39,7 +39,7 @@ Output per line (one JSON object for each annotation line):
 
 Usage:
   python data_scripts/shared/prepare_segmentation.py \
-    --annotation SciEvent_data/DEGREE/processed/annotation.jsonl \
+    --annotation SciEvent_data/DEGREE/processed/event_extraction_finetune_model.jsonl \
     --event_seg SciEvent_data/DEGREE/processed/event_seg.jsonl \
     --abstract_dir SciEvent_data/abstracts_texts \
     --output SciEvent_data/DEGREE/processed/texts_only.jsonl

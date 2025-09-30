@@ -34,7 +34,7 @@ a "top_key_order" per line and have this script honor it.
 
 Usage:
   python data_scripts/shared/prepare_all_data.py \
-    --annotation SciEvent_data/DEGREE/processed/annotation.jsonl \
+    --annotation SciEvent_data/DEGREE/processed/event_extraction_finetune_model.jsonl \
     --texts      SciEvent_data/DEGREE/processed/texts_only.jsonl \
     --output     SciEvent_data/DEGREE/processed/all_data.json
 """
