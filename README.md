@@ -1,6 +1,4 @@
-# SciEvent (EMNLP-2025)
-
-SciEvent: Benchmarking Multi-domain Scientific Event Extraction
+# SciEvent: Benchmarking Multi-domain Scientific Event Extraction (EMNLP-2025)
 
 [Paper link](https://arxiv.org/abs/2509.15620)
 
@@ -39,7 +37,7 @@ We give attribution to all abstracts that contribute to building this work in th
 Please note, for all following baseline models and LLMs, we cannot provide abstracts for CSCW due to license limitations, and if you want to reproduce exact results as the paper, please prepare these abstracts yourself. We highly recommend download these abstracts.
 
 # Tuning-Based Models:
-Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers. 
+Our chosen tuning-based baselines are [DEGREE](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master), which represented the state-of-the-art event extraction models at the time of this work. We adapt from [DEGREE's E2E (End2end)](https://github.com/PlusLabNLP/DEGREE/tree/master), [OneIE's](https://blender.cs.illinois.edu/software/oneie/) and [EEQA's](https://github.com/xinyadu/eeqa/tree/master) training and evaluation procedures with modifications. We deeply thank the contribution from the authors of these papers.
 
 The following code assume your path at the Repository's root ```./SciEvent```
 
@@ -79,7 +77,7 @@ The model will be stored at ```baselines/DEGREE/output/degree_e2e_scievent/full_
 
 If the loading of model errors, please make sure that ``use_cdn = False`` in the ``envs/DEGREE/lib/python3.8/site-packages/transformers/modeling_utils.py`` file. This will use back-up source to load model, since the cdn is no longer supported by HuggingFace. You will need to do the same for OneIE or EEQA environment if you experience same issue for their training.
 
-### Evaluation
+### Evaluations
 Evaluate with following code:
 ```bash
 python baselines/DEGREE/degree/eval_scievent.py -c baselines/DEGREE/config/config_degree_scievent.json -e [path_to_your_mdl]
@@ -148,9 +146,7 @@ bash baselines/EEQA/code/script_args_qa_thresh.sh
 
 Default output path: ```baselines/EEQA/scievent_args_qa_thresh_output/full_data```
 
-**Evaluations**
-
-Full data:
+### Evaluations
 
 ```bash
 python baselines/EEQA/scievent_eval/prepare_for_eval.py \
