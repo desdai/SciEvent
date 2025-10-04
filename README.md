@@ -9,7 +9,7 @@
     <a href="https://dl.acm.org/doi/10.1145/3610201">
       "Plan For Tomorrow: The Experience of Adolescent and Young Adult Childhood Cancer Survivors as they Transition to Adult Care"
     </a> 
-    by Ankrah et al., Proc. ACM Hum.-Comput. Interact., 2023. Licensed under 
+    by Ankrah et al., CSCW 2023. Licensed under 
     <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
   </i>
 </p>
