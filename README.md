@@ -169,3 +169,6 @@ python baselines/EEQA/scievent_eval/EM_overlap_eval.py --pred baselines/EEQA/sci
 
 # LLM Prompts
 We provide our prompt templates in ```baselines/LLM/prompts```. Using the abstract texts and these templates, you can evaluate LLMs on provided and downloded abstracts.
+
+# Annoation Tool
+Our annotation tool is available at ``https://smalldemo.onrender.com/``, and the source code is open at ``https://github.com/priteshshah96/smalldemo``. A JSON example for annotation using the tool can be found in the directory ``SciEvent_data/unannotated_example``
